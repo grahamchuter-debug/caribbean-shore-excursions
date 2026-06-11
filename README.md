@@ -31,18 +31,27 @@ This is a **Next.js static export**. Cloudflare must run the build — the repos
 
 ### Git-connected deployment (recommended)
 
-In **Cloudflare Dashboard → Workers & Pages → your project → Settings → Builds**:
+In **Cloudflare Dashboard → Workers & Pages → your project → Settings → Builds → Edit configuration**:
 
 | Setting | Value |
 |---------|-------|
-| Framework preset | **Next.js (Static HTML Export)** or None |
+| Framework preset | **Next.js (Static HTML Export)** |
 | Build command | `npm run build` |
 | Build output directory | `out` |
 | Node.js version | `20` |
 
-Then click **Retry deployment** (or push a new commit).
+Then click **Save** and **Retry deployment**.
 
-If the homepage returns 404 but `/package.json` loads, the build step is not running — update the settings above.
+**Important:** `wrangler.toml` sets the output directory (`out`) but does **not** run the build. If your build log shows:
+
+```
+No build command specified. Skipping build step.
+Error: Output directory "out" not found.
+```
+
+you must add `npm run build` as the build command in the Cloudflare dashboard. Leaving it blank will always fail.
+
+Alternative build command: `bash build.sh`
 
 ### Direct Upload (alternative)
 
