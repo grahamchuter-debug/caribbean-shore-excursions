@@ -85,12 +85,10 @@ export const HOMEPAGE_SCHEDULE_SLUGS = [
   "grand-cayman",
   "nassau",
   "roatan",
-  "puerto-plata",
   "st-maarten",
-  "curacao",
+  "puerto-plata",
   "costa-maya",
   "ocho-rios",
-  "falmouth",
 ] as const;
 
 export const homepageFaqs = [

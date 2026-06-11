@@ -7,7 +7,7 @@ import {
   formatMonthLabel,
   getAllMonthKeys,
   getMonthsWithEntries,
-  filterEntriesByMonth,
+  getDisplayEntries,
   getUniqueCruiseLines,
 } from "@/lib/schedule-utils";
 
@@ -15,12 +15,12 @@ export function ScheduleHub({
   entries,
   portName,
   scheduleOverview,
-  isHubPort,
+  referenceScheduleUrl,
 }: {
   entries: ScheduleEntry[];
   portName: string;
   scheduleOverview?: string;
-  isHubPort?: boolean;
+  referenceScheduleUrl?: string;
 }) {
   const monthsWithData = useMemo(() => getMonthsWithEntries(entries), [entries]);
   const allMonths = useMemo(() => getAllMonthKeys(), []);
@@ -30,8 +30,8 @@ export function ScheduleHub({
   const [activeMonth, setActiveMonth] = useState(defaultMonth);
 
   const filtered = useMemo(
-    () => filterEntriesByMonth(entries, activeMonth),
-    [entries, activeMonth]
+    () => getDisplayEntries(entries, activeMonth, portName),
+    [entries, activeMonth, portName],
   );
 
   return (
@@ -60,9 +60,11 @@ export function ScheduleHub({
       )}
 
       <section>
-        <h2 className="section-title text-2xl sm:text-3xl mb-4">Monthly Schedule Navigation</h2>
+        <h2 className="section-title text-2xl sm:text-3xl mb-4">2026 Monthly Schedule</h2>
         <p className="text-sm text-gray-600 mb-4">
-          Select a month to view scheduled ship calls. Tables are structured for CSV import — columns: date, ship, cruise line, arrival, departure, passengers.
+          Select a month to view scheduled ship calls. Tables are structured for verified data import
+          with columns for date, ship, cruise line, arrival, departure, time in port, passenger
+          capacity, and notes.
         </p>
         <div className="flex flex-wrap gap-2 mb-6">
           {allMonths.map((monthKey) => {
@@ -78,7 +80,7 @@ export function ScheduleHub({
                     ? "bg-caribbean-700 text-white"
                     : hasData
                       ? "bg-caribbean-50 text-caribbean-700 hover:bg-caribbean-100"
-                      : "bg-gray-50 text-gray-400 hover:bg-gray-100"
+                      : "bg-gray-50 text-gray-500 hover:bg-gray-100"
                 }`}
                 aria-pressed={isActive}
               >
@@ -91,9 +93,19 @@ export function ScheduleHub({
           {formatMonthLabel(activeMonth)} — {portName}
         </h3>
         <ScheduleTable entries={filtered} portName={portName} />
-        {isHubPort && filtered.length === 0 && (
-          <p className="mt-4 text-sm text-gray-500 italic">
-            No ships scheduled for this month yet. Schedule data will populate here as CSV imports are added.
+        {referenceScheduleUrl && (
+          <p className="mt-4 text-xs text-gray-500">
+            Reference source for schedule imports:{" "}
+            <a
+              href={referenceScheduleUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-caribbean-700 hover:underline"
+            >
+              CruiseTimetables.com port calendar
+            </a>
+            . We publish verified rows only — months without data show a placeholder until import is
+            complete.
           </p>
         )}
       </section>

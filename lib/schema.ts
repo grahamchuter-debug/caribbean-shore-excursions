@@ -82,6 +82,35 @@ export function organizationSchema() {
   };
 }
 
+export function webPageSchema({
+  title,
+  description,
+  path,
+}: {
+  title: string;
+  description: string;
+  path: string;
+}) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    name: title,
+    description,
+    url: absoluteUrl(SITE.url, path),
+    inLanguage: "en-US",
+    isPartOf: {
+      "@type": "WebSite",
+      name: SITE.name,
+      url: SITE.url,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: SITE.name,
+      url: SITE.url,
+    },
+  };
+}
+
 export function websiteSchema() {
   return {
     "@context": "https://schema.org",

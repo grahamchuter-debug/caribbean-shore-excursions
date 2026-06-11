@@ -1,6 +1,6 @@
 import type { ScheduleEntry } from "@/data/types";
 
-export const SCHEDULE_YEARS = [2026, 2027] as const;
+export const SCHEDULE_YEARS = [2026] as const;
 
 export const MONTH_LABELS = [
   "January",
@@ -59,4 +59,27 @@ export function getAllMonthKeys(): string[] {
 export function formatMonthLabel(monthKey: string): string {
   const { year, month } = parseMonthKey(monthKey);
   return `${MONTH_LABELS[month - 1]} ${year}`;
+}
+
+export function getDisplayEntries(
+  entries: ScheduleEntry[],
+  monthKey: string,
+  portName: string,
+): ScheduleEntry[] {
+  const filtered = filterEntriesByMonth(entries, monthKey);
+  if (filtered.length > 0) return filtered;
+
+  return [
+    {
+      date: formatMonthLabel(monthKey),
+      ship: "Schedule data being updated",
+      cruiseLine: "—",
+      arrival: "—",
+      departure: "—",
+      timeInPort: "—",
+      passengers: "—",
+      notes: `Verified ${portName} ship calls for this month are being imported. Do not rely on unofficial lists — confirm arrival and departure times with your cruise line.`,
+      isPlaceholder: true,
+    },
+  ];
 }

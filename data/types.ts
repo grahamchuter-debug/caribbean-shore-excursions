@@ -273,8 +273,16 @@ export interface ShipSchedulePort {
   name: string;
   country: string;
   description: string;
-  years?: string;
-  scheduleOverview?: string;
+  seoTitle: string;
+  metaDescription: string;
+  intro: string;
+  scheduleOverview: string;
+  planningTips?: string[];
+  faqs?: FAQ[];
+  relatedPortSlugs: string[];
+  excursionTypeSlugs: string[];
+  referenceScheduleUrl?: string;
+  usesTender?: boolean;
 }
 
 export interface ScheduleEntry {
@@ -283,7 +291,10 @@ export interface ScheduleEntry {
   cruiseLine: string;
   arrival: string;
   departure: string;
-  passengers: string;
+  timeInPort?: string;
+  passengers?: string;
+  notes?: string;
+  isPlaceholder?: boolean;
 }
 
 export interface CruiseTip {

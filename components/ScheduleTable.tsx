@@ -10,15 +10,19 @@ export function ScheduleTable({
   if (entries.length === 0) {
     return (
       <div className="rounded-xl border border-gray-200 bg-caribbean-50 p-8 text-center">
-        <p className="text-gray-700 font-medium">No scheduled ship calls listed for {portName ?? "this port"}.</p>
+        <p className="text-gray-700 font-medium">
+          Schedule data being updated for {portName ?? "this port"}.
+        </p>
         <p className="mt-2 text-sm text-gray-600">
-          Check back closer to your cruise date for updated arrival and departure times.
+          Verified 2026 ship calls will appear here once imported. Confirm times with your cruise line
+          before booking excursions.
         </p>
       </div>
     );
   }
 
-  const shipCount = entries.length;
+  const realEntries = entries.filter((e) => !e.isPlaceholder);
+  const shipCount = realEntries.length;
 
   return (
     <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
@@ -30,24 +34,39 @@ export function ScheduleTable({
             <th className="px-4 py-3 text-left text-sm font-semibold">Cruise Line</th>
             <th className="px-4 py-3 text-left text-sm font-semibold">Arrival</th>
             <th className="px-4 py-3 text-left text-sm font-semibold">Departure</th>
-            <th className="px-4 py-3 text-left text-sm font-semibold">Passengers</th>
+            <th className="px-4 py-3 text-left text-sm font-semibold">Time in Port</th>
+            <th className="px-4 py-3 text-left text-sm font-semibold">Passenger Capacity</th>
+            <th className="px-4 py-3 text-left text-sm font-semibold">Notes</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-gray-100 bg-white">
           {entries.map((entry, i) => (
-            <tr key={`${entry.date}-${entry.ship}-${i}`} className="hover:bg-caribbean-50 transition-colors">
+            <tr
+              key={`${entry.date}-${entry.ship}-${i}`}
+              className={
+                entry.isPlaceholder
+                  ? "bg-amber-50/80"
+                  : "hover:bg-caribbean-50 transition-colors"
+              }
+            >
               <td className="px-4 py-3 text-sm text-gray-900 whitespace-nowrap">{entry.date}</td>
               <td className="px-4 py-3 text-sm font-medium text-gray-900">{entry.ship}</td>
               <td className="px-4 py-3 text-sm text-gray-600">{entry.cruiseLine}</td>
               <td className="px-4 py-3 text-sm text-gray-600 whitespace-nowrap">{entry.arrival}</td>
               <td className="px-4 py-3 text-sm text-gray-600 whitespace-nowrap">{entry.departure}</td>
-              <td className="px-4 py-3 text-sm text-gray-600">{entry.passengers}</td>
+              <td className="px-4 py-3 text-sm text-gray-600 whitespace-nowrap">
+                {entry.timeInPort ?? "—"}
+              </td>
+              <td className="px-4 py-3 text-sm text-gray-600">{entry.passengers ?? "—"}</td>
+              <td className="px-4 py-3 text-sm text-gray-600 min-w-[12rem]">{entry.notes ?? "—"}</td>
             </tr>
           ))}
         </tbody>
       </table>
       <p className="bg-gray-50 px-4 py-2 text-xs text-gray-500 border-t border-gray-200">
-        {shipCount} ship{shipCount !== 1 ? "s" : ""} scheduled — arrivals and departures are subject to change by cruise lines and port authorities.
+        {entries.some((e) => e.isPlaceholder)
+          ? "Placeholder rows indicate months awaiting verified schedule import. Arrival and departure times are subject to change."
+          : `${shipCount} ship${shipCount !== 1 ? "s" : ""} scheduled — arrivals and departures are subject to change by cruise lines and port authorities.`}
       </p>
     </div>
   );
