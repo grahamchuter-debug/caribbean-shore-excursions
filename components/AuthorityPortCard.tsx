@@ -42,7 +42,7 @@ export function AuthorityPortCard({ port, description, bestFor }: AuthorityPortC
             rel="noopener noreferrer"
             className="btn-secondary text-sm text-center flex-1"
           >
-            {port.specialistName}
+            Local guide &amp; booking
           </a>
         </div>
       </div>

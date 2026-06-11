@@ -5,6 +5,7 @@ import { getCruiseLineBySlug, getAllCruiseLineSlugs } from "@/data/cruise-lines"
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
+import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
@@ -92,6 +93,11 @@ export default async function CruiseLinePage({
               ))}
             </div>
           </section>
+
+          <SpecialistLocalGuideSection
+            portSlugs={line.popularPorts.map((p) => p.slug)}
+            intro={`${line.name} passengers most often visit the ports below. Each specialist local site offers live tour listings, local pricing, and pier pickup details for booking your port days.`}
+          />
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Excursion Tips</h2>

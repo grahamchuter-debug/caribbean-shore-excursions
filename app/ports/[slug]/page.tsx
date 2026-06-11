@@ -7,7 +7,7 @@ import { hasShipSchedule } from "@/lib/routes";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
 import { FAQSection } from "@/components/FAQSection";
-import { SpecialistLink } from "@/components/SpecialistLink";
+import { SpecialistLocalGuide } from "@/components/SpecialistLocalGuide";
 import { PortRelatedLinks } from "@/components/PortRelatedLinks";
 import { PortAuthoritySections } from "@/components/PortAuthoritySections";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
@@ -83,9 +83,7 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
             </div>
           </section>
 
-          <section className="mb-12">
-            <SpecialistLink url={port.specialistUrl} name={port.specialistName} portName={port.name} />
-          </section>
+          <SpecialistLocalGuide portSlug={slug} />
 
           <PortRelatedLinks links={getPortRelatedLinks(slug)} />
 

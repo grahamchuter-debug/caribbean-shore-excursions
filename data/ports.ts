@@ -39,7 +39,7 @@ export const ports: Port[] = [
       { name: "Blackbeard's Castle", description: "Historic watchtower with harbor views.", distance: "10 min walk" },
       { name: "Coral World Ocean Park", description: "Marine park with underwater observatory.", distance: "10 min by taxi" },
     ],
-    specialistUrl: "https://stthomasshoreexcursions.com",
+    specialistUrl: "https://stthomasshoreexcursion.com",
     specialistName: "St. Thomas Shore Excursions",
     faqs: [
       { question: "Do cruise ships tender in St. Thomas?", answer: "No. St. Thomas has two dedicated cruise terminals where ships dock directly. Tender boats are not required." },
@@ -231,7 +231,7 @@ export const ports: Port[] = [
       { name: "George Town", description: "Capital with duty-free shopping and waterfront.", distance: "Tender landing" },
       { name: "Hell", description: "Unique limestone formation with quirky attractions.", distance: "20 min by taxi" },
     ],
-    specialistUrl: "https://grandcaymanshoreexcursions.com",
+    specialistUrl: "https://grandcaymanshoreexcursion.com",
     specialistName: "Grand Cayman Shore Excursions",
     faqs: [
       { question: "Is Stingray City safe?", answer: "Yes. The stingrays at Stingray City are accustomed to human interaction. Follow guide instructions and avoid stepping on rays." },
@@ -375,8 +375,8 @@ export const ports: Port[] = [
       { name: "West End", description: "Laid-back village with snorkeling and dining.", distance: "25 min by taxi" },
       { name: "Carambola Gardens", description: "Botanical gardens with nature trails.", distance: "20 min by taxi" },
     ],
-    specialistUrl: "https://roatanshoreexcursions.com",
-    specialistName: "Roatán Shore Excursions",
+    specialistUrl: "https://roatan-excursion-planner.com",
+    specialistName: "Roatán Excursion Planner",
     faqs: [
       { question: "Is Roatán good for snorkeling?", answer: "Roatán offers exceptional reef snorkeling along the Mesoamerican Barrier Reef, often compared favorably to Cozumel with fewer crowds." },
       { question: "Which Roatán cruise port is better?", answer: "Mahogany Bay has more on-site amenities. Port of Roatán is closer to West Bay Beach. Both work well with proper planning." },

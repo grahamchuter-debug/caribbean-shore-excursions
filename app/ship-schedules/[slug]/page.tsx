@@ -9,6 +9,8 @@ import {
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ScheduleHub } from "@/components/ScheduleHub";
+import { SpecialistLocalGuide } from "@/components/SpecialistLocalGuide";
+import { getPortBySlug } from "@/data/ports";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, travelGuideSchema } from "@/lib/schema";
@@ -104,6 +106,12 @@ export default async function ShipSchedulePortPage({
             weather, tender conditions, or cruise line schedule adjustments. Always confirm final
             times with your ship before disembarking.
           </p>
+
+          {getPortBySlug(slug) && (
+            <div className="mt-10">
+              <SpecialistLocalGuide portSlug={slug} />
+            </div>
+          )}
 
           <div className="mt-10">
             <AuthorityHubLinks current="schedules" portSlug={slug} />

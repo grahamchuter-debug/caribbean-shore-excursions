@@ -8,6 +8,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { BestGuideComparisonTable } from "@/components/BestGuideComparisonTable";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
+import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
 export function CruiseLineGuidePageView({ line }: { line: CruiseLine }) {
@@ -105,6 +106,11 @@ export function CruiseLineGuidePageView({ line }: { line: CruiseLine }) {
               })}
             </div>
           </section>
+
+          <SpecialistLocalGuideSection
+            portSlugs={line.popularPorts.map((p) => p.slug)}
+            intro={`${line.name} passengers most often visit the ports below. Each has a dedicated local specialist site with live tour listings, local pricing, and pier pickup details for booking beyond this cruise line overview.`}
+          />
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Recommended Shore Excursions</h2>

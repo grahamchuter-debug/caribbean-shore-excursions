@@ -5,7 +5,7 @@ export const portRelatedLinks: Record<string, PortRelatedLink[]> = {
     { label: "Compare with St. Maarten", href: "/compare/st-thomas-vs-st-maarten" },
     { label: "Compare with Tortola", href: "/eastern-caribbean-cruise-ports" },
     { label: "Eastern Caribbean Cruise Ports", href: "/eastern-caribbean-cruise-ports" },
-    { label: "St. Thomas Shore Excursions", href: "https://stthomasshoreexcursions.com", external: true },
+    { label: "St. Thomas Shore Excursions", href: "https://stthomasshoreexcursion.com", external: true },
   ],
   curacao: [
     { label: "Compare with Aruba", href: "/compare/aruba-vs-curacao" },
@@ -33,7 +33,7 @@ export const portRelatedLinks: Record<string, PortRelatedLink[]> = {
   "grand-cayman": [
     { label: "Compare with Nassau", href: "/compare/grand-cayman-vs-nassau" },
     { label: "Western Caribbean Cruise Ports", href: "/western-caribbean-cruise-ports" },
-    { label: "Grand Cayman Shore Excursions", href: "https://grandcaymanshoreexcursions.com", external: true },
+    { label: "Grand Cayman Shore Excursions", href: "https://grandcaymanshoreexcursion.com", external: true },
   ],
   nassau: [
     { label: "Compare with Grand Cayman", href: "/compare/grand-cayman-vs-nassau" },
@@ -43,7 +43,7 @@ export const portRelatedLinks: Record<string, PortRelatedLink[]> = {
   roatan: [
     { label: "Compare with Cozumel", href: "/compare/roatan-vs-cozumel" },
     { label: "Western Caribbean Cruise Ports", href: "/western-caribbean-cruise-ports" },
-    { label: "Roatán Shore Excursions", href: "https://roatanshoreexcursions.com", external: true },
+    { label: "Roatán Excursion Planner", href: "https://roatan-excursion-planner.com", external: true },
   ],
   "st-maarten": [
     { label: "Compare with St. Thomas", href: "/compare/st-thomas-vs-st-maarten" },

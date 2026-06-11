@@ -4,7 +4,7 @@ const authority: Record<string, PortAuthorityContent> = {
   "st-thomas": {
     seoTitle: "St. Thomas Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "Plan St. Thomas cruise port days with authority guides to beaches, snorkeling, family excursions, private tours, terminal info and links to stthomasshoreexcursions.com.",
+      "Plan St. Thomas cruise port days with authority guides to beaches, snorkeling, family excursions, private tours, terminal info and links to stthomasshoreexcursion.com.",
     whyVisit: [
       "Magens Bay and Sapphire Beach rank among the Caribbean's finest swim spots",
       "Easy ferry access to St. John and Trunk Bay for a second-island adventure",
@@ -118,7 +118,7 @@ const authority: Record<string, PortAuthorityContent> = {
   "grand-cayman": {
     seoTitle: "Grand Cayman Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "Grand Cayman authority guide to Stingray City, Seven Mile Beach, snorkeling, tender port tips, family tours and grandcaymanshoreexcursions.com.",
+      "Grand Cayman authority guide to Stingray City, Seven Mile Beach, snorkeling, tender port tips, family tours and grandcaymanshoreexcursion.com.",
     whyVisit: [
       "Stingray City is a signature Caribbean experience found nowhere else",
       "Seven Mile Beach offers pristine white sand and clear Caribbean water",
@@ -194,7 +194,7 @@ const authority: Record<string, PortAuthorityContent> = {
   roatan: {
     seoTitle: "Roatán Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "Roatán authority guide to West Bay Beach, reef snorkeling, zip-lines, family eco-tours, private options and roatanshoreexcursions.com.",
+      "Roatán authority guide to West Bay Beach, reef snorkeling, zip-lines, family eco-tours, private options and roatan-excursion-planner.com.",
     whyVisit: [
       "Mesoamerican Barrier Reef snorkeling rivals Cozumel at lower prices",
       "West Bay Beach is one of the Caribbean's best-value white-sand beaches",

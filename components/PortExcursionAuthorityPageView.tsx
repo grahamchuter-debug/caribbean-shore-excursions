@@ -14,6 +14,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { PortExcursionAuthorityTable } from "@/components/PortExcursionAuthorityTable";
 import { JsonLd } from "@/components/JsonLd";
+import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
 function CategorySection({
@@ -193,6 +194,11 @@ export function PortExcursionAuthorityPageView({ page }: { page: PortExcursionAu
             picks={page.bestPrivateExcursions}
             guideSlug="best-caribbean-private-tours"
             guideLabel="Full private tours guide"
+          />
+
+          <SpecialistLocalGuideSection
+            portSlugs={page.portTable.map((row) => row.portSlug)}
+            intro="Every port in the master table above has a dedicated local specialist website. Visit each for live tour listings, local operator pricing, and pier pickup details when you are ready to book."
           />
 
           <section className="mb-12">

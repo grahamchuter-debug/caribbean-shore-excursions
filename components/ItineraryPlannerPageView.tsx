@@ -9,6 +9,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
+import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
 function PortLink({ portSlug }: { portSlug: string }) {
@@ -116,6 +117,11 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
               </Link>
             </div>
           </section>
+
+          <SpecialistLocalGuideSection
+            portSlugs={planner.topPortSlugs}
+            intro="This itinerary covers the ports below. Visit each specialist local site for live availability, operator-specific pricing, and pier pickup details when you are ready to book."
+          />
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Best Excursions</h2>

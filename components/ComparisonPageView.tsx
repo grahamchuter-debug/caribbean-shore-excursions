@@ -7,6 +7,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
+import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
 const CATEGORIES: { key: keyof Comparison; label: string }[] = [
@@ -145,6 +146,11 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
             <h2 className="font-display text-xl font-bold text-gray-900 mb-3">Our Verdict</h2>
             <p className="text-gray-700 leading-relaxed">{comp.verdict}</p>
           </section>
+
+          <SpecialistLocalGuideSection
+            portSlugs={[comp.portASlug, comp.portBSlug]}
+            intro={`Once you have chosen between ${comp.portA} and ${comp.portB}, visit each port's dedicated local specialist site for live tour availability, operator pricing, and pier pickup details.`}
+          />
 
           <FAQSection faqs={comp.faqs} />
 

@@ -8,6 +8,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { BestGuideComparisonTable } from "@/components/BestGuideComparisonTable";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
+import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
 export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
@@ -79,6 +80,11 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
               })}
             </div>
           </section>
+
+          <SpecialistLocalGuideSection
+            portSlugs={guide.topPorts.map((p) => p.slug)}
+            intro="The ports below are covered in this guide. Visit each specialist local site for live tour listings, local operator pricing, and pier-aware booking beyond this authority overview."
+          />
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Recommended Excursions</h2>

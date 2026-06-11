@@ -9,6 +9,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, travelGuideSchema } from "@/lib/schema";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 
 export function RegionPageView({ region }: { region: RegionPage }) {
   const ports = region.portSlugs
@@ -109,6 +110,11 @@ export function RegionPageView({ region }: { region: RegionPage }) {
               )}
             </div>
           </section>
+
+          <SpecialistLocalGuideSection
+            portSlugs={region.portSlugs}
+            intro="Each port in this region has a dedicated local specialist website with live tour listings, transparent local pricing, and pier pickup details — the next step after reading this regional overview."
+          />
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Excursion Types</h2>
