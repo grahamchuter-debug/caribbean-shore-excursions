@@ -112,20 +112,29 @@ export interface BestGuideExcursion {
 export interface BestGuideTableRow {
   portSlug: string;
   portName: string;
-  highlight: string;
+  bestFor: string;
   bestExcursion: string;
+  transferTime: string;
   rating: string;
+}
+
+export interface PassengerRecommendation {
+  title: string;
+  advice: string;
 }
 
 export interface BestGuidePage {
   slug: string;
+  seoTitle: string;
   title: string;
   metaDescription: string;
   heroSubtitle: string;
   introduction: string;
+  introductionDetail: string;
   topPorts: BestGuidePort[];
   recommendedExcursions: BestGuideExcursion[];
   comparisonTable: BestGuideTableRow[];
+  passengerRecommendations: PassengerRecommendation[];
   faqs: FAQ[];
   excursionTypeSlug?: string;
 }

@@ -5,7 +5,7 @@ import { hasShipSchedule } from "@/lib/routes";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
-import { ComparisonTable } from "@/components/ComparisonTable";
+import { BestGuideComparisonTable } from "@/components/BestGuideComparisonTable";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
@@ -17,12 +17,6 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
     { name: guide.title, path: `/${guide.slug}` },
   ];
 
-  const tableRows = guide.comparisonTable.map((row) => ({
-    category: row.portName,
-    portA: row.highlight,
-    portB: `${row.bestExcursion} (★ ${row.rating})`,
-  }));
-
   return (
     <>
       <JsonLd
@@ -30,7 +24,7 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
           breadcrumbSchema(breadcrumbs),
           faqSchema(guide.faqs),
           travelGuideSchema({
-            title: guide.title,
+            title: guide.seoTitle,
             description: guide.metaDescription,
             path: `/${guide.slug}`,
           }),
@@ -43,7 +37,8 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-4">Introduction</h2>
-            <p className="text-gray-700 leading-relaxed text-lg">{guide.introduction}</p>
+            <p className="text-gray-700 leading-relaxed text-lg mb-4">{guide.introduction}</p>
+            <p className="text-gray-700 leading-relaxed">{guide.introductionDetail}</p>
           </section>
 
           <section className="mb-12">
@@ -59,10 +54,11 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
                         {port.name}
                       </Link>
                     </h3>
-                    <p className="mt-2 text-sm text-gray-600">{item.reason}</p>
+                    <p className="mt-1 text-xs text-caribbean-600 font-medium">{port.bestFor}</p>
+                    <p className="mt-2 text-sm text-gray-600 leading-relaxed">{item.reason}</p>
                     <div className="mt-4 flex flex-wrap gap-2">
                       <Link href={`/ports/${item.slug}`} className="btn-primary text-xs">
-                        Port Guide
+                        Authority Port Guide
                       </Link>
                       {hasShipSchedule(item.slug) && (
                         <Link href={`/ship-schedules/${item.slug}`} className="btn-secondary text-xs">
@@ -98,8 +94,21 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
                           <Link href={`/ports/${exc.portSlug}`} className="hover:underline">
                             {port?.name ?? exc.portSlug}
                           </Link>
+                          {port && (
+                            <>
+                              {" · "}
+                              <a
+                                href={port.specialistUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:underline"
+                              >
+                                Book locally
+                              </a>
+                            </>
+                          )}
                         </p>
-                        <p className="mt-2 text-gray-600">{exc.description}</p>
+                        <p className="mt-2 text-gray-600 leading-relaxed">{exc.description}</p>
                       </div>
                       <span className="shrink-0 text-sm text-gray-500">{exc.duration}</span>
                     </div>
@@ -111,23 +120,40 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Port Comparison</h2>
-            <ComparisonTable
-              portA="Port Highlight"
-              portB="Top Excursion & Rating"
-              rows={tableRows}
-            />
+            <p className="text-sm text-gray-600 mb-4">
+              Compare transfer times, excursion highlights, and ratings across the top Caribbean ports for this excursion type.
+            </p>
+            <BestGuideComparisonTable rows={guide.comparisonTable} />
           </section>
 
-          {guide.excursionTypeSlug && (
-            <section className="mb-12">
+          <section className="mb-12">
+            <h2 className="section-title text-2xl sm:text-3xl mb-6">Cruise Passenger Recommendations</h2>
+            <div className="space-y-4">
+              {guide.passengerRecommendations.map((rec) => (
+                <div key={rec.title} className="rounded-lg border border-caribbean-100 bg-caribbean-50/40 p-5">
+                  <h3 className="font-semibold text-gray-900">{rec.title}</h3>
+                  <p className="mt-2 text-gray-700 leading-relaxed">{rec.advice}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="mb-12 flex flex-wrap gap-4">
+            <Link href="/ship-schedules" className="btn-secondary text-sm">
+              Check Ship Schedules
+            </Link>
+            <Link href="/cruise-planner" className="btn-secondary text-sm">
+              Cruise Planner
+            </Link>
+            {guide.excursionTypeSlug && (
               <Link
                 href={`/excursion-types/${guide.excursionTypeSlug}`}
-                className="btn-secondary"
+                className="btn-secondary text-sm"
               >
-                View {guide.excursionTypeSlug.replace(/-/g, " ")} guide
+                Excursion Type Guide
               </Link>
-            </section>
-          )}
+            )}
+          </section>
 
           <FAQSection faqs={guide.faqs} />
 

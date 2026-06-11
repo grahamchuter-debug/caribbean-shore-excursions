@@ -5,7 +5,7 @@ export function buildBestGuideMetadata(slug: string) {
   const guide = getBestGuideBySlug(slug);
   if (!guide) return {};
   return buildMetadata({
-    title: guide.title,
+    title: guide.seoTitle,
     description: guide.metaDescription,
     path: `/${slug}`,
     keywords: ["Caribbean shore excursions", "best excursions", slug.replace(/-/g, " ")],
