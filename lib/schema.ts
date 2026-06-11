@@ -1,4 +1,5 @@
 import { SITE } from "./site";
+import { absoluteUrl } from "./paths";
 
 export interface BreadcrumbItem {
   name: string;
@@ -13,7 +14,7 @@ export function breadcrumbSchema(items: BreadcrumbItem[]) {
       "@type": "ListItem",
       position: index + 1,
       name: item.name,
-      item: `${SITE.url}${item.path}`,
+      item: absoluteUrl(SITE.url, item.path),
     })),
   };
 }
@@ -49,7 +50,7 @@ export function travelGuideSchema({
     "@type": "TravelGuide",
     name: title,
     description,
-    url: `${SITE.url}${path}`,
+    url: absoluteUrl(SITE.url, path),
     publisher: {
       "@type": "Organization",
       name: SITE.name,

@@ -59,7 +59,9 @@ Alternative build command: `bash build.sh`
 2. Upload the **contents** of the `out/` folder via Direct Upload.
 3. Set custom domain to `caribbeanshoreexcursion.com`.
 
-The `public/_redirects` file is copied into `out/` during build to support clean URLs on Cloudflare Pages.
+Static export uses `trailingSlash: true` so each route is emitted as a directory with `index.html` (for example `out/ports/st-thomas/index.html`). This matches Cloudflare Pages directory serving and avoids redirect loops from `_redirects` rules that rewrite to `.html` files while Pretty URLs is enabled.
+
+Do **not** add `public/_redirects` rules that map extensionless URLs to `.html` paths — that conflicts with Cloudflare Pretty URLs and causes infinite 308 redirects on every page except `/`.
 
 ## Site Structure
 

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { SITE } from "./site";
+import { absoluteUrl } from "./paths";
 
 export interface PageSEO {
   title: string;
@@ -16,7 +17,7 @@ export function buildMetadata({
   keywords = [],
   ogImage,
 }: PageSEO): Metadata {
-  const url = `${SITE.url}${path}`;
+  const url = absoluteUrl(SITE.url, path);
   const fullTitle = path === "/" ? title : `${title} | ${SITE.name}`;
   const image = ogImage ?? `${SITE.url}/og-default.jpg`;
 
