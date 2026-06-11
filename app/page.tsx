@@ -7,6 +7,7 @@ import { cruiseTips } from "@/data/tips";
 import { comparisons } from "@/data/comparisons";
 import { schedulePorts } from "@/data/schedules";
 import { featuredPortCards, HOMEPAGE_SCHEDULE_SLUGS, homepageFaqs } from "@/data/homepage";
+import { regions } from "@/data/regions";
 import { AuthorityPortCard } from "@/components/AuthorityPortCard";
 import { SchedulePreviewCard } from "@/components/SchedulePreviewCard";
 import { FAQSection } from "@/components/FAQSection";
@@ -260,6 +261,26 @@ export default function HomePage() {
                   {line.name}
                 </h3>
                 <p className="mt-2 text-sm text-gray-600">{line.tagline}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Caribbean Regions */}
+      <section className="section-padding bg-white">
+        <div className="container-wide">
+          <h2 className="section-title">Caribbean Cruise Regions</h2>
+          <p className="section-subtitle mb-10">
+            Plan by region — compare ports, excursion styles, and specialist local sites across the Eastern, Western, and Southern Caribbean.
+          </p>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {regions.map((region) => (
+              <Link key={region.slug} href={`/${region.slug}`} className="card-gradient group">
+                <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
+                  {region.title.replace(" Guide", "")}
+                </h3>
+                <p className="mt-2 text-sm text-gray-600 line-clamp-3">{region.heroSubtitle}</p>
               </Link>
             ))}
           </div>

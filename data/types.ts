@@ -111,6 +111,7 @@ export interface ShipSchedulePort {
   country: string;
   description: string;
   years?: string;
+  scheduleOverview?: string;
 }
 
 export interface ScheduleEntry {
@@ -132,4 +133,43 @@ export interface FeaturedPortCard {
   slug: string;
   description: string;
   bestFor: string;
+}
+
+export interface BeachGuide {
+  name: string;
+  description: string;
+}
+
+export interface SnorkelSite {
+  site: string;
+  description: string;
+}
+
+export interface PrivateTourOption {
+  name: string;
+  description: string;
+}
+
+export interface PortAuthorityContent {
+  seoTitle: string;
+  seoDescription: string;
+  whyVisit: string[];
+  bestBeaches: BeachGuide[];
+  bestForFamilies: string[];
+  bestForCouples: string[];
+  snorkelling: SnorkelSite[];
+  privateTours: PrivateTourOption[];
+}
+
+export interface RegionPage {
+  slug: string;
+  title: string;
+  metaDescription: string;
+  heroSubtitle: string;
+  overview: string;
+  portComparison: string;
+  recommendedExcursions: string[];
+  portSlugs: string[];
+  excursionTypeSlugs: string[];
+  relatedRegionSlugs: string[];
 }

@@ -1,8 +1,11 @@
+import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { ports } from "@/data/ports";
+import { regions as regionPages } from "@/data/regions";
 import { PageHero } from "@/components/PageHero";
 import { PortCard } from "@/components/PortCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, travelGuideSchema } from "@/lib/schema";
 
@@ -15,7 +18,7 @@ export const metadata = buildMetadata({
 });
 
 export default function PortsPage() {
-  const regions = [...new Set(ports.map((p) => p.region))];
+  const portRegions = [...new Set(ports.map((p) => p.region))];
 
   return (
     <>
@@ -44,7 +47,22 @@ export default function PortsPage() {
               { name: "Caribbean Ports", path: "/ports" },
             ]}
           />
-          {regions.map((region) => (
+
+          <section className="mb-12">
+            <h2 className="section-title text-2xl mb-6">Browse by Caribbean Region</h2>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {regionPages.map((region) => (
+                <Link key={region.slug} href={`/${region.slug}`} className="card-gradient group">
+                  <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
+                    {region.title.replace(" Guide", "")}
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-600 line-clamp-2">{region.heroSubtitle}</p>
+                </Link>
+              ))}
+            </div>
+          </section>
+
+          {portRegions.map((region) => (
             <div key={region} className="mb-12">
               <h2 className="font-display text-2xl font-bold text-gray-900 mb-6">{region}</h2>
               <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -56,6 +74,10 @@ export default function PortsPage() {
               </div>
             </div>
           ))}
+
+          <div className="mt-8">
+            <AuthorityHubLinks current="ports" />
+          </div>
         </div>
       </section>
     </>

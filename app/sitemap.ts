@@ -5,6 +5,7 @@ import { getAllComparisonSlugs } from "@/data/comparisons";
 import { getAllExcursionTypeSlugs } from "@/data/excursion-types";
 import { getAllCruiseLineSlugs } from "@/data/cruise-lines";
 import { getAllSchedulePortSlugs } from "@/data/schedules";
+import { getAllRegionSlugs } from "@/data/regions";
 
 export const dynamic = "force-static";
 
@@ -63,8 +64,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const regionPages = getAllRegionSlugs().map((slug) => ({
+    url: `${base}/${slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.85,
+  }));
+
   return [
     ...staticPages,
+    ...regionPages,
     ...portPages,
     ...comparePages,
     ...excursionPages,

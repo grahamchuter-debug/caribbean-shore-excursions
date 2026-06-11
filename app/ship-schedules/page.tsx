@@ -3,6 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 import { schedulePorts } from "@/data/schedules";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, travelGuideSchema } from "@/lib/schema";
 
@@ -61,6 +62,9 @@ export default function ShipSchedulesPage() {
                 </span>
               </Link>
             ))}
+          </div>
+          <div className="mt-12">
+            <AuthorityHubLinks current="schedules" />
           </div>
         </div>
       </section>

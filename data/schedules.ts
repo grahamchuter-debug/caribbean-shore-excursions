@@ -8,6 +8,8 @@ export const schedulePorts: ShipSchedulePort[] = [
     years: "2026–2027",
     description:
       "One of the Caribbean's busiest cruise ports with two terminals serving Eastern and Southern Caribbean itineraries year-round.",
+    scheduleOverview:
+      "St. Thomas regularly hosts multiple ships per day at Havensight and Crown Bay terminals. Peak season (December–April) sees the highest call volumes from Royal Caribbean, Carnival, Norwegian, Celebrity, and MSC. Use this schedule hub to identify multi-ship days before booking Magens Bay or St. John excursions.",
   },
   {
     slug: "cozumel",
@@ -16,6 +18,8 @@ export const schedulePorts: ShipSchedulePort[] = [
     years: "2026–2027",
     description:
       "Mexico's top cruise port handling Western Caribbean itineraries from multiple cruise lines daily during peak season.",
+    scheduleOverview:
+      "Cozumel is among the world's busiest cruise ports with up to five ships daily at Punta Langosta, International Pier, and Puerta Maya during peak weeks. Carnival, Royal Caribbean, and Norwegian dominate call volumes. Check monthly schedules to plan reef snorkel tours away from peak pier crowds.",
   },
   {
     slug: "aruba",
@@ -24,6 +28,8 @@ export const schedulePorts: ShipSchedulePort[] = [
     years: "2026–2027",
     description:
       "Southern Caribbean hub outside the hurricane belt with consistent year-round cruise traffic.",
+    scheduleOverview:
+      "Aruba's Port of Oranjestad receives consistent Southern Caribbean traffic year-round with extended evening departures common. Princess, Celebrity, Carnival, Royal Caribbean, and MSC are frequent visitors. Schedule data helps plan Eagle Beach days around large-ship arrivals.",
   },
   {
     slug: "grand-cayman",
@@ -32,6 +38,8 @@ export const schedulePorts: ShipSchedulePort[] = [
     years: "2026–2027",
     description:
       "Popular Western Caribbean tender port known for variable daily ship counts depending on weather conditions.",
+    scheduleOverview:
+      "Grand Cayman requires tender operations from George Town anchorage — schedules are weather-dependent and may change at short notice. Carnival and Royal Caribbean account for most calls. Monitor ship counts to plan Stingray City departures early on busy tender days.",
   },
   {
     slug: "nassau",
@@ -40,6 +48,8 @@ export const schedulePorts: ShipSchedulePort[] = [
     years: "2026–2027",
     description:
       "Bahamas gateway port with high volume from short Bahamas and Caribbean itineraries departing Florida.",
+    scheduleOverview:
+      "Nassau Prince George Wharf handles high volumes from Florida-based Bahamas and Caribbean itineraries. Multiple mega-ships frequently share the downtown pier. Carnival, Royal Caribbean, MSC, Norwegian, and Disney Cruise Line are regular callers — essential for planning Atlantis and snorkel excursions.",
   },
   {
     slug: "roatan",
@@ -74,6 +84,10 @@ export const portSchedules: Record<string, ScheduleEntry[]> = {
     { date: "2026-01-16", ship: "Norwegian Escape", cruiseLine: "Norwegian", arrival: "07:30", departure: "16:30", passengers: "4,200" },
     { date: "2026-01-17", ship: "Celebrity Beyond", cruiseLine: "Celebrity", arrival: "08:00", departure: "18:00", passengers: "3,900" },
     { date: "2026-01-18", ship: "MSC Seascape", cruiseLine: "MSC", arrival: "09:00", departure: "19:00", passengers: "4,500" },
+    { date: "2026-02-10", ship: "Oasis of the Seas", cruiseLine: "Royal Caribbean", arrival: "08:00", departure: "17:00", passengers: "5,400" },
+    { date: "2026-02-12", ship: "Carnival Magic", cruiseLine: "Carnival", arrival: "09:00", departure: "18:00", passengers: "3,600" },
+    { date: "2026-03-05", ship: "Celebrity Apex", cruiseLine: "Celebrity", arrival: "07:30", departure: "17:30", passengers: "2,900" },
+    { date: "2026-03-08", ship: "Norwegian Viva", cruiseLine: "Norwegian", arrival: "08:00", departure: "18:00", passengers: "3,100" },
   ],
   cozumel: [
     { date: "2026-01-15", ship: "Carnival Breeze", cruiseLine: "Carnival", arrival: "08:00", departure: "16:00", passengers: "3,700" },
@@ -81,18 +95,28 @@ export const portSchedules: Record<string, ScheduleEntry[]> = {
     { date: "2026-01-16", ship: "Norwegian Prima", cruiseLine: "Norwegian", arrival: "08:30", departure: "17:30", passengers: "3,200" },
     { date: "2026-01-17", ship: "Carnival Vista", cruiseLine: "Carnival", arrival: "09:00", departure: "16:00", passengers: "3,900" },
     { date: "2026-01-18", ship: "Wonder of the Seas", cruiseLine: "Royal Caribbean", arrival: "07:30", departure: "16:30", passengers: "5,800" },
+    { date: "2026-02-14", ship: "Carnival Jubilee", cruiseLine: "Carnival", arrival: "08:00", departure: "16:00", passengers: "5,300" },
+    { date: "2026-02-20", ship: "Icon of the Seas", cruiseLine: "Royal Caribbean", arrival: "07:00", departure: "17:00", passengers: "5,600" },
+    { date: "2026-03-03", ship: "MSC Seashore", cruiseLine: "MSC", arrival: "09:00", departure: "18:00", passengers: "4,500" },
+    { date: "2026-03-15", ship: "Norwegian Escape", cruiseLine: "Norwegian", arrival: "08:00", departure: "17:00", passengers: "4,200" },
   ],
   aruba: [
     { date: "2026-01-15", ship: "Celebrity Reflection", cruiseLine: "Celebrity", arrival: "08:00", departure: "22:00", passengers: "3,000" },
     { date: "2026-01-17", ship: "Royal Princess", cruiseLine: "Princess", arrival: "07:00", departure: "18:00", passengers: "3,500" },
     { date: "2026-01-20", ship: "Carnival Magic", cruiseLine: "Carnival", arrival: "09:00", departure: "20:00", passengers: "3,600" },
     { date: "2026-01-22", ship: "MSC Divina", cruiseLine: "MSC", arrival: "08:30", departure: "19:30", passengers: "3,900" },
+    { date: "2026-02-08", ship: "Celebrity Beyond", cruiseLine: "Celebrity", arrival: "08:00", departure: "21:00", passengers: "3,900" },
+    { date: "2026-02-18", ship: "Carnival Horizon", cruiseLine: "Carnival", arrival: "09:00", departure: "20:00", passengers: "4,700" },
+    { date: "2026-03-12", ship: "Royal Princess", cruiseLine: "Princess", arrival: "07:30", departure: "18:00", passengers: "3,500" },
   ],
   "grand-cayman": [
     { date: "2026-01-15", ship: "Carnival Freedom", cruiseLine: "Carnival", arrival: "07:00", departure: "15:00", passengers: "3,000" },
     { date: "2026-01-16", ship: "Navigator of the Seas", cruiseLine: "Royal Caribbean", arrival: "08:00", departure: "16:00", passengers: "3,800" },
     { date: "2026-01-17", ship: "Norwegian Dawn", cruiseLine: "Norwegian", arrival: "07:30", departure: "14:30", passengers: "2,300" },
     { date: "2026-01-19", ship: "Carnival Conquest", cruiseLine: "Carnival", arrival: "08:00", departure: "16:00", passengers: "3,200" },
+    { date: "2026-02-11", ship: "Harmony of the Seas", cruiseLine: "Royal Caribbean", arrival: "07:00", departure: "15:00", passengers: "5,400" },
+    { date: "2026-02-22", ship: "Carnival Breeze", cruiseLine: "Carnival", arrival: "08:00", departure: "16:00", passengers: "3,700" },
+    { date: "2026-03-07", ship: "Celebrity Silhouette", cruiseLine: "Celebrity", arrival: "08:00", departure: "16:00", passengers: "2,900" },
   ],
   nassau: [
     { date: "2026-01-15", ship: "Carnival Celebration", cruiseLine: "Carnival", arrival: "08:00", departure: "17:00", passengers: "5,300" },
@@ -100,6 +124,9 @@ export const portSchedules: Record<string, ScheduleEntry[]> = {
     { date: "2026-01-16", ship: "MSC World America", cruiseLine: "MSC", arrival: "09:00", departure: "18:00", passengers: "4,800" },
     { date: "2026-01-17", ship: "Norwegian Breakaway", cruiseLine: "Norwegian", arrival: "08:00", departure: "17:00", passengers: "4,000" },
     { date: "2026-01-18", ship: "Disney Wish", cruiseLine: "Disney", arrival: "07:30", departure: "16:30", passengers: "4,000" },
+    { date: "2026-02-09", ship: "Wonder of the Seas", cruiseLine: "Royal Caribbean", arrival: "07:00", departure: "16:00", passengers: "5,800" },
+    { date: "2026-02-16", ship: "Carnival Venezia", cruiseLine: "Carnival", arrival: "08:00", departure: "17:00", passengers: "4,200" },
+    { date: "2026-03-04", ship: "Norwegian Prima", cruiseLine: "Norwegian", arrival: "08:30", departure: "17:30", passengers: "3,200" },
   ],
   roatan: [
     { date: "2026-01-15", ship: "Carnival Vista", cruiseLine: "Carnival", arrival: "08:00", departure: "17:00", passengers: "3,900" },
