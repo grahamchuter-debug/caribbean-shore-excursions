@@ -343,6 +343,44 @@ const authority: Record<string, PortAuthorityContent> = {
       { name: "Private Bacalar expedition", description: "Full-day lagoon and fort visit with private transport." },
     ],
   },
+  curacao: {
+    seoTitle: "Curaçao Shore Excursions & Cruise Port Authority Guide",
+    seoDescription:
+      "Curaçao cruise port authority guide to Willemstad culture, reef diving, snorkeling, family tours, private options and curacaoshoreexcursions.com.",
+    whyVisit: [
+      "UNESCO-listed Willemstad waterfront is walkable directly from the cruise pier",
+      "Superior diving and snorkeling at Tugboat Beach, Director's Bay, and Playa Kalki",
+      "Authentic Dutch-Caribbean culture distinct from resort-style Aruba",
+      "Outside the hurricane belt with reliable year-round port conditions",
+    ],
+    bestBeaches: [
+      { name: "Grote Knip (Kenepa Beach)", description: "Turquoise cove on the west coast — reached by taxi or island tour." },
+      { name: "Playa Porto Mari", description: "Double reef snorkel beach with facilities and calm swimming areas." },
+      { name: "Mambo Beach", description: "Lively beach boulevard with restaurants and loungers near Willemstad." },
+    ],
+    bestForFamilies: [
+      "Curaçao Sea Aquarium with touch tanks and dolphin programs",
+      "Calm bay snorkel at Boca Catalina suitable for beginners",
+      "Willemstad walking tour with Queen Emma Bridge and floating market",
+      "Hato Caves exploration with guided underground tours",
+    ],
+    bestForCouples: [
+      "Willemstad waterfront dinner in Pietermaai district",
+      "Private diving or snorkel charter to secluded reef sites",
+      "Sunset sail along the west coast with open bar",
+      "Beach club afternoon at Jan Thiel or Mambo Beach",
+    ],
+    snorkelling: [
+      { site: "Tugboat Beach", description: "Shallow wreck snorkel with excellent visibility — Curaçao's signature site." },
+      { site: "Director's Bay", description: "Protected reef with healthy coral and abundant tropical fish." },
+      { site: "Playa Kalki", description: "West-coast reef site popular with divers and snorkelers." },
+    ],
+    privateTours: [
+      { name: "Private Willemstad cultural tour", description: "Custom walking and driving route through colonial districts." },
+      { name: "Private west-coast beach hop", description: "Grote Knip, Porto Mari, and cliff viewpoints on your schedule." },
+      { name: "Private snorkel and dive charter", description: "Boat to Tugboat Beach and outer reef sites with dedicated guide." },
+    ],
+  },
   "ocho-rios": {
     seoTitle: "Ocho Rios Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
@@ -379,6 +417,44 @@ const authority: Record<string, PortAuthorityContent> = {
       { name: "Private Dunn's River Falls tour", description: "Early arrival to avoid crowds with dedicated guide." },
       { name: "Private Martha Brae rafting", description: "Private bamboo raft with personal poling guide." },
       { name: "Private north-coast highlights", description: "Custom route covering falls, viewpoints, and local lunch." },
+    ],
+  },
+  falmouth: {
+    seoTitle: "Falmouth Shore Excursions & Cruise Port Authority Guide",
+    seoDescription:
+      "Falmouth Jamaica authority guide to Martha Brae rafting, historic town walks, Good Hope Estate, Luminous Lagoon and falmouthshoreexcursions.com.",
+    whyVisit: [
+      "Best access to Martha Brae bamboo rafting on Jamaica's north coast",
+      "Historic Georgian town center walkable from the cruise pier",
+      "Quieter, less commercial atmosphere than Ocho Rios",
+      "Gateway to Luminous Lagoon bioluminescent evening tours",
+    ],
+    bestBeaches: [
+      { name: "Burwood Beach", description: "Public beach near Falmouth with calm water — reached by short taxi ride." },
+      { name: "Good Hope Estate beach", description: "Estate grounds with river access and adventure activities." },
+      { name: "Runaway Bay (excursion)", description: "North-coast beach sections on combination tours from Falmouth." },
+    ],
+    bestForFamilies: [
+      "Martha Brae bamboo rafting — peaceful and suitable for mixed ages",
+      "Good Hope Estate zip-line and river tubing for active families",
+      "Historic Falmouth walking tour with colonial architecture",
+      "Luminous Lagoon evening boat tour for older children and teens",
+    ],
+    bestForCouples: [
+      "Private Martha Brae raft ride with rum punch and jungle scenery",
+      "Historic Falmouth stroll followed by plantation lunch",
+      "Luminous Lagoon romantic evening kayak tour",
+      "Private Good Hope Estate adventure with great house tour",
+    ],
+    snorkelling: [
+      { site: "Runaway Bay reef (tour)", description: "North-coast reef sections on longer combination excursions." },
+      { site: "Montego Bay marine park (tour)", description: "Premium snorkel reached on full-day west-coast tours." },
+      { site: "Luminous Lagoon", description: "Unique bioluminescent evening experience rather than reef snorkel." },
+    ],
+    privateTours: [
+      { name: "Private Martha Brae rafting", description: "Dedicated bamboo raft with personal poling guide." },
+      { name: "Private Falmouth heritage walk", description: "Guided colonial town tour at your own pace." },
+      { name: "Private north-coast highlights", description: "Custom route covering rafting, estate, and lagoon options." },
     ],
   },
 };

@@ -77,6 +77,7 @@ export interface ComparisonTableRow {
 export interface Comparison {
   slug: string;
   title: string;
+  seoTitle: string;
   metaDescription: string;
   portA: string;
   portB: string;
@@ -91,6 +92,7 @@ export interface Comparison {
   snorkeling: ComparisonCategory;
   foodAndDrink: ComparisonCategory;
   easeFromPort: ComparisonCategory;
+  bestForFirstTimers: ComparisonCategory;
   bestOverall: string;
   comparisonTable: ComparisonTableRow[];
   verdict: string;

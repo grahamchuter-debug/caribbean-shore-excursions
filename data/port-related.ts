@@ -7,6 +7,11 @@ export const portRelatedLinks: Record<string, PortRelatedLink[]> = {
     { label: "Eastern Caribbean Cruise Ports", href: "/eastern-caribbean-cruise-ports" },
     { label: "St. Thomas Shore Excursions", href: "https://stthomasshoreexcursions.com", external: true },
   ],
+  curacao: [
+    { label: "Compare with Aruba", href: "/compare/aruba-vs-curacao" },
+    { label: "Southern Caribbean Cruise Ports", href: "/southern-caribbean-cruise-ports" },
+    { label: "Curaçao Shore Excursions", href: "https://curacaoshoreexcursions.com", external: true },
+  ],
   aruba: [
     { label: "Compare with Curaçao", href: "/compare/aruba-vs-curacao" },
     { label: "Compare with Bonaire", href: "/southern-caribbean-cruise-ports" },
@@ -54,6 +59,11 @@ export const portRelatedLinks: Record<string, PortRelatedLink[]> = {
     { label: "Compare with Falmouth", href: "/compare/ocho-rios-vs-falmouth" },
     { label: "Jamaica Cruise Ports", href: "/jamaica-cruise-ports" },
     { label: "Ocho Rios Shore Excursions", href: "https://ochoriosshoreexcursions.com", external: true },
+  ],
+  falmouth: [
+    { label: "Compare with Ocho Rios", href: "/compare/ocho-rios-vs-falmouth" },
+    { label: "Jamaica Cruise Ports", href: "/jamaica-cruise-ports" },
+    { label: "Falmouth Shore Excursions", href: "https://falmouthshoreexcursions.com", external: true },
   ],
 };
 

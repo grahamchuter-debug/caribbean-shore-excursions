@@ -1,0 +1,158 @@
+import Link from "next/link";
+import type { Comparison } from "@/data/types";
+import { getPortBySlug } from "@/data/ports";
+import { PageHero } from "@/components/PageHero";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { FAQSection } from "@/components/FAQSection";
+import { ComparisonTable } from "@/components/ComparisonTable";
+import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
+
+const CATEGORIES: { key: keyof Comparison; label: string }[] = [
+  { key: "overview", label: "Overview" },
+  { key: "beaches", label: "Beaches" },
+  { key: "snorkeling", label: "Snorkeling" },
+  { key: "families", label: "Families" },
+  { key: "couples", label: "Couples" },
+  { key: "foodAndDrink", label: "Food & Drink" },
+  { key: "excursions", label: "Shore Excursions" },
+  { key: "easeFromPort", label: "Ease From Cruise Port" },
+  { key: "bestForFirstTimers", label: "Best For First-Time Visitors" },
+];
+
+export function ComparisonPageView({ comp }: { comp: Comparison }) {
+  const portA = getPortBySlug(comp.portASlug);
+  const portB = getPortBySlug(comp.portBSlug);
+
+  const breadcrumbs = [
+    { name: "Home", path: "/" },
+    { name: "Cruise Planner", path: "/cruise-planner" },
+    { name: `${comp.portA} vs ${comp.portB}`, path: `/compare/${comp.slug}` },
+  ];
+
+  return (
+    <>
+      <JsonLd
+        data={[
+          breadcrumbSchema(breadcrumbs),
+          faqSchema(comp.faqs),
+          travelGuideSchema({
+            title: comp.seoTitle,
+            description: comp.metaDescription,
+            path: `/compare/${comp.slug}`,
+          }),
+        ]}
+      />
+      <PageHero title={comp.title} subtitle={comp.summary} compact />
+      <article className="section-padding">
+        <div className="container-wide max-w-4xl">
+          <Breadcrumbs items={breadcrumbs} />
+
+          <section className="mb-10">
+            <h2 className="section-title text-2xl sm:text-3xl mb-4">Port Guides & Local Booking</h2>
+            <p className="text-gray-600 mb-4 text-sm">
+              Compare both destinations in depth below, then open each authority port guide or book
+              directly with local excursion specialists.
+            </p>
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div className="card border-t-4 border-t-caribbean-500">
+                <h3 className="font-display text-lg font-bold text-caribbean-800 mb-3">{comp.portA}</h3>
+                <div className="flex flex-wrap gap-2">
+                  {portA && (
+                    <>
+                      <Link href={`/ports/${comp.portASlug}`} className="btn-primary text-xs">
+                        {comp.portA} Port Guide
+                      </Link>
+                      <a
+                        href={portA.specialistUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn-secondary text-xs"
+                      >
+                        {portA.specialistName}
+                      </a>
+                    </>
+                  )}
+                </div>
+              </div>
+              <div className="card border-t-4 border-t-tropical-mango">
+                <h3 className="font-display text-lg font-bold text-caribbean-800 mb-3">{comp.portB}</h3>
+                <div className="flex flex-wrap gap-2">
+                  {portB && (
+                    <>
+                      <Link href={`/ports/${comp.portBSlug}`} className="btn-primary text-xs">
+                        {comp.portB} Port Guide
+                      </Link>
+                      <a
+                        href={portB.specialistUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="btn-secondary text-xs"
+                      >
+                        {portB.specialistName}
+                      </a>
+                    </>
+                  )}
+                </div>
+              </div>
+            </div>
+          </section>
+
+          {CATEGORIES.map(({ key, label }) => {
+            const category = comp[key];
+            if (!category || typeof category !== "object" || !("portA" in category)) return null;
+            return (
+              <section key={key} className="mb-10">
+                <h2 className="section-title text-2xl sm:text-3xl mb-6">{label}</h2>
+                <div className="grid gap-6 sm:grid-cols-2">
+                  <div className="card border-t-4 border-t-caribbean-500">
+                    <h3 className="font-display text-lg font-bold text-caribbean-800 mb-3">
+                      {comp.portA}
+                    </h3>
+                    <p className="text-gray-700 leading-relaxed">{category.portA}</p>
+                  </div>
+                  <div className="card border-t-4 border-t-tropical-mango">
+                    <h3 className="font-display text-lg font-bold text-caribbean-800 mb-3">
+                      {comp.portB}
+                    </h3>
+                    <p className="text-gray-700 leading-relaxed">{category.portB}</p>
+                  </div>
+                </div>
+              </section>
+            );
+          })}
+
+          <section className="mb-10">
+            <h2 className="section-title text-2xl sm:text-3xl mb-6">Best Overall</h2>
+            <p className="text-gray-700 leading-relaxed text-lg">{comp.bestOverall}</p>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="section-title text-2xl sm:text-3xl mb-6">Detailed Comparison Table</h2>
+            <p className="text-sm text-gray-600 mb-4">
+              Side-by-side ratings across the categories cruise passengers weigh most when choosing
+              between {comp.portA} and {comp.portB}.
+            </p>
+            <ComparisonTable
+              portA={comp.portA}
+              portB={comp.portB}
+              rows={comp.comparisonTable}
+            />
+          </section>
+
+          <section className="mb-12 rounded-xl bg-caribbean-50 border border-caribbean-100 p-6 sm:p-8">
+            <h2 className="font-display text-xl font-bold text-gray-900 mb-3">Our Verdict</h2>
+            <p className="text-gray-700 leading-relaxed">{comp.verdict}</p>
+          </section>
+
+          <FAQSection faqs={comp.faqs} />
+
+          <div className="mt-12">
+            <AuthorityHubLinks />
+          </div>
+        </div>
+      </article>
+    </>
+  );
+}
