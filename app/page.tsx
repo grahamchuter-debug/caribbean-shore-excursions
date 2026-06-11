@@ -8,6 +8,8 @@ import { comparisons } from "@/data/comparisons";
 import { schedulePorts } from "@/data/schedules";
 import { featuredPortCards, HOMEPAGE_SCHEDULE_SLUGS, homepageFaqs } from "@/data/homepage";
 import { regions } from "@/data/regions";
+import { bestGuides } from "@/data/best-guides";
+import { itineraryPlanners } from "@/data/itinerary-planners";
 import { AuthorityPortCard } from "@/components/AuthorityPortCard";
 import { SchedulePreviewCard } from "@/components/SchedulePreviewCard";
 import { FAQSection } from "@/components/FAQSection";
@@ -267,8 +269,55 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Caribbean Regions */}
+      {/* Best Excursion Guides */}
+      <section className="section-padding bg-caribbean-50">
+        <div className="container-wide">
+          <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
+            <div>
+              <h2 className="section-title">Best Caribbean Excursions</h2>
+              <p className="section-subtitle">
+                Authority-ranked excursion guides by type — beaches, snorkeling, families, couples, private tours, and more.
+              </p>
+            </div>
+            <Link href="/best-caribbean-shore-excursions" className="btn-primary shrink-0">
+              All Best Guides
+            </Link>
+          </div>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {bestGuides.map((guide) => (
+              <Link key={guide.slug} href={`/${guide.slug}`} className="card group hover:border-caribbean-200">
+                <h3 className="font-display text-base font-bold text-gray-900 group-hover:text-caribbean-700 leading-snug">
+                  {guide.title}
+                </h3>
+                <p className="mt-2 text-sm text-gray-600 line-clamp-2">{guide.heroSubtitle}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Itinerary Planners */}
       <section className="section-padding bg-white">
+        <div className="container-wide">
+          <h2 className="section-title">Caribbean Itinerary Planners</h2>
+          <p className="section-subtitle mb-10">
+            Plan by cruise route — Eastern, Western, and Southern Caribbean ports, excursions, and specialist links.
+          </p>
+          <div className="grid gap-4 sm:grid-cols-3">
+            {itineraryPlanners.map((planner) => (
+              <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient group">
+                <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
+                  {planner.title}
+                </h3>
+                <p className="mt-2 text-sm text-gray-600 line-clamp-3">{planner.heroSubtitle}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Caribbean Regions */}
+      <section className="section-padding bg-caribbean-50">
         <div className="container-wide">
           <h2 className="section-title">Caribbean Cruise Regions</h2>
           <p className="section-subtitle mb-10">

@@ -63,23 +63,85 @@ export interface FAQ {
   answer: string;
 }
 
+export interface ComparisonCategory {
+  portA: string;
+  portB: string;
+}
+
+export interface ComparisonTableRow {
+  category: string;
+  portA: string;
+  portB: string;
+}
+
 export interface Comparison {
   slug: string;
   title: string;
+  metaDescription: string;
   portA: string;
   portB: string;
   portASlug: string;
   portBSlug: string;
   summary: string;
-  sections: ComparisonSection[];
+  overview: ComparisonCategory;
+  beaches: ComparisonCategory;
+  excursions: ComparisonCategory;
+  families: ComparisonCategory;
+  couples: ComparisonCategory;
+  snorkeling: ComparisonCategory;
+  foodAndDrink: ComparisonCategory;
+  easeFromPort: ComparisonCategory;
+  bestOverall: string;
+  comparisonTable: ComparisonTableRow[];
   verdict: string;
   faqs: FAQ[];
 }
 
-export interface ComparisonSection {
+export interface BestGuidePort {
+  slug: string;
+  reason: string;
+}
+
+export interface BestGuideExcursion {
+  name: string;
+  portSlug: string;
+  description: string;
+  duration: string;
+}
+
+export interface BestGuideTableRow {
+  portSlug: string;
+  portName: string;
+  highlight: string;
+  bestExcursion: string;
+  rating: string;
+}
+
+export interface BestGuidePage {
+  slug: string;
   title: string;
-  portAContent: string;
-  portBContent: string;
+  metaDescription: string;
+  heroSubtitle: string;
+  introduction: string;
+  topPorts: BestGuidePort[];
+  recommendedExcursions: BestGuideExcursion[];
+  comparisonTable: BestGuideTableRow[];
+  faqs: FAQ[];
+  excursionTypeSlug?: string;
+}
+
+export interface ItineraryPlannerPage {
+  slug: string;
+  title: string;
+  metaDescription: string;
+  heroSubtitle: string;
+  overview: string;
+  itineraryHighlights: string[];
+  topPortSlugs: string[];
+  recommendedExcursions: string[];
+  regionPageSlug: string;
+  bestGuideSlugs: string[];
+  faqs: FAQ[];
 }
 
 export interface ExcursionType {

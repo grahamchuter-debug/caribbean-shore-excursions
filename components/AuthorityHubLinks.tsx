@@ -1,5 +1,8 @@
 import Link from "next/link";
 import { regions } from "@/data/regions";
+import { bestGuides } from "@/data/best-guides";
+import { itineraryPlanners } from "@/data/itinerary-planners";
+import { comparisons } from "@/data/comparisons";
 
 const hubLinks = [
   { href: "/", label: "Homepage" },
@@ -33,6 +36,58 @@ export function AuthorityHubLinks({
           </Link>
         ))}
       </div>
+
+      <div className="mb-4">
+        <span className="text-xs text-gray-500 w-full mb-2 block">Best excursion guides</span>
+        <div className="flex flex-wrap gap-2">
+          {bestGuides.slice(0, 4).map((guide) => (
+            <Link
+              key={guide.slug}
+              href={`/${guide.slug}`}
+              className="rounded-full bg-white px-3 py-1.5 text-xs font-medium text-gray-700 border border-gray-200 hover:border-caribbean-200"
+            >
+              {guide.title.replace("Best Caribbean ", "")}
+            </Link>
+          ))}
+          <Link
+            href="/best-caribbean-shore-excursions"
+            className="rounded-full bg-caribbean-100 px-3 py-1.5 text-xs font-medium text-caribbean-800"
+          >
+            All best guides
+          </Link>
+        </div>
+      </div>
+
+      <div className="mb-4">
+        <span className="text-xs text-gray-500 w-full mb-2 block">Itinerary planners</span>
+        <div className="flex flex-wrap gap-2">
+          {itineraryPlanners.map((planner) => (
+            <Link
+              key={planner.slug}
+              href={`/${planner.slug}`}
+              className="rounded-full bg-white px-3 py-1.5 text-xs font-medium text-gray-700 border border-gray-200 hover:border-caribbean-200"
+            >
+              {planner.title.replace(" Planner", "")}
+            </Link>
+          ))}
+        </div>
+      </div>
+
+      <div className="mb-4">
+        <span className="text-xs text-gray-500 w-full mb-2 block">Port comparisons</span>
+        <div className="flex flex-wrap gap-2">
+          {comparisons.map((comp) => (
+            <Link
+              key={comp.slug}
+              href={`/compare/${comp.slug}`}
+              className="rounded-full bg-white px-3 py-1.5 text-xs font-medium text-gray-700 border border-gray-200 hover:border-caribbean-200"
+            >
+              {comp.portA} vs {comp.portB}
+            </Link>
+          ))}
+        </div>
+      </div>
+
       {current !== "regions" && (
         <div className="flex flex-wrap gap-2">
           <span className="text-xs text-gray-500 w-full mb-1">Region guides</span>

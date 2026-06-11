@@ -6,6 +6,8 @@ import { getAllExcursionTypeSlugs } from "@/data/excursion-types";
 import { getAllCruiseLineSlugs } from "@/data/cruise-lines";
 import { getAllSchedulePortSlugs } from "@/data/schedules";
 import { getAllRegionSlugs } from "@/data/regions";
+import { getAllBestGuideSlugs } from "@/data/best-guides";
+import { getAllItineraryPlannerSlugs } from "@/data/itinerary-planners";
 
 export const dynamic = "force-static";
 
@@ -71,8 +73,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
+  const bestGuidePages = getAllBestGuideSlugs().map((slug) => ({
+    url: `${base}/${slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.9,
+  }));
+
+  const itineraryPages = getAllItineraryPlannerSlugs().map((slug) => ({
+    url: `${base}/${slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.88,
+  }));
+
   return [
     ...staticPages,
+    ...bestGuidePages,
+    ...itineraryPages,
     ...regionPages,
     ...portPages,
     ...comparePages,

@@ -5,6 +5,9 @@ import { comparisons } from "@/data/comparisons";
 import { excursionTypes } from "@/data/excursion-types";
 import { cruiseLines } from "@/data/cruise-lines";
 import { cruiseTips } from "@/data/tips";
+import { itineraryPlanners } from "@/data/itinerary-planners";
+import { bestGuides } from "@/data/best-guides";
+import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
@@ -62,6 +65,38 @@ export default function CruisePlannerPage() {
               { name: "Cruise Planner", path: "/cruise-planner" },
             ]}
           />
+
+          {/* Itinerary planners */}
+          <div className="mb-16">
+            <h2 className="section-title text-2xl mb-6">Itinerary Planners by Route</h2>
+            <p className="text-gray-700 mb-6">
+              Plan your full cruise route with port rankings, excursion picks, and specialist links for each itinerary style.
+            </p>
+            <div className="grid gap-4 sm:grid-cols-3">
+              {itineraryPlanners.map((planner) => (
+                <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient">
+                  <h3 className="font-semibold text-gray-900">{planner.title}</h3>
+                  <p className="mt-1 text-sm text-gray-600 line-clamp-2">{planner.heroSubtitle}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Best excursion guides */}
+          <div className="mb-16">
+            <h2 className="section-title text-2xl mb-6">Best Excursion Guides</h2>
+            <div className="flex flex-wrap gap-2">
+              {bestGuides.map((guide) => (
+                <Link
+                  key={guide.slug}
+                  href={`/${guide.slug}`}
+                  className="rounded-full bg-caribbean-50 px-4 py-2 text-sm font-medium text-caribbean-700 hover:bg-caribbean-100"
+                >
+                  {guide.title}
+                </Link>
+              ))}
+            </div>
+          </div>
 
           {/* Regional planners */}
           <div className="mb-16">
@@ -253,6 +288,8 @@ export default function CruisePlannerPage() {
               ))}
             </div>
           </div>
+
+          <AuthorityHubLinks />
         </div>
       </section>
     </>
