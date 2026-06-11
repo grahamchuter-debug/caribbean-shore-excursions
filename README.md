@@ -27,20 +27,28 @@ Static files are exported to the `out/` directory.
 
 ## Cloudflare Pages Deployment
 
-This site is a pre-built static export. Deploy using **Direct Upload** or connect your repository with these settings:
+This is a **Next.js static export**. Cloudflare must run the build — the repository does not contain pre-built HTML.
+
+### Git-connected deployment (recommended)
+
+In **Cloudflare Dashboard → Workers & Pages → your project → Settings → Builds**:
 
 | Setting | Value |
 |---------|-------|
-| Framework preset | None |
-| Build command | *(leave blank)* |
-| Build output directory | *(leave blank — upload `out/` contents)* |
+| Framework preset | **Next.js (Static HTML Export)** or None |
+| Build command | `npm run build` |
+| Build output directory | `out` |
+| Node.js version | `20` |
 
-**Steps:**
+Then click **Retry deployment** (or push a new commit).
 
-1. Run `npm run build` locally to generate the `out/` folder.
-2. In Cloudflare Pages, create a project and choose **Direct Upload**.
-3. Upload the contents of the `out/` directory (not the folder itself).
-4. Set custom domain to `caribbeanshoreexcursion.com`.
+If the homepage returns 404 but `/package.json` loads, the build step is not running — update the settings above.
+
+### Direct Upload (alternative)
+
+1. Run `npm run build` locally.
+2. Upload the **contents** of the `out/` folder via Direct Upload.
+3. Set custom domain to `caribbeanshoreexcursion.com`.
 
 The `public/_redirects` file is copied into `out/` during build to support clean URLs on Cloudflare Pages.
 
