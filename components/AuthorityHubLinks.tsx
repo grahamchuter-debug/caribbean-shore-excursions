@@ -39,6 +39,15 @@ export function AuthorityHubLinks({
       </div>
 
       <div className="mb-4">
+        <Link
+          href="/best-shore-excursion-every-caribbean-port"
+          className="block rounded-lg bg-caribbean-700 text-white px-4 py-3 text-sm font-semibold hover:bg-caribbean-800 mb-3"
+        >
+          Best excursion at every Caribbean port →
+        </Link>
+      </div>
+
+      <div className="mb-4">
         <span className="text-xs text-gray-500 w-full mb-2 block">Best excursion guides</span>
         <div className="flex flex-wrap gap-2">
           {bestGuides.slice(0, 4).map((guide) => (

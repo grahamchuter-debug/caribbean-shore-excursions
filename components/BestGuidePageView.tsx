@@ -13,7 +13,7 @@ import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
   const breadcrumbs = [
     { name: "Home", path: "/" },
-    { name: "Best Excursions", path: "/best-caribbean-shore-excursions" },
+    { name: "Best Excursions", path: "/best-shore-excursion-every-caribbean-port" },
     { name: guide.title, path: `/${guide.slug}` },
   ];
 

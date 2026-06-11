@@ -279,10 +279,26 @@ export default function HomePage() {
                 Authority-ranked excursion guides by type — beaches, snorkeling, families, couples, private tours, and more.
               </p>
             </div>
-            <Link href="/best-caribbean-shore-excursions" className="btn-primary shrink-0">
-              All Best Guides
-            </Link>
+            <div className="flex flex-wrap gap-2 shrink-0">
+              <Link href="/best-shore-excursion-every-caribbean-port" className="btn-primary">
+                Every Port Guide
+              </Link>
+              <Link href="/best-caribbean-shore-excursions" className="btn-secondary">
+                All Best Guides
+              </Link>
+            </div>
           </div>
+          <Link
+            href="/best-shore-excursion-every-caribbean-port"
+            className="card-gradient mb-6 block group border-2 border-caribbean-200"
+          >
+            <h3 className="font-display text-xl font-bold text-gray-900 group-hover:text-caribbean-700">
+              Best Shore Excursion at Every Caribbean Port
+            </h3>
+            <p className="mt-2 text-gray-600">
+              Master table covering all 12 ports — signature excursion, duration, activity level, and links to authority guides and local specialists.
+            </p>
+          </Link>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {bestGuides.map((guide) => (
               <Link key={guide.slug} href={`/${guide.slug}`} className="card group hover:border-caribbean-200">

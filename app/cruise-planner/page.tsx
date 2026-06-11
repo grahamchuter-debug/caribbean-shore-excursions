@@ -85,6 +85,15 @@ export default function CruisePlannerPage() {
           {/* Best excursion guides */}
           <div className="mb-16">
             <h2 className="section-title text-2xl mb-6">Best Excursion Guides</h2>
+            <Link
+              href="/best-shore-excursion-every-caribbean-port"
+              className="card-gradient mb-4 block hover:border-caribbean-300"
+            >
+              <span className="font-semibold text-gray-900">Best Shore Excursion at Every Caribbean Port</span>
+              <span className="block text-sm text-gray-600 mt-1">
+                Master table for all 12 ports with authority guides and specialist links
+              </span>
+            </Link>
             <div className="flex flex-wrap gap-2">
               {bestGuides.map((guide) => (
                 <Link

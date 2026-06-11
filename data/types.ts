@@ -141,6 +141,39 @@ export interface BestGuidePage {
   excursionTypeSlug?: string;
 }
 
+export interface PortExcursionAuthorityRow {
+  portSlug: string;
+  portName: string;
+  bestExcursion: string;
+  duration: string;
+  bestFor: string;
+  activityLevel: "Easy" | "Moderate" | "Active";
+  whyRecommended: string;
+}
+
+export interface PortExcursionCategoryPick {
+  portSlug: string;
+  excursionName: string;
+  description: string;
+}
+
+export interface PortExcursionAuthorityPage {
+  slug: string;
+  title: string;
+  seoTitle: string;
+  metaDescription: string;
+  heroSubtitle: string;
+  introduction: string;
+  introductionDetail: string;
+  portTable: PortExcursionAuthorityRow[];
+  bestBeachExcursions: PortExcursionCategoryPick[];
+  bestSnorkellingExcursions: PortExcursionCategoryPick[];
+  bestWildlifeExcursions: PortExcursionCategoryPick[];
+  bestFamilyExcursions: PortExcursionCategoryPick[];
+  bestPrivateExcursions: PortExcursionCategoryPick[];
+  faqs: FAQ[];
+}
+
 export interface ItineraryDayPlan {
   portSlug: string;
   title: string;
