@@ -7,6 +7,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
 import { FAQSection } from "@/components/FAQSection";
 import { SpecialistLink } from "@/components/SpecialistLink";
+import { PortRelatedLinks } from "@/components/PortRelatedLinks";
+import { getPortRelatedLinks } from "@/data/port-related";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
@@ -148,7 +150,9 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
             <SpecialistLink url={port.specialistUrl} name={port.specialistName} portName={port.name} />
           </section>
 
-          {/* Related Links */}
+          <PortRelatedLinks links={getPortRelatedLinks(slug)} />
+
+          {/* Schedule & excursion links */}
           <section className="mb-12 flex flex-wrap gap-4">
             {hasShipSchedule(port.slug) ? (
               <Link href={`/ship-schedules/${port.slug}`} className="btn-secondary text-sm">

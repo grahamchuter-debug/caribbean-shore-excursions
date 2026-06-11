@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SITE } from "@/lib/site";
-import { ports } from "@/data/ports";
+import { FEATURED_PORT_SLUGS } from "@/data/homepage";
+import { getPortBySlug } from "@/data/ports";
 
 const footerLinks = {
   planning: [
@@ -10,10 +11,10 @@ const footerLinks = {
     { href: "/cruise-lines", label: "Cruise Lines" },
     { href: "/ports", label: "All Ports" },
   ],
-  ports: ports.slice(0, 6).map((p) => ({
-    href: `/ports/${p.slug}`,
-    label: p.name,
-  })),
+  ports: FEATURED_PORT_SLUGS.map((slug) => {
+    const port = getPortBySlug(slug);
+    return port ? { href: `/ports/${slug}`, label: port.name } : null;
+  }).filter(Boolean) as { href: string; label: string }[],
   company: [
     { href: "/about", label: "About Us" },
     { href: "/contact", label: "Contact" },
@@ -32,7 +33,7 @@ export function Footer() {
               </div>
               <div>
                 <div className="font-display text-lg font-bold">Caribbean Shore</div>
-                <div className="text-xs text-caribbean-300">Excursions</div>
+                <div className="text-xs text-caribbean-300">Excursion Planner</div>
               </div>
             </div>
             <p className="text-sm text-caribbean-200 leading-relaxed">

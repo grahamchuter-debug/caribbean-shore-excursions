@@ -9,7 +9,7 @@ import { breadcrumbSchema, travelGuideSchema } from "@/lib/schema";
 export const metadata = buildMetadata({
   title: "Caribbean Cruise Ship Schedules",
   description:
-    "Check Caribbean cruise ship schedules by port. See which ships are visiting St. Thomas, Cozumel, Aruba, Grand Cayman, and Nassau on your cruise day.",
+    "Check 2026 and 2027 Caribbean cruise ship schedules by port. See which ships visit St. Thomas, Cozumel, Aruba, Grand Cayman, Nassau, Roatán, Puerto Plata, and St. Maarten on your cruise day.",
   path: "/ship-schedules",
   keywords: ["cruise ship schedule", "port schedule", "ships in port"],
 });

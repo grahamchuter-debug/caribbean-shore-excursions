@@ -2,15 +2,13 @@
 
 import Link from "next/link";
 import { useState } from "react";
+
 const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/ports", label: "Caribbean Ports" },
-  { href: "/cruise-planner", label: "Cruise Planner" },
+  { href: "/ports", label: "Ports" },
   { href: "/ship-schedules", label: "Ship Schedules" },
+  { href: "/cruise-planner", label: "Cruise Planner" },
   { href: "/cruise-lines", label: "Cruise Lines" },
   { href: "/excursion-types", label: "Excursion Types" },
-  { href: "/about", label: "About" },
-  { href: "/contact", label: "Contact" },
 ];
 
 export function Header() {
@@ -24,14 +22,14 @@ export function Header() {
             CS
           </div>
           <div className="hidden sm:block">
-            <div className="font-display text-lg font-bold text-caribbean-800 group-hover:text-caribbean-600 transition-colors">
+            <div className="font-display text-lg font-bold text-caribbean-800 group-hover:text-caribbean-600 transition-colors leading-tight">
               Caribbean Shore
             </div>
-            <div className="text-xs text-gray-500 -mt-0.5">Excursions</div>
+            <div className="text-xs text-gray-500 -mt-0.5">Excursion Planner</div>
           </div>
         </Link>
 
-        <nav className="hidden lg:flex items-center gap-1">
+        <nav className="hidden lg:flex items-center gap-1" aria-label="Main navigation">
           {navItems.map((item) => (
             <Link
               key={item.href}
@@ -61,7 +59,7 @@ export function Header() {
       </div>
 
       {mobileOpen && (
-        <nav className="lg:hidden border-t border-caribbean-100 bg-white px-4 py-4">
+        <nav className="lg:hidden border-t border-caribbean-100 bg-white px-4 py-4" aria-label="Mobile navigation">
           <div className="flex flex-col gap-1">
             {navItems.map((item) => (
               <Link

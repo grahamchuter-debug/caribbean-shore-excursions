@@ -6,6 +6,8 @@ export const ports: Port[] = [
     name: "St. Thomas",
     country: "U.S. Virgin Islands",
     region: "Eastern Caribbean",
+    bestFor: "Beaches & island hopping",
+    imageTheme: "beach",
     tagline: "Duty-free shopping, stunning beaches, and island adventures",
     overview:
       "St. Thomas is one of the Caribbean's most visited cruise ports, offering a perfect blend of world-class shopping in Charlotte Amalie, pristine beaches like Magens Bay, and easy access to neighboring St. John. Cruise ships dock at the Havensight or Crown Bay terminals, both within walking distance of shops and taxis.",
@@ -45,13 +47,15 @@ export const ports: Port[] = [
       { question: "Can I visit St. John from St. Thomas on a cruise day?", answer: "Yes. Regular ferries run between St. Thomas and St. John. Allow at least 6 hours for a meaningful St. John visit including Trunk Bay." },
     ],
     highlights: ["World-class beaches", "Duty-free shopping", "Easy St. John access", "No tender required"],
-    imageAlt: "Turquoise waters and cruise ships in St. Thomas harbor",
+    imageAlt: "Magens Bay turquoise beach waters in St. Thomas",
   },
   {
     slug: "cozumel",
     name: "Cozumel",
     country: "Mexico",
     region: "Western Caribbean",
+    bestFor: "Reef snorkeling & Mayan ruins",
+    imageTheme: "snorkel",
     tagline: "World-class diving, Mayan ruins, and vibrant island culture",
     overview:
       "Cozumel is Mexico's premier cruise port, renowned for some of the world's best reef snorkeling and diving along the Mesoamerican Barrier Reef. Ships dock at one of three piers in San Miguel, with downtown shops and restaurants within easy reach. The island also offers Mayan ruins, beach clubs, and adventure activities.",
@@ -83,8 +87,8 @@ export const ports: Port[] = [
       { name: "Chankanaab Park", description: "Beach park with snorkeling lagoon and cultural exhibits.", distance: "15 min by taxi" },
       { name: "San Gervasio Ruins", description: "Mayan archaeological site dedicated to goddess Ixchel.", distance: "20 min by taxi" },
     ],
-    specialistUrl: "https://cozumelshoreexcursions.com",
-    specialistName: "Cozumel Shore Excursions",
+    specialistUrl: "https://cozumelcruiseexcursion.com",
+    specialistName: "Cozumel Cruise Excursions",
     faqs: [
       { question: "Is Cozumel good for snorkeling?", answer: "Cozumel is considered one of the best snorkeling destinations in the Caribbean. Palancar and Columbia reefs offer exceptional visibility and marine life." },
       { question: "How far is Tulum from Cozumel?", answer: "Tulum is on the mainland, roughly 45 minutes by ferry to Playa del Carmen plus 45 minutes by road. Plan for a full-day excursion." },
@@ -98,6 +102,8 @@ export const ports: Port[] = [
     name: "Aruba",
     country: "Aruba",
     region: "Southern Caribbean",
+    bestFor: "Sun-soaked beaches & desert tours",
+    imageTheme: "beach",
     tagline: "Consistent sunshine, desert landscapes, and pristine beaches",
     overview:
       "Aruba sits outside the hurricane belt and boasts year-round sunshine, making it a reliable favorite on Southern Caribbean itineraries. The island's Dutch-Caribbean culture, Eagle Beach, and Arikok National Park offer diverse experiences. Ships dock at the Port of Oranjestad with easy access to downtown.",
@@ -129,7 +135,7 @@ export const ports: Port[] = [
       { name: "California Lighthouse", description: "Iconic lighthouse with panoramic island views.", distance: "20 min by taxi" },
       { name: "Oranjestad", description: "Colorful Dutch colonial architecture and shopping.", distance: "5 min walk" },
     ],
-    specialistUrl: "https://arubashoreexcursions.com",
+    specialistUrl: "https://arubashoreexcursion.com",
     specialistName: "Aruba Shore Excursions",
     faqs: [
       { question: "Is Aruba affected by hurricanes?", answer: "Aruba sits south of the hurricane belt and experiences very few storms. It is one of the most weather-reliable Caribbean ports." },
@@ -144,6 +150,8 @@ export const ports: Port[] = [
     name: "Grand Cayman",
     country: "Cayman Islands",
     region: "Western Caribbean",
+    bestFor: "Stingray City & snorkeling",
+    imageTheme: "wildlife",
     tagline: "Stingray City, Seven Mile Beach, and crystal-clear waters",
     overview:
       "Grand Cayman is famous for Stingray City, where passengers can interact with wild southern stingrays in shallow sandbars. The island also offers Seven Mile Beach, excellent snorkeling, and the unique Cayman Turtle Centre. Ships anchor in George Town harbor and passengers tender to shore.",
@@ -190,6 +198,8 @@ export const ports: Port[] = [
     name: "St. Maarten",
     country: "Sint Maarten / Saint Martin",
     region: "Eastern Caribbean",
+    bestFor: "Dual-nation culture & beaches",
+    imageTheme: "viewpoint",
     tagline: "Dual-nation island with famous beaches and Maho Beach plane spotting",
     overview:
       "St. Maarten shares an island between Dutch Sint Maarten and French Saint Martin, offering two cultures in one port day. Famous for Maho Beach's low-flying aircraft, Orient Bay's beach clubs, and excellent duty-free shopping in Philipsburg. Ships dock at the Dr. A.C. Wathey Cruise Facility.",
@@ -236,6 +246,8 @@ export const ports: Port[] = [
     name: "Nassau",
     country: "Bahamas",
     region: "Bahamas",
+    bestFor: "Atlantis & Bahamian culture",
+    imageTheme: "town",
     tagline: "Bahamian culture, Atlantis resort, and swimming with pigs nearby",
     overview:
       "Nassau is the capital of the Bahamas and a staple of Caribbean cruise itineraries. The historic downtown, Paradise Island's Atlantis resort, and nearby Exuma cays with swimming pigs offer diverse excursion options. Ships dock at the Prince George Wharf cruise terminal in downtown Nassau.",
@@ -282,6 +294,8 @@ export const ports: Port[] = [
     name: "Roatán",
     country: "Honduras",
     region: "Western Caribbean",
+    bestFor: "Reef snorkeling & eco-adventures",
+    imageTheme: "snorkel",
     tagline: "Pristine reefs, eco-adventures, and authentic Caribbean charm",
     overview:
       "Roatán sits on the Mesoamerican Barrier Reef and offers some of the Caribbean's best-value snorkeling and diving. The island maintains a laid-back atmosphere with West Bay Beach, zip-lining through jungle canopy, and cultural encounters with Garifuna communities. Ships dock at Mahogany Bay or Port of Roatán.",
@@ -328,6 +342,8 @@ export const ports: Port[] = [
     name: "Costa Maya",
     country: "Mexico",
     region: "Western Caribbean",
+    bestFor: "Mayan ruins & lagoon adventures",
+    imageTheme: "fortress",
     tagline: "Purpose-built cruise port with Mayan ruins and lagoon adventures",
     overview:
       "Costa Maya is a dedicated cruise port in Mexico's Quintana Roo state, designed specifically for cruise passengers. The port village offers shopping and a pool, while excursions reach Chacchoben Mayan ruins, Bacalar Lagoon, and Mahahual beach village. A convenient gateway to lesser-known Yucatán attractions.",
@@ -374,6 +390,8 @@ export const ports: Port[] = [
     name: "Puerto Plata",
     country: "Dominican Republic",
     region: "Eastern Caribbean",
+    bestFor: "Waterfalls & cable car views",
+    imageTheme: "rainforest",
     tagline: "Historic Amber Coast with cable car views and waterfall adventures",
     overview:
       "Puerto Plata on the Dominican Republic's Amber Coast offers a mix of colonial history, mountain adventures, and Atlantic beaches. The Teleférico cable car to Mount Isabel de Torres, 27 Charcos waterfall excursion, and Amber Cove cruise port make it an increasingly popular Eastern Caribbean stop.",
@@ -405,8 +423,8 @@ export const ports: Port[] = [
       { name: "27 Charcos", description: "Adventure park with waterfall hiking and sliding.", distance: "30 min by coach" },
       { name: "Amber Cove", description: "Modern cruise port with pool, shops, and waterfront.", distance: "At port" },
     ],
-    specialistUrl: "https://puertoplatashoreexcursions.com",
-    specialistName: "Puerto Plata Shore Excursions",
+    specialistUrl: "https://puertoplatacruiseexcursion.com",
+    specialistName: "Puerto Plata Cruise Excursions",
     faqs: [
       { question: "What is Amber Cove?", answer: "Amber Cove is a modern cruise port built by Carnival Corporation near Puerto Plata. It has pools, shops, and transportation hubs for excursions." },
       { question: "Is the 27 Waterfalls excursion strenuous?", answer: "Moderate fitness is required. You will hike, climb, and slide through waterfalls. Not recommended for those with mobility issues." },
@@ -420,6 +438,8 @@ export const ports: Port[] = [
     name: "Ocho Rios",
     country: "Jamaica",
     region: "Western Caribbean",
+    bestFor: "Waterfall climbs & river rafting",
+    imageTheme: "rainforest",
     tagline: "Dunn's River Falls, river rafting, and lush tropical adventures",
     overview:
       "Ocho Rios is Jamaica's adventure capital, famous for climbing Dunn's River Falls, bamboo river rafting on the Martha Brae, and zip-lining through rainforest canopy. Cruise ships dock at multiple terminals along the north coast, with easy access to the town's markets and excursion departure points.",
@@ -459,7 +479,7 @@ export const ports: Port[] = [
       { question: "What should I wear for Dunn's River Falls?", answer: "Wear water shoes or secure sandals, swimwear under clothes, and bring a towel. Leave valuables on the ship." },
     ],
     highlights: ["Dunn's River Falls", "River rafting", "Rainforest adventures", "Jamaican culture"],
-    imageAlt: "Cruise passengers climbing Dunn's River Falls in Jamaica",
+    imageAlt: "Visitors climbing the terraced Dunn's River Falls in Jamaica",
   },
 ];
 

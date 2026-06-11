@@ -63,6 +63,98 @@ export default function CruisePlannerPage() {
             ]}
           />
 
+          {/* Regional planners */}
+          <div className="mb-16">
+            <h2 className="section-title text-2xl mb-6">Regional Cruise Planners</h2>
+            <p className="text-gray-700 mb-6">
+              Jump to port guides and comparisons by Caribbean region to plan shore excursions faster.
+            </p>
+            <div className="grid gap-4 sm:grid-cols-2">
+              <div id="eastern-caribbean" className="card-gradient scroll-mt-24">
+                <h3 className="font-display text-lg font-bold text-gray-900">Eastern Caribbean</h3>
+                <p className="mt-2 text-sm text-gray-600 mb-4">
+                  St. Thomas, St. Maarten, Puerto Plata and nearby island comparisons.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {ports
+                    .filter((p) => p.region === "Eastern Caribbean")
+                    .map((port) => (
+                      <Link
+                        key={port.slug}
+                        href={`/ports/${port.slug}`}
+                        className="rounded-full bg-caribbean-50 px-3 py-1 text-xs font-medium text-caribbean-700 hover:bg-caribbean-100"
+                      >
+                        {port.name}
+                      </Link>
+                    ))}
+                </div>
+              </div>
+              <div id="western-caribbean" className="card-gradient scroll-mt-24">
+                <h3 className="font-display text-lg font-bold text-gray-900">Western Caribbean</h3>
+                <p className="mt-2 text-sm text-gray-600 mb-4">
+                  Cozumel, Roatán, Grand Cayman, Costa Maya and Ocho Rios adventures.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {ports
+                    .filter((p) => p.region === "Western Caribbean")
+                    .map((port) => (
+                      <Link
+                        key={port.slug}
+                        href={`/ports/${port.slug}`}
+                        className="rounded-full bg-caribbean-50 px-3 py-1 text-xs font-medium text-caribbean-700 hover:bg-caribbean-100"
+                      >
+                        {port.name}
+                      </Link>
+                    ))}
+                </div>
+              </div>
+              <div id="southern-caribbean" className="card-gradient scroll-mt-24">
+                <h3 className="font-display text-lg font-bold text-gray-900">Southern Caribbean</h3>
+                <p className="mt-2 text-sm text-gray-600 mb-4">
+                  Aruba, Curaçao comparisons and Southern route planning.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {ports
+                    .filter((p) => p.region === "Southern Caribbean")
+                    .map((port) => (
+                      <Link
+                        key={port.slug}
+                        href={`/ports/${port.slug}`}
+                        className="rounded-full bg-caribbean-50 px-3 py-1 text-xs font-medium text-caribbean-700 hover:bg-caribbean-100"
+                      >
+                        {port.name}
+                      </Link>
+                    ))}
+                  <Link
+                    href="/compare/aruba-vs-curacao"
+                    className="rounded-full bg-caribbean-50 px-3 py-1 text-xs font-medium text-caribbean-700 hover:bg-caribbean-100"
+                  >
+                    Aruba vs Curaçao
+                  </Link>
+                </div>
+              </div>
+              <div id="bahamas" className="card-gradient scroll-mt-24">
+                <h3 className="font-display text-lg font-bold text-gray-900">Bahamas</h3>
+                <p className="mt-2 text-sm text-gray-600 mb-4">
+                  Nassau port days, Atlantis excursions and Bahamas cruise planning.
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {ports
+                    .filter((p) => p.region === "Bahamas")
+                    .map((port) => (
+                      <Link
+                        key={port.slug}
+                        href={`/ports/${port.slug}`}
+                        className="rounded-full bg-caribbean-50 px-3 py-1 text-xs font-medium text-caribbean-700 hover:bg-caribbean-100"
+                      >
+                        {port.name}
+                      </Link>
+                    ))}
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Step 1 */}
           <div className="mb-16">
             <div className="flex items-center gap-3 mb-6">

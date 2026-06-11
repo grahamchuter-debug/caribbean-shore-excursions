@@ -17,8 +17,7 @@ export function buildMetadata({
   ogImage,
 }: PageSEO): Metadata {
   const url = `${SITE.url}${path}`;
-  const fullTitle =
-    path === "/" ? `${title} | ${SITE.name}` : `${title} | ${SITE.name}`;
+  const fullTitle = path === "/" ? title : `${title} | ${SITE.name}`;
   const image = ogImage ?? `${SITE.url}/og-default.jpg`;
 
   return {

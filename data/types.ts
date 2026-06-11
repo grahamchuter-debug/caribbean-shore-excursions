@@ -1,3 +1,13 @@
+export type PortImageTheme =
+  | "beach"
+  | "snorkel"
+  | "rainforest"
+  | "fortress"
+  | "viewpoint"
+  | "town"
+  | "catamaran"
+  | "wildlife";
+
 export interface Port {
   slug: string;
   name: string;
@@ -5,6 +15,7 @@ export interface Port {
   region: string;
   tagline: string;
   overview: string;
+  bestFor: string;
   bestExcursions: ExcursionItem[];
   portInfo: PortInfo;
   passengerTips: string[];
@@ -14,6 +25,13 @@ export interface Port {
   faqs: FAQ[];
   highlights: string[];
   imageAlt: string;
+  imageTheme: PortImageTheme;
+}
+
+export interface PortRelatedLink {
+  label: string;
+  href: string;
+  external?: boolean;
 }
 
 export interface ExcursionItem {
@@ -92,6 +110,7 @@ export interface ShipSchedulePort {
   name: string;
   country: string;
   description: string;
+  years?: string;
 }
 
 export interface ScheduleEntry {
@@ -107,4 +126,10 @@ export interface CruiseTip {
   title: string;
   excerpt: string;
   content: string;
+}
+
+export interface FeaturedPortCard {
+  slug: string;
+  description: string;
+  bestFor: string;
 }
