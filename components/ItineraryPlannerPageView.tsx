@@ -11,6 +11,16 @@ import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
+function PortLink({ portSlug }: { portSlug: string }) {
+  const port = getPortBySlug(portSlug);
+  if (!port) return <span>{portSlug}</span>;
+  return (
+    <Link href={`/ports/${portSlug}`} className="text-caribbean-700 hover:underline">
+      {port.name}
+    </Link>
+  );
+}
+
 export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlannerPage }) {
   const breadcrumbs = [
     { name: "Home", path: "/" },
@@ -18,9 +28,13 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
     { name: planner.title, path: `/${planner.slug}` },
   ];
 
-  const relatedComparisons = comparisons.filter((c) =>
-    planner.topPortSlugs.includes(c.portASlug) || planner.topPortSlugs.includes(c.portBSlug)
-  ).slice(0, 3);
+  const relatedComparisons = comparisons
+    .filter(
+      (c) =>
+        planner.topPortSlugs.includes(c.portASlug) ||
+        planner.topPortSlugs.includes(c.portBSlug),
+    )
+    .slice(0, 3);
 
   return (
     <>
@@ -29,7 +43,7 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
           breadcrumbSchema(breadcrumbs),
           faqSchema(planner.faqs),
           travelGuideSchema({
-            title: planner.title,
+            title: planner.seoTitle,
             description: planner.metaDescription,
             path: `/${planner.slug}`,
           }),
@@ -41,9 +55,10 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
           <Breadcrumbs items={breadcrumbs} />
 
           <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-4">About This Itinerary</h2>
-            <p className="text-gray-700 leading-relaxed text-lg">{planner.overview}</p>
-            <ul className="mt-6 space-y-3">
+            <h2 className="section-title text-2xl sm:text-3xl mb-4">Region Overview</h2>
+            <p className="text-gray-700 leading-relaxed text-lg mb-4">{planner.overview}</p>
+            <p className="text-gray-700 leading-relaxed mb-6">{planner.overviewDetail}</p>
+            <ul className="space-y-3">
               {planner.itineraryHighlights.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-gray-700">
                   <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-caribbean-700 text-white text-xs">
@@ -56,7 +71,7 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
           </section>
 
           <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-6">Top Ports on This Itinerary</h2>
+            <h2 className="section-title text-2xl sm:text-3xl mb-6">Ports Included</h2>
             <div className="grid gap-4 sm:grid-cols-2">
               {planner.topPortSlugs.map((slug) => {
                 const port = getPortBySlug(slug);
@@ -68,10 +83,11 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
                         {port.name}
                       </Link>
                     </h3>
+                    <p className="mt-1 text-xs text-caribbean-600 font-medium">{port.bestFor}</p>
                     <p className="mt-2 text-sm text-gray-600 line-clamp-2">{port.tagline}</p>
                     <div className="mt-4 flex flex-wrap gap-2">
                       <Link href={`/ports/${slug}`} className="btn-primary text-xs">
-                        Port Guide
+                        Authority Port Guide
                       </Link>
                       {hasShipSchedule(slug) && (
                         <Link href={`/ship-schedules/${slug}`} className="btn-secondary text-xs">
@@ -92,24 +108,119 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
               })}
             </div>
             <div className="mt-4">
-              <Link href={`/${planner.regionPageSlug}`} className="text-sm font-medium text-caribbean-700 hover:underline">
+              <Link
+                href={`/${planner.regionPageSlug}`}
+                className="text-sm font-medium text-caribbean-700 hover:underline"
+              >
                 View full region port guide →
               </Link>
             </div>
           </section>
 
           <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-6">Recommended Excursions</h2>
-            <ul className="space-y-3">
-              {planner.recommendedExcursions.map((exc) => (
-                <li key={exc} className="flex items-start gap-3 text-gray-700">
-                  <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-caribbean-700 text-white text-xs">
-                    ✓
-                  </span>
-                  {exc}
-                </li>
+            <h2 className="section-title text-2xl sm:text-3xl mb-6">Best Excursions</h2>
+            <div className="space-y-4">
+              {planner.bestExcursions.map((exc) => (
+                <div key={`${exc.portSlug}-${exc.name}`} className="card">
+                  <h3 className="font-semibold text-gray-900 text-lg">{exc.name}</h3>
+                  <p className="mt-1 text-sm text-caribbean-700">
+                    <PortLink portSlug={exc.portSlug} />
+                  </p>
+                  <p className="mt-2 text-gray-600 leading-relaxed">{exc.description}</p>
+                </div>
               ))}
-            </ul>
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="section-title text-2xl sm:text-3xl mb-6">Suggested Cruise Day Plans</h2>
+            <div className="space-y-6">
+              {planner.suggestedDayPlans.map((plan) => (
+                <div key={plan.title} className="rounded-xl border border-caribbean-100 bg-white p-6 shadow-sm">
+                  <h3 className="font-display text-lg font-bold text-gray-900">{plan.title}</h3>
+                  <p className="mt-1 text-sm text-caribbean-700">
+                    <PortLink portSlug={plan.portSlug} />
+                  </p>
+                  <div className="mt-4 grid gap-4 sm:grid-cols-2">
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600 mb-1">
+                        Morning
+                      </p>
+                      <p className="text-gray-700 leading-relaxed text-sm">{plan.morning}</p>
+                    </div>
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600 mb-1">
+                        Afternoon
+                      </p>
+                      <p className="text-gray-700 leading-relaxed text-sm">{plan.afternoon}</p>
+                    </div>
+                  </div>
+                  <p className="mt-4 text-sm text-gray-600 border-t border-gray-100 pt-4">
+                    <span className="font-medium text-gray-800">Tip:</span> {plan.tip}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="section-title text-2xl sm:text-3xl mb-6">Best Beaches</h2>
+            <div className="space-y-4">
+              {planner.bestBeaches.map((item) => (
+                <div key={item.title} className="rounded-lg border border-gray-200 bg-white p-5">
+                  <h3 className="font-semibold text-gray-900">{item.title}</h3>
+                  <p className="mt-1 text-sm text-caribbean-700">
+                    <PortLink portSlug={item.portSlug} />
+                  </p>
+                  <p className="mt-2 text-gray-700 leading-relaxed">{item.advice}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="section-title text-2xl sm:text-3xl mb-6">Best Snorkelling</h2>
+            <div className="space-y-4">
+              {planner.bestSnorkelling.map((item) => (
+                <div key={item.title} className="rounded-lg border border-caribbean-100 bg-caribbean-50/30 p-5">
+                  <h3 className="font-semibold text-gray-900">{item.title}</h3>
+                  <p className="mt-1 text-sm text-caribbean-700">
+                    <PortLink portSlug={item.portSlug} />
+                  </p>
+                  <p className="mt-2 text-gray-700 leading-relaxed">{item.advice}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="section-title text-2xl sm:text-3xl mb-6">Family Recommendations</h2>
+            <div className="space-y-4">
+              {planner.familyRecommendations.map((item) => (
+                <div key={item.title} className="rounded-lg border border-caribbean-100 bg-caribbean-50/40 p-5">
+                  <h3 className="font-semibold text-gray-900">{item.title}</h3>
+                  <p className="mt-1 text-sm text-caribbean-700">
+                    <PortLink portSlug={item.portSlug} />
+                  </p>
+                  <p className="mt-2 text-gray-700 leading-relaxed">{item.advice}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="mb-12">
+            <h2 className="section-title text-2xl sm:text-3xl mb-6">Private Tour Recommendations</h2>
+            <div className="space-y-4">
+              {planner.privateTourRecommendations.map((item) => (
+                <div key={item.title} className="rounded-lg border border-tropical-mango/30 bg-orange-50/30 p-5">
+                  <h3 className="font-semibold text-gray-900">{item.title}</h3>
+                  <p className="mt-1 text-sm text-caribbean-700">
+                    <PortLink portSlug={item.portSlug} />
+                  </p>
+                  <p className="mt-2 text-gray-700 leading-relaxed">{item.advice}</p>
+                </div>
+              ))}
+            </div>
           </section>
 
           <section className="mb-12">

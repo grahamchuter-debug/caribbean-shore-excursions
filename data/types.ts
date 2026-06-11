@@ -141,15 +141,42 @@ export interface BestGuidePage {
   excursionTypeSlug?: string;
 }
 
+export interface ItineraryDayPlan {
+  portSlug: string;
+  title: string;
+  morning: string;
+  afternoon: string;
+  tip: string;
+}
+
+export interface ItineraryPortRecommendation {
+  portSlug: string;
+  title: string;
+  advice: string;
+}
+
+export interface ItineraryExcursion {
+  name: string;
+  portSlug: string;
+  description: string;
+}
+
 export interface ItineraryPlannerPage {
   slug: string;
   title: string;
+  seoTitle: string;
   metaDescription: string;
   heroSubtitle: string;
   overview: string;
+  overviewDetail: string;
   itineraryHighlights: string[];
   topPortSlugs: string[];
-  recommendedExcursions: string[];
+  bestExcursions: ItineraryExcursion[];
+  suggestedDayPlans: ItineraryDayPlan[];
+  bestBeaches: ItineraryPortRecommendation[];
+  bestSnorkelling: ItineraryPortRecommendation[];
+  familyRecommendations: ItineraryPortRecommendation[];
+  privateTourRecommendations: ItineraryPortRecommendation[];
   regionPageSlug: string;
   bestGuideSlugs: string[];
   faqs: FAQ[];
