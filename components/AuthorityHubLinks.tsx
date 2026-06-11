@@ -2,6 +2,7 @@ import Link from "next/link";
 import { regions } from "@/data/regions";
 import { bestGuides } from "@/data/best-guides";
 import { itineraryPlanners } from "@/data/itinerary-planners";
+import { regionalCruisePlanners } from "@/data/regional-cruise-planners";
 import { comparisons } from "@/data/comparisons";
 import { cruiseLines } from "@/data/cruise-lines";
 
@@ -93,6 +94,21 @@ export function AuthorityHubLinks({
               className="rounded-full bg-white px-3 py-1.5 text-xs font-medium text-gray-700 border border-gray-200 hover:border-caribbean-200"
             >
               {planner.title.replace(" Planner", "")}
+            </Link>
+          ))}
+        </div>
+      </div>
+
+      <div className="mb-4">
+        <span className="text-xs text-gray-500 w-full mb-2 block">Regional cruise planners</span>
+        <div className="flex flex-wrap gap-2">
+          {regionalCruisePlanners.map((planner) => (
+            <Link
+              key={planner.slug}
+              href={`/${planner.slug}`}
+              className="rounded-full bg-white px-3 py-1.5 text-xs font-medium text-gray-700 border border-gray-200 hover:border-caribbean-200"
+            >
+              {planner.title.replace(" Cruise Planner", "")}
             </Link>
           ))}
         </div>

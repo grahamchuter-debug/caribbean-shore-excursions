@@ -324,6 +324,29 @@ export interface PortAuthorityContent {
   privateTours: PrivateTourOption[];
 }
 
+export interface RegionalCruisePlannerPage {
+  slug: string;
+  title: string;
+  seoTitle: string;
+  metaDescription: string;
+  heroSubtitle: string;
+  overview: string;
+  overviewDetail: string;
+  portComparison: string;
+  comparisonTable: BestGuideTableRow[];
+  topPortSlugs: string[];
+  bestExcursions: ItineraryExcursion[];
+  bestBeaches: ItineraryPortRecommendation[];
+  privateTourRecommendations: ItineraryPortRecommendation[];
+  familyRecommendations: ItineraryPortRecommendation[];
+  regionPageSlug: string;
+  parentPlannerSlug: string;
+  relatedRegionalPlannerSlugs: string[];
+  excursionTypeSlugs: string[];
+  bestGuideSlugs: string[];
+  faqs: FAQ[];
+}
+
 export interface RegionPage {
   slug: string;
   title: string;

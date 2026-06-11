@@ -10,6 +10,7 @@ import { featuredPortCards, HOMEPAGE_SCHEDULE_SLUGS, homepageFaqs } from "@/data
 import { regions } from "@/data/regions";
 import { bestGuides } from "@/data/best-guides";
 import { itineraryPlanners } from "@/data/itinerary-planners";
+import { regionalCruisePlanners } from "@/data/regional-cruise-planners";
 import { AuthorityPortCard } from "@/components/AuthorityPortCard";
 import { SchedulePreviewCard } from "@/components/SchedulePreviewCard";
 import { FAQSection } from "@/components/FAQSection";
@@ -332,8 +333,28 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Caribbean Regions */}
+      {/* Regional Cruise Planners */}
       <section className="section-padding bg-caribbean-50">
+        <div className="container-wide">
+          <h2 className="section-title">Regional Cruise Planners</h2>
+          <p className="section-subtitle mb-10">
+            ABC Islands, Virgin Islands, Bahamas, and Mexican Caribbean — port comparisons, beaches, private tours, and family picks.
+          </p>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {regionalCruisePlanners.map((planner) => (
+              <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient group">
+                <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
+                  {planner.title.replace(" Cruise Planner", "")}
+                </h3>
+                <p className="mt-2 text-sm text-gray-600 line-clamp-3">{planner.heroSubtitle}</p>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Caribbean Regions */}
+      <section className="section-padding bg-white">
         <div className="container-wide">
           <h2 className="section-title">Caribbean Cruise Regions</h2>
           <p className="section-subtitle mb-10">

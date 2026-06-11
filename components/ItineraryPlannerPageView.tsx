@@ -10,6 +10,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
+import { getRegionalPlannersByParentPlanner } from "@/data/regional-cruise-planners";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
 function PortLink({ portSlug }: { portSlug: string }) {
@@ -36,6 +37,8 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
         planner.topPortSlugs.includes(c.portBSlug),
     )
     .slice(0, 3);
+
+  const regionalPlanners = getRegionalPlannersByParentPlanner(planner.slug);
 
   return (
     <>
@@ -122,6 +125,23 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
             portSlugs={planner.topPortSlugs}
             intro="This itinerary covers the ports below. Visit each specialist local site for live availability, operator-specific pricing, and pier pickup details when you are ready to book."
           />
+
+          {regionalPlanners.length > 0 && (
+            <section className="mb-12">
+              <h2 className="section-title text-2xl sm:text-3xl mb-6">Regional Cruise Planners</h2>
+              <p className="text-gray-700 mb-6">
+                Drill into sub-regions on this itinerary with dedicated port comparisons, beach picks, and family excursion guides.
+              </p>
+              <div className="grid gap-4 sm:grid-cols-2">
+                {regionalPlanners.map((regional) => (
+                  <Link key={regional.slug} href={`/${regional.slug}`} className="card-gradient">
+                    <h3 className="font-semibold text-gray-900">{regional.title}</h3>
+                    <p className="mt-1 text-sm text-gray-600 line-clamp-2">{regional.heroSubtitle}</p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Best Excursions</h2>

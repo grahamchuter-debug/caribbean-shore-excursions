@@ -6,6 +6,7 @@ import { excursionTypes } from "@/data/excursion-types";
 import { cruiseLines } from "@/data/cruise-lines";
 import { cruiseTips } from "@/data/tips";
 import { itineraryPlanners } from "@/data/itinerary-planners";
+import { regionalCruisePlanners } from "@/data/regional-cruise-planners";
 import { bestGuides } from "@/data/best-guides";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { PageHero } from "@/components/PageHero";
@@ -107,9 +108,25 @@ export default function CruisePlannerPage() {
             </div>
           </div>
 
-          {/* Regional planners */}
+          {/* Regional cruise planners */}
           <div className="mb-16">
             <h2 className="section-title text-2xl mb-6">Regional Cruise Planners</h2>
+            <p className="text-gray-700 mb-6">
+              Deep-dive planners for ABC Islands, Virgin Islands, Bahamas, and Mexican Caribbean with port comparisons, excursion picks, and specialist links.
+            </p>
+            <div className="grid gap-4 sm:grid-cols-2 mb-8">
+              {regionalCruisePlanners.map((planner) => (
+                <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient">
+                  <h3 className="font-semibold text-gray-900">{planner.title}</h3>
+                  <p className="mt-1 text-sm text-gray-600 line-clamp-2">{planner.heroSubtitle}</p>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* Regional port hubs */}
+          <div className="mb-16">
+            <h2 className="section-title text-2xl mb-6">Ports by Region</h2>
             <p className="text-gray-700 mb-6">
               Jump to port guides and comparisons by Caribbean region to plan shore excursions faster.
             </p>

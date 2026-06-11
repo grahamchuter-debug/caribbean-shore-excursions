@@ -3,6 +3,7 @@ import type { RegionPage } from "@/data/types";
 import { getPortBySlug } from "@/data/ports";
 import { excursionTypes } from "@/data/excursion-types";
 import { getRegionBySlug } from "@/data/regions";
+import { getRegionalPlannersByRegionPage } from "@/data/regional-cruise-planners";
 import { hasShipSchedule } from "@/lib/routes";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -23,6 +24,8 @@ export function RegionPageView({ region }: { region: RegionPage }) {
   const relatedRegions = region.relatedRegionSlugs
     .map((slug) => getRegionBySlug(slug))
     .filter(Boolean);
+
+  const regionalPlanners = getRegionalPlannersByRegionPage(region.slug);
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
@@ -115,6 +118,23 @@ export function RegionPageView({ region }: { region: RegionPage }) {
             portSlugs={region.portSlugs}
             intro="Each port in this region has a dedicated local specialist website with live tour listings, transparent local pricing, and pier pickup details — the next step after reading this regional overview."
           />
+
+          {regionalPlanners.length > 0 && (
+            <section className="mb-12">
+              <h2 className="section-title text-2xl sm:text-3xl mb-6">Regional Cruise Planners</h2>
+              <p className="text-gray-700 mb-6">
+                Go deeper with port comparisons, beach picks, private tours, and family excursion recommendations for this region.
+              </p>
+              <div className="grid gap-4 sm:grid-cols-2">
+                {regionalPlanners.map((planner) => (
+                  <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient">
+                    <h3 className="font-semibold text-gray-900">{planner.title}</h3>
+                    <p className="mt-1 text-sm text-gray-600 line-clamp-2">{planner.heroSubtitle}</p>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Excursion Types</h2>

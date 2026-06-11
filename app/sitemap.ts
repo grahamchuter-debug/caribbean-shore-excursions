@@ -8,6 +8,7 @@ import { getAllSchedulePortSlugs } from "@/data/schedules";
 import { getAllRegionSlugs } from "@/data/regions";
 import { getAllBestGuideSlugs } from "@/data/best-guides";
 import { getAllItineraryPlannerSlugs } from "@/data/itinerary-planners";
+import { getAllRegionalCruisePlannerSlugs } from "@/data/regional-cruise-planners";
 import { portExcursionAuthority } from "@/data/port-excursion-authority";
 
 export const dynamic = "force-static";
@@ -95,6 +96,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.88,
   }));
 
+  const regionalPlannerPages = getAllRegionalCruisePlannerSlugs().map((slug) => ({
+    url: `${base}/${slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.88,
+  }));
+
   const flagshipAuthorityPage = {
     url: `${base}/${portExcursionAuthority.slug}`,
     lastModified: now,
@@ -108,6 +116,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...bestGuidePages,
     ...cruiseLineGuidePages,
     ...itineraryPages,
+    ...regionalPlannerPages,
     ...regionPages,
     ...portPages,
     ...comparePages,
