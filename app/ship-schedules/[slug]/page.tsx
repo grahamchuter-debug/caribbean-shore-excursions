@@ -59,7 +59,7 @@ export default async function ShipSchedulePortPage({
         ]}
       />
       <PageHero
-        title={`${port.name} Cruise Ship Schedule 2026`}
+        title={port.seoTitle}
         subtitle={port.description}
         compact
       />

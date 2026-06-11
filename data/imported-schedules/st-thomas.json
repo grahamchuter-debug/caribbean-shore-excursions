@@ -1,0 +1,4556 @@
+[
+  {
+    "date": "2027-01-01",
+    "ship": "Norwegian Jewel",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "06:45",
+    "departure": "15:00",
+    "timeInPort": "8h 15m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-01",
+    "ship": "Marella Discovery",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-01",
+    "ship": "Rhapsody Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-01",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-02",
+    "ship": "Silver Shadow",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-02",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-03",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-03",
+    "ship": "Explora I",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "21:00",
+    "timeInPort": "13h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-03",
+    "ship": "Rhapsody Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-03",
+    "ship": "Norwegian Getaway",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:00",
+    "departure": "20:00",
+    "timeInPort": "7h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-04",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-04",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-04",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-05",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-05",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-06",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-06",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-06",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-06",
+    "ship": "Celebrity Beyond",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "10:30",
+    "departure": "18:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-07",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-07",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-07",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-07",
+    "ship": "Seven Seas Mariner",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-09",
+    "ship": "Norwegian Pearl",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-10",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-10",
+    "ship": "Odyssey Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-11",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-11",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-11",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-12",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-12",
+    "ship": "Norwegian Bliss",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-12",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-12",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-13",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-13",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "20:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-14",
+    "ship": "Carnival Conquest",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-14",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-14",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-14",
+    "ship": "Carnival Pride",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-15",
+    "ship": "Marella Discovery",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-16",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-16",
+    "ship": "Explora I",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "20:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-17",
+    "ship": "Norwegian Pearl",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-17",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-17",
+    "ship": "Rhapsody Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-18",
+    "ship": "Azamara Journey",
+    "cruiseLine": "Azamara",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-18",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-19",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-19",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-20",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-20",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-20",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-20",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "12:30",
+    "departure": "20:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-21",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-21",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-22",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-22",
+    "ship": "Carnival Dream",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-23",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-24",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-24",
+    "ship": "Explora III",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-25",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-25",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-25",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-27",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-27",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-27",
+    "ship": "Celebrity Beyond",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "10:30",
+    "departure": "18:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-27",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "20:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-28",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-28",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-28",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-28",
+    "ship": "Norwegian Pearl",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-28",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-30",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-30",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-30",
+    "ship": "Odyssey Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-01-31",
+    "ship": "Rhapsody Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-01",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-01",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-02",
+    "ship": "Nieuw Amsterdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-02",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-03",
+    "ship": "Eurodam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-03",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-03",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:45",
+    "departure": "15:45",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-03",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-03",
+    "ship": "Celebrity Beyond",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "10:30",
+    "departure": "18:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-04",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-05",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-06",
+    "ship": "Norwegian Bliss",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-07",
+    "ship": "Norwegian Pearl",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-07",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-08",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-08",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-08",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-08",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-09",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-09",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-10",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-10",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-10",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "12:30",
+    "departure": "20:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-10",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "20:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-11",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-11",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-12",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-13",
+    "ship": "Explora III",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-14",
+    "ship": "Rhapsody Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-15",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-15",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-16",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-16",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-17",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-17",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:45",
+    "departure": "15:45",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-17",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-18",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-18",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-18",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-18",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-20",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-21",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-22",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-22",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-22",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-24",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-24",
+    "ship": "Eurodam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-24",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-24",
+    "ship": "Celebrity Beyond",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "10:30",
+    "departure": "18:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-24",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "20:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-25",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-25",
+    "ship": "Norwegian Pearl",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-25",
+    "ship": "Celebrity Eclipse",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-26",
+    "ship": "Marella Discovery",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-27",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-02-28",
+    "ship": "Rhapsody Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-01",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-01",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-02",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-02",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-03",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-03",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-03",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-03",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "12:30",
+    "departure": "20:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-04",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-04",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-05",
+    "ship": "Carnival Firenze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-06",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-06",
+    "ship": "Explora III",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-07",
+    "ship": "Norwegian Pearl",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-07",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-08",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-08",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-08",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-08",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-09",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-09",
+    "ship": "Norwegian Bliss",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-09",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-10",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-10",
+    "ship": "Celebrity Beyond",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "10:30",
+    "departure": "18:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-10",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "20:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-11",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-11",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-11",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-11",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-14",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-14",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-15",
+    "ship": "Carnival Firenze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-15",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-15",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-16",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-16",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-16",
+    "ship": "Nieuw Amsterdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "23:00",
+    "timeInPort": "15h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-16",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-17",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-17",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-17",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-17",
+    "ship": "Celebrity Beyond",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "10:30",
+    "departure": "18:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-18",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-18",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-20",
+    "ship": "Valiant Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-21",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-22",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-22",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-22",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-23",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-23",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-23",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-24",
+    "ship": "Rotterdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-24",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-24",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "12:30",
+    "departure": "20:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-24",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "20:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-25",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-25",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-27",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-27",
+    "ship": "Oceania Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-29",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-29",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-30",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-30",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-31",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-31",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-31",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-03-31",
+    "ship": "Celebrity Beyond",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "10:30",
+    "departure": "18:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-01",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-01",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-01",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-01",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-03",
+    "ship": "Norwegian Pearl",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-05",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "15:00",
+    "timeInPort": "7h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-05",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-05",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-06",
+    "ship": "Oceania Insignia",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-06",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-06",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-07",
+    "ship": "Carnival Firenze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-07",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-07",
+    "ship": "Celebrity Beyond",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "10:30",
+    "departure": "18:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-07",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "20:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-08",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-08",
+    "ship": "Celebrity Eclipse",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-08",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-11",
+    "ship": "Norwegian Jewel",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "12:00",
+    "departure": "20:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-12",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-13",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-14",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-14",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-14",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-14",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-21",
+    "ship": "Celebrity Beyond",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "10:30",
+    "departure": "18:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-21",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "20:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-22",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-22",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-22",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-27",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-28",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-28",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-04-28",
+    "ship": "Celebrity Beyond",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-02",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-04",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-05",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-05",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-05",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-06",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-06",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-06",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-12",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-12",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-12",
+    "ship": "Mardi Gras",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-13",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-13",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-16",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-18",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-19",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-19",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-19",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-23",
+    "ship": "Carnival Firenze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-26",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-26",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-26",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-05-30",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-01",
+    "ship": "Carnival Festivale",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-01",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-02",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-03",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-09",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-09",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-09",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-10",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-10",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-13",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-16",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-16",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-22",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-23",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-23",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-23",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-24",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-27",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-29",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-29",
+    "ship": "Carnival Festivale",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-29",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-30",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-06-30",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-01",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-06",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-07",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-07",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-08",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-11",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-13",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-14",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-14",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-14",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-15",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-20",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-21",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-21",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-22",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-25",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-27",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-27",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-28",
+    "ship": "Carnival Festivale",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-28",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-07-28",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-03",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-04",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-04",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-04",
+    "ship": "Icon Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-05",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-05",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-05",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-08",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-10",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-11",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-11",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-17",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-18",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-18",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-18",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-22",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-24",
+    "ship": "Carnival Festivale",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-24",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-24",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-25",
+    "ship": "Hero Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-25",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-26",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-26",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-08-31",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-01",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-01",
+    "ship": "Hero Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-02",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-05",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-07",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-07",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-08",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-08",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-08",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-14",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-15",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-15",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-15",
+    "ship": "Hero Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-16",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-19",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-21",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-21",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-22",
+    "ship": "Hero Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-22",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-28",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-29",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-29",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-29",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-29",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-09-30",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-03",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-05",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-05",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-06",
+    "ship": "Hero Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-06",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-07",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-12",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-13",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-13",
+    "ship": "Hero Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-14",
+    "ship": "Symphony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-17",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-19",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-19",
+    "ship": "Carnival Festivale",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-19",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-20",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-20",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-20",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-20",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-22",
+    "ship": "Carnival Breeze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-26",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-26",
+    "ship": "Norwegian Aura",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-27",
+    "ship": "Hero Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-27",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-28",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-28",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-10-31",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-02",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-02",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-03",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-03",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-04",
+    "ship": "Carnival Conquest",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-04",
+    "ship": "Carnival Pride",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-06",
+    "ship": "Carnival Firenze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-06",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-06",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-07",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "23:59",
+    "timeInPort": "16h 29m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-07",
+    "ship": "Azamara Quest",
+    "cruiseLine": "Azamara",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-07",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-08",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-10",
+    "ship": "Hero Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-10",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-10",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-10",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-11",
+    "ship": "MSC Seashore",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-12",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-13",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-14",
+    "ship": "Norwegian Bliss",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-14",
+    "ship": "Explora IV",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-14",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-15",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-15",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "12:00",
+    "departure": "20:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-16",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-16",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-17",
+    "ship": "Carnival Festivale",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-17",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-17",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-19",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-20",
+    "ship": "Star Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-20",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-21",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "22:00",
+    "timeInPort": "14h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-22",
+    "ship": "Emerald Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-22",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "12:00",
+    "departure": "20:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-23",
+    "ship": "MSC Seashore",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "11:00",
+    "departure": "21:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-23",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-24",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:30",
+    "timeInPort": "8h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-24",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-24",
+    "ship": "Hero Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-24",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-25",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-26",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-27",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-27",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-28",
+    "ship": "Grandeur Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-28",
+    "ship": "Rhapsody Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-29",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-29",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-29",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "12:00",
+    "departure": "20:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-30",
+    "ship": "Explora IV",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-30",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-11-30",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-01",
+    "ship": "Carnival Firenze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-01",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-01",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-02",
+    "ship": "Carnival Conquest",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-02",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-03",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-04",
+    "ship": "Azamara Quest",
+    "cruiseLine": "Azamara",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-05",
+    "ship": "Norwegian Bliss",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-05",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "22:00",
+    "timeInPort": "14h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-05",
+    "ship": "Rhapsody Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-06",
+    "ship": "Emerald Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-06",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "12:00",
+    "departure": "20:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-07",
+    "ship": "Adventure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-07",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "19:00",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-08",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-08",
+    "ship": "Hero Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-08",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-08",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-09",
+    "ship": "MSC Seashore",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-09",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-10",
+    "ship": "Explora IV",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-10",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-11",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-11",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-12",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-12",
+    "ship": "Rhapsody Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-13",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-14",
+    "ship": "Sun Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-14",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-15",
+    "ship": "Carnival Festivale",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-15",
+    "ship": "Oceania Sirena",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-15",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-15",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-16",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-16",
+    "ship": "Celebrity Ascent",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-16",
+    "ship": "Explora II",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-17",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "14:00",
+    "timeInPort": "7h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-17",
+    "ship": "Enchanted Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-18",
+    "ship": "Norwegian Bliss",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-18",
+    "ship": "Brilliant Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-18",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-19",
+    "ship": "Star Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-19",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "22:00",
+    "timeInPort": "14h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-19",
+    "ship": "Azamara Onward",
+    "cruiseLine": "Azamara",
+    "arrival": "08:00",
+    "departure": "14:00",
+    "timeInPort": "6h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-19",
+    "ship": "Rhapsody Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-20",
+    "ship": "Emerald Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-20",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-20",
+    "ship": "Freedom Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-21",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-22",
+    "ship": "Celebrity Silhouette",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-22",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-22",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-23",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-23",
+    "ship": "MSC Seashore",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-23",
+    "ship": "Carnival Firenze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-23",
+    "ship": "Seven Seas Voyager",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-23",
+    "ship": "Symphony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-24",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-24",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-25",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-25",
+    "ship": "Rhapsody Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-26",
+    "ship": "Explora IV",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-26",
+    "ship": "Harmony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-27",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-27",
+    "ship": "Hero Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-27",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "12:00",
+    "departure": "20:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-28",
+    "ship": "Norwegian Bliss",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-28",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-28",
+    "ship": "Vision Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-29",
+    "ship": "Star Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "12:30",
+    "departure": "19:00",
+    "timeInPort": "6h 30m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-30",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "06:45",
+    "departure": "14:00",
+    "timeInPort": "7h 15m",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-30",
+    "ship": "Symphony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-31",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-31",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-31",
+    "ship": "Celebrity Ascent",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  },
+  {
+    "date": "2027-12-31",
+    "ship": "Explora II",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "notes": "Source: CruiseTimetables.com — confirm with cruise line before booking."
+  }
+]

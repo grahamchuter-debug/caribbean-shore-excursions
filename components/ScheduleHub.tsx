@@ -60,7 +60,7 @@ export function ScheduleHub({
       )}
 
       <section>
-        <h2 className="section-title text-2xl sm:text-3xl mb-4">2026 Monthly Schedule</h2>
+        <h2 className="section-title text-2xl sm:text-3xl mb-4">Monthly Schedule</h2>
         <p className="text-sm text-gray-600 mb-4">
           Select a month to view scheduled ship calls. Tables are structured for verified data import
           with columns for date, ship, cruise line, arrival, departure, time in port, passenger

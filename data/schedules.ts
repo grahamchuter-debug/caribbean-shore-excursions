@@ -1,5 +1,6 @@
 import type { ScheduleEntry, ShipSchedulePort } from "./types";
 import { SCHEDULE_FAQS, SCHEDULE_PLANNING_TIPS } from "./schedule-content";
+import stThomasSchedule from "./imported-schedules/st-thomas.json";
 
 export const TOP_SCHEDULE_PORT_SLUGS = [
   "st-thomas",
@@ -19,15 +20,15 @@ export const schedulePorts: ShipSchedulePort[] = [
     slug: "st-thomas",
     name: "St. Thomas",
     country: "U.S. Virgin Islands",
-    seoTitle: "St. Thomas Cruise Ship Schedule 2026",
+    seoTitle: "St. Thomas Cruise Ship Schedule 2027",
     metaDescription:
-      "Check the 2026 St. Thomas cruise ship schedule — arrival and departure times at Havensight and Crown Bay to plan shore excursions around your port day.",
+      "Check the 2027 St. Thomas cruise ship schedule — verified arrival and departure times at Havensight and Crown Bay to plan shore excursions around your port day.",
     intro:
       "This page helps cruise passengers see which ships are scheduled at St. Thomas and plan shore excursions around published arrival and departure times. St. Thomas is one of the Caribbean's busiest ports, so knowing how many vessels are in port can help you avoid crowded beaches and sold-out tours.",
     description:
       "Eastern Caribbean hub with Havensight and Crown Bay terminals serving year-round cruise traffic.",
     scheduleOverview:
-      "St. Thomas regularly hosts multiple ships per day at Havensight and Crown Bay. Peak season from December through April brings the highest call volumes. Use the monthly tables below to spot busy days before booking Magens Bay, St. John ferry trips, or catamaran snorkel sails.",
+      "St. Thomas regularly hosts multiple ships per day at Havensight and Crown Bay. This page lists verified 2027 ship calls imported from CruiseTimetables.com — use the monthly tables to spot busy days before booking Magens Bay, St. John ferry trips, or catamaran snorkel sails.",
     relatedPortSlugs: ["st-maarten", "nassau", "puerto-plata"],
     excursionTypeSlugs: ["beaches", "snorkeling", "catamaran-cruises", "private-tours"],
     referenceScheduleUrl:
@@ -218,8 +219,10 @@ export const schedulePorts: ShipSchedulePort[] = [
   },
 ];
 
-/** Verified schedule rows only — empty until real data is imported. */
-export const portSchedules: Record<string, ScheduleEntry[]> = {};
+/** Verified schedule rows imported via scripts/import-schedules.mjs */
+export const portSchedules: Record<string, ScheduleEntry[]> = {
+  "st-thomas": stThomasSchedule as ScheduleEntry[],
+};
 
 export function getSchedulePortBySlug(slug: string): ShipSchedulePort | undefined {
   return schedulePorts.find((p) => p.slug === slug);
