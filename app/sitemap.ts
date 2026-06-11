@@ -3,7 +3,7 @@ import { SITE } from "@/lib/site";
 import { getAllPortSlugs } from "@/data/ports";
 import { getAllComparisonSlugs } from "@/data/comparisons";
 import { getAllExcursionTypeSlugs } from "@/data/excursion-types";
-import { getAllCruiseLineSlugs } from "@/data/cruise-lines";
+import { getAllCruiseLineSlugs, getAllCruiseLinePageSlugs } from "@/data/cruise-lines";
 import { getAllSchedulePortSlugs } from "@/data/schedules";
 import { getAllRegionSlugs } from "@/data/regions";
 import { getAllBestGuideSlugs } from "@/data/best-guides";
@@ -59,6 +59,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
+  const cruiseLineGuidePages = getAllCruiseLinePageSlugs().map((slug) => ({
+    url: `${base}/${slug}`,
+    lastModified: now,
+    changeFrequency: "weekly" as const,
+    priority: 0.88,
+  }));
+
   const schedulePages = getAllSchedulePortSlugs().map((slug) => ({
     url: `${base}/ship-schedules/${slug}`,
     lastModified: now,
@@ -90,6 +97,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     ...staticPages,
     ...bestGuidePages,
+    ...cruiseLineGuidePages,
     ...itineraryPages,
     ...regionPages,
     ...portPages,

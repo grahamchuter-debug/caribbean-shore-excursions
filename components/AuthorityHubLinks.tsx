@@ -3,6 +3,7 @@ import { regions } from "@/data/regions";
 import { bestGuides } from "@/data/best-guides";
 import { itineraryPlanners } from "@/data/itinerary-planners";
 import { comparisons } from "@/data/comparisons";
+import { cruiseLines } from "@/data/cruise-lines";
 
 const hubLinks = [
   { href: "/", label: "Homepage" },
@@ -55,6 +56,21 @@ export function AuthorityHubLinks({
           >
             All best guides
           </Link>
+        </div>
+      </div>
+
+      <div className="mb-4">
+        <span className="text-xs text-gray-500 w-full mb-2 block">Cruise line shore excursion guides</span>
+        <div className="flex flex-wrap gap-2">
+          {cruiseLines.map((line) => (
+            <Link
+              key={line.pageSlug}
+              href={`/${line.pageSlug}`}
+              className="rounded-full bg-white px-3 py-1.5 text-xs font-medium text-gray-700 border border-gray-200 hover:border-caribbean-200"
+            >
+              {line.name}
+            </Link>
+          ))}
         </div>
       </div>
 

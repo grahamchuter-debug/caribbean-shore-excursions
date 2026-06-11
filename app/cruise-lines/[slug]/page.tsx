@@ -17,8 +17,8 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
     const line = getCruiseLineBySlug(slug);
     if (!line) return {};
     return buildMetadata({
-      title: `${line.name} Caribbean Cruise Guide`,
-      description: line.overview.slice(0, 155) + "...",
+      title: line.seoTitle,
+      description: line.metaDescription,
       path: `/cruise-lines/${slug}`,
       keywords: [`${line.name} Caribbean`, `${line.name} shore excursions`, `${line.name} ports`],
     });
@@ -47,8 +47,8 @@ export default async function CruiseLinePage({
           breadcrumbSchema(breadcrumbs),
           faqSchema(line.faqs),
           travelGuideSchema({
-            title: `${line.name} Caribbean Cruise Guide`,
-            description: line.overview,
+            title: line.seoTitle,
+            description: line.metaDescription,
             path: `/cruise-lines/${slug}`,
           }),
         ]}
@@ -57,6 +57,12 @@ export default async function CruiseLinePage({
       <article className="section-padding">
         <div className="container-wide max-w-4xl">
           <Breadcrumbs items={breadcrumbs} />
+
+          <div className="mb-8">
+            <Link href={`/${line.pageSlug}`} className="btn-primary text-sm">
+              {line.name} Shore Excursions Authority Guide
+            </Link>
+          </div>
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-4">Overview</h2>

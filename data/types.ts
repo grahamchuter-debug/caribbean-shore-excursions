@@ -166,13 +166,43 @@ export interface ExcursionType {
   faqs: FAQ[];
 }
 
+export interface CruiseLineItinerary {
+  name: string;
+  duration: string;
+  ports: string;
+  description: string;
+}
+
+export interface CruiseLineExcursionRec {
+  name: string;
+  portSlug: string;
+  description: string;
+  duration: string;
+}
+
+export interface CruiseLinePortRecommendation {
+  title: string;
+  portSlug: string;
+  advice: string;
+}
+
 export interface CruiseLine {
   slug: string;
+  pageSlug: string;
   name: string;
   tagline: string;
+  seoTitle: string;
+  metaDescription: string;
   overview: string;
+  overviewDetail: string;
   caribbeanRoutes: string[];
+  popularItineraries: CruiseLineItinerary[];
   popularPorts: { slug: string; name: string }[];
+  recommendedExcursions: CruiseLineExcursionRec[];
+  familyRecommendations: CruiseLinePortRecommendation[];
+  beachRecommendations: CruiseLinePortRecommendation[];
+  adventureRecommendations: CruiseLinePortRecommendation[];
+  comparisonTable: BestGuideTableRow[];
   excursionTips: string[];
   bookingTips: string[];
   faqs: FAQ[];

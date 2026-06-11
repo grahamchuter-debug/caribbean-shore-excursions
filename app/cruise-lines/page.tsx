@@ -44,7 +44,7 @@ export default function CruiseLinesPage() {
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {cruiseLines.map((line) => (
-              <Link key={line.slug} href={`/cruise-lines/${line.slug}`} className="card-gradient group">
+              <Link key={line.slug} href={`/${line.pageSlug}`} className="card-gradient group">
                 <h2 className="font-display text-xl font-bold text-gray-900 group-hover:text-caribbean-700">
                   {line.name}
                 </h2>

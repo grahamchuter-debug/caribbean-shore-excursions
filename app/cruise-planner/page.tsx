@@ -269,8 +269,9 @@ export default function CruisePlannerPage() {
             </p>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {cruiseLines.map((line) => (
-                <Link key={line.slug} href={`/cruise-lines/${line.slug}`} className="card text-sm hover:border-caribbean-200">
+                <Link key={line.slug} href={`/${line.pageSlug}`} className="card text-sm hover:border-caribbean-200">
                   <span className="font-semibold text-gray-900">{line.name}</span>
+                  <span className="block text-xs text-caribbean-700 mt-1">Shore excursions guide →</span>
                 </Link>
               ))}
             </div>
