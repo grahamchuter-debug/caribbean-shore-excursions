@@ -69,7 +69,7 @@ Do **not** add `public/_redirects` rules that map extensionless URLs to `.html` 
 |-------|-------------|
 | `/` | Homepage with all key sections |
 | `/ports` | Caribbean port listing |
-| `/ports/[slug]` | Individual port guides (10 ports) |
+| `/ports/[slug]` | Individual port guides (12 ports) |
 | `/cruise-planner` | Step-by-step planning guide |
 | `/ship-schedules` | Ship schedule hub |
 | `/ship-schedules/[slug]` | Port-specific schedules (CSV-ready) |

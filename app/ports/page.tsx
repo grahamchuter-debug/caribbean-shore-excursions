@@ -48,6 +48,24 @@ export default function PortsPage() {
             ]}
           />
 
+          <section className="mb-12 rounded-xl border border-caribbean-100 bg-caribbean-50/40 p-6">
+            <h2 className="font-display text-xl font-bold text-gray-900 mb-2">All 12 Caribbean Cruise Ports</h2>
+            <p className="text-gray-700 text-sm mb-4">
+              Every port below has an authority guide, specialist local excursion website, related port links, and a Detailed Local Guide section.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {ports.map((port) => (
+                <Link
+                  key={port.slug}
+                  href={`/ports/${port.slug}`}
+                  className="rounded-full bg-white px-3 py-1.5 text-sm font-medium text-caribbean-700 border border-caribbean-100 hover:border-caribbean-300"
+                >
+                  {port.name}
+                </Link>
+              ))}
+            </div>
+          </section>
+
           <section className="mb-12">
             <h2 className="section-title text-2xl mb-6">Browse by Caribbean Region</h2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

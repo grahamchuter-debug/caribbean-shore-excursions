@@ -5,6 +5,7 @@ import { itineraryPlanners } from "@/data/itinerary-planners";
 import { regionalCruisePlanners } from "@/data/regional-cruise-planners";
 import { comparisons } from "@/data/comparisons";
 import { cruiseLines } from "@/data/cruise-lines";
+import { hasShipSchedule } from "@/lib/routes";
 
 const hubLinks = [
   { href: "/", label: "Homepage" },
@@ -148,9 +149,11 @@ export function AuthorityHubLinks({
           <Link href={`/ports/${portSlug}`} className="btn-secondary text-xs">
             Port Authority Guide
           </Link>
-          <Link href={`/ship-schedules/${portSlug}`} className="btn-secondary text-xs">
-            Ship Schedule
-          </Link>
+          {hasShipSchedule(portSlug) && (
+            <Link href={`/ship-schedules/${portSlug}`} className="btn-secondary text-xs">
+              Ship Schedule
+            </Link>
+          )}
         </div>
       )}
     </section>

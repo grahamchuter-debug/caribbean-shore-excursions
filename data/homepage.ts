@@ -1,15 +1,7 @@
 import type { FeaturedPortCard } from "./types";
+import { getAllPortSlugs } from "./ports";
 
-export const FEATURED_PORT_SLUGS = [
-  "cozumel",
-  "st-thomas",
-  "aruba",
-  "grand-cayman",
-  "nassau",
-  "roatan",
-  "puerto-plata",
-  "st-maarten",
-] as const;
+export const FEATURED_PORT_SLUGS = getAllPortSlugs();
 
 export const featuredPortCards: FeaturedPortCard[] = [
   {
@@ -60,6 +52,30 @@ export const featuredPortCards: FeaturedPortCard[] = [
       "Maho Beach plane spotting, Orient Bay beach clubs, and Dutch-French dual-nation exploration.",
     bestFor: "Dual-nation culture & beaches",
   },
+  {
+    slug: "curacao",
+    description:
+      "UNESCO Willemstad waterfront, Tugboat Beach snorkel, and ABC island culture beyond the beach strip.",
+    bestFor: "Culture & reef snorkeling",
+  },
+  {
+    slug: "costa-maya",
+    description:
+      "Chacchoben Mayan ruins, Mahahual beach clubs, and quieter Mexican Caribbean port days near the reef.",
+    bestFor: "Mayan ruins & quiet beaches",
+  },
+  {
+    slug: "ocho-rios",
+    description:
+      "Dunn's River Falls climbs, Mystic Mountain bobsled, and Jamaica rainforest adventure excursions.",
+    bestFor: "Waterfalls & rainforest tours",
+  },
+  {
+    slug: "falmouth",
+    description:
+      "Martha Brae bamboo rafting, colonial Falmouth heritage walks, and Jamaica north-coast highlights.",
+    bestFor: "River rafting & heritage tours",
+  },
 ];
 
 export const HOMEPAGE_SCHEDULE_SLUGS = [
@@ -71,6 +87,10 @@ export const HOMEPAGE_SCHEDULE_SLUGS = [
   "roatan",
   "puerto-plata",
   "st-maarten",
+  "curacao",
+  "costa-maya",
+  "ocho-rios",
+  "falmouth",
 ] as const;
 
 export const homepageFaqs = [
@@ -82,11 +102,11 @@ export const homepageFaqs = [
   {
     question: "Which Caribbean ports are best for shore excursions?",
     answer:
-      "Top ports include Cozumel for reef snorkeling, St. Thomas for beaches, Aruba for consistent sunshine, Grand Cayman for Stingray City, Nassau for Atlantis, Roatán for value snorkeling, Puerto Plata for waterfall adventures, and St. Maarten for dual-nation culture.",
+      "Top ports include Cozumel for reef snorkeling, St. Thomas for beaches, Aruba and Curaçao for ABC island variety, Grand Cayman for Stingray City, Nassau for Atlantis, Roatán for value snorkeling, Puerto Plata for waterfall adventures, Costa Maya for Mayan ruins, and Ocho Rios or Falmouth for Jamaica adventures.",
   },
   {
     question: "How do I check cruise ship schedules for Caribbean ports?",
     answer:
-      "Use our 2026 and 2027 ship schedule pages for major ports including St. Thomas, Cozumel, Aruba, Grand Cayman, Nassau, Roatán, Puerto Plata, and St. Maarten. Knowing which ships are in port helps you avoid crowds and sold-out excursions.",
+      "Use our 2026 and 2027 ship schedule pages for all twelve major ports including St. Thomas, Cozumel, Aruba, Curaçao, Grand Cayman, Nassau, Roatán, Puerto Plata, St. Maarten, Costa Maya, Ocho Rios, and Falmouth. Knowing which ships are in port helps you avoid crowds and sold-out excursions.",
   },
 ];

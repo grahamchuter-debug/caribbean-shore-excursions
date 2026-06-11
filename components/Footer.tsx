@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { SITE } from "@/lib/site";
-import { FEATURED_PORT_SLUGS } from "@/data/homepage";
-import { getPortBySlug } from "@/data/ports";
+import { getAllPortSlugs, getPortBySlug } from "@/data/ports";
 
 const footerLinks = {
   planning: [
@@ -11,7 +10,7 @@ const footerLinks = {
     { href: "/cruise-lines", label: "Cruise Lines" },
     { href: "/ports", label: "All Ports" },
   ],
-  ports: FEATURED_PORT_SLUGS.map((slug) => {
+  ports: getAllPortSlugs().map((slug) => {
     const port = getPortBySlug(slug);
     return port ? { href: `/ports/${slug}`, label: port.name } : null;
   }).filter(Boolean) as { href: string; label: string }[],
@@ -55,7 +54,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-caribbean-100 mb-4">Popular Ports</h3>
+            <h3 className="font-semibold text-caribbean-100 mb-4">All Ports</h3>
             <ul className="space-y-2">
               {footerLinks.ports.map((link) => (
                 <li key={link.href}>

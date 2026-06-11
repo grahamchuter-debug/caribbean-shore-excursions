@@ -106,9 +106,9 @@ export default function HomePage() {
         <div className="container-wide">
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
             <div>
-              <h2 className="section-title">Popular Caribbean Ports</h2>
+              <h2 className="section-title">All Caribbean Cruise Ports</h2>
               <p className="section-subtitle">
-                Destination-led guides to the Caribbean&apos;s top cruise ports — with authority port pages and specialist local excursion sites.
+                Twelve authority port guides with excursion recommendations, related port links, and specialist local booking sites.
               </p>
             </div>
             <Link href="/ports" className="btn-secondary shrink-0">
@@ -175,7 +175,7 @@ export default function HomePage() {
             </div>
             <div className="grid grid-cols-2 gap-4">
               {[
-                { label: "Port Guides", count: "10+", href: "/ports" },
+                { label: "Port Guides", count: "12", href: "/ports" },
                 { label: "Excursion Types", count: `${excursionTypes.length}`, href: "/excursion-types" },
                 { label: "Cruise Lines", count: `${cruiseLines.length}`, href: "/cruise-lines" },
                 { label: "Comparisons", count: `${comparisons.length}`, href: "/cruise-planner#compare" },

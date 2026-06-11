@@ -1,72 +1,130 @@
 import type { PortRelatedLink } from "./types";
+import { getPortBySlug } from "./ports";
 
-export const portRelatedLinks: Record<string, PortRelatedLink[]> = {
-  "st-thomas": [
-    { label: "Compare with St. Maarten", href: "/compare/st-thomas-vs-st-maarten" },
-    { label: "Compare with Tortola", href: "/eastern-caribbean-cruise-ports" },
-    { label: "Eastern Caribbean Cruise Ports", href: "/eastern-caribbean-cruise-ports" },
-    { label: "St. Thomas Shore Excursions", href: "https://stthomasshoreexcursion.com", external: true },
-  ],
-  curacao: [
-    { label: "Compare with Aruba", href: "/compare/aruba-vs-curacao" },
-    { label: "Southern Caribbean Cruise Ports", href: "/southern-caribbean-cruise-ports" },
-    { label: "Curaçao Shore Excursions", href: "https://curacaoshoreexcursions.com", external: true },
-  ],
-  aruba: [
-    { label: "Compare with Curaçao", href: "/compare/aruba-vs-curacao" },
-    { label: "Compare with Bonaire", href: "/southern-caribbean-cruise-ports" },
-    { label: "Southern Caribbean Cruise Ports", href: "/southern-caribbean-cruise-ports" },
-    { label: "Aruba Shore Excursions", href: "https://arubashoreexcursion.com", external: true },
-  ],
-  cozumel: [
-    { label: "Compare with Roatán", href: "/compare/roatan-vs-cozumel" },
-    { label: "Compare with Costa Maya", href: "/western-caribbean-cruise-ports" },
-    { label: "Western Caribbean Cruise Ports", href: "/western-caribbean-cruise-ports" },
-    { label: "Cozumel Cruise Excursions", href: "https://cozumelcruiseexcursion.com", external: true },
-  ],
-  "puerto-plata": [
-    { label: "Compare with Amber Cove", href: "/ports/puerto-plata" },
-    { label: "Compare with Samaná", href: "/dominican-republic-cruise-ports" },
-    { label: "Dominican Republic Cruise Ports", href: "/dominican-republic-cruise-ports" },
-    { label: "Puerto Plata Cruise Excursions", href: "https://puertoplatacruiseexcursion.com", external: true },
-  ],
-  "grand-cayman": [
-    { label: "Compare with Nassau", href: "/compare/grand-cayman-vs-nassau" },
-    { label: "Western Caribbean Cruise Ports", href: "/western-caribbean-cruise-ports" },
-    { label: "Grand Cayman Shore Excursions", href: "https://grandcaymanshoreexcursion.com", external: true },
-  ],
-  nassau: [
-    { label: "Compare with Grand Cayman", href: "/compare/grand-cayman-vs-nassau" },
-    { label: "Eastern Caribbean Cruise Ports", href: "/eastern-caribbean-cruise-ports" },
-    { label: "Nassau Shore Excursions", href: "https://nassaushoreexcursions.com", external: true },
-  ],
-  roatan: [
-    { label: "Compare with Cozumel", href: "/compare/roatan-vs-cozumel" },
-    { label: "Western Caribbean Cruise Ports", href: "/western-caribbean-cruise-ports" },
-    { label: "Roatán Excursion Planner", href: "https://roatan-excursion-planner.com", external: true },
-  ],
-  "st-maarten": [
-    { label: "Compare with St. Thomas", href: "/compare/st-thomas-vs-st-maarten" },
-    { label: "Eastern Caribbean Cruise Ports", href: "/eastern-caribbean-cruise-ports" },
-    { label: "St. Maarten Shore Excursions", href: "https://stmaartenshoreexcursions.com", external: true },
-  ],
-  "costa-maya": [
-    { label: "Compare with Cozumel", href: "/compare/roatan-vs-cozumel" },
-    { label: "Western Caribbean Cruise Ports", href: "/western-caribbean-cruise-ports" },
-    { label: "Costa Maya Shore Excursions", href: "https://costamayashoreexcursions.com", external: true },
-  ],
-  "ocho-rios": [
-    { label: "Compare with Falmouth", href: "/compare/ocho-rios-vs-falmouth" },
-    { label: "Jamaica Cruise Ports", href: "/jamaica-cruise-ports" },
-    { label: "Ocho Rios Shore Excursions", href: "https://ochoriosshoreexcursions.com", external: true },
-  ],
-  falmouth: [
-    { label: "Compare with Ocho Rios", href: "/compare/ocho-rios-vs-falmouth" },
-    { label: "Jamaica Cruise Ports", href: "/jamaica-cruise-ports" },
-    { label: "Falmouth Shore Excursions", href: "https://falmouthshoreexcursions.com", external: true },
-  ],
+/** 2–4 related Caribbean port slugs for cross-linking on each authority page. */
+const relatedPortSlugs: Record<string, string[]> = {
+  "st-thomas": ["st-maarten", "nassau", "puerto-plata"],
+  cozumel: ["costa-maya", "roatan", "grand-cayman"],
+  aruba: ["curacao", "st-maarten", "cozumel"],
+  curacao: ["aruba", "st-maarten", "cozumel"],
+  "grand-cayman": ["cozumel", "nassau", "roatan"],
+  nassau: ["grand-cayman", "st-thomas", "cozumel"],
+  roatan: ["cozumel", "costa-maya", "grand-cayman"],
+  "st-maarten": ["st-thomas", "aruba", "puerto-plata"],
+  "costa-maya": ["cozumel", "roatan", "ocho-rios"],
+  "puerto-plata": ["st-maarten", "st-thomas", "ocho-rios"],
+  "ocho-rios": ["falmouth", "costa-maya", "cozumel"],
+  falmouth: ["ocho-rios", "costa-maya", "grand-cayman"],
+};
+
+const comparisonLinks: Record<string, PortRelatedLink> = {
+  "st-thomas": { label: "Compare St. Thomas vs St. Maarten", href: "/compare/st-thomas-vs-st-maarten" },
+  aruba: { label: "Compare Aruba vs Curaçao", href: "/compare/aruba-vs-curacao" },
+  curacao: { label: "Compare Aruba vs Curaçao", href: "/compare/aruba-vs-curacao" },
+  cozumel: { label: "Compare Cozumel vs Roatán", href: "/compare/roatan-vs-cozumel" },
+  roatan: { label: "Compare Cozumel vs Roatán", href: "/compare/roatan-vs-cozumel" },
+  "costa-maya": { label: "Compare Cozumel vs Roatán", href: "/compare/roatan-vs-cozumel" },
+  "grand-cayman": { label: "Compare Grand Cayman vs Nassau", href: "/compare/grand-cayman-vs-nassau" },
+  nassau: { label: "Compare Grand Cayman vs Nassau", href: "/compare/grand-cayman-vs-nassau" },
+  "st-maarten": { label: "Compare St. Thomas vs St. Maarten", href: "/compare/st-thomas-vs-st-maarten" },
+  "puerto-plata": {
+    label: "Compare Amber Cove vs Puerto Plata",
+    href: "/compare/amber-cove-vs-puerto-plata",
+  },
+  "ocho-rios": { label: "Compare Ocho Rios vs Falmouth", href: "/compare/ocho-rios-vs-falmouth" },
+  falmouth: { label: "Compare Ocho Rios vs Falmouth", href: "/compare/ocho-rios-vs-falmouth" },
+};
+
+const regionalPlannerLinks: Record<string, PortRelatedLink> = {
+  "st-thomas": {
+    label: "Virgin Islands Cruise Planner",
+    href: "/virgin-islands-cruise-planner",
+  },
+  aruba: { label: "ABC Islands Cruise Planner", href: "/abc-islands-cruise-planner" },
+  curacao: { label: "ABC Islands Cruise Planner", href: "/abc-islands-cruise-planner" },
+  nassau: { label: "Bahamas Cruise Planner", href: "/bahamas-cruise-planner" },
+  cozumel: {
+    label: "Mexican Caribbean Cruise Planner",
+    href: "/mexican-caribbean-cruise-planner",
+  },
+  "costa-maya": {
+    label: "Mexican Caribbean Cruise Planner",
+    href: "/mexican-caribbean-cruise-planner",
+  },
+};
+
+const regionPageLinks: Record<string, PortRelatedLink> = {
+  "st-thomas": {
+    label: "Eastern Caribbean Cruise Ports",
+    href: "/eastern-caribbean-cruise-ports",
+  },
+  "st-maarten": {
+    label: "Eastern Caribbean Cruise Ports",
+    href: "/eastern-caribbean-cruise-ports",
+  },
+  "puerto-plata": {
+    label: "Dominican Republic Cruise Ports",
+    href: "/dominican-republic-cruise-ports",
+  },
+  nassau: { label: "Eastern Caribbean Cruise Ports", href: "/eastern-caribbean-cruise-ports" },
+  cozumel: {
+    label: "Western Caribbean Cruise Ports",
+    href: "/western-caribbean-cruise-ports",
+  },
+  roatan: {
+    label: "Western Caribbean Cruise Ports",
+    href: "/western-caribbean-cruise-ports",
+  },
+  "grand-cayman": {
+    label: "Western Caribbean Cruise Ports",
+    href: "/western-caribbean-cruise-ports",
+  },
+  "costa-maya": {
+    label: "Western Caribbean Cruise Ports",
+    href: "/western-caribbean-cruise-ports",
+  },
+  "ocho-rios": { label: "Jamaica Cruise Ports", href: "/jamaica-cruise-ports" },
+  falmouth: { label: "Jamaica Cruise Ports", href: "/jamaica-cruise-ports" },
+  aruba: {
+    label: "Southern Caribbean Cruise Ports",
+    href: "/southern-caribbean-cruise-ports",
+  },
+  curacao: {
+    label: "Southern Caribbean Cruise Ports",
+    href: "/southern-caribbean-cruise-ports",
+  },
 };
 
 export function getPortRelatedLinks(slug: string): PortRelatedLink[] {
-  return portRelatedLinks[slug] ?? [];
+  const port = getPortBySlug(slug);
+  if (!port) return [];
+
+  const links: PortRelatedLink[] = [];
+
+  for (const relSlug of relatedPortSlugs[slug] ?? []) {
+    const related = getPortBySlug(relSlug);
+    if (related) {
+      links.push({
+        label: `${related.name} port guide`,
+        href: `/ports/${relSlug}`,
+      });
+    }
+  }
+
+  const comparison = comparisonLinks[slug];
+  if (comparison) links.push(comparison);
+
+  const planner = regionalPlannerLinks[slug];
+  if (planner) links.push(planner);
+
+  const region = regionPageLinks[slug];
+  if (region) links.push(region);
+
+  links.push({
+    label: port.specialistName,
+    href: port.specialistUrl,
+    external: true,
+  });
+
+  return links;
 }

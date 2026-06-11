@@ -75,6 +75,46 @@ export const schedulePorts: ShipSchedulePort[] = [
     description:
       "Eastern Caribbean dual-nation port with year-round cruise traffic at the Dr. A.C. Wathey Cruise Facility.",
   },
+  {
+    slug: "curacao",
+    name: "Curaçao",
+    country: "Curaçao",
+    years: "2026–2027",
+    description:
+      "Southern Caribbean cultural port at Willemstad with reef snorkeling, UNESCO waterfront, and ABC island itineraries.",
+    scheduleOverview:
+      "Curaçao's Mathey Wharf receives consistent Southern and Eastern Caribbean traffic alongside Aruba on many itineraries. Carnival, Royal Caribbean, and MSC are frequent callers. Schedule data helps plan Willemstad walking tours and west-coast snorkel days around multi-ship arrivals.",
+  },
+  {
+    slug: "costa-maya",
+    name: "Costa Maya",
+    country: "Mexico",
+    years: "2026–2027",
+    description:
+      "Purpose-built Mexican Caribbean cruise port near Mahahual with Mayan ruins, beach clubs, and quieter reef access than Cozumel.",
+    scheduleOverview:
+      "Costa Maya's cruise village handles Western Caribbean calls with strong Carnival and Royal Caribbean volumes. Ships typically share the pier with one or two other vessels. Check schedules before booking Chacchoben ruins or Mahahual beach club excursions.",
+  },
+  {
+    slug: "ocho-rios",
+    name: "Ocho Rios",
+    country: "Jamaica",
+    years: "2026–2027",
+    description:
+      "Jamaica's adventure-focused north-coast port for Dunn's River Falls, Mystic Mountain, and rainforest excursions.",
+    scheduleOverview:
+      "Ocho Rios receives Western Caribbean traffic from Carnival, Royal Caribbean, and Norwegian with variable weekly call counts. Multi-ship days affect Dunn's River Falls timing — plan waterfall climbs early on busy schedule weeks.",
+  },
+  {
+    slug: "falmouth",
+    name: "Falmouth",
+    country: "Jamaica",
+    years: "2026–2027",
+    description:
+      "Historic Jamaica cruise port with Martha Brae rafting access and colonial town walks on select Western Caribbean itineraries.",
+    scheduleOverview:
+      "Falmouth sees fewer calls than Ocho Rios but hosts major Carnival and Royal Caribbean ships on Jamaica-focused routes. Monitor schedules to plan Martha Brae rafting and north-coast highlights with adequate return buffers.",
+  },
 ];
 
 export const portSchedules: Record<string, ScheduleEntry[]> = {
@@ -145,6 +185,30 @@ export const portSchedules: Record<string, ScheduleEntry[]> = {
     { date: "2026-01-17", ship: "Carnival Legend", cruiseLine: "Carnival", arrival: "09:00", departure: "19:00", passengers: "2,900" },
     { date: "2026-01-19", ship: "Norwegian Epic", cruiseLine: "Norwegian", arrival: "07:30", departure: "17:00", passengers: "4,100" },
     { date: "2026-01-22", ship: "Celebrity Beyond", cruiseLine: "Celebrity", arrival: "08:00", departure: "22:00", passengers: "3,900" },
+  ],
+  curacao: [
+    { date: "2026-01-16", ship: "Carnival Horizon", cruiseLine: "Carnival", arrival: "08:00", departure: "18:00", passengers: "4,700" },
+    { date: "2026-01-18", ship: "Celebrity Reflection", cruiseLine: "Celebrity", arrival: "07:30", departure: "19:00", passengers: "3,000" },
+    { date: "2026-01-21", ship: "MSC Divina", cruiseLine: "MSC", arrival: "09:00", departure: "20:00", passengers: "3,900" },
+    { date: "2026-02-14", ship: "Royal Princess", cruiseLine: "Princess", arrival: "08:00", departure: "18:00", passengers: "3,500" },
+  ],
+  "costa-maya": [
+    { date: "2026-01-15", ship: "Carnival Breeze", cruiseLine: "Carnival", arrival: "08:00", departure: "16:00", passengers: "3,700" },
+    { date: "2026-01-17", ship: "Navigator of the Seas", cruiseLine: "Royal Caribbean", arrival: "09:00", departure: "17:00", passengers: "3,800" },
+    { date: "2026-01-20", ship: "Carnival Vista", cruiseLine: "Carnival", arrival: "08:30", departure: "16:30", passengers: "3,900" },
+    { date: "2026-02-18", ship: "Norwegian Prima", cruiseLine: "Norwegian", arrival: "08:00", departure: "17:00", passengers: "3,200" },
+  ],
+  "ocho-rios": [
+    { date: "2026-01-16", ship: "Harmony of the Seas", cruiseLine: "Royal Caribbean", arrival: "07:30", departure: "16:00", passengers: "5,400" },
+    { date: "2026-01-19", ship: "Carnival Magic", cruiseLine: "Carnival", arrival: "08:00", departure: "17:00", passengers: "3,600" },
+    { date: "2026-01-22", ship: "Norwegian Escape", cruiseLine: "Norwegian", arrival: "08:00", departure: "17:30", passengers: "4,200" },
+    { date: "2026-02-11", ship: "Celebrity Equinox", cruiseLine: "Celebrity", arrival: "07:00", departure: "16:30", passengers: "2,850" },
+  ],
+  falmouth: [
+    { date: "2026-01-18", ship: "Carnival Horizon", cruiseLine: "Carnival", arrival: "08:00", departure: "17:00", passengers: "4,700" },
+    { date: "2026-01-24", ship: "Allure of the Seas", cruiseLine: "Royal Caribbean", arrival: "07:30", departure: "16:00", passengers: "5,400" },
+    { date: "2026-02-08", ship: "Carnival Celebration", cruiseLine: "Carnival", arrival: "09:00", departure: "18:00", passengers: "5,300" },
+    { date: "2026-03-01", ship: "MSC Meraviglia", cruiseLine: "MSC", arrival: "08:00", departure: "17:00", passengers: "4,500" },
   ],
 };
 
