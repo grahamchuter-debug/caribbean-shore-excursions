@@ -16,7 +16,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
     portGuideIntro:
       "Most cruise ships visiting St. Thomas dock in Charlotte Amalie at Havensight or Crown Bay. Cruise itineraries may refer to St. Thomas, Charlotte Amalie, or the U.S. Virgin Islands, but these generally refer to the same cruise destination.",
     scheduleIntro:
-      "Most cruise ships scheduled at St. Thomas arrive in Charlotte Amalie at Havensight or Crown Bay. Itineraries may list St. Thomas or Charlotte Amalie — both refer to the same port area for planning shore excursions.",
+      "Most cruise ships scheduled at St. Thomas arrive in Charlotte Amalie at Havensight or Crown Bay. Itineraries may list St. Thomas or Charlotte Amalie, both refer to the same port area for planning shore excursions.",
   },
   cozumel: {
     dockTown: "San Miguel de Cozumel",
@@ -60,7 +60,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
     alternativeNames: ["Cayman Islands", "Grand Cayman Island", "George Town Cayman"],
     tenderNote: "Ships anchor offshore; passengers tender into George Town.",
     portGuideIntro:
-      "Cruise ships visiting Grand Cayman anchor in George Town harbor and passengers tender to the George Town waterfront. Itineraries say Grand Cayman, but your port day begins at the tender landing in George Town — not at a walk-off pier.",
+      "Cruise ships visiting Grand Cayman anchor in George Town harbor and passengers tender to the George Town waterfront. Itineraries say Grand Cayman, but your port day begins at the tender landing in George Town, not at a walk-off pier.",
     scheduleIntro:
       "Grand Cayman cruise schedules list ship calls at George Town, where vessels anchor and use tenders. Itineraries may say Grand Cayman, but planning should assume tender time to George Town on port day.",
   },
@@ -106,7 +106,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
     terminals: ["Mahogany Bay Cruise Center", "Coxen Hole Cruise Terminal"],
     alternativeNames: ["Roatan Honduras", "Roatán", "Mahogany Bay", "Coxen Hole"],
     portGuideIntro:
-      "Cruise ships visiting Roatán dock at either Mahogany Bay Cruise Center or the Coxen Hole terminal. Itineraries list Roatán or Roatan, but your pier assignment determines taxi times and excursion pickup — check which terminal your ship uses.",
+      "Cruise ships visiting Roatán dock at either Mahogany Bay Cruise Center or the Coxen Hole terminal. Itineraries list Roatán or Roatan, but your pier assignment determines taxi times and excursion pickup, check which terminal your ship uses.",
     scheduleIntro:
       "Roatán cruise schedules include calls at Mahogany Bay and Coxen Hole. Itineraries may say Roatán or Roatan only, but arrival times correspond to one of these two cruise terminals.",
   },
@@ -117,7 +117,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
     portGuideIntro:
       "Cruise ships calling at Costa Maya dock at the purpose-built cruise port in Mahahual village. Itineraries say Costa Maya, but your ship ties up at the Mahahual pier with the cruise village immediately ashore.",
     scheduleIntro:
-      "Costa Maya cruise schedules show arrivals at the Mahahual cruise port. Itineraries list Costa Maya, but ship times apply to the village pier — not mainland Mexico ports.",
+      "Costa Maya cruise schedules show arrivals at the Mahahual cruise port. Itineraries list Costa Maya, but ship times apply to the village pier, not mainland Mexico ports.",
   },
   progreso: {
     dockTown: "Progreso",
@@ -126,7 +126,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
     portGuideIntro:
       "Cruise ships visiting Progreso dock at the Progreso International Terminal at the end of the Yucatán's long cruise pier. Itineraries may say Progreso or Yucatán; most excursions depart from the terminal area toward Mérida or Mayan sites inland.",
     scheduleIntro:
-      "Progreso cruise schedules list calls at the Progreso International Terminal. Itineraries may say Progreso or Yucatán, but arrival and departure times apply to this pier — allow shuttle time along the cruise terminal access road.",
+      "Progreso cruise schedules list calls at the Progreso International Terminal. Itineraries may say Progreso or Yucatán, but arrival and departure times apply to this pier, allow shuttle time along the cruise terminal access road.",
   },
   "puerto-plata": {
     dockTown: "Amber Cove & Taíno Bay",
@@ -137,7 +137,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
       "Puerto Plata city (nearby)",
     ],
     portGuideIntro:
-      "Cruise ships calling at Puerto Plata dock at Amber Cove or Taíno Bay on the Dominican Republic's Amber Coast. Itineraries may list Puerto Plata, Amber Cove, or Taíno Bay — all refer to these cruise terminals, not downtown Puerto Plata city directly.",
+      "Cruise ships calling at Puerto Plata dock at Amber Cove or Taíno Bay on the Dominican Republic's Amber Coast. Itineraries may list Puerto Plata, Amber Cove, or Taíno Bay, all refer to these cruise terminals, not downtown Puerto Plata city directly.",
     scheduleIntro:
       "Puerto Plata cruise schedules cover ship calls at Amber Cove and Taíno Bay. Itineraries may say Puerto Plata, Amber Cove, or Taíno Bay, but published times apply to whichever terminal your ship is assigned.",
   },
@@ -150,7 +150,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
       "Samaná Bay",
     ],
     portGuideIntro:
-      "Cruise ships visiting Samaná dock at the Samaná cruise terminal on the bay. Itineraries may list Samaná or Samana on the Dominican Republic's northeast peninsula — both refer to this port area for whale-watching and waterfall excursions.",
+      "Cruise ships visiting Samaná dock at the Samaná cruise terminal on the bay. Itineraries may list Samaná or Samana on the Dominican Republic's northeast peninsula, both refer to this port area for whale-watching and waterfall excursions.",
     scheduleIntro:
       "Samaná cruise ship schedules show arrivals at the Samaná cruise terminal. Itineraries may say Samaná or Samana, but port times apply to this bay-side terminal.",
   },
@@ -163,7 +163,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
       "Bayahibe (excursion launch point)",
     ],
     portGuideIntro:
-      "Cruise ships calling at La Romana dock at the Casa de Campo Cruise Port southeast of the city. Itineraries list La Romana, but ships berth at this dedicated terminal — the main gateway for Saona Island catamaran excursions.",
+      "Cruise ships calling at La Romana dock at the Casa de Campo Cruise Port southeast of the city. Itineraries list La Romana, but ships berth at this dedicated terminal, the main gateway for Saona Island catamaran excursions.",
     scheduleIntro:
       "La Romana cruise schedules reflect calls at the Casa de Campo Cruise Port. Itineraries may say La Romana only, but arrival times apply to this terminal rather than downtown La Romana.",
   },
@@ -172,7 +172,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
     terminals: ["Ocho Rios Cruise Pier"],
     alternativeNames: ["Ocho Rios Jamaica", "Jamaica north coast", "Ocho Rios Bay"],
     portGuideIntro:
-      "Cruise ships visiting Ocho Rios dock at the Ocho Rios cruise pier on Jamaica's north coast. Itineraries may say Ocho Rios or Jamaica — for cruise passengers, the port day centers on this pier near Dunn's River Falls and Mystic Mountain.",
+      "Cruise ships visiting Ocho Rios dock at the Ocho Rios cruise pier on Jamaica's north coast. Itineraries may say Ocho Rios or Jamaica, for cruise passengers, the port day centers on this pier near Dunn's River Falls and Mystic Mountain.",
     scheduleIntro:
       "Ocho Rios cruise schedules list arrivals at the Ocho Rios cruise pier. Itineraries may say Ocho Rios or Jamaica north coast, but published times apply to this docking location.",
   },
@@ -181,7 +181,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
     terminals: ["Historic Falmouth Pier"],
     alternativeNames: ["Falmouth Jamaica", "Jamaica north coast", "Trelawny"],
     portGuideIntro:
-      "Cruise ships calling at Falmouth dock at the Historic Falmouth Pier in the restored Georgian port town. Itineraries may list Falmouth or Jamaica — your gangway opens onto the heritage waterfront within walking distance of the town center.",
+      "Cruise ships calling at Falmouth dock at the Historic Falmouth Pier in the restored Georgian port town. Itineraries may list Falmouth or Jamaica, your gangway opens onto the heritage waterfront within walking distance of the town center.",
     scheduleIntro:
       "Falmouth cruise schedules show ship calls at the Historic Falmouth Pier. Itineraries may say Falmouth or Jamaica, but arrival and departure times apply to this north-coast cruise terminal.",
   },
@@ -194,7 +194,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
       "Jamaica north coast",
     ],
     portGuideIntro:
-      "Cruise ships visiting Montego Bay dock at the Montego Bay cruise terminal on Jamaica's north coast. Itineraries may say Montego Bay, MoBay, or Jamaica — your port day starts at this terminal with taxis to Doctor's Cave Beach and the Hip Strip.",
+      "Cruise ships visiting Montego Bay dock at the Montego Bay cruise terminal on Jamaica's north coast. Itineraries may say Montego Bay, MoBay, or Jamaica, your port day starts at this terminal with taxis to Doctor's Cave Beach and the Hip Strip.",
     scheduleIntro:
       "Montego Bay cruise schedules cover arrivals at the Montego Bay cruise terminal. Itineraries may list Montego Bay or MoBay, but published port times apply to this docking location.",
   },

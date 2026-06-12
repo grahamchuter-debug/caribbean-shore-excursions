@@ -25,7 +25,7 @@ export function normalizeShipKey(name: string): string {
 
 export function formatPassengerCapacity(min: number, max: number): string {
   if (min === max) return min.toLocaleString("en-US");
-  return `${min.toLocaleString("en-US")} - ${max.toLocaleString("en-US")}`;
+  return `${min.toLocaleString("en-US")} to ${max.toLocaleString("en-US")}`;
 }
 
 export function getShipCapacity(shipName: string): ShipCapacityRecord | null {

@@ -123,7 +123,7 @@ export function getMonthlyPageTitle(
   portSlug?: string,
 ): string {
   if (portSlug) return getScheduleMonthHeroTitle(portSlug, portName, monthKey);
-  return `${portName} Cruise Ship Schedule - ${formatMonthLabel(monthKey)}`;
+  return `${portName} Cruise Ship Schedule, ${formatMonthLabel(monthKey)}`;
 }
 
 export function getMonthlySeoTitle(

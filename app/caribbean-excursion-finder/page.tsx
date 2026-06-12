@@ -86,7 +86,7 @@ export default function CaribbeanExcursionFinderPage() {
           <div className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl">Compare Caribbean Cruise Ports</h2>
             <p className="section-subtitle mb-6">
-              Side-by-side planning for headline Caribbean ports — then jump to authority guides or local booking sites.
+              Side by side planning for headline Caribbean ports, then jump to authority guides or local booking sites.
             </p>
             <div className="hidden overflow-x-auto md:block">
               <table className="w-full min-w-[720px] border-collapse text-left text-sm">

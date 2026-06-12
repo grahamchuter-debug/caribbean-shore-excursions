@@ -17,7 +17,7 @@ export type ReturnConfidence = "high" | "moderate" | "caution";
 
 export type MatchTier = "Excellent Match" | "Strong Match" | "Good Match" | "Possible Match";
 
-/** Upper bound used internally by scoreExcursion — ranking uses raw values on this scale. */
+/** Upper bound used internally by scoreExcursion, ranking uses raw values on this scale. */
 export const MAX_RAW_EXCURSION_SCORE = 1.2;
 
 export interface FinderExcursionPick {
@@ -360,7 +360,7 @@ function buildDayPlan(portSlug: string, excursionName: string): string[] {
     "Disembark promptly and meet your excursion at the pier or approved pickup point",
     `Morning or early afternoon: ${excursionName}`,
     "Allow time for lunch near the port if your schedule permits",
-    "Return to the gangway with at least 45–60 minutes before all-aboard",
+    "Return to the gangway with at least 45 to 60 minutes before all-aboard",
   ];
 }
 
@@ -446,7 +446,7 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
         }
       : null,
     portPlans,
-    summaryLine: `${matchScore}/100 Caribbean Cruise Match for ${uniquePorts.length} port${uniquePorts.length === 1 ? "" : "s"} — optimised for ${travellerSummary}.`,
+    summaryLine: `${matchScore}/100 Caribbean Cruise Match for ${uniquePorts.length} port${uniquePorts.length === 1 ? "" : "s"}, optimised for ${travellerSummary}.`,
   };
 }
 

@@ -26,7 +26,7 @@ const FETCH_HEADERS = {
   Accept: "text/html,application/xhtml+xml",
 };
 
-/** Ships bundled on one wiki row — apply to each listed name. */
+/** Ships bundled on one wiki row, apply to each listed name. */
 const WIKI_BUNDLED_ROWS = [
   {
     names: ["Celebrity Apex", "Celebrity Ascent", "Celebrity Xcel"],

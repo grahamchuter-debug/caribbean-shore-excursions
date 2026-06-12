@@ -150,7 +150,7 @@ export const popularCaribbeanRoutes: CaribbeanRoutePreset[] = [
     title: "First-Timer Favourites",
     portSlugs: ["st-thomas", "cozumel", "nassau", "grand-cayman"],
     tags: ["Iconic highlights", "Easy logistics", "High reward"],
-    description: "The four ports most first-time Caribbean cruisers remember — strong payoff with simple planning.",
+    description: "The four ports most first-time Caribbean cruisers remember, strong payoff with simple planning.",
   },
 ];
 
@@ -163,7 +163,7 @@ export const portDayMistakes: PortDayMistake[] = [
   {
     portSlug: "grand-cayman",
     mistake: "Don't sleep in on tender day.",
-    better: "Stingray City and Seven Mile Beach both need early tender departures. Book the first boat and keep a 60–90 minute return buffer.",
+    better: "Stingray City and Seven Mile Beach both need early tender departures. Book the first boat and keep a 60 to 90 minute return buffer.",
   },
   {
     portSlug: "st-thomas",
@@ -178,7 +178,7 @@ export const portDayMistakes: PortDayMistake[] = [
   {
     portSlug: "roatan",
     mistake: "Don't assume every beach is walkable from the pier.",
-    better: "West Bay and reef snorkel combos need a short taxi or organized transfer — still excellent value versus busier Western ports.",
+    better: "West Bay and reef snorkel combos need a short taxi or organized transfer, still excellent value versus busier Western ports.",
   },
   {
     portSlug: "aruba",
@@ -206,7 +206,7 @@ export const finderFaqs = [
   {
     question: "What is the Caribbean Cruise Match score?",
     answer:
-      "An overall score out of 100 summarising how well your selected ports, traveller style, fitness level, and time ashore align with recommended excursions. Each port also shows a match label — Excellent Match, Strong Match, Good Match, or Possible Match — so you can compare recommendations at a glance.",
+      "An overall score out of 100 summarising how well your selected ports, traveller style, fitness level, and time ashore align with recommended excursions. Each port also shows a match label, Excellent Match, Strong Match, Good Match, or Possible Match, so you can compare recommendations at a glance.",
   },
   {
     question: "What do return-to-ship confidence labels mean?",

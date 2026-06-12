@@ -58,7 +58,7 @@ export function getContentInventory(): ContentInventory {
   };
 }
 
-/** Homepage Cruise Planner statistics — total content assets, not category counts. */
+/** Homepage Cruise Planner statistics, total content assets, not category counts. */
 export function getPlannerStatCards(): PlannerStatCard[] {
   const inventory = getContentInventory();
 

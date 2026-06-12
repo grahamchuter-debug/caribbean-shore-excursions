@@ -19,7 +19,7 @@ function normalizeKey(name) {
 
 function formatCapacity(min, max) {
   const fmt = (n) => n.toLocaleString("en-US");
-  return min === max ? fmt(min) : `${fmt(min)} - ${fmt(max)}`;
+  return min === max ? fmt(min) : `${fmt(min)} to ${fmt(max)}`;
 }
 
 function buildLookup(capacityData) {

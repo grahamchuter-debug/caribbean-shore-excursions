@@ -267,7 +267,7 @@ export function CaribbeanExcursionFinder({
 
         <div className="mt-6">
           <p className="text-sm font-semibold text-gray-900">What type of traveller are you?</p>
-          <p className="text-xs text-gray-500">Select one or more — we map these to excursion picks automatically</p>
+          <p className="text-xs text-gray-500">Select one or more. We map these to excursion picks automatically.</p>
           <div className="mt-3 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
             {travellerTypes.map((traveller) => {
               const active = selectedTravellers.includes(traveller.id);
@@ -484,7 +484,7 @@ export function CaribbeanExcursionFinder({
           </div>
 
           <p className="text-sm text-gray-500">
-            Rules-based recommendations only — always confirm excursion duration and all-aboard times with your operator
+            Rules based recommendations only. Always confirm excursion duration and all aboard times with your operator.
             and cruise line.
           </p>
         </section>

@@ -72,7 +72,7 @@ export const comparisons: Comparison[] = [
       portA:
         "Oranjestad's two cruise terminals are modern and high-volume, with air-conditioned excursion halls, duty-free shopping, and taxi marshals at the gate. Downtown is walkable within minutes, though popular catamaran sails queue early on multi-ship days.",
       portB:
-        "Mathey Wharf puts UNESCO-listed Handelskade immediately in front of you — one of the Caribbean's best pier-to-culture walks. The terminal area is compact and less commercial than Aruba, with dive shops and Willemstad food stops steps from the gangway.",
+        "Mathey Wharf puts UNESCO-listed Handelskade immediately in front of you, one of the Caribbean's best pier-to-culture walks. The terminal area is compact and less commercial than Aruba, with dive shops and Willemstad food stops steps from the gangway.",
     },
     bestOverall:
       "Aruba wins for beaches, sailing, and relaxed resort-style days. Curaçao wins for diving, UNESCO heritage, and travelers who want cultural depth over lounging. Both are excellent Southern Caribbean ports outside the hurricane belt.",

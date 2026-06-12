@@ -30,7 +30,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
     ],
     snorkelling: [
       { site: "Karpata", description: "Classic marine park site with dense coral and easy shore entry." },
-      { site: "1,000 Steps", description: "Dramatic staircase descent to pristine reef — popular dive and snorkel site." },
+      { site: "1,000 Steps", description: "Dramatic staircase descent to pristine reef, popular dive and snorkel site." },
       { site: "Hilma Hooker wreck", description: "Intentionally sunk vessel creating an artificial reef for advanced snorkelers." },
     ],
     privateTours: [
@@ -67,7 +67,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
       "Couples snorkel sail to Norman Island caves",
     ],
     snorkelling: [
-      { site: "Norman Island (The Caves)", description: "Snorkel grottoes reached by catamaran — classic BVI experience." },
+      { site: "Norman Island (The Caves)", description: "Snorkel grottoes reached by catamaran, classic BVI experience." },
       { site: "Brewer's Bay Reef", description: "Accessible reef off the north shore with healthy fish populations." },
       { site: "Cooper Island", description: "Snorkel stop on multi-island catamaran itineraries." },
     ],
@@ -88,7 +88,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
       "Direct pier docking on the world's longest cruise terminal",
     ],
     bestBeaches: [
-      { name: "Progreso Malecón", description: "Gulf beach and promenade near town — convenient but not reef-quality." },
+      { name: "Progreso Malecón", description: "Gulf beach and promenade near town, convenient but not reef-quality." },
       { name: "Sisal (excursion)", description: "Quieter fishing village beach on combination cultural tours." },
       { name: "Beach club packages", description: "Organized lounger and lunch setups for relaxed port afternoons." },
     ],
@@ -105,7 +105,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
       "Couples cooking or tasting experience in Mérida",
     ],
     snorkelling: [
-      { site: "Progreso offshore", description: "Limited reef snorkeling — Progreso is a culture and ruins port, not a reef destination." },
+      { site: "Progreso offshore", description: "Limited reef snorkeling, Progreso is a culture and ruins port, not a reef destination." },
       { site: "Cenote stops (inland tours)", description: "Freshwater cave swims on some Yucatán combination excursions." },
       { site: "Cozumel (compare ports)", description: "Passengers prioritizing reef snorkel should compare Progreso vs Cozumel itineraries." },
     ],
@@ -148,7 +148,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
       { site: "Los Haitises coast", description: "Mangrove and coastal scenery rather than reef-focused snorkel." },
     ],
     privateTours: [
-      { name: "Private whale watching boat", description: "Smaller vessel with flexible timing during January–March season." },
+      { name: "Private whale watching boat", description: "Smaller vessel with flexible timing during January to March season." },
       { name: "Private El Limón adventure", description: "Dedicated guide for waterfall trek or horseback route." },
       { name: "Private Playa Rincón day", description: "Boat transfer and beach time on your schedule." },
     ],
@@ -202,7 +202,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
       "Resort beach day passes offer predictable facilities for cruise passengers",
     ],
     bestBeaches: [
-      { name: "Doctor's Cave Beach", description: "Clear mineral water, chairs, and Hip Strip access — the MoBay classic." },
+      { name: "Doctor's Cave Beach", description: "Clear mineral water, chairs, and Hip Strip access, the MoBay classic." },
       { name: "Margaritaville Beach", description: "Beach club with pool, water slide, and organized pier transfers." },
       { name: "Resort beach day passes", description: "All-inclusive lounger, lunch, and facility packages at major hotels." },
     ],

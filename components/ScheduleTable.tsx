@@ -3,7 +3,7 @@ import type { ScheduleEntry } from "@/data/types";
 function getEntryNotes(entry: ScheduleEntry): string {
   if (entry.notes) return entry.notes;
   if (entry.cruiseLine.toLowerCase().includes("verify")) return "Verify with cruise line";
-  return "-";
+  return "n/a";
 }
 
 export function ScheduleTable({
@@ -72,9 +72,9 @@ export function ScheduleTable({
               <td className="px-4 py-3 text-sm text-gray-600 whitespace-nowrap">{entry.arrival}</td>
               <td className="px-4 py-3 text-sm text-gray-600 whitespace-nowrap">{entry.departure}</td>
               <td className="px-4 py-3 text-sm text-gray-600 whitespace-nowrap">
-                {entry.timeInPort ?? "-"}
+                {entry.timeInPort ?? "n/a"}
               </td>
-              <td className="px-4 py-3 text-sm text-gray-600">{entry.passengers ?? "-"}</td>
+              <td className="px-4 py-3 text-sm text-gray-600">{entry.passengers ?? "n/a"}</td>
               {showNotes && (
                 <td className="px-4 py-3 text-sm text-gray-600">{getEntryNotes(entry)}</td>
               )}

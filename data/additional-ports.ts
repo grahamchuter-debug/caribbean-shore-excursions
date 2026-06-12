@@ -27,10 +27,10 @@ export const additionalPorts: Port[] = [
       safetyNotes: "Marine park rules prohibit touching coral. Use reef-safe sunscreen and licensed dive operators.",
     },
     passengerTips: [
-      "Bonaire's beaches are reef-entry points — water shoes are essential",
+      "Bonaire's beaches are reef-entry points, water shoes are essential",
       "Book guided reef snorkel or dive tours early on busy Southern Caribbean weeks",
       "Flamingo viewing requires transport to salt pans, not walkable from pier",
-      "The island has no traffic lights — drive carefully if renting a vehicle",
+      "The island has no traffic lights, drive carefully if renting a vehicle",
       "Outside the hurricane belt with reliable year-round port calls",
     ],
     topAttractions: [
@@ -75,7 +75,7 @@ export const additionalPorts: Port[] = [
       safetyNotes: "Tender operations depend on sea conditions. Book sailing excursions with operators who guarantee on-time pier return.",
     },
     passengerTips: [
-      "Tortola requires tenders — disembark early on busy Eastern Caribbean days",
+      "Tortola requires tenders, disembark early on busy Eastern Caribbean days",
       "Virgin Gorda day trips need full-day planning and reliable operators",
       "BVI catamaran sails are the signature experience, book before embarkation",
       "Cane Garden Bay is a 20-minute taxi from Road Town",
@@ -123,10 +123,10 @@ export const additionalPorts: Port[] = [
       safetyNotes: "Use licensed operators for inland ruin tours. Allow generous return buffers for Uxmal and Celestún drives.",
     },
     passengerTips: [
-      "Progreso's pier is long — factor shuttle time when planning independent exploration",
+      "Progreso's pier is long, factor shuttle time when planning independent exploration",
       "Mérida is the cultural highlight, not Progreso beach town itself",
       "Uxmal tours need early departure slots for safe ship return",
-      "Celestún flamingo season peaks November–March",
+      "Celestún flamingo season peaks November to March",
       "Compare Progreso vs Cozumel: culture and ruins here, reef snorkeling there",
     ],
     topAttractions: [
@@ -156,7 +156,7 @@ export const additionalPorts: Port[] = [
     overview:
       "Samaná is the Dominican Republic's nature-focused cruise port on the northeast peninsula, famous for seasonal humpback whale watching, El Limón waterfall hikes, and secluded beaches like Playa Rincón. Ships dock at the Samaná cruise terminal with the town waterfront and excursion piers a short transfer away.",
     bestExcursions: [
-      { name: "Humpback Whale Watching", description: "Seasonal boat tours to breeding grounds (January–March peak).", duration: "3-4 hours", type: "Wildlife", rating: 4.9 },
+      { name: "Humpback Whale Watching", description: "Seasonal boat tours to breeding grounds (January to March peak).", duration: "3-4 hours", type: "Wildlife", rating: 4.9 },
       { name: "El Limón Waterfall Horseback", description: "Horse trek through rainforest to a 50-meter cascade swim.", duration: "4-5 hours", type: "Adventure", rating: 4.8 },
       { name: "Playa Rincón Beach", description: "Palm-fringed secluded beach on the peninsula's east coast.", duration: "5-6 hours", type: "Beach", rating: 4.7 },
       { name: "Los Haitises National Park", description: "Mangrove boat tour with Taino cave pictographs.", duration: "5-6 hours", type: "Nature", rating: 4.6 },
@@ -171,8 +171,8 @@ export const additionalPorts: Port[] = [
       safetyNotes: "Whale tours are seasonal. Book with licensed operators who monitor ship departure times.",
     },
     passengerTips: [
-      "Whale watching peaks January–March — confirm season before booking",
-      "El Limón involves horseback or hiking — wear closed shoes and bring swimwear",
+      "Whale watching peaks January to March, confirm season before booking",
+      "El Limón involves horseback or hiking, wear closed shoes and bring swimwear",
       "Playa Rincón requires a boat or long drive, plan full-day timing",
       "Samaná is quieter and more nature-led than Puerto Plata's waterfall circuit",
       "Book early on ships that share the peninsula with multiple vessels",
@@ -219,7 +219,7 @@ export const additionalPorts: Port[] = [
       safetyNotes: "Saona Island tours are full-day commitments. Confirm ship departure time with your operator before booking.",
     },
     passengerTips: [
-      "Saona Island is La Romana's signature excursion — book before embarkation on busy weeks",
+      "Saona Island is La Romana's signature excursion, book before embarkation on busy weeks",
       "Altos de Chavón pairs well with a half-day before or after island tours",
       "Catalina Island snorkel suits passengers who want reef time without a full Saona day",
       "La Romana is warmer and more resort-oriented than Puerto Plata's north coast",
@@ -267,7 +267,7 @@ export const additionalPorts: Port[] = [
       safetyNotes: "Use licensed taxis and organized excursions. Stick to tourist corridors and book through reputable operators.",
     },
     passengerTips: [
-      "Doctor's Cave Beach is Montego Bay's classic swim spot — arrive early on busy ship days",
+      "Doctor's Cave Beach is Montego Bay's classic swim spot, arrive early on busy ship days",
       "Dunn's River Falls from MoBay adds significant drive time versus Ocho Rios",
       "Rose Hall tours suit history lovers who want a shorter excursion than falls climbs",
       "The Hip Strip has restaurants, bars, and beach clubs within a short taxi ride",

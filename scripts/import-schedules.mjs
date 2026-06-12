@@ -98,7 +98,7 @@ function normalizeShipKey(name) {
 
 function formatPassengerCapacity(min, max) {
   const fmt = (n) => n.toLocaleString("en-US");
-  return min === max ? fmt(min) : `${fmt(min)} - ${fmt(max)}`;
+  return min === max ? fmt(min) : `${fmt(min)} to ${fmt(max)}`;
 }
 
 function loadCapacityLookup() {
@@ -311,7 +311,7 @@ if (capacityLookup) {
   }
   console.log(`Passenger capacities applied to ${enriched}/${allEntries.length} entries`);
 } else {
-  console.warn("No ship-capacities.json found — run: node scripts/import-ship-capacities.mjs");
+  console.warn("No ship-capacities.json found, run: node scripts/import-ship-capacities.mjs");
 }
 
 allEntries.sort((a, b) => a.date.localeCompare(b.date) || a.arrival.localeCompare(b.arrival));

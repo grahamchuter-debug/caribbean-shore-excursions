@@ -28,7 +28,7 @@ export function getScheduleMonthHeroTitle(
   destinationName: string,
   monthKey: string,
 ): string {
-  return `${formatDestinationWithDock(destinationName, slug)} Cruise Ship Schedule - ${formatMonthLabel(monthKey)}`;
+  return `${formatDestinationWithDock(destinationName, slug)} Cruise Ship Schedule, ${formatMonthLabel(monthKey)}`;
 }
 
 export function getPortGuideIntro(slug: string): string | undefined {
@@ -49,7 +49,7 @@ export function augmentMetadataTitle(
   if (baseTitle.startsWith(destinationName)) {
     return baseTitle.replace(destinationName, `${destinationName} (${naming.dockTown})`);
   }
-  return `${destinationName} (${naming.dockTown}) — ${baseTitle}`;
+  return `${destinationName} (${naming.dockTown}), ${baseTitle}`;
 }
 
 export function augmentMetadataDescription(
