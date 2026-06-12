@@ -281,7 +281,6 @@ export interface ShipSchedulePort {
   faqs?: FAQ[];
   relatedPortSlugs: string[];
   excursionTypeSlugs: string[];
-  referenceScheduleUrl?: string;
   usesTender?: boolean;
 }
 
@@ -293,7 +292,6 @@ export interface ScheduleEntry {
   departure: string;
   timeInPort?: string;
   passengers?: string;
-  notes?: string;
   isPlaceholder?: boolean;
 }
 

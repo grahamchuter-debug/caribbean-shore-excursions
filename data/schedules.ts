@@ -1,6 +1,7 @@
 import type { ScheduleEntry, ShipSchedulePort } from "./types";
 import { SCHEDULE_FAQS, SCHEDULE_PLANNING_TIPS } from "./schedule-content";
 import stThomasSchedule from "./imported-schedules/st-thomas.json";
+import ochoRiosSchedule from "./imported-schedules/ocho-rios.json";
 
 export const TOP_SCHEDULE_PORT_SLUGS = [
   "st-thomas",
@@ -22,17 +23,15 @@ export const schedulePorts: ShipSchedulePort[] = [
     country: "U.S. Virgin Islands",
     seoTitle: "St. Thomas Cruise Ship Schedule 2027",
     metaDescription:
-      "Check the 2027 St. Thomas cruise ship schedule — verified arrival and departure times at Havensight and Crown Bay to plan shore excursions around your port day.",
+      "Check the 2027 St. Thomas cruise ship schedule, verified arrival and departure times at Havensight and Crown Bay to plan shore excursions around your port day.",
     intro:
       "This page helps cruise passengers see which ships are scheduled at St. Thomas and plan shore excursions around published arrival and departure times. St. Thomas is one of the Caribbean's busiest ports, so knowing how many vessels are in port can help you avoid crowded beaches and sold-out tours.",
     description:
       "Eastern Caribbean hub with Havensight and Crown Bay terminals serving year-round cruise traffic.",
     scheduleOverview:
-      "St. Thomas regularly hosts multiple ships per day at Havensight and Crown Bay. This page lists verified 2027 ship calls imported from CruiseTimetables.com — use the monthly tables to spot busy days before booking Magens Bay, St. John ferry trips, or catamaran snorkel sails.",
+      "St. Thomas regularly hosts multiple ships per day at Havensight and Crown Bay. This page lists verified 2027 ship calls. Use the monthly tables to spot busy days before booking Magens Bay, St. John ferry trips, or catamaran snorkel sails.",
     relatedPortSlugs: ["st-maarten", "nassau", "puerto-plata"],
     excursionTypeSlugs: ["beaches", "snorkeling", "catamaran-cruises", "private-tours"],
-    referenceScheduleUrl:
-      "https://www.cruisetimetables.com/cruises-to-st-thomas-us-virgin-islands.html",
     planningTips: [...SCHEDULE_PLANNING_TIPS],
     faqs: SCHEDULE_FAQS,
   },
@@ -51,7 +50,6 @@ export const schedulePorts: ShipSchedulePort[] = [
       "Cozumel is among the world's busiest cruise ports, with multiple daily calls at Punta Langosta, International Pier, and Puerta Maya during peak season. Check monthly arrivals to plan Palancar Reef snorkel departures and avoid pier congestion on the busiest schedule days.",
     relatedPortSlugs: ["costa-maya", "roatan", "grand-cayman"],
     excursionTypeSlugs: ["snorkeling", "beaches", "catamaran-cruises", "adventure-tours"],
-    referenceScheduleUrl: "https://www.cruisetimetables.com/cruises-to-cozumel-mexico.html",
     planningTips: [...SCHEDULE_PLANNING_TIPS],
     faqs: SCHEDULE_FAQS,
   },
@@ -70,8 +68,6 @@ export const schedulePorts: ShipSchedulePort[] = [
       "Aruba's Port of Oranjestad receives steady Southern Caribbean traffic with extended evening departures common on many itineraries. Review monthly ship calls before booking Eagle Beach transfers or De Palm Island packages on busy arrival days.",
     relatedPortSlugs: ["curacao", "st-maarten", "cozumel"],
     excursionTypeSlugs: ["beaches", "snorkeling", "catamaran-cruises", "adventure-tours"],
-    referenceScheduleUrl:
-      "https://www.cruisetimetables.com/cruises-to-oranjestad-aruba.html",
     planningTips: [...SCHEDULE_PLANNING_TIPS],
     faqs: SCHEDULE_FAQS,
   },
@@ -90,12 +86,10 @@ export const schedulePorts: ShipSchedulePort[] = [
       "Grand Cayman requires tender operations from George Town anchorage, so published schedules can change quickly in rough weather. Monitor monthly call lists to plan Stingray City departures early on multi-ship tender days.",
     relatedPortSlugs: ["cozumel", "nassau", "roatan"],
     excursionTypeSlugs: ["snorkeling", "beaches", "private-tours", "family-tours"],
-    referenceScheduleUrl:
-      "https://www.cruisetimetables.com/cruises-to-george-town-grand-cayman.html",
     usesTender: true,
     planningTips: [
       ...SCHEDULE_PLANNING_TIPS,
-      "Grand Cayman uses tenders — add 20–40 minutes each way when planning return times.",
+      "Grand Cayman uses tenders. Add 20-40 minutes each way when planning return times.",
     ],
     faqs: SCHEDULE_FAQS,
   },
@@ -114,7 +108,6 @@ export const schedulePorts: ShipSchedulePort[] = [
       "Nassau handles heavy volumes from Florida-based Bahamas and Caribbean sailings, with multiple mega-ships frequently sharing the downtown pier. Use monthly schedules to plan Atlantis and snorkel tours before peak call days sell out.",
     relatedPortSlugs: ["grand-cayman", "st-thomas", "st-maarten"],
     excursionTypeSlugs: ["beaches", "family-tours", "adventure-tours", "private-tours"],
-    referenceScheduleUrl: "https://www.cruisetimetables.com/cruises-to-nassau-bahamas.html",
     planningTips: [...SCHEDULE_PLANNING_TIPS],
     faqs: SCHEDULE_FAQS,
   },
@@ -133,7 +126,6 @@ export const schedulePorts: ShipSchedulePort[] = [
       "Roatán's call volumes vary by week, with Carnival, Norwegian, and Royal Caribbean among regular visitors. Check monthly arrivals before booking West Bay snorkel tours or Gumbalimba Park adventures on shared pier days.",
     relatedPortSlugs: ["cozumel", "costa-maya", "grand-cayman"],
     excursionTypeSlugs: ["snorkeling", "beaches", "adventure-tours", "family-tours"],
-    referenceScheduleUrl: "https://www.cruisetimetables.com/cruises-to-roatan-honduras.html",
     planningTips: [...SCHEDULE_PLANNING_TIPS],
     faqs: SCHEDULE_FAQS,
   },
@@ -149,11 +141,9 @@ export const schedulePorts: ShipSchedulePort[] = [
     description:
       "Eastern Caribbean dual-nation port with year-round cruise traffic at Philipsburg.",
     scheduleOverview:
-      "St. Maarten receives consistent Eastern and Southern Caribbean traffic. Multi-ship days affect taxi availability to Maho Beach and Orient Bay — review monthly schedules before booking plane-spotting or beach club excursions.",
+      "St. Maarten receives consistent Eastern and Southern Caribbean traffic. Multi-ship days affect taxi availability to Maho Beach and Orient Bay. Review monthly schedules before booking plane-spotting or beach club excursions.",
     relatedPortSlugs: ["st-thomas", "aruba", "puerto-plata"],
     excursionTypeSlugs: ["beaches", "catamaran-cruises", "private-tours", "family-tours"],
-    referenceScheduleUrl:
-      "https://www.cruisetimetables.com/cruises-to-philipsburg-st-maarten.html",
     planningTips: [...SCHEDULE_PLANNING_TIPS],
     faqs: SCHEDULE_FAQS,
   },
@@ -172,8 +162,6 @@ export const schedulePorts: ShipSchedulePort[] = [
       "Puerto Plata serves both Amber Cove and Taíno Bay with strong Carnival and MSC volumes on many Eastern Caribbean routes. Review monthly calls before booking waterfall excursions that require coach transfers from the pier.",
     relatedPortSlugs: ["st-maarten", "st-thomas", "ocho-rios"],
     excursionTypeSlugs: ["adventure-tours", "family-tours", "private-tours", "snorkeling"],
-    referenceScheduleUrl:
-      "https://www.cruisetimetables.com/cruises-to-puerto-plata-amber-cove-dominican-republic.html",
     planningTips: [...SCHEDULE_PLANNING_TIPS],
     faqs: SCHEDULE_FAQS,
   },
@@ -189,11 +177,9 @@ export const schedulePorts: ShipSchedulePort[] = [
     description:
       "Mexican Caribbean port village near Mahahual on Western Caribbean routes.",
     scheduleOverview:
-      "Costa Maya typically hosts one to three ships at the cruise village pier. Carnival and Royal Caribbean are frequent callers — check monthly schedules before booking ruin tours that need mainland coach time.",
+      "Costa Maya typically hosts one to three ships at the cruise village pier. Carnival and Royal Caribbean are frequent callers. Check monthly schedules before booking ruin tours that need mainland coach time.",
     relatedPortSlugs: ["cozumel", "roatan", "ocho-rios"],
     excursionTypeSlugs: ["adventure-tours", "beaches", "snorkeling", "family-tours"],
-    referenceScheduleUrl:
-      "https://www.cruisetimetables.com/cruises-to-costa-maya-mexico.html",
     planningTips: [...SCHEDULE_PLANNING_TIPS],
     faqs: SCHEDULE_FAQS,
   },
@@ -201,19 +187,17 @@ export const schedulePorts: ShipSchedulePort[] = [
     slug: "ocho-rios",
     name: "Ocho Rios",
     country: "Jamaica",
-    seoTitle: "Ocho Rios Cruise Ship Schedule 2026",
+    seoTitle: "Ocho Rios Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "Ocho Rios 2026 cruise ship schedule with arrival and departure times. Plan Dunn's River Falls and rainforest excursions around your cruise port window.",
+      "Ocho Rios cruise ship schedule with verified arrival and departure times for 2026 and 2027. Plan Dunn's River Falls and rainforest excursions around your port day.",
     intro:
       "This Ocho Rios cruise ship schedule shows which vessels are due in port and their published times, helping you plan Dunn's River Falls climbs, Mystic Mountain adventures, and private north-coast tours with safe return buffers.",
     description:
       "Jamaica north-coast adventure port for waterfall and rainforest excursions.",
     scheduleOverview:
-      "Ocho Rios receives Western Caribbean traffic from Carnival, Royal Caribbean, and Norwegian with variable weekly counts. Busy schedule days affect Dunn's River Falls timing — plan early departures on multi-ship weeks.",
+      "Ocho Rios receives Western Caribbean traffic from Carnival, Royal Caribbean, and Norwegian with variable weekly counts. This page lists verified ship calls for 2026 and 2027. Busy schedule days affect Dunn's River Falls timing, so plan early departures on multi-ship weeks.",
     relatedPortSlugs: ["costa-maya", "cozumel", "falmouth"],
     excursionTypeSlugs: ["adventure-tours", "family-tours", "private-tours"],
-    referenceScheduleUrl:
-      "https://www.cruisetimetables.com/cruises-to-ocho-rios-jamaica.html",
     planningTips: [...SCHEDULE_PLANNING_TIPS],
     faqs: SCHEDULE_FAQS,
   },
@@ -222,6 +206,7 @@ export const schedulePorts: ShipSchedulePort[] = [
 /** Verified schedule rows imported via scripts/import-schedules.mjs */
 export const portSchedules: Record<string, ScheduleEntry[]> = {
   "st-thomas": stThomasSchedule as ScheduleEntry[],
+  "ocho-rios": ochoRiosSchedule as ScheduleEntry[],
 };
 
 export function getSchedulePortBySlug(slug: string): ShipSchedulePort | undefined {

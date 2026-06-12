@@ -8,8 +8,7 @@ import { breadcrumbSchema, travelGuideSchema } from "@/lib/schema";
 
 export const metadata = buildMetadata({
   title: "Caribbean Shore Excursion Types",
-  description:
-    "Explore Caribbean shore excursion categories — beaches, snorkeling, private tours, family tours, catamaran cruises, and adventure tours. Find the best ports for each type.",
+  description: "Explore Caribbean shore excursion categories: beaches, snorkeling, private tours, family tours, catamaran cruises, and adventure tours. Find the best ports for each type.",
   path: "/excursion-types",
   keywords: ["excursion types", "Caribbean tours", "shore excursion categories"],
 });

@@ -6,7 +6,7 @@ export const excursionTypes: ExcursionType[] = [
     name: "Beach Excursions",
     tagline: "Find the Caribbean's best beaches on your cruise day",
     overview:
-      "Beach excursions are the most popular shore activity in the Caribbean. From world-famous stretches like Seven Mile Beach and Eagle Beach to secluded coves reachable only by boat, the right beach day can define your entire cruise. Understanding which ports offer the best beach access — and whether you need an organized excursion or can reach beaches independently — helps you plan smarter.",
+      "Beach excursions are the most popular shore activity in the Caribbean. From world-famous stretches like Seven Mile Beach and Eagle Beach to secluded coves reachable only by boat, the right beach day can define your entire cruise. Understanding which ports offer the best beach access, and whether you need an organized excursion or can reach beaches independently, helps you plan smarter.",
     whatToExpect: [
       "Round-trip transportation from cruise terminal to beach",
       "Beach chair and umbrella rental (sometimes included)",
@@ -16,19 +16,19 @@ export const excursionTypes: ExcursionType[] = [
     ],
     bestPorts: [
       { slug: "aruba", name: "Aruba", reason: "Eagle Beach and Palm Beach are world-class with excellent facilities" },
-      { slug: "grand-cayman", name: "Grand Cayman", reason: "Seven Mile Beach is iconic — organized access recommended" },
+      { slug: "grand-cayman", name: "Grand Cayman", reason: "Seven Mile Beach is iconic, organized access recommended" },
       { slug: "st-thomas", name: "St. Thomas", reason: "Magens Bay is consistently rated among the world's best beaches" },
       { slug: "roatan", name: "Roatán", reason: "West Bay Beach offers stunning white sand with fewer crowds" },
     ],
     tips: [
-      "Book early on multi-ship days — popular beaches reach capacity",
+      "Book early on multi-ship days, popular beaches reach capacity",
       "Confirm whether beach club fees, chairs, and food are included",
       "Bring reef-safe sunscreen and cash for local vendors",
-      "Check if your port requires tender — this cuts into beach time",
+      "Check if your port requires tender, this cuts into beach time",
       "Some beaches are public but facilities require paid club access",
     ],
     faqs: [
-      { question: "Do I need an excursion to visit Caribbean beaches?", answer: "It depends on the port. Some beaches are taxi-distance from the terminal. Others like Seven Mile Beach require knowing specific public access points — organized excursions simplify logistics." },
+      { question: "Do I need an excursion to visit Caribbean beaches?", answer: "It depends on the port. Some beaches are taxi-distance from the terminal. Others like Seven Mile Beach require knowing specific public access points, organized excursions simplify logistics." },
       { question: "What is the best Caribbean beach for cruise passengers?", answer: "Magens Bay (St. Thomas), Eagle Beach (Aruba), and Seven Mile Beach (Grand Cayman) consistently rank highest. Each offers calm waters and good facilities." },
       { question: "Are beach excursions worth the money?", answer: "Yes when they include transport, chairs, and guaranteed entry on busy days. At ports with walkable beaches, a taxi may be more economical." },
     ],
@@ -53,9 +53,9 @@ export const excursionTypes: ExcursionType[] = [
       { slug: "st-thomas", name: "St. Thomas", reason: "Sapphire Beach and St. John offer excellent shore snorkeling" },
     ],
     tips: [
-      "Bring reef-safe sunscreen — chemical sunscreens harm coral",
+      "Bring reef-safe sunscreen, chemical sunscreens harm coral",
       "Motion sickness medication helps on boat-based snorkel trips",
-      "Prescription masks are rarely available — bring your own if needed",
+      "Prescription masks are rarely available, bring your own if needed",
       "Book morning excursions for calmer seas and better visibility",
       "Even strong swimmers should follow guide instructions at reef sites",
     ],
@@ -74,7 +74,7 @@ export const excursionTypes: ExcursionType[] = [
     whatToExpect: [
       "Dedicated guide and vehicle for your group only",
       "Customizable itinerary based on your interests",
-      "Flexible timing — no waiting for other passengers",
+      "Flexible timing, no waiting for other passengers",
       "Local knowledge and insider access to less-touristy spots",
       "Higher per-person cost offset by privacy and efficiency",
     ],
@@ -86,7 +86,7 @@ export const excursionTypes: ExcursionType[] = [
     ],
     tips: [
       "Book through reputable operators with cruise port pickup guarantees",
-      "Share your priorities clearly — beaches vs culture vs adventure",
+      "Share your priorities clearly, beaches vs culture vs adventure",
       "Confirm the vehicle size fits your group comfortably",
       "Agree on total price including tips, tolls, and entrance fees upfront",
       "Private tours often cost less per person for groups of 4-6",
@@ -102,7 +102,7 @@ export const excursionTypes: ExcursionType[] = [
     name: "Family Tours",
     tagline: "Caribbean excursions the whole family will enjoy",
     overview:
-      "Family-friendly shore excursions balance adventure with safety, keeping children engaged while parents relax. The best family ports offer a mix of wildlife encounters, gentle beaches, cultural experiences, and attractions like water parks. Consider children's ages, stamina, and nap schedules when choosing — a Stingray City sandbar works for all ages, while a waterfall climb may not.",
+      "Family-friendly shore excursions balance adventure with safety, keeping children engaged while parents relax. The best family ports offer a mix of wildlife encounters, gentle beaches, cultural experiences, and attractions like water parks. Consider children's ages, stamina, and nap schedules when choosing, a Stingray City sandbar works for all ages, while a waterfall climb may not.",
     whatToExpect: [
       "Activities suitable for children aged 4 and up (varies by excursion)",
       "Shorter durations with built-in breaks and bathroom stops",
@@ -119,7 +119,7 @@ export const excursionTypes: ExcursionType[] = [
     tips: [
       "Book morning excursions before children tire from sun and excitement",
       "Bring snacks, water, and entertainment for transport portions",
-      "Check minimum age requirements — especially for water activities",
+      "Check minimum age requirements, especially for water activities",
       "Stroller-friendly excursions exist but confirm accessibility in advance",
       "Have a ship-day backup plan in case children need an early return",
     ],
@@ -149,10 +149,10 @@ export const excursionTypes: ExcursionType[] = [
       { slug: "cozumel", name: "Cozumel", reason: "El Cielo sandbar trips by catamaran are unforgettable" },
     ],
     tips: [
-      "Bring motion sickness medication if you are sensitive — even calm days have swell",
+      "Bring motion sickness medication if you are sensitive, even calm days have swell",
       "Wear swimwear under clothes and bring a cover-up",
       "Morning sails typically have calmer seas than afternoon departures",
-      "Secure hats and sunglasses — trade winds are steady and strong",
+      "Secure hats and sunglasses, trade winds are steady and strong",
       "Book party-style catamarans for groups; smaller sails for a quieter experience",
     ],
     faqs: [
@@ -166,13 +166,13 @@ export const excursionTypes: ExcursionType[] = [
     name: "Adventure Tours",
     tagline: "Thrilling Caribbean excursions for active travelers",
     overview:
-      "Adventure tours push beyond beaches and sightseeing into zip-lining, off-road exploration, waterfall climbing, and wildlife encounters. The Caribbean's diverse terrain — from Jamaican rainforests to Aruban desert to Honduran jungle — offers world-class adventure activities steps from the cruise terminal. These excursions typically require moderate fitness and a spirit for excitement.",
+      "Adventure tours push beyond beaches and sightseeing into zip-lining, off-road exploration, waterfall climbing, and wildlife encounters. The Caribbean's diverse terrain, from Jamaican rainforests to Aruban desert to Honduran jungle, offers world-class adventure activities steps from the cruise terminal. These excursions typically require moderate fitness and a spirit for excitement.",
     whatToExpect: [
       "Physically active experiences lasting 3-6 hours",
       "Safety equipment and professional guides provided",
       "Moderate fitness level required for most activities",
       "Combination tours pairing multiple adventures are common",
-      "Weather-dependent — some activities cancel in rain or high winds",
+      "Weather-dependent, some activities cancel in rain or high winds",
     ],
     bestPorts: [
       { slug: "ocho-rios", name: "Ocho Rios", reason: "Dunn's River Falls, zip-lining, and bobsled adventures" },
@@ -190,7 +190,7 @@ export const excursionTypes: ExcursionType[] = [
     faqs: [
       { question: "What is the most popular adventure excursion in the Caribbean?", answer: "Dunn's River Falls in Ocho Rios is the Caribbean's most iconic adventure excursion, attracting climbers of all ages." },
       { question: "Are adventure tours safe in the Caribbean?", answer: "Reputable operators with proper safety equipment and trained guides maintain high safety standards. Always book through established excursion providers." },
-      { question: "What fitness level do adventure excursions require?", answer: "Most require moderate fitness — ability to walk on uneven terrain, climb stairs, and swim. Specific tours like 27 Waterfalls require more stamina. Check requirements before booking." },
+      { question: "What fitness level do adventure excursions require?", answer: "Most require moderate fitness, ability to walk on uneven terrain, climb stairs, and swim. Specific tours like 27 Waterfalls require more stamina. Check requirements before booking." },
     ],
   },
 ];

@@ -4,7 +4,7 @@ export const comparisons: Comparison[] = [
   {
     slug: "aruba-vs-curacao",
     title: "Aruba vs Curaçao: Which Caribbean Port Is Better?",
-    seoTitle: "Aruba vs Curaçao Cruise Port Comparison — Beaches, Diving & Culture",
+    seoTitle: "Aruba vs Curaçao Cruise Port Comparison: Beaches, Diving & Culture",
     metaDescription:
       "Detailed Aruba vs Curaçao cruise port comparison covering beaches, snorkeling, families, couples, food, shore excursions, port ease, and which Southern Caribbean island suits your cruise day.",
     portA: "Aruba",
@@ -17,11 +17,11 @@ export const comparisons: Comparison[] = [
       portA:
         "Aruba is a beach-first Southern Caribbean port built around Eagle Beach, Palm Beach catamaran sails, and Arikok National Park desert adventures. Oranjestad's two cruise terminals put downtown shopping and taxis within a five-minute walk, and the island's year-round trade winds make sailing excursions exceptionally reliable.",
       portB:
-        "Curaçao is a cultural and underwater destination centered on UNESCO-listed Willemstad, world-class reef diving, and authentic Dutch-Caribbean neighborhoods. Ships dock at Mathey Wharf with Handelskade's pastel waterfront immediately accessible — a contrast to Aruba's resort-beach focus.",
+        "Curaçao is a cultural and underwater destination centered on UNESCO-listed Willemstad, world-class reef diving, and authentic Dutch-Caribbean neighborhoods. Ships dock at Mathey Wharf with Handelskade's pastel waterfront immediately accessible, a contrast to Aruba's resort-beach focus.",
     },
     beaches: {
       portA:
-        "Eagle Beach and Palm Beach rank among the Caribbean's finest — wide white sand, calm turquoise water, and excellent swimming conditions. Divi-divi trees, palapa restaurants, and chair rentals make Aruba the stronger pure beach day.",
+        "Eagle Beach and Palm Beach rank among the Caribbean's finest, wide white sand, calm turquoise water, and excellent swimming conditions. Divi-divi trees, palapa restaurants, and chair rentals make Aruba the stronger pure beach day.",
       portB:
         "Curaçao's beaches are smaller and more scattered. Grote Knip and Playa Porto Mari are beautiful but require taxi or tour transport. Mambo Beach offers facilities near Willemstad, but overall beach lounging favors Aruba.",
     },
@@ -47,11 +47,11 @@ export const comparisons: Comparison[] = [
       portA:
         "Oranjestad waterfront restaurants serve fresh seafood and international cuisine. Palm Beach beach bars offer casual lunch with ocean views. Straightforward tourist dining without deep culinary heritage.",
       portB:
-        "Willemstad's dining scene is more diverse — Dutch, Caribbean, and Latin influences across colonial districts. Blue Curaçao distillery tastings and floating market produce add distinctive local flavor.",
+        "Willemstad's dining scene is more diverse, Dutch, Caribbean, and Latin influences across colonial districts. Blue Curaçao distillery tastings and floating market produce add distinctive local flavor.",
     },
     excursions: {
       portA:
-        "Catamaran snorkel sails, De Palm Island, Arikok 4x4 desert tours, horseback riding, and Eagle Beach breaks dominate Aruba's excursion menu — polished, high-volume, and beach-oriented.",
+        "Catamaran snorkel sails, De Palm Island, Arikok 4x4 desert tours, horseback riding, and Eagle Beach breaks dominate Aruba's excursion menu, polished, high-volume, and beach-oriented.",
       portB:
         "Diving and snorkel charters, Hato Caves, Christoffelberg hiking, Willemstad cultural walks, and Blue Curaçao distillery visits define Curaçao. Less variety than Aruba but stronger underwater and heritage options.",
     },
@@ -63,7 +63,7 @@ export const comparisons: Comparison[] = [
     },
     bestForFirstTimers: {
       portA:
-        "Aruba is the safer first-time ABC island choice — world-famous beaches, easy logistics, and excursion operators who handle thousands of cruise passengers daily. You know exactly what you are getting.",
+        "Aruba is the safer first-time ABC island choice, world-famous beaches, easy logistics, and excursion operators who handle thousands of cruise passengers daily. You know exactly what you are getting.",
       portB:
         "Curaçao rewards curious first-timers who want more than a beach chair. Walk Willemstad from the pier, then add a snorkel or cave tour. Less intuitive than Aruba but more memorable for culture seekers.",
     },
@@ -71,7 +71,7 @@ export const comparisons: Comparison[] = [
       "Aruba wins for beaches, sailing, and relaxed resort-style days. Curaçao wins for diving, UNESCO heritage, and travelers who want cultural depth over lounging. Both are excellent Southern Caribbean ports outside the hurricane belt.",
     comparisonTable: [
       { category: "Beaches", portA: "World-class (Eagle Beach)", portB: "Good but smaller & scattered" },
-      { category: "Snorkeling & diving", portA: "Very good", portB: "Excellent — ABC leader" },
+      { category: "Snorkeling & diving", portA: "Very good", portB: "Excellent, ABC leader" },
       { category: "Culture & heritage", portA: "Good (Dutch-Caribbean)", portB: "Outstanding (UNESCO)" },
       { category: "Families", portA: "Excellent", portB: "Good" },
       { category: "Couples", portA: "Excellent (resort-style)", portB: "Very good (cultural)" },
@@ -82,7 +82,7 @@ export const comparisons: Comparison[] = [
       { category: "Weather reliability", portA: "Excellent", portB: "Excellent" },
     ],
     verdict:
-      "Choose Aruba if you want the Caribbean's best beaches, reliable catamaran sails, and a polished resort-style day with minimal planning. Choose Curaçao if you prefer UNESCO waterfront culture, superior reef diving, and a more authentic Dutch-Caribbean atmosphere. Many Southern Caribbean itineraries visit both — plan Aruba for beaches and Curaçao for culture and underwater adventure.",
+      "Choose Aruba if you want the Caribbean's best beaches, reliable catamaran sails, and a polished resort-style day with minimal planning. Choose Curaçao if you prefer UNESCO waterfront culture, superior reef diving, and a more authentic Dutch-Caribbean atmosphere. Many Southern Caribbean itineraries visit both, plan Aruba for beaches and Curaçao for culture and underwater adventure.",
     faqs: [
       {
         question: "Is Aruba or Curaçao better for beaches?",
@@ -102,7 +102,7 @@ export const comparisons: Comparison[] = [
       {
         question: "Which port is better for first-time Caribbean cruisers?",
         answer:
-          "Aruba is more straightforward — famous beaches, easy taxis, and high-volume excursion infrastructure. Curaçao suits travelers who want cultural exploration alongside reef activities.",
+          "Aruba is more straightforward, famous beaches, easy taxis, and high-volume excursion infrastructure. Curaçao suits travelers who want cultural exploration alongside reef activities.",
       },
       {
         question: "Do both ports require tenders?",
@@ -114,15 +114,15 @@ export const comparisons: Comparison[] = [
   {
     slug: "st-thomas-vs-st-maarten",
     title: "St. Thomas vs St. Maarten: Eastern Caribbean Port Comparison",
-    seoTitle: "St. Thomas vs St. Maarten Cruise Port Comparison — Beaches, Shopping & Culture",
+    seoTitle: "St. Thomas vs St. Maarten Cruise Port Comparison: Beaches, Shopping & Culture",
     metaDescription:
-      "St. Thomas vs St. Maarten detailed comparison for cruise passengers — beaches, snorkeling, families, couples, food, shore excursions, port logistics, and which Eastern Caribbean port to choose.",
+      "St. Thomas vs St. Maarten detailed comparison for cruise passengers, beaches, snorkeling, families, couples, food, shore excursions, port logistics, and which Eastern Caribbean port to choose.",
     portA: "St. Thomas",
     portB: "St. Maarten",
     portASlug: "st-thomas",
     portBSlug: "st-maarten",
     summary:
-      "St. Thomas and St. Maarten are two of the Eastern Caribbean's busiest ports with excellent beaches and duty-free shopping — but they feel distinctly different. St. Thomas is the beach and St. John gateway; St. Maarten delivers dual-nation culture and Maho Beach plane spotting.",
+      "St. Thomas and St. Maarten are two of the Eastern Caribbean's busiest ports with excellent beaches and duty-free shopping, but they feel distinctly different. St. Thomas is the beach and St. John gateway; St. Maarten delivers dual-nation culture and Maho Beach plane spotting.",
     overview: {
       portA:
         "St. Thomas is the Eastern Caribbean's beach and shopping capital. Magens Bay, duty-free Charlotte Amalie, Sapphire Beach reef snorkeling, and a 20-minute ferry to St. John's Trunk Bay make it the region's most versatile single port day.",
@@ -131,7 +131,7 @@ export const comparisons: Comparison[] = [
     },
     beaches: {
       portA:
-        "Magens Bay is an Eastern Caribbean icon — calm horseshoe water with facilities and chair rentals. Sapphire Beach and Coki Beach add excellent snorkel-beach combos minutes from the terminals.",
+        "Magens Bay is an Eastern Caribbean icon, calm horseshoe water with facilities and chair rentals. Sapphire Beach and Coki Beach add excellent snorkel-beach combos minutes from the terminals.",
       portB:
         "Orient Bay on the French side is lively with beach clubs, restaurants, and water sports. Maho Beach is for aviation thrills, not swimming. Great Bay near Philipsburg is convenient but less impressive than Magens Bay.",
     },
@@ -167,15 +167,15 @@ export const comparisons: Comparison[] = [
     },
     easeFromPort: {
       portA:
-        "Two terminals (Havensight, Crown Bay). Taxis plentiful and unmetered — agree prices first. St. John requires a 20-minute ferry from Red Hook — allow 6+ hours for a meaningful visit.",
+        "Two terminals (Havensight, Crown Bay). Taxis plentiful and unmetered, agree prices first. St. John requires a 20-minute ferry from Red Hook, allow 6+ hours for a meaningful visit.",
       portB:
         "Single main terminal with water taxi to Philipsburg. Taxis needed for French side, Maho, and Orient Bay. Compact island means both nations are reachable in one day with planning.",
     },
     bestForFirstTimers: {
       portA:
-        "St. Thomas is the classic Eastern Caribbean introduction — Magens Bay delivers the postcard beach experience, shopping is walkable, and excursion infrastructure is mature. Hard to go wrong on a first visit.",
+        "St. Thomas is the classic Eastern Caribbean introduction, Magens Bay delivers the postcard beach experience, shopping is walkable, and excursion infrastructure is mature. Hard to go wrong on a first visit.",
       portB:
-        "St. Maarten offers something no other port can — standing beneath landing aircraft at Maho Beach. First-timers who want a unique story over a perfect beach should choose St. Maarten.",
+        "St. Maarten offers something no other port can, standing beneath landing aircraft at Maho Beach. First-timers who want a unique story over a perfect beach should choose St. Maarten.",
     },
     bestOverall:
       "St. Thomas wins for beaches, shopping, and St. John access. St. Maarten wins for unique experiences, dual-culture exploration, and lively atmosphere. Both are top-tier Eastern Caribbean ports.",
@@ -192,7 +192,7 @@ export const comparisons: Comparison[] = [
       { category: "Excursion variety", portA: "Outstanding", portB: "Very good" },
     ],
     verdict:
-      "Choose St. Thomas for Magens Bay, world-class shopping, and easy St. John access — the quintessential Eastern Caribbean port day. Choose St. Maarten for Maho plane spotting, dual-nation culture, and Orient Bay beach club atmosphere. Both ports dock directly with no tenders required.",
+      "Choose St. Thomas for Magens Bay, world-class shopping, and easy St. John access, the quintessential Eastern Caribbean port day. Choose St. Maarten for Maho plane spotting, dual-nation culture, and Orient Bay beach club atmosphere. Both ports dock directly with no tenders required.",
     faqs: [
       {
         question: "Which port has better beaches?",
@@ -224,7 +224,7 @@ export const comparisons: Comparison[] = [
   {
     slug: "roatan-vs-cozumel",
     title: "Roatán vs Cozumel: Western Caribbean Snorkeling Comparison",
-    seoTitle: "Roatán vs Cozumel Cruise Port Comparison — Reef Snorkeling, Beaches & Value",
+    seoTitle: "Roatán vs Cozumel Cruise Port Comparison: Reef Snorkeling, Beaches & Value",
     metaDescription:
       "Roatán vs Cozumel in-depth cruise port comparison for snorkeling, beaches, families, couples, food, shore excursions, port ease, value, and which Western Caribbean reef port wins.",
     portA: "Roatán",
@@ -241,7 +241,7 @@ export const comparisons: Comparison[] = [
     },
     beaches: {
       portA:
-        "West Bay Beach is stunning white sand with calm clear water — among the Caribbean's best-value beach days. Tabyana Beach adds reef snorkeling directly offshore.",
+        "West Bay Beach is stunning white sand with calm clear water, among the Caribbean's best-value beach days. Tabyana Beach adds reef snorkeling directly offshore.",
       portB:
         "Playa Palancar and beach clubs are pleasant but Cozumel is primarily a reef destination. Beach lounging is secondary to snorkel boats and catamaran sails.",
     },
@@ -279,13 +279,13 @@ export const comparisons: Comparison[] = [
       portA:
         "Mahogany Bay cruise center with on-site beach and zipline, or Port of Roatán closer to West Bay. No tender. Taxis to West Bay cost $30-50 round trip.",
       portB:
-        "Three established piers. Punta Langosta offers downtown walkability. Mature infrastructure with high excursion volume — book early on busy ship days.",
+        "Three established piers. Punta Langosta offers downtown walkability. Mature infrastructure with high excursion volume, book early on busy ship days.",
     },
     bestForFirstTimers: {
       portA:
         "Roatán is ideal for first-time snorkelers who want quality without Cozumel's crowds and prices. West Bay Beach alone justifies the port call for beach-first cruisers.",
       portB:
-        "Cozumel is the Western Caribbean's default first-timer port — famous reef names, Tulum access, and dozens of excursion options mean you always find something that fits.",
+        "Cozumel is the Western Caribbean's default first-timer port, famous reef names, Tulum access, and dozens of excursion options mean you always find something that fits.",
     },
     bestOverall:
       "Cozumel wins for excursion variety and world-famous reef sites. Roatán wins for comparable snorkeling with fewer crowds, better beach quality, and superior value.",
@@ -302,7 +302,7 @@ export const comparisons: Comparison[] = [
       { category: "First-time visitors", portA: "Best value intro", portB: "Most options" },
     ],
     verdict:
-      "Choose Cozumel for the widest excursion variety, Tulum Mayan ruins, and world-famous Palancar Reef. Choose Roatán for comparable snorkeling with fewer crowds, exceptional West Bay Beach, and better value. Reef quality is close — your choice depends on whether you prioritize variety (Cozumel) or intimacy and price (Roatán).",
+      "Choose Cozumel for the widest excursion variety, Tulum Mayan ruins, and world-famous Palancar Reef. Choose Roatán for comparable snorkeling with fewer crowds, exceptional West Bay Beach, and better value. Reef quality is close, your choice depends on whether you prioritize variety (Cozumel) or intimacy and price (Roatán).",
     faqs: [
       {
         question: "Which is better for snorkeling beginners?",
@@ -334,9 +334,9 @@ export const comparisons: Comparison[] = [
   {
     slug: "amber-cove-vs-puerto-plata",
     title: "Amber Cove vs Puerto Plata: Dominican Republic Cruise Port Comparison",
-    seoTitle: "Amber Cove vs Puerto Plata Cruise Port Comparison — Waterfalls, Beaches & Culture",
+    seoTitle: "Amber Cove vs Puerto Plata Cruise Port Comparison: Waterfalls, Beaches & Culture",
     metaDescription:
-      "Amber Cove vs Puerto Plata detailed comparison for Dominican Republic cruise passengers — port village vs city excursions, waterfalls, beaches, families, and shore excursion planning.",
+      "Amber Cove vs Puerto Plata detailed comparison for Dominican Republic cruise passengers, port village vs city excursions, waterfalls, beaches, families, and shore excursion planning.",
     portA: "Amber Cove",
     portB: "Puerto Plata",
     portASlug: "puerto-plata",
@@ -347,19 +347,19 @@ export const comparisons: Comparison[] = [
       portA:
         "Amber Cove is Carnival Corporation's modern cruise port with pools, shops, waterfront dining, and organized excursion coach departures. It is secure, self-contained, and designed for passengers who want convenience without navigating city transport.",
       portB:
-        "Puerto Plata city offers colonial Fort San Felipe, Victorian gingerbread architecture, Teleférico cable car to Mount Isabel de Torres, and authentic Dominican culture beyond the port gates — reached by 15-20 minute coach from Amber Cove.",
+        "Puerto Plata city offers colonial Fort San Felipe, Victorian gingerbread architecture, Teleférico cable car to Mount Isabel de Torres, and authentic Dominican culture beyond the port gates, reached by 15-20 minute coach from Amber Cove.",
     },
     beaches: {
       portA:
         "On-port waterfront and pool areas provide convenient swimming without leaving the terminal. Organized excursions reach Playa Dorada and Cofresí Beach for proper beach days.",
       portB:
-        "Playa Dorada resort strip, Cofresí Beach, and Sosúa Bay are the Amber Coast's best beaches — all reached by coach or taxi from either Amber Cove or Taíno Bay terminal.",
+        "Playa Dorada resort strip, Cofresí Beach, and Sosúa Bay are the Amber Coast's best beaches, all reached by coach or taxi from either Amber Cove or Taíno Bay terminal.",
     },
     snorkeling: {
       portA:
-        "Snorkel excursions depart Amber Cove coaches to Sosúa Bay reef and Cayo Arena sandbar boat tours. No on-port reef — all snorkel requires organized transport north.",
+        "Snorkel excursions depart Amber Cove coaches to Sosúa Bay reef and Cayo Arena sandbar boat tours. No on-port reef, all snorkel requires organized transport north.",
       portB:
-        "Sosúa Bay is the primary reef area north of Puerto Plata city. Same snorkel sites accessible from either terminal — Puerto Plata city itself has no shore snorkel.",
+        "Sosúa Bay is the primary reef area north of Puerto Plata city. Same snorkel sites accessible from either terminal, Puerto Plata city itself has no shore snorkel.",
     },
     families: {
       portA:
@@ -369,31 +369,31 @@ export const comparisons: Comparison[] = [
     },
     couples: {
       portA:
-        "Relaxed port village day with pool, waterfront cocktails, and low-stress logistics — ideal for shorter port calls or passengers recovering from active sea days.",
+        "Relaxed port village day with pool, waterfront cocktails, and low-stress logistics, ideal for shorter port calls or passengers recovering from active sea days.",
       portB:
         "27 Charcos waterfall adventure, couples cable car summit views, and Sosúa beach club snorkel combos deliver active romantic days beyond the port gates.",
     },
     foodAndDrink: {
       portA:
-        "Port village restaurants and bars — convenient, tourist-oriented, and reliable for cruise schedules. Dominican flavors available but not the most authentic setting.",
+        "Port village restaurants and bars, convenient, tourist-oriented, and reliable for cruise schedules. Dominican flavors available but not the most authentic setting.",
       portB:
         "Authentic Dominican dining in Puerto Plata city, beach restaurants at Playa Dorada, and Sosúa's waterfront eateries. Better cultural food experience with more local character.",
     },
     excursions: {
       portA:
-        "Port pool day, organized coach departures to 27 Charcos waterfalls, Teleférico cable car, and Sosúa snorkel — convenient hub model with timed returns.",
+        "Port pool day, organized coach departures to 27 Charcos waterfalls, Teleférico cable car, and Sosúa snorkel, convenient hub model with timed returns.",
       portB:
-        "27 Charcos waterfalls, Teleférico summit, Fort San Felipe, Ocean World marine park, and Sosúa snorkel trips — the full Amber Coast excursion menu from city-based operators.",
+        "27 Charcos waterfalls, Teleférico summit, Fort San Felipe, Ocean World marine park, and Sosúa snorkel trips, the full Amber Coast excursion menu from city-based operators.",
     },
     easeFromPort: {
       portA:
-        "Purpose-built terminal with immediate pool, shops, and dining. Excursion coaches depart on schedule. No walking to city — all off-port activities require organized transport.",
+        "Purpose-built terminal with immediate pool, shops, and dining. Excursion coaches depart on schedule. No walking to city, all off-port activities require organized transport.",
       portB:
         "Taíno Bay terminal is closer to Puerto Plata city (10 minutes). Amber Cove is 20 minutes from downtown. Taxi or organized tour recommended for all regional attractions.",
     },
     bestForFirstTimers: {
       portA:
-        "Amber Cove is the easiest Dominican Republic introduction — stay in the secure port village, use the pool, and book one organized excursion without worrying about transport or navigation.",
+        "Amber Cove is the easiest Dominican Republic introduction, stay in the secure port village, use the pool, and book one organized excursion without worrying about transport or navigation.",
       portB:
         "Puerto Plata city rewards first-timers who want authentic Dominican culture. The Teleférico cable car and Fort San Felipe deliver memorable experiences beyond a pool day.",
     },
@@ -412,7 +412,7 @@ export const comparisons: Comparison[] = [
       { category: "First-time visitors", portA: "Easiest logistics", portB: "Most memorable culture" },
     ],
     verdict:
-      "Stay at Amber Cove for a relaxed pool-and-port-village day with minimal logistics — ideal for families with young children or short port calls. Venture to Puerto Plata and the Amber Coast for 27 Charcos waterfalls, Teleférico cable car, and colonial heritage. Most passengers book one organized excursion from Amber Cove and combine it with port pool time.",
+      "Stay at Amber Cove for a relaxed pool-and-port-village day with minimal logistics, ideal for families with young children or short port calls. Venture to Puerto Plata and the Amber Coast for 27 Charcos waterfalls, Teleférico cable car, and colonial heritage. Most passengers book one organized excursion from Amber Cove and combine it with port pool time.",
     faqs: [
       {
         question: "Is Amber Cove the same as Puerto Plata?",
@@ -425,14 +425,14 @@ export const comparisons: Comparison[] = [
           "No. Amber Cove is about 20 minutes by coach or taxi from Puerto Plata city. Book organized excursions or arrange licensed transport.",
       },
       {
-        question: "Which terminal is better — Amber Cove or Taíno Bay?",
+        question: "Which terminal is better, Amber Cove or Taíno Bay?",
         answer:
           "Both work well. Amber Cove has more on-port amenities including a pool. Taíno Bay is closer to Puerto Plata city for culture-focused days.",
       },
       {
         question: "Is the 27 Waterfalls excursion worth it from Amber Cove?",
         answer:
-          "Yes — it is the Amber Coast's signature adventure. Coaches depart directly from Amber Cove with timed returns. Moderate fitness required for climbing and sliding through waterfalls.",
+          "Yes, it is the Amber Coast's signature adventure. Coaches depart directly from Amber Cove with timed returns. Moderate fitness required for climbing and sliding through waterfalls.",
       },
       {
         question: "Can I just stay at Amber Cove without booking an excursion?",
@@ -444,9 +444,9 @@ export const comparisons: Comparison[] = [
   {
     slug: "ocho-rios-vs-falmouth",
     title: "Ocho Rios vs Falmouth: Jamaica Cruise Port Guide",
-    seoTitle: "Ocho Rios vs Falmouth Jamaica Cruise Port Comparison — Falls, Rafting & Culture",
+    seoTitle: "Ocho Rios vs Falmouth Jamaica Cruise Port Comparison: Falls, Rafting & Culture",
     metaDescription:
-      "Ocho Rios vs Falmouth Jamaica cruise port comparison — Dunn's River Falls access, Martha Brae rafting, families, couples, food, shore excursions, and which port suits your cruise day.",
+      "Ocho Rios vs Falmouth Jamaica cruise port comparison, Dunn's River Falls access, Martha Brae rafting, families, couples, food, shore excursions, and which port suits your cruise day.",
     portA: "Ocho Rios",
     portB: "Falmouth",
     portASlug: "ocho-rios",
@@ -455,7 +455,7 @@ export const comparisons: Comparison[] = [
       "Jamaica's two main cruise ports serve different traveler priorities. Ocho Rios puts you closest to Dunn's River Falls and Mystic Mountain adventures; Falmouth offers a historic Georgian town, better Martha Brae rafting access, and fewer crowds.",
     overview: {
       portA:
-        "Ocho Rios is Jamaica's adventure capital — Dunn's River Falls, Mystic Mountain bobsled, and Dolphin Cove sit minutes from the cruise terminal. Dense excursion operator networks and high passenger volume define the port experience.",
+        "Ocho Rios is Jamaica's adventure capital, Dunn's River Falls, Mystic Mountain bobsled, and Dolphin Cove sit minutes from the cruise terminal. Dense excursion operator networks and high passenger volume define the port experience.",
       portB:
         "Falmouth is a historic Georgian port town with Martha Brae bamboo rafting 30 minutes away, a walkable colonial center, and a quieter, less commercial atmosphere than Ocho Rios.",
     },
@@ -491,9 +491,9 @@ export const comparisons: Comparison[] = [
     },
     excursions: {
       portA:
-        "Dunn's River Falls climb, Mystic Mountain bobsled, Dolphin Cove, zip-lines, river tubing, and Blue Hole hidden waterfall swims — Jamaica's densest adventure menu.",
+        "Dunn's River Falls climb, Mystic Mountain bobsled, Dolphin Cove, zip-lines, river tubing, and Blue Hole hidden waterfall swims, Jamaica's densest adventure menu.",
       portB:
-        "Martha Brae bamboo rafting, Good Hope Estate adventures, Luminous Lagoon evening tours, and historic Falmouth walking tours — quieter, heritage-focused options.",
+        "Martha Brae bamboo rafting, Good Hope Estate adventures, Luminous Lagoon evening tours, and historic Falmouth walking tours, quieter, heritage-focused options.",
     },
     easeFromPort: {
       portA:
@@ -503,7 +503,7 @@ export const comparisons: Comparison[] = [
     },
     bestForFirstTimers: {
       portA:
-        "Ocho Rios is the must-do Jamaica first-timer port — Dunn's River Falls is one of the Caribbean's most iconic experiences and it is 10 minutes from the ship.",
+        "Ocho Rios is the must-do Jamaica first-timer port, Dunn's River Falls is one of the Caribbean's most iconic experiences and it is 10 minutes from the ship.",
       portB:
         "Falmouth suits first-timers who want authentic Jamaica without the commercial intensity of Ocho Rios. Martha Brae rafting is a gentler, equally memorable introduction.",
     },
@@ -522,7 +522,7 @@ export const comparisons: Comparison[] = [
       { category: "First-time visitors", portA: "Iconic falls experience", portB: "Authentic Jamaica intro" },
     ],
     verdict:
-      "Choose Ocho Rios for Dunn's River Falls and adventure activities with minimal travel time — the definitive Jamaica cruise experience. Choose Falmouth for Martha Brae river rafting, historic Georgian town exploration, and a less crowded atmosphere. Dunn's River Falls is worth the extra drive from Falmouth if it is your absolute priority.",
+      "Choose Ocho Rios for Dunn's River Falls and adventure activities with minimal travel time, the definitive Jamaica cruise experience. Choose Falmouth for Martha Brae river rafting, historic Georgian town exploration, and a less crowded atmosphere. Dunn's River Falls is worth the extra drive from Falmouth if it is your absolute priority.",
     faqs: [
       {
         question: "Can I do Dunn's River Falls from Falmouth?",
@@ -554,9 +554,9 @@ export const comparisons: Comparison[] = [
   {
     slug: "grand-cayman-vs-nassau",
     title: "Grand Cayman vs Nassau: Cruise Port Comparison",
-    seoTitle: "Grand Cayman vs Nassau Cruise Port Comparison — Stingray City vs Atlantis",
+    seoTitle: "Grand Cayman vs Nassau Cruise Port Comparison: Stingray City vs Atlantis",
     metaDescription:
-      "Grand Cayman vs Nassau detailed cruise port comparison — Stingray City vs Atlantis, beaches, families, snorkeling, tender logistics, food, and which port delivers the better cruise day.",
+      "Grand Cayman vs Nassau detailed cruise port comparison, Stingray City vs Atlantis, beaches, families, snorkeling, tender logistics, food, and which port delivers the better cruise day.",
     portA: "Grand Cayman",
     portB: "Nassau",
     portASlug: "grand-cayman",
@@ -601,21 +601,21 @@ export const comparisons: Comparison[] = [
     },
     excursions: {
       portA:
-        "Stingray City sandbar, Seven Mile Beach, bioluminescent kayak, Cayman Turtle Centre, and Cemetery Reef snorkel boats — nature-focused with Stingray City as the unmissable highlight.",
+        "Stingray City sandbar, Seven Mile Beach, bioluminescent kayak, Cayman Turtle Centre, and Cemetery Reef snorkel boats, nature-focused with Stingray City as the unmissable highlight.",
       portB:
-        "Atlantis Aquaventure, Exuma swimming pigs flight, Blue Lagoon dolphins, Rose Island catamaran snorkel, and downtown heritage walking tours — resort and culture variety.",
+        "Atlantis Aquaventure, Exuma swimming pigs flight, Blue Lagoon dolphins, Rose Island catamaran snorkel, and downtown heritage walking tours, resort and culture variety.",
     },
     easeFromPort: {
       portA:
-        "Tender required — weather can cancel entire port days. Tender queues add 30-60 minutes each way. Disembark early and book first-slot Stingray City excursions.",
+        "Tender required, weather can cancel entire port days. Tender queues add 30-60 minutes each way. Disembark early and book first-slot Stingray City excursions.",
       portB:
         "Direct dock downtown at Prince George Wharf. Immediate walkable access to shops, restaurants, and taxis. No tender, no weather cancellation risk.",
     },
     bestForFirstTimers: {
       portA:
-        "Grand Cayman delivers the Caribbean's most unique wildlife encounter at Stingray City — worth the tender hassle for first-timers who prioritize memorable nature over convenience.",
+        "Grand Cayman delivers the Caribbean's most unique wildlife encounter at Stingray City, worth the tender hassle for first-timers who prioritize memorable nature over convenience.",
       portB:
-        "Nassau is the easier first-timer port — walk off the ship into downtown, choose Atlantis or a catamaran snorkel, and navigate without tender uncertainty.",
+        "Nassau is the easier first-timer port, walk off the ship into downtown, choose Atlantis or a catamaran snorkel, and navigate without tender uncertainty.",
     },
     bestOverall:
       "Grand Cayman wins for Stingray City and refined nature experiences. Nassau wins for Atlantis, Bahamian culture, walkable port access, and family water park days.",
@@ -632,7 +632,7 @@ export const comparisons: Comparison[] = [
       { category: "First-time visitors", portA: "Unique wildlife", portB: "Easier logistics" },
     ],
     verdict:
-      "Choose Grand Cayman for Stingray City, Seven Mile Beach, and a refined nature-focused day — factor in the tender requirement and disembark early. Choose Nassau for Atlantis Aquaventure, Bahamian culture, swimming pigs, and convenient walkable port access. Both are excellent ports for different cruise passenger priorities.",
+      "Choose Grand Cayman for Stingray City, Seven Mile Beach, and a refined nature-focused day, factor in the tender requirement and disembark early. Choose Nassau for Atlantis Aquaventure, Bahamian culture, swimming pigs, and convenient walkable port access. Both are excellent ports for different cruise passenger priorities.",
     faqs: [
       {
         question: "Is Grand Cayman worth the tender hassle?",

@@ -116,7 +116,7 @@ export function RegionPageView({ region }: { region: RegionPage }) {
 
           <SpecialistLocalGuideSection
             portSlugs={region.portSlugs}
-            intro="Each port in this region has a dedicated local specialist website with live tour listings, transparent local pricing, and pier pickup details — the next step after reading this regional overview."
+            intro="Each port in this region has a dedicated local specialist website with live tour listings, transparent local pricing, and pier pickup details, the next step after reading this regional overview."
           />
 
           {regionalPlanners.length > 0 && (

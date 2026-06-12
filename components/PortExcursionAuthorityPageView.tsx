@@ -109,7 +109,7 @@ export function PortExcursionAuthorityPageView({ page }: { page: PortExcursionAu
               Best Excursion at Every Caribbean Port
             </h2>
             <p className="text-sm text-gray-600 mb-6">
-              Master reference table for all {page.portTable.length} ports — click any port name
+              Master reference table for all {page.portTable.length} ports, click any port name
               for the full authority guide or specialist booking site.
             </p>
             <PortExcursionAuthorityTable rows={page.portTable} />

@@ -5,11 +5,10 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
   title: "Best Shore Excursion at Every Caribbean Port",
   seoTitle: "Best Shore Excursion at Every Caribbean Port | Complete Authority Guide",
   metaDescription:
-    "The definitive guide to the best shore excursion at every Caribbean cruise port — St. Thomas, Cozumel, Aruba, Grand Cayman, Roatán, Nassau and more. Port table, category picks, and specialist booking links.",
-  heroSubtitle:
-    "One signature excursion for every port we cover — with authority port guides, specialist operator links, and category recommendations across beaches, reefs, wildlife, families, and private tours.",
+    "The definitive guide to the best shore excursion at every Caribbean cruise port, St. Thomas, Cozumel, Aruba, Grand Cayman, Roatán, Nassau and more. Port table, category picks, and specialist booking links.",
+  heroSubtitle: "One signature excursion for every port we cover: with authority port guides, specialist operator links, and category recommendations across beaches, reefs, wildlife, families, and private tours.",
   introduction:
-    "Every Caribbean cruise port has one excursion that defines the destination — the experience passengers remember years later and recommend to fellow cruisers. This flagship guide ranks the single best shore excursion at each of the twelve Caribbean ports covered by caribbeanshoreexcursion.com, with duration, activity level, and honest reasoning for why each pick earns the top spot.",
+    "Every Caribbean cruise port has one excursion that defines the destination, the experience passengers remember years later and recommend to fellow cruisers. This flagship guide ranks the single best shore excursion at each of the twelve Caribbean ports covered by caribbeanshoreexcursion.com, with duration, activity level, and honest reasoning for why each pick earns the top spot.",
   introductionDetail:
     "Use the master table below to plan your entire cruise itinerary at a glance, then dive into category sections for beach days, reef snorkeling, wildlife encounters, family outings, and private tours. Every port links to its authority guide and vetted local specialist website so you can book with confidence rather than scrolling generic cruise line brochures.",
   portTable: [
@@ -21,7 +20,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       bestFor: "Beaches & first-timers",
       activityLevel: "Easy",
       whyRecommended:
-        "Magens Bay's calm horseshoe water, on-site facilities, and reliable taxi access make it the Eastern Caribbean's safest bet for a perfect beach day — no tender, no reef skills required.",
+        "Magens Bay's calm horseshoe water, on-site facilities, and reliable taxi access make it the Eastern Caribbean's safest bet for a perfect beach day, no tender, no reef skills required.",
     },
     {
       portSlug: "cozumel",
@@ -51,7 +50,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       bestFor: "Diving & culture",
       activityLevel: "Moderate",
       whyRecommended:
-        "The shallow Antilla-area wreck snorkel at Tugboat Beach offers exceptional visibility and easy reef access — Curaçao's signature underwater experience distinct from Aruba's beach focus.",
+        "The shallow Antilla-area wreck snorkel at Tugboat Beach offers exceptional visibility and easy reef access, Curaçao's signature underwater experience distinct from Aruba's beach focus.",
     },
     {
       portSlug: "grand-cayman",
@@ -71,7 +70,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       bestFor: "Beach clubs & couples",
       activityLevel: "Easy",
       whyRecommended:
-        "Orient Bay on the French side delivers the liveliest beach-club atmosphere in the Eastern Caribbean — loungers, restaurants, water sports, and a distinct European-Caribbean vibe.",
+        "Orient Bay on the French side delivers the liveliest beach-club atmosphere in the Eastern Caribbean, loungers, restaurants, water sports, and a distinct European-Caribbean vibe.",
     },
     {
       portSlug: "nassau",
@@ -111,7 +110,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       bestFor: "Adventure & waterfalls",
       activityLevel: "Active",
       whyRecommended:
-        "The Amber Coast's signature adventure — hiking, climbing, and sliding through 27 waterfall pools. Organized coaches depart from Amber Cove and Taíno Bay with timed port returns.",
+        "The Amber Coast's signature adventure, hiking, climbing, and sliding through 27 waterfall pools. Organized coaches depart from Amber Cove and Taíno Bay with timed port returns.",
     },
     {
       portSlug: "ocho-rios",
@@ -121,7 +120,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       bestFor: "Iconic adventure",
       activityLevel: "Active",
       whyRecommended:
-        "Jamaica's must-do experience — a guided climb through terraced waterfalls in human-chain formation just 10 minutes from the cruise terminal. Book the first morning slot.",
+        "Jamaica's must-do experience, a guided climb through terraced waterfalls in human-chain formation just 10 minutes from the cruise terminal. Book the first morning slot.",
     },
     {
       portSlug: "falmouth",
@@ -131,15 +130,14 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       bestFor: "Nature & couples",
       activityLevel: "Easy",
       whyRecommended:
-        "Peaceful bamboo raft rides through jungle-lined river channels — Falmouth's signature experience with the best access on Jamaica's north coast and a quieter port atmosphere.",
+        "Peaceful bamboo raft rides through jungle-lined river channels, Falmouth's signature experience with the best access on Jamaica's north coast and a quieter port atmosphere.",
     },
   ],
   bestBeachExcursions: [
     {
       portSlug: "st-thomas",
       excursionName: "Magens Bay Beach Day",
-      description:
-        "The Eastern Caribbean gold standard — calm horseshoe bay with facilities, chair rentals, and taxi access from both cruise terminals.",
+      description: "The Eastern Caribbean gold standard: calm horseshoe bay with facilities, chair rentals, and taxi access from both cruise terminals.",
     },
     {
       portSlug: "aruba",
@@ -162,8 +160,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
     {
       portSlug: "st-maarten",
       excursionName: "Orient Bay Beach Club",
-      description:
-        "Lively French-side beach clubs with restaurants, loungers, and water sports — a different vibe from quiet bay beaches.",
+      description: "Lively French-side beach clubs with restaurants, loungers, and water sports: a different vibe from quiet bay beaches.",
     },
     {
       portSlug: "nassau",
@@ -200,8 +197,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
     {
       portSlug: "curacao",
       excursionName: "Tugboat Beach Wreck Snorkel",
-      description:
-        "Shallow wreck snorkel with vibrant reef fish — the ABC islands' best snorkel site for beginners and experienced swimmers alike.",
+      description: "Shallow wreck snorkel with vibrant reef fish: the ABC islands' best snorkel site for beginners and experienced swimmers alike.",
     },
     {
       portSlug: "aruba",
@@ -214,8 +210,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
     {
       portSlug: "grand-cayman",
       excursionName: "Stingray City Sandbar",
-      description:
-        "Wild southern stingrays in shallow sandbar water with no enclosure — the Caribbean's most unique wildlife encounter.",
+      description: "Wild southern stingrays in shallow sandbar water with no enclosure: the Caribbean's most unique wildlife encounter.",
     },
     {
       portSlug: "nassau",
@@ -252,8 +247,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
     {
       portSlug: "nassau",
       excursionName: "Atlantis Aquaventure",
-      description:
-        "The Caribbean's premier family water park — slides, lazy river, beach, and pools. Hard to beat for families with school-age children.",
+      description: "The Caribbean's premier family water park: slides, lazy river, beach, and pools. Hard to beat for families with school-age children.",
     },
     {
       portSlug: "grand-cayman",
@@ -314,8 +308,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
     {
       portSlug: "roatan",
       excursionName: "Private West Bay Driver & Snorkel Boat",
-      description:
-        "Private drivers to West Bay cost $30-50 round trip — the Caribbean's best value for custom beach-and-snorkel days.",
+      description: "Private drivers to West Bay cost $30-50 round trip: the Caribbean's best value for custom beach-and-snorkel days.",
     },
     {
       portSlug: "ocho-rios",
@@ -343,7 +336,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
     {
       question: "Which port has the easiest excursion for first-time cruisers?",
       answer:
-        "St. Thomas (Magens Bay), Aruba (Eagle Beach), and Roatán (West Bay) offer the easiest logistics — direct dock, short transfers, and no special skills required. Grand Cayman requires tenders but Stingray City is worth the extra planning.",
+        "St. Thomas (Magens Bay), Aruba (Eagle Beach), and Roatán (West Bay) offer the easiest logistics, direct dock, short transfers, and no special skills required. Grand Cayman requires tenders but Stingray City is worth the extra planning.",
     },
     {
       question: "Which ports are best for families with children?",

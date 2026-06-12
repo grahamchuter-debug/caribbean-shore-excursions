@@ -32,7 +32,7 @@ export default function CruiseLinesPage() {
       />
       <PageHero
         title="Cruise Line Guides"
-        subtitle="Caribbean-specific planning advice for every major cruise line — itineraries, popular ports, and shore excursion booking strategies."
+        subtitle="Caribbean-specific planning advice for every major cruise line, itineraries, popular ports, and shore excursion booking strategies."
       />
       <section className="section-padding">
         <div className="container-wide">

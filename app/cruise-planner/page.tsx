@@ -29,7 +29,7 @@ const plannerFaqs = [
   },
   {
     question: "Should I book excursions through the cruise line or independently?",
-    answer: "Book your one must-do excursion through the cruise line for the return guarantee. Use independent operators for additional activities — they typically offer better pricing and smaller groups.",
+    answer: "Book your one must-do excursion through the cruise line for the return guarantee. Use independent operators for additional activities, they typically offer better pricing and smaller groups.",
   },
   {
     question: "How far in advance should I plan Caribbean port days?",
@@ -229,7 +229,7 @@ export default function CruisePlannerPage() {
               {ports.map((port) => (
                 <Link key={port.slug} href={`/ports/${port.slug}`} className="card text-sm hover:border-caribbean-200">
                   <span className="font-semibold text-gray-900">{port.name}</span>
-                  <span className="text-gray-500"> — {port.region}</span>
+                  <span className="text-gray-500"> ({port.region})</span>
                 </Link>
               ))}
             </div>

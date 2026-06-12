@@ -27,9 +27,9 @@ export const ports: Port[] = [
       safetyNotes: "Generally safe in tourist areas. Use licensed taxis and avoid isolated areas after dark.",
     },
     passengerTips: [
-      "Book Magens Bay excursions early — it fills up on busy ship days",
+      "Book Magens Bay excursions early, it fills up on busy ship days",
       "Taxis are unmetered; agree on price before departing",
-      "St. John day trips require a ferry — allow extra travel time",
+      "St. John day trips require a ferry, allow extra travel time",
       "Duty-free shopping is best near Havensight terminal",
       "Bring reef-safe sunscreen for snorkeling excursions",
     ],
@@ -75,11 +75,11 @@ export const ports: Port[] = [
       safetyNotes: "Stick to organized excursions and licensed operators. Downtown San Miguel is walkable and safe.",
     },
     passengerTips: [
-      "Book reef snorkeling early — top sites have daily visitor limits",
-      "Tulum excursions require mainland ferry — factor in travel time",
+      "Book reef snorkeling early, top sites have daily visitor limits",
+      "Tulum excursions require mainland ferry, factor in travel time",
       "Bring cash for smaller vendors and beach clubs",
       "Water shoes help on rocky reef entry points",
-      "Puerta Maya pier is farthest from downtown — taxi or shuttle recommended",
+      "Puerta Maya pier is farthest from downtown, taxi or shuttle recommended",
     ],
     topAttractions: [
       { name: "Palancar Reef", description: "World-famous coral reef with exceptional visibility.", distance: "20 min by boat" },
@@ -114,7 +114,7 @@ export const ports: Port[] = [
       { name: "Sunset Horseback Ride", description: "Guided ride along Aruba's north coast with ocean views.", duration: "2-3 hours", type: "Adventure", rating: 4.6 },
     ],
     portInfo: {
-      dockType: "Port of Oranjestad — two cruise terminals",
+      dockType: "Port of Oranjestad, two cruise terminals",
       walkingDistance: "5 minutes to downtown Oranjestad",
       tenderRequired: false,
       currency: "Aruban Florin (AWG), USD widely accepted",
@@ -124,10 +124,10 @@ export const ports: Port[] = [
     },
     passengerTips: [
       "Aruba's constant trade winds make it ideal for sailing excursions",
-      "Rent a car only if experienced — local driving can be aggressive",
+      "Rent a car only if experienced, local driving can be aggressive",
       "Eagle Beach is less crowded than Palm Beach on ship days",
-      "Book Arikok tours in advance — park has daily capacity limits",
-      "Bring sun protection — Aruba has intense year-round sun",
+      "Book Arikok tours in advance, park has daily capacity limits",
+      "Bring sun protection, Aruba has intense year-round sun",
     ],
     topAttractions: [
       { name: "Eagle Beach", description: "Wide white-sand beach consistently ranked among the world's best.", distance: "10 min by taxi" },
@@ -171,9 +171,9 @@ export const ports: Port[] = [
       safetyNotes: "Historic waterfront is safe during daylight. Use organized excursions for remote reef sites.",
     },
     passengerTips: [
-      "Willemstad is walkable from the pier — allow time to explore before booking outbound tours",
-      "Curaçao's east-coast dive sites require boat access — book reef tours in advance",
-      "The floating Queen Emma Bridge swings open for ships — plan crossings accordingly",
+      "Willemstad is walkable from the pier, allow time to explore before booking outbound tours",
+      "Curaçao's east-coast dive sites require boat access, book reef tours in advance",
+      "The floating Queen Emma Bridge swings open for ships, plan crossings accordingly",
       "Grote Knip and Playa Porto Mari beaches need taxi or tour transport",
       "Curaçao sits outside the hurricane belt with reliable year-round weather",
     ],
@@ -210,7 +210,7 @@ export const ports: Port[] = [
       { name: "Cayman Turtle Centre", description: "Conservation center with turtle encounters and snorkeling lagoon.", duration: "3-4 hours", type: "Family", rating: 4.6 },
     ],
     portInfo: {
-      dockType: "Anchorage in George Town — tender boats required",
+      dockType: "Anchorage in George Town, tender boats required",
       walkingDistance: "Tender to George Town waterfront",
       tenderRequired: true,
       currency: "Cayman Islands Dollar (KYD), USD accepted",
@@ -219,10 +219,10 @@ export const ports: Port[] = [
       safetyNotes: "Tender operations can be cancelled in rough seas. Have a backup plan.",
     },
     passengerTips: [
-      "Stingray City is the signature experience — book early",
-      "Tender queues can be long on busy days — disembark promptly",
+      "Stingray City is the signature experience, book early",
+      "Tender queues can be long on busy days, disembark promptly",
       "Weather cancellations affect tender and boat excursions",
-      "Seven Mile Beach public access points are limited — use organized transport",
+      "Seven Mile Beach public access points are limited, use organized transport",
       "Water shoes recommended for Stingray City sandbar",
     ],
     topAttractions: [
@@ -268,10 +268,10 @@ export const ports: Port[] = [
     },
     passengerTips: [
       "Maho Beach plane spotting is weather and schedule dependent",
-      "Orient Bay is on the French side — bring Euros or card",
+      "Orient Bay is on the French side, bring Euros or card",
       "Water taxis run between cruise pier and Philipsburg",
       "Book catamaran sails early on multi-ship days",
-      "The island is small — you can visit both Dutch and French sides in one day",
+      "The island is small, you can visit both Dutch and French sides in one day",
     ],
     topAttractions: [
       { name: "Maho Beach", description: "Famous beach beneath Princess Juliana Airport flight path.", distance: "15 min by taxi" },
@@ -315,8 +315,8 @@ export const ports: Port[] = [
       safetyNotes: "Stay in tourist areas. Downtown is walkable but use organized excursions for outer islands.",
     },
     passengerTips: [
-      "Atlantis day passes sell out — book well in advance",
-      "Exuma pig excursions require a short flight — expensive but memorable",
+      "Atlantis day passes sell out, book well in advance",
+      "Exuma pig excursions require a short flight, expensive but memorable",
       "Downtown Nassau is walkable from the cruise terminal",
       "Bargain at Straw Market but verify quality",
       "Bring cash for local vendors and taxis",
@@ -411,9 +411,9 @@ export const ports: Port[] = [
       safetyNotes: "The port complex is secure. Excursions to Mahahual and ruins use organized transport.",
     },
     passengerTips: [
-      "Chacchoben ruins are less crowded than Tulum — great alternative",
-      "Mahahual village is a 15-minute drive — worth visiting over port pool",
-      "Bacalar requires a longer excursion — plan for 6+ hours",
+      "Chacchoben ruins are less crowded than Tulum, great alternative",
+      "Mahahual village is a 15-minute drive, worth visiting over port pool",
+      "Bacalar requires a longer excursion, plan for 6+ hours",
       "The port village pool is convenient but gets crowded",
       "Bring insect repellent for jungle ruin tours",
     ],
@@ -459,11 +459,11 @@ export const ports: Port[] = [
       safetyNotes: "Use organized excursions. Amber Cove port area is secure and self-contained.",
     },
     passengerTips: [
-      "27 Charcos requires moderate fitness — wear water shoes",
+      "27 Charcos requires moderate fitness, wear water shoes",
       "Teleférico cable car queues can be long on busy days",
       "Amber Cove is 20 minutes from Puerto Plata city",
-      "Atlantic beaches here differ from Caribbean — check conditions",
-      "Book waterfall excursions early — daily capacity is limited",
+      "Atlantic beaches here differ from Caribbean, check conditions",
+      "Book waterfall excursions early, daily capacity is limited",
     ],
     topAttractions: [
       { name: "Mount Isabel de Torres", description: "Mountain summit with cable car, gardens, and panoramic views.", distance: "20 min by taxi + cable car" },
@@ -507,11 +507,11 @@ export const ports: Port[] = [
       safetyNotes: "Use licensed operators and organized excursions. Avoid unlicensed vendors.",
     },
     passengerTips: [
-      "Dunn's River Falls is the must-do — book the first available slot",
+      "Dunn's River Falls is the must-do, book the first available slot",
       "Water shoes are essential for waterfall climbing",
-      "Martha Brae rafting is more relaxed — good for mixed-age groups",
+      "Martha Brae rafting is more relaxed, good for mixed-age groups",
       "Bargaining is expected at craft markets",
-      "Allow buffer time — Jamaica operates on island time",
+      "Allow buffer time, Jamaica operates on island time",
     ],
     topAttractions: [
       { name: "Dunn's River Falls", description: "600-foot terraced waterfall you can climb.", distance: "10 min by taxi" },
@@ -555,10 +555,10 @@ export const ports: Port[] = [
       safetyNotes: "Cruise port area is secure. Explore the historic town during daylight with a guide or organized tour.",
     },
     passengerTips: [
-      "Martha Brae rafting is Falmouth's signature experience — book early on busy ship days",
-      "Dunn's River Falls is 45-60 minutes away — factor drive time if choosing over rafting",
-      "The historic town is walkable from the pier — less vendor pressure than Ocho Rios",
-      "Luminous Lagoon tours run after dark — confirm ship departure time before booking",
+      "Martha Brae rafting is Falmouth's signature experience, book early on busy ship days",
+      "Dunn's River Falls is 45-60 minutes away, factor drive time if choosing over rafting",
+      "The historic town is walkable from the pier, less vendor pressure than Ocho Rios",
+      "Luminous Lagoon tours run after dark, confirm ship departure time before booking",
       "Licensed taxis and organized excursions are strongly recommended",
     ],
     topAttractions: [

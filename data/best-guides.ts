@@ -7,15 +7,14 @@ export const bestGuides: BestGuidePage[] = [
     title: "Best Caribbean Shore Excursions",
     metaDescription:
       "Ranked guide to the best Caribbean shore excursions at Cozumel, St. Thomas, Grand Cayman, Aruba, Roatán and Nassau. Port comparisons, booking advice, and specialist operator links.",
-    heroSubtitle:
-      "Authority-ranked port days across the Caribbean — signature excursions, transfer logistics, and links to local specialist operators.",
+    heroSubtitle: "Authority-ranked port days across the Caribbean: signature excursions, transfer logistics, and links to local specialist operators.",
     introduction:
-      "Choosing the right shore excursion defines your Caribbean cruise. The best port days combine a short transfer from the terminal, a licensed operator with strong reviews, and an experience you simply cannot replicate onboard — whether that is standing among wild stingrays at Grand Cayman, snorkeling Palancar Reef in Cozumel, or ferrying to Trunk Bay from St. Thomas.",
+      "Choosing the right shore excursion defines your Caribbean cruise. The best port days combine a short transfer from the terminal, a licensed operator with strong reviews, and an experience you simply cannot replicate onboard, whether that is standing among wild stingrays at Grand Cayman, snorkeling Palancar Reef in Cozumel, or ferrying to Trunk Bay from St. Thomas.",
     introductionDetail:
       "This guide ranks the Caribbean's top cruise ports and signature excursions based on excursion quality, port logistics, value, and how well each experience fits a typical 6-8 hour port call. We link to authority port guides and specialist local websites so you can book with confidence rather than relying on generic cruise line brochures.",
     topPorts: [
       { slug: "cozumel", reason: "The Mesoamerican Barrier Reef delivers world-class snorkeling, while Mayan ruin combos and El Cielo catamaran sails give Cozumel the widest excursion menu of any Caribbean port." },
-      { slug: "st-thomas", reason: "Magens Bay, Sapphire Beach reef snorkeling, and a 20-minute ferry to St. John make St. Thomas the Eastern Caribbean's most versatile port — with no tender required." },
+      { slug: "st-thomas", reason: "Magens Bay, Sapphire Beach reef snorkeling, and a 20-minute ferry to St. John make St. Thomas the Eastern Caribbean's most versatile port, with no tender required." },
       { slug: "grand-cayman", reason: "Stingray City is a once-in-a-lifetime wildlife encounter found nowhere else in the Caribbean. Seven Mile Beach and Cemetery Reef add strong second activities." },
       { slug: "aruba", reason: "Outside the hurricane belt with year-round sunshine, Eagle Beach catamaran sails and Arikok 4x4 adventures suit every cruise passenger style." },
       { slug: "roatan", reason: "Comparable reef quality to Cozumel at lower prices and fewer boats at snorkel sites. West Bay Beach is among the Caribbean's best-value white-sand days." },
@@ -27,7 +26,7 @@ export const bestGuides: BestGuidePage[] = [
       { name: "Magens Bay Beach Day", portSlug: "st-thomas", description: "Consistently ranked among the world's finest swim beaches. Organized excursions handle taxi logistics and chair rentals at this horseshoe bay.", duration: "4-5 hours" },
       { name: "Dunn's River Falls Climb", portSlug: "ocho-rios", description: "Jamaica's iconic guided waterfall climb in human-chain formation. Book the first morning slot to avoid cruise-ship crowds at the falls.", duration: "3-4 hours" },
       { name: "Eagle Beach & Snorkel Sail", portSlug: "aruba", description: "Trade-wind catamaran sail with a reef snorkel stop and Eagle Beach time. Aruba's consistent weather makes this reliable year-round.", duration: "4-5 hours" },
-      { name: "Atlantis Aquaventure", portSlug: "nassau", description: "Full water park access on Paradise Island including slides, lazy river, and beach. Day passes sell out on busy ship days — book 2-3 weeks ahead.", duration: "5-6 hours" },
+      { name: "Atlantis Aquaventure", portSlug: "nassau", description: "Full water park access on Paradise Island including slides, lazy river, and beach. Day passes sell out on busy ship days: book 2-3 weeks ahead.", duration: "5-6 hours" },
     ],
     comparisonTable: [
       { portSlug: "cozumel", portName: "Cozumel", bestFor: "Reef variety", bestExcursion: "Palancar Reef Snorkel", transferTime: "10-20 min boat", rating: "4.9" },
@@ -46,9 +45,9 @@ export const bestGuides: BestGuidePage[] = [
     ],
     faqs: [
       { question: "What are the best Caribbean shore excursions overall?", answer: "Stingray City in Grand Cayman, Palancar Reef snorkeling in Cozumel, Magens Bay in St. Thomas, Dunn's River Falls in Ocho Rios, and Eagle Beach catamaran sails in Aruba consistently rank as the Caribbean's top signature experiences." },
-      { question: "Should I book shore excursions through the cruise line?", answer: "Book your one must-do excursion through the cruise line for the return guarantee. Use independent specialist operators for additional activities — they typically offer better pricing, smaller groups, and more flexible itineraries." },
+      { question: "Should I book shore excursions through the cruise line?", answer: "Book your one must-do excursion through the cruise line for the return guarantee. Use independent specialist operators for additional activities, they typically offer better pricing, smaller groups, and more flexible itineraries." },
       { question: "How far in advance should I book Caribbean excursions?", answer: "Book signature experiences like Atlantis, Stingray City, and El Cielo catamarans 2-4 weeks before sailing. Check ship schedules 1-2 weeks out to identify multi-ship days when early booking is critical." },
-      { question: "Which Caribbean port is best for first-time cruisers?", answer: "St. Thomas and Cozumel are ideal first ports — direct docking, extensive excursion menus, English-speaking operators, and easy logistics. Aruba is excellent for passengers who want reliable weather." },
+      { question: "Which Caribbean port is best for first-time cruisers?", answer: "St. Thomas and Cozumel are ideal first ports, direct docking, extensive excursion menus, English-speaking operators, and easy logistics. Aruba is excellent for passengers who want reliable weather." },
       { question: "Are independent excursions safe in the Caribbean?", answer: "Licensed operators linked from our port guides are safe and commonly used by experienced cruisers. Verify return-to-ship policies and read recent reviews before booking." },
     ],
   },
@@ -61,15 +60,15 @@ export const bestGuides: BestGuidePage[] = [
     heroSubtitle:
       "Where to find the calmest swimmable bays, shortest transfers, and best beach excursion value across top Caribbean cruise ports.",
     introduction:
-      "A great Caribbean beach excursion is not just about sand quality — it is about calm water safe for swimming, reliable chair-and-facility infrastructure, and a transfer time that leaves you at least three hours on the beach before all-aboard. Magens Bay in St. Thomas, Eagle Beach in Aruba, and West Bay in Roatán meet all three criteria consistently.",
+      "A great Caribbean beach excursion is not just about sand quality, it is about calm water safe for swimming, reliable chair-and-facility infrastructure, and a transfer time that leaves you at least three hours on the beach before all-aboard. Magens Bay in St. Thomas, Eagle Beach in Aruba, and West Bay in Roatán meet all three criteria consistently.",
     introductionDetail:
       "Beach clubs at Orient Bay (St. Maarten) and resort day passes at Atlantis (Nassau) add amenities but at higher cost. This guide ranks beach excursions by water calmness, transfer efficiency, crowd management on multi-ship days, and whether organized transport is worth it over a taxi.",
     topPorts: [
-      { slug: "st-thomas", reason: "Magens Bay's horseshoe shape creates calm swimming in almost all conditions. Facilities include restrooms, food vendors, and chair rentals — rare for a top-ranked Caribbean beach." },
+      { slug: "st-thomas", reason: "Magens Bay's horseshoe shape creates calm swimming in almost all conditions. Facilities include restrooms, food vendors, and chair rentals, rare for a top-ranked Caribbean beach." },
       { slug: "aruba", reason: "Eagle Beach offers wide white sand with divi-divi trees and reliable trade-wind cooling. Outside the hurricane belt, Aruba beach days are rarely weather-cancelled." },
       { slug: "grand-cayman", reason: "Seven Mile Beach is a pristine stretch, though public access points require planning. Organized excursions handle transport and timing around tender operations." },
       { slug: "roatan", reason: "West Bay Beach delivers Caribbean-quality white sand and clear water at a fraction of Cozumel prices. Tabyana Beach offers reef snorkeling directly offshore." },
-      { slug: "st-maarten", reason: "Orient Bay on the French side has lively beach clubs with restaurants, loungers, and water sports — a different vibe from quiet bay beaches." },
+      { slug: "st-maarten", reason: "Orient Bay on the French side has lively beach clubs with restaurants, loungers, and water sports, a different vibe from quiet bay beaches." },
       { slug: "nassau", reason: "Paradise Island beaches via Atlantis day pass offer pools plus beach. Cable Beach and Junkanoo Beach suit passengers who want shorter, lower-cost beach time." },
     ],
     recommendedExcursions: [
@@ -77,7 +76,7 @@ export const bestGuides: BestGuidePage[] = [
       { name: "Eagle Beach Break", portSlug: "aruba", description: "Wide public beach with calm leeward-side water. Walkable from some hotel zones; organized tours add chair service and avoid parking hassles.", duration: "3-4 hours" },
       { name: "Seven Mile Beach Day", portSlug: "grand-cayman", description: "Organized transport to the west coast's finest public access points. Pair with a morning Stingray City tour for a full port day.", duration: "4-5 hours" },
       { name: "West Bay Beach Club", portSlug: "roatan", description: "Top-value white sand with optional offshore reef snorkel. Beach clubs offer lunch packages that simplify your port-day budget.", duration: "4-5 hours" },
-      { name: "Orient Bay Beach Day", portSlug: "st-maarten", description: "French-side beach clubs with full-service restaurants and loungers. Bring Euros or card — the French side prefers different payment than the Dutch side.", duration: "4-5 hours" },
+      { name: "Orient Bay Beach Day", portSlug: "st-maarten", description: "French-side beach clubs with full-service restaurants and loungers. Bring Euros or card: the French side prefers different payment than the Dutch side.", duration: "4-5 hours" },
       { name: "Atlantis Beach & Pool Pass", portSlug: "nassau", description: "Resort beach and pool access on Paradise Island. Best for families wanting guaranteed facilities rather than public beach uncertainty.", duration: "5-6 hours" },
     ],
     comparisonTable: [
@@ -96,7 +95,7 @@ export const bestGuides: BestGuidePage[] = [
       { title: "Book morning departures on multi-ship days", advice: "Check your port's ship schedule. The first beach excursion departure typically finds the fewest crowds and best chair positions." },
     ],
     faqs: [
-      { question: "Which Caribbean port has the best beach for cruise passengers?", answer: "Magens Bay in St. Thomas ranks highest for calm water, facilities, and consistency. Eagle Beach in Aruba and West Bay in Roatán are close runners-up with different advantages — weather reliability and value respectively." },
+      { question: "Which Caribbean port has the best beach for cruise passengers?", answer: "Magens Bay in St. Thomas ranks highest for calm water, facilities, and consistency. Eagle Beach in Aruba and West Bay in Roatán are close runners-up with different advantages, weather reliability and value respectively." },
       { question: "Do beach excursions include chairs and umbrellas?", answer: "Most organized excursions include transport; chair rentals are sometimes included and sometimes $10-20 extra. Confirm inclusions when booking, particularly at Magens Bay, Orient Bay, and West Bay clubs." },
       { question: "How do I avoid crowded beaches on cruise days?", answer: "Check ship schedules for multi-ship days, book the earliest excursion departure, and consider less-famous alternatives like Sapphire Beach (St. Thomas) or Tabyana (Roatán) over the default tourist beach." },
       { question: "Is a beach club worth the extra cost?", answer: "Beach clubs at Orient Bay and West Bay offer guaranteed loungers, restrooms, and food service that simplify port days for families and groups. Public beaches save money but require more self-planning." },
@@ -127,7 +126,7 @@ export const bestGuides: BestGuidePage[] = [
     recommendedExcursions: [
       { name: "Palancar Reef Two-Stop Snorkel", portSlug: "cozumel", description: "Boat to Palancar's coral pinnacles then Columbia Reef. Visibility often exceeds 80 feet; guides point out eagle rays, nurse sharks, and moray eels.", duration: "3-4 hours" },
       { name: "West End Reef Snorkel", portSlug: "roatan", description: "Two-stop tour at pristine barrier reef sites with smaller group boats. Significantly less crowded than Cozumel equivalents at lower per-person cost.", duration: "3-4 hours" },
-      { name: "Stingray City & Reef Combo", portSlug: "grand-cayman", description: "Combine the sandbar stingray encounter with a second reef snorkel stop on one boat tour — efficient use of tender-port time.", duration: "4 hours" },
+      { name: "Stingray City & Reef Combo", portSlug: "grand-cayman", description: "Combine the sandbar stingray encounter with a second reef snorkel stop on one boat tour: efficient use of tender-port time.", duration: "4 hours" },
       { name: "St. John / Trunk Bay Ferry Snorkel", portSlug: "st-thomas", description: "Ferry to St. John for the underwater snorkeling trail at Trunk Bay. Allow 6+ hours for meaningful reef time plus beach relaxation.", duration: "6-7 hours" },
       { name: "Antilla Wreck Snorkel", portSlug: "aruba", description: "Shallow WWII freighter wreck covered in coral and fish. Unique experience not available at most Caribbean ports.", duration: "3-4 hours" },
       { name: "Rose Island Catamaran Snorkel", portSlug: "nassau", description: "Short sail to healthy reef near Rose Island with open bar. Good half-day option when Atlantis is not your priority.", duration: "4 hours" },
@@ -170,15 +169,15 @@ export const bestGuides: BestGuidePage[] = [
       "This guide ranks family excursions by age range suitability, safety supervision, facility quality (restrooms, food, shade), and how well each fits within a 6-8 hour port call with children who may need nap time or early returns to the ship.",
     topPorts: [
       { slug: "nassau", reason: "Atlantis Aquaventure is the Caribbean's premier family water park day. Blue Lagoon Island adds dolphin and sea lion encounters with structured child-friendly programs." },
-      { slug: "grand-cayman", reason: "Stingray City sandbar puts children in waist-deep water with guide supervision — thrilling but safe. Cayman Turtle Centre adds touch tanks for younger kids." },
+      { slug: "grand-cayman", reason: "Stingray City sandbar puts children in waist-deep water with guide supervision, thrilling but safe. Cayman Turtle Centre adds touch tanks for younger kids." },
       { slug: "cozumel", reason: "Chankanaab Park combines a protected snorkel lagoon, dolphin programs, beach, and cultural exhibits in one secure location near the cruise pier." },
       { slug: "st-thomas", reason: "Magens Bay's calm water is ideal for young swimmers. Coral World Ocean Park offers touch pools and an underwater observatory without requiring boat transfers." },
       { slug: "aruba", reason: "De Palm Island all-inclusive includes a water park, snorkel areas, and lunch. Baby Beach shallow lagoon suits toddlers and non-swimmers." },
       { slug: "puerto-plata", reason: "Teleférico cable car is exciting for school-age children. Amber Cove port pool works for families who want a low-stress day without long transfers." },
     ],
     recommendedExcursions: [
-      { name: "Atlantis Aquaventure Day Pass", portSlug: "nassau", description: "Water slides, lazy river, pools, and beach on Paradise Island. Best for children 42 inches and taller on major slides. Book weeks ahead — sells out on multi-ship days.", duration: "5-6 hours" },
-      { name: "Stingray City Sandbar", portSlug: "grand-cayman", description: "Children stand in waist-deep water while guides supervise stingray interactions. Minimum age recommendations vary — typically 5+ with parent supervision.", duration: "3-4 hours" },
+      { name: "Atlantis Aquaventure Day Pass", portSlug: "nassau", description: "Water slides, lazy river, pools, and beach on Paradise Island. Best for children 42 inches and taller on major slides. Book weeks ahead: sells out on multi-ship days.", duration: "5-6 hours" },
+      { name: "Stingray City Sandbar", portSlug: "grand-cayman", description: "Children stand in waist-deep water while guides supervise stingray interactions. Minimum age recommendations vary: typically 5+ with parent supervision.", duration: "3-4 hours" },
       { name: "Chankanaab Beach Park", portSlug: "cozumel", description: "Protected snorkel lagoon, dolphin encounters, sea lion shows, and beach with facilities. All activities in one park reduce transfer stress for families.", duration: "4-5 hours" },
       { name: "Magens Bay Family Beach Day", portSlug: "st-thomas", description: "Calm horseshoe bay with shallow entry, restrooms, food, and chair rentals. The most reliable family beach excursion in the Eastern Caribbean.", duration: "4-5 hours" },
       { name: "De Palm Island All-Inclusive", portSlug: "aruba", description: "Private island with water park, snorkel areas, lunch, and lockers. Ferry transfer is short and children-friendly.", duration: "5-6 hours" },
@@ -213,9 +212,8 @@ export const bestGuides: BestGuidePage[] = [
     seoTitle: "Best Caribbean Couple Excursions | Romantic Port Days",
     title: "Best Caribbean Couple Excursions",
     metaDescription:
-      "Best romantic Caribbean shore excursions for couples — private catamarans, beach cabanas, sunset sails, and intimate port days in Aruba, St. Thomas, Cozumel and Grand Cayman.",
-    heroSubtitle:
-      "Private sails, secluded beaches, and intimate excursions away from the tour-bus crowds — ranked for couples.",
+      "Best romantic Caribbean shore excursions for couples, private catamarans, beach cabanas, sunset sails, and intimate port days in Aruba, St. Thomas, Cozumel and Grand Cayman.",
+    heroSubtitle: "Private sails, secluded beaches, and intimate excursions away from the tour-bus crowds: ranked for couples.",
     introduction:
       "Couples on Caribbean cruises typically want three things: smaller groups, scenic settings, and enough flexibility to linger at a beach bar or snorkel spot without a tour guide rushing the schedule. Private catamarans, beach cabana packages, and early-morning wildlife charters deliver the strongest romantic port-day experiences.",
     introductionDetail:
@@ -230,7 +228,7 @@ export const bestGuides: BestGuidePage[] = [
     ],
     recommendedExcursions: [
       { name: "Private Sunset Catamaran", portSlug: "aruba", description: "Evening west-coast sail with open bar, light appetizers, and golden-hour photography. Aruba's reliable weather makes sunset sails a consistent couple favorite.", duration: "2-3 hours" },
-      { name: "Private St. John Catamaran", portSlug: "st-thomas", description: "Charter to Trunk Bay for snorkeling the underwater trail, then beach time on St. John. Private boats set their own pace — no rushing for the group schedule.", duration: "6-7 hours" },
+      { name: "Private St. John Catamaran", portSlug: "st-thomas", description: "Charter to Trunk Bay for snorkeling the underwater trail, then beach time on St. John. Private boats set their own pace: no rushing for the group schedule.", duration: "6-7 hours" },
       { name: "Private El Cielo Catamaran", portSlug: "cozumel", description: "Sandbar with starfish in knee-deep crystal water, champagne, and a private reef snorkel stop. The most-requested couple excursion in Cozumel.", duration: "4-5 hours" },
       { name: "Private Stingray City Charter", portSlug: "grand-cayman", description: "Early-morning sandbar visit before group boats arrive. Private charters allow extended time with the rays and a more personal guide experience.", duration: "3-4 hours" },
       { name: "Orient Bay Cabana & Lunch", portSlug: "st-maarten", description: "French-side beach club with private cabana, bottle service, and three-course lunch. The most polished couple beach experience in the Eastern Caribbean.", duration: "4-5 hours" },
@@ -249,7 +247,7 @@ export const bestGuides: BestGuidePage[] = [
       { title: "Schedule one relaxed port day", advice: "Not every port needs an adventure. A couple cabana day at Orient Bay or Eagle Beach with lunch and wine can be the highlight of the cruise without exhaustion." },
       { title: "Request early departures for wildlife tours", advice: "Private Stingray City charters at 7:30am arrive before group boats. The sandbar is quieter and guides provide more personal attention in the first hour." },
       { title: "Confirm open-bar and lunch inclusions", advice: "Catamaran packages vary widely. Premium couple charters include champagne, three-course lunch, and snorkel gear; budget sails may charge for each separately." },
-      { title: "Evening port calls suit sunset sails", advice: "Aruba and St. Maarten frequently have evening departures. Sunset catamarans are designed for these extended port days — check your ship schedule." },
+      { title: "Evening port calls suit sunset sails", advice: "Aruba and St. Maarten frequently have evening departures. Sunset catamarans are designed for these extended port days, check your ship schedule." },
     ],
     faqs: [
       { question: "What is the most romantic Caribbean shore excursion?", answer: "Private El Cielo catamarans in Cozumel, sunset sails in Aruba, and early-morning private Stingray City charters in Grand Cayman rank highest for couples in our port authority research." },
@@ -266,8 +264,7 @@ export const bestGuides: BestGuidePage[] = [
     title: "Best Caribbean Private Tours",
     metaDescription:
       "Best Caribbean private shore excursions at Cozumel, St. Thomas, Grand Cayman, Aruba, Roatán and Ocho Rios. Custom itineraries, private boats, and licensed local guides.",
-    heroSubtitle:
-      "Private boats, custom island tours, and exclusive charters — the ports where independent exploration delivers the best results.",
+    heroSubtitle: "Private boats, custom island tours, and exclusive charters: the ports where independent exploration delivers the best results.",
     introduction:
       "Private tours solve the biggest complaint cruise passengers have about shore excursions: being rushed through a group itinerary that does not match their interests. The best Caribbean ports for private tours have compact geography, reliable licensed operators, and enough attractions to fill a custom 6-hour day.",
     introductionDetail:
@@ -277,7 +274,7 @@ export const bestGuides: BestGuidePage[] = [
       { slug: "st-thomas", reason: "Private taxi island tours hit Magens Bay, Mountain Top, Red Hook, and the ferry terminal on a custom timeline. Ideal for groups with mixed interests." },
       { slug: "grand-cayman", reason: "Private Stingray City boats depart at your chosen time. Custom Seven Mile Beach and Botanic Park combinations avoid the rigid group-tour schedule." },
       { slug: "aruba", reason: "Private Arikok 4x4 tours reach Natural Pool and California Lighthouse on off-road routes that buses cannot access. Custom north-coast and beach combinations." },
-      { slug: "roatan", reason: "Private drivers to West Bay cost $30-50 round trip — the Caribbean's best value for custom beach-and-snorkel days. Private snorkel boats are widely available." },
+      { slug: "roatan", reason: "Private drivers to West Bay cost $30-50 round trip, the Caribbean's best value for custom beach-and-snorkel days. Private snorkel boats are widely available." },
       { slug: "ocho-rios", reason: "Private Dunn's River Falls tours secure the first morning slot before group arrivals. Custom routes add Blue Hole or Martha Brae rafting extensions." },
     ],
     recommendedExcursions: [
@@ -297,18 +294,18 @@ export const bestGuides: BestGuidePage[] = [
       { portSlug: "ocho-rios", portName: "Ocho Rios", bestFor: "Timed falls", bestExcursion: "Private Falls", transferTime: "10 min taxi", rating: "4.9" },
     ],
     passengerRecommendations: [
-      { title: "Agree on price and itinerary before departing", advice: "St. Thomas taxis are unmetered — negotiate the full route and price at the port. Private operators linked from specialist sites provide written quotes in advance." },
+      { title: "Agree on price and itinerary before departing", advice: "St. Thomas taxis are unmetered, negotiate the full route and price at the port. Private operators linked from specialist sites provide written quotes in advance." },
       { title: "Groups of 4-6 get the best per-person value", advice: "A $400 private van split six ways costs less per person than cruise line excursions while delivering a fully custom day. Solo travelers pay more but gain total flexibility." },
       { title: "Share your ship's all-aboard time upfront", advice: "Every private operator needs your departure time and builds in return buffer. Communicate this when booking, not when the driver picks you up." },
       { title: "Combine private boat and beach for full days", advice: "In Grand Cayman, a private Stingray City morning plus Seven Mile Beach afternoon is a complete port day. In Cozumel, reef snorkel plus San Miguel lunch works the same way." },
-      { title: "Verify the operator is licensed at the port", advice: "Licensed operators display credentials at cruise terminals. Avoid unlicensed vendors offering 'cheap private tours' — insurance and ship-return policies may not apply." },
+      { title: "Verify the operator is licensed at the port", advice: "Licensed operators display credentials at cruise terminals. Avoid unlicensed vendors offering 'cheap private tours', insurance and ship-return policies may not apply." },
     ],
     faqs: [
       { question: "How do I book a private tour in the Caribbean?", answer: "Book through specialist local operators linked from our port authority guides. They provide confirmed pricing, licensed drivers or captains, and ship-return guarantees. Alternatively, negotiate with licensed taxis at the port terminal." },
       { question: "Are private tours cheaper than cruise line excursions?", answer: "For groups of 4-6, private vans and boats often cost less per person than cruise line pricing. Solo travelers and couples pay a premium for exclusivity but gain custom itineraries." },
       { question: "Which port is best for DIY private exploration?", answer: "St. Thomas (compact island, reliable taxis), Roatán (affordable private drivers), and Aruba (organized private 4x4 network) offer the easiest private tour logistics." },
       { question: "Do private tours guarantee return to the ship?", answer: "Reputable specialist operators guarantee ship return. Confirm this policy in writing before booking. Cruise-line-booked excursions include this guarantee by default." },
-      { question: "Can I customize a private tour on the day?", answer: "Yes — that is the primary advantage. Tell your driver or captain your priorities at the start and adjust stops based on weather, crowds, and your group's energy level." },
+      { question: "Can I customize a private tour on the day?", answer: "Yes, that is the primary advantage. Tell your driver or captain your priorities at the start and adjust stops based on weather, crowds, and your group's energy level." },
     ],
     excursionTypeSlug: "private-tours",
   },
@@ -318,16 +315,15 @@ export const bestGuides: BestGuidePage[] = [
     title: "Best Caribbean Catamaran Cruises",
     metaDescription:
       "Best Caribbean catamaran shore excursions at St. Thomas, Aruba, Cozumel, St. Maarten, Nassau and Grand Cayman. Snorkel sails, open-bar cruises, and sunset catamarans.",
-    heroSubtitle:
-      "Open-bar snorkel sails, sandbar catamarans, and sunset cruises — ranked by port coastline, reef access, and sailing conditions.",
+    heroSubtitle: "Open-bar snorkel sails, sandbar catamarans, and sunset cruises: ranked by port coastline, reef access, and sailing conditions.",
     introduction:
       "Catamaran excursions are the Caribbean's most popular half-day format: sailing, snorkeling, open bar, and a social atmosphere in one package. The best catamaran ports have calm leeward coasts for comfortable sailing, reef or island stops within 30 minutes of the pier, and operators running multiple daily departures.",
     introductionDetail:
-      "Not all catamaran tours are equal. Premium sails with 20-30 passengers differ dramatically from party boats carrying 80+. This guide ranks catamaran ports and specific excursion types — island-hopping sails, sandbar combos, sunset cruises, and reef snorkel sails — so you can choose the right experience for your port day.",
+      "Not all catamaran tours are equal. Premium sails with 20-30 passengers differ dramatically from party boats carrying 80+. This guide ranks catamaran ports and specific excursion types, island-hopping sails, sandbar combos, sunset cruises, and reef snorkel sails, so you can choose the right experience for your port day.",
     topPorts: [
       { slug: "st-thomas", reason: "Catamarans reach outer cays and St. John with excellent snorkel stops. Multiple operators run daily sails from Havensight and Crown Bay terminals." },
       { slug: "aruba", reason: "Consistent trade winds power smooth sailing along the west coast. Sunset catamarans are a specialty with reliable evening weather outside the hurricane belt." },
-      { slug: "cozumel", reason: "El Cielo sandbar catamarans combine starfish shallows with reef snorkel stops — Cozumel's signature catamaran experience." },
+      { slug: "cozumel", reason: "El Cielo sandbar catamarans combine starfish shallows with reef snorkel stops, Cozumel's signature catamaran experience." },
       { slug: "st-maarten", reason: "Tintamarre islet sails reach uninhabited snorkel and beach stops off the Dutch coast. Orient Bay catamarans add a different French-side perspective." },
       { slug: "nassau", reason: "Rose Island and Goulding Cay reef catamarans provide reliable half-day sails within 20 minutes of Prince George Wharf." },
       { slug: "grand-cayman", reason: "West coast reef snorkel sails combine Cemetery Reef stops with coastline cruising. Best paired with a morning Stingray City tour." },
@@ -369,15 +365,14 @@ export const bestGuides: BestGuidePage[] = [
     seoTitle: "Best Caribbean Wildlife Excursions | Stingrays, Reefs & More",
     title: "Best Caribbean Wildlife Excursions",
     metaDescription:
-      "Best Caribbean wildlife shore excursions — Stingray City Grand Cayman, swimming pigs Nassau, Gumbalimba Roatán, reef turtles, and dolphin encounters at top cruise ports.",
-    heroSubtitle:
-      "Stingrays, swimming pigs, reef marine life, and eco-park encounters — the Caribbean's most memorable wildlife port days ranked.",
+      "Best Caribbean wildlife shore excursions, Stingray City Grand Cayman, swimming pigs Nassau, Gumbalimba Roatán, reef turtles, and dolphin encounters at top cruise ports.",
+    heroSubtitle: "Stingrays, swimming pigs, reef marine life, and eco-park encounters: the Caribbean's most memorable wildlife port days ranked.",
     introduction:
-      "Wildlife excursions create the stories cruise passengers tell for years afterward. Stingray City in Grand Cayman — standing in waist-deep water surrounded by wild southern stingrays — is genuinely unique to this one sandbar. Nassau's swimming pigs in the Exuma cays and Roatán's Gumbalimba capuchin monkeys offer experiences no shipboard activity can replicate.",
+      "Wildlife excursions create the stories cruise passengers tell for years afterward. Stingray City in Grand Cayman, standing in waist-deep water surrounded by wild southern stingrays, is genuinely unique to this one sandbar. Nassau's swimming pigs in the Exuma cays and Roatán's Gumbalimba capuchin monkeys offer experiences no shipboard activity can replicate.",
     introductionDetail:
       "Wildlife excursions range from free-roaming animal encounters (Stingray City) to managed marine parks (Dolphin Cove, Ocean World) to reef snorkeling where you observe wild sea turtles and tropical fish. This guide ranks each by uniqueness, ethical standards, age suitability, and how well the experience fits a cruise port day.",
     topPorts: [
-      { slug: "grand-cayman", reason: "Stingray City sandbar is the Caribbean's most unique wildlife encounter — wild stingrays in shallow water with no enclosure. Nowhere else offers this exact experience." },
+      { slug: "grand-cayman", reason: "Stingray City sandbar is the Caribbean's most unique wildlife encounter, wild stingrays in shallow water with no enclosure. Nowhere else offers this exact experience." },
       { slug: "nassau", reason: "Exuma swimming pigs require a short flight but deliver the Caribbean's most famous animal encounter. Blue Lagoon offers structured dolphin programs closer to port." },
       { slug: "roatan", reason: "Gumbalimba Park combines capuchin monkeys, iguanas, and zip-lines in a rainforest setting. Reef snorkel tours add wild sea turtle sightings." },
       { slug: "cozumel", reason: "Palancar Reef delivers wild tropical fish, rays, and occasional sea turtles. Chankanaab Park offers managed dolphin programs alongside wild reef snorkeling." },
@@ -385,11 +380,11 @@ export const bestGuides: BestGuidePage[] = [
       { slug: "puerto-plata", reason: "Ocean World marine park offers dolphin swims and sea lion programs on the Amber Coast. Structured programs suit families wanting guaranteed wildlife contact." },
     ],
     recommendedExcursions: [
-      { name: "Stingray City Sandbar", portSlug: "grand-cayman", description: "Wild southern stingrays in waist-deep turquoise water. The Caribbean's definitive wildlife excursion — book early departure and disembark tenders promptly.", duration: "3-4 hours" },
-      { name: "Exuma Swimming Pigs", portSlug: "nassau", description: "Short flight to Big Major Cay to swim with the famous pigs in crystal shallows. Premium full-day excursion — book through specialist operators weeks ahead.", duration: "Full day" },
+      { name: "Stingray City Sandbar", portSlug: "grand-cayman", description: "Wild southern stingrays in waist-deep turquoise water. The Caribbean's definitive wildlife excursion: book early departure and disembark tenders promptly.", duration: "3-4 hours" },
+      { name: "Exuma Swimming Pigs", portSlug: "nassau", description: "Short flight to Big Major Cay to swim with the famous pigs in crystal shallows. Premium full-day excursion: book through specialist operators weeks ahead.", duration: "Full day" },
       { name: "Gumbalimba Park", portSlug: "roatan", description: "Capuchin monkeys climb on shoulders, iguanas roam freely, and zip-lines traverse jungle canopy. The strongest eco-wildlife combination in the Western Caribbean.", duration: "4-5 hours" },
       { name: "Palancar Reef Wildlife Snorkel", portSlug: "cozumel", description: "Wild eagle rays, nurse sharks, moray eels, and sea turtles at Palancar Reef. Natural wildlife encounter without marine park enclosures.", duration: "3-4 hours" },
-      { name: "Dolphin Cove Encounter", portSlug: "ocho-rios", description: "Structured dolphin swim in a natural lagoon setting. Minimum age and swimming ability requirements apply — confirm when booking for children.", duration: "3-4 hours" },
+      { name: "Dolphin Cove Encounter", portSlug: "ocho-rios", description: "Structured dolphin swim in a natural lagoon setting. Minimum age and swimming ability requirements apply: confirm when booking for children.", duration: "3-4 hours" },
       { name: "Ocean World Dolphin Swim", portSlug: "puerto-plata", description: "Marine park dolphin and sea lion programs on the Amber Coast. Includes beach time and aviary. Good for families wanting managed wildlife contact.", duration: "4-5 hours" },
     ],
     comparisonTable: [
@@ -405,14 +400,14 @@ export const bestGuides: BestGuidePage[] = [
       { title: "Follow all wildlife guide instructions", advice: "At Stingray City, never step on rays and keep hands flat for feeding. Reef snorkelers should not touch turtles or coral. Guides enforce rules that protect both passengers and animals." },
       { title: "Book Stingray City as your first tender off", advice: "Grand Cayman tender logistics are the bottleneck. The first Stingray City departure of the day has the quietest sandbar and most attentive guides." },
       { title: "Exuma pigs require a full port day", advice: "The swimming pigs excursion includes a flight to the Exuma cays and takes 6-8 hours. Only book on ports with 8+ hour calls and no early departure." },
-      { title: "Wear water shoes at all wildlife excursions", advice: "Stingray City sandbar, Gumbalimba trails, and rocky reef entries all benefit from water shoes. Leave jewelry on the ship — stingrays are curious about shiny objects." },
+      { title: "Wear water shoes at all wildlife excursions", advice: "Stingray City sandbar, Gumbalimba trails, and rocky reef entries all benefit from water shoes. Leave jewelry on the ship, stingrays are curious about shiny objects." },
     ],
     faqs: [
-      { question: "What is the best wildlife excursion in the Caribbean?", answer: "Stingray City in Grand Cayman is the most unique — wild stingrays in a natural sandbar setting found nowhere else. Exuma swimming pigs (from Nassau) and Gumbalimba Park (Roatán) are distinctive runners-up." },
+      { question: "What is the best wildlife excursion in the Caribbean?", answer: "Stingray City in Grand Cayman is the most unique, wild stingrays in a natural sandbar setting found nowhere else. Exuma swimming pigs (from Nassau) and Gumbalimba Park (Roatán) are distinctive runners-up." },
       { question: "Is Stingray City safe?", answer: "Yes with guide supervision. Southern stingrays at the sandbar are accustomed to human interaction. Follow guide instructions, avoid stepping on rays, and wear water shoes." },
       { question: "Can you see sea turtles on Caribbean excursions?", answer: "Wild sea turtles are commonly spotted snorkeling at Palancar Reef (Cozumel), West Bay (Roatán), and Cemetery Reef (Grand Cayman). Cayman Turtle Centre offers guaranteed turtle encounters in a conservation setting." },
       { question: "Are dolphin encounters ethical?", answer: "Dolphin programs vary in standards. Dolphin Cove (Ocho Rios) and Ocean World (Puerto Plata) operate managed lagoon programs. Research each facility's conservation credentials before booking." },
-      { question: "How much does the Exuma swimming pigs excursion cost?", answer: "Exuma pig excursions from Nassau typically cost $300-450 per person including the short flight. It is a premium full-day experience — budget accordingly and book through specialist operators." },
+      { question: "How much does the Exuma swimming pigs excursion cost?", answer: "Exuma pig excursions from Nassau typically cost $300-450 per person including the short flight. It is a premium full-day experience, budget accordingly and book through specialist operators." },
     ],
     excursionTypeSlug: "adventure-tours",
   },

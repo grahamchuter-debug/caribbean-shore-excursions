@@ -36,7 +36,6 @@ export function ScheduleTable({
             <th className="px-4 py-3 text-left text-sm font-semibold">Departure</th>
             <th className="px-4 py-3 text-left text-sm font-semibold">Time in Port</th>
             <th className="px-4 py-3 text-left text-sm font-semibold">Passenger Capacity</th>
-            <th className="px-4 py-3 text-left text-sm font-semibold">Notes</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-gray-100 bg-white">
@@ -55,10 +54,9 @@ export function ScheduleTable({
               <td className="px-4 py-3 text-sm text-gray-600 whitespace-nowrap">{entry.arrival}</td>
               <td className="px-4 py-3 text-sm text-gray-600 whitespace-nowrap">{entry.departure}</td>
               <td className="px-4 py-3 text-sm text-gray-600 whitespace-nowrap">
-                {entry.timeInPort ?? "—"}
+                {entry.timeInPort ?? "-"}
               </td>
-              <td className="px-4 py-3 text-sm text-gray-600">{entry.passengers ?? "—"}</td>
-              <td className="px-4 py-3 text-sm text-gray-600 min-w-[12rem]">{entry.notes ?? "—"}</td>
+              <td className="px-4 py-3 text-sm text-gray-600">{entry.passengers ?? "-"}</td>
             </tr>
           ))}
         </tbody>
@@ -66,7 +64,7 @@ export function ScheduleTable({
       <p className="bg-gray-50 px-4 py-2 text-xs text-gray-500 border-t border-gray-200">
         {entries.some((e) => e.isPlaceholder)
           ? "Placeholder rows indicate months awaiting verified schedule import. Arrival and departure times are subject to change."
-          : `${shipCount} ship${shipCount !== 1 ? "s" : ""} scheduled — arrivals and departures are subject to change by cruise lines and port authorities.`}
+          : `${shipCount} ship${shipCount !== 1 ? "s" : ""} scheduled. Arrivals and departures are subject to change by cruise lines and port authorities.`}
       </p>
     </div>
   );

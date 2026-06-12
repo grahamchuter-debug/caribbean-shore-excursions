@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Import verified cruise ship schedules from CruiseTimetables monthly CSV sources.
+ * Import verified cruise ship schedules from monthly CSV source URLs.
  * Usage: node scripts/import-schedules.mjs [port-slug]
  * Example: node scripts/import-schedules.mjs st-thomas
  */
@@ -47,6 +47,11 @@ const PORT_CONFIG = {
     itineraryPortRegex:
       /St\.?\s*Thomas,\s*US Virgin Islands\s*\(\s*(\d{1,2}\s+\w{3})\s+(\d{4})-(\d{4})\s*\)/i,
   },
+  "ocho-rios": {
+    name: "Ocho Rios",
+    itineraryPortRegex:
+      /Ocho Rios,\s*Jamaica\s*\(\s*(\d{1,2}\s+\w{3})\s+(\d{4})-(\d{4})\s*\)/i,
+  },
 };
 
 const FETCH_HEADERS = {
@@ -78,7 +83,9 @@ function parseCsv(filePath) {
     const comma = line.indexOf(",");
     if (comma === -1) continue;
     const monthLabel = line.slice(0, comma).trim();
-    const url = normalizeUrl(line.slice(comma + 1));
+    const rawUrl = line.slice(comma + 1).trim();
+    if (!/^https?:\/\//i.test(rawUrl)) continue;
+    const url = normalizeUrl(rawUrl);
     urls.push({ monthLabel, url });
   }
   return urls;
@@ -132,7 +139,7 @@ function minutesFromTime(t) {
 function calcTimeInPort(arrival, departure) {
   const a = minutesFromTime(arrival);
   const d = minutesFromTime(departure);
-  if (Number.isNaN(a) || Number.isNaN(d) || d <= a) return "—";
+  if (Number.isNaN(a) || Number.isNaN(d) || d <= a) return "-";
   const diff = d - a;
   const hours = Math.floor(diff / 60);
   const mins = diff % 60;
@@ -178,7 +185,6 @@ function parseEntriesFromHtml(html, config) {
       arrival,
       departure,
       timeInPort: calcTimeInPort(arrival, departure),
-      notes: "Source: CruiseTimetables.com — confirm with cruise line before booking.",
     });
   }
 

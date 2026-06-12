@@ -73,12 +73,11 @@ export function getDisplayEntries(
     {
       date: formatMonthLabel(monthKey),
       ship: "Schedule data being updated",
-      cruiseLine: "—",
-      arrival: "—",
-      departure: "—",
-      timeInPort: "—",
-      passengers: "—",
-      notes: `Verified ${portName} ship calls for this month are being imported. Do not rely on unofficial lists — confirm arrival and departure times with your cruise line.`,
+      cruiseLine: "-",
+      arrival: "-",
+      departure: "-",
+      timeInPort: "-",
+      passengers: "-",
       isPlaceholder: true,
     },
   ];

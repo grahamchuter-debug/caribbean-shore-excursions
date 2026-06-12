@@ -31,7 +31,7 @@ export function ShipSchedulePageView({ port }: { port: ShipSchedulePort }) {
         {port.usesTender && (
           <p className="mt-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
             <strong>Tender port:</strong> {port.name} uses ship-to-shore tender boats. Published
-            schedules may change with weather — allow extra time when planning excursions.
+            schedules may change with weather. Allow extra time when planning excursions.
           </p>
         )}
       </section>
@@ -40,7 +40,6 @@ export function ShipSchedulePageView({ port }: { port: ShipSchedulePort }) {
         entries={schedule}
         portName={port.name}
         scheduleOverview={port.scheduleOverview}
-        referenceScheduleUrl={port.referenceScheduleUrl}
       />
 
       <section className="mb-12">

@@ -5,7 +5,7 @@ export const cruiseTips: CruiseTip[] = [
     title: "Book Shore Excursions Early",
     excerpt: "Popular excursions sell out weeks before your cruise. Here's when and how to book.",
     content:
-      "The most popular Caribbean excursions — Stingray City, Dunn's River Falls, Magens Bay, and Atlantis — regularly sell out, especially on multi-ship days. Book at least 2-4 weeks before sailing for must-do experiences. Cruise line excursions can be reserved 90+ days out. Independent operators often have better availability but still recommend advance booking for top-rated tours.",
+      "The most popular Caribbean excursions, Stingray City, Dunn's River Falls, Magens Bay, and Atlantis, regularly sell out, especially on multi-ship days. Book at least 2-4 weeks before sailing for must-do experiences. Cruise line excursions can be reserved 90+ days out. Independent operators often have better availability but still recommend advance booking for top-rated tours.",
   },
   {
     title: "Understand Tender vs Dock Ports",

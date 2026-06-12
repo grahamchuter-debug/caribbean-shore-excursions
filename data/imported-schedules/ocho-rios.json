@@ -1,0 +1,1250 @@
+[
+  {
+    "date": "2026-06-10",
+    "ship": "Carnival Sunrise",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "10:00",
+    "departure": "17:00",
+    "timeInPort": "7h"
+  },
+  {
+    "date": "2026-06-17",
+    "ship": "Carnival Horizon",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-08-12",
+    "ship": "Carnival Horizon",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-09-12",
+    "ship": "Margaritaville At Sea Islander",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-09-23",
+    "ship": "Margaritaville At Sea Islander",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-10-06",
+    "ship": "Margaritaville At Sea Islander",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-10-07",
+    "ship": "Carnival Horizon",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-10-14",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-10-20",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-10-20",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-10-21",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-10-28",
+    "ship": "Carnival Dream",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-10-30",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-11-03",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-11-04",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-11-08",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2026-11-14",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "14:30",
+    "timeInPort": "7h 30m"
+  },
+  {
+    "date": "2026-11-17",
+    "ship": "Eurodam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-11-17",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-11-18",
+    "ship": "Nieuw Amsterdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-11-18",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2026-11-22",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2026-11-24",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-11-24",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-11-24",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-11-25",
+    "ship": "MSC Seashore",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-11-25",
+    "ship": "Scarlet Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-11-26",
+    "ship": "Carnival Sunrise",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-12-01",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-12-02",
+    "ship": "Carnival Horizon",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-12-06",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2026-12-08",
+    "ship": "Eurodam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-12-09",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-12-10",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-12-15",
+    "ship": "Seven Seas Splendor",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-12-15",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-12-16",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:30",
+    "timeInPort": "8h 30m"
+  },
+  {
+    "date": "2026-12-16",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2026-12-17",
+    "ship": "Europa",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "12:00",
+    "departure": "19:00",
+    "timeInPort": "7h"
+  },
+  {
+    "date": "2026-12-20",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2026-12-22",
+    "ship": "Explora III",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-12-23",
+    "ship": "MSC Seashore",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-12-23",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-12-24",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-12-24",
+    "ship": "Seven Seas Mariner",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-12-25",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-12-28",
+    "ship": "AIDAdiva",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-12-29",
+    "ship": "Eurodam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2026-12-30",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-12-30",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2026-12-31",
+    "ship": "Carnival Legend",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-01-03",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2027-01-05",
+    "ship": "Carnival Dream",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-01-06",
+    "ship": "Carnival Legend",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-01-06",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-01-07",
+    "ship": "Crystal Symphony",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2027-01-12",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-01-13",
+    "ship": "Margaritaville At Sea Islander",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-01-13",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-01-17",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2027-01-20",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2027-01-20",
+    "ship": "Seven Seas Splendor",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-01-22",
+    "ship": "Explora I",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-01-26",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-01-27",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-01-27",
+    "ship": "Carnival Dream",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-01-28",
+    "ship": "Ambition",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "19:00",
+    "timeInPort": "11h"
+  },
+  {
+    "date": "2027-01-31",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2027-02-03",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-02-07",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2027-02-08",
+    "ship": "AIDAdiva",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-02-10",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-02-10",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-02-11",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-02-13",
+    "ship": "Norwegian Jewel",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:30",
+    "timeInPort": "8h 30m"
+  },
+  {
+    "date": "2027-02-14",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2027-02-16",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-02-17",
+    "ship": "Rotterdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-02-23",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:30",
+    "departure": "18:00",
+    "timeInPort": "8h 30m"
+  },
+  {
+    "date": "2027-02-24",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-02-24",
+    "ship": "Carnival Legend",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-02-28",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2027-03-02",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-03-03",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-03-03",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-03-05",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "15:00",
+    "timeInPort": "7h"
+  },
+  {
+    "date": "2027-03-08",
+    "ship": "Norwegian Jewel",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "15:30",
+    "timeInPort": "7h 30m"
+  },
+  {
+    "date": "2027-03-09",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-03-10",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-03-10",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:30",
+    "departure": "17:00",
+    "timeInPort": "7h 30m"
+  },
+  {
+    "date": "2027-03-12",
+    "ship": "Norwegian Jewel",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "09:00",
+    "departure": "16:30",
+    "timeInPort": "7h 30m"
+  },
+  {
+    "date": "2027-03-14",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2027-03-24",
+    "ship": "Carnival Horizon",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-03-26",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "15:00",
+    "timeInPort": "7h"
+  },
+  {
+    "date": "2027-03-26",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-03-28",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2027-03-30",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-03-31",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-03-31",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-04-07",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-04-07",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-04-13",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-04-14",
+    "ship": "Explora III",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-04-14",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-04-18",
+    "ship": "Valiant Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-04-20",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-04-28",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-05-05",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-05-12",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-05-19",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-06-02",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-06-09",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-06-16",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-06-30",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-07-01",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-07-07",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-07-14",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-07-21",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-07-28",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-08-11",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-08-18",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-08-25",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-09-15",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-09-22",
+    "ship": "Margaritaville At Sea Beachcomber",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-09-29",
+    "ship": "Carnival Valor",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-09-29",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-10-14",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-10-19",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-10-27",
+    "ship": "Carnival Breeze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-10-27",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-10-29",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-11-02",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-11-03",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-11-03",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-11-07",
+    "ship": "Mein Schiff 3",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2027-11-16",
+    "ship": "Celebrity Beyond",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "16:30",
+    "timeInPort": "7h 30m"
+  },
+  {
+    "date": "2027-11-17",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-11-18",
+    "ship": "Oceania Sirena",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "14:00",
+    "timeInPort": "7h"
+  },
+  {
+    "date": "2027-11-18",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-11-21",
+    "ship": "Mein Schiff 3",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2027-11-23",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-11-25",
+    "ship": "MSC Grandiosa",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:30",
+    "departure": "18:00",
+    "timeInPort": "9h 30m"
+  },
+  {
+    "date": "2027-11-30",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "10:00",
+    "departure": "17:00",
+    "timeInPort": "7h"
+  },
+  {
+    "date": "2027-12-01",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-12-05",
+    "ship": "Mein Schiff 3",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2027-12-10",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-12-10",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "11:00",
+    "departure": "18:00",
+    "timeInPort": "7h"
+  },
+  {
+    "date": "2027-12-14",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-12-15",
+    "ship": "Explora IV",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-12-15",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-12-19",
+    "ship": "Mein Schiff 3",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h"
+  },
+  {
+    "date": "2027-12-22",
+    "ship": "Seven Seas Splendor",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "11:00",
+    "departure": "18:00",
+    "timeInPort": "7h"
+  },
+  {
+    "date": "2027-12-23",
+    "ship": "Valiant Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:30",
+    "departure": "18:00",
+    "timeInPort": "8h 30m"
+  },
+  {
+    "date": "2027-12-29",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h"
+  },
+  {
+    "date": "2027-12-31",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h"
+  },
+  {
+    "date": "2027-12-31",
+    "ship": "Brilliant Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:30",
+    "departure": "17:00",
+    "timeInPort": "7h 30m"
+  }
+]

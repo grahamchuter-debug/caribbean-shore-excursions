@@ -1,7 +1,7 @@
 import type { PortRelatedLink } from "./types";
 import { getPortBySlug } from "./ports";
 
-/** 2–4 related Caribbean port slugs for cross-linking on each authority page. */
+/** 2-4 related Caribbean port slugs for cross-linking on each authority page. */
 const relatedPortSlugs: Record<string, string[]> = {
   "st-thomas": ["st-maarten", "nassau", "puerto-plata"],
   cozumel: ["costa-maya", "roatan", "grand-cayman"],

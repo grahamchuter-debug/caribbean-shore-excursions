@@ -9,8 +9,7 @@ import { breadcrumbSchema, organizationSchema } from "@/lib/schema";
 
 export const metadata = buildMetadata({
   title: "About Caribbean Shore Excursions",
-  description:
-    "Learn about Caribbean Shore Excursions — the independent Caribbean cruise planning authority helping passengers compare ports, excursions, and itineraries.",
+  description: "Learn about Caribbean Shore Excursions: the independent Caribbean cruise planning authority helping passengers compare ports, excursions, and itineraries.",
   path: "/about",
   keywords: ["about us", "cruise planning authority", "Caribbean travel guide"],
 });
@@ -29,7 +28,7 @@ export default function AboutPage() {
       />
       <PageHero
         title="About Us"
-        subtitle="The independent Caribbean cruise planning authority — helping passengers make informed decisions about ports, excursions, and itineraries."
+        subtitle="The independent Caribbean cruise planning authority, helping passengers make informed decisions about ports, excursions, and itineraries."
         compact
       />
       <section className="section-padding">
@@ -43,12 +42,12 @@ export default function AboutPage() {
 
           <div className="space-y-6 text-gray-700 leading-relaxed">
             <p className="text-lg leading-relaxed">
-              {SITE.name} is the planning authority for Caribbean cruise passengers. We are not a tour operator — we are an independent resource that helps you compare ports, understand excursion options, and build the perfect cruise itinerary before you sail.
+              {SITE.name} is the planning authority for Caribbean cruise passengers. We are not a tour operator. We are an independent resource that helps you compare ports, understand excursion options, and build the perfect cruise itinerary before you sail.
             </p>
 
             <h2 className="font-display text-2xl font-bold text-gray-900 mt-10">Our Mission</h2>
             <p>
-              Caribbean cruising offers incredible diversity — from Mayan ruins in Cozumel to stingrays in Grand Cayman, from Dunn&apos;s River Falls in Jamaica to duty-free shopping in St. Thomas. With so many options at every port, planning can be overwhelming.
+              Caribbean cruising offers incredible diversity, from Mayan ruins in Cozumel to stingrays in Grand Cayman, from Dunn&apos;s River Falls in Jamaica to duty-free shopping in St. Thomas. With so many options at every port, planning can be overwhelming.
             </p>
             <p>
               We cut through the noise with honest, detailed port guides, head-to-head comparisons, and practical passenger tips. Our network of specialist port websites connects you with vetted local excursion operators when you are ready to book.

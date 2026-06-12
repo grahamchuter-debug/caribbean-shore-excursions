@@ -11,7 +11,7 @@ export const regions: RegionPage[] = [
     overview:
       "Eastern Caribbean itineraries typically sail from Florida or Puerto Rico through the Lesser Antilles, U.S. Virgin Islands, and increasingly the Dominican Republic's Amber Coast. This region excels at beach days, island-hopping, duty-free shopping, and catamaran snorkel sails. Ports are generally direct-dock with strong excursion infrastructure.",
     portComparison:
-      "St. Thomas is the region's busiest port — best for beaches, shopping, and St. John day trips. St. Maarten offers dual Dutch-French culture and Maho Beach plane spotting. Puerto Plata brings waterfall adventures and cable car views at Amber Cove. Choose St. Thomas for classic Caribbean beaches, St. Maarten for unique experiences, and Puerto Plata for active adventure days.",
+      "St. Thomas is the region's busiest port, best for beaches, shopping, and St. John day trips. St. Maarten offers dual Dutch-French culture and Maho Beach plane spotting. Puerto Plata brings waterfall adventures and cable car views at Amber Cove. Choose St. Thomas for classic Caribbean beaches, St. Maarten for unique experiences, and Puerto Plata for active adventure days.",
     recommendedExcursions: [
       "Magens Bay beach day and St. John ferry in St. Thomas",
       "Maho Beach plane spotting and Orient Bay in St. Maarten",
@@ -28,8 +28,7 @@ export const regions: RegionPage[] = [
     title: "Western Caribbean Cruise Ports Guide",
     metaDescription:
       "Western Caribbean cruise port authority guide covering Cozumel, Roatán, Grand Cayman, Costa Maya and Ocho Rios with excursion comparisons and local specialist links.",
-    heroSubtitle:
-      "Reef snorkeling, Mayan ruins, Stingray City, and Jamaica rainforest adventures — plan Western Caribbean port days with authority comparisons.",
+    heroSubtitle: "Reef snorkeling, Mayan ruins, Stingray City, and Jamaica rainforest adventures: plan Western Caribbean port days with authority comparisons.",
     overview:
       "Western Caribbean routes visit Mexico's Yucatán and Quintana Roo coasts, Honduras Bay Islands, the Cayman Islands, and Jamaica's north shore. This region is the top choice for reef snorkeling, Mayan culture, wildlife encounters, and adventure excursions at competitive prices.",
     portComparison:
@@ -53,9 +52,9 @@ export const regions: RegionPage[] = [
     heroSubtitle:
       "Year-round sunshine, Eagle Beach, Arikok National Park, and Southern Caribbean route planning from Aruba.",
     overview:
-      "Southern Caribbean itineraries sail deeper into the chain — Aruba, Curaçao, Bonaire, and occasionally Trinidad or Grenada. Aruba sits outside the hurricane belt with reliable weather, Dutch-Caribbean culture, and diverse landscapes from desert interior to world-class beaches.",
+      "Southern Caribbean itineraries sail deeper into the chain, Aruba, Curaçao, Bonaire, and occasionally Trinidad or Grenada. Aruba sits outside the hurricane belt with reliable weather, Dutch-Caribbean culture, and diverse landscapes from desert interior to world-class beaches.",
     portComparison:
-      "Aruba is the dominant Southern Caribbean cruise port on mainstream itineraries — excellent beaches, snorkeling, and consistent sunshine. Compare with Curaçao for more cultural depth and Bonaire for diving focus. Aruba wins for first-time Southern Caribbean visitors seeking easy port logistics and beach quality.",
+      "Aruba is the dominant Southern Caribbean cruise port on mainstream itineraries, excellent beaches, snorkeling, and consistent sunshine. Compare with Curaçao for more cultural depth and Bonaire for diving focus. Aruba wins for first-time Southern Caribbean visitors seeking easy port logistics and beach quality.",
     recommendedExcursions: [
       "Eagle Beach day and Oranjestad stroll from the pier",
       "Arikok National Park 4x4 to Natural Pool",
@@ -71,7 +70,7 @@ export const regions: RegionPage[] = [
     slug: "dominican-republic-cruise-ports",
     title: "Dominican Republic Cruise Ports Guide",
     metaDescription:
-      "Dominican Republic cruise port authority guide for Puerto Plata and Amber Cove — waterfalls, cable car views, beaches and puertoplatacruiseexcursion.com.",
+      "Dominican Republic cruise port authority guide for Puerto Plata and Amber Cove, waterfalls, cable car views, beaches and puertoplatacruiseexcursion.com.",
     heroSubtitle:
       "Amber Cove, Puerto Plata, waterfall adventures, and Atlantic-coast cruise port planning for Dominican Republic itineraries.",
     overview:
@@ -93,13 +92,13 @@ export const regions: RegionPage[] = [
     slug: "jamaica-cruise-ports",
     title: "Jamaica Cruise Ports Guide",
     metaDescription:
-      "Jamaica cruise port authority guide for Ocho Rios — Dunn's River Falls, river rafting, rainforest adventures and ochoriosshoreexcursions.com.",
+      "Jamaica cruise port authority guide for Ocho Rios, Dunn's River Falls, river rafting, rainforest adventures and ochoriosshoreexcursions.com.",
     heroSubtitle:
       "Dunn's River Falls, Mystic Mountain, Martha Brae rafting, and Jamaica north-coast cruise excursion planning.",
     overview:
       "Jamaica's north coast is adventure-focused cruise territory. Ocho Rios is the primary port for Dunn's River Falls, Mystic Mountain bobsled, and Dolphin Cove. The island's lush rainforest, reggae culture, and iconic waterfall climbs make Jamaica a standout on Western Caribbean itineraries.",
     portComparison:
-      "Ocho Rios concentrates the island's top attractions within short taxi rides of the cruise terminal — ideal for waterfall climbs and zip-line adventures. Falmouth (on some itineraries) offers Martha Brae rafting access with fewer crowds. Ocho Rios wins for first-time Jamaica visitors wanting the signature Dunn's River experience.",
+      "Ocho Rios concentrates the island's top attractions within short taxi rides of the cruise terminal. Ideal for waterfall climbs and zip-line adventures. Falmouth (on some itineraries) offers Martha Brae rafting access with fewer crowds. Ocho Rios wins for first-time Jamaica visitors wanting the signature Dunn's River experience.",
     recommendedExcursions: [
       "Dunn's River Falls guided climb",
       "Mystic Mountain rainforest bobsled and sky explorer",

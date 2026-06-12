@@ -15,12 +15,10 @@ export function ScheduleHub({
   entries,
   portName,
   scheduleOverview,
-  referenceScheduleUrl,
 }: {
   entries: ScheduleEntry[];
   portName: string;
   scheduleOverview?: string;
-  referenceScheduleUrl?: string;
 }) {
   const monthsWithData = useMemo(() => getMonthsWithEntries(entries), [entries]);
   const allMonths = useMemo(() => getAllMonthKeys(), []);
@@ -62,9 +60,8 @@ export function ScheduleHub({
       <section>
         <h2 className="section-title text-2xl sm:text-3xl mb-4">Monthly Schedule</h2>
         <p className="text-sm text-gray-600 mb-4">
-          Select a month to view scheduled ship calls. Tables are structured for verified data import
-          with columns for date, ship, cruise line, arrival, departure, time in port, passenger
-          capacity, and notes.
+          Select a month to view scheduled ship calls with date, ship, cruise line, arrival,
+          departure, time in port, and passenger capacity.
         </p>
         <div className="flex flex-wrap gap-2 mb-6">
           {allMonths.map((monthKey) => {
@@ -90,24 +87,9 @@ export function ScheduleHub({
           })}
         </div>
         <h3 className="font-semibold text-gray-900 mb-3">
-          {formatMonthLabel(activeMonth)} — {portName}
+          {formatMonthLabel(activeMonth)} at {portName}
         </h3>
         <ScheduleTable entries={filtered} portName={portName} />
-        {referenceScheduleUrl && (
-          <p className="mt-4 text-xs text-gray-500">
-            Reference source for schedule imports:{" "}
-            <a
-              href={referenceScheduleUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-caribbean-700 hover:underline"
-            >
-              CruiseTimetables.com port calendar
-            </a>
-            . We publish verified rows only — months without data show a placeholder until import is
-            complete.
-          </p>
-        )}
       </section>
     </div>
   );

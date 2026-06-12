@@ -23,7 +23,7 @@ export function SchedulePreviewCard({ port }: { port: ShipSchedulePort }) {
       <p className="mt-3 text-xs text-gray-500">
         {shipCount > 0
           ? `${shipCount} verified ship call${shipCount !== 1 ? "s" : ""} listed`
-          : "Monthly 2026 schedule — data import in progress"}
+          : "Monthly 2026 schedule, data import in progress"}
       </p>
       <span className="mt-4 inline-flex items-center text-sm font-medium text-caribbean-700">
         View {port.name} schedule

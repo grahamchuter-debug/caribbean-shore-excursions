@@ -9,11 +9,11 @@ const authority: Record<string, PortAuthorityContent> = {
       "Magens Bay and Sapphire Beach rank among the Caribbean's finest swim spots",
       "Easy ferry access to St. John and Trunk Bay for a second-island adventure",
       "Charlotte Amalie offers world-class duty-free shopping within walking distance",
-      "No tender required — ships dock at dedicated terminals year-round",
+      "No tender required. Ships dock at dedicated terminals year-round",
     ],
     bestBeaches: [
       { name: "Magens Bay", description: "Calm horseshoe bay with facilities, chair rentals, and taxi access from both terminals." },
-      { name: "Sapphire Beach", description: "Excellent snorkeling reef just east of Red Hook — popular half-day beach and snorkel combo." },
+      { name: "Sapphire Beach", description: "Excellent snorkeling reef just east of Red Hook: popular half-day beach and snorkel combo." },
       { name: "Coki Beach", description: "Lively beach beside Coral World with easy reef entry and equipment rentals." },
     ],
     bestForFamilies: [
@@ -29,7 +29,7 @@ const authority: Record<string, PortAuthorityContent> = {
       "Couples massage and beach club packages at resort beaches",
     ],
     snorkelling: [
-      { site: "Trunk Bay (St. John)", description: "Underwater trail in Virgin Islands National Park — best reached via ferry from St. Thomas." },
+      { site: "Trunk Bay (St. John)", description: "Underwater trail in Virgin Islands National Park: best reached via ferry from St. Thomas." },
       { site: "Sapphire Beach Reef", description: "Healthy reef close to shore with parrotfish, sergeant majors, and easy access for beginners." },
       { site: "Buck Island (boat tour)", description: "Guided snorkel at a protected cay with excellent visibility on calm days." },
     ],
@@ -50,9 +50,9 @@ const authority: Record<string, PortAuthorityContent> = {
       "Mexico's busiest cruise port with the widest independent excursion selection",
     ],
     bestBeaches: [
-      { name: "Playa Palancar", description: "Soft sand and clear water on the southwest coast — pairs well with reef snorkel tours." },
+      { name: "Playa Palancar", description: "Soft sand and clear water on the southwest coast: pairs well with reef snorkel tours." },
       { name: "Chankanaab Beach", description: "Beach park with snorkeling lagoon, facilities, and dolphin programs." },
-      { name: "El Cielo sandbar", description: "Shallow turquoise sandbar reached by catamaran — starfish and crystal-clear water." },
+      { name: "El Cielo sandbar", description: "Shallow turquoise sandbar reached by catamaran: starfish and crystal-clear water." },
     ],
     bestForFamilies: [
       "Chankanaab Beach Park with snorkeling lagoon and cultural exhibits",
@@ -68,7 +68,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
     snorkelling: [
       { site: "Palancar Reef", description: "Iconic coral formations with exceptional visibility and guided boat access." },
-      { site: "Columbia Reef", description: "Deeper reef sections with larger marine species — popular second snorkel stop." },
+      { site: "Columbia Reef", description: "Deeper reef sections with larger marine species: popular second snorkel stop." },
       { site: "Chankanaab Lagoon", description: "Protected in-park lagoon ideal for beginners and families." },
     ],
     privateTours: [
@@ -88,9 +88,9 @@ const authority: Record<string, PortAuthorityContent> = {
       "Walkable Oranjestad with Dutch-Caribbean architecture right from the pier",
     ],
     bestBeaches: [
-      { name: "Eagle Beach", description: "Wide white sand with divi-divi trees — less commercial than Palm Beach." },
+      { name: "Eagle Beach", description: "Wide white sand with divi-divi trees: less commercial than Palm Beach." },
       { name: "Palm Beach", description: "Two-mile strip with water sports, beach bars, and resort amenities." },
-      { name: "Baby Beach", description: "Shallow lagoon on the south coast — excellent for families and beginner snorkelers." },
+      { name: "Baby Beach", description: "Shallow lagoon on the south coast: excellent for families and beginner snorkelers." },
     ],
     bestForFamilies: [
       "De Palm Island all-inclusive with water park and snorkel areas",
@@ -106,8 +106,8 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
     snorkelling: [
       { site: "Antilla Shipwreck", description: "Shallow WWII wreck site popular on snorkel and dive boats." },
-      { site: "Boca Catalina", description: "Calm bay with turtles and reef fish — accessible from shore or boat." },
-      { site: "Mangel Halto", description: "Protected reef with mangroves — best with a local guide." },
+      { site: "Boca Catalina", description: "Calm bay with turtles and reef fish: accessible from shore or boat." },
+      { site: "Mangel Halto", description: "Protected reef with mangroves: best with a local guide." },
     ],
     privateTours: [
       { name: "Private island highlights tour", description: "Custom route covering California Lighthouse, beaches, and Oranjestad." },
@@ -126,9 +126,9 @@ const authority: Record<string, PortAuthorityContent> = {
       "George Town duty-free shopping steps from the tender landing",
     ],
     bestBeaches: [
-      { name: "Seven Mile Beach", description: "Iconic stretch of white sand — use organized transport to public access points." },
-      { name: "Starfish Point", description: "Shallow water with starfish — combine with Stingray City on many tours." },
-      { name: "Rum Point", description: "Relaxed north-side beach with hammocks — longer transfer but worth the trip." },
+      { name: "Seven Mile Beach", description: "Iconic stretch of white sand: use organized transport to public access points." },
+      { name: "Starfish Point", description: "Shallow water with starfish: combine with Stingray City on many tours." },
+      { name: "Rum Point", description: "Relaxed north-side beach with hammocks: longer transfer but worth the trip." },
     ],
     bestForFamilies: [
       "Stingray City sandbar with waist-deep water and guide supervision",
@@ -165,7 +165,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
     bestBeaches: [
       { name: "Cable Beach", description: "Popular resort strip with calm water and beach bar options." },
-      { name: "Cabbage Beach (Paradise Island)", description: "Atlantis resort beach — access via day pass or excursion." },
+      { name: "Cabbage Beach (Paradise Island)", description: "Atlantis resort beach: access via day pass or excursion." },
       { name: "Junkanoo Beach", description: "Close to downtown with local food vendors and calm shallows." },
     ],
     bestForFamilies: [
@@ -202,8 +202,8 @@ const authority: Record<string, PortAuthorityContent> = {
       "Eco-adventures including zip-lines, sloths, and iguanas suit active families",
     ],
     bestBeaches: [
-      { name: "West Bay Beach", description: "Stunning white sand and calm water — short taxi from either cruise port." },
-      { name: "Mahogany Bay Beach", description: "Free beach at the cruise center — convenient but crowded on busy days." },
+      { name: "West Bay Beach", description: "Stunning white sand and calm water: short taxi from either cruise port." },
+      { name: "Mahogany Bay Beach", description: "Free beach at the cruise center: convenient but crowded on busy days." },
       { name: "Tabyana Beach", description: "West Bay alternative with snorkel reef directly offshore." },
     ],
     bestForFamilies: [
@@ -241,8 +241,8 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
     bestBeaches: [
       { name: "Orient Bay", description: "French side beach with clubs, restaurants, and water sports." },
-      { name: "Maho Beach", description: "Famous aircraft landing beach — follow safety guidelines at the fence line." },
-      { name: "Great Bay Beach", description: "Near Philipsburg and the cruise pier — convenient for a quick swim." },
+      { name: "Maho Beach", description: "Famous aircraft landing beach: follow safety guidelines at the fence line." },
+      { name: "Great Bay Beach", description: "Near Philipsburg and the cruise pier: convenient for a quick swim." },
     ],
     bestForFamilies: [
       "Great Bay Beach and Philipsburg shopping within water-taxi reach",
@@ -257,7 +257,7 @@ const authority: Record<string, PortAuthorityContent> = {
       "Sunset sail along the west coast with cocktails",
     ],
     snorkelling: [
-      { site: "Tintamarre Cay", description: "Uninhabited islet with clear water — reached by catamaran tours." },
+      { site: "Tintamarre Cay", description: "Uninhabited islet with clear water: reached by catamaran tours." },
       { site: "Creole Rock", description: "Popular snorkel stop on sailing excursions near Grand Case." },
       { site: "Mullet Bay", description: "Calm reef area suitable for beginner snorkelers." },
     ],
@@ -280,7 +280,7 @@ const authority: Record<string, PortAuthorityContent> = {
     bestBeaches: [
       { name: "Playa Dorada", description: "Resort beach strip with calm Atlantic waters and facilities." },
       { name: "Cofresí Beach", description: "Near Puerto Plata town with local restaurants and calm sections." },
-      { name: "Amber Cove beach", description: "On-port waterfront area — convenient but limited compared to excursion beaches." },
+      { name: "Amber Cove beach", description: "On-port waterfront area: convenient but limited compared to excursion beaches." },
     ],
     bestForFamilies: [
       "Teleférico cable car with botanical gardens at the summit",
@@ -354,7 +354,7 @@ const authority: Record<string, PortAuthorityContent> = {
       "Outside the hurricane belt with reliable year-round port conditions",
     ],
     bestBeaches: [
-      { name: "Grote Knip (Kenepa Beach)", description: "Turquoise cove on the west coast — reached by taxi or island tour." },
+      { name: "Grote Knip (Kenepa Beach)", description: "Turquoise cove on the west coast: reached by taxi or island tour." },
       { name: "Playa Porto Mari", description: "Double reef snorkel beach with facilities and calm swimming areas." },
       { name: "Mambo Beach", description: "Lively beach boulevard with restaurants and loungers near Willemstad." },
     ],
@@ -371,7 +371,7 @@ const authority: Record<string, PortAuthorityContent> = {
       "Beach club afternoon at Jan Thiel or Mambo Beach",
     ],
     snorkelling: [
-      { site: "Tugboat Beach", description: "Shallow wreck snorkel with excellent visibility — Curaçao's signature site." },
+      { site: "Tugboat Beach", description: "Shallow wreck snorkel with excellent visibility: Curaçao's signature site." },
       { site: "Director's Bay", description: "Protected reef with healthy coral and abundant tropical fish." },
       { site: "Playa Kalki", description: "West-coast reef site popular with divers and snorkelers." },
     ],
@@ -392,9 +392,9 @@ const authority: Record<string, PortAuthorityContent> = {
       "Lush north-coast rainforest setting distinct from typical beach ports",
     ],
     bestBeaches: [
-      { name: "Dunn's River Falls Beach", description: "Sandy area at the base of the falls — included with falls climb tours." },
+      { name: "Dunn's River Falls Beach", description: "Sandy area at the base of the falls: included with falls climb tours." },
       { name: "Mahogany Beach", description: "Calm cove near the cruise port with chair rentals." },
-      { name: "James Bond Beach (Oracabessa)", description: "Scenic cove featured in films — reached on island tours." },
+      { name: "James Bond Beach (Oracabessa)", description: "Scenic cove featured in films: reached on island tours." },
     ],
     bestForFamilies: [
       "Dunn's River Falls guided climb in human chain formation",
@@ -430,12 +430,12 @@ const authority: Record<string, PortAuthorityContent> = {
       "Gateway to Luminous Lagoon bioluminescent evening tours",
     ],
     bestBeaches: [
-      { name: "Burwood Beach", description: "Public beach near Falmouth with calm water — reached by short taxi ride." },
+      { name: "Burwood Beach", description: "Public beach near Falmouth with calm water: reached by short taxi ride." },
       { name: "Good Hope Estate beach", description: "Estate grounds with river access and adventure activities." },
       { name: "Runaway Bay (excursion)", description: "North-coast beach sections on combination tours from Falmouth." },
     ],
     bestForFamilies: [
-      "Martha Brae bamboo rafting — peaceful and suitable for mixed ages",
+      "Martha Brae bamboo rafting, peaceful and suitable for mixed ages",
       "Good Hope Estate zip-line and river tubing for active families",
       "Historic Falmouth walking tour with colonial architecture",
       "Luminous Lagoon evening boat tour for older children and teens",

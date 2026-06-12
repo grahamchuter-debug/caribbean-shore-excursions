@@ -250,7 +250,7 @@ export default function HomePage() {
             <div>
               <h2 className="section-title">Cruise Line Guides</h2>
               <p className="section-subtitle">
-                Caribbean-specific planning advice for every major cruise line — routes, popular ports, and excursion booking tips.
+                Caribbean-specific planning advice for every major cruise line, routes, popular ports, and excursion booking tips.
               </p>
             </div>
             <Link href="/cruise-lines" className="btn-secondary shrink-0">
@@ -277,7 +277,7 @@ export default function HomePage() {
             <div>
               <h2 className="section-title">Best Caribbean Excursions</h2>
               <p className="section-subtitle">
-                Authority-ranked excursion guides by type — beaches, snorkeling, families, couples, private tours, and more.
+                Authority-ranked excursion guides by type, beaches, snorkeling, families, couples, private tours, and more.
               </p>
             </div>
             <div className="flex flex-wrap gap-2 shrink-0">
@@ -297,7 +297,7 @@ export default function HomePage() {
               Best Shore Excursion at Every Caribbean Port
             </h3>
             <p className="mt-2 text-gray-600">
-              Master table covering all 12 ports — signature excursion, duration, activity level, and links to authority guides and local specialists.
+              Master table covering all 12 ports, signature excursion, duration, activity level, and links to authority guides and local specialists.
             </p>
           </Link>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -318,7 +318,7 @@ export default function HomePage() {
         <div className="container-wide">
           <h2 className="section-title">Caribbean Itinerary Planners</h2>
           <p className="section-subtitle mb-10">
-            Plan by cruise route — Eastern, Western, and Southern Caribbean ports, excursions, and specialist links.
+            Plan by cruise route, Eastern, Western, and Southern Caribbean ports, excursions, and specialist links.
           </p>
           <div className="grid gap-4 sm:grid-cols-3">
             {itineraryPlanners.map((planner) => (
@@ -338,7 +338,7 @@ export default function HomePage() {
         <div className="container-wide">
           <h2 className="section-title">Regional Cruise Planners</h2>
           <p className="section-subtitle mb-10">
-            ABC Islands, Virgin Islands, Bahamas, and Mexican Caribbean — port comparisons, beaches, private tours, and family picks.
+            ABC Islands, Virgin Islands, Bahamas, and Mexican Caribbean, port comparisons, beaches, private tours, and family picks.
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {regionalCruisePlanners.map((planner) => (
@@ -358,7 +358,7 @@ export default function HomePage() {
         <div className="container-wide">
           <h2 className="section-title">Caribbean Cruise Regions</h2>
           <p className="section-subtitle mb-10">
-            Plan by region — compare ports, excursion styles, and specialist local sites across the Eastern, Western, and Southern Caribbean.
+            Plan by region, compare ports, excursion styles, and specialist local sites across the Eastern, Western, and Southern Caribbean.
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {regions.map((region) => (

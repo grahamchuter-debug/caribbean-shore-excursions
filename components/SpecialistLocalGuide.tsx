@@ -88,7 +88,7 @@ export function SpecialistLocalGuide({ portSlug }: { portSlug: string }) {
   );
 }
 
-/** Multi-port "Detailed Local Guides" section — deduplicates slugs automatically. */
+/** Multi-port "Detailed Local Guides" section, deduplicates slugs automatically. */
 export function SpecialistLocalGuideSection({
   portSlugs,
   intro,
