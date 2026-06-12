@@ -10,6 +10,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { SpecialistLocalGuide } from "@/components/SpecialistLocalGuide";
 import { PortRelatedLinks } from "@/components/PortRelatedLinks";
 import { PortAuthoritySections } from "@/components/PortAuthoritySections";
+import { PortPlanningToolkit } from "@/components/PortPlanningToolkit";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { getPortRelatedLinks } from "@/data/port-related";
 import { JsonLd } from "@/components/JsonLd";
@@ -65,18 +66,20 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
         compact
       />
       <article className="section-padding">
-        <div className="container-wide max-w-4xl">
+        <div className="container-wide max-w-5xl">
           <Breadcrumbs items={breadcrumbs} />
+
+          <PortPlanningToolkit port={port} />
 
           <PortAuthoritySections port={port} authority={authority} />
 
-          <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-6">Top Attractions</h2>
-            <div className="grid gap-4 sm:grid-cols-2">
+          <section className="mb-10">
+            <h2 className="section-title text-xl sm:text-2xl mb-4">Nearby Attractions</h2>
+            <div className="grid gap-3 sm:grid-cols-2">
               {port.topAttractions.map((attr) => (
-                <div key={attr.name} className="card-gradient">
-                  <h3 className="font-semibold text-gray-900">{attr.name}</h3>
-                  <p className="mt-1 text-sm text-gray-600">{attr.description}</p>
+                <div key={attr.name} className="rounded-lg border border-gray-100 bg-gray-50/80 p-4">
+                  <h3 className="font-semibold text-gray-900 text-sm">{attr.name}</h3>
+                  <p className="mt-1 text-sm text-gray-600 line-clamp-2">{attr.description}</p>
                   <p className="mt-2 text-xs text-caribbean-700 font-medium">{attr.distance}</p>
                 </div>
               ))}

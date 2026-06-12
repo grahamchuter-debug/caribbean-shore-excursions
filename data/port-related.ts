@@ -95,6 +95,10 @@ const regionPageLinks: Record<string, PortRelatedLink> = {
   },
 };
 
+export function getSimilarPortSlugs(slug: string): string[] {
+  return relatedPortSlugs[slug] ?? [];
+}
+
 export function getPortRelatedLinks(slug: string): PortRelatedLink[] {
   const port = getPortBySlug(slug);
   if (!port) return [];

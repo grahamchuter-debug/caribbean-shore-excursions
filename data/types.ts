@@ -333,6 +333,28 @@ export interface PortAuthorityContent {
   privateTours: PrivateTourOption[];
 }
 
+export interface PortPlanningSnapshot {
+  timeInPort: string;
+  bestFor: string;
+  walkingRequired: string;
+  familyFriendly: string;
+  privateTourFriendly: string;
+  returnToShipConfidence: string;
+}
+
+export interface TypicalCruiseDayStep {
+  time: string;
+  activity: string;
+}
+
+export interface PortPlanningCard {
+  label: string;
+  href: string;
+  guideHref: string;
+  teaser: string;
+  tone: "sand" | "reef" | "family" | "wildlife" | "private";
+}
+
 export interface RegionalCruisePlannerPage {
   slug: string;
   title: string;

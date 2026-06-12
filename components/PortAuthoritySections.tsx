@@ -1,39 +1,29 @@
 import type { Port } from "@/data/types";
 import type { PortAuthorityContent } from "@/data/types";
 
-function BulletList({ items }: { items: string[] }) {
-  return (
-    <ul className="space-y-3">
-      {items.map((item) => (
-        <li key={item} className="flex items-start gap-3 text-gray-700">
-          <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-caribbean-700 text-white text-xs">
-            ✓
-          </span>
-          {item}
-        </li>
-      ))}
-    </ul>
-  );
-}
-
-function CardGrid({
+function CompactGrid({
+  title,
   items,
   titleKey,
   descriptionKey,
 }: {
+  title: string;
   items: Record<string, string>[];
   titleKey: string;
   descriptionKey: string;
 }) {
   return (
-    <div className="grid gap-4 sm:grid-cols-2">
-      {items.map((item) => (
-        <div key={item[titleKey]} className="card-gradient">
-          <h3 className="font-semibold text-gray-900">{item[titleKey]}</h3>
-          <p className="mt-1 text-sm text-gray-600">{item[descriptionKey]}</p>
-        </div>
-      ))}
-    </div>
+    <section className="mb-10">
+      <h2 className="section-title text-xl sm:text-2xl mb-4">{title}</h2>
+      <div className="grid gap-3 sm:grid-cols-2">
+        {items.slice(0, 4).map((item) => (
+          <div key={item[titleKey]} className="rounded-lg border border-gray-100 bg-gray-50/80 p-4">
+            <h3 className="font-semibold text-gray-900 text-sm">{item[titleKey]}</h3>
+            <p className="mt-1 text-sm text-gray-600 line-clamp-2">{item[descriptionKey]}</p>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 }
 
@@ -44,115 +34,134 @@ export function PortAuthoritySections({
   port: Port;
   authority: PortAuthorityContent;
 }) {
+  const overviewLead = port.overview.split(". ").slice(0, 2).join(". ") + ".";
+
   return (
     <>
-      <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-4">Destination Overview</h2>
-        <p className="text-gray-700 leading-relaxed text-lg">{port.overview}</p>
-        <div className="mt-6 flex flex-wrap gap-2">
+      <section className="mb-10">
+        <h2 className="section-title text-2xl sm:text-3xl mb-3">At a Glance</h2>
+        <p className="text-gray-700 leading-relaxed">{overviewLead}</p>
+        <div className="mt-4 flex flex-wrap gap-2">
           {port.highlights.map((h) => (
             <span
               key={h}
-              className="rounded-full bg-caribbean-100 px-3 py-1 text-sm text-caribbean-800 font-medium"
+              className="rounded-full bg-caribbean-100 px-3 py-1 text-xs text-caribbean-800 font-medium"
             >
               {h}
             </span>
           ))}
         </div>
+        <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+          {authority.whyVisit.slice(0, 4).map((item) => (
+            <li key={item} className="text-sm text-gray-700 flex gap-2">
+              <span className="text-caribbean-600 shrink-0">•</span>
+              <span>{item}</span>
+            </li>
+          ))}
+        </ul>
       </section>
 
-      <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-6">Why Cruise Passengers Visit</h2>
-        <BulletList items={authority.whyVisit} />
-      </section>
-
-      <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-6">Best Shore Excursions</h2>
-        <div className="space-y-4">
-          {port.bestExcursions.map((exc) => (
-            <div key={exc.name} className="card">
-              <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2">
-                <div>
-                  <h3 className="font-semibold text-gray-900 text-lg">{exc.name}</h3>
-                  <p className="mt-1 text-gray-600">{exc.description}</p>
-                </div>
-                <div className="flex shrink-0 gap-3 text-sm">
-                  {exc.rating && (
-                    <span className="text-tropical-mango font-semibold">★ {exc.rating}</span>
-                  )}
-                  <span className="text-gray-500">{exc.duration}</span>
-                  <span className="rounded bg-caribbean-50 px-2 py-0.5 text-caribbean-700">
-                    {exc.type}
-                  </span>
-                </div>
+      <section className="mb-10">
+        <h2 className="section-title text-2xl sm:text-3xl mb-4">Top Shore Excursions</h2>
+        <div className="grid gap-3 sm:grid-cols-2">
+          {port.bestExcursions.slice(0, 4).map((exc) => (
+            <div key={exc.name} className="rounded-lg border border-gray-200 bg-white p-4">
+              <div className="flex items-start justify-between gap-2">
+                <h3 className="font-semibold text-gray-900">{exc.name}</h3>
+                {exc.rating && (
+                  <span className="text-xs text-tropical-mango font-semibold shrink-0">★ {exc.rating}</span>
+                )}
+              </div>
+              <p className="mt-1 text-sm text-gray-600 line-clamp-2">{exc.description}</p>
+              <div className="mt-2 flex gap-2 text-xs text-gray-500">
+                <span>{exc.duration}</span>
+                <span>·</span>
+                <span>{exc.type}</span>
               </div>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-6">Best Beaches</h2>
-        <CardGrid
-          items={authority.bestBeaches.map((b) => ({ name: b.name, description: b.description }))}
-          titleKey="name"
-          descriptionKey="description"
-        />
-      </section>
+      <CompactGrid
+        title="Beach Picks"
+        items={authority.bestBeaches.map((b) => ({ name: b.name, description: b.description }))}
+        titleKey="name"
+        descriptionKey="description"
+      />
 
-      <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-6">Best for Families</h2>
-        <BulletList items={authority.bestForFamilies} />
-      </section>
+      <CompactGrid
+        title="Snorkel Sites"
+        items={authority.snorkelling.map((s) => ({ site: s.site, description: s.description }))}
+        titleKey="site"
+        descriptionKey="description"
+      />
 
-      <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-6">Best for Couples</h2>
-        <BulletList items={authority.bestForCouples} />
-      </section>
-
-      <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-6">Snorkelling Opportunities</h2>
-        <CardGrid
-          items={authority.snorkelling.map((s) => ({ site: s.site, description: s.description }))}
-          titleKey="site"
-          descriptionKey="description"
-        />
-      </section>
-
-      <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-6">Private Tour Options</h2>
-        <CardGrid
-          items={authority.privateTours.map((t) => ({ name: t.name, description: t.description }))}
-          titleKey="name"
-          descriptionKey="description"
-        />
-      </section>
-
-      <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-6">Cruise Terminal Information</h2>
+      <section className="mb-10">
+        <h2 className="section-title text-xl sm:text-2xl mb-4">Families &amp; Couples</h2>
         <div className="grid gap-4 sm:grid-cols-2">
+          <div className="rounded-lg border border-gray-100 bg-gray-50/80 p-4">
+            <h3 className="font-semibold text-gray-900 text-sm mb-2">Families</h3>
+            <ul className="space-y-2">
+              {authority.bestForFamilies.slice(0, 3).map((item) => (
+                <li key={item} className="text-sm text-gray-600">
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="rounded-lg border border-gray-100 bg-gray-50/80 p-4">
+            <h3 className="font-semibold text-gray-900 text-sm mb-2">Couples</h3>
+            <ul className="space-y-2">
+              {authority.bestForCouples.slice(0, 3).map((item) => (
+                <li key={item} className="text-sm text-gray-600">
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <CompactGrid
+        title="Private Tour Ideas"
+        items={authority.privateTours.map((t) => ({ name: t.name, description: t.description }))}
+        titleKey="name"
+        descriptionKey="description"
+      />
+
+      <section className="mb-10">
+        <h2 className="section-title text-xl sm:text-2xl mb-4">Terminal Quick Facts</h2>
+        <div className="grid gap-3 sm:grid-cols-3">
           {[
-            { label: "Dock Type", value: port.portInfo.dockType },
-            { label: "Walking Distance", value: port.portInfo.walkingDistance },
-            { label: "Tender Required", value: port.portInfo.tenderRequired ? "Yes" : "No" },
+            { label: "Dock", value: port.portInfo.dockType },
+            { label: "Walking", value: port.portInfo.walkingDistance },
+            { label: "Tender", value: port.portInfo.tenderRequired ? "Yes" : "No" },
             { label: "Currency", value: port.portInfo.currency },
             { label: "Language", value: port.portInfo.language },
             { label: "Time Zone", value: port.portInfo.timeZone },
           ].map((item) => (
-            <div key={item.label} className="rounded-lg border border-gray-100 bg-gray-50 p-4">
-              <dt className="text-sm font-medium text-gray-500">{item.label}</dt>
-              <dd className="mt-1 text-gray-900">{item.value}</dd>
+            <div key={item.label} className="rounded-lg border border-gray-100 bg-white p-3">
+              <dt className="text-xs font-medium text-gray-500">{item.label}</dt>
+              <dd className="mt-1 text-sm text-gray-900">{item.value}</dd>
             </div>
           ))}
         </div>
-        <p className="mt-4 text-sm text-gray-600 bg-tropical-sand/40 rounded-lg p-4">
+        <p className="mt-3 text-sm text-gray-600">
           <strong>Safety:</strong> {port.portInfo.safetyNotes}
         </p>
       </section>
 
-      <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-6">Cruise Passenger Tips</h2>
-        <BulletList items={port.passengerTips} />
+      <section className="mb-10">
+        <h2 className="section-title text-xl sm:text-2xl mb-4">Passenger Tips</h2>
+        <ul className="grid gap-2 sm:grid-cols-2">
+          {port.passengerTips.slice(0, 4).map((tip) => (
+            <li key={tip} className="text-sm text-gray-700 flex gap-2">
+              <span className="text-caribbean-600 shrink-0">✓</span>
+              <span>{tip}</span>
+            </li>
+          ))}
+        </ul>
       </section>
     </>
   );
