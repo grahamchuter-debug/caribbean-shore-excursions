@@ -1,3 +1,5 @@
+import { HeroBackground } from "@/components/HeroBackground";
+
 interface PageHeroProps {
   title: string;
   subtitle?: string;
@@ -8,18 +10,15 @@ interface PageHeroProps {
 export function PageHero({ title, subtitle, children, compact }: PageHeroProps) {
   return (
     <section
-      className={`relative overflow-hidden bg-hero-gradient text-white ${compact ? "py-12 sm:py-16" : "py-16 sm:py-24"}`}
+      className={`relative overflow-hidden text-white ${compact ? "py-12 sm:py-16" : "py-16 sm:py-24"}`}
     >
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-white" />
-        <div className="absolute -bottom-10 -left-10 h-48 w-48 rounded-full bg-tropical-mango" />
-      </div>
-      <div className="container-wide relative px-4 sm:px-6 lg:px-8">
-        <h1 className="font-display text-3xl font-bold sm:text-4xl lg:text-5xl max-w-3xl">
+      <HeroBackground />
+      <div className="container-wide relative z-10 px-4 sm:px-6 lg:px-8">
+        <h1 className="font-display text-3xl font-bold sm:text-4xl lg:text-5xl max-w-3xl drop-shadow-sm">
           {title}
         </h1>
         {subtitle && (
-          <p className="mt-4 max-w-2xl text-lg text-caribbean-100 sm:text-xl">
+          <p className="mt-4 max-w-2xl text-lg text-caribbean-50 sm:text-xl drop-shadow-sm">
             {subtitle}
           </p>
         )}

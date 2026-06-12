@@ -20,6 +20,7 @@ import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 import { CruisePlannerStatsGrid } from "@/components/CruisePlannerStatsGrid";
 import { CaribbeanExcursionFinder } from "@/components/CaribbeanExcursionFinder";
 import { CaribbeanRoutePresets } from "@/components/CaribbeanRoutePresets";
+import { HeroBackground } from "@/components/HeroBackground";
 
 export const metadata = buildMetadata({
   title: "Caribbean Shore Excursion Planner | Ports, Ship Schedules & Cruise Tours",
@@ -70,19 +71,16 @@ export default function HomePage() {
       />
 
       {/* Hero */}
-      <section className="relative overflow-hidden bg-hero-gradient text-white py-20 sm:py-28">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute right-0 top-0 h-96 w-96 rounded-full bg-white translate-x-1/3 -translate-y-1/3" />
-          <div className="absolute bottom-0 left-0 h-64 w-64 rounded-full bg-tropical-mango -translate-x-1/4 translate-y-1/4" />
-        </div>
-        <div className="container-wide relative px-4 sm:px-6 lg:px-8">
-          <p className="text-caribbean-100 font-medium mb-4 tracking-wide uppercase text-sm">
+      <section className="relative overflow-hidden text-white py-20 sm:py-28">
+        <HeroBackground />
+        <div className="container-wide relative z-10 px-4 sm:px-6 lg:px-8">
+          <p className="text-caribbean-50 font-medium mb-4 tracking-wide uppercase text-sm drop-shadow-sm">
             The Caribbean Shore Excursion Planner
           </p>
-          <h1 className="font-display text-4xl font-bold sm:text-5xl lg:text-6xl max-w-4xl leading-tight">
+          <h1 className="font-display text-4xl font-bold sm:text-5xl lg:text-6xl max-w-4xl leading-tight drop-shadow-sm">
             Caribbean Shore Excursion Planner
           </h1>
-          <p className="mt-6 max-w-2xl text-lg text-caribbean-100 sm:text-xl leading-relaxed">
+          <p className="mt-6 max-w-2xl text-lg text-caribbean-50 sm:text-xl leading-relaxed drop-shadow-sm">
             Compare Caribbean cruise ports, discover top-rated excursions, view ship schedules and find the best shore excursions for your cruise.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
