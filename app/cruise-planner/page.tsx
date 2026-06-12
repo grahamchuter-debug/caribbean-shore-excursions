@@ -68,6 +68,18 @@ export default function CruisePlannerPage() {
             ]}
           />
 
+          <div className="mb-16 card-gradient border-2 border-caribbean-200">
+            <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">Recommended first step</p>
+            <h2 className="mt-2 font-display text-2xl font-bold text-gray-900">Caribbean Excursion Finder™</h2>
+            <p className="mt-2 text-gray-700">
+              Generate personalised shore excursion picks for every port on your itinerary — with Caribbean Cruise Match
+              scores, return-to-ship confidence, and links to port guides and specialist operators.
+            </p>
+            <Link href="/caribbean-excursion-finder" className="btn-primary mt-6">
+              Open Excursion Finder
+            </Link>
+          </div>
+
           {/* Itinerary planners */}
           <div className="mb-16">
             <h2 className="section-title text-2xl mb-6">Itinerary Planners by Route</h2>

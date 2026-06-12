@@ -18,6 +18,8 @@ import { FAQSection } from "@/components/FAQSection";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 import { CruisePlannerStatsGrid } from "@/components/CruisePlannerStatsGrid";
+import { CaribbeanExcursionFinder } from "@/components/CaribbeanExcursionFinder";
+import { CaribbeanRoutePresets } from "@/components/CaribbeanRoutePresets";
 
 export const metadata = buildMetadata({
   title: "Caribbean Shore Excursion Planner | Ports, Ship Schedules & Cruise Tours",
@@ -94,12 +96,40 @@ export default function HomePage() {
               View Ship Schedules
             </Link>
             <Link
-              href="/cruise-planner"
+              href="/caribbean-excursion-finder"
               className="btn-secondary border-white/60 text-white hover:bg-white/10"
             >
-              Plan My Cruise Excursions
+              Find My Excursions
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Caribbean Excursion Finder */}
+      <section className="section-padding bg-white border-b border-caribbean-100">
+        <div className="container-wide max-w-6xl">
+          <div className="mb-8 text-center sm:text-left">
+            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-caribbean-600">
+              Personalised recommendation engine
+            </p>
+            <h2 className="section-title mt-2">Caribbean Excursion Finder™</h2>
+            <p className="section-subtitle mx-auto sm:mx-0">
+              Match your ports, traveller style and time ashore to shore excursions with Caribbean Cruise Match scores
+              and return-to-ship confidence.
+            </p>
+          </div>
+          <CaribbeanExcursionFinder variant="home" />
+        </div>
+      </section>
+
+      {/* Popular Caribbean Routes */}
+      <section className="section-padding bg-caribbean-50">
+        <div className="container-wide">
+          <h2 className="section-title">Popular Caribbean Cruise Routes</h2>
+          <p className="section-subtitle mb-8">
+            Start with a proven itinerary, then refine excursion picks for your ship and port times.
+          </p>
+          <CaribbeanRoutePresets />
         </div>
       </section>
 
@@ -179,9 +209,14 @@ export default function HomePage() {
                   </li>
                 ))}
               </ul>
-              <Link href="/cruise-planner" className="btn-primary mt-8">
-                Open Cruise Planner
-              </Link>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <Link href="/caribbean-excursion-finder" className="btn-primary">
+                  Open Excursion Finder
+                </Link>
+                <Link href="/cruise-planner" className="btn-secondary">
+                  Cruise Planner Hub
+                </Link>
+              </div>
             </div>
             <CruisePlannerStatsGrid />
           </div>
