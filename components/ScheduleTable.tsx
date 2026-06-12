@@ -10,10 +10,12 @@ export function ScheduleTable({
   entries,
   portName,
   showNotes = false,
+  highlightedDate,
 }: {
   entries: ScheduleEntry[];
   portName?: string;
   showNotes?: boolean;
+  highlightedDate?: string;
 }) {
   if (entries.length === 0) {
     return (
@@ -50,13 +52,18 @@ export function ScheduleTable({
           </tr>
         </thead>
         <tbody className="divide-y divide-gray-100 bg-white">
-          {entries.map((entry, i) => (
+          {entries.map((entry, i) => {
+            const isHighlighted = Boolean(highlightedDate && entry.date === highlightedDate);
+            return (
             <tr
               key={`${entry.date}-${entry.ship}-${i}`}
+              id={isHighlighted ? `schedule-row-${entry.date}-${i}` : undefined}
               className={
                 entry.isPlaceholder
                   ? "bg-amber-50/80"
-                  : "hover:bg-caribbean-50 transition-colors"
+                  : isHighlighted
+                    ? "bg-caribbean-100 ring-2 ring-inset ring-caribbean-400 transition-colors"
+                    : "hover:bg-caribbean-50 transition-colors"
               }
             >
               <td className="px-4 py-3 text-sm text-gray-900 whitespace-nowrap">{entry.date}</td>
@@ -72,7 +79,8 @@ export function ScheduleTable({
                 <td className="px-4 py-3 text-sm text-gray-600">{getEntryNotes(entry)}</td>
               )}
             </tr>
-          ))}
+          );
+          })}
         </tbody>
       </table>
       <p className="bg-gray-50 px-4 py-2 text-xs text-gray-500 border-t border-gray-200">

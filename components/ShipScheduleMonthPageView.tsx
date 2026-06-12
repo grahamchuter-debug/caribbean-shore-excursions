@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { ScheduleEntry, ShipSchedulePort } from "@/data/types";
-import { ScheduleTable } from "@/components/ScheduleTable";
+import { ScheduleWithCruiseDayLookup } from "@/components/ScheduleWithCruiseDayLookup";
 import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { SpecialistLocalGuide } from "@/components/SpecialistLocalGuide";
@@ -153,8 +153,13 @@ export function ShipScheduleMonthPageView({
       </nav>
 
       <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-4">Schedule Table</h2>
-        <ScheduleTable entries={entries} portName={port.name} showNotes />
+        <ScheduleWithCruiseDayLookup
+          entries={entries}
+          portName={port.name}
+          portSlug={port.slug}
+          showNotes
+          tableTitle={`${monthLabel} Schedule Table`}
+        />
       </section>
 
       <section className="mb-12 rounded-xl border-2 border-caribbean-200 bg-gradient-to-br from-caribbean-50 to-white p-6 sm:p-8">

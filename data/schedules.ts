@@ -265,6 +265,16 @@ export function hasVerifiedScheduleDataForMonth(slug: string, monthKey: string):
   return getVerifiedScheduleEntriesForMonth(slug, monthKey).length > 0;
 }
 
+export function getScheduleDatesForPort(slug: string): string[] {
+  return [
+    ...new Set(
+      getScheduleForPort(slug)
+        .filter((entry) => !entry.isPlaceholder)
+        .map((entry) => entry.date),
+    ),
+  ].sort();
+}
+
 export function getAllVerifiedMonthPageParams(): { slug: string; period: string }[] {
   const params: { slug: string; period: string }[] = [];
 

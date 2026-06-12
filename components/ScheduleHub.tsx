@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { ScheduleEntry } from "@/data/types";
-import { ScheduleTable } from "@/components/ScheduleTable";
+import { ScheduleWithCruiseDayLookup } from "@/components/ScheduleWithCruiseDayLookup";
 import {
   formatMonthLabel,
   getAllMonthKeys,
@@ -113,10 +113,12 @@ export function ScheduleHub({
             );
           })}
         </div>
-        <h3 className="font-semibold text-gray-900 mb-3">
-          {formatMonthLabel(activeMonth)} at {portName}
-        </h3>
-        <ScheduleTable entries={filtered} portName={portName} />
+        <ScheduleWithCruiseDayLookup
+          entries={filtered}
+          portName={portName}
+          portSlug={portSlug}
+          tableTitle={`${formatMonthLabel(activeMonth)} at ${portName}`}
+        />
       </section>
     </div>
   );
