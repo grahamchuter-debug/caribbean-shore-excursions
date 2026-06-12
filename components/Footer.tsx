@@ -8,6 +8,7 @@ const footerLinks = {
     { href: "/ship-schedules", label: "Ship Schedules" },
     { href: "/excursion-types", label: "Excursion Types" },
     { href: "/cruise-lines", label: "Cruise Lines" },
+    { href: "/ships", label: "Ships" },
     { href: "/ports", label: "All Ports" },
   ],
   ports: getAllPortSlugs().map((slug) => {

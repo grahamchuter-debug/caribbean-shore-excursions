@@ -268,6 +268,46 @@ export interface CruiseLine {
   faqs: FAQ[];
 }
 
+export interface CruiseLineExcursionCategory {
+  category: string;
+  href: string;
+  picks: { name: string; portSlug: string; description: string }[];
+}
+
+export interface CruiseLinePlanningProfile {
+  fleetSize: string;
+  passengerProfile: string;
+  bestFor: string[];
+  shipSlugs: string[];
+  excursionCategories: CruiseLineExcursionCategory[];
+  planningAdvice: {
+    independentExcursions: string;
+    returnTiming: string;
+    tenderPorts: string;
+    peakDays: string;
+    bookingAdvice: string;
+  };
+  plannerLinks: { label: string; href: string }[];
+  comparisonLinks: { label: string; href: string }[];
+  bestGuideLinks: { label: string; href: string }[];
+}
+
+export interface CruiseShip {
+  slug: string;
+  name: string;
+  cruiseLineSlug: string;
+  seoTitle: string;
+  metaDescription: string;
+  tagline: string;
+  overview: string;
+  caribbeanItineraries: string[];
+  commonPortSlugs: string[];
+  recommendedExcursions: { name: string; portSlug: string; description: string }[];
+  planningAdvice: string[];
+  faqs: FAQ[];
+  featuredPage: boolean;
+}
+
 export interface ShipSchedulePort {
   slug: string;
   name: string;

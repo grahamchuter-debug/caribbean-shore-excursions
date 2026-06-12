@@ -5,6 +5,7 @@ import { getAllPortSlugs } from "@/data/ports";
 import { getAllComparisonSlugs } from "@/data/comparisons";
 import { getAllExcursionTypeSlugs } from "@/data/excursion-types";
 import { getAllCruiseLineSlugs, getAllCruiseLinePageSlugs } from "@/data/cruise-lines";
+import { getFeaturedShipSlugs } from "@/data/ships";
 import { getAllSchedulePortSlugs } from "@/data/schedules";
 import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
 import { getAllRegionSlugs } from "@/data/regions";
@@ -42,6 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/busiest-caribbean-cruise-ports-2027", priority: 0.85 },
     { path: "/caribbean-cruise-calendar-2027", priority: 0.85 },
     { path: "/cruise-lines", priority: 0.8 },
+    { path: "/ships", priority: 0.8 },
     { path: "/excursion-types", priority: 0.8 },
     { path: "/about", priority: 0.8 },
     { path: "/contact", priority: 0.8 },
@@ -60,7 +62,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   );
 
   const cruiseLinePages = getAllCruiseLineSlugs().map((slug) =>
-    sitemapEntry(`/cruise-lines/${slug}`, now, "monthly", 0.7),
+    sitemapEntry(`/cruise-lines/${slug}`, now, "monthly", 0.75),
+  );
+
+  const shipPages = getFeaturedShipSlugs().map((slug) =>
+    sitemapEntry(`/ships/${slug}`, now, "monthly", 0.72),
   );
 
   const cruiseLineGuidePages = getAllCruiseLinePageSlugs().map((slug) =>
@@ -112,6 +118,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...comparePages,
     ...excursionPages,
     ...cruiseLinePages,
+    ...shipPages,
     ...scheduleHubPages,
     ...scheduleYearPages,
   ];

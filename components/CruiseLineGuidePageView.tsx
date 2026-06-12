@@ -1,14 +1,13 @@
 import Link from "next/link";
 import type { CruiseLine } from "@/data/types";
 import { getPortBySlug } from "@/data/ports";
-import { hasShipSchedule } from "@/lib/routes";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { BestGuideComparisonTable } from "@/components/BestGuideComparisonTable";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
-import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
+import { CruiseLinePlanningSections } from "@/components/CruiseLinePlanningSections";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
 export function CruiseLineGuidePageView({ line }: { line: CruiseLine }) {
@@ -39,16 +38,7 @@ export function CruiseLineGuidePageView({ line }: { line: CruiseLine }) {
         <div className="container-wide max-w-4xl">
           <Breadcrumbs items={breadcrumbs} />
 
-          <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-4">Overview</h2>
-            <p className="text-gray-700 leading-relaxed text-lg mb-4">{line.overview}</p>
-            <p className="text-gray-700 leading-relaxed">{line.overviewDetail}</p>
-            <div className="mt-4">
-              <Link href={`/cruise-lines/${line.slug}`} className="text-sm text-caribbean-700 hover:underline">
-                {line.name} cruise line hub →
-              </Link>
-            </div>
-          </section>
+          <CruiseLinePlanningSections line={line} variant="guide" />
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Popular Caribbean Itineraries</h2>
@@ -65,52 +55,6 @@ export function CruiseLineGuidePageView({ line }: { line: CruiseLine }) {
               ))}
             </div>
           </section>
-
-          <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-6">Most Visited Caribbean Ports</h2>
-            <div className="grid gap-4 sm:grid-cols-2">
-              {line.popularPorts.map((port) => {
-                const portData = getPortBySlug(port.slug);
-                return (
-                  <div key={port.slug} className="card-gradient">
-                    <h3 className="font-display text-lg font-bold text-gray-900">
-                      <Link href={`/ports/${port.slug}`} className="hover:text-caribbean-700">
-                        {port.name}
-                      </Link>
-                    </h3>
-                    {portData && (
-                      <p className="mt-1 text-xs text-caribbean-600 font-medium">{portData.bestFor}</p>
-                    )}
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      <Link href={`/ports/${port.slug}`} className="btn-primary text-xs">
-                        Port Guide
-                      </Link>
-                      {hasShipSchedule(port.slug) && (
-                        <Link href={`/ship-schedules/${port.slug}`} className="btn-secondary text-xs">
-                          Ship Schedule
-                        </Link>
-                      )}
-                      {portData && (
-                        <a
-                          href={portData.specialistUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn-secondary text-xs"
-                        >
-                          Book Locally
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </section>
-
-          <SpecialistLocalGuideSection
-            portSlugs={line.popularPorts.map((p) => p.slug)}
-            intro={`${line.name} passengers most often visit the ports below. Each has a dedicated local specialist site with live tour listings, local pricing, and pier pickup details for booking beyond this cruise line overview.`}
-          />
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Recommended Shore Excursions</h2>

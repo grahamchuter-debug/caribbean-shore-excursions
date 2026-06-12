@@ -1,11 +1,10 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { getCruiseLineBySlug, getAllCruiseLineSlugs } from "@/data/cruise-lines";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
-import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
+import { CruiseLinePlanningSections } from "@/components/CruiseLinePlanningSections";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
@@ -18,10 +17,16 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
     const line = getCruiseLineBySlug(slug);
     if (!line) return {};
     return buildMetadata({
-      title: line.seoTitle,
+      title: `${line.name} Caribbean Cruise Planning Guide`,
       description: line.metaDescription,
       path: `/cruise-lines/${slug}`,
-      keywords: [`${line.name} Caribbean`, `${line.name} shore excursions`, `${line.name} ports`],
+      keywords: [
+        `${line.name} Caribbean`,
+        `${line.name} cruise planning`,
+        `${line.name} shore excursions`,
+        `${line.name} ships`,
+        "Caribbean cruise line",
+      ],
     });
   });
 }
@@ -48,7 +53,7 @@ export default async function CruiseLinePage({
           breadcrumbSchema(breadcrumbs),
           faqSchema(line.faqs),
           travelGuideSchema({
-            title: line.seoTitle,
+            title: `${line.name} Caribbean Cruise Planning Guide`,
             description: line.metaDescription,
             path: `/cruise-lines/${slug}`,
           }),
@@ -58,72 +63,10 @@ export default async function CruiseLinePage({
       <article className="section-padding">
         <div className="container-wide max-w-4xl">
           <Breadcrumbs items={breadcrumbs} />
-
-          <div className="mb-8">
-            <Link href={`/${line.pageSlug}`} className="btn-primary text-sm">
-              {line.name} Shore Excursions Authority Guide
-            </Link>
+          <CruiseLinePlanningSections line={line} variant="hub" />
+          <div className="mt-12">
+            <FAQSection faqs={line.faqs} />
           </div>
-
-          <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-4">Overview</h2>
-            <p className="text-gray-700 leading-relaxed text-lg">{line.overview}</p>
-          </section>
-
-          <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-6">Caribbean Routes</h2>
-            <ul className="space-y-2">
-              {line.caribbeanRoutes.map((route) => (
-                <li key={route} className="flex items-start gap-3 text-gray-700">
-                  <span className="mt-1 text-caribbean-500">→</span>
-                  {route}
-                </li>
-              ))}
-            </ul>
-          </section>
-
-          <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-6">Popular Ports</h2>
-            <div className="grid gap-3 sm:grid-cols-2">
-              {line.popularPorts.map((port) => (
-                <Link key={port.slug} href={`/ports/${port.slug}`} className="card hover:border-caribbean-200">
-                  <span className="font-semibold text-gray-900">{port.name}</span>
-                  <span className="block text-sm text-caribbean-700 mt-1">View port guide →</span>
-                </Link>
-              ))}
-            </div>
-          </section>
-
-          <SpecialistLocalGuideSection
-            portSlugs={line.popularPorts.map((p) => p.slug)}
-            intro={`${line.name} passengers most often visit the ports below. Each specialist local site offers live tour listings, local pricing, and pier pickup details for booking your port days.`}
-          />
-
-          <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-6">Excursion Tips</h2>
-            <ul className="space-y-3">
-              {line.excursionTips.map((tip) => (
-                <li key={tip} className="flex items-start gap-3 text-gray-700">
-                  <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-caribbean-700 text-white text-xs">✓</span>
-                  {tip}
-                </li>
-              ))}
-            </ul>
-          </section>
-
-          <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-6">Booking Tips</h2>
-            <ul className="space-y-3">
-              {line.bookingTips.map((tip) => (
-                <li key={tip} className="flex items-start gap-3 text-gray-700">
-                  <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-tropical-mango text-white text-xs">★</span>
-                  {tip}
-                </li>
-              ))}
-            </ul>
-          </section>
-
-          <FAQSection faqs={line.faqs} />
         </div>
       </article>
     </>

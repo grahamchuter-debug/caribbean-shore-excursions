@@ -13,6 +13,7 @@ const hubLinks = [
   { href: "/ship-schedules", label: "Ship Schedules" },
   { href: "/cruise-planner", label: "Cruise Planner" },
   { href: "/cruise-lines", label: "Cruise Lines" },
+  { href: "/ships", label: "Ships" },
   { href: "/excursion-types", label: "Excursion Types" },
 ] as const;
 
