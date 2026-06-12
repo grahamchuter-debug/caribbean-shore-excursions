@@ -32,6 +32,11 @@ export function formatScheduleDisplayDate(isoDate: string): string {
 
 export function parsePassengerCount(value?: string): number {
   if (!value || value === "-") return ESTIMATED_PASSENGERS_PER_CALL;
+  const range = value.match(/(\d[\d,]*)\s*-\s*(\d[\d,]*)/);
+  if (range) {
+    const max = Number.parseInt(range[2].replace(/,/g, ""), 10);
+    return Number.isFinite(max) && max > 0 ? max : ESTIMATED_PASSENGERS_PER_CALL;
+  }
   const num = Number.parseInt(value.replace(/[^\d]/g, ""), 10);
   return Number.isFinite(num) && num > 0 ? num : ESTIMATED_PASSENGERS_PER_CALL;
 }

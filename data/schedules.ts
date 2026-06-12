@@ -1,4 +1,5 @@
 import type { ScheduleEntry, ShipSchedulePort } from "./types";
+import { getPassengerCapacityLabel } from "@/lib/ship-capacities";
 import {
   filterEntriesByMonth,
   getMonthsWithEntries,
@@ -219,8 +220,14 @@ export function getSchedulePortBySlug(slug: string): ShipSchedulePort | undefine
   return schedulePorts.find((p) => p.slug === slug);
 }
 
+function enrichScheduleEntry(entry: ScheduleEntry): ScheduleEntry {
+  if (entry.passengers && entry.passengers !== "-") return entry;
+  const passengers = getPassengerCapacityLabel(entry.ship);
+  return passengers ? { ...entry, passengers } : entry;
+}
+
 export function getScheduleForPort(slug: string): ScheduleEntry[] {
-  return portSchedules[slug] ?? [];
+  return (portSchedules[slug] ?? []).map(enrichScheduleEntry);
 }
 
 export function getScheduleForPortYear(slug: string, year: number): ScheduleEntry[] {

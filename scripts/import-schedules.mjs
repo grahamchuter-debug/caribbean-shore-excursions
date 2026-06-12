@@ -13,6 +13,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const SOURCES_DIR = path.join(ROOT, "data/schedule-sources");
 const OUTPUT_DIR = path.join(ROOT, "data/imported-schedules");
+const CAPACITY_PATH = path.join(ROOT, "data/ship-capacities.json");
 
 const MONTH_MAP = {
   jan: 1,
@@ -89,6 +90,35 @@ function parseCsv(filePath) {
     urls.push({ monthLabel, url });
   }
   return urls;
+}
+
+function normalizeShipKey(name) {
+  return name.toLowerCase().replace(/\s+/g, " ").trim();
+}
+
+function formatPassengerCapacity(min, max) {
+  const fmt = (n) => n.toLocaleString("en-US");
+  return min === max ? fmt(min) : `${fmt(min)} - ${fmt(max)}`;
+}
+
+function loadCapacityLookup() {
+  if (!fs.existsSync(CAPACITY_PATH)) return null;
+  const data = JSON.parse(fs.readFileSync(CAPACITY_PATH, "utf8"));
+  const map = new Map();
+  for (const ship of data.ships) {
+    map.set(normalizeShipKey(ship.name), ship);
+  }
+  return map;
+}
+
+function lookupCapacity(map, shipName) {
+  if (!map) return null;
+  const key = normalizeShipKey(shipName);
+  if (map.has(key)) return map.get(key);
+  for (const [storedKey, record] of map) {
+    if (storedKey.includes(key) || key.includes(storedKey)) return record;
+  }
+  return null;
 }
 
 function inferCruiseLine(ship) {
@@ -248,6 +278,7 @@ console.log(`Importing ${slug} from ${monthUrls.length} monthly URLs...`);
 
 const allEntries = [];
 const seen = new Set();
+const capacityLookup = loadCapacityLookup();
 
 for (const { monthLabel, url } of monthUrls) {
   process.stdout.write(`  ${monthLabel}... `);
@@ -267,6 +298,20 @@ for (const { monthLabel, url } of monthUrls) {
     console.log(`FAILED: ${err.message}`);
   }
   await new Promise((r) => setTimeout(r, 400));
+}
+
+if (capacityLookup) {
+  let enriched = 0;
+  for (const entry of allEntries) {
+    const capacity = lookupCapacity(capacityLookup, entry.ship);
+    if (capacity) {
+      entry.passengers = formatPassengerCapacity(capacity.min, capacity.max);
+      enriched++;
+    }
+  }
+  console.log(`Passenger capacities applied to ${enriched}/${allEntries.length} entries`);
+} else {
+  console.warn("No ship-capacities.json found — run: node scripts/import-ship-capacities.mjs");
 }
 
 allEntries.sort((a, b) => a.date.localeCompare(b.date) || a.arrival.localeCompare(b.arrival));

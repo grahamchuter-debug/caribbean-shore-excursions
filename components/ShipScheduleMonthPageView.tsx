@@ -94,7 +94,7 @@ export function ShipScheduleMonthPageView({
             <dd className="mt-1 text-lg font-semibold text-gray-900">
               {stats.estimatedPassengers.toLocaleString()}
               <span className="block text-xs font-normal text-gray-500 mt-1">
-                Based on 3,000 guests per call when capacity is unpublished
+                Sourced from CruiseMapper passenger ratings where available; otherwise estimated at 3,000 guests per call
               </span>
             </dd>
           </div>
