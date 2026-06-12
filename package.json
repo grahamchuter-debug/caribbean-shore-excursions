@@ -9,7 +9,8 @@
     "lint": "next lint",
     "pages:build": "next build",
     "pages:deploy": "npm run build && npx wrangler pages deploy out --project-name=caribbean-shore-excursions",
-    "import:schedules": "node scripts/import-schedules.mjs"
+    "import:schedules": "node scripts/import-schedules.mjs",
+    "check-links": "node scripts/check-links.js"
   },
   "engines": {
     "node": ">=20"
