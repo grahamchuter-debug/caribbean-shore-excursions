@@ -15,6 +15,11 @@ import type {
 
 export type ReturnConfidence = "high" | "moderate" | "caution";
 
+export type MatchTier = "Excellent Match" | "Strong Match" | "Good Match" | "Possible Match";
+
+/** Upper bound used internally by scoreExcursion — ranking uses raw values on this scale. */
+export const MAX_RAW_EXCURSION_SCORE = 1.2;
+
 export interface FinderExcursionPick {
   name: string;
   description: string;
@@ -41,6 +46,7 @@ export interface PortExcursionPlan {
   specialistName: string;
   scheduleHref?: string;
   portMatchScore: number;
+  portMatchLabel: MatchTier;
 }
 
 export interface ExcursionFinderResult {
@@ -150,7 +156,25 @@ function scoreExcursion(
   if (hoursNeeded > budget - 1.5) score -= 0.35;
   else if (hoursNeeded <= budget - 2) score += 0.1;
 
-  return Math.max(0, Math.min(1.2, score));
+  return Math.max(0, Math.min(MAX_RAW_EXCURSION_SCORE, score));
+}
+
+export function normalizeExcursionScore(rawScore: number): number {
+  return Math.min(
+    100,
+    Math.max(0, Math.round((rawScore / MAX_RAW_EXCURSION_SCORE) * 100)),
+  );
+}
+
+export function getMatchTier(normalizedScore: number): MatchTier {
+  if (normalizedScore >= 85) return "Excellent Match";
+  if (normalizedScore >= 70) return "Strong Match";
+  if (normalizedScore >= 55) return "Good Match";
+  return "Possible Match";
+}
+
+export function getOverallMatchTier(matchScore: number): MatchTier {
+  return getMatchTier(matchScore);
 }
 
 function getAuthorityExcursion(portSlug: string) {
@@ -346,37 +370,41 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
     return null;
   }
 
-  const portPlans: PortExcursionPlan[] = uniquePorts.map((portSlug) => {
-    const port = getPortBySlug(portSlug)!;
-    const pick = buildExcursionPick(
-      portSlug,
-      input.travellerTypes,
-      input.fitnessLevel,
-      input.timeInPort,
-    );
-    const returnInfo = getReturnConfidence(portSlug, pick.primary.duration, input.timeInPort);
+  const portPlans = uniquePorts
+    .map((portSlug) => {
+      const port = getPortBySlug(portSlug)!;
+      const pick = buildExcursionPick(
+        portSlug,
+        input.travellerTypes,
+        input.fitnessLevel,
+        input.timeInPort,
+      );
+      const returnInfo = getReturnConfidence(portSlug, pick.primary.duration, input.timeInPort);
+      const normalizedScore = normalizeExcursionScore(pick.score);
 
-    return {
-      portSlug,
-      portName: port.name,
-      region: port.region,
-      bestFor: port.bestFor,
-      recommended: pick.primary,
-      alternate: pick.alternate,
-      bestForTags: buildBestForTags(portSlug, input.travellerTypes, pick.primary.type),
-      returnConfidence: returnInfo.confidence,
-      returnLabel: returnInfo.label,
-      returnMessage: returnInfo.message,
-      dayPlan: buildDayPlan(portSlug, pick.primary.name),
-      portGuideHref: `/ports/${portSlug}`,
-      specialistUrl: port.specialistUrl,
-      specialistName: port.specialistName,
-      scheduleHref: hasShipSchedule(portSlug) ? `/ship-schedules/${portSlug}` : undefined,
-      portMatchScore: Math.round(pick.score * 100),
-    };
-  });
-
-  portPlans.sort((a, b) => b.portMatchScore - a.portMatchScore);
+      return {
+        portSlug,
+        portName: port.name,
+        region: port.region,
+        bestFor: port.bestFor,
+        recommended: pick.primary,
+        alternate: pick.alternate,
+        bestForTags: buildBestForTags(portSlug, input.travellerTypes, pick.primary.type),
+        returnConfidence: returnInfo.confidence,
+        returnLabel: returnInfo.label,
+        returnMessage: returnInfo.message,
+        dayPlan: buildDayPlan(portSlug, pick.primary.name),
+        portGuideHref: `/ports/${portSlug}`,
+        specialistUrl: port.specialistUrl,
+        specialistName: port.specialistName,
+        scheduleHref: hasShipSchedule(portSlug) ? `/ship-schedules/${portSlug}` : undefined,
+        rawScore: pick.score,
+        portMatchScore: normalizedScore,
+        portMatchLabel: getMatchTier(normalizedScore),
+      };
+    })
+    .sort((a, b) => b.rawScore - a.rawScore)
+    .map(({ rawScore: _rawScore, ...plan }) => plan);
 
   const avgPortScore =
     portPlans.reduce((sum, plan) => sum + plan.portMatchScore, 0) / portPlans.length;
@@ -439,5 +467,18 @@ export function getConfidenceStyles(confidence: ReturnConfidence) {
         badge: "bg-rose-100 text-rose-800 border-rose-200",
         dot: "bg-rose-500",
       };
+  }
+}
+
+export function getMatchTierStyles(tier: MatchTier) {
+  switch (tier) {
+    case "Excellent Match":
+      return "bg-caribbean-700 text-white";
+    case "Strong Match":
+      return "bg-caribbean-100 text-caribbean-800 border border-caribbean-200";
+    case "Good Match":
+      return "bg-sky-100 text-sky-800 border border-sky-200";
+    case "Possible Match":
+      return "bg-gray-100 text-gray-700 border border-gray-200";
   }
 }

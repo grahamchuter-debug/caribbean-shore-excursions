@@ -18,6 +18,8 @@ import {
 import {
   generateExcursionFinderPlan,
   getConfidenceStyles,
+  getMatchTierStyles,
+  getOverallMatchTier,
   type ExcursionFinderResult,
 } from "@/lib/excursion-finder-engine";
 
@@ -345,7 +347,12 @@ export function CaribbeanExcursionFinder({
             </p>
             <div className="mt-3 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
               <div>
-                <p className="font-display text-4xl font-bold text-caribbean-800 sm:text-5xl">
+                <span
+                  className={`inline-flex rounded-full px-3 py-1 text-sm font-semibold ${getMatchTierStyles(getOverallMatchTier(result.matchScore))}`}
+                >
+                  {getOverallMatchTier(result.matchScore)}
+                </span>
+                <p className="mt-3 font-display text-4xl font-bold text-caribbean-800 sm:text-5xl">
                   {result.matchScore}
                   <span className="text-2xl text-gray-500">/100</span>
                 </p>
@@ -379,6 +386,7 @@ export function CaribbeanExcursionFinder({
           <div className="space-y-4">
             {result.portPlans.map((plan) => {
               const styles = getConfidenceStyles(plan.returnConfidence);
+              const matchStyles = getMatchTierStyles(plan.portMatchLabel);
               return (
                 <article
                   key={plan.portSlug}
@@ -394,8 +402,8 @@ export function CaribbeanExcursionFinder({
                         <p className="text-sm text-gray-600">{plan.bestFor}</p>
                       </div>
                       <div className="flex flex-wrap items-center gap-2">
-                        <span className="rounded-full bg-caribbean-700 px-3 py-1 text-xs font-semibold text-white">
-                          {plan.portMatchScore}% port match
+                        <span className={`rounded-full px-3 py-1 text-xs font-semibold ${matchStyles}`}>
+                          {plan.portMatchLabel}
                         </span>
                         <span className={`inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-semibold ${styles.badge}`}>
                           <span className={`h-2 w-2 rounded-full ${styles.dot}`} />

@@ -206,7 +206,7 @@ export const finderFaqs = [
   {
     question: "What is the Caribbean Cruise Match score?",
     answer:
-      "An overall score out of 100 summarising how well your selected ports, traveller style, fitness level, and time ashore align with recommended excursions — plus best port, excursion type, and hidden-gem highlights.",
+      "An overall score out of 100 summarising how well your selected ports, traveller style, fitness level, and time ashore align with recommended excursions. Each port also shows a match label — Excellent Match, Strong Match, Good Match, or Possible Match — so you can compare recommendations at a glance.",
   },
   {
     question: "What do return-to-ship confidence labels mean?",
