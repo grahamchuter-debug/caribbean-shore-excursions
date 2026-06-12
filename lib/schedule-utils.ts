@@ -2,6 +2,29 @@ import type { ScheduleEntry } from "@/data/types";
 
 export const SCHEDULE_YEARS = [2026, 2027] as const;
 
+export type ScheduleYear = (typeof SCHEDULE_YEARS)[number];
+
+export function isScheduleYearSlug(value: string): value is `${ScheduleYear}` {
+  return value === "2026" || value === "2027";
+}
+
+export function parseScheduleYear(value: string): ScheduleYear | null {
+  const year = Number(value);
+  return isValidScheduleYear(year) ? year : null;
+}
+
+export function yearHubPath(year: ScheduleYear): string {
+  return `/ship-schedules/${year}`;
+}
+
+export function portHubPath(slug: string): string {
+  return `/ship-schedules/${slug}`;
+}
+
+export function portYearPath(slug: string, year: ScheduleYear): string {
+  return `/ship-schedules/${slug}/${year}`;
+}
+
 export const MONTH_LABELS = [
   "January",
   "February",

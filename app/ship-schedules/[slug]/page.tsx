@@ -7,6 +7,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ShipScheduleHubView } from "@/components/ShipScheduleHubView";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, webPageSchema } from "@/lib/schema";
+import { isScheduleYearSlug, portHubPath, yearHubPath } from "@/lib/schedule-utils";
 
 export function generateStaticParams() {
   return getAllSchedulePortSlugs().map((slug) => ({ slug }));
@@ -14,12 +15,13 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   return params.then(({ slug }) => {
+    if (isScheduleYearSlug(slug)) return {};
     const port = getSchedulePortBySlug(slug);
     if (!port) return {};
     return buildMetadata({
       title: `${port.name} Cruise Ship Schedule`,
-      description: `${port.name} cruise ship schedules for 2026 and 2027. Choose a year to view monthly arrival and departure times and plan shore excursions.`,
-      path: `/ship-schedules/${slug}`,
+      description: `${port.name} cruise ship schedule hub. View the 2026 schedule or 2027 schedule with monthly arrival and departure times to plan shore excursions.`,
+      path: portHubPath(slug),
       keywords: [
         `${port.name} ship schedule`,
         `${port.name} cruise schedule 2026`,
@@ -36,6 +38,8 @@ export default async function ShipSchedulePortPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+  if (isScheduleYearSlug(slug)) notFound();
+
   const port = getSchedulePortBySlug(slug);
   if (!port) notFound();
 
@@ -43,7 +47,7 @@ export default async function ShipSchedulePortPage({
   const breadcrumbs = [
     { name: "Home", path: "/" },
     { name: "Ship Schedules", path: "/ship-schedules" },
-    { name: port.name, path: `/ship-schedules/${slug}` },
+    { name: port.name, path: portHubPath(slug) },
   ];
 
   return (
@@ -53,8 +57,8 @@ export default async function ShipSchedulePortPage({
           breadcrumbSchema(breadcrumbs),
           webPageSchema({
             title,
-            description: `${port.name} cruise ship schedule hub with 2026 and 2027 monthly tables.`,
-            path: `/ship-schedules/${slug}`,
+            description: `${port.name} schedule hub with dedicated 2026 and 2027 monthly tables.`,
+            path: portHubPath(slug),
           }),
           ...(port.faqs?.length ? [faqSchema(port.faqs)] : []),
         ]}
@@ -64,17 +68,17 @@ export default async function ShipSchedulePortPage({
         <div className="container-wide max-w-5xl">
           <Breadcrumbs items={breadcrumbs} />
           <div className="mb-6 flex flex-wrap gap-4">
+            <Link href={yearHubPath(2026)} className="btn-secondary text-sm">
+              2026 Caribbean Schedules
+            </Link>
+            <Link href={yearHubPath(2027)} className="btn-secondary text-sm">
+              2027 Caribbean Schedules
+            </Link>
             <Link href={`/ports/${slug}`} className="btn-secondary text-sm">
               {port.name} Port Guide
             </Link>
             <Link href="/ship-schedules" className="btn-secondary text-sm">
-              All Ship Schedules
-            </Link>
-            <Link href="/busiest-caribbean-cruise-ports-2027" className="btn-secondary text-sm">
-              Busiest Ports 2027
-            </Link>
-            <Link href="/caribbean-cruise-calendar-2027" className="btn-secondary text-sm">
-              Cruise Calendar 2027
+              Ship Schedules Home
             </Link>
           </div>
 

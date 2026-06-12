@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { ShipSchedulePort } from "@/data/types";
 import { getScheduleForPort, getScheduleForPortYear } from "@/data/schedules";
 import { ScheduleYearLinks } from "@/components/ScheduleYearLinks";
+import { yearHubPath, type ScheduleYear } from "@/lib/schedule-utils";
 import { getPortBySlug } from "@/data/ports";
 import { excursionTypes } from "@/data/excursion-types";
 import { ScheduleHub } from "@/components/ScheduleHub";
@@ -15,7 +16,7 @@ export function ShipSchedulePageView({
   year,
 }: {
   port: ShipSchedulePort;
-  year?: number;
+  year?: ScheduleYear;
 }) {
   const schedule = year ? getScheduleForPortYear(port.slug, year) : getScheduleForPort(port.slug);
   const authorityPort = getPortBySlug(port.slug);
@@ -45,6 +46,11 @@ export function ShipSchedulePageView({
 
       {year && (
         <section className="mb-8">
+          <div className="mb-4 flex flex-wrap gap-3">
+            <Link href={yearHubPath(year)} className="text-sm font-medium text-caribbean-700 hover:text-caribbean-800">
+              ← All {year} Caribbean schedules
+            </Link>
+          </div>
           <ScheduleYearLinks portSlug={port.slug} portName={port.name} currentYear={year} />
         </section>
       )}

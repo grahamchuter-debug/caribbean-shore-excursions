@@ -61,11 +61,14 @@ export default function CaribbeanCruiseCalendar2027Page() {
           <p className="text-gray-700 leading-relaxed mb-8 max-w-3xl">{calendar2027Insights.intro}</p>
 
           <div className="mb-6 flex flex-wrap gap-3">
+            <Link href="/ship-schedules/2027" className="btn-primary text-sm">
+              2027 Caribbean Schedules
+            </Link>
             <Link href="/busiest-caribbean-cruise-ports-2027" className="btn-secondary text-sm">
               Busiest Caribbean Ports 2027
             </Link>
             <Link href="/ship-schedules" className="btn-secondary text-sm">
-              All Ship Schedules
+              Ship Schedules Home
             </Link>
           </div>
 

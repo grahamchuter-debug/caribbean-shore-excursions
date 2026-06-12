@@ -1,13 +1,25 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
-import { getSchedulePortBySlug, getAllSchedulePortSlugs, getShipCallCountForPortYear } from "@/data/schedules";
+import {
+  getSchedulePortBySlug,
+  getAllSchedulePortSlugs,
+  getShipCallCountForPortYear,
+} from "@/data/schedules";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ShipSchedulePageView } from "@/components/ShipSchedulePageView";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, webPageSchema } from "@/lib/schema";
-import { isValidScheduleYear, SCHEDULE_YEARS } from "@/lib/schedule-utils";
+import {
+  isValidScheduleYear,
+  isScheduleYearSlug,
+  parseScheduleYear,
+  SCHEDULE_YEARS,
+  portHubPath,
+  portYearPath,
+  yearHubPath,
+} from "@/lib/schedule-utils";
 
 export function generateStaticParams() {
   return getAllSchedulePortSlugs().flatMap((slug) =>
@@ -21,9 +33,10 @@ export function generateMetadata({
   params: Promise<{ slug: string; year: string }>;
 }) {
   return params.then(({ slug, year: yearParam }) => {
+    if (isScheduleYearSlug(slug)) return {};
     const port = getSchedulePortBySlug(slug);
-    const year = Number(yearParam);
-    if (!port || !isValidScheduleYear(year)) return {};
+    const year = parseScheduleYear(yearParam);
+    if (!port || !year) return {};
 
     const shipCalls = getShipCallCountForPortYear(slug, year);
     const callNote =
@@ -34,10 +47,10 @@ export function generateMetadata({
     return buildMetadata({
       title: `${port.name} Cruise Ship Schedule ${year}`,
       description: `${port.name} ${year} cruise ship schedule with arrival and departure times. ${callNote} Plan shore excursions around your port day.`,
-      path: `/ship-schedules/${slug}/${year}`,
+      path: portYearPath(slug, year),
       keywords: [
         `${port.name} ship schedule ${year}`,
-        `${port.name} cruise schedule`,
+        `${port.name} cruise schedule ${year}`,
         "ships in port",
         "cruise arrival times",
       ],
@@ -51,16 +64,19 @@ export default async function ShipScheduleYearPage({
   params: Promise<{ slug: string; year: string }>;
 }) {
   const { slug, year: yearParam } = await params;
-  const year = Number(yearParam);
+  if (isScheduleYearSlug(slug)) notFound();
+
+  const year = parseScheduleYear(yearParam);
   const port = getSchedulePortBySlug(slug);
-  if (!port || !isValidScheduleYear(year)) notFound();
+  if (!port || !year || !isValidScheduleYear(year)) notFound();
 
   const title = `${port.name} Cruise Ship Schedule ${year}`;
+  const otherYear = year === 2026 ? 2027 : 2026;
   const breadcrumbs = [
     { name: "Home", path: "/" },
     { name: "Ship Schedules", path: "/ship-schedules" },
-    { name: port.name, path: `/ship-schedules/${slug}` },
-    { name: String(year), path: `/ship-schedules/${slug}/${year}` },
+    { name: `${year} Schedules`, path: yearHubPath(year) },
+    { name: port.name, path: portYearPath(slug, year) },
   ];
 
   return (
@@ -71,7 +87,7 @@ export default async function ShipScheduleYearPage({
           webPageSchema({
             title,
             description: `${port.name} ${year} cruise ship schedule with verified arrival and departure times where available.`,
-            path: `/ship-schedules/${slug}/${year}`,
+            path: portYearPath(slug, year),
           }),
           ...(port.faqs?.length ? [faqSchema(port.faqs)] : []),
         ]}
@@ -81,14 +97,20 @@ export default async function ShipScheduleYearPage({
         <div className="container-wide max-w-5xl">
           <Breadcrumbs items={breadcrumbs} />
           <div className="mb-6 flex flex-wrap gap-4">
-            <Link href={`/ship-schedules/${slug}`} className="btn-secondary text-sm">
+            <Link href={yearHubPath(year)} className="btn-primary text-sm">
+              All {year} Caribbean Schedules
+            </Link>
+            <Link href={portYearPath(slug, otherYear)} className="btn-secondary text-sm">
+              View {otherYear} Schedule
+            </Link>
+            <Link href={portHubPath(slug)} className="btn-secondary text-sm">
               {port.name} schedule hub
             </Link>
             <Link href={`/ports/${slug}`} className="btn-secondary text-sm">
               {port.name} Port Guide
             </Link>
             <Link href="/ship-schedules" className="btn-secondary text-sm">
-              All Ship Schedules
+              Ship Schedules Home
             </Link>
           </div>
 

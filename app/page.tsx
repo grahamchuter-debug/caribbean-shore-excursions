@@ -134,11 +134,14 @@ export default function HomePage() {
               </p>
             </div>
             <div className="flex flex-wrap gap-3 shrink-0">
-              <Link href="/ship-schedules" className="btn-primary">
-                All Ship Schedules
+              <Link href="/ship-schedules/2026" className="btn-primary">
+                2026 Schedules
               </Link>
-              <Link href="/busiest-caribbean-cruise-ports-2027" className="btn-secondary">
-                Busiest Ports 2027
+              <Link href="/ship-schedules/2027" className="btn-primary">
+                2027 Schedules
+              </Link>
+              <Link href="/ship-schedules" className="btn-secondary">
+                All Ship Schedules
               </Link>
             </div>
           </div>

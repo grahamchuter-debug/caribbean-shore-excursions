@@ -1,0 +1,134 @@
+import Link from "next/link";
+import { schedulePorts, getShipCallCountForPortYear } from "@/data/schedules";
+import { getVerifiedPortRankings } from "@/data/schedule-insights";
+import { getScheduleYearHubContent } from "@/data/schedule-year-hubs";
+import type { ScheduleYear } from "@/lib/schedule-utils";
+import { portHubPath, portYearPath } from "@/lib/schedule-utils";
+import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+
+export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
+  const content = getScheduleYearHubContent(year);
+  const rankings = getVerifiedPortRankings(year);
+
+  return (
+    <>
+      <section className="mb-12">
+        <h2 className="section-title text-2xl sm:text-3xl mb-4">About the {year} Schedules</h2>
+        <p className="text-gray-700 leading-relaxed text-lg max-w-3xl">{content.intro}</p>
+        <p className="mt-4 text-sm text-gray-500 max-w-3xl">
+          Months awaiting verified data display &quot;Schedule data being updated&quot;. We do not
+          publish unverified ship calls, cruise lines, or passenger capacities.
+        </p>
+      </section>
+
+      {rankings.length > 0 && (
+        <section className="mb-12">
+          <h2 className="section-title text-2xl sm:text-3xl mb-4">Top Caribbean Ports in {year}</h2>
+          <p className="text-gray-600 mb-6 max-w-3xl">{content.topPortsIntro}</p>
+          <div className="overflow-x-auto rounded-xl border border-gray-200">
+            <table className="min-w-full divide-y divide-gray-200 text-sm">
+              <thead className="bg-gray-50">
+                <tr>
+                  <th className="px-4 py-3 text-left font-semibold text-gray-900">Rank</th>
+                  <th className="px-4 py-3 text-left font-semibold text-gray-900">Port</th>
+                  <th className="px-4 py-3 text-left font-semibold text-gray-900">Region</th>
+                  <th className="px-4 py-3 text-left font-semibold text-gray-900">Verified calls</th>
+                  <th className="px-4 py-3 text-left font-semibold text-gray-900">Schedule</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100 bg-white">
+                {rankings.map((stats, index) => (
+                  <tr key={stats.slug}>
+                    <td className="px-4 py-3 text-gray-700">{index + 1}</td>
+                    <td className="px-4 py-3 font-medium text-gray-900">{stats.name}</td>
+                    <td className="px-4 py-3 text-gray-600">{stats.region}</td>
+                    <td className="px-4 py-3 text-gray-700">{stats.shipCalls.toLocaleString()}</td>
+                    <td className="px-4 py-3">
+                      <Link
+                        href={portYearPath(stats.slug, year)}
+                        className="font-medium text-caribbean-700 hover:text-caribbean-800"
+                      >
+                        View {year} schedule
+                      </Link>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      <section className="mb-12">
+        <h2 className="section-title text-2xl sm:text-3xl mb-6">All {year} Port Schedules</h2>
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {schedulePorts.map((port) => {
+            const shipCalls = getShipCallCountForPortYear(port.slug, year);
+
+            return (
+              <div key={port.slug} className="card-gradient flex flex-col">
+                <Link href={portYearPath(port.slug, year)} className="group block flex-1">
+                  <div className="flex items-start justify-between gap-2">
+                    <div>
+                      <h3 className="font-display text-xl font-bold text-gray-900 group-hover:text-caribbean-700">
+                        {port.name}
+                      </h3>
+                      <p className="text-sm text-gray-500">{port.country}</p>
+                    </div>
+                    <span className="shrink-0 rounded-full bg-caribbean-700 px-2.5 py-0.5 text-xs font-semibold text-white">
+                      {year}
+                    </span>
+                  </div>
+                  <p className="mt-3 text-sm text-gray-600 line-clamp-2">{port.description}</p>
+                  <p className="mt-3 text-sm text-gray-600">
+                    {shipCalls > 0
+                      ? `${shipCalls} verified ship call${shipCalls !== 1 ? "s" : ""}`
+                      : "Import in progress"}
+                  </p>
+                  <span className="mt-4 inline-flex items-center text-sm font-medium text-caribbean-700">
+                    View {year} schedule
+                    <svg className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </span>
+                </Link>
+                <div className="mt-4 border-t border-gray-100 pt-3">
+                  <Link
+                    href={portHubPath(port.slug)}
+                    className="text-xs font-medium text-gray-500 hover:text-caribbean-700"
+                  >
+                    {port.name} schedule hub (2026 &amp; 2027)
+                  </Link>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      {year === 2027 && (
+        <section className="mb-12 rounded-xl border border-gray-200 bg-white p-6">
+          <h2 className="section-title text-2xl sm:text-3xl mb-4">2027 Planning Tools</h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <Link href="/busiest-caribbean-cruise-ports-2027" className="card-gradient block hover:border-caribbean-300">
+              <h3 className="font-semibold text-gray-900">Busiest Caribbean Cruise Ports 2027</h3>
+              <p className="mt-2 text-sm text-gray-600">
+                Verified rankings, passenger estimates, and multi-port planning insights.
+              </p>
+            </Link>
+            <Link href="/caribbean-cruise-calendar-2027" className="card-gradient block hover:border-caribbean-300">
+              <h3 className="font-semibold text-gray-900">Caribbean Cruise Calendar 2027</h3>
+              <p className="mt-2 text-sm text-gray-600">
+                Peak months, regional seasonality, and seasonal cruise patterns.
+              </p>
+            </Link>
+          </div>
+        </section>
+      )}
+
+      <div className="mt-10">
+        <AuthorityHubLinks current="schedules" />
+      </div>
+    </>
+  );
+}

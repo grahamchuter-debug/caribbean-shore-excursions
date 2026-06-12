@@ -3,6 +3,7 @@ import type { ShipSchedulePort } from "@/data/types";
 import { ScheduleYearLinks } from "@/components/ScheduleYearLinks";
 import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import { yearHubPath } from "@/lib/schedule-utils";
 
 export function ShipScheduleHubView({ port }: { port: ShipSchedulePort }) {
   const faqs = port.faqs ?? [];
@@ -11,14 +12,29 @@ export function ShipScheduleHubView({ port }: { port: ShipSchedulePort }) {
     <>
       <section className="mb-12">
         <h2 className="section-title text-2xl sm:text-3xl mb-4">Choose a Schedule Year</h2>
-        <p className="text-gray-700 leading-relaxed text-lg mb-6">{port.intro}</p>
+        <p className="text-gray-700 leading-relaxed text-lg mb-6 max-w-3xl">{port.intro}</p>
         {port.usesTender && (
           <p className="mb-6 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
             <strong>Tender port:</strong> {port.name} uses ship-to-shore tender boats. Published
             schedules may change with weather. Allow extra time when planning excursions.
           </p>
         )}
-        <ScheduleYearLinks portSlug={port.slug} portName={port.name} />
+        <ScheduleYearLinks portSlug={port.slug} portName={port.name} prominent />
+      </section>
+
+      <section className="mb-12 rounded-xl border border-gray-200 bg-caribbean-50/40 p-6">
+        <h2 className="section-title text-2xl sm:text-3xl mb-4">All Ports by Year</h2>
+        <p className="text-gray-700 leading-relaxed mb-4">
+          Compare {port.name} with every other top Caribbean port on the master year hubs.
+        </p>
+        <div className="flex flex-wrap gap-3">
+          <Link href={yearHubPath(2026)} className="btn-primary text-sm">
+            2026 Caribbean Schedules
+          </Link>
+          <Link href={yearHubPath(2027)} className="btn-secondary text-sm">
+            2027 Caribbean Schedules
+          </Link>
+        </div>
       </section>
 
       <section className="mb-12 rounded-xl border border-gray-200 bg-white p-6">
