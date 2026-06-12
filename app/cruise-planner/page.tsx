@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { ports } from "@/data/ports";
+import { getPortGuideCount } from "@/data/content-inventory";
 import { comparisons } from "@/data/comparisons";
 import { excursionTypes } from "@/data/excursion-types";
 import { cruiseLines } from "@/data/cruise-lines";
@@ -92,7 +93,7 @@ export default function CruisePlannerPage() {
             >
               <span className="font-semibold text-gray-900">Best Shore Excursion at Every Caribbean Port</span>
               <span className="block text-sm text-gray-600 mt-1">
-                Master table for all 12 ports with authority guides and specialist links
+                Master table for all {getPortGuideCount()} ports with authority guides and specialist links
               </span>
             </Link>
             <div className="flex flex-wrap gap-2">

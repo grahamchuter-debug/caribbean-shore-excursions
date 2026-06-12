@@ -5,6 +5,7 @@ import { excursionTypes } from "@/data/excursion-types";
 import { cruiseLines } from "@/data/cruise-lines";
 import { cruiseTips } from "@/data/tips";
 import { comparisons } from "@/data/comparisons";
+import { getPortGuideCount } from "@/data/content-inventory";
 import { schedulePorts } from "@/data/schedules";
 import { featuredPortCards, HOMEPAGE_SCHEDULE_SLUGS, homepageFaqs } from "@/data/homepage";
 import { regions } from "@/data/regions";
@@ -16,6 +17,7 @@ import { SchedulePreviewCard } from "@/components/SchedulePreviewCard";
 import { FAQSection } from "@/components/FAQSection";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
+import { CruisePlannerStatsGrid } from "@/components/CruisePlannerStatsGrid";
 
 export const metadata = buildMetadata({
   title: "Caribbean Shore Excursion Planner | Ports, Ship Schedules & Cruise Tours",
@@ -181,19 +183,7 @@ export default function HomePage() {
                 Open Cruise Planner
               </Link>
             </div>
-            <div className="grid grid-cols-2 gap-4">
-              {[
-                { label: "Port Guides", count: "12", href: "/ports" },
-                { label: "Excursion Types", count: `${excursionTypes.length}`, href: "/excursion-types" },
-                { label: "Cruise Lines", count: `${cruiseLines.length}`, href: "/cruise-lines" },
-                { label: "Comparisons", count: `${comparisons.length}`, href: "/cruise-planner#compare" },
-              ].map((stat) => (
-                <Link key={stat.label} href={stat.href} className="card text-center hover:border-caribbean-200">
-                  <div className="text-3xl font-bold text-caribbean-700">{stat.count}</div>
-                  <div className="text-sm text-gray-600 mt-1">{stat.label}</div>
-                </Link>
-              ))}
-            </div>
+            <CruisePlannerStatsGrid />
           </div>
         </div>
       </section>
@@ -305,7 +295,7 @@ export default function HomePage() {
               Best Shore Excursion at Every Caribbean Port
             </h3>
             <p className="mt-2 text-gray-600">
-              Master table covering all 12 ports, signature excursion, duration, activity level, and links to authority guides and local specialists.
+              Master table covering all {getPortGuideCount()} ports, signature excursion, duration, activity level, and links to authority guides and local specialists.
             </p>
           </Link>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
