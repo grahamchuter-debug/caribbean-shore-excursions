@@ -151,7 +151,7 @@ export const cruiseLinePlanning: Record<string, CruiseLinePlanningProfile> = {
     passengerProfile:
       "Value-conscious families and groups who want fun-focused ship experiences with casual, activity-heavy Caribbean port days.",
     bestFor: ["Families", "Groups", "Beaches", "Adventure", "Budget-friendly cruising"],
-    shipSlugs: ["mardi-gras", "carnival-celebration", "carnival-jubilee"],
+    shipSlugs: ["mardi-gras", "celebration", "jubilee"],
     excursionCategories: [
       {
         category: "Best Family Excursions",
@@ -269,7 +269,7 @@ export const cruiseLinePlanning: Record<string, CruiseLinePlanningProfile> = {
     passengerProfile:
       "Freestyle cruisers who want flexible dining schedules, varied entertainment, and port days without rigid traditional cruise timing.",
     bestFor: ["Couples", "Groups", "Flexible schedules", "Adventure", "Beaches"],
-    shipSlugs: ["norwegian-prima", "norwegian-viva", "norwegian-aqua"],
+    shipSlugs: ["prima", "viva", "aqua"],
     excursionCategories: [
       {
         category: "Best Family Excursions",
@@ -620,7 +620,7 @@ export const cruiseLinePlanning: Record<string, CruiseLinePlanningProfile> = {
     passengerProfile:
       "Upscale couples and discerning travelers who want modern design, culinary experiences, and curated port days with smaller-group excursion formats.",
     bestFor: ["Couples", "Luxury", "Culinary travel", "Southern Caribbean", "Snorkeling"],
-    shipSlugs: ["celebrity-beyond", "celebrity-ascent", "celebrity-apex"],
+    shipSlugs: ["beyond", "ascent", "apex"],
     excursionCategories: [
       {
         category: "Best Family Excursions",

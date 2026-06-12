@@ -333,6 +333,12 @@ export interface CruiseLinePlanningProfile {
   bestGuideLinks: { label: string; href: string }[];
 }
 
+export interface ShipRecommendation {
+  title: string;
+  portSlug: string;
+  advice: string;
+}
+
 export interface CruiseShip {
   slug: string;
   name: string;
@@ -344,6 +350,11 @@ export interface CruiseShip {
   caribbeanItineraries: string[];
   commonPortSlugs: string[];
   recommendedExcursions: { name: string; portSlug: string; description: string }[];
+  familyRecommendations?: ShipRecommendation[];
+  beachRecommendations?: ShipRecommendation[];
+  snorkellingRecommendations?: ShipRecommendation[];
+  privateTourRecommendations?: ShipRecommendation[];
+  relatedShipSlugs?: string[];
   planningAdvice: string[];
   faqs: FAQ[];
   featuredPage: boolean;

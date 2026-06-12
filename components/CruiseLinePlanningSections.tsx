@@ -112,16 +112,10 @@ export function CruiseLinePlanningSections({
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
           {ships.map((ship) => (
-            <div key={ship.slug} className="card-gradient">
-              {ship.featuredPage ? (
-                <h3 className="font-display text-lg font-bold text-gray-900">
-                  <Link href={`/ships/${ship.slug}`} className="hover:text-caribbean-700">
-                    {ship.name}
-                  </Link>
-                </h3>
-              ) : (
-                <h3 className="font-display text-lg font-bold text-gray-900">{ship.name}</h3>
-              )}
+            <Link key={ship.slug} href={`/ships/${ship.slug}`} className="card-gradient group block">
+              <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
+                {ship.name}
+              </h3>
               <p className="mt-2 text-sm text-gray-600">{ship.tagline}</p>
               {ship.caribbeanItineraries.length > 0 && (
                 <ul className="mt-3 space-y-1">
@@ -132,15 +126,10 @@ export function CruiseLinePlanningSections({
                   ))}
                 </ul>
               )}
-              {ship.featuredPage && (
-                <Link
-                  href={`/ships/${ship.slug}`}
-                  className="mt-4 inline-block text-sm font-medium text-caribbean-700 hover:underline"
-                >
-                  Ship planning guide →
-                </Link>
-              )}
-            </div>
+              <span className="mt-4 inline-block text-sm font-medium text-caribbean-700 group-hover:underline">
+                Ship planning guide →
+              </span>
+            </Link>
           ))}
         </div>
       </section>
