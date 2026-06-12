@@ -8,7 +8,7 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
     metaDescription:
       "Plan better ABC Islands cruise days in Aruba and Curacao with practical guidance on beaches, snorkeling, private tours, and family-friendly shore planning.",
     heroSubtitle:
-      "Use this ABC Islands planner to balance Aruba beach ease with Curacao culture and cove snorkeling.",
+      "Plan shore excursions in Aruba and Curacao, the ABC Islands cruise ports covered on this site.",
     overview:
       "ABC Islands cruise itineraries combine two of the Caribbean's most consistent, weather-friendly ports: Aruba and Curacao. Aruba is ideal for dependable beach logistics and polished seaside facilities, while Curacao adds colorful architecture, walkable old town character, and excellent snorkeling coves for more varied port days.",
     overviewDetail:
@@ -188,28 +188,36 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
   {
     slug: "virgin-islands-cruise-planner",
     title: "Virgin Islands Cruise Planner",
-    seoTitle: "Virgin Islands Cruise Planner | St. Thomas and St. John Access Guide",
+    seoTitle: "Virgin Islands Cruise Planner | St. Thomas & St. Maarten Port Guide",
     metaDescription:
-      "Plan your Virgin Islands cruise day from St. Thomas with clear advice on Magens Bay, St. John ferry access, snorkeling, private tours, and family-friendly pacing.",
+      "Plan Virgin Islands cruise days in St. Thomas and St. Maarten with advice on Magens Bay, St. John ferry access, Orient Bay, dual-nation touring, and private shore excursions.",
     heroSubtitle:
-      "Build the right Virgin Islands port day from St. Thomas, including practical St. John access decisions.",
+      "Plan shore excursions in St. Thomas and St. Maarten across the U.S. and Dutch Caribbean.",
     overview:
-      "Virgin Islands cruise planning centers on St. Thomas and whether to stay local or include St. John access. St. Thomas offers easy beach and viewpoint options with short transfers, while St. John adds a premium national-park feel and stronger reef-and-beach combinations if your call length supports the extra movement.",
+      "Virgin Islands cruise planning pairs St. Thomas beach-and-ferry flexibility with St. Maarten's dual-nation character. St. Thomas delivers Magens Bay, optional St. John access, and easy pier logistics, while St. Maarten adds Orient Bay, Maho plane spotting, and French-side dining in a single call.",
     overviewDetail:
-      "The most important choice is your day structure. If your ship has a shorter call, keep the day in St. Thomas for Magens Bay or a compact island loop. If you have a longer call and value scenery over shopping, St. John access can become the highlight, especially around Trunk Bay routes.\n\nAvoid trying to do too much on both islands in one stop. Build a realistic ferry or boat margin, pick one anchor beach experience, and leave at least one hour of return buffer. With disciplined pacing, this is one of the most rewarding Eastern Caribbean cruise days.",
+      "Treat each port as a distinct day style. On St. Thomas, decide early whether you are staying local or committing to a St. John ferry for Trunk Bay. On St. Maarten, choose between a beach-club day at Orient Bay or a split Dutch-French island circuit with disciplined taxi timing.\n\nAvoid island-hopping overload on either stop. Build realistic transfer margins, pick one anchor experience per port, and leave at least one hour of return buffer before all-aboard. With clear pacing, Virgin Islands itineraries deliver some of the Eastern Caribbean's highest-value port days.",
     portComparison:
-      "St. Thomas is best for easier logistics, first-time cruiser confidence, and flexible half-day combinations. St. John access from St. Thomas is best for passengers prioritizing premium beach scenery and national-park snorkeling, but it requires tighter timing discipline and fewer total stops.",
+      "St. Thomas is best for calm swimming, St. John ferry add-ons, and first-time cruiser confidence. St. Maarten is best for dual-nation beach culture, lively waterfront energy, and passengers who want French-side dining paired with Dutch-side shopping in one day.",
     comparisonTable: [
       {
         portSlug: "st-thomas",
         portName: "St. Thomas",
-        bestFor: "Easy all-around port day",
-        bestExcursion: "Magens Bay and scenic viewpoints",
+        bestFor: "Beaches & St. John access",
+        bestExcursion: "Magens Bay and optional St. John ferry",
         transferTime: "10-20 min taxi",
         rating: "4.9",
       },
+      {
+        portSlug: "st-maarten",
+        portName: "St. Maarten",
+        bestFor: "Dual-nation beach days",
+        bestExcursion: "Orient Bay and Philipsburg loop",
+        transferTime: "15-30 min taxi",
+        rating: "4.8",
+      },
     ],
-    topPortSlugs: ["st-thomas"],
+    topPortSlugs: ["st-thomas", "st-maarten"],
     bestExcursions: [
       {
         name: "Magens Bay Beach and Viewpoint Loop",
@@ -241,6 +249,18 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         description:
           "Balances sailing, snorkel time, and manageable return timing for mixed-interest groups.",
       },
+      {
+        name: "Orient Bay Beach Club Day",
+        portSlug: "st-maarten",
+        description:
+          "French-side beach club with loungers, lunch service, and calm swim conditions on longer calls.",
+      },
+      {
+        name: "Maho Beach and Philipsburg Highlights",
+        portSlug: "st-maarten",
+        description:
+          "Combines plane-spotting spectacle with Dutch-side shopping and waterfront browsing.",
+      },
     ],
     bestBeaches: [
       {
@@ -266,6 +286,18 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         title: "Lindbergh-style short-transfer beach stops",
         advice:
           "Useful backup for shorter calls or uncertain weather when you need easy ship-return control.",
+      },
+      {
+        portSlug: "st-maarten",
+        title: "Orient Bay for French-side beach clubs",
+        advice:
+          "Best signature beach day on St. Maarten with full-service facilities and water sports options.",
+      },
+      {
+        portSlug: "st-maarten",
+        title: "Dutch-side beach stops near Philipsburg",
+        advice:
+          "Convenient shorter-beach options when you want shopping and sand in one compact route.",
       },
     ],
     privateTourRecommendations: [
@@ -293,6 +325,18 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         advice:
           "A strong option when your group needs flexible stop lengths and shade or meal breaks.",
       },
+      {
+        portSlug: "st-maarten",
+        title: "Private Dutch-French island split",
+        advice:
+          "Ideal for couples or small groups wanting custom timing between Orient Bay, Maho, and Marigot.",
+      },
+      {
+        portSlug: "st-maarten",
+        title: "Private catamaran to Tintamarre",
+        advice:
+          "Uninhabited islet snorkel sail with flexible departure for experienced snorkelers.",
+      },
     ],
     familyRecommendations: [
       {
@@ -319,6 +363,18 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         advice:
           "A brief waterfront walk or shopping stop adds variety without creating return stress.",
       },
+      {
+        portSlug: "st-maarten",
+        title: "Orient Bay over dual-nation marathon days",
+        advice:
+          "Families usually enjoy one relaxed beach club day more than rushing both sides of the island.",
+      },
+      {
+        portSlug: "st-maarten",
+        title: "Morning beach, afternoon pier return",
+        advice:
+          "Start early at Orient Bay to beat heat and traffic on multi-ship days.",
+      },
     ],
     regionPageSlug: "eastern-caribbean-cruise-ports",
     parentPlannerSlug: "eastern-caribbean-cruise-planner",
@@ -340,9 +396,9 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
           "Yes on longer calls, but only if you treat St. John as the main plan and protect return buffer time.",
       },
       {
-        question: "What is the easiest first-time Virgin Islands excursion?",
+        question: "St. Thomas or St. Maarten for a first-time Virgin Islands call?",
         answer:
-          "Magens Bay plus scenic viewpoints is the easiest and most reliable choice for first-time visitors.",
+          "St. Thomas is easier for calm beaches and simple logistics; St. Maarten is better for dual-nation culture and lively beach clubs.",
       },
       {
         question: "Should I pick Sapphire Beach or Magens Bay?",
@@ -350,31 +406,31 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
           "Pick Magens for calmer family swimming and simpler beach flow; pick Sapphire for stronger snorkel potential.",
       },
       {
-        question: "Do private tours improve St. Thomas port days?",
+        question: "What is the best St. Maarten beach day?",
         answer:
-          "They are especially useful for mixed-interest groups needing custom timing across multiple short stops.",
+          "Orient Bay beach club days are the most reliable signature experience, especially on longer port calls.",
       },
       {
         question: "What planning mistake is most common here?",
         answer:
-          "Trying to fully tour St. Thomas and St. John in one call, which often creates rushed or stressful returns.",
+          "Trying to fully tour two islands or both nations in one call, which often creates rushed or stressful returns.",
       },
     ],
   },
   {
     slug: "bahamas-cruise-planner",
     title: "Bahamas Cruise Planner",
-    seoTitle: "Bahamas Cruise Planner | Nassau Cruise Port Day Guide",
+    seoTitle: "Bahamas Cruise Planner | Nassau & Grand Cayman Port Guide",
     metaDescription:
-      "Plan a smarter Bahamas cruise day in Nassau with practical recommendations for Atlantis, Rose Island snorkeling, private guides, beaches, and family pacing.",
+      "Plan Bahamas and Cayman cruise days in Nassau and Grand Cayman with advice on Atlantis, Stingray City, Rose Island snorkel, Seven Mile Beach, and private tours.",
     heroSubtitle:
-      "Make Nassau work for your style: resort day, reef trip, city walk, or private custom route.",
+      "Plan shore excursions in Nassau and Grand Cayman across walkable piers and tender wildlife days.",
     overview:
-      "Bahamas cruise planning for most mainstream itineraries is Nassau-focused. The port can deliver excellent value when you choose a clear day style early: family resort day, half-day snorkeling, or short independent city exploration. The biggest challenge is crowd management on multi-ship days.",
+      "Bahamas cruise planning pairs Nassau's walkable resort-and-reef options with Grand Cayman's signature Stingray City wildlife and Seven Mile Beach. Nassau rewards early booking on busy ship days, while Grand Cayman needs tender awareness and morning-first wildlife timing.",
     overviewDetail:
-      "Nassau rewards decisive planning. If your priority is Atlantis or another capacity-limited venue, pre-book early. If you want a lighter day, Rose Island snorkel or a compact downtown route can preserve both experience quality and return control.\n\nBecause Nassau is one of the region's busiest ports, trying to improvise everything at the pier often leads to long waits and rushed choices. Pick one anchor activity, build in transportation margin, and keep one backup plan if weather shifts. With that structure, Nassau can be one of the easiest and most family-friendly Eastern calls.",
+      "Give each port a different role. Use Nassau for Atlantis, Rose Island snorkel, or a compact downtown route, then treat Grand Cayman as your wildlife-and-beach anchor with an early Stingray City departure. Both ports are high-traffic, so decisive planning beats pier-side improvisation.\n\nBuild tender and taxi margins into Grand Cayman days, and pre-book capacity-limited Nassau activities before arrival. Pick one anchor experience per call, keep a weather backup, and protect at least 60 minutes before all-aboard. Structured pacing makes this pairing one of the Caribbean's most family-friendly combinations.",
     portComparison:
-      "Nassau is strongest for family infrastructure, high-volume excursion variety, and short transfer options from the terminal. It is weaker for passengers seeking quiet, uncrowded beach environments unless they pre-book curated alternatives or go private.",
+      "Nassau is strongest for walkable pier access, Atlantis-style family days, and high excursion variety. Grand Cayman is strongest for Stingray City wildlife, premium reef snorkelling, and Seven Mile Beach, but requires tender logistics and earlier departure discipline.",
     comparisonTable: [
       {
         portSlug: "nassau",
@@ -384,8 +440,16 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         transferTime: "10-25 min by taxi or boat",
         rating: "4.8",
       },
+      {
+        portSlug: "grand-cayman",
+        portName: "Grand Cayman",
+        bestFor: "Stingray City wildlife",
+        bestExcursion: "Stingray sandbar and reef snorkel",
+        transferTime: "30-40 min tender plus boat",
+        rating: "4.9",
+      },
     ],
-    topPortSlugs: ["nassau"],
+    topPortSlugs: ["nassau", "grand-cayman"],
     bestExcursions: [
       {
         name: "Atlantis Aquaventure Day Pass",
@@ -417,6 +481,18 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         description:
           "Best for repeat visitors who want flexibility beyond standard Atlantis or downtown-only plans.",
       },
+      {
+        name: "Stingray City Early Departure",
+        portSlug: "grand-cayman",
+        description:
+          "Book the first tender-friendly slot to reduce sandbar crowding and protect afternoon return time.",
+      },
+      {
+        name: "Seven Mile Beach Organized Break",
+        portSlug: "grand-cayman",
+        description:
+          "Structured beach transfer with tender-aware return timing for mixed-age groups.",
+      },
     ],
     bestBeaches: [
       {
@@ -442,6 +518,18 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         title: "Short downtown beach access options",
         advice:
           "Convenient but can be crowded; best used for quick swims rather than a full signature beach day.",
+      },
+      {
+        portSlug: "grand-cayman",
+        title: "Seven Mile Beach for full-day sand",
+        advice:
+          "Best overall beach choice when you want premium sand with organized tender-aware transport.",
+      },
+      {
+        portSlug: "grand-cayman",
+        title: "Cemetery Reef area for snorkel focus",
+        advice:
+          "Pair with a morning wildlife stop rather than as a rushed add-on after Stingray City.",
       },
     ],
     privateTourRecommendations: [
@@ -469,6 +557,18 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         advice:
           "Best on shorter calls when you want one premium stop plus easy guaranteed return margin.",
       },
+      {
+        portSlug: "grand-cayman",
+        title: "Private early Stingray charter",
+        advice:
+          "Worth the premium for smaller groups wanting custom sandbar timing before crowds arrive.",
+      },
+      {
+        portSlug: "grand-cayman",
+        title: "Private stingray and reef combo boat",
+        advice:
+          "Ideal when your group wants wildlife plus snorkelling without fixed large-tour pacing.",
+      },
     ],
     familyRecommendations: [
       {
@@ -495,6 +595,18 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         advice:
           "Pick either waterpark, snorkel, or city focus to keep the day enjoyable and avoid fatigue.",
       },
+      {
+        portSlug: "grand-cayman",
+        title: "Stingray City as the family wildlife default",
+        advice:
+          "Shallow sandbar conditions suit most ages when booked with a reputable operator and early tender timing.",
+      },
+      {
+        portSlug: "grand-cayman",
+        title: "Tender-first morning planning",
+        advice:
+          "Queue for early tenders on wildlife days to protect your excursion window and return buffer.",
+      },
     ],
     regionPageSlug: "eastern-caribbean-cruise-ports",
     parentPlannerSlug: "eastern-caribbean-cruise-planner",
@@ -508,12 +620,13 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
       "best-caribbean-family-excursions",
       "best-caribbean-beach-excursions",
       "best-caribbean-private-tours",
+      "best-caribbean-wildlife-excursions",
     ],
     faqs: [
       {
-        question: "Is Nassau worth it if I have already visited before?",
+        question: "Nassau or Grand Cayman for a first-time Bahamas cruise day?",
         answer:
-          "Yes, especially if you switch your day style by choosing either private custom touring or a different water activity format.",
+          "Nassau is easier with walkable pier access; Grand Cayman is more memorable for wildlife but needs tender planning.",
       },
       {
         question: "What is the best first-time Nassau excursion?",
@@ -521,9 +634,9 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
           "Atlantis for families or Rose Island snorkeling for mixed groups are the most reliable first-time choices.",
       },
       {
-        question: "How do I avoid Nassau crowds?",
+        question: "How early should I book Stingray City?",
         answer:
-          "Pre-book capacity-limited activities, choose early departures, and avoid making all decisions after disembarkation.",
+          "Reserve the first available departure after tender clearance to reduce crowding and protect your return window.",
       },
       {
         question: "Are private tours useful in Nassau?",
@@ -531,9 +644,9 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
           "Yes, especially for repeat visitors and groups that want better pacing than fixed large-group tours.",
       },
       {
-        question: "What is the biggest Nassau planning error?",
+        question: "What is the biggest planning error in this cluster?",
         answer:
-          "Trying to fit too many disconnected activities into one day in a high-traffic, high-demand port.",
+          "Underestimating Grand Cayman tender time or overloading Nassau with too many disconnected activities in one day.",
       },
     ],
   },
@@ -544,7 +657,7 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
     metaDescription:
       "Plan stronger Mexican Caribbean cruise days in Cozumel and Costa Maya with detailed advice on reefs, ruins, beaches, private tours, and family options.",
     heroSubtitle:
-      "Pair Cozumel reef strength with Costa Maya culture and beach value for a balanced Western itinerary.",
+      "Plan shore excursions in Cozumel and Costa Maya across reef snorkelling and Mayan ruin routes.",
     overview:
       "Mexican Caribbean cruise planning is about using Cozumel and Costa Maya for complementary experiences instead of duplicate beach days. Cozumel is the region's reef and marine-activity powerhouse, while Costa Maya offers easier access to Mayan history and lower-pressure beach-town pacing around Mahahual.",
     overviewDetail:

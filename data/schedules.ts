@@ -72,7 +72,7 @@ export const schedulePorts: ShipSchedulePort[] = [
       "Southern Caribbean port outside the hurricane belt with consistent year-round traffic.",
     scheduleOverview:
       "Aruba's Port of Oranjestad receives steady Southern Caribbean traffic with extended evening departures common on many itineraries. Review monthly ship calls before booking Eagle Beach transfers or De Palm Island packages on busy arrival days.",
-    relatedPortSlugs: ["curacao", "st-maarten", "cozumel"],
+    relatedPortSlugs: ["st-maarten", "cozumel", "puerto-plata"],
     excursionTypeSlugs: ["beaches", "snorkeling", "catamaran-cruises", "adventure-tours"],
     planningTips: [...SCHEDULE_PLANNING_TIPS],
     faqs: SCHEDULE_FAQS,
@@ -202,7 +202,7 @@ export const schedulePorts: ShipSchedulePort[] = [
       "Jamaica north-coast adventure port for waterfall and rainforest excursions.",
     scheduleOverview:
       "Ocho Rios receives Western Caribbean traffic from Carnival, Royal Caribbean, and Norwegian with variable weekly counts. This page lists verified ship calls for 2026 and 2027. Busy schedule days affect Dunn's River Falls timing, so plan early departures on multi-ship weeks.",
-    relatedPortSlugs: ["costa-maya", "cozumel", "falmouth"],
+    relatedPortSlugs: ["costa-maya", "cozumel", "roatan"],
     excursionTypeSlugs: ["adventure-tours", "family-tours", "private-tours"],
     planningTips: [...SCHEDULE_PLANNING_TIPS],
     faqs: SCHEDULE_FAQS,

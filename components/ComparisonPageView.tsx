@@ -8,6 +8,7 @@ import { ComparisonTable } from "@/components/ComparisonTable";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
+import { getClusterLinksForComparison } from "@/data/topic-clusters";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
 const CATEGORIES: { key: keyof Comparison; label: string }[] = [
@@ -25,6 +26,7 @@ const CATEGORIES: { key: keyof Comparison; label: string }[] = [
 export function ComparisonPageView({ comp }: { comp: Comparison }) {
   const portA = getPortBySlug(comp.portASlug);
   const portB = getPortBySlug(comp.portBSlug);
+  const clusterLinks = getClusterLinksForComparison(comp.slug);
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
@@ -146,6 +148,26 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
             <h2 className="font-display text-xl font-bold text-gray-900 mb-3">Our Verdict</h2>
             <p className="text-gray-700 leading-relaxed">{comp.verdict}</p>
           </section>
+
+          {clusterLinks.length > 0 && (
+            <section className="mb-12">
+              <h2 className="section-title text-2xl sm:text-3xl mb-4">Regional Cruise Planners</h2>
+              <p className="text-sm text-gray-600 mb-4">
+                Compare these ports in context with broader Caribbean cluster planning guides.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {clusterLinks.map((cluster) => (
+                  <Link
+                    key={cluster.slug}
+                    href={`/${cluster.slug}`}
+                    className="rounded-lg border border-caribbean-200 bg-white px-4 py-2 text-sm font-medium text-caribbean-800 hover:border-caribbean-400"
+                  >
+                    {cluster.title}
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
 
           <SpecialistLocalGuideSection
             portSlugs={[comp.portASlug, comp.portBSlug]}

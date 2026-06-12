@@ -11,6 +11,7 @@ import { SpecialistLocalGuide } from "@/components/SpecialistLocalGuide";
 import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { SCHEDULE_PLANNING_TIPS } from "@/data/schedule-content";
+import { hasShipSchedule } from "@/lib/routes";
 
 export function ShipSchedulePageView({
   port,
@@ -177,7 +178,8 @@ export function ShipSchedulePageView({
               )}
               {relatedPorts.map(
                 (related) =>
-                  related && (
+                  related &&
+                  hasShipSchedule(related.slug) && (
                     <Link
                       key={`sched-${related.slug}`}
                       href={`/ship-schedules/${related.slug}`}

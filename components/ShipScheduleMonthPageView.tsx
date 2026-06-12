@@ -5,6 +5,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { SpecialistLocalGuide } from "@/components/SpecialistLocalGuide";
 import { getPortBySlug } from "@/data/ports";
+import { hasShipSchedule } from "@/lib/routes";
 import { excursionTypes } from "@/data/excursion-types";
 import {
   getMonthlyMetaDescription,
@@ -243,7 +244,8 @@ export function ShipScheduleMonthPageView({
               )}
               {relatedPorts.map(
                 (related) =>
-                  related && (
+                  related &&
+                  hasShipSchedule(related.slug) && (
                     <Link
                       key={`sched-${related.slug}`}
                       href={`/ship-schedules/${related.slug}`}

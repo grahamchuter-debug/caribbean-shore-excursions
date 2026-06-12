@@ -567,7 +567,7 @@ export const ports: Port[] = [
       { name: "Good Hope Estate", description: "Historic plantation with adventure activities.", distance: "20 min by taxi" },
       { name: "Luminous Lagoon", description: "Bioluminescent bay glowing on dark nights.", distance: "20 min by taxi" },
     ],
-    specialistUrl: "https://falmouthshoreexcursions.com",
+    specialistUrl: "https://www.falmouthshoreexcursions.com",
     specialistName: "Falmouth Shore Excursions",
     faqs: [
       { question: "Is Falmouth less crowded than Ocho Rios?", answer: "Yes. Falmouth's town experience and excursion sites are generally quieter and less commercial than Ocho Rios, especially around the historic port area." },

@@ -97,6 +97,47 @@ export interface Comparison {
   comparisonTable: ComparisonTableRow[];
   verdict: string;
   faqs: FAQ[];
+  clusterSlugs?: string[];
+}
+
+export interface ClusterComparisonRow {
+  portSlug: string;
+  portName: string;
+  bestFor: string;
+  bestExcursion: string;
+  beachQuality: string;
+  snorkelling: string;
+  families: string;
+  privateTours: string;
+  easeFromShip: string;
+}
+
+export interface ClusterPortDayPlans {
+  portSlug: string;
+  easyDay: string;
+  adventureDay: string;
+  beachDay: string;
+  privateTourDay: string;
+}
+
+export interface ClusterTravellerPick {
+  travellerType: string;
+  portSlug: string;
+  excursionName: string;
+  description: string;
+  guideHref: string;
+}
+
+export interface TopicClusterData {
+  slug: string;
+  portSlugs: string[];
+  portCardNotes: Record<string, { shortDescription: string; topExcursionType: string }>;
+  comparisonTable: ClusterComparisonRow[];
+  dayPlans: ClusterPortDayPlans[];
+  travellerPicks: ClusterTravellerPick[];
+  comparisonSlugs: string[];
+  bestGuideSlugs: string[];
+  nextStepCta: string;
 }
 
 export interface BestGuidePort {

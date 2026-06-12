@@ -100,13 +100,21 @@ export function PortPlanningToolkit({ port }: { port: Port }) {
               </p>
             </div>
           </div>
-        ) : (
+        ) : hasShipSchedule(port.slug) ? (
           <p className="text-sm text-gray-600">
             Verified schedule import pending for {port.name}. Use the{" "}
             <Link href={`/ship-schedules/${port.slug}`} className="text-caribbean-700 hover:underline">
               schedule hub
             </Link>{" "}
             for monthly placeholders until data is added.
+          </p>
+        ) : (
+          <p className="text-sm text-gray-600">
+            Verified ship schedule data is not yet available for {port.name}. Browse the{" "}
+            <Link href="/ship-schedules" className="text-caribbean-700 hover:underline">
+              Caribbean ship schedules hub
+            </Link>{" "}
+            for ports with published call times.
           </p>
         )}
         <p className="mt-3 text-xs text-gray-500">{popularity.note}</p>

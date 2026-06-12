@@ -15,6 +15,8 @@ import { BestGuideComparisonTable } from "@/components/BestGuideComparisonTable"
 import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
+import { ClusterPageSections } from "@/components/ClusterPageSections";
+import { getTopicCluster } from "@/data/topic-clusters";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
 function PortLink({ portSlug }: { portSlug: string }) {
@@ -39,6 +41,7 @@ export function RegionalCruisePlannerPageView({ planner }: { planner: RegionalCr
   const relatedRegionalPlanners = planner.relatedRegionalPlannerSlugs
     .map((slug) => getRegionalCruisePlannerBySlug(slug))
     .filter(Boolean);
+  const cluster = getTopicCluster(planner.slug);
   const relatedComparisons = comparisons.filter(
     (c) =>
       planner.topPortSlugs.includes(c.portASlug) ||
@@ -81,50 +84,57 @@ export function RegionalCruisePlannerPageView({ planner }: { planner: RegionalCr
             </div>
           </section>
 
-          <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-4">Compare Included Ports</h2>
-            <p className="text-gray-700 leading-relaxed mb-6">{planner.portComparison}</p>
-            <BestGuideComparisonTable rows={planner.comparisonTable} />
-          </section>
-
-          <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-6">Ports in This Region</h2>
-            <div className="grid gap-4 sm:grid-cols-2">
-              {planner.topPortSlugs.map((slug) => {
-                const port = getPortBySlug(slug);
-                if (!port) return null;
-                return (
-                  <div key={slug} className="card-gradient">
-                    <h3 className="font-display text-lg font-bold text-gray-900">
-                      <Link href={`/ports/${slug}`} className="hover:text-caribbean-700">
-                        {port.name}
-                      </Link>
-                    </h3>
-                    <p className="mt-1 text-xs text-caribbean-600 font-medium">{port.bestFor}</p>
-                    <p className="mt-2 text-sm text-gray-600 line-clamp-2">{port.tagline}</p>
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      <Link href={`/ports/${slug}`} className="btn-primary text-xs">
-                        Authority Port Guide
-                      </Link>
-                      {hasShipSchedule(slug) && (
-                        <Link href={`/ship-schedules/${slug}`} className="btn-secondary text-xs">
-                          Ship Schedule
-                        </Link>
-                      )}
-                      <a
-                        href={port.specialistUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn-secondary text-xs"
-                      >
-                        {port.specialistName}
-                      </a>
-                    </div>
-                  </div>
-                );
-              })}
+          {cluster ? (
+            <div className="mb-12">
+              <ClusterPageSections cluster={cluster} />
             </div>
-          </section>
+          ) : (
+            <>
+              <section className="mb-12">
+                <h2 className="section-title text-2xl sm:text-3xl mb-4">Compare Included Ports</h2>
+                <p className="text-gray-700 leading-relaxed mb-6">{planner.portComparison}</p>
+                <BestGuideComparisonTable rows={planner.comparisonTable} />
+              </section>
+              <section className="mb-12">
+                <h2 className="section-title text-2xl sm:text-3xl mb-6">Ports in This Region</h2>
+                <div className="grid gap-4 sm:grid-cols-2">
+                  {planner.topPortSlugs.map((slug) => {
+                    const port = getPortBySlug(slug);
+                    if (!port) return null;
+                    return (
+                      <div key={slug} className="card-gradient">
+                        <h3 className="font-display text-lg font-bold text-gray-900">
+                          <Link href={`/ports/${slug}`} className="hover:text-caribbean-700">
+                            {port.name}
+                          </Link>
+                        </h3>
+                        <p className="mt-1 text-xs text-caribbean-600 font-medium">{port.bestFor}</p>
+                        <p className="mt-2 text-sm text-gray-600 line-clamp-2">{port.tagline}</p>
+                        <div className="mt-4 flex flex-wrap gap-2">
+                          <Link href={`/ports/${slug}`} className="btn-primary text-xs">
+                            Authority Port Guide
+                          </Link>
+                          {hasShipSchedule(slug) && (
+                            <Link href={`/ship-schedules/${slug}`} className="btn-secondary text-xs">
+                              Ship Schedule
+                            </Link>
+                          )}
+                          <a
+                            href={port.specialistUrl}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="btn-secondary text-xs"
+                          >
+                            {port.specialistName}
+                          </a>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </section>
+            </>
+          )}
 
           <SpecialistLocalGuideSection
             portSlugs={planner.topPortSlugs}

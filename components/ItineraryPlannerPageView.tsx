@@ -11,6 +11,8 @@ import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { getRegionalPlannersByParentPlanner } from "@/data/regional-cruise-planners";
+import { ClusterPageSections } from "@/components/ClusterPageSections";
+import { getTopicCluster } from "@/data/topic-clusters";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
 function PortLink({ portSlug }: { portSlug: string }) {
@@ -39,6 +41,7 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
     .slice(0, 3);
 
   const regionalPlanners = getRegionalPlannersByParentPlanner(planner.slug);
+  const cluster = getTopicCluster(planner.slug);
 
   return (
     <>
@@ -74,52 +77,59 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
             </ul>
           </section>
 
-          <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-6">Ports Included</h2>
-            <div className="grid gap-4 sm:grid-cols-2">
-              {planner.topPortSlugs.map((slug) => {
-                const port = getPortBySlug(slug);
-                if (!port) return null;
-                return (
-                  <div key={slug} className="card-gradient">
-                    <h3 className="font-display text-lg font-bold text-gray-900">
-                      <Link href={`/ports/${slug}`} className="hover:text-caribbean-700">
-                        {port.name}
-                      </Link>
-                    </h3>
-                    <p className="mt-1 text-xs text-caribbean-600 font-medium">{port.bestFor}</p>
-                    <p className="mt-2 text-sm text-gray-600 line-clamp-2">{port.tagline}</p>
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      <Link href={`/ports/${slug}`} className="btn-primary text-xs">
-                        Authority Port Guide
-                      </Link>
-                      {hasShipSchedule(slug) && (
-                        <Link href={`/ship-schedules/${slug}`} className="btn-secondary text-xs">
-                          Ship Schedule
+          {cluster ? (
+            <div className="mb-12">
+              <ClusterPageSections cluster={cluster} />
+            </div>
+          ) : (
+            <section className="mb-12">
+              <h2 className="section-title text-2xl sm:text-3xl mb-6">Ports Included</h2>
+              <div className="grid gap-4 sm:grid-cols-2">
+                {planner.topPortSlugs.map((slug) => {
+                  const port = getPortBySlug(slug);
+                  if (!port) return null;
+                  return (
+                    <div key={slug} className="card-gradient">
+                      <h3 className="font-display text-lg font-bold text-gray-900">
+                        <Link href={`/ports/${slug}`} className="hover:text-caribbean-700">
+                          {port.name}
                         </Link>
-                      )}
-                      <a
-                        href={port.specialistUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn-secondary text-xs"
-                      >
-                        {port.specialistName}
-                      </a>
+                      </h3>
+                      <p className="mt-1 text-xs text-caribbean-600 font-medium">{port.bestFor}</p>
+                      <p className="mt-2 text-sm text-gray-600 line-clamp-2">{port.tagline}</p>
+                      <div className="mt-4 flex flex-wrap gap-2">
+                        <Link href={`/ports/${slug}`} className="btn-primary text-xs">
+                          Authority Port Guide
+                        </Link>
+                        {hasShipSchedule(slug) && (
+                          <Link href={`/ship-schedules/${slug}`} className="btn-secondary text-xs">
+                            Ship Schedule
+                          </Link>
+                        )}
+                        <a
+                          href={port.specialistUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn-secondary text-xs"
+                        >
+                          {port.specialistName}
+                        </a>
+                      </div>
                     </div>
-                  </div>
-                );
-              })}
-            </div>
-            <div className="mt-4">
-              <Link
-                href={`/${planner.regionPageSlug}`}
-                className="text-sm font-medium text-caribbean-700 hover:underline"
-              >
-                View full region port guide →
-              </Link>
-            </div>
-          </section>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+
+          <div className="mb-12">
+            <Link
+              href={`/${planner.regionPageSlug}`}
+              className="text-sm font-medium text-caribbean-700 hover:underline"
+            >
+              View full region port guide →
+            </Link>
+          </div>
 
           <SpecialistLocalGuideSection
             portSlugs={planner.topPortSlugs}

@@ -8,7 +8,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
     metaDescription:
       "Plan your Eastern Caribbean cruise with port-by-port advice for St. Thomas, St. Maarten, Puerto Plata, and Nassau, including beaches, snorkeling, family ideas, and private tours.",
     heroSubtitle:
-      "Build smarter Eastern Caribbean port days with practical local advice for beaches, island tours, snorkeling, and family-friendly planning.",
+      "Plan shore excursions in St. Thomas, St. Maarten, Puerto Plata, and Nassau across the Eastern Caribbean.",
     overview:
       "Eastern Caribbean itineraries are ideal for cruise passengers who want classic turquoise-water beach days, easy logistics, and varied island culture in one week. The region typically combines U.S. Virgin Islands convenience in St. Thomas, two-nation experiences in St. Maarten, adventure options in Puerto Plata, and easy walkable access in Nassau.",
     overviewDetail:
@@ -227,7 +227,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
     metaDescription:
       "Plan your Western Caribbean cruise with expert guidance for Cozumel, Roatan, Grand Cayman, Costa Maya, and Ocho Rios, including reef, beach, family, and private-tour picks.",
     heroSubtitle:
-      "Create better Western Caribbean port days with reef insights, adventure planning, and realistic time management for tender and taxi-heavy stops.",
+      "Plan shore excursions in Cozumel, Roatan, Grand Cayman, Costa Maya, and Ocho Rios on Western Caribbean routes.",
     overview:
       "Western Caribbean cruises are the strongest choice for passengers prioritizing snorkeling, wildlife encounters, and active adventure excursions. Cozumel and Roatan offer reef-driven port days, Grand Cayman adds iconic Stingray City experiences, Costa Maya brings accessible Mayan history, and Ocho Rios delivers Jamaica's best-known natural attractions.",
     overviewDetail:
@@ -446,7 +446,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
     metaDescription:
       "Plan your Southern Caribbean cruise across Aruba, Curacao, and St. Maarten with practical advice on beaches, snorkeling, family days, and private island tours.",
     heroSubtitle:
-      "Use this Southern Caribbean planner to combine ABC island sunshine, culture-rich port days, and efficient excursion timing.",
+      "Plan shore excursions in Aruba, Curacao, and St. Maarten on longer Southern Caribbean sailings.",
     overview:
       "Southern Caribbean routes are known for longer itineraries, strong weather reliability, and deeper island character. Aruba provides dependable sunshine and polished beach infrastructure, Curacao adds colorful architecture and excellent shore snorkeling, while St. Maarten contributes high-energy beach and sailing options that round out the itinerary.",
     overviewDetail:
@@ -665,7 +665,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
     metaDescription:
       "Plan a better Dominican Republic cruise day in Puerto Plata with practical advice on beaches, city touring, cable car views, family options, and private local guides.",
     heroSubtitle:
-      "Everything you need for Puerto Plata cruise planning: top excursions, realistic timing, and smart ways to avoid rushed return-to-ship days.",
+      "Plan shore excursions in Puerto Plata and Amber Cove with waterfalls, cable car views, and colonial culture.",
     overview:
       "Dominican Republic cruise planning for most Caribbean passengers centers on Puerto Plata and the Amber Cove area. The port offers a strong mix of mountain scenery, colonial city culture, beach options, and adventure trips, making it one of the most flexible single-country cruise destinations in the region.",
     overviewDetail:
@@ -884,7 +884,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
     metaDescription:
       "Plan Jamaica cruise port days in Ocho Rios and Falmouth with practical recommendations for waterfalls, beaches, family options, snorkeling, and private local tours.",
     heroSubtitle:
-      "Plan smarter Jamaica cruise days with port-specific advice for Ocho Rios and Falmouth, including realistic travel timing and top shore experiences.",
+      "Plan shore excursions in Ocho Rios and Falmouth across waterfall adventures and heritage river days.",
     overview:
       "Jamaica cruise itineraries usually focus on Ocho Rios and Falmouth, two ports with very different strengths. Ocho Rios is adventure-heavy with iconic natural attractions, while Falmouth is better for organized cultural routes, river activities, and access to Montego Bay area beach and resort options.",
     overviewDetail:
@@ -1093,6 +1093,151 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
         question: "What is the key timing rule for Jamaica cruise days?",
         answer:
           "Protect a generous return buffer, because inland and cross-town transfer times can vary more than in many other Caribbean ports.",
+      },
+    ],
+  },
+  {
+    slug: "central-america-cruise-planner",
+    title: "Central America Cruise Planner",
+    seoTitle: "Central America Cruise Planner | Roatan & Costa Maya Shore Excursion Guide",
+    metaDescription:
+      "Plan Central America cruise port days in Roatan and Costa Maya with reef snorkelling, beach clubs, Mayan ruins, and private tour advice for Western Caribbean sailings.",
+    heroSubtitle:
+      "Plan shore excursions in Roatan and Costa Maya, two of the most popular Central American cruise ports on Western Caribbean itineraries.",
+    overview:
+      "Central America cruise calls on Western Caribbean routes usually focus on Roatan's reef-rich Mahogany Bay and Costa Maya's compact Mahahual cruise village. Roatan delivers exceptional snorkelling value and white-sand beach days, while Costa Maya pairs accessible Mayan ruins with relaxed village beach clubs.",
+    overviewDetail:
+      "The smartest Central America strategy splits reef intensity from ruin-and-beach pacing. Use Roatan for West Bay snorkelling or Gumbalimba wildlife, then treat Costa Maya as your culture or low-stress beach day. Both ports reward early excursion departures and operators who guarantee on-time pier return.\n\nTransfer times are shorter than many passengers expect at Mahogany Bay and the Costa Maya village pier, but inland ruin tours still need disciplined timing. Book one anchor activity per port, keep a weather backup, and compare independent specialists before peak winter weeks sell out reef boats.",
+    itineraryHighlights: [
+      "Roatan for barrier-reef snorkelling at strong Caribbean value",
+      "Costa Maya for Chacchoben ruins and Mahahual beach clubs",
+      "Short pier transfers at both ports compared with mainland Mexico routes",
+      "Private drivers and snorkel boats widely available in Roatan",
+      "Ideal pairing within a broader Western Caribbean week",
+    ],
+    topPortSlugs: ["roatan", "costa-maya"],
+    bestExcursions: [
+      {
+        name: "West Bay Beach and Reef Snorkel",
+        portSlug: "roatan",
+        description: "Short transfer from Mahogany Bay to reef snorkelling directly off white sand.",
+      },
+      {
+        name: "Gumbalimba Park Wildlife Day",
+        portSlug: "roatan",
+        description: "Rainforest wildlife, zip-lines, and beach combo near the cruise pier.",
+      },
+      {
+        name: "Chacchoben Mayan Ruins",
+        portSlug: "costa-maya",
+        description: "Accessible archaeological site with manageable coach time from the cruise village.",
+      },
+      {
+        name: "Mahahual Beach Club Day",
+        portSlug: "costa-maya",
+        description: "Relaxed loungers, lunch, and calm swim time without Cozumel-level crowds.",
+      },
+      {
+        name: "Private Roatan Snorkel Charter",
+        portSlug: "roatan",
+        description: "Custom reef stops with flexible departure times for small groups.",
+      },
+    ],
+    suggestedDayPlans: [
+      {
+        portSlug: "roatan",
+        title: "Reef and Beach Value Day",
+        morning: "Taxi to West Bay for morning snorkelling while reefs are calmer and less crowded.",
+        afternoon: "Beach chairs and lunch at West Bay before an easy return to Mahogany Bay.",
+        tip: "West Bay transfers are among the Caribbean's best-value custom beach days.",
+      },
+      {
+        portSlug: "costa-maya",
+        title: "Ruins Morning, Beach Afternoon",
+        morning: "Depart early for Chacchoben before coach groups peak at the archaeological site.",
+        afternoon: "Mahahual beach club with a strict return checkpoint agreed with your operator.",
+        tip: "Do not stack a long ruin tour with a distant second stop on shorter port calls.",
+      },
+    ],
+    bestBeaches: [
+      {
+        portSlug: "roatan",
+        title: "West Bay for full-day white sand",
+        advice: "Best overall beach choice in this cluster for snorkelling directly off the sand.",
+      },
+      {
+        portSlug: "costa-maya",
+        title: "Mahahual village beach clubs",
+        advice: "Organized loungers and lunch without long-distance beach transfers.",
+      },
+    ],
+    bestSnorkelling: [
+      {
+        portSlug: "roatan",
+        title: "West End and West Bay reef sites",
+        advice: "Fewer boats than Cozumel with healthy hard and soft coral.",
+      },
+      {
+        portSlug: "costa-maya",
+        title: "Village-area boat snorkel add-ons",
+        advice: "Choose concise trips that protect your return window after ruin mornings.",
+      },
+    ],
+    familyRecommendations: [
+      {
+        portSlug: "roatan",
+        title: "Gumbalimba for mixed-age groups",
+        advice: "Controlled wildlife encounters and activities without long open-ocean boat rides.",
+      },
+      {
+        portSlug: "costa-maya",
+        title: "Cruise village pool day",
+        advice: "Low-stress option when younger travellers need shade and facilities close to port.",
+      },
+    ],
+    privateTourRecommendations: [
+      {
+        portSlug: "roatan",
+        title: "Private taxi to West Bay",
+        advice: "Excellent value for groups wanting custom beach-and-snorkel pacing.",
+      },
+      {
+        portSlug: "costa-maya",
+        title: "Small-group ruins tour",
+        advice: "Moves faster than large coaches and protects afternoon beach time.",
+      },
+    ],
+    regionPageSlug: "western-caribbean-cruise-ports",
+    bestGuideSlugs: [
+      "best-caribbean-snorkeling-excursions",
+      "best-caribbean-beach-excursions",
+      "best-caribbean-private-tours",
+    ],
+    faqs: [
+      {
+        question: "Which Central America cruise port is better for snorkelling?",
+        answer:
+          "Roatan is stronger for reef quality and value. Costa Maya offers moderate snorkel add-ons but is better known for ruins and village beach clubs.",
+      },
+      {
+        question: "Can I visit Mayan ruins from Costa Maya on a cruise day?",
+        answer:
+          "Yes. Chacchoben is the most popular ruin excursion with manageable transfers from the cruise village pier.",
+      },
+      {
+        question: "How does Roatan compare with Cozumel?",
+        answer:
+          "Cozumel has deeper operator choice, but Roatan often delivers comparable reef quality with fewer boats and lower prices.",
+      },
+      {
+        question: "Are private tours worth it in Roatan?",
+        answer:
+          "Yes. Private drivers to West Bay and small snorkel boats are widely available at strong Caribbean value.",
+      },
+      {
+        question: "What is the key timing rule for Central America port days?",
+        answer:
+          "Book one anchor activity per port and keep 60-90 minutes before all-aboard, especially after inland ruin tours.",
       },
     ],
   },
