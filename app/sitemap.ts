@@ -6,7 +6,7 @@ import { getAllComparisonSlugs } from "@/data/comparisons";
 import { getAllExcursionTypeSlugs } from "@/data/excursion-types";
 import { getAllCruiseLineSlugs, getAllCruiseLinePageSlugs } from "@/data/cruise-lines";
 import { getFeaturedShipSlugs } from "@/data/ships";
-import { getAllSchedulePortSlugs } from "@/data/schedules";
+import { getAllSchedulePortSlugs, getAllVerifiedMonthPageParams } from "@/data/schedules";
 import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
 import { getAllRegionSlugs } from "@/data/regions";
 import { getAllBestGuideSlugs } from "@/data/best-guides";
@@ -83,6 +83,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ),
   );
 
+  const scheduleMonthPages = getAllVerifiedMonthPageParams().map(({ slug, period }) =>
+    sitemapEntry(`/ship-schedules/${slug}/${period}`, now, "daily", 0.68),
+  );
+
   const regionPages = getAllRegionSlugs().map((slug) =>
     sitemapEntry(`/${slug}`, now, "weekly", 0.85),
   );
@@ -121,5 +125,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...shipPages,
     ...scheduleHubPages,
     ...scheduleYearPages,
+    ...scheduleMonthPages,
   ];
 }

@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { schedulePorts, getShipCallCountForPortYear } from "@/data/schedules";
+import { schedulePorts, getShipCallCountForPortYear, getVerifiedMonthKeysForPortYear } from "@/data/schedules";
 import { getVerifiedPortRankings } from "@/data/schedule-insights";
 import { getScheduleYearHubContent } from "@/data/schedule-year-hubs";
 import type { ScheduleYear } from "@/lib/schedule-utils";
-import { portHubPath, portYearPath } from "@/lib/schedule-utils";
+import { formatMonthLabel, portHubPath, portMonthPath, portYearPath } from "@/lib/schedule-utils";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 
 export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
@@ -20,6 +20,47 @@ export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
           publish unverified ship calls, cruise lines, or passenger capacities.
         </p>
       </section>
+
+      {schedulePorts.some((port) => getVerifiedMonthKeysForPortYear(port.slug, year).length > 0) && (
+        <section className="mb-12 rounded-xl border border-caribbean-200 bg-caribbean-50/40 p-6">
+          <h2 className="section-title text-2xl sm:text-3xl mb-2">Monthly Schedules with Verified Data</h2>
+          <p className="text-sm text-gray-600 mb-6">
+            Dedicated monthly pages are available where imported schedule data exists. Open a month to
+            see ship calls, arrival and departure times, and planning tips for that period.
+          </p>
+          <div className="space-y-6">
+            {schedulePorts.map((port) => {
+              const monthKeys = getVerifiedMonthKeysForPortYear(port.slug, year);
+              if (monthKeys.length === 0) return null;
+              return (
+                <div key={port.slug}>
+                  <div className="flex flex-wrap items-center gap-3 mb-3">
+                    <h3 className="font-semibold text-gray-900">
+                      <Link href={portYearPath(port.slug, year)} className="hover:text-caribbean-700">
+                        {port.name}
+                      </Link>
+                    </h3>
+                    <span className="text-xs text-gray-500">
+                      {monthKeys.length} monthly page{monthKeys.length !== 1 ? "s" : ""}
+                    </span>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {monthKeys.map((monthKey) => (
+                      <Link
+                        key={monthKey}
+                        href={portMonthPath(port.slug, monthKey)}
+                        className="rounded-lg border border-caribbean-200 bg-white px-3 py-1.5 text-xs font-medium text-caribbean-800 hover:border-caribbean-400 hover:bg-caribbean-50"
+                      >
+                        {formatMonthLabel(monthKey)}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      )}
 
       {rankings.length > 0 && (
         <section className="mb-12">

@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { ScheduleEntry } from "@/data/types";
 import { ScheduleTable } from "@/components/ScheduleTable";
@@ -10,16 +11,19 @@ import {
   getMonthsWithEntries,
   getDisplayEntries,
   getUniqueCruiseLines,
+  portMonthPath,
 } from "@/lib/schedule-utils";
 
 export function ScheduleHub({
   entries,
   portName,
+  portSlug,
   scheduleOverview,
   year,
 }: {
   entries: ScheduleEntry[];
   portName: string;
+  portSlug?: string;
   scheduleOverview?: string;
   year?: number;
 }) {
@@ -75,18 +79,33 @@ export function ScheduleHub({
           {allMonths.map((monthKey) => {
             const hasData = monthsWithData.includes(monthKey);
             const isActive = activeMonth === monthKey;
+            const monthPageHref = portSlug && hasData ? portMonthPath(portSlug, monthKey) : null;
+            const className = `rounded-lg px-3 py-1.5 text-xs font-medium transition-colors ${
+              isActive
+                ? "bg-caribbean-700 text-white"
+                : hasData
+                  ? "bg-caribbean-50 text-caribbean-700 hover:bg-caribbean-100"
+                  : "bg-gray-50 text-gray-500 hover:bg-gray-100"
+            }`;
+
+            if (monthPageHref) {
+              return (
+                <Link
+                  key={monthKey}
+                  href={monthPageHref}
+                  className={`${className} ${isActive ? "" : "border border-caribbean-100"}`}
+                >
+                  {formatMonthLabel(monthKey)}
+                </Link>
+              );
+            }
+
             return (
               <button
                 key={monthKey}
                 type="button"
                 onClick={() => setActiveMonth(monthKey)}
-                className={`rounded-lg px-3 py-1.5 text-xs font-medium transition-colors ${
-                  isActive
-                    ? "bg-caribbean-700 text-white"
-                    : hasData
-                      ? "bg-caribbean-50 text-caribbean-700 hover:bg-caribbean-100"
-                      : "bg-gray-50 text-gray-500 hover:bg-gray-100"
-                }`}
+                className={className}
                 aria-pressed={isActive}
               >
                 {formatMonthLabel(monthKey)}

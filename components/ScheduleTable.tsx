@@ -1,11 +1,19 @@
 import type { ScheduleEntry } from "@/data/types";
 
+function getEntryNotes(entry: ScheduleEntry): string {
+  if (entry.notes) return entry.notes;
+  if (entry.cruiseLine.toLowerCase().includes("verify")) return "Verify with cruise line";
+  return "-";
+}
+
 export function ScheduleTable({
   entries,
   portName,
+  showNotes = false,
 }: {
   entries: ScheduleEntry[];
   portName?: string;
+  showNotes?: boolean;
 }) {
   if (entries.length === 0) {
     return (
@@ -36,6 +44,9 @@ export function ScheduleTable({
             <th className="px-4 py-3 text-left text-sm font-semibold">Departure</th>
             <th className="px-4 py-3 text-left text-sm font-semibold">Time in Port</th>
             <th className="px-4 py-3 text-left text-sm font-semibold">Passenger Capacity</th>
+            {showNotes && (
+              <th className="px-4 py-3 text-left text-sm font-semibold">Notes</th>
+            )}
           </tr>
         </thead>
         <tbody className="divide-y divide-gray-100 bg-white">
@@ -57,6 +68,9 @@ export function ScheduleTable({
                 {entry.timeInPort ?? "-"}
               </td>
               <td className="px-4 py-3 text-sm text-gray-600">{entry.passengers ?? "-"}</td>
+              {showNotes && (
+                <td className="px-4 py-3 text-sm text-gray-600">{getEntryNotes(entry)}</td>
+              )}
             </tr>
           ))}
         </tbody>

@@ -332,6 +332,7 @@ export interface ScheduleEntry {
   departure: string;
   timeInPort?: string;
   passengers?: string;
+  notes?: string;
   isPlaceholder?: boolean;
 }
 

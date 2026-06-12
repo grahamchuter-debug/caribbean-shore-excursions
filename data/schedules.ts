@@ -1,4 +1,10 @@
 import type { ScheduleEntry, ShipSchedulePort } from "./types";
+import {
+  filterEntriesByMonth,
+  getMonthsWithEntries,
+  monthKeyToSlug,
+  type ScheduleYear,
+} from "@/lib/schedule-utils";
 import { SCHEDULE_FAQS, SCHEDULE_PLANNING_TIPS } from "./schedule-content";
 import stThomasSchedule from "./imported-schedules/st-thomas.json";
 import ochoRiosSchedule from "./imported-schedules/ocho-rios.json";
@@ -236,4 +242,37 @@ export function hasVerifiedScheduleData(slug: string): boolean {
 
 export function hasVerifiedScheduleDataForYear(slug: string, year: number): boolean {
   return getShipCallCountForPortYear(slug, year) > 0;
+}
+
+export function getVerifiedScheduleEntriesForMonth(
+  slug: string,
+  monthKey: string,
+): ScheduleEntry[] {
+  return filterEntriesByMonth(getScheduleForPort(slug), monthKey).filter(
+    (entry) => !entry.isPlaceholder,
+  );
+}
+
+export function getVerifiedMonthKeysForPort(slug: string): string[] {
+  return getMonthsWithEntries(getScheduleForPort(slug));
+}
+
+export function getVerifiedMonthKeysForPortYear(slug: string, year: ScheduleYear): string[] {
+  return getVerifiedMonthKeysForPort(slug).filter((key) => key.startsWith(`${year}-`));
+}
+
+export function hasVerifiedScheduleDataForMonth(slug: string, monthKey: string): boolean {
+  return getVerifiedScheduleEntriesForMonth(slug, monthKey).length > 0;
+}
+
+export function getAllVerifiedMonthPageParams(): { slug: string; period: string }[] {
+  const params: { slug: string; period: string }[] = [];
+
+  for (const slug of getAllSchedulePortSlugs()) {
+    for (const monthKey of getVerifiedMonthKeysForPort(slug)) {
+      params.push({ slug, period: monthKeyToSlug(monthKey) });
+    }
+  }
+
+  return params;
 }

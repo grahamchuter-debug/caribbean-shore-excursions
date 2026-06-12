@@ -6,6 +6,7 @@ import { yearHubPath, type ScheduleYear } from "@/lib/schedule-utils";
 import { getPortBySlug } from "@/data/ports";
 import { excursionTypes } from "@/data/excursion-types";
 import { ScheduleHub } from "@/components/ScheduleHub";
+import { ScheduleMonthLinkGrid } from "@/components/ScheduleMonthLinkGrid";
 import { SpecialistLocalGuide } from "@/components/SpecialistLocalGuide";
 import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
@@ -55,9 +56,14 @@ export function ShipSchedulePageView({
         </section>
       )}
 
+      {year && (
+        <ScheduleMonthLinkGrid portSlug={port.slug} portName={port.name} year={year} />
+      )}
+
       <ScheduleHub
         entries={schedule}
         portName={port.name}
+        portSlug={port.slug}
         scheduleOverview={port.scheduleOverview}
         year={year}
       />

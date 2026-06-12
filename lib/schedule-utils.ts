@@ -25,6 +25,47 @@ export function portYearPath(slug: string, year: ScheduleYear): string {
   return `/ship-schedules/${slug}/${year}`;
 }
 
+export function monthKeyToSlug(monthKey: string): string {
+  const { year, month } = parseMonthKey(monthKey);
+  return `${MONTH_SLUGS[month - 1]}-${year}`;
+}
+
+export function parseMonthSlug(value: string): string | null {
+  const match = value.match(/^([a-z]+)-(\d{4})$/);
+  if (!match) return null;
+  const [, monthName, yearStr] = match;
+  const monthIndex = MONTH_SLUGS.indexOf(monthName as MonthSlug);
+  if (monthIndex === -1) return null;
+  const year = Number(yearStr);
+  if (!isValidScheduleYear(year)) return null;
+  return getMonthKey(year, monthIndex + 1);
+}
+
+export function isMonthSlugParam(value: string): boolean {
+  return parseMonthSlug(value) !== null;
+}
+
+export function portMonthPath(slug: string, monthKey: string): string {
+  return `/ship-schedules/${slug}/${monthKeyToSlug(monthKey)}`;
+}
+
+export function getMonthName(monthKey: string): string {
+  const { month } = parseMonthKey(monthKey);
+  return MONTH_LABELS[month - 1];
+}
+
+export function getAdjacentVerifiedMonthKeys(
+  monthKeys: string[],
+  monthKey: string,
+): { prev: string | null; next: string | null } {
+  const index = monthKeys.indexOf(monthKey);
+  if (index === -1) return { prev: null, next: null };
+  return {
+    prev: index > 0 ? monthKeys[index - 1] : null,
+    next: index < monthKeys.length - 1 ? monthKeys[index + 1] : null,
+  };
+}
+
 export const MONTH_LABELS = [
   "January",
   "February",
@@ -39,6 +80,23 @@ export const MONTH_LABELS = [
   "November",
   "December",
 ] as const;
+
+export const MONTH_SLUGS = [
+  "january",
+  "february",
+  "march",
+  "april",
+  "may",
+  "june",
+  "july",
+  "august",
+  "september",
+  "october",
+  "november",
+  "december",
+] as const;
+
+export type MonthSlug = (typeof MONTH_SLUGS)[number];
 
 export function getMonthKey(year: number, month: number): string {
   return `${year}-${String(month).padStart(2, "0")}`;

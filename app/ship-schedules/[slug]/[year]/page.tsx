@@ -5,26 +5,44 @@ import {
   getSchedulePortBySlug,
   getAllSchedulePortSlugs,
   getShipCallCountForPortYear,
+  getAllVerifiedMonthPageParams,
+  getVerifiedScheduleEntriesForMonth,
+  hasVerifiedScheduleDataForMonth,
 } from "@/data/schedules";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ShipSchedulePageView } from "@/components/ShipSchedulePageView";
+import { ShipScheduleMonthPageView } from "@/components/ShipScheduleMonthPageView";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, webPageSchema } from "@/lib/schema";
+import {
+  getMonthlyMetaDescription,
+  getMonthlyPageTitle,
+  getMonthlyScheduleFaqs,
+  getMonthlySeoTitle,
+} from "@/data/schedule-month";
 import {
   isValidScheduleYear,
   isScheduleYearSlug,
   parseScheduleYear,
+  parseMonthSlug,
   SCHEDULE_YEARS,
   portHubPath,
   portYearPath,
+  portMonthPath,
   yearHubPath,
+  formatMonthLabel,
 } from "@/lib/schedule-utils";
 
 export function generateStaticParams() {
-  return getAllSchedulePortSlugs().flatMap((slug) =>
+  const yearParams = getAllSchedulePortSlugs().flatMap((slug) =>
     SCHEDULE_YEARS.map((year) => ({ slug, year: String(year) })),
   );
+  const monthParams = getAllVerifiedMonthPageParams().map(({ slug, period }) => ({
+    slug,
+    year: period,
+  }));
+  return [...yearParams, ...monthParams];
 }
 
 export function generateMetadata({
@@ -32,11 +50,30 @@ export function generateMetadata({
 }: {
   params: Promise<{ slug: string; year: string }>;
 }) {
-  return params.then(({ slug, year: yearParam }) => {
+  return params.then(({ slug, year: periodParam }) => {
     if (isScheduleYearSlug(slug)) return {};
     const port = getSchedulePortBySlug(slug);
-    const year = parseScheduleYear(yearParam);
-    if (!port || !year) return {};
+    if (!port) return {};
+
+    const monthKey = parseMonthSlug(periodParam);
+    if (monthKey) {
+      const entries = getVerifiedScheduleEntriesForMonth(slug, monthKey);
+      if (entries.length === 0) return {};
+      return buildMetadata({
+        title: getMonthlySeoTitle(port.name, monthKey),
+        description: getMonthlyMetaDescription(port.name, monthKey, entries.length),
+        path: portMonthPath(slug, monthKey),
+        keywords: [
+          `${port.name} ship schedule ${formatMonthLabel(monthKey)}`,
+          `${port.name} cruise schedule ${formatMonthLabel(monthKey)}`,
+          "ships in port",
+          "cruise arrival times",
+        ],
+      });
+    }
+
+    const year = parseScheduleYear(periodParam);
+    if (!year) return {};
 
     const shipCalls = getShipCallCountForPortYear(slug, year);
     const callNote =
@@ -58,17 +95,60 @@ export function generateMetadata({
   });
 }
 
-export default async function ShipScheduleYearPage({
+export default async function ShipSchedulePeriodPage({
   params,
 }: {
   params: Promise<{ slug: string; year: string }>;
 }) {
-  const { slug, year: yearParam } = await params;
+  const { slug, year: periodParam } = await params;
   if (isScheduleYearSlug(slug)) notFound();
 
-  const year = parseScheduleYear(yearParam);
   const port = getSchedulePortBySlug(slug);
-  if (!port || !year || !isValidScheduleYear(year)) notFound();
+  if (!port) notFound();
+
+  const monthKey = parseMonthSlug(periodParam);
+  if (monthKey) {
+    if (!hasVerifiedScheduleDataForMonth(slug, monthKey)) notFound();
+
+    const entries = getVerifiedScheduleEntriesForMonth(slug, monthKey);
+    const monthLabel = formatMonthLabel(monthKey);
+    const year = Number(monthKey.split("-")[0]);
+    const title = getMonthlyPageTitle(port.name, monthKey);
+    const faqs = getMonthlyScheduleFaqs(port, monthKey, entries);
+    const breadcrumbs = [
+      { name: "Home", path: "/" },
+      { name: "Ship Schedules", path: "/ship-schedules" },
+      { name: `${year} Schedules`, path: yearHubPath(year as 2026 | 2027) },
+      { name: port.name, path: portHubPath(slug) },
+      { name: monthLabel, path: portMonthPath(slug, monthKey) },
+    ];
+
+    return (
+      <>
+        <JsonLd
+          data={[
+            breadcrumbSchema(breadcrumbs),
+            webPageSchema({
+              title,
+              description: getMonthlyMetaDescription(port.name, monthKey, entries.length),
+              path: portMonthPath(slug, monthKey),
+            }),
+            faqSchema(faqs),
+          ]}
+        />
+        <PageHero title={title} subtitle={port.description} compact />
+        <section className="section-padding">
+          <div className="container-wide max-w-5xl">
+            <Breadcrumbs items={breadcrumbs} />
+            <ShipScheduleMonthPageView port={port} monthKey={monthKey} entries={entries} />
+          </div>
+        </section>
+      </>
+    );
+  }
+
+  const year = parseScheduleYear(periodParam);
+  if (!year || !isValidScheduleYear(year)) notFound();
 
   const title = `${port.name} Cruise Ship Schedule ${year}`;
   const otherYear = year === 2026 ? 2027 : 2026;
