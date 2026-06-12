@@ -34,6 +34,15 @@ export interface PortRelatedLink {
   external?: boolean;
 }
 
+export interface CruisePortNaming {
+  dockTown: string;
+  alternativeNames: string[];
+  terminals: string[];
+  portGuideIntro: string;
+  scheduleIntro: string;
+  tenderNote?: string;
+}
+
 export interface ExcursionItem {
   name: string;
   description: string;

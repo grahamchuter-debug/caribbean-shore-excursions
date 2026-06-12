@@ -33,6 +33,12 @@ import {
   yearHubPath,
   formatMonthLabel,
 } from "@/lib/schedule-utils";
+import {
+  augmentMetadataDescription,
+  augmentMetadataTitle,
+  getScheduleIntro,
+  getScheduleYearHeroTitle,
+} from "@/lib/cruise-port-display";
 
 export function generateStaticParams() {
   const yearParams = getAllSchedulePortSlugs().flatMap((slug) =>
@@ -60,8 +66,8 @@ export function generateMetadata({
       const entries = getVerifiedScheduleEntriesForMonth(slug, monthKey);
       if (entries.length === 0) return {};
       return buildMetadata({
-        title: getMonthlySeoTitle(port.name, monthKey),
-        description: getMonthlyMetaDescription(port.name, monthKey, entries.length),
+        title: getMonthlySeoTitle(port.name, monthKey, slug),
+        description: getMonthlyMetaDescription(port.name, monthKey, entries.length, slug),
         path: portMonthPath(slug, monthKey),
         keywords: [
           `${port.name} ship schedule ${formatMonthLabel(monthKey)}`,
@@ -81,9 +87,11 @@ export function generateMetadata({
         ? `${shipCalls} verified ship calls listed.`
         : "Monthly schedule with placeholders until import completes.";
 
+    const baseTitle = `${port.name} Cruise Ship Schedule ${year}`;
+    const baseDescription = `${port.name} ${year} cruise ship schedule with arrival and departure times. ${callNote} Plan shore excursions around your port day.`;
     return buildMetadata({
-      title: `${port.name} Cruise Ship Schedule ${year}`,
-      description: `${port.name} ${year} cruise ship schedule with arrival and departure times. ${callNote} Plan shore excursions around your port day.`,
+      title: augmentMetadataTitle(baseTitle, port.name, slug),
+      description: augmentMetadataDescription(baseDescription, slug, "schedule"),
       path: portYearPath(slug, year),
       keywords: [
         `${port.name} ship schedule ${year}`,
@@ -113,8 +121,9 @@ export default async function ShipSchedulePeriodPage({
     const entries = getVerifiedScheduleEntriesForMonth(slug, monthKey);
     const monthLabel = formatMonthLabel(monthKey);
     const year = Number(monthKey.split("-")[0]);
-    const title = getMonthlyPageTitle(port.name, monthKey);
+    const title = getMonthlyPageTitle(port.name, monthKey, slug);
     const faqs = getMonthlyScheduleFaqs(port, monthKey, entries);
+    const monthSubtitle = getScheduleIntro(slug) ?? port.description;
     const breadcrumbs = [
       { name: "Home", path: "/" },
       { name: "Ship Schedules", path: "/ship-schedules" },
@@ -136,7 +145,7 @@ export default async function ShipSchedulePeriodPage({
             faqSchema(faqs),
           ]}
         />
-        <PageHero title={title} subtitle={port.description} compact />
+        <PageHero title={title} subtitle={monthSubtitle} compact />
         <section className="section-padding">
           <div className="container-wide max-w-5xl">
             <Breadcrumbs items={breadcrumbs} />
@@ -150,7 +159,8 @@ export default async function ShipSchedulePeriodPage({
   const year = parseScheduleYear(periodParam);
   if (!year || !isValidScheduleYear(year)) notFound();
 
-  const title = `${port.name} Cruise Ship Schedule ${year}`;
+  const title = getScheduleYearHeroTitle(slug, port.name, year);
+  const subtitle = getScheduleIntro(slug) ?? port.description;
   const otherYear = year === 2026 ? 2027 : 2026;
   const breadcrumbs = [
     { name: "Home", path: "/" },
@@ -172,7 +182,7 @@ export default async function ShipSchedulePeriodPage({
           ...(port.faqs?.length ? [faqSchema(port.faqs)] : []),
         ]}
       />
-      <PageHero title={title} subtitle={port.description} compact />
+      <PageHero title={title} subtitle={subtitle} compact />
       <section className="section-padding">
         <div className="container-wide max-w-5xl">
           <Breadcrumbs items={breadcrumbs} />

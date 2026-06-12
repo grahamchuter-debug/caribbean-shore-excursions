@@ -12,6 +12,8 @@ import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { SCHEDULE_PLANNING_TIPS } from "@/data/schedule-content";
 import { hasShipSchedule } from "@/lib/routes";
+import { CruisePortInformationBox } from "@/components/CruisePortInformationBox";
+import { getScheduleIntro } from "@/lib/cruise-port-display";
 
 export function ShipSchedulePageView({
   port,
@@ -32,12 +34,15 @@ export function ShipSchedulePageView({
   const excursions = port.excursionTypeSlugs
     .map((slug) => excursionTypes.find((e) => e.slug === slug))
     .filter(Boolean);
+  const scheduleIntro = getScheduleIntro(port.slug) ?? port.intro;
 
   return (
     <>
+      <CruisePortInformationBox portSlug={port.slug} />
+
       <section className="mb-12">
         <h2 className="section-title text-2xl sm:text-3xl mb-4">How This Schedule Helps You Plan</h2>
-        <p className="text-gray-700 leading-relaxed text-lg">{port.intro}</p>
+        <p className="text-gray-700 leading-relaxed text-lg">{scheduleIntro}</p>
         {port.usesTender && (
           <p className="mt-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
             <strong>Tender port:</strong> {port.name} uses ship-to-shore tender boats. Published

@@ -8,6 +8,12 @@ import { ShipScheduleHubView } from "@/components/ShipScheduleHubView";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, webPageSchema } from "@/lib/schema";
 import { isScheduleYearSlug, portHubPath, yearHubPath } from "@/lib/schedule-utils";
+import {
+  augmentMetadataDescription,
+  augmentMetadataTitle,
+  getScheduleHubHeroTitle,
+  getScheduleIntro,
+} from "@/lib/cruise-port-display";
 
 export function generateStaticParams() {
   return getAllSchedulePortSlugs().map((slug) => ({ slug }));
@@ -18,9 +24,11 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
     if (isScheduleYearSlug(slug)) return {};
     const port = getSchedulePortBySlug(slug);
     if (!port) return {};
+    const baseTitle = `${port.name} Cruise Ship Schedule`;
+    const baseDescription = `${port.name} cruise ship schedule hub. View the 2026 schedule or 2027 schedule with monthly arrival and departure times to plan shore excursions.`;
     return buildMetadata({
-      title: `${port.name} Cruise Ship Schedule`,
-      description: `${port.name} cruise ship schedule hub. View the 2026 schedule or 2027 schedule with monthly arrival and departure times to plan shore excursions.`,
+      title: augmentMetadataTitle(baseTitle, port.name, slug),
+      description: augmentMetadataDescription(baseDescription, slug, "schedule"),
       path: portHubPath(slug),
       keywords: [
         `${port.name} ship schedule`,
@@ -43,7 +51,8 @@ export default async function ShipSchedulePortPage({
   const port = getSchedulePortBySlug(slug);
   if (!port) notFound();
 
-  const title = `${port.name} Cruise Ship Schedule`;
+  const title = getScheduleHubHeroTitle(slug, port.name);
+  const subtitle = getScheduleIntro(slug) ?? port.description;
   const breadcrumbs = [
     { name: "Home", path: "/" },
     { name: "Ship Schedules", path: "/ship-schedules" },
@@ -63,7 +72,7 @@ export default async function ShipSchedulePortPage({
           ...(port.faqs?.length ? [faqSchema(port.faqs)] : []),
         ]}
       />
-      <PageHero title={title} subtitle={port.description} compact />
+      <PageHero title={title} subtitle={subtitle} compact />
       <section className="section-padding">
         <div className="container-wide max-w-5xl">
           <Breadcrumbs items={breadcrumbs} />

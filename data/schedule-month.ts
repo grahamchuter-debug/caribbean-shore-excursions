@@ -2,6 +2,12 @@ import type { FAQ, ScheduleEntry, ShipSchedulePort } from "./types";
 import { ESTIMATED_PASSENGERS_PER_CALL } from "./schedule-insights";
 import { getUniqueCruiseLines } from "@/lib/schedule-utils";
 import { formatMonthLabel, getMonthName } from "@/lib/schedule-utils";
+import {
+  augmentMetadataDescription,
+  augmentMetadataTitle,
+  formatDestinationWithDock,
+  getScheduleMonthHeroTitle,
+} from "@/lib/cruise-port-display";
 
 export interface MonthlyScheduleStats {
   shipCalls: number;
@@ -111,20 +117,38 @@ export function getMonthlyScheduleFaqs(
   ];
 }
 
-export function getMonthlyPageTitle(portName: string, monthKey: string): string {
+export function getMonthlyPageTitle(
+  portName: string,
+  monthKey: string,
+  portSlug?: string,
+): string {
+  if (portSlug) return getScheduleMonthHeroTitle(portSlug, portName, monthKey);
   return `${portName} Cruise Ship Schedule - ${formatMonthLabel(monthKey)}`;
 }
 
-export function getMonthlySeoTitle(portName: string, monthKey: string): string {
+export function getMonthlySeoTitle(
+  portName: string,
+  monthKey: string,
+  portSlug?: string,
+): string {
   const monthLabel = formatMonthLabel(monthKey);
-  return `${portName} Cruise Ship Schedule ${monthLabel} | Cruise Calls & Port Times`;
+  const destination = portSlug ? formatDestinationWithDock(portName, portSlug) : portName;
+  return `${destination} Cruise Ship Schedule ${monthLabel} | Cruise Calls & Port Times`;
 }
 
-export function getMonthlyMetaDescription(portName: string, monthKey: string, shipCalls: number): string {
+export function getMonthlyMetaDescription(
+  portName: string,
+  monthKey: string,
+  shipCalls: number,
+  portSlug?: string,
+): string {
   const monthLabel = formatMonthLabel(monthKey);
   const callNote =
     shipCalls > 0
       ? `${shipCalls} scheduled cruise call${shipCalls !== 1 ? "s" : ""}`
       : "scheduled cruise calls";
-  return `View the ${portName} cruise ship schedule for ${monthLabel}, including ${callNote}, arrival times, departure times and planning tips for shore excursions.`;
+  const baseDescription = `View the ${portName} cruise ship schedule for ${monthLabel}, including ${callNote}, arrival times, departure times and planning tips for shore excursions.`;
+  return portSlug
+    ? augmentMetadataDescription(baseDescription, portSlug, "schedule")
+    : baseDescription;
 }

@@ -12,9 +12,16 @@ import { PortRelatedLinks } from "@/components/PortRelatedLinks";
 import { PortAuthoritySections } from "@/components/PortAuthoritySections";
 import { PortPlanningToolkit } from "@/components/PortPlanningToolkit";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import { CruisePortInformationBox } from "@/components/CruisePortInformationBox";
 import { getPortRelatedLinks } from "@/data/port-related";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
+import {
+  augmentMetadataDescription,
+  augmentMetadataTitle,
+  getPortGuideHeroTitle,
+  getPortGuideIntro,
+} from "@/lib/cruise-port-display";
 
 export function generateStaticParams() {
   return getAllPortSlugs().map((slug) => ({ slug }));
@@ -25,10 +32,12 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
     const port = getPortBySlug(slug);
     const authority = getPortAuthority(slug);
     if (!port) return {};
+    const baseTitle = authority?.seoTitle ?? `${port.name} Shore Excursions & Cruise Port Guide`;
+    const baseDescription =
+      authority?.seoDescription ?? `${port.overview.slice(0, 155)}...`;
     return buildMetadata({
-      title: authority?.seoTitle ?? `${port.name} Shore Excursions & Cruise Port Guide`,
-      description:
-        authority?.seoDescription ?? `${port.overview.slice(0, 155)}...`,
+      title: augmentMetadataTitle(baseTitle, port.name, slug),
+      description: augmentMetadataDescription(baseDescription, slug, "port"),
       path: `/ports/${slug}`,
       keywords: [`${port.name} shore excursions`, `${port.name} cruise port`, port.country],
     });
@@ -40,6 +49,19 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
   const port = getPortBySlug(slug);
   const authority = getPortAuthority(slug);
   if (!port || !authority) notFound();
+
+  const heroTitle = getPortGuideHeroTitle(slug, port.name);
+  const heroIntro = getPortGuideIntro(slug) ?? port.tagline;
+  const pageTitle = augmentMetadataTitle(
+    authority.seoTitle,
+    port.name,
+    slug,
+  );
+  const pageDescription = augmentMetadataDescription(
+    authority.seoDescription,
+    slug,
+    "port",
+  );
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
@@ -54,20 +76,18 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
           breadcrumbSchema(breadcrumbs),
           faqSchema(port.faqs),
           travelGuideSchema({
-            title: authority.seoTitle,
-            description: authority.seoDescription,
+            title: pageTitle,
+            description: pageDescription,
             path: `/ports/${slug}`,
           }),
         ]}
       />
-      <PageHero
-        title={`${port.name} Shore Excursions & Cruise Port Guide`}
-        subtitle={port.tagline}
-        compact
-      />
+      <PageHero title={heroTitle} subtitle={heroIntro} compact />
       <article className="section-padding">
         <div className="container-wide max-w-5xl">
           <Breadcrumbs items={breadcrumbs} />
+
+          <CruisePortInformationBox portSlug={slug} />
 
           <PortPlanningToolkit port={port} />
 

@@ -9,7 +9,6 @@ import { hasShipSchedule } from "@/lib/routes";
 import { excursionTypes } from "@/data/excursion-types";
 import {
   getMonthlyMetaDescription,
-  getMonthlyPageTitle,
   getMonthlyScheduleFaqs,
   getMonthlyScheduleStats,
 } from "@/data/schedule-month";
@@ -23,6 +22,8 @@ import {
   type ScheduleYear,
 } from "@/lib/schedule-utils";
 import { getVerifiedMonthKeysForPort } from "@/data/schedules";
+import { CruisePortInformationBox } from "@/components/CruisePortInformationBox";
+import { getScheduleIntro } from "@/lib/cruise-port-display";
 
 function formatDisplayDate(isoDate: string): string {
   const [year, month, day] = isoDate.split("-").map(Number);
@@ -58,17 +59,18 @@ export function ShipScheduleMonthPageView({
   const excursions = port.excursionTypeSlugs
     .map((slug) => excursionTypes.find((type) => type.slug === slug))
     .filter(Boolean);
+  const scheduleIntro = getScheduleIntro(port.slug);
 
   return (
     <>
+      <CruisePortInformationBox portSlug={port.slug} />
+
       <section className="mb-10">
-        <h1 className="font-display text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-          {getMonthlyPageTitle(port.name, monthKey)}
-        </h1>
+        <h2 className="section-title text-2xl sm:text-3xl mb-4">{monthLabel} Schedule Overview</h2>
         <p className="text-gray-700 leading-relaxed text-lg">
-          This page lists cruise ships scheduled to call at {port.name} during {monthLabel},
-          including arrival and departure times where available. Use it to plan shore excursions
-          around your ship&apos;s published port window.
+          {scheduleIntro ??
+            `This page lists cruise ships scheduled to call at ${port.name} during ${monthLabel}, including arrival and departure times where available.`}{" "}
+          Use it to plan shore excursions around your ship&apos;s published port window.
         </p>
         {port.usesTender && (
           <p className="mt-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
@@ -269,7 +271,7 @@ export function ShipScheduleMonthPageView({
       <FAQSection faqs={faqs} />
 
       <p className="mt-8 text-sm text-gray-500">
-        {getMonthlyMetaDescription(port.name, monthKey, stats.shipCalls)} Arrival and departure
+        {getMonthlyMetaDescription(port.name, monthKey, stats.shipCalls, port.slug)} Arrival and departure
         times are subject to change. Confirm final times with your cruise line before disembarking.
       </p>
 
