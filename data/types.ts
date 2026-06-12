@@ -93,11 +93,13 @@ export interface Comparison {
   foodAndDrink: ComparisonCategory;
   easeFromPort: ComparisonCategory;
   bestForFirstTimers: ComparisonCategory;
+  cruisePortExperience?: ComparisonCategory;
   bestOverall: string;
   comparisonTable: ComparisonTableRow[];
   verdict: string;
   faqs: FAQ[];
   clusterSlugs?: string[];
+  relatedComparisonSlugs?: string[];
 }
 
 export interface ClusterComparisonRow {

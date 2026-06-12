@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Comparison } from "@/data/types";
 import { getPortBySlug } from "@/data/ports";
+import { getRelatedComparisons } from "@/data/comparisons";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
@@ -10,23 +11,27 @@ import { JsonLd } from "@/components/JsonLd";
 import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { getClusterLinksForComparison } from "@/data/topic-clusters";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
+import { hasShipSchedule } from "@/lib/routes";
 
 const CATEGORIES: { key: keyof Comparison; label: string }[] = [
   { key: "overview", label: "Overview" },
   { key: "beaches", label: "Beaches" },
-  { key: "snorkeling", label: "Snorkeling" },
+  { key: "excursions", label: "Shore Excursions" },
   { key: "families", label: "Families" },
   { key: "couples", label: "Couples" },
-  { key: "foodAndDrink", label: "Food & Drink" },
-  { key: "excursions", label: "Shore Excursions" },
-  { key: "easeFromPort", label: "Ease From Cruise Port" },
+  { key: "snorkeling", label: "Snorkeling" },
+  { key: "cruisePortExperience", label: "Cruise Port Experience" },
+  { key: "easeFromPort", label: "Ease From Ship" },
   { key: "bestForFirstTimers", label: "Best For First-Time Visitors" },
+  { key: "foodAndDrink", label: "Food & Drink" },
 ];
 
 export function ComparisonPageView({ comp }: { comp: Comparison }) {
   const portA = getPortBySlug(comp.portASlug);
   const portB = getPortBySlug(comp.portBSlug);
   const clusterLinks = getClusterLinksForComparison(comp.slug);
+  const relatedComparisons = getRelatedComparisons(comp.slug);
+  const schedulePorts = [comp.portASlug, comp.portBSlug].filter((slug) => hasShipSchedule(slug));
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
@@ -127,7 +132,7 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
           })}
 
           <section className="mb-10">
-            <h2 className="section-title text-2xl sm:text-3xl mb-6">Best Overall</h2>
+            <h2 className="section-title text-2xl sm:text-3xl mb-6">Best Overall Winner</h2>
             <p className="text-gray-700 leading-relaxed text-lg">{comp.bestOverall}</p>
           </section>
 
@@ -149,6 +154,31 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
             <p className="text-gray-700 leading-relaxed">{comp.verdict}</p>
           </section>
 
+          {schedulePorts.length > 0 && (
+            <section className="mb-12">
+              <h2 className="section-title text-2xl sm:text-3xl mb-4">Ship Schedules</h2>
+              <p className="text-sm text-gray-600 mb-4">
+                Check published arrival and departure times before booking excursions with strict
+                return windows.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {schedulePorts.map((slug) => {
+                  const port = getPortBySlug(slug);
+                  if (!port) return null;
+                  return (
+                    <Link
+                      key={slug}
+                      href={`/ship-schedules/${slug}`}
+                      className="rounded-lg border border-caribbean-200 bg-white px-4 py-2 text-sm font-medium text-caribbean-800 hover:border-caribbean-400"
+                    >
+                      {port.name} Ship Schedule
+                    </Link>
+                  );
+                })}
+              </div>
+            </section>
+          )}
+
           {clusterLinks.length > 0 && (
             <section className="mb-12">
               <h2 className="section-title text-2xl sm:text-3xl mb-4">Regional Cruise Planners</h2>
@@ -163,6 +193,26 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
                     className="rounded-lg border border-caribbean-200 bg-white px-4 py-2 text-sm font-medium text-caribbean-800 hover:border-caribbean-400"
                   >
                     {cluster.title}
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {relatedComparisons.length > 0 && (
+            <section className="mb-12">
+              <h2 className="section-title text-2xl sm:text-3xl mb-4">Related Comparisons</h2>
+              <p className="text-sm text-gray-600 mb-4">
+                Head-to-head guides for nearby ports and alternative cruise days in the same region.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {relatedComparisons.map((related) => (
+                  <Link
+                    key={related.slug}
+                    href={`/compare/${related.slug}`}
+                    className="rounded-lg border border-caribbean-200 bg-white px-4 py-2 text-sm font-medium text-caribbean-800 hover:border-caribbean-400"
+                  >
+                    {related.title}
                   </Link>
                 ))}
               </div>

@@ -1,4 +1,5 @@
 import type { Port } from "./types";
+import { additionalPorts } from "./additional-ports";
 
 export const ports: Port[] = [
   {
@@ -577,6 +578,7 @@ export const ports: Port[] = [
     highlights: ["Georgian heritage", "Martha Brae rafting", "Quieter Jamaica experience", "Walkable historic town"],
     imageAlt: "Historic Georgian buildings along Falmouth harbor in Jamaica",
   },
+  ...additionalPorts,
 ];
 
 export function getPortBySlug(slug: string): Port | undefined {

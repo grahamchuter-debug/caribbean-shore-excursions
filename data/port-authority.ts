@@ -1,4 +1,5 @@
 import type { PortAuthorityContent } from "./types";
+import { additionalPortAuthority } from "./additional-port-authority";
 
 const authority: Record<string, PortAuthorityContent> = {
   "st-thomas": {
@@ -457,6 +458,7 @@ const authority: Record<string, PortAuthorityContent> = {
       { name: "Private north-coast highlights", description: "Custom route covering rafting, estate, and lagoon options." },
     ],
   },
+  ...additionalPortAuthority,
 };
 
 export function getPortAuthority(slug: string): PortAuthorityContent | undefined {

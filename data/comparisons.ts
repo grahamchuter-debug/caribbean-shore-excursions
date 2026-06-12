@@ -1,4 +1,5 @@
 import type { Comparison } from "./types";
+import { extraComparisons } from "./extra-comparisons";
 
 export const comparisons: Comparison[] = [
   {
@@ -67,6 +68,12 @@ export const comparisons: Comparison[] = [
       portB:
         "Curaçao rewards curious first-timers who want more than a beach chair. Walk Willemstad from the pier, then add a snorkel or cave tour. Less intuitive than Aruba but more memorable for culture seekers.",
     },
+    cruisePortExperience: {
+      portA:
+        "Oranjestad's two cruise terminals are modern and high-volume, with air-conditioned excursion halls, duty-free shopping, and taxi marshals at the gate. Downtown is walkable within minutes, though popular catamaran sails queue early on multi-ship days.",
+      portB:
+        "Mathey Wharf puts UNESCO-listed Handelskade immediately in front of you — one of the Caribbean's best pier-to-culture walks. The terminal area is compact and less commercial than Aruba, with dive shops and Willemstad food stops steps from the gangway.",
+    },
     bestOverall:
       "Aruba wins for beaches, sailing, and relaxed resort-style days. Curaçao wins for diving, UNESCO heritage, and travelers who want cultural depth over lounging. Both are excellent Southern Caribbean ports outside the hurricane belt.",
     comparisonTable: [
@@ -110,6 +117,7 @@ export const comparisons: Comparison[] = [
           "No. Both Aruba and Curaçao have dedicated cruise piers where ships dock directly with walkable downtown access.",
       },
     ],
+    relatedComparisonSlugs: ["aruba-vs-bonaire", "bonaire-vs-curacao"],
   },
   {
     slug: "st-thomas-vs-st-maarten",
@@ -220,6 +228,7 @@ export const comparisons: Comparison[] = [
           "St. Thomas edges ahead with Sapphire Beach reef and Trunk Bay's underwater trail via St. John ferry. St. Maarten's Tintamarre catamaran snorkels are excellent but fewer options overall.",
       },
     ],
+    relatedComparisonSlugs: ["st-thomas-vs-tortola", "st-maarten-vs-tortola"],
   },
   {
     slug: "roatan-vs-cozumel",
@@ -330,6 +339,7 @@ export const comparisons: Comparison[] = [
           "Roatán sees fewer cruise ships and fewer boats at snorkel sites than Cozumel, especially at West Bay Reef and Blue Channel.",
       },
     ],
+    relatedComparisonSlugs: ["cozumel-vs-costa-maya", "cozumel-vs-progreso", "costa-maya-vs-progreso"],
   },
   {
     slug: "amber-cove-vs-puerto-plata",
@@ -440,6 +450,7 @@ export const comparisons: Comparison[] = [
           "Absolutely. The port village pool, shops, waterfront, and dining provide a complete low-stress port day without leaving the terminal.",
       },
     ],
+    relatedComparisonSlugs: ["puerto-plata-vs-samana", "la-romana-vs-puerto-plata"],
   },
   {
     slug: "ocho-rios-vs-falmouth",
@@ -550,6 +561,7 @@ export const comparisons: Comparison[] = [
           "Yes, with a guide in the human chain formation. Most families with school-age children manage the climb. Water shoes are essential. Non-climbers can watch from viewing areas.",
       },
     ],
+    relatedComparisonSlugs: ["ocho-rios-vs-montego-bay", "falmouth-vs-montego-bay"],
   },
   {
     slug: "grand-cayman-vs-nassau",
@@ -661,6 +673,7 @@ export const comparisons: Comparison[] = [
       },
     ],
   },
+  ...extraComparisons,
 ];
 
 export function getComparisonBySlug(slug: string): Comparison | undefined {
@@ -669,4 +682,12 @@ export function getComparisonBySlug(slug: string): Comparison | undefined {
 
 export function getAllComparisonSlugs(): string[] {
   return comparisons.map((c) => c.slug);
+}
+
+export function getRelatedComparisons(slug: string): Comparison[] {
+  const comp = getComparisonBySlug(slug);
+  if (!comp?.relatedComparisonSlugs?.length) return [];
+  return comp.relatedComparisonSlugs
+    .map((relatedSlug) => getComparisonBySlug(relatedSlug))
+    .filter((c): c is Comparison => c !== undefined);
 }

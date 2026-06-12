@@ -87,7 +87,7 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Beach lovers", portSlug: "aruba", excursionName: "Eagle Beach morning", description: "Top-ranked Caribbean sand with reliable swim conditions.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "curacao", excursionName: "West-coast reef snorkel", description: "Healthy hard and soft coral in protected coves.", guideHref: "/best-caribbean-snorkeling-excursions" },
     ],
-    comparisonSlugs: ["aruba-vs-curacao"],
+    comparisonSlugs: ["aruba-vs-curacao", "aruba-vs-bonaire", "bonaire-vs-curacao"],
     bestGuideSlugs: [...sharedBestGuides, "best-caribbean-couple-excursions"],
     nextStepCta:
       "Choose Aruba or Curacao for your next Southern Caribbean call, check ship schedules if your sailing is set, then compare shore excursions by beach, reef, or culture focus.",
@@ -155,7 +155,7 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Beach lovers", portSlug: "st-thomas", excursionName: "Magens Bay morning", description: "Horseshoe bay with calm water in most conditions.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "st-thomas", excursionName: "St. John Trunk Bay trail", description: "National Park snorkel trail via short ferry.", guideHref: "/best-caribbean-snorkeling-excursions" },
     ],
-    comparisonSlugs: ["st-thomas-vs-st-maarten"],
+    comparisonSlugs: ["st-thomas-vs-st-maarten", "st-thomas-vs-tortola", "st-maarten-vs-tortola"],
     bestGuideSlugs: sharedBestGuides,
     nextStepCta:
       "Pick St. Thomas for island-hopping beaches or St. Maarten for a two-nation port day, confirm your ship schedule, then book excursions with guaranteed pier return.",
@@ -268,7 +268,11 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Beach lovers", portSlug: "puerto-plata", excursionName: "Guided beach transfer", description: "Organized transport protects return timing inland.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "puerto-plata", excursionName: "Rainforest waterfall route", description: "Tropical river and canopy settings on guided tours.", guideHref: "/excursion-types/adventure-tours" },
     ],
-    comparisonSlugs: ["amber-cove-vs-puerto-plata"],
+    comparisonSlugs: [
+      "amber-cove-vs-puerto-plata",
+      "puerto-plata-vs-samana",
+      "la-romana-vs-puerto-plata",
+    ],
     bestGuideSlugs: sharedBestGuides,
     nextStepCta:
       "Confirm whether your ship uses Amber Cove or Puerto Plata downtown, review the port schedule, then book one anchor excursion with safe return margin.",
@@ -336,7 +340,11 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Beach lovers", portSlug: "falmouth", excursionName: "Resort beach day", description: "Predictable facilities with guided pier transfers.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "ocho-rios", excursionName: "Rainforest adventure parks", description: "Tropical canopy settings with guided supervision.", guideHref: "/excursion-types/adventure-tours" },
     ],
-    comparisonSlugs: ["ocho-rios-vs-falmouth"],
+    comparisonSlugs: [
+      "ocho-rios-vs-falmouth",
+      "ocho-rios-vs-montego-bay",
+      "falmouth-vs-montego-bay",
+    ],
     bestGuideSlugs: sharedBestGuides,
     nextStepCta:
       "Use Ocho Rios for your adventure anchor and Falmouth for a relaxed second Jamaica day, check ship schedules for both ports, then book with generous return buffers.",
@@ -404,7 +412,12 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Beach lovers", portSlug: "costa-maya", excursionName: "Mahahual beach club", description: "Relaxed white sand without Cozumel-level crowds.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "cozumel", excursionName: "Columbia Deep snorkel", description: "Healthy reef fish, rays, and occasional turtles.", guideHref: "/best-caribbean-snorkeling-excursions" },
     ],
-    comparisonSlugs: ["roatan-vs-cozumel"],
+    comparisonSlugs: [
+      "roatan-vs-cozumel",
+      "cozumel-vs-costa-maya",
+      "cozumel-vs-progreso",
+      "costa-maya-vs-progreso",
+    ],
     bestGuideSlugs: sharedBestGuides,
     nextStepCta:
       "Split Cozumel for reef depth and Costa Maya for ruins or village beach value, verify ship schedules, then compare independent operators with pier pickup.",
@@ -506,7 +519,13 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Beach lovers", portSlug: "st-thomas", excursionName: "Magens Bay day", description: "Top-ranked calm swimming bay.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "st-thomas", excursionName: "St. John snorkel trail", description: "National Park underwater trail.", guideHref: "/best-caribbean-snorkeling-excursions" },
     ],
-    comparisonSlugs: ["st-thomas-vs-st-maarten", "amber-cove-vs-puerto-plata", "grand-cayman-vs-nassau"],
+    comparisonSlugs: [
+      "st-thomas-vs-st-maarten",
+      "st-thomas-vs-tortola",
+      "st-maarten-vs-tortola",
+      "amber-cove-vs-puerto-plata",
+      "grand-cayman-vs-nassau",
+    ],
     bestGuideSlugs: sharedBestGuides,
     nextStepCta:
       "Map each Eastern Caribbean port day to one clear style, check 2026 and 2027 schedules where available, then open authority guides and specialist sites to book.",
@@ -543,7 +562,16 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Beach lovers", portSlug: "roatan", excursionName: "West Bay white sand", description: "Top value beach in the Western Caribbean.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "grand-cayman", excursionName: "Stingray City", description: "Unique shallow sandbar wildlife encounter.", guideHref: "/best-caribbean-wildlife-excursions" },
     ],
-    comparisonSlugs: ["roatan-vs-cozumel", "ocho-rios-vs-falmouth", "grand-cayman-vs-nassau"],
+    comparisonSlugs: [
+      "roatan-vs-cozumel",
+      "cozumel-vs-costa-maya",
+      "cozumel-vs-progreso",
+      "costa-maya-vs-progreso",
+      "ocho-rios-vs-falmouth",
+      "ocho-rios-vs-montego-bay",
+      "falmouth-vs-montego-bay",
+      "grand-cayman-vs-nassau",
+    ],
     bestGuideSlugs: [...sharedBestGuides, "best-caribbean-wildlife-excursions"],
     nextStepCta:
       "Assign each Western Caribbean port a distinct role (reef, wildlife, ruins, or falls), verify ship schedules, then compare specialists before peak port days sell out.",
@@ -574,7 +602,7 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Beach lovers", portSlug: "aruba", excursionName: "Eagle Beach morning", description: "Wide sand with trade-wind cooling.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "curacao", excursionName: "West-coast reef snorkel", description: "Protected coves with healthy coral.", guideHref: "/best-caribbean-snorkeling-excursions" },
     ],
-    comparisonSlugs: ["aruba-vs-curacao", "st-thomas-vs-st-maarten"],
+    comparisonSlugs: ["aruba-vs-curacao", "aruba-vs-bonaire", "bonaire-vs-curacao"],
     bestGuideSlugs: [...sharedBestGuides, "best-caribbean-couple-excursions"],
     nextStepCta:
       "Balance Aruba beach reliability with Curacao culture on Southern routes, check schedules, then compare shore excursions before winter peak weeks fill up.",
