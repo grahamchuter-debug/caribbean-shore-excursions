@@ -4,7 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 import { getSchedulePortBySlug, getAllSchedulePortSlugs } from "@/data/schedules";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { ShipSchedulePageView } from "@/components/ShipSchedulePageView";
+import { ShipScheduleHubView } from "@/components/ShipScheduleHubView";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, webPageSchema } from "@/lib/schema";
 
@@ -17,14 +17,14 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
     const port = getSchedulePortBySlug(slug);
     if (!port) return {};
     return buildMetadata({
-      title: port.seoTitle,
-      description: port.metaDescription,
+      title: `${port.name} Cruise Ship Schedule`,
+      description: `${port.name} cruise ship schedules for 2026 and 2027. Choose a year to view monthly arrival and departure times and plan shore excursions.`,
       path: `/ship-schedules/${slug}`,
       keywords: [
         `${port.name} ship schedule`,
         `${port.name} cruise schedule 2026`,
+        `${port.name} cruise schedule 2027`,
         "ships in port",
-        "cruise arrival times",
       ],
     });
   });
@@ -39,6 +39,7 @@ export default async function ShipSchedulePortPage({
   const port = getSchedulePortBySlug(slug);
   if (!port) notFound();
 
+  const title = `${port.name} Cruise Ship Schedule`;
   const breadcrumbs = [
     { name: "Home", path: "/" },
     { name: "Ship Schedules", path: "/ship-schedules" },
@@ -51,18 +52,14 @@ export default async function ShipSchedulePortPage({
         data={[
           breadcrumbSchema(breadcrumbs),
           webPageSchema({
-            title: port.seoTitle,
-            description: port.metaDescription,
+            title,
+            description: `${port.name} cruise ship schedule hub with 2026 and 2027 monthly tables.`,
             path: `/ship-schedules/${slug}`,
           }),
           ...(port.faqs?.length ? [faqSchema(port.faqs)] : []),
         ]}
       />
-      <PageHero
-        title={port.seoTitle}
-        subtitle={port.description}
-        compact
-      />
+      <PageHero title={title} subtitle={port.description} compact />
       <section className="section-padding">
         <div className="container-wide max-w-5xl">
           <Breadcrumbs items={breadcrumbs} />
@@ -73,15 +70,15 @@ export default async function ShipSchedulePortPage({
             <Link href="/ship-schedules" className="btn-secondary text-sm">
               All Ship Schedules
             </Link>
+            <Link href="/busiest-caribbean-cruise-ports-2027" className="btn-secondary text-sm">
+              Busiest Ports 2027
+            </Link>
+            <Link href="/caribbean-cruise-calendar-2027" className="btn-secondary text-sm">
+              Cruise Calendar 2027
+            </Link>
           </div>
 
-          <ShipSchedulePageView port={port} />
-
-          <p className="mt-8 text-sm text-gray-500">
-            Arrival and departure times are published for planning purposes and may change due to
-            weather, tender conditions, or cruise line schedule adjustments. Always confirm final
-            times with your ship before disembarking.
-          </p>
+          <ShipScheduleHubView port={port} />
         </div>
       </section>
     </>

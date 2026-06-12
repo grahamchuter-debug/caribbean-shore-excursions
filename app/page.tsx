@@ -133,9 +133,14 @@ export default function HomePage() {
                 See which ships are in port before you book excursions. Multi-ship days mean crowded beaches and sold-out tours.
               </p>
             </div>
-            <Link href="/ship-schedules" className="btn-primary shrink-0">
-              All Ship Schedules
-            </Link>
+            <div className="flex flex-wrap gap-3 shrink-0">
+              <Link href="/ship-schedules" className="btn-primary">
+                All Ship Schedules
+              </Link>
+              <Link href="/busiest-caribbean-cruise-ports-2027" className="btn-secondary">
+                Busiest Ports 2027
+              </Link>
+            </div>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {homepageSchedules.map(

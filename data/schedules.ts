@@ -217,10 +217,23 @@ export function getScheduleForPort(slug: string): ScheduleEntry[] {
   return portSchedules[slug] ?? [];
 }
 
+export function getScheduleForPortYear(slug: string, year: number): ScheduleEntry[] {
+  const prefix = `${year}-`;
+  return getScheduleForPort(slug).filter((entry) => entry.date.startsWith(prefix));
+}
+
+export function getShipCallCountForPortYear(slug: string, year: number): number {
+  return getScheduleForPortYear(slug, year).length;
+}
+
 export function getAllSchedulePortSlugs(): string[] {
   return schedulePorts.map((p) => p.slug);
 }
 
 export function hasVerifiedScheduleData(slug: string): boolean {
   return (portSchedules[slug]?.length ?? 0) > 0;
+}
+
+export function hasVerifiedScheduleDataForYear(slug: string, year: number): boolean {
+  return getShipCallCountForPortYear(slug, year) > 0;
 }

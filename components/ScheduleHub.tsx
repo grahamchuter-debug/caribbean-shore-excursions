@@ -6,6 +6,7 @@ import { ScheduleTable } from "@/components/ScheduleTable";
 import {
   formatMonthLabel,
   getAllMonthKeys,
+  getMonthKeysForYear,
   getMonthsWithEntries,
   getDisplayEntries,
   getUniqueCruiseLines,
@@ -15,13 +16,18 @@ export function ScheduleHub({
   entries,
   portName,
   scheduleOverview,
+  year,
 }: {
   entries: ScheduleEntry[];
   portName: string;
   scheduleOverview?: string;
+  year?: number;
 }) {
   const monthsWithData = useMemo(() => getMonthsWithEntries(entries), [entries]);
-  const allMonths = useMemo(() => getAllMonthKeys(), []);
+  const allMonths = useMemo(
+    () => (year ? getMonthKeysForYear(year) : getAllMonthKeys()),
+    [year],
+  );
   const cruiseLines = useMemo(() => getUniqueCruiseLines(entries), [entries]);
 
   const defaultMonth = monthsWithData[0] ?? allMonths[0];
@@ -58,7 +64,9 @@ export function ScheduleHub({
       )}
 
       <section>
-        <h2 className="section-title text-2xl sm:text-3xl mb-4">Monthly Schedule</h2>
+        <h2 className="section-title text-2xl sm:text-3xl mb-4">
+          {year ? `${year} Monthly Schedule` : "Monthly Schedule"}
+        </h2>
         <p className="text-sm text-gray-600 mb-4">
           Select a month to view scheduled ship calls with date, ship, cruise line, arrival,
           departure, time in port, and passenger capacity.

@@ -6,6 +6,7 @@ import { getAllComparisonSlugs } from "@/data/comparisons";
 import { getAllExcursionTypeSlugs } from "@/data/excursion-types";
 import { getAllCruiseLineSlugs, getAllCruiseLinePageSlugs } from "@/data/cruise-lines";
 import { getAllSchedulePortSlugs } from "@/data/schedules";
+import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
 import { getAllRegionSlugs } from "@/data/regions";
 import { getAllBestGuideSlugs } from "@/data/best-guides";
 import { getAllItineraryPlannerSlugs } from "@/data/itinerary-planners";
@@ -36,6 +37,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/ports", priority: 0.8 },
     { path: "/cruise-planner", priority: 0.8 },
     { path: "/ship-schedules", priority: 0.8 },
+    { path: "/busiest-caribbean-cruise-ports-2027", priority: 0.85 },
+    { path: "/caribbean-cruise-calendar-2027", priority: 0.85 },
     { path: "/cruise-lines", priority: 0.8 },
     { path: "/excursion-types", priority: 0.8 },
     { path: "/about", priority: 0.8 },
@@ -62,8 +65,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     sitemapEntry(`/${slug}`, now, "weekly", 0.88),
   );
 
-  const schedulePages = getAllSchedulePortSlugs().map((slug) =>
-    sitemapEntry(`/ship-schedules/${slug}`, now, "daily", 0.6),
+  const scheduleHubPages = getAllSchedulePortSlugs().map((slug) =>
+    sitemapEntry(`/ship-schedules/${slug}`, now, "daily", 0.65),
+  );
+
+  const scheduleYearPages = getAllSchedulePortSlugs().flatMap((slug) =>
+    SCHEDULE_YEARS.map((year) =>
+      sitemapEntry(`/ship-schedules/${slug}/${year}`, now, "daily", 0.7),
+    ),
   );
 
   const regionPages = getAllRegionSlugs().map((slug) =>
@@ -101,6 +110,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...comparePages,
     ...excursionPages,
     ...cruiseLinePages,
-    ...schedulePages,
+    ...scheduleHubPages,
+    ...scheduleYearPages,
   ];
 }

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { ShipSchedulePort } from "@/data/types";
-import { getScheduleForPort } from "@/data/schedules";
+import { getScheduleForPort, getScheduleForPortYear } from "@/data/schedules";
+import { ScheduleYearLinks } from "@/components/ScheduleYearLinks";
 import { getPortBySlug } from "@/data/ports";
 import { excursionTypes } from "@/data/excursion-types";
 import { ScheduleHub } from "@/components/ScheduleHub";
@@ -9,8 +10,14 @@ import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { SCHEDULE_PLANNING_TIPS } from "@/data/schedule-content";
 
-export function ShipSchedulePageView({ port }: { port: ShipSchedulePort }) {
-  const schedule = getScheduleForPort(port.slug);
+export function ShipSchedulePageView({
+  port,
+  year,
+}: {
+  port: ShipSchedulePort;
+  year?: number;
+}) {
+  const schedule = year ? getScheduleForPortYear(port.slug, year) : getScheduleForPort(port.slug);
   const authorityPort = getPortBySlug(port.slug);
   const planningTips = port.planningTips ?? SCHEDULE_PLANNING_TIPS;
   const faqs = port.faqs ?? [];
@@ -36,10 +43,17 @@ export function ShipSchedulePageView({ port }: { port: ShipSchedulePort }) {
         )}
       </section>
 
+      {year && (
+        <section className="mb-8">
+          <ScheduleYearLinks portSlug={port.slug} portName={port.name} currentYear={year} />
+        </section>
+      )}
+
       <ScheduleHub
         entries={schedule}
         portName={port.name}
         scheduleOverview={port.scheduleOverview}
+        year={year}
       />
 
       <section className="mb-12">
@@ -170,6 +184,26 @@ export function ShipSchedulePageView({ port }: { port: ShipSchedulePort }) {
         <div className="mb-12">
           <SpecialistLocalGuide portSlug={port.slug} />
         </div>
+      )}
+
+      {year && (
+        <section className="mb-12 rounded-xl border border-gray-200 bg-white p-6">
+          <h2 className="section-title text-2xl sm:text-3xl mb-4">More 2027 Planning Resources</h2>
+          <div className="grid gap-4 sm:grid-cols-2">
+            <Link href="/busiest-caribbean-cruise-ports-2027" className="card-gradient block hover:border-caribbean-300">
+              <h3 className="font-semibold text-gray-900">Busiest Caribbean Cruise Ports 2027</h3>
+              <p className="mt-2 text-sm text-gray-600">
+                Compare verified call volumes and passenger estimates across top ports.
+              </p>
+            </Link>
+            <Link href="/caribbean-cruise-calendar-2027" className="card-gradient block hover:border-caribbean-300">
+              <h3 className="font-semibold text-gray-900">Caribbean Cruise Calendar 2027</h3>
+              <p className="mt-2 text-sm text-gray-600">
+                Peak months and regional seasonality for smarter excursion booking.
+              </p>
+            </Link>
+          </div>
+        </section>
       )}
 
       {faqs.length > 0 && <FAQSection faqs={faqs} />}

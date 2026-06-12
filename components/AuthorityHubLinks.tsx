@@ -130,6 +130,24 @@ export function AuthorityHubLinks({
         </div>
       </div>
 
+      {current === "schedules" && (
+        <div className="mb-4 flex flex-wrap gap-2">
+          <span className="text-xs text-gray-500 w-full mb-1">2027 planning tools</span>
+          <Link
+            href="/busiest-caribbean-cruise-ports-2027"
+            className="rounded-full bg-white px-3 py-1.5 text-xs font-medium text-caribbean-700 border border-caribbean-100 hover:border-caribbean-300"
+          >
+            Busiest Ports 2027
+          </Link>
+          <Link
+            href="/caribbean-cruise-calendar-2027"
+            className="rounded-full bg-white px-3 py-1.5 text-xs font-medium text-caribbean-700 border border-caribbean-100 hover:border-caribbean-300"
+          >
+            Cruise Calendar 2027
+          </Link>
+        </div>
+      )}
+
       {current !== "regions" && (
         <div className="flex flex-wrap gap-2">
           <span className="text-xs text-gray-500 w-full mb-1">Region guides</span>

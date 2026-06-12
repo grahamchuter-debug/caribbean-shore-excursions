@@ -1,9 +1,9 @@
 import Link from "next/link";
 import type { ShipSchedulePort } from "@/data/types";
-import { getScheduleForPort } from "@/data/schedules";
+import { getShipCallCountForPortYear } from "@/data/schedules";
 export function SchedulePreviewCard({ port }: { port: ShipSchedulePort }) {
-  const entries = getScheduleForPort(port.slug);
-  const shipCount = entries.length;
+  const count2026 = getShipCallCountForPortYear(port.slug, 2026);
+  const count2027 = getShipCallCountForPortYear(port.slug, 2027);
   const href = `/ship-schedules/${port.slug}`;
 
   return (
@@ -16,14 +16,14 @@ export function SchedulePreviewCard({ port }: { port: ShipSchedulePort }) {
           <p className="text-sm text-gray-500">{port.country}</p>
         </div>
         <span className="shrink-0 rounded-full bg-caribbean-50 px-2.5 py-0.5 text-xs font-medium text-caribbean-700">
-          2026
+          2026 &amp; 2027
         </span>
       </div>
       <p className="mt-3 text-sm text-gray-600 line-clamp-2">{port.description}</p>
       <p className="mt-3 text-xs text-gray-500">
-        {shipCount > 0
-          ? `${shipCount} verified ship call${shipCount !== 1 ? "s" : ""} listed`
-          : "Monthly 2026 schedule, data import in progress"}
+        {count2026 + count2027 > 0
+          ? `${count2026 + count2027} verified ship call${count2026 + count2027 !== 1 ? "s" : ""} listed`
+          : "2026 and 2027 schedules, import in progress"}
       </p>
       <span className="mt-4 inline-flex items-center text-sm font-medium text-caribbean-700">
         View {port.name} schedule

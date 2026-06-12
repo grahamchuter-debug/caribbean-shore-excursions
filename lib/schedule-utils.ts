@@ -30,6 +30,19 @@ export function getEntryMonthKey(entry: ScheduleEntry): string {
   return entry.date.slice(0, 7);
 }
 
+export function isValidScheduleYear(year: number): year is (typeof SCHEDULE_YEARS)[number] {
+  return (SCHEDULE_YEARS as readonly number[]).includes(year);
+}
+
+export function filterEntriesByYear(entries: ScheduleEntry[], year: number): ScheduleEntry[] {
+  const prefix = `${year}-`;
+  return entries.filter((e) => e.date.startsWith(prefix));
+}
+
+export function getMonthKeysForYear(year: number): string[] {
+  return Array.from({ length: 12 }, (_, i) => getMonthKey(year, i + 1));
+}
+
 export function filterEntriesByMonth(
   entries: ScheduleEntry[],
   monthKey: string
