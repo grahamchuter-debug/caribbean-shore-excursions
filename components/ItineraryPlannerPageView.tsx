@@ -4,6 +4,7 @@ import { getPortBySlug } from "@/data/ports";
 import { getBestGuideBySlug } from "@/data/best-guides";
 import { comparisons } from "@/data/comparisons";
 import { getBestScheduleUrl } from "@/lib/schedule-cta-url";
+import { getCruiseDayPlanDownloadUrl } from "@/lib/cruise-day-plan";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
@@ -103,6 +104,9 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
                       <div className="mt-4 flex flex-wrap gap-2">
                         <Link href={`/ports/${slug}`} className="btn-primary text-xs">
                           Authority Port Guide
+                        </Link>
+                        <Link href={getCruiseDayPlanDownloadUrl({ portSlug: slug })} className="btn-primary text-xs">
+                          Download PDF
                         </Link>
                         {scheduleCta && (
                           <Link href={scheduleCta.href} className="btn-secondary text-xs">

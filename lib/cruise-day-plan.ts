@@ -169,6 +169,11 @@ export interface CruiseDayPlanPortInformation {
   portGuideHref: string;
 }
 
+export interface CruiseDayPlanItineraryStep {
+  time: string;
+  activity: string;
+}
+
 export interface CruiseDayPlan {
   portSlug: string;
   portName: string;
@@ -177,6 +182,7 @@ export interface CruiseDayPlan {
   interests: CruiseDayPlanInterest[];
   activityLevel: FitnessLevel;
   generatedAt: string;
+  itinerary: CruiseDayPlanItineraryStep[];
   recommendedExcursions: CruiseDayPlanRecommendedExcursions;
   portInformation: CruiseDayPlanPortInformation;
   passengerSnapshot: PortPlanningSnapshot;
@@ -409,6 +415,7 @@ export function generateCruiseDayPlan(input: CruiseDayPlanInput): CruiseDayPlan 
     interests: input.interests,
     activityLevel: input.activityLevel,
     generatedAt: new Date().toISOString(),
+    itinerary: getTypicalCruiseDay(input.portSlug),
     recommendedExcursions: {
       primary: portPlan?.recommended ?? {
         name: port.bestExcursions[0]?.name ?? `${port.name} highlight tour`,
@@ -464,6 +471,81 @@ export function buildCruiseDayPlanSearchParams(input: CruiseDayPlanInput): URLSe
     activity: input.activityLevel,
   });
   return params;
+}
+
+const monthNameToNumber: Record<string, number> = {
+  January: 1,
+  February: 2,
+  March: 3,
+  April: 4,
+  May: 5,
+  June: 6,
+  July: 7,
+  August: 8,
+  September: 9,
+  October: 10,
+  November: 11,
+  December: 12,
+};
+
+/** Sensible default when a cruise date is not yet known (e.g. excursion finder). */
+export function getDefaultCruiseDayPlanDate(sailingMonth?: string): string {
+  const today = new Date();
+  if (sailingMonth && monthNameToNumber[sailingMonth]) {
+    let year = today.getFullYear();
+    const month = monthNameToNumber[sailingMonth];
+    if (month < today.getMonth() + 1) year += 1;
+    return `${year}-${String(month).padStart(2, "0")}-15`;
+  }
+  const fallback = new Date(today.getFullYear(), today.getMonth() + 2, 15);
+  return fallback.toISOString().slice(0, 10);
+}
+
+const travellerTypeToInterests: Partial<Record<TravellerTypeId, CruiseDayPlanInterest[]>> = {
+  "first-time": ["beaches", "culture"],
+  "beach-lovers": ["beaches"],
+  snorkellers: ["snorkeling"],
+  families: ["families"],
+  "private-tours": ["private-tours"],
+  adventure: ["adventure", "wildlife"],
+};
+
+export function travellerTypesToInterests(travellerTypes: TravellerTypeId[]): CruiseDayPlanInterest[] {
+  const interests = new Set<CruiseDayPlanInterest>();
+  for (const type of travellerTypes) {
+    for (const interest of travellerTypeToInterests[type] ?? []) {
+      interests.add(interest);
+    }
+  }
+  return interests.size > 0 ? [...interests] : ["beaches"];
+}
+
+export function buildCruiseDayPlanFromFinderContext(options: {
+  portSlug: string;
+  travellerTypes: TravellerTypeId[];
+  fitnessLevel: FitnessLevel;
+  sailingMonth?: string;
+  date?: string;
+}): CruiseDayPlan | null {
+  return generateCruiseDayPlan({
+    portSlug: options.portSlug,
+    date: options.date ?? getDefaultCruiseDayPlanDate(options.sailingMonth),
+    interests: travellerTypesToInterests(options.travellerTypes),
+    activityLevel: options.fitnessLevel,
+  });
+}
+
+export function getCruiseDayPlanDownloadUrl(
+  input: Pick<CruiseDayPlanInput, "portSlug"> & Partial<CruiseDayPlanInput>,
+): string {
+  const params = buildCruiseDayPlanSearchParams({
+    portSlug: input.portSlug,
+    date: input.date ?? getDefaultCruiseDayPlanDate(),
+    interests: input.interests ?? ["beaches"],
+    activityLevel: input.activityLevel ?? "easy",
+  });
+  params.set("download", "1");
+  return `/cruise-day-plan?${params.toString()}`;
 }
 
 export { getConfidenceStyles, getMatchTierStyles, parsePassengerCount };

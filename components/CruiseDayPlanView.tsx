@@ -4,7 +4,7 @@ import Link from "next/link";
 import type { CruiseDayPlan } from "@/lib/cruise-day-plan";
 import { getConfidenceStyles, getMatchTierStyles } from "@/lib/cruise-day-plan";
 import { getCrowdLevelStyles } from "@/lib/cruise-day-lookup";
-import { printCruiseDayPlan } from "@/lib/cruise-day-plan-pdf";
+import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadButton";
 import { cruiseDayPlanInterests } from "@/lib/cruise-day-plan";
 
 interface CruiseDayPlanViewProps {
@@ -33,10 +33,6 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
   const matchStyles = getMatchTierStyles(plan.recommendedExcursions.matchLabel);
   const crowdStyles = plan.shipsSummary ? getCrowdLevelStyles(plan.shipsSummary.crowdLevel) : null;
 
-  const handlePrint = () => {
-    printCruiseDayPlan({ plan, usePrintRoute: false });
-  };
-
   return (
     <article
       id="cruise-day-plan-results"
@@ -55,13 +51,10 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
               {interestLabels(plan.interests)} · {plan.activityLevel} activity
             </p>
           </div>
-          <button
-            type="button"
-            onClick={handlePrint}
+          <CruiseDayPlanDownloadButton
+            plan={plan}
             className="inline-flex shrink-0 items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-caribbean-800 shadow-sm transition hover:bg-caribbean-50"
-          >
-            Download My Cruise Day Plan PDF
-          </button>
+          />
         </div>
       )}
 
@@ -133,6 +126,27 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
               {plan.recommendedExcursions.alternate.duration} · {plan.recommendedExcursions.alternate.type}
             </p>
           </div>
+        )}
+      </section>
+
+      {/* Cruise Day Itinerary */}
+      <section className="cruise-day-plan-section break-inside-avoid rounded-2xl border border-gray-200 bg-white p-5 sm:p-6">
+        <h3 className="font-display text-xl font-bold text-gray-900">Cruise Day Itinerary</h3>
+        <p className="mt-1 text-sm text-gray-600">A typical pacing guide for your port day ashore.</p>
+        {plan.itinerary.length > 0 ? (
+          <ol className="mt-4 space-y-3">
+            {plan.itinerary.map((step) => (
+              <li key={`${step.time}-${step.activity}`} className="flex gap-3 text-sm text-gray-700">
+                <span className="shrink-0 font-semibold text-caribbean-800">{step.time}</span>
+                <span>{step.activity}</span>
+              </li>
+            ))}
+          </ol>
+        ) : (
+          <p className="mt-4 text-sm text-gray-700">
+            Disembark promptly, enjoy your recommended excursion, allow time for lunch near port, and return
+            with a generous all-aboard buffer.
+          </p>
         )}
       </section>
 
@@ -335,9 +349,7 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
 
       {!isPrint && (
         <div className="flex justify-center print:hidden">
-          <button type="button" onClick={handlePrint} className="btn-primary">
-            Download My Cruise Day Plan PDF
-          </button>
+          <CruiseDayPlanDownloadButton plan={plan} />
         </div>
       )}
     </article>

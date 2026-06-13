@@ -22,6 +22,11 @@ import {
   getOverallMatchTier,
   type ExcursionFinderResult,
 } from "@/lib/excursion-finder-engine";
+import {
+  buildCruiseDayPlanFromFinderContext,
+  getCruiseDayPlanDownloadUrl,
+} from "@/lib/cruise-day-plan";
+import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadButton";
 
 type FinderVariant = "home" | "page";
 
@@ -384,10 +389,46 @@ export function CaribbeanExcursionFinder({
             </div>
           </div>
 
+          <div className="rounded-2xl border border-caribbean-200 bg-caribbean-50/50 p-5">
+            <p className="text-sm font-semibold text-gray-900">Download cruise day plans</p>
+            <p className="mt-1 text-xs text-gray-600">
+              One PDF per port with excursions, itinerary, and return-to-ship advice.
+            </p>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {result.portPlans.map((plan) => {
+                const dayPlanPdf = featuredFinderPortSlugs.includes(plan.portSlug)
+                  ? buildCruiseDayPlanFromFinderContext({
+                      portSlug: plan.portSlug,
+                      travellerTypes: selectedTravellers,
+                      fitnessLevel,
+                      sailingMonth: sailingMonth || undefined,
+                    })
+                  : null;
+                if (!dayPlanPdf) return null;
+                return (
+                  <CruiseDayPlanDownloadButton
+                    key={plan.portSlug}
+                    plan={dayPlanPdf}
+                    className="btn-secondary text-xs"
+                    label={`Download PDF · ${plan.portName}`}
+                  />
+                );
+              })}
+            </div>
+          </div>
+
           <div className="space-y-4">
             {result.portPlans.map((plan) => {
               const styles = getConfidenceStyles(plan.returnConfidence);
               const matchStyles = getMatchTierStyles(plan.portMatchLabel);
+              const dayPlanPdf = featuredFinderPortSlugs.includes(plan.portSlug)
+                ? buildCruiseDayPlanFromFinderContext({
+                    portSlug: plan.portSlug,
+                    travellerTypes: selectedTravellers,
+                    fitnessLevel,
+                    sailingMonth: sailingMonth || undefined,
+                  })
+                : null;
               return (
                 <article
                   key={plan.portSlug}
@@ -463,6 +504,19 @@ export function CaribbeanExcursionFinder({
                         <Link href={plan.portGuideHref} className="btn-primary text-xs">
                           Port guide
                         </Link>
+                        {dayPlanPdf ? (
+                          <CruiseDayPlanDownloadButton
+                            plan={dayPlanPdf}
+                            className="btn-primary text-xs"
+                          />
+                        ) : (
+                          <Link
+                            href={getCruiseDayPlanDownloadUrl({ portSlug: plan.portSlug })}
+                            className="btn-primary text-xs"
+                          >
+                            Download PDF
+                          </Link>
+                        )}
                         {plan.scheduleHref && (
                           <Link href={plan.scheduleHref} className="btn-secondary text-xs">
                             Ship schedule

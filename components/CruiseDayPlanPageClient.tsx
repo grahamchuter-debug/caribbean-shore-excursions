@@ -11,6 +11,7 @@ import {
   type CruiseDayPlan,
   type CruiseDayPlanInput,
 } from "@/lib/cruise-day-plan";
+import { downloadCruiseDayPlanPdf } from "@/lib/cruise-day-plan-pdf";
 import type { FitnessLevel } from "@/data/excursion-finder";
 
 function isValidActivity(value: string | null): value is FitnessLevel {
@@ -61,7 +62,7 @@ function CruiseDayPlanPageInner() {
 
     if (!shouldGenerate || !port || !date) return;
 
-  buildPlan({
+    buildPlan({
       portSlug: port,
       date,
       interests: parseCruiseDayPlanInterests(interestsRaw),
@@ -69,6 +70,11 @@ function CruiseDayPlanPageInner() {
     });
     setHasSubmitted(true);
   }, [searchParams, buildPlan]);
+
+  useEffect(() => {
+    if (!plan || searchParams.get("download") !== "1") return;
+    void downloadCruiseDayPlanPdf(plan);
+  }, [plan, searchParams]);
 
   return (
     <>
