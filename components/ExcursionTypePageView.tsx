@@ -5,6 +5,9 @@ import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
+import { evaluatePortConfidence } from "@/lib/cruise-confidence";
+import { CruiseConfidenceBadge } from "@/components/CruiseConfidenceBadge";
+import { CruiseConfidenceLabels } from "@/components/CruiseConfidenceLabels";
 
 function CategoryImagePlaceholder({ type }: { type: ExcursionType }) {
   const alt = type.categoryImage?.alt ?? `${type.name} category image`;
@@ -64,13 +67,18 @@ export function ExcursionTypePageView({
                 Signature {type.name.toLowerCase()} at top cruise ports — with direct routes to book through local specialists.
               </p>
               <div className="space-y-5">
-                {type.recommendedByPort.map((port) => (
+                {type.recommendedByPort.map((port) => {
+                  const confidence = evaluatePortConfidence(port.portSlug);
+                  return (
                   <div key={port.portSlug} className="card-gradient overflow-hidden">
                     <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
                       <div>
-                        <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">
-                          {port.portName}
-                        </p>
+                        <div className="flex flex-wrap items-center gap-2">
+                          <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">
+                            {port.portName}
+                          </p>
+                          <CruiseConfidenceBadge level={confidence.level} />
+                        </div>
                         <ul className="mt-3 space-y-2">
                           {port.excursions.map((excursion) => (
                             <li key={excursion} className="text-sm font-medium text-gray-800">
@@ -78,6 +86,7 @@ export function ExcursionTypePageView({
                             </li>
                           ))}
                         </ul>
+                        <CruiseConfidenceLabels labels={confidence.supportingLabels} className="mt-3" compact />
                       </div>
                       <div className="flex shrink-0 flex-wrap gap-2">
                         <ExcursionCardCTAs
@@ -89,7 +98,8 @@ export function ExcursionTypePageView({
                       </div>
                     </div>
                   </div>
-                ))}
+                  );
+                })}
               </div>
             </section>
           )}

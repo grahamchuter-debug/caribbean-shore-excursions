@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { CruiseConfidenceCard } from "@/components/CruiseConfidenceCard";
+import { CruiseConfidenceLabels } from "@/components/CruiseConfidenceLabels";
 import type { CruiseDayPlan } from "@/lib/cruise-day-plan";
-import { getConfidenceStyles, getMatchTierStyles } from "@/lib/cruise-day-plan";
+import { getMatchTierStyles } from "@/lib/cruise-day-plan";
 import { getCrowdLevelStyles } from "@/lib/cruise-day-lookup";
 import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadButton";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
@@ -31,7 +33,6 @@ function interestLabels(ids: CruiseDayPlan["interests"]) {
 
 export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanViewProps) {
   const isPrint = variant === "print";
-  const confidenceStyles = getConfidenceStyles(plan.returnToShipAdvice.returnConfidence);
   const matchStyles = getMatchTierStyles(plan.recommendedExcursions.matchLabel);
   const crowdStyles = plan.shipsSummary ? getCrowdLevelStyles(plan.shipsSummary.crowdLevel) : null;
 
@@ -110,6 +111,11 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
             matchLabel={plan.recommendedExcursions.matchLabel}
             reasons={plan.recommendedExcursions.matchReasons}
             className="mt-4"
+          />
+          <CruiseConfidenceLabels
+            labels={plan.returnToShipAdvice.supportingLabels}
+            className="mt-4"
+            compact
           />
           {plan.recommendedExcursions.bestForTags.length > 0 && (
             <div className="mt-4 flex flex-wrap gap-2">
@@ -333,18 +339,14 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
         )}
       </section>
 
-      {/* 7. Return To Ship Advice */}
+      {/* 7. Cruise Confidence */}
       <section className="cruise-day-plan-section break-inside-avoid rounded-2xl border border-gray-200 bg-white p-5 sm:p-6">
-        <h3 className="font-display text-xl font-bold text-gray-900">Return To Ship Advice</h3>
+        <CruiseConfidenceCard assessment={plan.returnToShipAdvice.cruiseConfidence} />
         <div className="mt-4 flex flex-wrap items-center gap-3">
-          <span className={`inline-flex items-center rounded-full border px-3 py-1 text-xs font-semibold ${confidenceStyles.badge}`}>
-            {plan.returnToShipAdvice.returnLabel}
-          </span>
           {plan.returnToShipAdvice.tenderRequired && (
             <span className="text-xs font-semibold uppercase tracking-wide text-amber-800">Tender port</span>
           )}
         </div>
-        <p className="mt-3 text-sm text-gray-700">{plan.returnToShipAdvice.returnMessage}</p>
         <p className="mt-3 rounded-lg bg-caribbean-50 px-4 py-3 text-sm font-medium text-caribbean-900">
           {plan.returnToShipAdvice.timeBuffer}
         </p>

@@ -1,6 +1,10 @@
 import type { Port } from "@/data/types";
 import type { PortAuthorityContent } from "@/data/types";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
+import { evaluateExcursionConfidence, evaluatePortConfidence } from "@/lib/cruise-confidence";
+import { CruiseConfidenceBadge } from "@/components/CruiseConfidenceBadge";
+import { CruiseConfidenceLabels } from "@/components/CruiseConfidenceLabels";
+import { CruiseConfidenceCard } from "@/components/CruiseConfidenceCard";
 
 export function PortAuthoritySections({
   port,
@@ -10,9 +14,11 @@ export function PortAuthoritySections({
   authority: PortAuthorityContent;
 }) {
   const overviewLead = port.overview.split(". ").slice(0, 2).join(". ") + ".";
+  const portConfidence = evaluatePortConfidence(port.slug);
 
   return (
     <>
+      <CruiseConfidenceCard assessment={portConfidence} className="mb-10" />
       <section className="mb-10 rounded-xl border border-gray-100 bg-gray-50/50 p-5 sm:p-6">
         <h2 className="section-title text-xl sm:text-2xl mb-3">At a Glance</h2>
         <p className="text-gray-700 leading-relaxed text-sm sm:text-base">{overviewLead}</p>
@@ -39,13 +45,18 @@ export function PortAuthoritySections({
       <section className="mb-10">
         <h2 className="section-title text-xl sm:text-2xl mb-4">Top Shore Excursions</h2>
         <div className="grid gap-3 sm:grid-cols-2">
-          {port.bestExcursions.slice(0, 4).map((exc) => (
+          {port.bestExcursions.slice(0, 4).map((exc) => {
+            const confidence = evaluateExcursionConfidence(port.slug, exc);
+            return (
             <div key={exc.name} className="rounded-lg border border-gray-200 bg-white p-4">
               <div className="flex items-start justify-between gap-2">
                 <h3 className="font-semibold text-gray-900 text-sm sm:text-base">{exc.name}</h3>
-                {exc.rating && (
-                  <span className="text-xs text-tropical-mango font-semibold shrink-0">★ {exc.rating}</span>
-                )}
+                <div className="flex shrink-0 flex-col items-end gap-1">
+                  {exc.rating && (
+                    <span className="text-xs text-tropical-mango font-semibold">★ {exc.rating}</span>
+                  )}
+                  <CruiseConfidenceBadge level={confidence.level} />
+                </div>
               </div>
               <p className="mt-1 text-sm text-gray-600 line-clamp-2">{exc.description}</p>
               <div className="mt-2 flex gap-2 text-xs text-gray-500">
@@ -53,13 +64,15 @@ export function PortAuthoritySections({
                 <span>·</span>
                 <span>{exc.type}</span>
               </div>
+              <CruiseConfidenceLabels labels={confidence.supportingLabels} className="mt-3" compact />
               <ExcursionCardCTAs
                 portSlug={port.slug}
                 excursionType={exc.type}
                 text={`${exc.name} ${exc.description}`}
               />
             </div>
-          ))}
+            );
+          })}
         </div>
       </section>
 

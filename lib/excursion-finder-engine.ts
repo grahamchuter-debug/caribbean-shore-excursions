@@ -9,13 +9,20 @@ import {
 import { portExcursionAuthority } from "@/data/port-excursion-authority";
 import { topicClusters } from "@/data/topic-clusters";
 import { getBestScheduleUrl } from "@/lib/schedule-cta-url";
+import {
+  evaluateCruiseConfidence,
+  getConfidenceStyles,
+  parseDurationHours,
+  type CruiseConfidenceAssessment,
+  type ReturnConfidence,
+} from "@/lib/cruise-confidence";
 import type {
   FitnessLevel,
   TimeInPort,
   TravellerTypeId,
 } from "@/data/excursion-finder";
 
-export type ReturnConfidence = "high" | "moderate" | "caution";
+export type { ReturnConfidence };
 
 export type MatchTier = "Excellent Match" | "Strong Match" | "Good Match" | "Possible Match";
 
@@ -43,6 +50,8 @@ export interface PortExcursionPlan {
   returnConfidence: ReturnConfidence;
   returnLabel: string;
   returnMessage: string;
+  cruiseConfidence: CruiseConfidenceAssessment;
+  supportingLabels: CruiseConfidenceAssessment["supportingLabels"];
   dayPlan: string[];
   portGuideHref: string;
   specialistUrl: string;
@@ -111,11 +120,8 @@ const fitnessPenalties: Record<FitnessLevel, Record<string, number>> = {
   active: { active: 0.25, moderate: 0.1, easy: -0.1 },
 };
 
-function parseDurationHours(duration: string): number {
-  const range = duration.match(/(\d+)\s*-\s*(\d+)/);
-  if (range) return (Number(range[1]) + Number(range[2])) / 2;
-  const single = duration.match(/(\d+)/);
-  return single ? Number(single[1]) : 4;
+function parseDurationHoursFromText(duration: string): number {
+  return parseDurationHours(duration);
 }
 
 function inferActivityLevel(type: string, duration: string): "easy" | "moderate" | "active" {
@@ -161,7 +167,7 @@ function scoreExcursion(
   const activity = inferActivityLevel(excursion.type, excursion.duration);
   score += fitnessPenalties[fitnessLevel][activity];
 
-  const hoursNeeded = parseDurationHours(excursion.duration);
+  const hoursNeeded = parseDurationHoursFromText(excursion.duration);
   const budget = timeBudgetHours(timeInPort);
   if (hoursNeeded > budget - 1.5) score -= 0.35;
   else if (hoursNeeded <= budget - 2) score += 0.1;
@@ -325,44 +331,16 @@ function getReturnConfidence(
   portSlug: string,
   excursionDuration: string,
   timeInPort: TimeInPort,
-): { confidence: ReturnConfidence; label: string; message: string } {
-  const port = getPortBySlug(portSlug);
-  const snapshot = getPortPlanningSnapshot(portSlug);
-  const tender = port?.portInfo.tenderRequired ?? false;
-  const hoursNeeded = parseDurationHours(excursionDuration);
-  const budget = timeBudgetHours(timeInPort);
-
-  if (tender && (timeInPort === "under-4" || hoursNeeded > budget - 2)) {
-    return {
-      confidence: "caution",
-      label: "Check tender timing",
-      message:
-        "Tender ports need early departure and a generous return buffer. Confirm all-aboard with your operator.",
-    };
-  }
-
-  if (hoursNeeded > budget - 1.25 || timeInPort === "under-4") {
-    return {
-      confidence: "moderate",
-      label: "Confirm timings",
-      message:
-        "This excursion can work on your schedule, but confirm pier pickup and return time with the operator.",
-    };
-  }
-
-  if (snapshot?.returnToShipConfidence?.toLowerCase().includes("moderate")) {
-    return {
-      confidence: "moderate",
-      label: "Moderate confidence",
-      message: snapshot.returnToShipConfidence,
-    };
-  }
-
-  return {
-    confidence: "high",
-    label: "Comfortable fit",
-    message: "Typical port timing supports this excursion with a standard return-to-ship buffer.",
-  };
+  excursionType?: string,
+  bestFor?: string,
+): CruiseConfidenceAssessment {
+  return evaluateCruiseConfidence({
+    portSlug,
+    duration: excursionDuration,
+    excursionType,
+    bestFor,
+    timeInPort,
+  });
 }
 
 function buildBestForTags(
@@ -495,7 +473,7 @@ export function buildMatchReasons(options: {
     add("Works with a standard return buffer if timings are confirmed");
   }
 
-  const hoursNeeded = parseDurationHours(excursion.duration);
+  const hoursNeeded = parseDurationHoursFromText(excursion.duration);
   const budget = timeBudgetHours(timeInPort);
   if (hoursNeeded <= budget - 2) {
     add("Fits comfortably within your time ashore");
@@ -572,7 +550,13 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
         input.timeInPort,
         input.shipSlug,
       );
-      const returnInfo = getReturnConfidence(portSlug, pick.primary.duration, input.timeInPort);
+      const returnInfo = getReturnConfidence(
+        portSlug,
+        pick.primary.duration,
+        input.timeInPort,
+        pick.primary.type,
+        port.bestFor,
+      );
       const normalizedScore = normalizeExcursionScore(pick.score);
       const scheduleCta = getBestScheduleUrl({
         portSlug,
@@ -594,14 +578,16 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
           fitnessLevel: input.fitnessLevel,
           timeInPort: input.timeInPort,
           excursion: pick.primary,
-          returnConfidence: returnInfo.confidence,
+          returnConfidence: returnInfo.legacyLevel,
           rawScore: pick.score,
           shipSlug: input.shipSlug,
           cruiseLineSlug: input.cruiseLineSlug,
         }),
-        returnConfidence: returnInfo.confidence,
-        returnLabel: returnInfo.label,
-        returnMessage: returnInfo.message,
+        returnConfidence: returnInfo.legacyLevel,
+        returnLabel: returnInfo.headline,
+        returnMessage: returnInfo.guidance,
+        cruiseConfidence: returnInfo,
+        supportingLabels: returnInfo.supportingLabels,
         dayPlan: buildDayPlan(portSlug, pick.primary.name),
         portGuideHref: `/ports/${portSlug}`,
         specialistUrl: port.specialistUrl,
@@ -670,25 +656,7 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
   };
 }
 
-export function getConfidenceStyles(confidence: ReturnConfidence) {
-  switch (confidence) {
-    case "high":
-      return {
-        badge: "bg-emerald-100 text-emerald-800 border-emerald-200",
-        dot: "bg-emerald-500",
-      };
-    case "moderate":
-      return {
-        badge: "bg-amber-100 text-amber-800 border-amber-200",
-        dot: "bg-amber-500",
-      };
-    case "caution":
-      return {
-        badge: "bg-rose-100 text-rose-800 border-rose-200",
-        dot: "bg-rose-500",
-      };
-  }
-}
+export { getConfidenceStyles };
 
 export function getMatchTierStyles(tier: MatchTier) {
   switch (tier) {

@@ -10,6 +10,8 @@ import {
   getSimilarPorts,
 } from "@/data/port-planning";
 import { hasShipSchedule } from "@/lib/routes";
+import { evaluatePortConfidence, formatConfidenceTitle } from "@/lib/cruise-confidence";
+import { CruiseConfidenceCard } from "@/components/CruiseConfidenceCard";
 
 const cardToneClasses: Record<string, string> = {
   sand: "from-amber-50 to-orange-50 border-amber-200",
@@ -56,6 +58,7 @@ export function PortPlanningToolkit({ port }: { port: Port }) {
   const planningCards = getPortPlanningCards(port.slug);
   const popularity = getPortPopularityStats(port.slug);
   const similarPorts = getSimilarPorts(port.slug);
+  const portConfidence = evaluatePortConfidence(port.slug);
 
   if (!snapshot) return null;
 
@@ -81,6 +84,8 @@ export function PortPlanningToolkit({ port }: { port: Port }) {
         </div>
       </div>
 
+      <CruiseConfidenceCard assessment={portConfidence} className="mb-2" />
+
       <div className="grid gap-6 lg:grid-cols-5">
         <section className="lg:col-span-3 rounded-2xl border border-caribbean-200 bg-gradient-to-br from-caribbean-50 via-white to-tropical-sand/30 p-5 sm:p-6">
           <h3 className="font-display text-xl font-bold text-gray-900">Cruise Passenger Snapshot</h3>
@@ -91,7 +96,7 @@ export function PortPlanningToolkit({ port }: { port: Port }) {
             <SnapshotItem label="Walking Required" value={snapshot.walkingRequired} />
             <SnapshotItem label="Family Friendly" value={snapshot.familyFriendly} />
             <SnapshotItem label="Private Tour Friendly" value={snapshot.privateTourFriendly} />
-            <SnapshotItem label="Return to Ship Confidence" value={snapshot.returnToShipConfidence} />
+            <SnapshotItem label="Cruise Confidence" value={formatConfidenceTitle(portConfidence.level)} />
           </dl>
         </section>
 

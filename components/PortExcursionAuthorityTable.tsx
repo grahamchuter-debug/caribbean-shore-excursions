@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { PortExcursionAuthorityRow } from "@/data/types";
 import { getPortBySlug } from "@/data/ports";
+import { evaluateAuthorityRowConfidence } from "@/lib/cruise-confidence";
+import { CruiseConfidenceBadge } from "@/components/CruiseConfidenceBadge";
 
 export function PortExcursionAuthorityTable({ rows }: { rows: PortExcursionAuthorityRow[] }) {
   return (
@@ -13,12 +15,14 @@ export function PortExcursionAuthorityTable({ rows }: { rows: PortExcursionAutho
             <th className="px-4 py-3 text-left text-sm font-semibold">Duration</th>
             <th className="px-4 py-3 text-left text-sm font-semibold">Best For</th>
             <th className="px-4 py-3 text-left text-sm font-semibold">Activity Level</th>
+            <th className="px-4 py-3 text-left text-sm font-semibold">Cruise Confidence</th>
             <th className="px-4 py-3 text-left text-sm font-semibold">Why Recommended</th>
           </tr>
         </thead>
         <tbody className="divide-y divide-gray-100 bg-white">
           {rows.map((row) => {
             const port = getPortBySlug(row.portSlug);
+            const confidence = evaluateAuthorityRowConfidence(row);
             return (
               <tr key={row.portSlug} className="hover:bg-caribbean-50 transition-colors align-top">
                 <td className="px-4 py-4 text-sm">
@@ -56,6 +60,9 @@ export function PortExcursionAuthorityTable({ rows }: { rows: PortExcursionAutho
                   >
                     {row.activityLevel}
                   </span>
+                </td>
+                <td className="px-4 py-4 text-sm">
+                  <CruiseConfidenceBadge level={confidence.level} />
                 </td>
                 <td className="px-4 py-4 text-sm text-gray-600 leading-relaxed max-w-xs">
                   {row.whyRecommended}

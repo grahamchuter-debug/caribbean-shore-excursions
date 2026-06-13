@@ -17,11 +17,13 @@ import {
 } from "@/data/excursion-finder";
 import {
   generateExcursionFinderPlan,
-  getConfidenceStyles,
   getMatchTierStyles,
   getOverallMatchTier,
   type ExcursionFinderResult,
 } from "@/lib/excursion-finder-engine";
+import { CruiseConfidenceBadge } from "@/components/CruiseConfidenceBadge";
+import { CruiseConfidenceCard } from "@/components/CruiseConfidenceCard";
+import { CruiseConfidenceLabels } from "@/components/CruiseConfidenceLabels";
 import {
   buildCombinedCruisePlannerFromFinderContext,
   buildCruiseDayPlanFromFinderContext,
@@ -516,7 +518,6 @@ export function CaribbeanExcursionFinder({
 
           <div className="space-y-4">
             {result.portPlans.map((plan) => {
-              const styles = getConfidenceStyles(plan.returnConfidence);
               const matchStyles = getMatchTierStyles(plan.portMatchLabel);
               const dayPlanPdf = featuredFinderPortSlugs.includes(plan.portSlug)
                 ? buildCruiseDayPlanFromFinderContext({
@@ -545,10 +546,7 @@ export function CaribbeanExcursionFinder({
                         <span className={`rounded-full px-3 py-1 text-xs font-semibold ${matchStyles}`}>
                           {plan.portMatchLabel}
                         </span>
-                        <span className={`inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-semibold ${styles.badge}`}>
-                          <span className={`h-2 w-2 rounded-full ${styles.dot}`} />
-                          {plan.returnLabel}
-                        </span>
+                        <CruiseConfidenceBadge level={plan.cruiseConfidence.level} />
                       </div>
                     </div>
                   </div>
@@ -569,6 +567,7 @@ export function CaribbeanExcursionFinder({
                         </span>
                       </div>
                       <p className="mt-3 text-xs text-gray-500">{plan.recommended.matchReason}</p>
+                      <CruiseConfidenceLabels labels={plan.supportingLabels} className="mt-3" compact />
                       <MatchReasonsPanel
                         matchLabel={plan.portMatchLabel}
                         reasons={plan.matchReasons}
@@ -597,6 +596,7 @@ export function CaribbeanExcursionFinder({
                     </div>
 
                     <div className="space-y-4">
+                      <CruiseConfidenceCard assessment={plan.cruiseConfidence} showDisclaimer={false} />
                       <div className="rounded-xl border border-gray-100 bg-gray-50 p-4">
                         <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">Port day outline</p>
                         <ul className="mt-3 space-y-2">
@@ -607,7 +607,9 @@ export function CaribbeanExcursionFinder({
                           ))}
                         </ul>
                       </div>
-                      <p className="text-xs text-gray-500">{plan.returnMessage}</p>
+                      <p className="text-xs text-gray-500">
+                        Planning guidance only — confirm all-aboard times with your cruise line and excursion operator.
+                      </p>
                       <div className="flex flex-wrap gap-2">
                         {dayPlanPdf ? (
                           <CruiseDayPlanDownloadButton

@@ -17,6 +17,8 @@ import { JsonLd } from "@/components/JsonLd";
 import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
+import { evaluatePortConfidence } from "@/lib/cruise-confidence";
+import { CruiseConfidenceBadge } from "@/components/CruiseConfidenceBadge";
 
 function CategorySection({
   title,
@@ -47,9 +49,13 @@ function CategorySection({
       <div className="grid gap-4 sm:grid-cols-2">
         {picks.map((pick) => {
           const port = getPortBySlug(pick.portSlug);
+          const confidence = evaluatePortConfidence(pick.portSlug);
           return (
             <div key={`${pick.portSlug}-${pick.excursionName}`} className="card">
-              <h3 className="font-semibold text-gray-900">{pick.excursionName}</h3>
+              <div className="flex flex-wrap items-start justify-between gap-2">
+                <h3 className="font-semibold text-gray-900">{pick.excursionName}</h3>
+                <CruiseConfidenceBadge level={confidence.level} />
+              </div>
               <p className="mt-1 text-sm text-caribbean-700">
                 <Link href={`/ports/${pick.portSlug}`} className="hover:underline">
                   {port?.name ?? pick.portSlug}

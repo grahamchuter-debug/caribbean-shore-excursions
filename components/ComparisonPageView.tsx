@@ -12,6 +12,8 @@ import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { getClusterLinksForComparison } from "@/data/topic-clusters";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 import { hasShipSchedule } from "@/lib/routes";
+import { evaluatePortConfidence } from "@/lib/cruise-confidence";
+import { CruiseConfidenceCard } from "@/components/CruiseConfidenceCard";
 
 const CATEGORIES: { key: keyof Comparison; label: string }[] = [
   { key: "overview", label: "Overview" },
@@ -32,6 +34,8 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
   const clusterLinks = getClusterLinksForComparison(comp.slug);
   const relatedComparisons = getRelatedComparisons(comp.slug);
   const schedulePorts = [comp.portASlug, comp.portBSlug].filter((slug) => hasShipSchedule(slug));
+  const portAConfidence = evaluatePortConfidence(comp.portASlug);
+  const portBConfidence = evaluatePortConfidence(comp.portBSlug);
 
   const breadcrumbs = [
     { name: "Home", path: "/" },
@@ -56,6 +60,17 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
       <article className="section-padding">
         <div className="container-wide max-w-4xl">
           <Breadcrumbs items={breadcrumbs} />
+
+          <section className="mb-10">
+            <h2 className="section-title text-2xl sm:text-3xl mb-4">Cruise Confidence</h2>
+            <p className="text-sm text-gray-600 mb-4">
+              Planning guidance based on typical excursion duration, transfers, and return buffer — not guarantees.
+            </p>
+            <div className="grid gap-4 sm:grid-cols-2">
+              <CruiseConfidenceCard assessment={portAConfidence} title={`${comp.portA} confidence`} />
+              <CruiseConfidenceCard assessment={portBConfidence} title={`${comp.portB} confidence`} />
+            </div>
+          </section>
 
           <section className="mb-10">
             <h2 className="section-title text-2xl sm:text-3xl mb-4">Port Guides & Local Booking</h2>

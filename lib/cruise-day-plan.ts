@@ -14,12 +14,16 @@ import {
 } from "@/data/excursion-finder";
 import {
   generateExcursionFinderPlan,
-  getConfidenceStyles,
   getMatchTierStyles,
   type FinderExcursionPick,
   type MatchTier,
-  type ReturnConfidence,
 } from "@/lib/excursion-finder-engine";
+import {
+  evaluatePortConfidence,
+  getConfidenceStyles,
+  type CruiseConfidenceAssessment,
+  type ReturnConfidence,
+} from "@/lib/cruise-confidence";
 import type { TravellerTypeId, TimeInPort } from "@/data/excursion-finder";
 import {
   formatScheduleDisplayDate,
@@ -148,6 +152,8 @@ export interface CruiseDayPlanReturnAdvice {
   returnConfidence: ReturnConfidence;
   returnLabel: string;
   returnMessage: string;
+  cruiseConfidence: CruiseConfidenceAssessment;
+  supportingLabels: CruiseConfidenceAssessment["supportingLabels"];
   timeBuffer: string;
   portMistake?: { mistake: string; better: string };
   typicalReturnStep?: string;
@@ -385,24 +391,31 @@ export function generateCruiseDayPlan(input: CruiseDayPlanInput): CruiseDayPlan 
         returnConfidence: portPlan.returnConfidence,
         returnLabel: portPlan.returnLabel,
         returnMessage: portPlan.returnMessage,
+        cruiseConfidence: portPlan.cruiseConfidence,
+        supportingLabels: portPlan.supportingLabels,
         timeBuffer: buildReturnBuffer(tenderRequired, portPlan.returnConfidence),
         portMistake: portMistake
           ? { mistake: portMistake.mistake, better: portMistake.better }
           : undefined,
         typicalReturnStep: typicalDay[typicalDay.length - 1]?.activity,
       }
-    : {
-        tenderRequired,
-        tenderNote: naming?.tenderNote,
-        returnConfidence: "moderate" as ReturnConfidence,
-        returnLabel: snapshot.returnToShipConfidence,
-        returnMessage: snapshot.returnToShipConfidence,
-        timeBuffer: buildReturnBuffer(tenderRequired, "moderate"),
-        portMistake: portMistake
-          ? { mistake: portMistake.mistake, better: portMistake.better }
-          : undefined,
-        typicalReturnStep: typicalDay[typicalDay.length - 1]?.activity,
-      };
+    : (() => {
+        const fallbackConfidence = evaluatePortConfidence(input.portSlug);
+        return {
+          tenderRequired,
+          tenderNote: naming?.tenderNote,
+          returnConfidence: fallbackConfidence.legacyLevel,
+          returnLabel: fallbackConfidence.headline,
+          returnMessage: fallbackConfidence.guidance,
+          cruiseConfidence: fallbackConfidence,
+          supportingLabels: fallbackConfidence.supportingLabels,
+          timeBuffer: buildReturnBuffer(tenderRequired, fallbackConfidence.legacyLevel),
+          portMistake: portMistake
+            ? { mistake: portMistake.mistake, better: portMistake.better }
+            : undefined,
+          typicalReturnStep: typicalDay[typicalDay.length - 1]?.activity,
+        };
+      })();
 
   const hasVerified = hasVerifiedScheduleData(input.portSlug);
   const allEntries = getScheduleForPort(input.portSlug);

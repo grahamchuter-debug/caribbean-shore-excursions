@@ -1,6 +1,7 @@
 import { jsPDF } from "jspdf";
 import type { CombinedCruisePlannerInput, CruiseDayPlan } from "@/lib/cruise-day-plan";
 import { cruiseDayPlanActivityLevels, cruiseDayPlanInterests } from "@/lib/cruise-day-plan";
+import { CRUISE_CONFIDENCE_DISCLAIMER, CRUISE_CONFIDENCE_LABELS, formatConfidenceTitle } from "@/lib/cruise-confidence";
 import { getSpecialistExcursionUrl } from "@/lib/specialist-links";
 import { loadPdfBrandAssets, type PdfBrandAssets } from "@/lib/pdf-brand-assets";
 import {
@@ -272,7 +273,7 @@ class PortPlanPdfSections {
       { label: "Walking Required", value: passengerSnapshot.walkingRequired },
       { label: "Family Friendly", value: passengerSnapshot.familyFriendly },
       { label: "Private Tour Friendly", value: passengerSnapshot.privateTourFriendly },
-      { label: "Return Confidence", value: passengerSnapshot.returnToShipConfidence },
+      { label: "Cruise Confidence", value: formatConfidenceTitle(plan.returnToShipAdvice.cruiseConfidence.level) },
     ]);
   }
 
@@ -313,7 +314,7 @@ class PortPlanPdfSections {
     this.canvas.addMetaChips([
       { label: "Duration", value: rec.primary.duration },
       { label: "Activity", value: activityLevelLabel(plan.activityLevel) },
-      { label: "Return", value: plan.returnToShipAdvice.returnLabel },
+      { label: "Cruise Confidence", value: plan.returnToShipAdvice.returnLabel },
     ]);
   }
 
@@ -395,10 +396,28 @@ class PortPlanPdfSections {
     );
   }
 
+  addCruiseConfidence(plan: CruiseDayPlan): void {
+    const confidence = plan.returnToShipAdvice.cruiseConfidence;
+    this.canvas.addSectionTitle("Cruise Confidence");
+    this.canvas.addParagraph(confidence.guidance, 8.5, 2);
+    this.canvas.addMetaChips([
+      { label: "Rating", value: formatConfidenceTitle(confidence.level) },
+      { label: "Return buffer", value: plan.returnToShipAdvice.timeBuffer },
+    ]);
+    if (confidence.supportingLabels.length > 0) {
+      const labelText = confidence.supportingLabels
+        .map((id) => CRUISE_CONFIDENCE_LABELS[id].label)
+        .join(" · ");
+      this.canvas.addParagraph(labelText, 7.5, 2);
+    }
+    this.canvas.addParagraph(CRUISE_CONFIDENCE_DISCLAIMER, 7, 2);
+  }
+
   addPortSections(plan: CruiseDayPlan): void {
     this.addPassengerSnapshot(plan);
     this.addRecommendedExcursion(plan);
     this.addMatchReasonsPanel(plan);
+    this.addCruiseConfidence(plan);
     this.addPortDayOutline(plan);
     this.addScheduleSummary(plan);
     this.addExcursionCta(plan);
