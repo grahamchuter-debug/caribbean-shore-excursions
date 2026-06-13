@@ -269,6 +269,30 @@ export interface ItineraryPlannerPage {
   faqs: FAQ[];
 }
 
+export interface ExcursionTypePortRecommendation {
+  portSlug: string;
+  portName: string;
+  excursions: string[];
+}
+
+export interface ExcursionTypeLink {
+  href: string;
+  label: string;
+  description?: string;
+}
+
+export interface ExcursionTypeSpecialistSite {
+  portSlug: string;
+  portName: string;
+  siteLabel: string;
+  siteUrl: string;
+}
+
+export interface ExcursionTypeImage {
+  src: string;
+  alt: string;
+}
+
 export interface ExcursionType {
   slug: string;
   name: string;
@@ -278,6 +302,15 @@ export interface ExcursionType {
   bestPorts: { slug: string; name: string; reason: string }[];
   tips: string[];
   faqs: FAQ[];
+  /** Enriched in excursion-type-pathways.ts */
+  recommendedByPort?: ExcursionTypePortRecommendation[];
+  authoritySectionTitle?: string;
+  authorityLinks?: ExcursionTypeLink[];
+  specialistSectionTitle?: string;
+  specialistSites?: ExcursionTypeSpecialistSite[];
+  bookingPathways?: ExcursionTypeLink[];
+  heroImage?: ExcursionTypeImage;
+  categoryImage?: ExcursionTypeImage;
 }
 
 export interface CruiseLineItinerary {

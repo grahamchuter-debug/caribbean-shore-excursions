@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import {
   featuredFinderPortSlugs,
   finderCruiseLines,
@@ -52,8 +52,13 @@ export function CaribbeanExcursionFinder({
   initialRouteId,
 }: CaribbeanExcursionFinderProps) {
   const groupedPorts = useMemo(() => getFinderPortsGroupedByRegion(), []);
-  const visiblePortSlugs =
-    variant === "home" ? featuredFinderPortSlugs : groupedPorts.flatMap((g) => g.ports.map((p) => p.slug));
+  const visiblePortSlugs = useMemo(
+    () =>
+      variant === "home"
+        ? featuredFinderPortSlugs
+        : groupedPorts.flatMap((g) => g.ports.map((p) => p.slug)),
+    [variant, groupedPorts],
+  );
 
   const [cruiseLineSlug, setCruiseLineSlug] = useState("");
   const [shipSlug, setShipSlug] = useState("");
@@ -65,6 +70,7 @@ export function CaribbeanExcursionFinder({
   const [timeInPort, setTimeInPort] = useState<TimeInPort>("6-8");
   const [result, setResult] = useState<ExcursionFinderResult | null>(null);
   const [hasGenerated, setHasGenerated] = useState(false);
+  const itineraryPortsKeyRef = useRef<string | null>(null);
 
   const shipsForLine = useMemo(
     () => (cruiseLineSlug ? finderShips.filter((ship) => ship.cruiseLineSlug === cruiseLineSlug) : finderShips),
@@ -92,16 +98,25 @@ export function CaribbeanExcursionFinder({
   }, [initialRouteId, initialPorts, applyPorts]);
 
   useEffect(() => {
-    if (!shipSlug && !cruiseLineSlug) return;
+    if (!shipSlug && !cruiseLineSlug) {
+      itineraryPortsKeyRef.current = null;
+      return;
+    }
     const ports = resolveItineraryPorts({
       shipSlug: shipSlug || undefined,
       cruiseLineSlug: cruiseLineSlug || undefined,
       visiblePortSlugs: visiblePortSlugs,
     });
-    if (ports.length > 0) {
-      applyPorts(ports);
-    }
-  }, [shipSlug, cruiseLineSlug, applyPorts, visiblePortSlugs]);
+    if (ports.length === 0) return;
+
+    const key = ports.join(",");
+    if (itineraryPortsKeyRef.current === key) return;
+    itineraryPortsKeyRef.current = key;
+
+    setSelectedPorts(ports);
+    setResult(null);
+    setHasGenerated(false);
+  }, [shipSlug, cruiseLineSlug, visiblePortSlugs]);
 
   const handleGenerate = () => {
     const plan = generateExcursionFinderPlan({
