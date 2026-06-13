@@ -29,6 +29,7 @@ export function FinderPortPlanCard({ plan, dayPlanActions }: FinderPortPlanCardP
           subtitle={plan.bestFor}
           eyebrow={plan.region}
           heightClass="h-40 sm:h-44"
+          portSlug={plan.portSlug}
         />
         <div className="absolute right-4 top-4 flex flex-wrap items-center justify-end gap-2 sm:right-5 sm:top-5">
           <span className={`rounded-full px-3 py-1 text-xs font-semibold shadow-sm backdrop-blur-sm ${matchStyles}`}>
@@ -47,6 +48,7 @@ export function FinderPortPlanCard({ plan, dayPlanActions }: FinderPortPlanCardP
             subtitle={plan.recommended.type}
             eyebrow="Recommended experience"
             heightClass="h-28 sm:h-32"
+            portSlug={plan.portSlug}
           />
 
           <p className="mt-5 text-xs font-medium text-gray-500">Why we recommend it</p>

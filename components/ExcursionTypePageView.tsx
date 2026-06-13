@@ -90,6 +90,7 @@ export function ExcursionTypePageView({
                         }
                         imageTheme={imageTheme}
                         imageLabel={`${type.name} at ${port.portName}`}
+                        portSlug={port.portSlug}
                         details={[
                           {
                             label: "Signature picks",

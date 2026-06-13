@@ -89,6 +89,7 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
                     subtitle={portA.country}
                     eyebrow="Port guide"
                     heightClass="h-32"
+                    portSlug={comp.portASlug}
                   />
                   <div className="flex flex-wrap gap-2 p-5">
                     <Link href={`/ports/${comp.portASlug}`} className="btn-primary text-xs">
@@ -114,6 +115,7 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
                     subtitle={portB.country}
                     eyebrow="Port guide"
                     heightClass="h-32"
+                    portSlug={comp.portBSlug}
                   />
                   <div className="flex flex-wrap gap-2 p-5">
                     <Link href={`/ports/${comp.portBSlug}`} className="btn-primary text-xs">

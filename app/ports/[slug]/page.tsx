@@ -5,7 +5,7 @@ import { getPortBySlug, getAllPortSlugs } from "@/data/ports";
 import { getPortAuthority } from "@/data/port-authority";
 import { getBestScheduleUrl } from "@/lib/schedule-cta-url";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
-import { PageHero } from "@/components/PageHero";
+import { PortPageHero } from "@/components/PortPageHero";
 import { FAQSection } from "@/components/FAQSection";
 import { SpecialistLocalGuide } from "@/components/SpecialistLocalGuide";
 import { PortRelatedLinks } from "@/components/PortRelatedLinks";
@@ -83,7 +83,7 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
           }),
         ]}
       />
-      <PageHero title={heroTitle} subtitle={heroIntro} compact />
+      <PortPageHero port={port} title={heroTitle} subtitle={heroIntro} />
       <article className="section-padding">
         <div className="container-wide max-w-5xl">
           <Breadcrumbs items={breadcrumbs} />

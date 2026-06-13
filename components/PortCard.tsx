@@ -13,9 +13,9 @@ export function PortCard({ port }: { port: Port }) {
         imageAlt={port.imageAlt}
         title={port.name}
         subtitle={port.country}
-        heightClass="h-36 sm:h-40"
+        portSlug={port.slug}
       >
-        <span className="absolute right-3 top-3 rounded-full border border-white/25 bg-white/15 px-2.5 py-0.5 text-xs font-medium text-white backdrop-blur-sm">
+        <span className="absolute right-3 top-3 z-10 rounded-full border border-white/25 bg-white/15 px-2.5 py-0.5 text-xs font-medium text-white backdrop-blur-sm">
           {port.region}
         </span>
       </DestinationHeroBand>

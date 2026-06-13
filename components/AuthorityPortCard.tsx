@@ -18,6 +18,7 @@ export function AuthorityPortCard({ port, description, bestFor }: AuthorityPortC
         subtitle={port.country}
         eyebrow={bestFor}
         heightClass="h-40 sm:h-44"
+        portSlug={port.slug}
       />
       <div className="flex flex-1 flex-col p-5 sm:p-6">
         <p className="text-xs font-medium text-gray-500">Why we recommend it</p>

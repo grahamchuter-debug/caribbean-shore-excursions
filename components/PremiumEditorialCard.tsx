@@ -17,6 +17,8 @@ interface PremiumEditorialCardProps {
   href?: string;
   featured?: boolean;
   className?: string;
+  /** Port slug for specialist-site hero photography */
+  portSlug?: string;
 }
 
 export function PremiumEditorialCard({
@@ -29,6 +31,7 @@ export function PremiumEditorialCard({
   href,
   featured = false,
   className = "",
+  portSlug,
 }: PremiumEditorialCardProps) {
   const heightClass = featured ? "h-44 sm:h-52" : "h-36 sm:h-40";
 
@@ -41,6 +44,7 @@ export function PremiumEditorialCard({
         subtitle={subtitle}
         eyebrow={eyebrow}
         heightClass={heightClass}
+        portSlug={portSlug}
       />
 
       <div className={`flex flex-1 flex-col ${featured ? "gap-4 p-5 sm:p-6" : "gap-3 p-4 sm:p-5"}`}>

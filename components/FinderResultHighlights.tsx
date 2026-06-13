@@ -5,6 +5,7 @@ import type {
   FinderHiddenGemHighlight,
 } from "@/lib/excursion-finder-engine";
 import { PremiumEditorialCard } from "@/components/PremiumEditorialCard";
+import { EXCURSION_THEME_HERO_PORT } from "@/lib/port-hero-images";
 
 interface FinderResultHighlightsProps {
   bestPort: FinderBestPortHighlight | null;
@@ -29,6 +30,7 @@ export function FinderResultHighlights({
             imageTheme: bestPort.imageTheme,
             imageLabel: `${bestPort.name} cruise port`,
             href: `/ports/${bestPort.slug}`,
+            portSlug: bestPort.slug,
             details: [
               { label: "Why we recommend it", value: bestPort.whyItStandsOut },
               { label: "Best excursion", value: bestPort.excursion },
@@ -46,6 +48,7 @@ export function FinderResultHighlights({
             title: bestExcursionType.type,
             imageTheme: bestExcursionType.imageTheme,
             imageLabel: `${bestExcursionType.type} excursions`,
+            portSlug: EXCURSION_THEME_HERO_PORT[bestExcursionType.imageTheme],
             details: [
               { label: "Why passengers love it", value: bestExcursionType.whyPassengersLoveIt },
               { label: "Typical duration", value: bestExcursionType.typicalDuration },
@@ -65,6 +68,7 @@ export function FinderResultHighlights({
             imageTheme: hiddenGem.imageTheme,
             imageLabel: `${hiddenGem.name} hidden gem port`,
             href: `/ports/${hiddenGem.slug}`,
+            portSlug: hiddenGem.slug,
             details: [
               { label: "Why most cruisers miss it", value: hiddenGem.whyMostMissIt },
               { label: "What makes it special", value: hiddenGem.whatMakesSpecial },
