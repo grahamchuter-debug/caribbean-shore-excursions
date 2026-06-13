@@ -38,11 +38,20 @@ const checkedTargets = new Map();
 const specialistUrls = loadSpecialistUrls();
 
 function loadSpecialistUrls() {
-  const portsPath = path.join(ROOT, "data", "ports.ts");
-  if (!fs.existsSync(portsPath)) return [];
+  const files = [
+    path.join(ROOT, "data", "ports.ts"),
+    path.join(ROOT, "data", "additional-ports.ts"),
+  ];
+  const urls = [];
 
-  const content = fs.readFileSync(portsPath, "utf8");
-  const urls = [...content.matchAll(/specialistUrl:\s*"(https?:\/\/[^"]+)"/g)].map((m) => m[1]);
+  for (const filePath of files) {
+    if (!fs.existsSync(filePath)) continue;
+    const content = fs.readFileSync(filePath, "utf8");
+    urls.push(
+      ...[...content.matchAll(/specialistUrl:\s*"(https?:\/\/[^"]+)"/g)].map((m) => m[1]),
+    );
+  }
+
   return [...new Set(urls)];
 }
 
@@ -452,7 +461,7 @@ async function main() {
 
   for (const specialist of specialistUrls) {
     verificationJobs.push({
-      source: "data/ports.ts (specialistUrl)",
+      source: "data/ports.ts or data/additional-ports.ts (specialistUrl)",
       link: specialist,
       type: "external",
     });

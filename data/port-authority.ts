@@ -195,7 +195,7 @@ const authority: Record<string, PortAuthorityContent> = {
   roatan: {
     seoTitle: "Roatán Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "Roatán authority guide to West Bay Beach, reef snorkeling, zip-lines, family eco-tours, private options and roatan-excursion-planner.com.",
+      "Roatán authority guide to West Bay Beach, reef snorkeling, zip-lines, family eco-tours, private options and roatanexcursionplanner.com.",
     whyVisit: [
       "Mesoamerican Barrier Reef snorkeling rivals Cozumel at lower prices",
       "West Bay Beach is one of the Caribbean's best-value white-sand beaches",
@@ -233,7 +233,7 @@ const authority: Record<string, PortAuthorityContent> = {
   "st-maarten": {
     seoTitle: "St. Maarten Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "St. Maarten cruise port guide to Maho Beach, Orient Bay, catamaran sails, dual-nation tours, private options and stmaartenshoreexcursions.com.",
+      "St. Maarten cruise port guide to Maho Beach, Orient Bay, catamaran sails, dual-nation tours, private options and stmaartenshoreexcursion.com.",
     whyVisit: [
       "Dual Dutch-French nation culture in a compact 37-square-mile island",
       "Maho Beach plane spotting is a bucket-list Caribbean experience",
@@ -347,7 +347,7 @@ const authority: Record<string, PortAuthorityContent> = {
   "puerto-limon": {
     seoTitle: "Puerto Limón Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "Puerto Limón cruise port authority guide to sloth sanctuaries, Veragua rainforest, Cahuita snorkel, family wildlife tours, private options and puertolimonshoreexcursions.com.",
+      "Puerto Limón cruise port authority guide to sloth sanctuaries, Veragua rainforest, Cahuita snorkel, family wildlife tours, private options and puertolimonshoreexcursion.com.",
     whyVisit: [
       "Costa Rica's Caribbean coast delivers sloth, monkey, and tropical bird encounters in primary rainforest",
       "Veragua Rainforest Park aerial tram and zip-lines suit active adventure seekers",
@@ -385,7 +385,7 @@ const authority: Record<string, PortAuthorityContent> = {
   curacao: {
     seoTitle: "Curaçao Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "Curaçao cruise port authority guide to Willemstad culture, reef diving, snorkeling, family tours, private options and curacaoshoreexcursions.com.",
+      "Curaçao cruise port authority guide to Willemstad culture, reef diving, snorkeling, family tours, private options and curacaocruiseexcursions.com.",
     whyVisit: [
       "UNESCO-listed Willemstad waterfront is walkable directly from the cruise pier",
       "Superior diving and snorkeling at Tugboat Beach, Director's Bay, and Playa Kalki",

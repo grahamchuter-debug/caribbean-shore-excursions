@@ -80,7 +80,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
   progreso: {
     seoTitle: "Progreso Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "Progreso Yucatán cruise port authority guide to Mérida, Uxmal ruins, Celestún flamingos, pier logistics and progresoshoreexcursions.com.",
+      "Progreso Yucatán cruise port authority guide to Mérida, Uxmal ruins, Celestún flamingos, pier logistics and progresoshoreexcursion.com.",
     whyVisit: [
       "Gateway to colonial Mérida, one of Mexico's most walkable historic cities",
       "Uxmal Mayan ruins with ornate Puuc architecture and fewer crowds",

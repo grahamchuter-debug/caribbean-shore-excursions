@@ -184,7 +184,7 @@ export const ports: Port[] = [
       { name: "Hato Caves", description: "Limestone caverns with indigenous petroglyphs.", distance: "15 min by taxi" },
       { name: "Christoffelberg", description: "Highest peak with hiking trails and panoramic views.", distance: "45 min by taxi" },
     ],
-    specialistUrl: "https://curacaoshoreexcursions.com",
+    specialistUrl: "https://curacaocruiseexcursions.com",
     specialistName: "Curaçao Shore Excursions",
     faqs: [
       { question: "Is Curaçao better for beaches or culture?", answer: "Curaçao excels at culture, diving, and Willemstad exploration. Beaches are good but smaller and less impressive than Aruba's Eagle Beach." },
@@ -280,7 +280,7 @@ export const ports: Port[] = [
       { name: "Philipsburg", description: "Dutch capital with Front Street shopping.", distance: "Water taxi or walk" },
       { name: "Grand Case", description: "French side dining capital known as the gastronomic capital.", distance: "30 min by taxi" },
     ],
-    specialistUrl: "https://stmaartenshoreexcursions.com",
+    specialistUrl: "https://stmaartenshoreexcursion.com",
     specialistName: "St. Maarten Shore Excursions",
     faqs: [
       { question: "Can I visit both sides of St. Maarten in one day?", answer: "Yes. The island is only 37 square miles with no border controls. Many excursions cover both Dutch and French sides." },
@@ -376,7 +376,7 @@ export const ports: Port[] = [
       { name: "West End", description: "Laid-back village with snorkeling and dining.", distance: "25 min by taxi" },
       { name: "Carambola Gardens", description: "Botanical gardens with nature trails.", distance: "20 min by taxi" },
     ],
-    specialistUrl: "https://roatan-excursion-planner.com",
+    specialistUrl: "https://roatanexcursionplanner.com",
     specialistName: "Roatán Excursion Planner",
     faqs: [
       { question: "Is Roatán good for snorkeling?", answer: "Roatán offers exceptional reef snorkeling along the Mesoamerican Barrier Reef, often compared favorably to Cozumel with fewer crowds." },
@@ -472,7 +472,7 @@ export const ports: Port[] = [
       { name: "Cahuita National Park", description: "Protected reef snorkel and Caribbean beach on the southern coast.", distance: "45 min by coach" },
       { name: "Limón Historic District", description: "Caribbean architecture and Afro-Costa Rican cultural heritage.", distance: "10 min by taxi" },
     ],
-    specialistUrl: "https://puertolimonshoreexcursions.com",
+    specialistUrl: "https://puertolimonshoreexcursion.com",
     specialistName: "Puerto Limón Shore Excursions",
     faqs: [
       { question: "Do cruise ships tender in Puerto Limón?", answer: "No. Cruise ships dock at the Limón Cruise Terminal pier. Tender boats are not required for standard cruise vessel calls." },

@@ -135,7 +135,7 @@ export const additionalPorts: Port[] = [
       { name: "Celestún Biosphere", description: "Flamingo and mangrove boat tours.", distance: "90 min by coach" },
       { name: "Progreso Malecón", description: "Gulf waterfront promenade and beach access.", distance: "Shuttle from pier" },
     ],
-    specialistUrl: "https://progresoshoreexcursions.com",
+    specialistUrl: "https://progresoshoreexcursion.com",
     specialistName: "Progreso Shore Excursions",
     faqs: [
       { question: "Is Progreso better than Cozumel for snorkeling?", answer: "No. Cozumel offers world-class reef snorkeling. Progreso suits passengers who want Mérida culture, Uxmal ruins, or Celestún flamingos instead of reef dives." },
