@@ -1,26 +1,32 @@
 {
-  "lastRun": "2026-06-13T11:11:48.142Z",
-  "blockedUntil": "2026-06-13T19:11:48.853Z",
+  "lastRun": "2026-06-13T17:43:49.225Z",
+  "blockedUntil": null,
   "ports": {
     "ocho-rios": {
       "lastFetch": "2026-06-13T10:56:15.814Z",
       "lastFetchUrl": "https://www.cruisetimetables.com/visitingochoriosjamaica-nov2026.html",
       "lastImport": "2026-06-13T10:56:27.896Z",
-      "importEntryCount": 89
+      "importEntryCount": 156
     },
     "st-thomas": {
       "lastFetch": "2026-06-13T10:59:27.900Z",
       "lastFetchUrl": "https://www.cruisetimetables.com/visitingstthomasusvirginislands-dec2027.html",
       "lastImport": "2026-06-13T10:59:39.973Z",
-      "importEntryCount": 108
+      "importEntryCount": 506
     },
     "tortola": {
       "lastFetch": "2026-06-13T11:07:04.682Z",
-      "lastFetchUrl": "https://www.cruisetimetables.com/visitingtortolabritishvirginislands-jan2027.html?offset=71"
+      "lastFetchUrl": "https://www.cruisetimetables.com/visitingtortolabritishvirginislands-jan2027.html?offset=71",
+      "lastImport": "2026-06-13T11:11:48.142Z",
+      "importEntryCount": 522
+    },
+    "st-kitts": {
+      "lastImport": "2026-06-13T11:11:48.142Z",
+      "importEntryCount": 59
     },
     "cozumel": {
-      "lastFetch": "2026-06-13T11:08:40.108Z",
-      "lastFetchUrl": "https://www.cruisetimetables.com/visitingcozumelmexico-nov2026.html"
+      "lastFetch": "2026-06-13T17:48:49.013Z",
+      "lastFetchUrl": "https://www.cruisetimetables.com/visitingcozumelmexico-jan2027.html?offset=11"
     }
   }
 }
