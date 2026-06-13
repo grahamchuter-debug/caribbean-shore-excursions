@@ -21,9 +21,8 @@ import {
   getOverallMatchTier,
   type ExcursionFinderResult,
 } from "@/lib/excursion-finder-engine";
-import { CruiseConfidenceBadge } from "@/components/CruiseConfidenceBadge";
-import { CruiseConfidenceCard } from "@/components/CruiseConfidenceCard";
-import { CruiseConfidenceLabels } from "@/components/CruiseConfidenceLabels";
+import { FinderResultHighlights } from "@/components/FinderResultHighlights";
+import { FinderPortPlanCard } from "@/components/FinderPortPlanCard";
 import {
   buildCombinedCruisePlannerFromFinderContext,
   buildCruiseDayPlanFromFinderContext,
@@ -32,7 +31,6 @@ import {
 import { resolveItineraryPorts } from "@/lib/finder-itinerary-ports";
 import { CombinedCruisePlannerDownloadButton } from "@/components/CombinedCruisePlannerDownloadButton";
 import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadButton";
-import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 import { MatchReasonsPanel } from "@/components/MatchReasonsPanel";
 import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
 
@@ -421,51 +419,41 @@ export function CaribbeanExcursionFinder({
       )}
 
       {result && (
-        <section id="caribbean-excursion-results" className="space-y-6">
-          <div className="rounded-2xl border border-caribbean-200 bg-white p-6 shadow-sm">
-            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-caribbean-600">
-              Caribbean Cruise Match
-            </p>
-            <div className="mt-3 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
-              <div>
-                <span
-                  className={`inline-flex rounded-full px-3 py-1 text-sm font-semibold ${getMatchTierStyles(result.matchLabel)}`}
-                >
-                  {result.matchLabel}
-                </span>
-                <p className="mt-3 font-display text-4xl font-bold text-caribbean-800 sm:text-5xl">
-                  {result.matchScore}
-                  <span className="text-2xl text-gray-500">/100</span>
-                </p>
-                <p className="mt-2 max-w-2xl text-gray-700">{result.summaryLine}</p>
-                <MatchReasonsPanel
-                  matchLabel={result.matchLabel}
-                  reasons={result.overallMatchReasons}
-                  className="mt-4 max-w-2xl"
-                />
+        <section id="caribbean-excursion-results" className="space-y-8">
+          <div className="overflow-hidden rounded-2xl border border-caribbean-200/80 bg-white shadow-lg">
+            <div className="bg-gradient-to-br from-caribbean-800 via-caribbean-700 to-caribbean-900 px-6 py-8 sm:px-8 sm:py-10">
+              <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-caribbean-100">
+                Your Caribbean cruise match
+              </p>
+              <div className="mt-4 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+                <div>
+                  <span
+                    className={`inline-flex rounded-full px-3 py-1 text-sm font-semibold shadow-sm ${getMatchTierStyles(result.matchLabel)}`}
+                  >
+                    {result.matchLabel}
+                  </span>
+                  <p className="mt-4 font-display text-4xl font-bold text-white sm:text-5xl">
+                    {result.matchScore}
+                    <span className="text-2xl font-normal text-caribbean-100">/100</span>
+                  </p>
+                  <p className="mt-3 max-w-2xl text-base leading-relaxed text-caribbean-50">
+                    {result.summaryLine}
+                  </p>
+                </div>
               </div>
-              <div className="grid gap-3 sm:grid-cols-3">
-                {result.bestPort && (
-                  <div className="rounded-xl bg-caribbean-50 p-4">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">Best port</p>
-                    <p className="mt-1 font-semibold text-gray-900">{result.bestPort.name}</p>
-                    <p className="text-sm text-gray-600">{result.bestPort.excursion}</p>
-                  </div>
-                )}
-                {result.bestExcursionType && (
-                  <div className="rounded-xl bg-caribbean-50 p-4">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">Top excursion type</p>
-                    <p className="mt-1 font-semibold text-gray-900">{result.bestExcursionType}</p>
-                  </div>
-                )}
-                {result.hiddenGem && (
-                  <div className="rounded-xl bg-tropical-sand/50 p-4">
-                    <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">Hidden gem</p>
-                    <p className="mt-1 font-semibold text-gray-900">{result.hiddenGem.name}</p>
-                    <p className="text-sm text-gray-600">{result.hiddenGem.excursion}</p>
-                  </div>
-                )}
-              </div>
+            </div>
+
+            <div className="space-y-6 p-6 sm:p-8">
+              <MatchReasonsPanel
+                matchLabel={result.matchLabel}
+                reasons={result.overallMatchReasons}
+                className="max-w-3xl"
+              />
+              <FinderResultHighlights
+                bestPort={result.bestPort}
+                bestExcursionType={result.bestExcursionType}
+                hiddenGem={result.hiddenGem}
+              />
             </div>
           </div>
 
@@ -547,9 +535,8 @@ export function CaribbeanExcursionFinder({
             </details>
           </div>
 
-          <div className="space-y-4">
+          <div className="space-y-6">
             {result.portPlans.map((plan) => {
-              const matchStyles = getMatchTierStyles(plan.portMatchLabel);
               const dayPlanPdf = featuredFinderPortSlugs.includes(plan.portSlug)
                 ? buildCruiseDayPlanFromFinderContext({
                     portSlug: plan.portSlug,
@@ -559,106 +546,26 @@ export function CaribbeanExcursionFinder({
                     sailingYear: sailingYear === "" ? undefined : sailingYear,
                   })
                 : null;
+
               return (
-                <article
+                <FinderPortPlanCard
                   key={plan.portSlug}
-                  className="overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm"
-                >
-                  <div className="border-b border-gray-100 bg-card-gradient px-5 py-4 sm:px-6">
-                    <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
-                      <div>
-                        <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">
-                          {plan.region}
-                        </p>
-                        <h3 className="font-display text-xl font-bold text-gray-900">{plan.portName}</h3>
-                        <p className="text-sm text-gray-600">{plan.bestFor}</p>
-                      </div>
-                      <div className="flex flex-wrap items-center gap-2">
-                        <span className={`rounded-full px-3 py-1 text-xs font-semibold ${matchStyles}`}>
-                          {plan.portMatchLabel}
-                        </span>
-                        <CruiseConfidenceBadge level={plan.cruiseConfidence.level} />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="grid gap-5 p-5 sm:grid-cols-2 sm:p-6">
-                    <div className="rounded-xl border border-caribbean-100 bg-white p-4">
-                      <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">
-                        Recommended excursion
-                      </p>
-                      <h4 className="mt-2 font-display text-lg font-bold text-gray-900">{plan.recommended.name}</h4>
-                      <p className="mt-2 text-sm text-gray-600">{plan.recommended.description}</p>
-                      <div className="mt-3 flex flex-wrap gap-2 text-xs">
-                        <span className="rounded-full bg-caribbean-50 px-2.5 py-1 font-medium text-caribbean-700">
-                          {plan.recommended.duration}
-                        </span>
-                        <span className="rounded-full bg-gray-100 px-2.5 py-1 font-medium text-gray-700">
-                          {plan.recommended.type}
-                        </span>
-                      </div>
-                      <p className="mt-3 text-xs text-gray-500">{plan.recommended.matchReason}</p>
-                      <CruiseConfidenceLabels labels={plan.supportingLabels} className="mt-3" compact />
-                      <MatchReasonsPanel
-                        matchLabel={plan.portMatchLabel}
-                        reasons={plan.matchReasons}
-                        className="mt-4"
-                      />
-                      {plan.alternate && (
-                        <p className="mt-3 text-sm text-gray-600">
-                          <span className="font-medium text-gray-800">Alternate:</span> {plan.alternate.name}
-                        </p>
+                  plan={plan}
+                  dayPlanActions={
+                    <>
+                      {dayPlanPdf ? (
+                        <CruiseDayPlanDownloadButton plan={dayPlanPdf} className="btn-secondary text-xs" />
+                      ) : (
+                        <Link
+                          href={getCruiseDayPlanDownloadUrl({ portSlug: plan.portSlug })}
+                          className="btn-secondary text-xs"
+                        >
+                          Download PDF
+                        </Link>
                       )}
-                      <div className="mt-3 flex flex-wrap gap-2">
-                        {plan.bestForTags.map((tag) => (
-                          <span
-                            key={tag}
-                            className="rounded-full border border-caribbean-100 px-2.5 py-1 text-xs text-caribbean-700"
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                      <ExcursionCardCTAs
-                        portSlug={plan.portSlug}
-                        excursionType={plan.recommended.type}
-                        text={`${plan.recommended.name} ${plan.recommended.description}`}
-                      />
-                    </div>
-
-                    <div className="space-y-4">
-                      <CruiseConfidenceCard assessment={plan.cruiseConfidence} showDisclaimer={false} />
-                      <div className="rounded-xl border border-gray-100 bg-gray-50 p-4">
-                        <p className="text-xs font-semibold uppercase tracking-wide text-gray-500">Port day outline</p>
-                        <ul className="mt-3 space-y-2">
-                          {plan.dayPlan.map((step) => (
-                            <li key={step} className="text-sm text-gray-700">
-                              {step}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                      <p className="text-xs text-gray-500">
-                        Planning guidance only — confirm all-aboard times with your cruise line and excursion operator.
-                      </p>
-                      <div className="flex flex-wrap gap-2">
-                        {dayPlanPdf ? (
-                          <CruiseDayPlanDownloadButton
-                            plan={dayPlanPdf}
-                            className="btn-secondary text-xs"
-                          />
-                        ) : (
-                          <Link
-                            href={getCruiseDayPlanDownloadUrl({ portSlug: plan.portSlug })}
-                            className="btn-secondary text-xs"
-                          >
-                            Download PDF
-                          </Link>
-                        )}
-                      </div>
-                    </div>
-                  </div>
-                </article>
+                    </>
+                  }
+                />
               );
             })}
           </div>

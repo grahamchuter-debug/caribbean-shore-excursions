@@ -12,6 +12,7 @@ import {
 import { hasShipSchedule } from "@/lib/routes";
 import { evaluatePortConfidence, formatConfidenceTitle } from "@/lib/cruise-confidence";
 import { CruiseConfidenceCard } from "@/components/CruiseConfidenceCard";
+import { getThemeStyle } from "@/lib/port-themes";
 
 const cardToneClasses: Record<string, string> = {
   sand: "from-amber-50 to-orange-50 border-amber-200",
@@ -38,9 +39,9 @@ const activityTierClasses: Record<PortActivityTier, string> = {
 
 function SnapshotItem({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-lg bg-white/90 px-3 py-3 border border-white shadow-sm">
-      <dt className="text-xs font-semibold uppercase tracking-wide text-gray-500">{label}</dt>
-      <dd className="mt-1 text-sm font-medium text-gray-900">{value}</dd>
+    <div className="rounded-xl border border-caribbean-100/80 bg-white px-4 py-3.5 shadow-sm">
+      <dt className="text-[10px] font-bold uppercase tracking-[0.16em] text-caribbean-700">{label}</dt>
+      <dd className="mt-1.5 text-sm font-medium leading-relaxed text-gray-800">{value}</dd>
     </div>
   );
 }
@@ -59,6 +60,7 @@ export function PortPlanningToolkit({ port }: { port: Port }) {
   const popularity = getPortPopularityStats(port.slug);
   const similarPorts = getSimilarPorts(port.slug);
   const portConfidence = evaluatePortConfidence(port.slug);
+  const portTheme = getThemeStyle(port.imageTheme);
 
   if (!snapshot) return null;
 
@@ -87,17 +89,31 @@ export function PortPlanningToolkit({ port }: { port: Port }) {
       <CruiseConfidenceCard assessment={portConfidence} className="mb-2" />
 
       <div className="grid gap-6 lg:grid-cols-5">
-        <section className="lg:col-span-3 rounded-2xl border border-caribbean-200 bg-gradient-to-br from-caribbean-50 via-white to-tropical-sand/30 p-5 sm:p-6">
-          <h3 className="font-display text-xl font-bold text-gray-900">Cruise Passenger Snapshot</h3>
-          <p className="mt-1 text-sm text-gray-600">Six signals to decide how to spend your day ashore.</p>
-          <dl className="mt-4 grid gap-3 sm:grid-cols-2">
-            <SnapshotItem label="Time in Port" value={snapshot.timeInPort} />
-            <SnapshotItem label="Best For" value={snapshot.bestFor} />
-            <SnapshotItem label="Walking Required" value={snapshot.walkingRequired} />
-            <SnapshotItem label="Family Friendly" value={snapshot.familyFriendly} />
-            <SnapshotItem label="Private Tour Friendly" value={snapshot.privateTourFriendly} />
-            <SnapshotItem label="Cruise Confidence" value={formatConfidenceTitle(portConfidence.level)} />
-          </dl>
+        <section className="lg:col-span-3 overflow-hidden rounded-2xl border border-caribbean-100/80 bg-white shadow-md">
+          <div
+            className={`relative h-28 bg-gradient-to-br sm:h-32 ${portTheme.gradient}`}
+            role="img"
+            aria-label={port.imageAlt}
+          >
+            <div className="absolute inset-0 bg-gradient-to-t from-caribbean-950/70 via-transparent to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 p-5">
+              <p className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/85">
+                Cruise passenger snapshot
+              </p>
+              <h3 className="font-display text-xl font-bold text-white sm:text-2xl">{port.name}</h3>
+            </div>
+          </div>
+          <div className="p-5 sm:p-6">
+            <p className="text-sm text-gray-600">Six signals to decide how to spend your day ashore.</p>
+            <dl className="mt-4 grid gap-3 sm:grid-cols-2">
+              <SnapshotItem label="Time in Port" value={snapshot.timeInPort} />
+              <SnapshotItem label="Best For" value={snapshot.bestFor} />
+              <SnapshotItem label="Walking Required" value={snapshot.walkingRequired} />
+              <SnapshotItem label="Family Friendly" value={snapshot.familyFriendly} />
+              <SnapshotItem label="Private Tour Friendly" value={snapshot.privateTourFriendly} />
+              <SnapshotItem label="Cruise Confidence" value={formatConfidenceTitle(portConfidence.level)} />
+            </dl>
+          </div>
         </section>
 
         {typicalDay.length > 0 && (
@@ -236,11 +252,19 @@ export function PortPlanningToolkit({ port }: { port: Port }) {
                     <Link
                       key={similar.slug}
                       href={`/ports/${similar.slug}`}
-                      className="card-gradient block hover:border-caribbean-300"
+                      className="group block overflow-hidden rounded-xl border border-caribbean-100/80 bg-white shadow-sm transition-all hover:shadow-md"
                     >
-                      <h4 className="font-semibold text-gray-900">{similar.name}</h4>
-                      <p className="text-xs text-gray-500 mt-0.5">{similar.region}</p>
-                      <p className="text-sm text-gray-600 mt-2 line-clamp-2">{similar.bestFor}</p>
+                      <div
+                        className={`h-16 bg-gradient-to-br ${getThemeStyle(similar.imageTheme).gradient}`}
+                        aria-hidden
+                      />
+                      <div className="p-4">
+                        <h4 className="font-display font-semibold text-gray-900 group-hover:text-caribbean-700">
+                          {similar.name}
+                        </h4>
+                        <p className="text-xs text-gray-500 mt-0.5">{similar.region}</p>
+                        <p className="text-sm text-gray-600 mt-2 line-clamp-2">{similar.bestFor}</p>
+                      </div>
                     </Link>
                   ),
               )}

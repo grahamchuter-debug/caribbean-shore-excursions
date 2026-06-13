@@ -13,9 +13,12 @@ import {
   evaluateCruiseConfidence,
   getConfidenceStyles,
   parseDurationHours,
+  CRUISE_CONFIDENCE_LABELS,
   type CruiseConfidenceAssessment,
   type ReturnConfidence,
 } from "@/lib/cruise-confidence";
+import { excursionTypeImageTheme } from "@/lib/port-themes";
+import type { PortImageTheme } from "@/data/types";
 import type {
   FitnessLevel,
   TimeInPort,
@@ -62,13 +65,39 @@ export interface PortExcursionPlan {
   portMatchLabel: MatchTier;
 }
 
+export interface FinderBestPortHighlight {
+  slug: string;
+  name: string;
+  excursion: string;
+  whyItStandsOut: string;
+  cruisePassengerFit: string;
+  imageTheme: PortImageTheme;
+}
+
+export interface FinderHiddenGemHighlight {
+  slug: string;
+  name: string;
+  excursion: string;
+  whyMostMissIt: string;
+  whatMakesSpecial: string;
+  imageTheme: PortImageTheme;
+}
+
+export interface FinderExcursionTypeHighlight {
+  type: string;
+  whyPassengersLoveIt: string;
+  typicalDuration: string;
+  bestTravellerType: string;
+  imageTheme: PortImageTheme;
+}
+
 export interface ExcursionFinderResult {
   matchScore: number;
   matchLabel: MatchTier;
   overallMatchReasons: string[];
-  bestPort: { slug: string; name: string; excursion: string } | null;
-  bestExcursionType: string | null;
-  hiddenGem: { slug: string; name: string; excursion: string } | null;
+  bestPort: FinderBestPortHighlight | null;
+  bestExcursionType: FinderExcursionTypeHighlight | null;
+  hiddenGem: FinderHiddenGemHighlight | null;
   portPlans: PortExcursionPlan[];
   summaryLine: string;
 }
@@ -501,6 +530,61 @@ export function buildMatchReasons(options: {
   return reasons.slice(0, 4);
 }
 
+function buildPassengerFitLine(plan: PortExcursionPlan): string {
+  if (plan.supportingLabels.length > 0) {
+    return plan.supportingLabels
+      .slice(0, 2)
+      .map((id) => CRUISE_CONFIDENCE_LABELS[id].label)
+      .join(" · ");
+  }
+  return `${plan.cruiseConfidence.title} — ${plan.bestFor}`;
+}
+
+function buildBestPortHighlight(plan: PortExcursionPlan): FinderBestPortHighlight {
+  const port = getPortBySlug(plan.portSlug);
+  return {
+    slug: plan.portSlug,
+    name: plan.portName,
+    excursion: plan.recommended.name,
+    whyItStandsOut: port?.tagline ?? plan.bestFor,
+    cruisePassengerFit: buildPassengerFitLine(plan),
+    imageTheme: port?.imageTheme ?? "beach",
+  };
+}
+
+function buildHiddenGemHighlight(plan: PortExcursionPlan): FinderHiddenGemHighlight {
+  const port = getPortBySlug(plan.portSlug);
+  return {
+    slug: plan.portSlug,
+    name: plan.portName,
+    excursion: plan.recommended.name,
+    whyMostMissIt: `Often overshadowed by headline Caribbean hubs — ${plan.portName} rewards passengers who look beyond the obvious port-day picks.`,
+    whatMakesSpecial:
+      plan.recommended.description.length > 40
+        ? plan.recommended.description
+        : (port?.overview.split(". ")[0] ?? plan.bestFor) + ".",
+    imageTheme: port?.imageTheme ?? "viewpoint",
+  };
+}
+
+function buildExcursionTypeHighlight(
+  type: string,
+  portPlans: PortExcursionPlan[],
+  travellerTypes: TravellerTypeId[],
+): FinderExcursionTypeHighlight {
+  const matching = portPlans.filter((plan) => plan.recommended.type === type);
+  const travellerLabel =
+    travellerTypes.map((id) => travellerTypeLabels[id]).slice(0, 2).join(" & ") || "Cruise passengers";
+
+  return {
+    type,
+    whyPassengersLoveIt: `The most repeated experience style across your itinerary — ideal for passengers who want a consistent ${type.toLowerCase()} rhythm from port to port.`,
+    typicalDuration: matching[0]?.recommended.duration ?? "4–5 hours",
+    bestTravellerType: travellerLabel,
+    imageTheme: excursionTypeImageTheme(type),
+  };
+}
+
 function buildOverallMatchReasons(
   input: ExcursionFinderInput,
   portPlans: PortExcursionPlan[],
@@ -629,7 +713,7 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
   for (const plan of portPlans) {
     excursionTypeCounts.set(plan.recommended.type, (excursionTypeCounts.get(plan.recommended.type) ?? 0) + 1);
   }
-  const bestExcursionType = [...excursionTypeCounts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] ?? null;
+  const bestExcursionTypeEntry = [...excursionTypeCounts.entries()].sort((a, b) => b[1] - a[1])[0];
 
   const travellerSummary = input.travellerTypes
     .map((id) => travellerTypeLabels[id])
@@ -640,17 +724,11 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
     matchScore,
     matchLabel: getOverallMatchTier(matchScore),
     overallMatchReasons: buildOverallMatchReasons(input, portPlans, matchScore),
-    bestPort: best
-      ? { slug: best.portSlug, name: best.portName, excursion: best.recommended.name }
+    bestPort: best ? buildBestPortHighlight(best) : null,
+    bestExcursionType: bestExcursionTypeEntry
+      ? buildExcursionTypeHighlight(bestExcursionTypeEntry[0], portPlans, input.travellerTypes)
       : null,
-    bestExcursionType,
-    hiddenGem: hiddenGemPlan
-      ? {
-          slug: hiddenGemPlan.portSlug,
-          name: hiddenGemPlan.portName,
-          excursion: hiddenGemPlan.recommended.name,
-        }
-      : null,
+    hiddenGem: hiddenGemPlan ? buildHiddenGemHighlight(hiddenGemPlan) : null,
     portPlans,
     summaryLine: `${matchScore}/100 Caribbean Cruise Match for ${uniquePorts.length} port${uniquePorts.length === 1 ? "" : "s"}, optimised for ${travellerSummary}.`,
   };

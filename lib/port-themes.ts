@@ -41,3 +41,15 @@ export const themeStyles: Record<
 export function getThemeStyle(theme: PortImageTheme) {
   return themeStyles[theme];
 }
+
+export function excursionTypeImageTheme(type: string): PortImageTheme {
+  const lower = type.toLowerCase();
+  if (/beach|sand|club/.test(lower)) return "beach";
+  if (/snorkel|reef|dive/.test(lower)) return "snorkel";
+  if (/rainforest|falls|hike|zip|adventure|nature/.test(lower)) return "rainforest";
+  if (/fort|history|culture|ruin/.test(lower)) return "fortress";
+  if (/wildlife|turtle|stingray|dolphin/.test(lower)) return "wildlife";
+  if (/catamaran|sail|boat|cruise/.test(lower)) return "catamaran";
+  if (/town|shopping|city/.test(lower)) return "town";
+  return "beach";
+}

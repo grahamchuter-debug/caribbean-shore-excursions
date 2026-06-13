@@ -8,6 +8,9 @@ import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 import { evaluatePortConfidence } from "@/lib/cruise-confidence";
 import { CruiseConfidenceBadge } from "@/components/CruiseConfidenceBadge";
 import { CruiseConfidenceLabels } from "@/components/CruiseConfidenceLabels";
+import { getPortBySlug } from "@/data/ports";
+import { excursionTypeImageTheme } from "@/lib/port-themes";
+import { PremiumEditorialCard } from "@/components/PremiumEditorialCard";
 
 function CategoryImagePlaceholder({ type }: { type: ExcursionType }) {
   const alt = type.categoryImage?.alt ?? `${type.name} category image`;
@@ -66,29 +69,44 @@ export function ExcursionTypePageView({
               <p className="section-subtitle mb-6">
                 Signature {type.name.toLowerCase()} at top cruise ports — with direct routes to book through local specialists.
               </p>
-              <div className="space-y-5">
+              <div className="grid gap-5 lg:grid-cols-2">
                 {type.recommendedByPort.map((port) => {
                   const confidence = evaluatePortConfidence(port.portSlug);
+                  const portData = getPortBySlug(port.portSlug);
+                  const imageTheme =
+                    portData?.imageTheme ?? excursionTypeImageTheme(type.name);
                   return (
-                  <div key={port.portSlug} className="card-gradient overflow-hidden">
-                    <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
-                      <div>
-                        <div className="flex flex-wrap items-center gap-2">
-                          <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">
-                            {port.portName}
-                          </p>
+                    <article
+                      key={port.portSlug}
+                      className="flex h-full flex-col overflow-hidden rounded-2xl border border-caribbean-100/80 bg-white shadow-md"
+                    >
+                      <PremiumEditorialCard
+                        eyebrow={port.portName}
+                        title={port.excursions[0] ?? type.name}
+                        subtitle={
+                          port.excursions.length > 1
+                            ? `+ ${port.excursions.length - 1} more signature pick${port.excursions.length > 2 ? "s" : ""}`
+                            : `${type.name} at ${port.portName}`
+                        }
+                        imageTheme={imageTheme}
+                        imageLabel={`${type.name} at ${port.portName}`}
+                        details={[
+                          {
+                            label: "Signature picks",
+                            value: port.excursions.join(" · "),
+                          },
+                          {
+                            label: "Cruise confidence",
+                            value: confidence.title,
+                          },
+                        ]}
+                        className="flex-1 rounded-none border-0 shadow-none"
+                      />
+                      <div className="border-t border-gray-100 bg-gradient-to-b from-caribbean-50/30 to-white px-4 py-4 sm:px-5">
+                        <div className="mb-3 flex flex-wrap items-center gap-2">
                           <CruiseConfidenceBadge level={confidence.level} />
+                          <CruiseConfidenceLabels labels={confidence.supportingLabels} compact />
                         </div>
-                        <ul className="mt-3 space-y-2">
-                          {port.excursions.map((excursion) => (
-                            <li key={excursion} className="text-sm font-medium text-gray-800">
-                              {excursion}
-                            </li>
-                          ))}
-                        </ul>
-                        <CruiseConfidenceLabels labels={confidence.supportingLabels} className="mt-3" compact />
-                      </div>
-                      <div className="flex shrink-0 flex-wrap gap-2">
                         <ExcursionCardCTAs
                           portSlug={port.portSlug}
                           excursionTypeSlug={type.slug}
@@ -96,8 +114,7 @@ export function ExcursionTypePageView({
                           className="mt-0"
                         />
                       </div>
-                    </div>
-                  </div>
+                    </article>
                   );
                 })}
               </div>
