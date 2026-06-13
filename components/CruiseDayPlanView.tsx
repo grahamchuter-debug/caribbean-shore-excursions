@@ -6,6 +6,7 @@ import { getConfidenceStyles, getMatchTierStyles } from "@/lib/cruise-day-plan";
 import { getCrowdLevelStyles } from "@/lib/cruise-day-lookup";
 import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadButton";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
+import { MatchReasonsPanel } from "@/components/MatchReasonsPanel";
 import { cruiseDayPlanInterests } from "@/lib/cruise-day-plan";
 
 interface CruiseDayPlanViewProps {
@@ -105,6 +106,11 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
               <dd className="font-medium text-gray-900">{plan.recommendedExcursions.primary.matchReason}</dd>
             </div>
           </dl>
+          <MatchReasonsPanel
+            matchLabel={plan.recommendedExcursions.matchLabel}
+            reasons={plan.recommendedExcursions.matchReasons}
+            className="mt-4"
+          />
           {plan.recommendedExcursions.bestForTags.length > 0 && (
             <div className="mt-4 flex flex-wrap gap-2">
               {plan.recommendedExcursions.bestForTags.map((tag) => (

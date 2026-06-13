@@ -277,6 +277,24 @@ class CruiseDayPlanPdfBuilder {
 
     this.y += 30;
 
+    if (rec.matchReasons.length > 0) {
+      this.ensureSpace(4 + rec.matchReasons.length * 5);
+      this.doc.setFont("helvetica", "bold");
+      this.doc.setFontSize(8);
+      this.doc.setTextColor(...ACCENT_RGB);
+      this.doc.text("Why this matches", MARGIN, this.y);
+      this.y += 4;
+      this.doc.setFont("helvetica", "normal");
+      this.doc.setFontSize(7.5);
+      this.doc.setTextColor(50, 50, 50);
+      for (const reason of rec.matchReasons) {
+        const lines = this.doc.splitTextToSize(`• ${reason}`, CONTENT_WIDTH - 4);
+        this.doc.text(lines, MARGIN + 2, this.y);
+        this.y += lines.length * 3.5 + 1;
+      }
+      this.y += 2;
+    }
+
     if (rec.alternate) {
       this.addLabelValue("Alternate pick", `${rec.alternate.name} — ${rec.alternate.description}`);
     }

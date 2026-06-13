@@ -153,6 +153,7 @@ export interface CruiseDayPlanRecommendedExcursions {
   alternate?: FinderExcursionPick;
   matchScore: number;
   matchLabel: MatchTier;
+  matchReasons: string[];
   bestForTags: string[];
 }
 
@@ -427,6 +428,7 @@ export function generateCruiseDayPlan(input: CruiseDayPlanInput): CruiseDayPlan 
       alternate: portPlan?.alternate,
       matchScore: portPlan?.portMatchScore ?? 70,
       matchLabel: portPlan?.portMatchLabel ?? "Good Match",
+      matchReasons: portPlan?.matchReasons ?? [],
       bestForTags: portPlan?.bestForTags ?? [],
     },
     portInformation: {

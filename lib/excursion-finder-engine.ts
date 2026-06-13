@@ -37,6 +37,7 @@ export interface PortExcursionPlan {
   recommended: FinderExcursionPick;
   alternate?: FinderExcursionPick;
   bestForTags: string[];
+  matchReasons: string[];
   returnConfidence: ReturnConfidence;
   returnLabel: string;
   returnMessage: string;
@@ -52,6 +53,8 @@ export interface PortExcursionPlan {
 
 export interface ExcursionFinderResult {
   matchScore: number;
+  matchLabel: MatchTier;
+  overallMatchReasons: string[];
   bestPort: { slug: string; name: string; excursion: string } | null;
   bestExcursionType: string | null;
   hiddenGem: { slug: string; name: string; excursion: string } | null;
@@ -367,6 +370,133 @@ function buildDayPlan(portSlug: string, excursionName: string): string[] {
   ];
 }
 
+function isLowWalking(snapshot: ReturnType<typeof getPortPlanningSnapshot>): boolean {
+  if (!snapshot?.walkingRequired) return false;
+  const value = snapshot.walkingRequired.toLowerCase();
+  return value.includes("low") || value.includes("minimal");
+}
+
+function isFamilyFriendly(snapshot: ReturnType<typeof getPortPlanningSnapshot>): boolean {
+  if (!snapshot?.familyFriendly) return false;
+  const value = snapshot.familyFriendly.toLowerCase();
+  return value.includes("excellent") || value.includes("very good");
+}
+
+export function buildMatchReasons(options: {
+  portSlug: string;
+  travellerTypes: TravellerTypeId[];
+  fitnessLevel: FitnessLevel;
+  timeInPort: TimeInPort;
+  excursion: FinderExcursionPick;
+  returnConfidence: ReturnConfidence;
+  rawScore: number;
+}): string[] {
+  const { portSlug, travellerTypes, fitnessLevel, timeInPort, excursion, returnConfidence, rawScore } =
+    options;
+  const port = getPortBySlug(portSlug);
+  const snapshot = getPortPlanningSnapshot(portSlug);
+  const haystack = `${excursion.name} ${excursion.description} ${excursion.type}`.toLowerCase();
+  const reasons: string[] = [];
+  const seen = new Set<string>();
+
+  const add = (reason: string) => {
+    if (seen.has(reason) || reasons.length >= 4) return;
+    seen.add(reason);
+    reasons.push(reason);
+  };
+
+  for (const traveller of travellerTypes) {
+    if (traveller === "families" && (isFamilyFriendly(snapshot) || /family|beach|park|lagoon/.test(haystack))) {
+      add("Family-friendly port day with calm options and operator support");
+      break;
+    }
+  }
+
+  for (const traveller of travellerTypes) {
+    if (traveller === "first-time") {
+      add("Suitable for first-time cruisers with straightforward port logistics");
+      break;
+    }
+  }
+
+  for (const traveller of travellerTypes) {
+    const keywords = excursionTypeKeywords[traveller];
+    if (keywords.length > 0 && keywords.some((keyword) => haystack.includes(keyword))) {
+      add(`Aligned with your ${travellerTypeLabels[traveller].toLowerCase()} preferences`);
+      break;
+    }
+  }
+
+  if (isLowWalking(snapshot) && !port?.portInfo.tenderRequired) {
+    add("Short transfer times from the cruise terminal");
+  } else if (port && !port.portInfo.tenderRequired) {
+    add("Direct pier access keeps your port day simple");
+  }
+
+  if (returnConfidence === "high") {
+    add("Good return-to-ship confidence for this excursion length");
+  } else if (returnConfidence === "moderate") {
+    add("Works with a standard return buffer if timings are confirmed");
+  }
+
+  const hoursNeeded = parseDurationHours(excursion.duration);
+  const budget = timeBudgetHours(timeInPort);
+  if (hoursNeeded <= budget - 2) {
+    add("Fits comfortably within your time ashore");
+  }
+
+  const activity = inferActivityLevel(excursion.type, excursion.duration);
+  if (fitnessLevel === activity) {
+    add(`Matches your ${fitnessLevel} activity level`);
+  } else if (fitnessLevel === "easy" && activity === "moderate") {
+    add("Moderate activity with operator support for mixed fitness groups");
+  }
+
+  if (rawScore >= 0.9) {
+    add("Top-scoring excursion for your selected traveller style");
+  }
+
+  if (snapshot?.privateTourFriendly && travellerTypes.includes("private-tours")) {
+    add("Strong private-tour options through local specialists");
+  }
+
+  if (reasons.length < 3 && port?.bestFor) {
+    add(`Strong fit for ${port.bestFor.toLowerCase()} port days`);
+  }
+
+  return reasons.slice(0, 4);
+}
+
+function buildOverallMatchReasons(
+  input: ExcursionFinderInput,
+  portPlans: PortExcursionPlan[],
+  matchScore: number,
+): string[] {
+  const bestPlan = portPlans[0];
+  if (!bestPlan) return [];
+
+  const reasons = [...bestPlan.matchReasons];
+  const seen = new Set(reasons);
+
+  for (const traveller of input.travellerTypes.slice(0, 2)) {
+    const line = `Personalised for ${travellerTypeLabels[traveller].toLowerCase()}`;
+    if (!seen.has(line) && reasons.length < 4) {
+      seen.add(line);
+      reasons.push(line);
+    }
+  }
+
+  if (input.portSlugs.length > 1 && reasons.length < 4) {
+    reasons.push(`Compared across ${input.portSlugs.length} ports on your itinerary`);
+  }
+
+  if (matchScore >= 85 && reasons.length < 4) {
+    reasons.push("High overall Caribbean Cruise Match across your selections");
+  }
+
+  return reasons.slice(0, 4);
+}
+
 export function generateExcursionFinderPlan(input: ExcursionFinderInput): ExcursionFinderResult | null {
   const uniquePorts = [...new Set(input.portSlugs)].filter((slug) => getPortBySlug(slug));
   if (uniquePorts.length === 0 || input.travellerTypes.length === 0) {
@@ -398,6 +528,15 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
         recommended: pick.primary,
         alternate: pick.alternate,
         bestForTags: buildBestForTags(portSlug, input.travellerTypes, pick.primary.type),
+        matchReasons: buildMatchReasons({
+          portSlug,
+          travellerTypes: input.travellerTypes,
+          fitnessLevel: input.fitnessLevel,
+          timeInPort: input.timeInPort,
+          excursion: pick.primary,
+          returnConfidence: returnInfo.confidence,
+          rawScore: pick.score,
+        }),
         returnConfidence: returnInfo.confidence,
         returnLabel: returnInfo.label,
         returnMessage: returnInfo.message,
@@ -443,6 +582,8 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
 
   return {
     matchScore,
+    matchLabel: getOverallMatchTier(matchScore),
+    overallMatchReasons: buildOverallMatchReasons(input, portPlans, matchScore),
     bestPort: best
       ? { slug: best.portSlug, name: best.portName, excursion: best.recommended.name }
       : null,

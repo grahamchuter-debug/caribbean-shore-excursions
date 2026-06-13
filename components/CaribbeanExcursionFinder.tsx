@@ -28,6 +28,7 @@ import {
 } from "@/lib/cruise-day-plan";
 import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadButton";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
+import { MatchReasonsPanel } from "@/components/MatchReasonsPanel";
 import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
 
 type FinderVariant = "home" | "page";
@@ -376,15 +377,20 @@ export function CaribbeanExcursionFinder({
             <div className="mt-3 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
               <div>
                 <span
-                  className={`inline-flex rounded-full px-3 py-1 text-sm font-semibold ${getMatchTierStyles(getOverallMatchTier(result.matchScore))}`}
+                  className={`inline-flex rounded-full px-3 py-1 text-sm font-semibold ${getMatchTierStyles(result.matchLabel)}`}
                 >
-                  {getOverallMatchTier(result.matchScore)}
+                  {result.matchLabel}
                 </span>
                 <p className="mt-3 font-display text-4xl font-bold text-caribbean-800 sm:text-5xl">
                   {result.matchScore}
                   <span className="text-2xl text-gray-500">/100</span>
                 </p>
                 <p className="mt-2 max-w-2xl text-gray-700">{result.summaryLine}</p>
+                <MatchReasonsPanel
+                  matchLabel={result.matchLabel}
+                  reasons={result.overallMatchReasons}
+                  className="mt-4 max-w-2xl"
+                />
               </div>
               <div className="grid gap-3 sm:grid-cols-3">
                 {result.bestPort && (
@@ -495,6 +501,11 @@ export function CaribbeanExcursionFinder({
                         </span>
                       </div>
                       <p className="mt-3 text-xs text-gray-500">{plan.recommended.matchReason}</p>
+                      <MatchReasonsPanel
+                        matchLabel={plan.portMatchLabel}
+                        reasons={plan.matchReasons}
+                        className="mt-4"
+                      />
                       {plan.alternate && (
                         <p className="mt-3 text-sm text-gray-600">
                           <span className="font-medium text-gray-800">Alternate:</span> {plan.alternate.name}
