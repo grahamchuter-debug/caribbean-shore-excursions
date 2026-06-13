@@ -16,17 +16,20 @@ import { PortExcursionAuthorityTable } from "@/components/PortExcursionAuthority
 import { JsonLd } from "@/components/JsonLd";
 import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 
 function CategorySection({
   title,
   picks,
   guideSlug,
   guideLabel,
+  sectionHint,
 }: {
   title: string;
   picks: PortExcursionCategoryPick[];
   guideSlug?: string;
   guideLabel?: string;
+  sectionHint?: string;
 }) {
   return (
     <section className="mb-12">
@@ -51,21 +54,14 @@ function CategorySection({
                 <Link href={`/ports/${pick.portSlug}`} className="hover:underline">
                   {port?.name ?? pick.portSlug}
                 </Link>
-                {port && (
-                  <>
-                    {" · "}
-                    <a
-                      href={port.specialistUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="hover:underline"
-                    >
-                      Book locally
-                    </a>
-                  </>
-                )}
               </p>
               <p className="mt-2 text-gray-600 leading-relaxed text-sm">{pick.description}</p>
+              <ExcursionCardCTAs
+                portSlug={pick.portSlug}
+                sectionHint={sectionHint ?? title}
+                guideHref={guideSlug ? `/${guideSlug}` : undefined}
+                text={`${pick.excursionName} ${pick.description}`}
+              />
             </div>
           );
         })}
@@ -170,30 +166,35 @@ export function PortExcursionAuthorityPageView({ page }: { page: PortExcursionAu
             picks={page.bestBeachExcursions}
             guideSlug="best-caribbean-beach-excursions"
             guideLabel="Full beach excursions guide"
+            sectionHint="beaches"
           />
           <CategorySection
             title="Best Snorkelling Excursions"
             picks={page.bestSnorkellingExcursions}
             guideSlug="best-caribbean-snorkeling-excursions"
             guideLabel="Full snorkeling guide"
+            sectionHint="snorkeling"
           />
           <CategorySection
             title="Best Wildlife Excursions"
             picks={page.bestWildlifeExcursions}
             guideSlug="best-caribbean-wildlife-excursions"
             guideLabel="Full wildlife guide"
+            sectionHint="wildlife"
           />
           <CategorySection
             title="Best Family Excursions"
             picks={page.bestFamilyExcursions}
             guideSlug="best-caribbean-family-excursions"
             guideLabel="Full family guide"
+            sectionHint="family"
           />
           <CategorySection
             title="Best Private Excursions"
             picks={page.bestPrivateExcursions}
             guideSlug="best-caribbean-private-tours"
             guideLabel="Full private tours guide"
+            sectionHint="private"
           />
 
           <SpecialistLocalGuideSection

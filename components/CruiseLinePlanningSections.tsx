@@ -6,6 +6,7 @@ import { CARIBBEAN_HUB_PORT_SLUGS } from "@/data/cruise-line-ports";
 import { getPortBySlug } from "@/data/ports";
 import { hasShipSchedule } from "@/lib/routes";
 import { getPortGuideCount } from "@/data/content-inventory";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 
 interface CruiseLinePlanningSectionsProps {
   line: CruiseLine;
@@ -212,6 +213,13 @@ export function CruiseLinePlanningSections({
                         </Link>
                       </p>
                       <p className="mt-1 text-xs text-gray-600 leading-relaxed">{pick.description}</p>
+                      <ExcursionCardCTAs
+                        portSlug={pick.portSlug}
+                        guideHref={category.href}
+                        sectionHint={category.category}
+                        text={`${pick.name} ${pick.description}`}
+                        className="mt-2"
+                      />
                     </li>
                   );
                 })}

@@ -27,6 +27,7 @@ import {
   getCruiseDayPlanDownloadUrl,
 } from "@/lib/cruise-day-plan";
 import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadButton";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
 
 type FinderVariant = "home" | "page";
@@ -509,6 +510,11 @@ export function CaribbeanExcursionFinder({
                           </span>
                         ))}
                       </div>
+                      <ExcursionCardCTAs
+                        portSlug={plan.portSlug}
+                        excursionType={plan.recommended.type}
+                        text={`${plan.recommended.name} ${plan.recommended.description}`}
+                      />
                     </div>
 
                     <div className="space-y-4">
@@ -524,39 +530,20 @@ export function CaribbeanExcursionFinder({
                       </div>
                       <p className="text-xs text-gray-500">{plan.returnMessage}</p>
                       <div className="flex flex-wrap gap-2">
-                        <Link href={plan.portGuideHref} className="btn-primary text-xs">
-                          Port guide
-                        </Link>
                         {dayPlanPdf ? (
                           <CruiseDayPlanDownloadButton
                             plan={dayPlanPdf}
-                            className="btn-primary text-xs"
+                            className="btn-secondary text-xs"
                           />
                         ) : (
                           <Link
                             href={getCruiseDayPlanDownloadUrl({ portSlug: plan.portSlug })}
-                            className="btn-primary text-xs"
+                            className="btn-secondary text-xs"
                           >
                             Download PDF
                           </Link>
                         )}
-                        {plan.scheduleHref && (
-                          <Link href={plan.scheduleHref} className="btn-secondary text-xs">
-                            Ship schedule
-                          </Link>
-                        )}
-                        <a
-                          href={plan.specialistUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn-secondary text-xs"
-                        >
-                          {plan.specialistName}
-                        </a>
                       </div>
-                      {plan.scheduleFallbackNote && (
-                        <p className="text-xs text-gray-500">{plan.scheduleFallbackNote}</p>
-                      )}
                     </div>
                   </div>
                 </article>

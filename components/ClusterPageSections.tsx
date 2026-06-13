@@ -7,6 +7,7 @@ import { getBestScheduleUrl } from "@/lib/schedule-cta-url";
 import { ClusterComparisonTable } from "@/components/ClusterComparisonTable";
 import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
 import { getVerifiedMonthKeysForPortYear } from "@/data/schedules";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 
 export function ClusterPageSections({ cluster }: { cluster: TopicClusterData }) {
   const portsWithSchedules = cluster.portSlugs.filter((slug) => getBestScheduleUrl({ portSlug: slug }));
@@ -126,9 +127,12 @@ export function ClusterPageSections({ cluster }: { cluster: TopicClusterData }) 
                   )}
                 </p>
                 <p className="mt-2 text-sm text-gray-600 leading-relaxed">{pick.description}</p>
-                <Link href={pick.guideHref} className="mt-3 inline-block text-xs font-medium text-caribbean-700 hover:underline">
-                  Related guide →
-                </Link>
+                <ExcursionCardCTAs
+                  portSlug={pick.portSlug}
+                  guideHref={pick.guideHref}
+                  sectionHint={pick.travellerType}
+                  text={`${pick.excursionName} ${pick.description}`}
+                />
               </div>
             );
           })}

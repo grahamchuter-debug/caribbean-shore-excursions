@@ -10,6 +10,7 @@ import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 
 export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
   const breadcrumbs = [
@@ -100,21 +101,13 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
                           <Link href={`/ports/${exc.portSlug}`} className="hover:underline">
                             {port?.name ?? exc.portSlug}
                           </Link>
-                          {port && (
-                            <>
-                              {" · "}
-                              <a
-                                href={port.specialistUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="hover:underline"
-                              >
-                                Book locally
-                              </a>
-                            </>
-                          )}
                         </p>
                         <p className="mt-2 text-gray-600 leading-relaxed">{exc.description}</p>
+                        <ExcursionCardCTAs
+                          portSlug={exc.portSlug}
+                          excursionTypeSlug={guide.excursionTypeSlug}
+                          text={`${exc.name} ${exc.description}`}
+                        />
                       </div>
                       <span className="shrink-0 text-sm text-gray-500">{exc.duration}</span>
                     </div>

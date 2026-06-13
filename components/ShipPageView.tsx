@@ -8,6 +8,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 
 function PortLink({ portSlug }: { portSlug: string }) {
   const port = getPortBySlug(portSlug);
@@ -22,9 +23,11 @@ function PortLink({ portSlug }: { portSlug: string }) {
 function RecommendationSection({
   title,
   items,
+  sectionHint,
 }: {
   title: string;
   items: ShipRecommendation[];
+  sectionHint?: string;
 }) {
   if (items.length === 0) return null;
   return (
@@ -38,6 +41,11 @@ function RecommendationSection({
               <PortLink portSlug={item.portSlug} />
             </p>
             <p className="mt-2 text-gray-700 leading-relaxed text-sm">{item.advice}</p>
+            <ExcursionCardCTAs
+              portSlug={item.portSlug}
+              sectionHint={sectionHint ?? title}
+              text={item.title}
+            />
           </div>
         ))}
       </div>
@@ -154,16 +162,20 @@ export function ShipPageView({ ship }: { ship: CruiseShip }) {
                       <PortLink portSlug={exc.portSlug} />
                     </p>
                     <p className="mt-2 text-gray-600 leading-relaxed">{exc.description}</p>
+                    <ExcursionCardCTAs
+                      portSlug={exc.portSlug}
+                      text={`${exc.name} ${exc.description}`}
+                    />
                   </div>
                 ))}
               </div>
             </section>
           )}
 
-          <RecommendationSection title="Family Recommendations" items={familyRecs} />
-          <RecommendationSection title="Beach Recommendations" items={beachRecs} />
-          <RecommendationSection title="Snorkelling Recommendations" items={snorkelRecs} />
-          <RecommendationSection title="Private Tour Recommendations" items={privateRecs} />
+          <RecommendationSection title="Family Recommendations" items={familyRecs} sectionHint="family" />
+          <RecommendationSection title="Beach Recommendations" items={beachRecs} sectionHint="beaches" />
+          <RecommendationSection title="Snorkelling Recommendations" items={snorkelRecs} sectionHint="snorkeling" />
+          <RecommendationSection title="Private Tour Recommendations" items={privateRecs} sectionHint="private" />
 
           {ship.planningAdvice.length > 0 && (
             <section className="mb-12 rounded-2xl border-2 border-caribbean-200 bg-caribbean-50/40 p-6 sm:p-8">

@@ -1,5 +1,6 @@
 import type { Port } from "@/data/types";
 import type { PortAuthorityContent } from "@/data/types";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 
 export function PortAuthoritySections({
   port,
@@ -52,6 +53,11 @@ export function PortAuthoritySections({
                 <span>·</span>
                 <span>{exc.type}</span>
               </div>
+              <ExcursionCardCTAs
+                portSlug={port.slug}
+                excursionType={exc.type}
+                text={`${exc.name} ${exc.description}`}
+              />
             </div>
           ))}
         </div>

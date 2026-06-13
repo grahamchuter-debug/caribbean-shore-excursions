@@ -21,6 +21,7 @@ import { getTopicCluster } from "@/data/topic-clusters";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 import { ExploreByRegion } from "@/components/ExploreByRegion";
 import { getCaribbeanRegionIdForPlanner } from "@/data/caribbean-regions-map";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 
 function PortLink({ portSlug }: { portSlug: string }) {
   const port = getPortBySlug(portSlug);
@@ -161,6 +162,10 @@ export function RegionalCruisePlannerPageView({ planner }: { planner: RegionalCr
                     <PortLink portSlug={exc.portSlug} />
                   </p>
                   <p className="mt-2 text-gray-600 leading-relaxed">{exc.description}</p>
+                  <ExcursionCardCTAs
+                    portSlug={exc.portSlug}
+                    text={`${exc.name} ${exc.description}`}
+                  />
                 </div>
               ))}
             </div>
@@ -176,6 +181,7 @@ export function RegionalCruisePlannerPageView({ planner }: { planner: RegionalCr
                     <PortLink portSlug={item.portSlug} />
                   </p>
                   <p className="mt-2 text-gray-700 leading-relaxed">{item.advice}</p>
+                  <ExcursionCardCTAs portSlug={item.portSlug} sectionHint="beaches" text={item.title} />
                 </div>
               ))}
             </div>
@@ -191,6 +197,7 @@ export function RegionalCruisePlannerPageView({ planner }: { planner: RegionalCr
                     <PortLink portSlug={item.portSlug} />
                   </p>
                   <p className="mt-2 text-gray-700 leading-relaxed">{item.advice}</p>
+                  <ExcursionCardCTAs portSlug={item.portSlug} sectionHint="private" text={item.title} />
                 </div>
               ))}
             </div>
@@ -206,6 +213,7 @@ export function RegionalCruisePlannerPageView({ planner }: { planner: RegionalCr
                     <PortLink portSlug={item.portSlug} />
                   </p>
                   <p className="mt-2 text-gray-700 leading-relaxed">{item.advice}</p>
+                  <ExcursionCardCTAs portSlug={item.portSlug} sectionHint="family" text={item.title} />
                 </div>
               ))}
             </div>

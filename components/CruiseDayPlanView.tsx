@@ -5,6 +5,7 @@ import type { CruiseDayPlan } from "@/lib/cruise-day-plan";
 import { getConfidenceStyles, getMatchTierStyles } from "@/lib/cruise-day-plan";
 import { getCrowdLevelStyles } from "@/lib/cruise-day-lookup";
 import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadButton";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 import { cruiseDayPlanInterests } from "@/lib/cruise-day-plan";
 
 interface CruiseDayPlanViewProps {
@@ -116,6 +117,14 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
               ))}
             </div>
           )}
+          {!isPrint && (
+            <ExcursionCardCTAs
+              portSlug={plan.portSlug}
+              excursionType={plan.recommendedExcursions.primary.type}
+              text={`${plan.recommendedExcursions.primary.name} ${plan.recommendedExcursions.primary.description}`}
+              className="mt-4 print:hidden"
+            />
+          )}
         </div>
         {plan.recommendedExcursions.alternate && (
           <div className="mt-4 rounded-xl border border-gray-200 bg-gray-50 p-4">
@@ -125,6 +134,14 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
             <p className="mt-2 text-xs text-gray-500">
               {plan.recommendedExcursions.alternate.duration} · {plan.recommendedExcursions.alternate.type}
             </p>
+            {!isPrint && (
+              <ExcursionCardCTAs
+                portSlug={plan.portSlug}
+                excursionType={plan.recommendedExcursions.alternate.type}
+                text={`${plan.recommendedExcursions.alternate.name} ${plan.recommendedExcursions.alternate.description}`}
+                className="mt-3 print:hidden"
+              />
+            )}
           </div>
         )}
       </section>

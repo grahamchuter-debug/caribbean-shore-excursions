@@ -9,6 +9,7 @@ import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { CruiseLinePlanningSections } from "@/components/CruiseLinePlanningSections";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 
 export function CruiseLineGuidePageView({ line }: { line: CruiseLine }) {
   const breadcrumbs = [
@@ -72,6 +73,10 @@ export function CruiseLineGuidePageView({ line }: { line: CruiseLine }) {
                           </Link>
                         </p>
                         <p className="mt-2 text-gray-600 leading-relaxed">{exc.description}</p>
+                        <ExcursionCardCTAs
+                          portSlug={exc.portSlug}
+                          text={`${exc.name} ${exc.description}`}
+                        />
                       </div>
                       <span className="shrink-0 text-sm text-gray-500">{exc.duration}</span>
                     </div>
@@ -93,6 +98,7 @@ export function CruiseLineGuidePageView({ line }: { line: CruiseLine }) {
                     </Link>
                   </p>
                   <p className="mt-2 text-gray-700 leading-relaxed">{rec.advice}</p>
+                  <ExcursionCardCTAs portSlug={rec.portSlug} sectionHint="family" text={rec.title} />
                 </div>
               ))}
             </div>
@@ -110,6 +116,7 @@ export function CruiseLineGuidePageView({ line }: { line: CruiseLine }) {
                     </Link>
                   </p>
                   <p className="mt-2 text-gray-700 leading-relaxed">{rec.advice}</p>
+                  <ExcursionCardCTAs portSlug={rec.portSlug} sectionHint="beaches" text={rec.title} />
                 </div>
               ))}
             </div>
@@ -127,6 +134,7 @@ export function CruiseLineGuidePageView({ line }: { line: CruiseLine }) {
                     </Link>
                   </p>
                   <p className="mt-2 text-gray-700 leading-relaxed">{rec.advice}</p>
+                  <ExcursionCardCTAs portSlug={rec.portSlug} sectionHint="adventure" text={rec.title} />
                 </div>
               ))}
             </div>
