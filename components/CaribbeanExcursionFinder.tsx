@@ -453,9 +453,9 @@ export function CaribbeanExcursionFinder({
           </div>
 
           <div className="rounded-2xl border border-caribbean-200 bg-caribbean-50/50 p-5">
-            <p className="text-sm font-semibold text-gray-900">Download your cruise planner</p>
+            <p className="text-sm font-semibold text-gray-900">Download your Caribbean cruise planner</p>
             <p className="mt-1 text-xs text-gray-600">
-              Get one complete PDF for your whole itinerary, or download individual port day plans below.
+              Your premium personalised guide — one complete PDF for your whole itinerary, with individual port plans below.
             </p>
             {combinedPlanner && (
               <div className="mt-4">
