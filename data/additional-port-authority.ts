@@ -4,7 +4,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
   bonaire: {
     seoTitle: "Bonaire Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "Bonaire cruise port authority guide to shore diving, marine park snorkeling, flamingo tours, Washington Slagbaai and bonaireshoreexcursions.com.",
+      "Bonaire cruise port authority guide to shore diving, marine park snorkeling, flamingo tours, Washington Slagbaai and excursionsbonaire.com.",
     whyVisit: [
       "Bonaire National Marine Park protects the Caribbean's healthiest accessible reefs",
       "Shore diving and snorkeling directly from marked reef sites",

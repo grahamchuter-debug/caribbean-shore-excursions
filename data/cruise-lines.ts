@@ -313,6 +313,7 @@ export const cruiseLines: CruiseLine[] = [
       { slug: "puerto-plata", name: "Puerto Plata" },
       { slug: "nassau", name: "Nassau" },
       { slug: "costa-maya", name: "Costa Maya" },
+      { slug: "puerto-limon", name: "Puerto Limón" },
     ],
     recommendedExcursions: [
       {
@@ -1082,6 +1083,7 @@ export const cruiseLines: CruiseLine[] = [
       { slug: "grand-cayman", name: "Grand Cayman" },
       { slug: "costa-maya", name: "Costa Maya" },
       { slug: "falmouth", name: "Falmouth" },
+      { slug: "puerto-limon", name: "Puerto Limón" },
     ],
     recommendedExcursions: [
       {

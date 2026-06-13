@@ -8,9 +8,9 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
     "The definitive guide to the best shore excursion at every Caribbean cruise port, St. Thomas, Cozumel, Aruba, Grand Cayman, Roatán, Nassau and more. Port table, category picks, and specialist booking links.",
   heroSubtitle: "One signature excursion for every port we cover: with authority port guides, specialist operator links, and category recommendations across beaches, reefs, wildlife, families, and private tours.",
   introduction:
-    "Every Caribbean cruise port has one excursion that defines the destination, the experience passengers remember years later and recommend to fellow cruisers. This flagship guide ranks the single best shore excursion at each of the twelve Caribbean ports covered by caribbeanshoreexcursion.com, with duration, activity level, and honest reasoning for why each pick earns the top spot.",
+    "Every Caribbean cruise port has one excursion that defines the destination, the experience passengers remember years later and recommend to fellow cruisers. This flagship guide ranks the single best shore excursion at each of the nineteen Caribbean ports covered by caribbeanshoreexcursion.com, with duration, activity level, and honest reasoning for why each pick earns the top spot.",
   introductionDetail:
-    "Use the master table below to plan your entire cruise itinerary at a glance, then dive into category sections for beach days, reef snorkeling, wildlife encounters, family outings, and private tours. Every port links to its authority guide and vetted local specialist website so you can book with confidence rather than scrolling generic cruise line brochures.",
+    "Use the master table below to plan your entire cruise itinerary at a glance, then open the category sections for beach days, reef snorkeling, wildlife encounters, family outings, and private tours. Every port links to its authority guide and vetted local specialist website so you can book with confidence rather than scrolling generic cruise line brochures.",
   portTable: [
     {
       portSlug: "st-thomas",
@@ -132,6 +132,76 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       whyRecommended:
         "Peaceful bamboo raft rides through jungle-lined river channels, Falmouth's signature experience with the best access on Jamaica's north coast and a quieter port atmosphere.",
     },
+    {
+      portSlug: "puerto-limon",
+      portName: "Puerto Limón",
+      bestExcursion: "Sloth Sanctuary Tour",
+      duration: "4-5 hours",
+      bestFor: "Rainforest wildlife",
+      activityLevel: "Easy",
+      whyRecommended:
+        "Guaranteed sloth, monkey, and toucan encounters in Costa Rica rainforest, Puerto Limón's signature experience and the Western Caribbean's best wildlife port day outside Grand Cayman.",
+    },
+    {
+      portSlug: "bonaire",
+      portName: "Bonaire",
+      bestExcursion: "Marine Park Shore Reef Snorkel",
+      duration: "3-4 hours",
+      bestFor: "Protected reef snorkeling",
+      activityLevel: "Moderate",
+      whyRecommended:
+        "Bonaire National Marine Park delivers the Caribbean's healthiest shore-accessible reefs with marked sites steps from Kralendijk pier, the ABC islands' premier conservation-focused snorkel experience.",
+    },
+    {
+      portSlug: "tortola",
+      portName: "Tortola",
+      bestExcursion: "BVI Catamaran Snorkel Sail",
+      duration: "4-5 hours",
+      bestFor: "Sailing & island coves",
+      activityLevel: "Easy",
+      whyRecommended:
+        "Multi-island catamaran sails to Norman Island caves and secluded BVI coves define Tortola port days, a quieter sailing alternative to busy St. Thomas and St. Maarten calls.",
+    },
+    {
+      portSlug: "progreso",
+      portName: "Progreso",
+      bestExcursion: "Mérida Colonial City Tour",
+      duration: "4-5 hours",
+      bestFor: "Culture & history",
+      activityLevel: "Easy",
+      whyRecommended:
+        "Colonial Mérida's walkable plazas, cathedral, and Yucatecan cuisine make Progreso the Mexican Caribbean's best culture port, distinct from Cozumel's reef focus and Costa Maya's ruin-beach combos.",
+    },
+    {
+      portSlug: "samana",
+      portName: "Samaná",
+      bestExcursion: "Humpback Whale Watching",
+      duration: "3-4 hours",
+      bestFor: "Seasonal wildlife",
+      activityLevel: "Easy",
+      whyRecommended:
+        "Samaná Bay hosts one of the Caribbean's most reliable humpback whale breeding grounds from January through March, a wildlife experience unmatched at other Dominican Republic cruise ports.",
+    },
+    {
+      portSlug: "la-romana",
+      portName: "La Romana",
+      bestExcursion: "Saona Island Catamaran",
+      duration: "5-6 hours",
+      bestFor: "Island beach day",
+      activityLevel: "Easy",
+      whyRecommended:
+        "Saona Island's national park beaches, starfish shallows, and included catamaran lunch rank among the Caribbean's best island excursions, La Romana's definitive port-day experience.",
+    },
+    {
+      portSlug: "montego-bay",
+      portName: "Montego Bay",
+      bestExcursion: "Doctor's Cave Beach Day",
+      duration: "4-5 hours",
+      bestFor: "Resort beaches",
+      activityLevel: "Easy",
+      whyRecommended:
+        "Doctor's Cave Beach combines Jamaica's clearest swim water with Hip Strip facilities and reliable taxi access, Montego Bay's signature beach day distinct from Ocho Rios waterfall adventures.",
+    },
   ],
   bestBeachExcursions: [
     {
@@ -167,6 +237,18 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       excursionName: "Paradise Island Beach (Atlantis)",
       description:
         "Resort-quality beach access via Atlantis day pass. Combines water park with beach time for families wanting a full resort day.",
+    },
+    {
+      portSlug: "montego-bay",
+      excursionName: "Doctor's Cave Beach Day",
+      description:
+        "Jamaica's most famous swim beach with clear mineral water, chairs, and Hip Strip access within a short taxi from the cruise pier.",
+    },
+    {
+      portSlug: "la-romana",
+      excursionName: "Saona Island Beach Day",
+      description:
+        "National park island beaches with palm shade and calm shallows reached by the Caribbean's best-value catamaran day trips.",
     },
   ],
   bestSnorkellingExcursions: [
@@ -205,6 +287,18 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       description:
         "WWII shipwreck in shallow water accessible by boat. Unique wreck experience combined with Boca Catalina bay snorkel stops.",
     },
+    {
+      portSlug: "bonaire",
+      excursionName: "Karpata Marine Park Snorkel",
+      description:
+        "Shore-entry reef with dense hard and soft coral in Bonaire National Marine Park, the ABC islands' benchmark snorkel site.",
+    },
+    {
+      portSlug: "tortola",
+      excursionName: "Norman Island Caves Snorkel Sail",
+      description:
+        "Classic BVI catamaran snorkel at The Caves with healthy reef fish and grotto swim stops on half-day sailing itineraries.",
+    },
   ],
   bestWildlifeExcursions: [
     {
@@ -241,6 +335,24 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       excursionName: "Ocean World Marine Park",
       description:
         "Dolphin swims, sea lion programs, and aviary on the Amber Coast. Structured wildlife contact for families wanting guaranteed encounters.",
+    },
+    {
+      portSlug: "puerto-limon",
+      excursionName: "Sloth Sanctuary Tour",
+      description:
+        "Guaranteed sloth, monkey, and toucan viewing in Costa Rica rainforest, the Western Caribbean's premier wildlife port experience.",
+    },
+    {
+      portSlug: "samana",
+      excursionName: "Humpback Whale Watching",
+      description:
+        "Seasonal whale breeding grounds in Samaná Bay from January through March, one of the Caribbean's most reliable cetacean encounters.",
+    },
+    {
+      portSlug: "bonaire",
+      excursionName: "Flamingo Lagoon Safari",
+      description:
+        "Pekelmeer and Goto Meer flamingo colonies plus salt flat wildlife, unique shore excursions outside typical reef-and-beach port days.",
     },
   ],
   bestFamilyExcursions: [
@@ -279,6 +391,24 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       description:
         "Port pool works for families wanting low-stress days. Teleférico cable car thrills school-age children on organized excursions.",
     },
+    {
+      portSlug: "la-romana",
+      excursionName: "Saona Island Catamaran",
+      description:
+        "All-ages island day with natural pool stop, included lunch, and calm shallows, the Dominican Republic's strongest family excursion.",
+    },
+    {
+      portSlug: "samana",
+      excursionName: "Los Haitises Boat Tour",
+      description:
+        "Mangrove caves, Taino pictographs, and coastal wildlife suitable for school-age children on organized Samaná Bay boat tours.",
+    },
+    {
+      portSlug: "tortola",
+      excursionName: "Cane Garden Bay Beach Day",
+      description:
+        "Calm north-shore beach with bars and taxi access from Road Town, a low-stress BVI family day without long sailing transfers.",
+    },
   ],
   bestPrivateExcursions: [
     {
@@ -316,17 +446,47 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       description:
         "Secure the first morning slot before group arrivals. Custom routes add Blue Hole or Martha Brae rafting extensions.",
     },
+    {
+      portSlug: "bonaire",
+      excursionName: "Private Reef Snorkel Charter",
+      description:
+        "Small boat to southern marine park sites with gear included and flexible two-tank snorkel timing on your schedule.",
+    },
+    {
+      portSlug: "tortola",
+      excursionName: "Private BVI Catamaran Charter",
+      description:
+        "Custom island-hopping with Norman Island, Jost Van Dyke, or Virgin Gorda stops timed to your tender schedule.",
+    },
+    {
+      portSlug: "progreso",
+      excursionName: "Private Mérida Cultural Tour",
+      description:
+        "Dedicated vehicle and guide through colonial plazas, markets, and mansions with flexible lunch and return timing.",
+    },
+    {
+      portSlug: "la-romana",
+      excursionName: "Private Saona Island Charter",
+      description:
+        "Dedicated catamaran with custom beach, natural pool, and snorkel stops away from large group tour departures.",
+    },
+    {
+      portSlug: "montego-bay",
+      excursionName: "Private MoBay Highlights Tour",
+      description:
+        "Custom route covering Rose Hall, viewpoints, and Doctor's Cave beach time on a flexible private driver schedule.",
+    },
   ],
   faqs: [
     {
       question: "What is the best shore excursion at every Caribbean port?",
       answer:
-        "Our top picks are Magens Bay (St. Thomas), Palancar Reef (Cozumel), Eagle Beach Sail (Aruba), Tugboat Snorkel (Curaçao), Stingray City (Grand Cayman), Orient Bay (St. Maarten), Atlantis (Nassau), West Bay (Roatán), Chacchoben (Costa Maya), 27 Charcos (Puerto Plata), Dunn's River Falls (Ocho Rios), and Martha Brae Rafting (Falmouth).",
+        "Our top picks are Magens Bay (St. Thomas), Palancar Reef (Cozumel), Eagle Beach Sail (Aruba), Tugboat Snorkel (Curaçao), Stingray City (Grand Cayman), Orient Bay (St. Maarten), Atlantis (Nassau), West Bay (Roatán), Chacchoben (Costa Maya), 27 Charcos (Puerto Plata), Dunn's River Falls (Ocho Rios), Martha Brae Rafting (Falmouth), Sloth Sanctuary (Puerto Limón), Marine Park Snorkel (Bonaire), BVI Catamaran Sail (Tortola), Mérida Tour (Progreso), Whale Watching (Samaná), Saona Island (La Romana), and Doctor's Cave Beach (Montego Bay).",
     },
     {
       question: "How many Caribbean ports does this guide cover?",
       answer:
-        "This flagship page covers all twelve Caribbean cruise ports on caribbeanshoreexcursion.com: St. Thomas, Cozumel, Aruba, Curaçao, Grand Cayman, St. Maarten, Nassau, Roatán, Costa Maya, Puerto Plata, Ocho Rios, and Falmouth.",
+        "This flagship page covers all nineteen Caribbean cruise ports on caribbeanshoreexcursion.com: St. Thomas, Cozumel, Aruba, Curaçao, Grand Cayman, St. Maarten, Nassau, Roatán, Costa Maya, Puerto Plata, Ocho Rios, Falmouth, Puerto Limón, Bonaire, Tortola, Progreso, Samaná, La Romana, and Montego Bay.",
     },
     {
       question: "Should I book the same excursions the cruise line recommends?",

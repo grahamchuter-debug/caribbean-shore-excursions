@@ -48,6 +48,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/excursion-types", priority: 0.8 },
     { path: "/about", priority: 0.8 },
     { path: "/contact", priority: 0.8 },
+    { path: "/privacy", priority: 0.3 },
+    { path: "/terms", priority: 0.3 },
   ].map(({ path, priority }) => sitemapEntry(path, now, "weekly", priority));
 
   const portPages = getAllPortSlugs().map((slug) =>

@@ -119,6 +119,15 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
     scheduleIntro:
       "Costa Maya cruise schedules show arrivals at the Mahahual cruise port. Itineraries list Costa Maya, but ship times apply to the village pier, not mainland Mexico ports.",
   },
+  "puerto-limon": {
+    dockTown: "Limón",
+    terminals: ["Limón Cruise Terminal (JAPDEVA pier)"],
+    alternativeNames: ["Puerto Limon Costa Rica", "Limón", "Puerto Limón CR", "Limon Cruise Port"],
+    portGuideIntro:
+      "Cruise ships calling at Puerto Limón dock at the Limón Cruise Terminal pier on Costa Rica's Caribbean coast. Itineraries may list Puerto Limón, Limón, or Costa Rica; your gangway opens onto the JAPDEVA terminal with organized excursion departures nearby.",
+    scheduleIntro:
+      "Puerto Limón cruise schedules cover arrivals at the Limón Cruise Terminal. Itineraries may say Puerto Limón, Limón, or Costa Rica, but published times apply to this Caribbean coast pier.",
+  },
   progreso: {
     dockTown: "Progreso",
     terminals: ["Progreso International Terminal (long pier)"],

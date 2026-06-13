@@ -4,17 +4,18 @@ import { getPortBySlug } from "./ports";
 /** 2-4 related Caribbean port slugs for cross-linking on each authority page. */
 const relatedPortSlugs: Record<string, string[]> = {
   "st-thomas": ["st-maarten", "tortola", "nassau", "puerto-plata"],
-  cozumel: ["costa-maya", "progreso", "roatan", "grand-cayman"],
+  cozumel: ["costa-maya", "progreso", "roatan", "puerto-limon"],
   aruba: ["curacao", "bonaire", "st-maarten", "cozumel"],
   curacao: ["aruba", "bonaire", "st-maarten", "cozumel"],
   bonaire: ["aruba", "curacao", "st-maarten", "cozumel"],
-  "grand-cayman": ["cozumel", "nassau", "roatan"],
-  nassau: ["grand-cayman", "st-thomas", "cozumel"],
-  roatan: ["cozumel", "costa-maya", "grand-cayman"],
+  "grand-cayman": ["cozumel", "nassau", "roatan", "costa-maya"],
+  nassau: ["grand-cayman", "st-thomas", "cozumel", "st-maarten"],
+  roatan: ["cozumel", "costa-maya", "puerto-limon", "grand-cayman"],
   "st-maarten": ["st-thomas", "tortola", "aruba", "puerto-plata"],
   tortola: ["st-thomas", "st-maarten", "nassau", "puerto-plata"],
-  "costa-maya": ["cozumel", "progreso", "roatan", "ocho-rios"],
-  progreso: ["cozumel", "costa-maya", "roatan", "ocho-rios"],
+  "costa-maya": ["cozumel", "progreso", "roatan", "puerto-limon"],
+  progreso: ["cozumel", "costa-maya", "roatan", "puerto-limon"],
+  "puerto-limon": ["roatan", "costa-maya", "cozumel", "ocho-rios"],
   "puerto-plata": ["samana", "la-romana", "st-maarten", "st-thomas"],
   samana: ["puerto-plata", "la-romana", "st-maarten", "st-thomas"],
   "la-romana": ["puerto-plata", "samana", "st-maarten", "st-thomas"],
@@ -106,6 +107,7 @@ const clusterPlannerLinks: Record<string, PortRelatedLink> = {
   "costa-maya": { label: "Central America Cruise Planner", href: "/central-america-cruise-planner" },
   progreso: { label: "Mexican Caribbean Cruise Planner", href: "/mexican-caribbean-cruise-planner" },
   roatan: { label: "Central America Cruise Planner", href: "/central-america-cruise-planner" },
+  "puerto-limon": { label: "Central America Cruise Planner", href: "/central-america-cruise-planner" },
   "puerto-plata": { label: "Dominican Republic Cruise Planner", href: "/dominican-republic-cruise-planner" },
   samana: { label: "Dominican Republic Cruise Planner", href: "/dominican-republic-cruise-planner" },
   "la-romana": { label: "Dominican Republic Cruise Planner", href: "/dominican-republic-cruise-planner" },
@@ -130,6 +132,10 @@ const secondaryClusterLinks: Record<string, PortRelatedLink[]> = {
   roatan: [
     { label: "Mexican Caribbean Cruise Planner", href: "/mexican-caribbean-cruise-planner" },
   ],
+  "puerto-limon": [
+    { label: "Western Caribbean Cruise Planner", href: "/western-caribbean-cruise-planner" },
+    { label: "Mexican Caribbean Cruise Planner", href: "/mexican-caribbean-cruise-planner" },
+  ],
 };
 
 const itineraryPlannerLinks: Record<string, PortRelatedLink> = {
@@ -145,6 +151,7 @@ const itineraryPlannerLinks: Record<string, PortRelatedLink> = {
   roatan: { label: "Western Caribbean Cruise Planner", href: "/western-caribbean-cruise-planner" },
   "grand-cayman": { label: "Western Caribbean Cruise Planner", href: "/western-caribbean-cruise-planner" },
   "costa-maya": { label: "Western Caribbean Cruise Planner", href: "/western-caribbean-cruise-planner" },
+  "puerto-limon": { label: "Western Caribbean Cruise Planner", href: "/western-caribbean-cruise-planner" },
   "ocho-rios": { label: "Western Caribbean Cruise Planner", href: "/western-caribbean-cruise-planner" },
   falmouth: { label: "Western Caribbean Cruise Planner", href: "/western-caribbean-cruise-planner" },
   "montego-bay": { label: "Western Caribbean Cruise Planner", href: "/western-caribbean-cruise-planner" },
@@ -196,6 +203,10 @@ const regionPageLinks: Record<string, PortRelatedLink> = {
     href: "/western-caribbean-cruise-ports",
   },
   "costa-maya": {
+    label: "Western Caribbean Cruise Ports",
+    href: "/western-caribbean-cruise-ports",
+  },
+  "puerto-limon": {
     label: "Western Caribbean Cruise Ports",
     href: "/western-caribbean-cruise-ports",
   },

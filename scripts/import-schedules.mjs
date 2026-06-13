@@ -53,6 +53,11 @@ const PORT_CONFIG = {
     itineraryPortRegex:
       /Ocho Rios,\s*Jamaica\s*\(\s*(\d{1,2}\s+\w{3})\s+(\d{4})-(\d{4})\s*\)/i,
   },
+  tortola: {
+    name: "Tortola",
+    itineraryPortRegex:
+      /Tortola,\s*British Virgin Islands\s*\(\s*(\d{1,2}\s+\w{3})\s+(\d{4})-(\d{4})\s*\)/i,
+  },
 };
 
 const FETCH_HEADERS = {
@@ -186,14 +191,14 @@ function stripHtml(html) {
     .trim();
 }
 
-function parseEntriesFromHtml(html, config) {
-  const text = stripHtml(html);
+function parseEntriesFromText(text, config) {
+  const plain = text.includes("<") ? stripHtml(text) : text;
   const entries = [];
   const blockRe =
     /Arriving\s+(?:\w+\s+)?(\d{1,2})\s+(\w{3})\s+(\d{4})[\s\S]*?Ship\s+(.+?)\s+More details[\s\S]*?Cruise Itinerary\s*:\s*([\s\S]*?)(?:port loads|ChangeMonth|©CruiseTimetables)/gi;
 
   let match;
-  while ((match = blockRe.exec(text))) {
+  while ((match = blockRe.exec(plain))) {
     const year = match[3];
     const ship = match[4].trim().replace(/\s+/g, " ");
     const itinerary = match[5];
@@ -221,14 +226,45 @@ function parseEntriesFromHtml(html, config) {
   return entries;
 }
 
-async function fetchHtml(url) {
+function parseEntriesFromHtml(html, config) {
+  return parseEntriesFromText(html, config);
+}
+
+function cacheFileName(url) {
+  const match = url.match(/-([a-z]{3}\d{4})\.html/i);
+  return match ? `${match[1]}.txt` : `${Buffer.from(url).toString("base64url")}.txt`;
+}
+
+function readCachedPage(cacheDir, url) {
+  const cachePath = path.join(cacheDir, cacheFileName(url));
+  if (!fs.existsSync(cachePath)) return null;
+  return fs.readFileSync(cachePath, "utf8");
+}
+
+function writeCachedPage(cacheDir, url, content) {
+  fs.mkdirSync(cacheDir, { recursive: true });
+  fs.writeFileSync(path.join(cacheDir, cacheFileName(url)), content);
+}
+
+async function fetchHtml(url, attempt = 1) {
   const res = await fetch(url, { headers: FETCH_HEADERS });
+  if (res.status === 429 && attempt <= 8) {
+    const waitMs = attempt * 5000;
+    process.stdout.write(`429, retry in ${waitMs / 1000}s... `);
+    await new Promise((r) => setTimeout(r, waitMs));
+    return fetchHtml(url, attempt + 1);
+  }
   if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
   return res.text();
 }
 
-async function fetchAllPagesForMonth(url, config) {
-  const firstHtml = await fetchHtml(url);
+async function fetchAllPagesForMonth(url, config, cacheDir) {
+  let firstHtml = readCachedPage(cacheDir, url);
+  if (!firstHtml) {
+    firstHtml = await fetchHtml(url);
+    writeCachedPage(cacheDir, url, firstHtml);
+  }
+
   const pageUrls = new Set([url]);
 
   const offsetMatches = firstHtml.matchAll(/pageit\('([^']+)'\)/g);
@@ -247,8 +283,12 @@ async function fetchAllPagesForMonth(url, config) {
   const seen = new Set();
 
   for (const pageUrl of pageUrls) {
-    const html = pageUrl === url ? firstHtml : await fetchHtml(pageUrl);
-    for (const entry of parseEntriesFromHtml(html, config)) {
+    let html = pageUrl === url ? firstHtml : readCachedPage(cacheDir, pageUrl);
+    if (!html) {
+      html = await fetchHtml(pageUrl);
+      writeCachedPage(cacheDir, pageUrl, html);
+    }
+    for (const entry of parseEntriesFromText(html, config)) {
       const key = `${entry.date}|${entry.ship}|${entry.arrival}|${entry.departure}`;
       if (!seen.has(key)) {
         seen.add(key);
@@ -274,16 +314,20 @@ if (!fs.existsSync(csvPath)) {
 }
 
 const monthUrls = parseCsv(csvPath);
+const cacheDir = path.join(ROOT, "data/schedule-cache", slug);
 console.log(`Importing ${slug} from ${monthUrls.length} monthly URLs...`);
 
 const allEntries = [];
 const seen = new Set();
 const capacityLookup = loadCapacityLookup();
+const failedMonths = [];
 
 for (const { monthLabel, url } of monthUrls) {
   process.stdout.write(`  ${monthLabel}... `);
   try {
-    const entries = await fetchAllPagesForMonth(url, config);
+    const cached = readCachedPage(cacheDir, url);
+    if (cached) process.stdout.write("(cache) ");
+    const entries = await fetchAllPagesForMonth(url, config, cacheDir);
     let added = 0;
     for (const entry of entries) {
       const key = `${entry.date}|${entry.ship}|${entry.arrival}|${entry.departure}`;
@@ -295,9 +339,12 @@ for (const { monthLabel, url } of monthUrls) {
     }
     console.log(`${added} ships`);
   } catch (err) {
+    failedMonths.push(monthLabel);
     console.log(`FAILED: ${err.message}`);
   }
-  await new Promise((r) => setTimeout(r, 400));
+  if (!readCachedPage(cacheDir, url)) {
+    await new Promise((r) => setTimeout(r, 3500));
+  }
 }
 
 if (capacityLookup) {
@@ -320,3 +367,6 @@ fs.mkdirSync(OUTPUT_DIR, { recursive: true });
 const outPath = path.join(OUTPUT_DIR, `${slug}.json`);
 fs.writeFileSync(outPath, JSON.stringify(allEntries, null, 2) + "\n");
 console.log(`\nWrote ${allEntries.length} entries to ${outPath}`);
+if (failedMonths.length) {
+  console.log(`Failed months (${failedMonths.length}): ${failedMonths.join(", ")}`);
+}

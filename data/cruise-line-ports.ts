@@ -10,6 +10,7 @@ export const CARIBBEAN_HUB_PORT_SLUGS = [
   "costa-maya",
   "st-maarten",
   "ocho-rios",
+  "puerto-limon",
 ] as const;
 
 export type CaribbeanHubPortSlug = (typeof CARIBBEAN_HUB_PORT_SLUGS)[number];

@@ -65,6 +65,12 @@ export const featuredPortCards: FeaturedPortCard[] = [
     bestFor: "Mayan ruins & quiet beaches",
   },
   {
+    slug: "puerto-limon",
+    description:
+      "Sloth sanctuaries, Veragua Rainforest aerial tram, and Cahuita reef snorkel on Costa Rica's Caribbean coast.",
+    bestFor: "Rainforest wildlife & Caribbean culture",
+  },
+  {
     slug: "ocho-rios",
     description:
       "Dunn's River Falls climbs, Mystic Mountain bobsled, and Jamaica rainforest adventure excursions.",
@@ -75,6 +81,42 @@ export const featuredPortCards: FeaturedPortCard[] = [
     description:
       "Martha Brae bamboo rafting, colonial Falmouth heritage walks, and Jamaica north-coast highlights.",
     bestFor: "River rafting & heritage tours",
+  },
+  {
+    slug: "bonaire",
+    description:
+      "Shore diving capital with marine park reefs, flamingo salt flats, and Washington Slagbaai wildlife safaris.",
+    bestFor: "Shore diving & marine park",
+  },
+  {
+    slug: "tortola",
+    description:
+      "BVI catamaran sailing, Virgin Gorda day trips, and Cane Garden Bay from Road Town tender landings.",
+    bestFor: "Sailing & secluded coves",
+  },
+  {
+    slug: "progreso",
+    description:
+      "Yucatán Gulf pier gateway to colonial Mérida, UNESCO Uxmal ruins, and Celestún flamingo reserves.",
+    bestFor: "Mérida culture & Mayan ruins",
+  },
+  {
+    slug: "samana",
+    description:
+      "Seasonal humpback whale watching, El Limón waterfall treks, and secluded Playa Rincón on the Dominican peninsula.",
+    bestFor: "Whale watching & rainforest",
+  },
+  {
+    slug: "la-romana",
+    description:
+      "Saona Island catamaran day trips, Altos de Chavón village, and Catalina Island reef snorkel from Casa de Campo.",
+    bestFor: "Saona Island & catamaran sails",
+  },
+  {
+    slug: "montego-bay",
+    description:
+      "Doctor's Cave Beach, Rose Hall Great House tours, and Hip Strip resort beach days on Jamaica's north coast.",
+    bestFor: "Resort beaches & Rose Hall",
   },
 ];
 

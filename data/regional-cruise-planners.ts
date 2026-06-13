@@ -33,7 +33,7 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         rating: "4.8",
       },
     ],
-    topPortSlugs: ["aruba", "curacao"],
+    topPortSlugs: ["aruba", "curacao", "bonaire"],
     bestExcursions: [
       {
         name: "Eagle Beach Relaxed Morning",
@@ -217,7 +217,7 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         rating: "4.8",
       },
     ],
-    topPortSlugs: ["st-thomas", "st-maarten"],
+    topPortSlugs: ["st-thomas", "st-maarten", "tortola", "puerto-plata", "samana", "la-romana"],
     bestExcursions: [
       {
         name: "Magens Bay Beach and Viewpoint Loop",
@@ -682,7 +682,7 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         rating: "4.7",
       },
     ],
-    topPortSlugs: ["cozumel", "costa-maya"],
+    topPortSlugs: ["cozumel", "costa-maya", "progreso", "roatan", "puerto-limon"],
     bestExcursions: [
       {
         name: "Palancar Reef Two-Stop Snorkel",

@@ -8,7 +8,6 @@ import { comparisons } from "@/data/comparisons";
 import { getPortGuideCount } from "@/data/content-inventory";
 import { schedulePorts } from "@/data/schedules";
 import { featuredPortCards, HOMEPAGE_SCHEDULE_SLUGS, homepageFaqs } from "@/data/homepage";
-import { regions } from "@/data/regions";
 import { bestGuides } from "@/data/best-guides";
 import { itineraryPlanners } from "@/data/itinerary-planners";
 import { regionalCruisePlanners } from "@/data/regional-cruise-planners";
@@ -20,6 +19,7 @@ import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 import { CruisePlannerStatsGrid } from "@/components/CruisePlannerStatsGrid";
 import { CaribbeanExcursionFinder } from "@/components/CaribbeanExcursionFinder";
 import { CaribbeanRoutePresets } from "@/components/CaribbeanRoutePresets";
+import { ExploreByRegion } from "@/components/ExploreByRegion";
 import { HeroBackground } from "@/components/HeroBackground";
 
 export const metadata = buildMetadata({
@@ -129,6 +129,11 @@ export default function HomePage() {
           </p>
           <CaribbeanRoutePresets />
         </div>
+      </section>
+
+      {/* Caribbean Cruise Map / Explore by Region */}
+      <section className="section-padding bg-white border-b border-caribbean-100">
+        <ExploreByRegion />
       </section>
 
       {/* Popular Caribbean Ports */}
@@ -378,26 +383,6 @@ export default function HomePage() {
                   {planner.title.replace(" Cruise Planner", "")}
                 </h3>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-3">{planner.heroSubtitle}</p>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Caribbean Regions */}
-      <section className="section-padding bg-white">
-        <div className="container-wide">
-          <h2 className="section-title">Caribbean Cruise Regions</h2>
-          <p className="section-subtitle mb-10">
-            Plan by region, compare ports, excursion styles, and specialist local sites across the Eastern, Western, and Southern Caribbean.
-          </p>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {regions.map((region) => (
-              <Link key={region.slug} href={`/${region.slug}`} className="card-gradient group">
-                <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
-                  {region.title.replace(" Guide", "")}
-                </h3>
-                <p className="mt-2 text-sm text-gray-600 line-clamp-3">{region.heroSubtitle}</p>
               </Link>
             ))}
           </div>

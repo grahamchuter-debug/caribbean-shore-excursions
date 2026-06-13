@@ -9,6 +9,7 @@ import {
 import { SCHEDULE_FAQS, SCHEDULE_PLANNING_TIPS } from "./schedule-content";
 import stThomasSchedule from "./imported-schedules/st-thomas.json";
 import ochoRiosSchedule from "./imported-schedules/ocho-rios.json";
+import tortolaSchedule from "./imported-schedules/tortola.json";
 
 export const TOP_SCHEDULE_PORT_SLUGS = [
   "st-thomas",
@@ -21,6 +22,7 @@ export const TOP_SCHEDULE_PORT_SLUGS = [
   "puerto-plata",
   "costa-maya",
   "ocho-rios",
+  "puerto-limon",
 ] as const;
 
 export const schedulePorts: ShipSchedulePort[] = [
@@ -208,12 +210,53 @@ export const schedulePorts: ShipSchedulePort[] = [
     planningTips: [...SCHEDULE_PLANNING_TIPS],
     faqs: SCHEDULE_FAQS,
   },
+  {
+    slug: "tortola",
+    name: "Tortola",
+    country: "British Virgin Islands",
+    seoTitle: "Tortola Cruise Ship Schedule 2026 & 2027",
+    metaDescription:
+      "Tortola cruise ship schedule with verified 2026 and 2027 arrival and departure times at Road Town. Plan BVI catamaran sails and Virgin Gorda trips around tender operations.",
+    intro:
+      "This Tortola cruise ship schedule shows which vessels are expected in Road Town harbor and their published port times. Ships anchor and use tenders, so check arrival and departure windows before booking catamaran sails or Virgin Gorda day trips.",
+    description:
+      "British Virgin Islands sailing hub with Road Town tender landings.",
+    scheduleOverview:
+      "Tortola receives Eastern Caribbean traffic alongside St. Thomas and St. Maarten on many itineraries. This page lists verified ship calls for June through December 2026 and all of 2027. Multi-ship weeks affect tender queues and sailing excursion availability.",
+    relatedPortSlugs: ["st-thomas", "st-maarten", "nassau"],
+    excursionTypeSlugs: ["catamaran-cruises", "snorkeling", "private-tours", "beaches"],
+    usesTender: true,
+    planningTips: [
+      ...SCHEDULE_PLANNING_TIPS,
+      "Tortola uses tenders at Road Town. Add 20 to 40 minutes each way when planning return times.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "puerto-limon",
+    name: "Puerto Limón",
+    country: "Costa Rica",
+    seoTitle: "Puerto Limón Cruise Ship Schedule 2026",
+    metaDescription:
+      "Puerto Limón 2026 cruise ship schedule for Limón Cruise Terminal arrivals and departures. Plan rainforest wildlife and Cahuita snorkel excursions around your port day.",
+    intro:
+      "Check which cruise ships are scheduled at Puerto Limón's Limón Cruise Terminal and plan sloth sanctuary tours, Veragua Rainforest adventures, and Cahuita snorkel excursions around published arrival and departure times.",
+    description:
+      "Costa Rica Caribbean coast port on Panama Canal and Southern Caribbean routes.",
+    scheduleOverview:
+      "Puerto Limón receives seasonal cruise traffic on Panama Canal partial transit and extended Caribbean sailings. Carnival, Princess, and other lines call during winter months. Check monthly schedules before booking rainforest tours that need disciplined pier return timing.",
+    relatedPortSlugs: ["roatan", "costa-maya", "cozumel", "ocho-rios"],
+    excursionTypeSlugs: ["adventure-tours", "family-tours", "snorkeling", "private-tours"],
+    planningTips: [...SCHEDULE_PLANNING_TIPS],
+    faqs: SCHEDULE_FAQS,
+  },
 ];
 
 /** Verified schedule rows imported via scripts/import-schedules.mjs */
 export const portSchedules: Record<string, ScheduleEntry[]> = {
   "st-thomas": stThomasSchedule as ScheduleEntry[],
   "ocho-rios": ochoRiosSchedule as ScheduleEntry[],
+  tortola: tortolaSchedule as ScheduleEntry[],
 };
 
 export function getSchedulePortBySlug(slug: string): ShipSchedulePort | undefined {

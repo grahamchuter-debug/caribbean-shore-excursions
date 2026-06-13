@@ -10,8 +10,10 @@ import { getSimilarPortSlugs } from "./port-related";
 import {
   getScheduleForPort,
   getShipCallCountForPortYear,
+  getSchedulePortBySlug,
   hasVerifiedScheduleData,
 } from "./schedules";
+import { ESTIMATED_PASSENGERS_PER_CALL } from "./schedule-insights";
 
 interface PortPlanningConfig {
   snapshot: Partial<PortPlanningSnapshot>;
@@ -224,6 +226,28 @@ const planningConfig: Record<string, PortPlanningConfig> = {
       private: "Chacchoben private van tour",
     },
   },
+  "puerto-limon": {
+    snapshot: {
+      timeInPort: "7-9 hours typical",
+      walkingRequired: "Low at cruise pier",
+      familyFriendly: "Very Good",
+      privateTourFriendly: "Very Good",
+      returnToShipConfidence: "High",
+    },
+    typicalCruiseDay: [
+      { time: "8:30 AM", activity: "Coach to sloth sanctuary or Veragua Rainforest" },
+      { time: "11:30 AM", activity: "Wildlife viewing or aerial tram canopy tour" },
+      { time: "1:30 PM", activity: "Lunch stop or Cahuita beach extension" },
+      { time: "3:30 PM", activity: "Return to Limón Cruise Terminal pier" },
+    ],
+    cardTeasers: {
+      beaches: "Cahuita National Park beach",
+      snorkeling: "Cahuita reef snorkel tours",
+      families: "Sloth sanctuary wildlife day",
+      wildlife: "Sloths, monkeys, and tropical birds",
+      private: "Private sanctuary and rainforest tour",
+    },
+  },
   "puerto-plata": {
     snapshot: {
       timeInPort: "7-9 hours typical",
@@ -288,6 +312,138 @@ const planningConfig: Record<string, PortPlanningConfig> = {
       families: "Martha Brae rafting for mixed ages",
       wildlife: "River and lagoon birdlife",
       private: "Rafting plus custom heritage route",
+    },
+  },
+  bonaire: {
+    snapshot: {
+      timeInPort: "6-8 hours typical",
+      walkingRequired: "Low in Kralendijk",
+      familyFriendly: "Good",
+      privateTourFriendly: "Excellent",
+      returnToShipConfidence: "High",
+    },
+    typicalCruiseDay: [
+      { time: "8:30 AM", activity: "Guided shore reef snorkel or Washington Slagbaai safari" },
+      { time: "12:00 PM", activity: "Flamingo salt flat viewing or Kralendijk waterfront lunch" },
+      { time: "2:30 PM", activity: "Optional second reef site or donkey sanctuary stop" },
+      { time: "4:00 PM", activity: "Return to Kralendijk cruise pier" },
+    ],
+    cardTeasers: {
+      beaches: "Reef-entry shore sites with water shoes",
+      snorkeling: "Marine park house reefs and Karpata",
+      families: "Donkey sanctuary and beginner reef tours",
+      wildlife: "Flamingo lagoons and reef fish",
+      private: "Private reef charter or park jeep",
+    },
+  },
+  tortola: {
+    snapshot: {
+      timeInPort: "6-8 hours typical (tender)",
+      walkingRequired: "Minimal after tender",
+      familyFriendly: "Good",
+      privateTourFriendly: "Excellent",
+      returnToShipConfidence: "Moderate (tender buffer)",
+    },
+    typicalCruiseDay: [
+      { time: "8:00 AM", activity: "Disembark tender early for catamaran or Virgin Gorda tour" },
+      { time: "11:00 AM", activity: "BVI snorkel sail or The Baths grotto walk" },
+      { time: "1:30 PM", activity: "Cane Garden Bay beach or Road Town lunch" },
+      { time: "3:00 PM", activity: "Tender return with 60-minute buffer" },
+    ],
+    cardTeasers: {
+      beaches: "Cane Garden Bay and Virgin Gorda",
+      snorkeling: "Norman Island caves and BVI reefs",
+      families: "Half-day Cane Garden Bay with calm water",
+      wildlife: "Reef fish on catamaran snorkel stops",
+      private: "Private BVI catamaran charter",
+    },
+  },
+  progreso: {
+    snapshot: {
+      timeInPort: "7-9 hours typical",
+      walkingRequired: "Shuttle from long pier",
+      familyFriendly: "Very Good",
+      privateTourFriendly: "Excellent",
+      returnToShipConfidence: "High",
+    },
+    typicalCruiseDay: [
+      { time: "8:30 AM", activity: "Coach to Mérida colonial center or Uxmal ruins" },
+      { time: "12:00 PM", activity: "Plaza lunch or ruin tour completion" },
+      { time: "2:00 PM", activity: "Progreso malecón beach or return from inland tour" },
+      { time: "4:00 PM", activity: "Shuttle back along pier to ship" },
+    ],
+    cardTeasers: {
+      beaches: "Progreso malecón Gulf beach",
+      snorkeling: "Culture port, compare Cozumel for reefs",
+      families: "Mérida plaza walk and Celestún boats",
+      wildlife: "Celestún flamingo reserve seasonally",
+      private: "Private Mérida or Uxmal van tour",
+    },
+  },
+  samana: {
+    snapshot: {
+      timeInPort: "7-9 hours typical",
+      walkingRequired: "Low at cruise terminal",
+      familyFriendly: "Good",
+      privateTourFriendly: "Very Good",
+      returnToShipConfidence: "High",
+    },
+    typicalCruiseDay: [
+      { time: "8:30 AM", activity: "Seasonal whale watching boat or El Limón waterfall trek" },
+      { time: "12:00 PM", activity: "Waterfall swim or Playa Bonita beach block" },
+      { time: "2:00 PM", activity: "Los Haitises mangrove boat or town waterfront" },
+      { time: "4:00 PM", activity: "Return to Samaná cruise terminal" },
+    ],
+    cardTeasers: {
+      beaches: "Playa Rincón and Playa Bonita",
+      snorkeling: "Cayo Levantado on combination tours",
+      families: "Whale watching ages 6+ in season",
+      wildlife: "Humpback whales January to March",
+      private: "Private whale boat or El Limón guide",
+    },
+  },
+  "la-romana": {
+    snapshot: {
+      timeInPort: "7-9 hours typical",
+      walkingRequired: "Low at Casa de Campo terminal",
+      familyFriendly: "Very Good",
+      privateTourFriendly: "Excellent",
+      returnToShipConfidence: "High",
+    },
+    typicalCruiseDay: [
+      { time: "8:00 AM", activity: "Saona Island catamaran departure from terminal" },
+      { time: "12:00 PM", activity: "Island beach, natural pool, and included lunch" },
+      { time: "2:30 PM", activity: "Return sail or Altos de Chavón village stop" },
+      { time: "4:00 PM", activity: "Back to Casa de Campo cruise pier" },
+    ],
+    cardTeasers: {
+      beaches: "Saona Island national park beaches",
+      snorkeling: "Catalina Island protected reef",
+      families: "Saona catamaran with natural pool",
+      wildlife: "Starfish shallows on Saona tours",
+      private: "Private Saona Island charter",
+    },
+  },
+  "montego-bay": {
+    snapshot: {
+      timeInPort: "7-9 hours typical",
+      walkingRequired: "Low at cruise terminal",
+      familyFriendly: "Very Good",
+      privateTourFriendly: "Very Good",
+      returnToShipConfidence: "High",
+    },
+    typicalCruiseDay: [
+      { time: "8:30 AM", activity: "Taxi to Doctor's Cave Beach or Rose Hall tour" },
+      { time: "11:30 AM", activity: "Hip Strip lunch or Margaritaville beach club" },
+      { time: "2:00 PM", activity: "Optional resort beach pass or downtown browse" },
+      { time: "4:00 PM", activity: "Return to Montego Bay cruise terminal" },
+    ],
+    cardTeasers: {
+      beaches: "Doctor's Cave and resort day passes",
+      snorkeling: "Marine park reef boat tours",
+      families: "Margaritaville pool and water slide",
+      wildlife: "Reef snorkel on organized boat tours",
+      private: "Private MoBay highlights driver",
     },
   },
 };
@@ -395,20 +551,163 @@ export function getPortPlanningCards(slug: string): PortPlanningCard[] {
   ];
 }
 
+export type PortActivityTier = "Very High" | "High" | "Moderate" | "Seasonal";
+
+export interface PortActivityEstimate {
+  activityTier: PortActivityTier;
+  peakSeason: string;
+  planningNote: string;
+}
+
+const portActivityEstimates: Record<string, PortActivityEstimate> = {
+  "st-thomas": {
+    activityTier: "Very High",
+    peakSeason: "December – April",
+    planningNote:
+      "Among the busiest Eastern Caribbean ports. Multi-ship days fill Magens Bay and St. John ferries early.",
+  },
+  cozumel: {
+    activityTier: "Very High",
+    peakSeason: "November – April",
+    planningNote:
+      "One of the world's busiest cruise ports. Multiple daily calls at peak are common, book reef tours early.",
+  },
+  aruba: {
+    activityTier: "High",
+    peakSeason: "January – May",
+    planningNote:
+      "Steady Southern Caribbean traffic outside the hurricane belt. Extended evening departures are common.",
+  },
+  "grand-cayman": {
+    activityTier: "Very High",
+    peakSeason: "November – April",
+    planningNote:
+      "Major Western Caribbean hub with tender operations. Allow 30–60 minutes each way for Stingray City boats.",
+  },
+  nassau: {
+    activityTier: "Very High",
+    peakSeason: "Year-round; peaks on short cruises",
+    planningNote:
+      "Bahamas itineraries from Florida keep Nassau busy year-round. Atlantis and reef tours sell out on busy weeks.",
+  },
+  roatan: {
+    activityTier: "High",
+    peakSeason: "November – April",
+    planningNote:
+      "Western Caribbean loops call Roatán regularly. West Bay reef access stays less crowded than Cozumel.",
+  },
+  "st-maarten": {
+    activityTier: "High",
+    peakSeason: "December – April",
+    planningNote:
+      "Eastern Caribbean winter traffic drives heavy Philipsburg and beach-club demand on multi-ship days.",
+  },
+  "puerto-plata": {
+    activityTier: "High",
+    peakSeason: "December – April",
+    planningNote:
+      "Growing Eastern Caribbean stop at Amber Cove and Taíno Bay. Waterfall coaches need timed port returns.",
+  },
+  "costa-maya": {
+    activityTier: "High",
+    peakSeason: "November – April",
+    planningNote:
+      "Western Caribbean anchor port paired with Cozumel. Chacchoben ruins and Mahahual beach compete for morning slots.",
+  },
+  "puerto-limon": {
+    activityTier: "Moderate",
+    peakSeason: "October – April",
+    planningNote:
+      "Panama Canal and Southern Caribbean routes call Limón seasonally. Rainforest and sanctuary tours need timed pier returns.",
+  },
+  "ocho-rios": {
+    activityTier: "Moderate",
+    peakSeason: "January – March",
+    planningNote:
+      "Verified calls cluster in Q1. Book first-slot Dunn's River Falls climbs on busy schedule weeks.",
+  },
+  curacao: {
+    activityTier: "High",
+    peakSeason: "January – May",
+    planningNote:
+      "Steady Southern Caribbean traffic with strong Willemstad walkability. West-coast cove snorkel tours need taxi timing.",
+  },
+  falmouth: {
+    activityTier: "Moderate",
+    peakSeason: "November – April",
+    planningNote:
+      "Quieter Jamaica alternative to Ocho Rios. Martha Brae rafting and Luminous Lagoon evening tours need disciplined return buffers.",
+  },
+  bonaire: {
+    activityTier: "Moderate",
+    peakSeason: "January – May",
+    planningNote:
+      "Less frequent Southern Caribbean call than Aruba. Book guided reef snorkel or flamingo tours early on shared pier days.",
+  },
+  tortola: {
+    activityTier: "Moderate",
+    peakSeason: "November – April",
+    planningNote:
+      "Tender port with BVI sailing focus. Virgin Gorda day trips and catamaran sails need full-day planning and early tender disembarkation.",
+  },
+  progreso: {
+    activityTier: "Moderate",
+    peakSeason: "November – April",
+    planningNote:
+      "Western Caribbean culture port with long pier shuttle time. Uxmal and Mérida tours need early coach departures for safe returns.",
+  },
+  samana: {
+    activityTier: "Seasonal",
+    peakSeason: "January – March (whales)",
+    planningNote:
+      "Whale watching peaks in winter; outside season waterfall and beach excursions carry the port day. Book licensed operators with ship-time monitoring.",
+  },
+  "la-romana": {
+    activityTier: "Moderate",
+    peakSeason: "December – April",
+    planningNote:
+      "Saona Island catamaran days are full-time commitments. Confirm all-aboard time before booking Altos de Chavón add-ons.",
+  },
+  "montego-bay": {
+    activityTier: "Moderate",
+    peakSeason: "November – April",
+    planningNote:
+      "Resort beach and Rose Hall tours suit shorter port windows. Dunn's River extensions from MoBay require 90-minute drives each way.",
+  },
+};
+
 export interface PortPopularityStats {
   hasVerifiedData: boolean;
   calls2026: number;
   calls2027: number;
   busiestYear: number | null;
   busiestYearCalls: number;
+  estimatedPassengers: number | null;
   peakMonths: string[];
+  activityTier: PortActivityTier;
+  peakSeason: string;
+  planningNote: string;
   note: string;
+}
+
+export function getPortActivityEstimate(slug: string): PortActivityEstimate {
+  const schedulePort = getSchedulePortBySlug(slug);
+  return (
+    portActivityEstimates[slug] ?? {
+      activityTier: "Moderate",
+      peakSeason: "November – April",
+      planningNote:
+        schedulePort?.scheduleOverview?.slice(0, 160) ??
+        "Check ship schedules before booking popular excursions on multi-ship port days.",
+    }
+  );
 }
 
 export function getPortPopularityStats(slug: string): PortPopularityStats {
   const calls2026 = getShipCallCountForPortYear(slug, 2026);
   const calls2027 = getShipCallCountForPortYear(slug, 2027);
   const hasVerifiedData = hasVerifiedScheduleData(slug);
+  const activity = getPortActivityEstimate(slug);
 
   const entries = getScheduleForPort(slug);
   const monthCounts = new Map<string, number>();
@@ -428,13 +727,16 @@ export function getPortPopularityStats(slug: string): PortPopularityStats {
 
   const busiestYear = calls2027 >= calls2026 ? (calls2027 > 0 ? 2027 : calls2026 > 0 ? 2026 : null) : 2026;
   const busiestYearCalls = busiestYear === 2027 ? calls2027 : calls2026;
+  const estimatedPassengers = hasVerifiedData
+    ? busiestYearCalls * ESTIMATED_PASSENGERS_PER_CALL
+    : null;
 
-  let note = "Schedule import pending. Check back for verified call counts.";
+  let note = activity.planningNote;
   if (hasVerifiedData) {
     note =
       peakMonths.length > 0
-        ? `Busiest months in imported data: ${peakMonths.join(", ")}.`
-        : "Verified ship calls imported for this port.";
+        ? `${activity.planningNote} Busiest imported months: ${peakMonths.join(", ")}.`
+        : activity.planningNote;
   }
 
   return {
@@ -443,7 +745,11 @@ export function getPortPopularityStats(slug: string): PortPopularityStats {
     calls2027,
     busiestYear,
     busiestYearCalls,
+    estimatedPassengers,
     peakMonths,
+    activityTier: activity.activityTier,
+    peakSeason: activity.peakSeason,
+    planningNote: activity.planningNote,
     note,
   };
 }

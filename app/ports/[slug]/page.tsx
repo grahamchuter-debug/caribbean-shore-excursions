@@ -87,17 +87,17 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
         <div className="container-wide max-w-5xl">
           <Breadcrumbs items={breadcrumbs} />
 
-          <CruisePortInformationBox portSlug={slug} />
+          <CruisePortInformationBox portSlug={slug} className="mb-8" />
 
           <PortPlanningToolkit port={port} />
 
           <PortAuthoritySections port={port} authority={authority} />
 
           <section className="mb-10">
-            <h2 className="section-title text-xl sm:text-2xl mb-4">Nearby Attractions</h2>
-            <div className="grid gap-3 sm:grid-cols-2">
+            <h2 className="section-title text-xl sm:text-2xl mb-3">Nearby Attractions</h2>
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {port.topAttractions.map((attr) => (
-                <div key={attr.name} className="rounded-lg border border-gray-100 bg-gray-50/80 p-4">
+                <div key={attr.name} className="rounded-lg border border-gray-100 bg-white p-4">
                   <h3 className="font-semibold text-gray-900 text-sm">{attr.name}</h3>
                   <p className="mt-1 text-sm text-gray-600 line-clamp-2">{attr.description}</p>
                   <p className="mt-2 text-xs text-caribbean-700 font-medium">{attr.distance}</p>

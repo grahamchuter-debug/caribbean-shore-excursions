@@ -39,7 +39,7 @@ export const additionalPorts: Port[] = [
       { name: "Pekelmeer Salt Flats", description: "Pink salt ponds with seasonal flamingo colonies.", distance: "20 min by taxi" },
       { name: "Kralendijk Waterfront", description: "Compact Dutch-Caribbean town with dive shops and dining.", distance: "5 min walk" },
     ],
-    specialistUrl: "https://bonaireshoreexcursions.com",
+    specialistUrl: "https://excursionsbonaire.com",
     specialistName: "Bonaire Shore Excursions",
     faqs: [
       { question: "Is Bonaire good for non-divers?", answer: "Yes for snorkelers and wildlife lovers. Beach lounging is limited compared to Aruba, but guided reef snorkel tours and flamingo safaris deliver memorable port days." },

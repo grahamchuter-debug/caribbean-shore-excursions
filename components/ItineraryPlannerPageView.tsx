@@ -14,6 +14,8 @@ import { getRegionalPlannersByParentPlanner } from "@/data/regional-cruise-plann
 import { ClusterPageSections } from "@/components/ClusterPageSections";
 import { getTopicCluster } from "@/data/topic-clusters";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
+import { ExploreByRegion } from "@/components/ExploreByRegion";
+import { getCaribbeanRegionIdForPlanner } from "@/data/caribbean-regions-map";
 
 function PortLink({ portSlug }: { portSlug: string }) {
   const port = getPortBySlug(portSlug);
@@ -303,6 +305,15 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
               Ship Schedules
             </Link>
           </div>
+
+          <section className="mb-12 -mx-4 rounded-2xl border border-caribbean-100 bg-caribbean-50/30 px-4 py-10 sm:-mx-0 sm:px-6">
+            <ExploreByRegion
+              variant="compact"
+              highlightRegionId={getCaribbeanRegionIdForPlanner(planner.slug)}
+              heading="Explore Other Caribbean Regions"
+              subtitle="Compare ports and planners across the Caribbean before you finalize shore excursions."
+            />
+          </section>
 
           <FAQSection faqs={planner.faqs} />
 

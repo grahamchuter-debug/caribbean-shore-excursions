@@ -113,21 +113,21 @@ export const popularCaribbeanRoutes: CaribbeanRoutePreset[] = [
   {
     id: "eastern-classic",
     title: "Eastern Caribbean Classic",
-    portSlugs: ["st-thomas", "st-maarten", "puerto-plata", "nassau"],
+    portSlugs: ["st-thomas", "st-maarten", "puerto-plata", "nassau", "tortola"],
     tags: ["Beaches", "Shopping", "First-time cruisers"],
     description: "The most common 7-night Eastern loop with beach-heavy port days and easy pier logistics.",
   },
   {
     id: "western-reef",
     title: "Western Reef Route",
-    portSlugs: ["cozumel", "roatan", "grand-cayman", "costa-maya"],
+    portSlugs: ["cozumel", "roatan", "grand-cayman", "costa-maya", "progreso", "puerto-limon"],
     tags: ["Snorkelling", "Wildlife", "Reef boats"],
     description: "Reef-forward Western Caribbean sailings where morning boat slots matter most.",
   },
   {
     id: "southern-sun",
     title: "Southern Sun Route",
-    portSlugs: ["aruba", "curacao", "st-maarten"],
+    portSlugs: ["aruba", "curacao", "bonaire", "st-maarten"],
     tags: ["Beaches", "Catamarans", "Reliable weather"],
     description: "ABC and Dutch Caribbean ports with long beach windows and strong private-tour options.",
   },
@@ -151,6 +151,13 @@ export const popularCaribbeanRoutes: CaribbeanRoutePreset[] = [
     portSlugs: ["st-thomas", "cozumel", "nassau", "grand-cayman"],
     tags: ["Iconic highlights", "Easy logistics", "High reward"],
     description: "The four ports most first-time Caribbean cruisers remember, strong payoff with simple planning.",
+  },
+  {
+    id: "dominican-coast",
+    title: "Dominican Coast Route",
+    portSlugs: ["puerto-plata", "samana", "la-romana"],
+    tags: ["Waterfalls", "Whale watching", "Island catamarans"],
+    description: "Eastern Caribbean sailings with Dominican Republic calls spanning Amber Coast adventures, Samaná whales, and Saona Island sails.",
   },
 ];
 
@@ -195,6 +202,61 @@ export const portDayMistakes: PortDayMistake[] = [
     mistake: "Don't stay only inside Amber Cove village.",
     better: "27 Charcos, Teleférico, or historic Puerto Plata deliver the Amber Coast payoff most passengers came for.",
   },
+  {
+    portSlug: "puerto-limon",
+    mistake: "Don't expect a walkable resort beach town at the pier.",
+    better: "Sloth sanctuary tours, Veragua Rainforest, or Cahuita snorkel deliver Limón's payoff. Book organized excursions with pier return guarantees.",
+  },
+  {
+    portSlug: "tortola",
+    mistake: "Don't book a Virgin Gorda day trip on a short tender call.",
+    better: "The Baths need 6+ hours ashore. Cane Garden Bay or a half-day BVI catamaran sail fit realistic Tortola port windows better.",
+  },
+  {
+    portSlug: "progreso",
+    mistake: "Don't treat Progreso as a reef snorkel port like Cozumel.",
+    better: "Mérida colonial tours, Uxmal ruins, and Celestún flamingos deliver Progreso's payoff. Book early departures for inland routes.",
+  },
+  {
+    portSlug: "samana",
+    mistake: "Don't book whale watching outside peak season without a backup plan.",
+    better: "Humpback tours peak January to March. El Limón waterfall and Los Haitises mangrove boats work year-round with similar nature payoff.",
+  },
+  {
+    portSlug: "la-romana",
+    mistake: "Don't underestimate Saona Island tour duration.",
+    better: "Full-day catamaran sails need early pier departure and confirmed return timing. Altos de Chavón suits half-day calls better.",
+  },
+  {
+    portSlug: "montego-bay",
+    mistake: "Don't attempt Dunn's River Falls from Montego Bay on a standard port call.",
+    better: "Doctor's Cave Beach, Rose Hall, and Hip Strip dining fit MoBay timing. Ocho Rios is the practical falls port with shorter transfers.",
+  },
+  {
+    portSlug: "bonaire",
+    mistake: "Don't expect traditional resort beaches at the pier.",
+    better: "Bonaire rewards reef-entry snorkel and shore diving. Book guided marine park tours and bring water shoes for rocky entries.",
+  },
+  {
+    portSlug: "curacao",
+    mistake: "Don't skip Willemstad if you only book a beach transfer.",
+    better: "Pair Tugboat Beach snorkel with a Handelskade walk. Curacao's culture-and-reef combo beats a beach-only half day.",
+  },
+  {
+    portSlug: "st-maarten",
+    mistake: "Don't split both nations without watching the clock.",
+    better: "Choose Orient Bay beach club OR a Maho-and-Philipsburg loop. Dual-nation days need disciplined taxi timing on shorter calls.",
+  },
+  {
+    portSlug: "costa-maya",
+    mistake: "Don't stay only inside the cruise village on a full-day call.",
+    better: "Chacchoben ruins or Mahahual beach clubs deliver Costa Maya's value. The port pool works only when you want a low-transfer day.",
+  },
+  {
+    portSlug: "falmouth",
+    mistake: "Don't drive to Dunn's River from Falmouth on a short call.",
+    better: "Martha Brae rafting and historic Falmouth walks are the port's signature experiences with reliable return timing.",
+  },
 ];
 
 export const finderFaqs = [
@@ -230,9 +292,16 @@ export const featuredFinderPortSlugs = [
   "st-maarten",
   "curacao",
   "costa-maya",
+  "puerto-limon",
   "puerto-plata",
   "ocho-rios",
   "falmouth",
+  "bonaire",
+  "tortola",
+  "progreso",
+  "samana",
+  "la-romana",
+  "montego-bay",
 ];
 
 export function getFinderPortsGroupedByRegion() {

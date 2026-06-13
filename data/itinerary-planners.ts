@@ -20,7 +20,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
       "Nassau for Atlantis passes, Rose Island snorkel, or short city explorations",
       "Short transfer times make this region excellent for first-time cruisers",
     ],
-    topPortSlugs: ["st-thomas", "st-maarten", "puerto-plata", "nassau"],
+    topPortSlugs: ["st-thomas", "st-maarten", "puerto-plata", "nassau", "tortola"],
     bestExcursions: [
       {
         name: "Magens Bay and Island Viewpoints",
@@ -239,7 +239,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
       "Costa Maya for Chacchoben ruins and easy Mahahual add-ons",
       "Ocho Rios for Dunn's River Falls and adventure-focused day plans",
     ],
-    topPortSlugs: ["cozumel", "roatan", "grand-cayman", "costa-maya", "ocho-rios"],
+    topPortSlugs: ["cozumel", "roatan", "grand-cayman", "costa-maya", "ocho-rios", "progreso", "puerto-limon"],
     bestExcursions: [
       {
         name: "Palancar and Colombia Reef Snorkel",
@@ -458,7 +458,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
       "Consistent sunshine supports reliable beach-heavy planning windows",
       "Longer Southern routes reward balanced beach, culture, and water activity pacing",
     ],
-    topPortSlugs: ["aruba", "curacao", "st-maarten"],
+    topPortSlugs: ["aruba", "curacao", "st-maarten", "bonaire"],
     bestExcursions: [
       {
         name: "Arikok 4x4 and Natural Pool",
@@ -677,7 +677,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
       "Private guide options are strong for customized Dominican experiences",
       "Great single-port destination for both first-time and repeat Caribbean cruisers",
     ],
-    topPortSlugs: ["puerto-plata"],
+    topPortSlugs: ["puerto-plata", "samana", "la-romana"],
     bestExcursions: [
       {
         name: "Teleferico Summit and Botanical Gardens",
@@ -896,7 +896,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
       "Private tours are especially valuable for flexible pacing in Jamaica",
       "Port-day success depends heavily on realistic transport timing",
     ],
-    topPortSlugs: ["ocho-rios", "falmouth"],
+    topPortSlugs: ["ocho-rios", "falmouth", "montego-bay"],
     bestExcursions: [
       {
         name: "Dunn's River Falls Early Entry",
@@ -1101,21 +1101,22 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
     title: "Central America Cruise Planner",
     seoTitle: "Central America Cruise Planner | Roatan & Costa Maya Shore Excursion Guide",
     metaDescription:
-      "Plan Central America cruise port days in Roatan and Costa Maya with reef snorkelling, beach clubs, Mayan ruins, and private tour advice for Western Caribbean sailings.",
+      "Plan Central America cruise port days in Roatan, Costa Maya, and Puerto Limón with reef snorkelling, beach clubs, Mayan ruins, rainforest wildlife, and private tour advice for Western Caribbean sailings.",
     heroSubtitle:
-      "Plan shore excursions in Roatan and Costa Maya, two of the most popular Central American cruise ports on Western Caribbean itineraries.",
+      "Plan shore excursions in Roatan, Costa Maya, and Puerto Limón, three popular Central American cruise ports on Western Caribbean and Panama Canal itineraries.",
     overview:
-      "Central America cruise calls on Western Caribbean routes usually focus on Roatan's reef-rich Mahogany Bay and Costa Maya's compact Mahahual cruise village. Roatan delivers exceptional snorkelling value and white-sand beach days, while Costa Maya pairs accessible Mayan ruins with relaxed village beach clubs.",
+      "Central America cruise calls on Western Caribbean routes usually focus on Roatan's reef-rich Mahogany Bay, Costa Maya's compact Mahahual cruise village, and Puerto Limón's Costa Rica rainforest wildlife. Roatan delivers exceptional snorkelling value, Costa Maya pairs accessible Mayan ruins with relaxed village beach clubs, and Puerto Limón offers sloth sanctuaries and Veragua Rainforest adventures.",
     overviewDetail:
-      "The smartest Central America strategy splits reef intensity from ruin-and-beach pacing. Use Roatan for West Bay snorkelling or Gumbalimba wildlife, then treat Costa Maya as your culture or low-stress beach day. Both ports reward early excursion departures and operators who guarantee on-time pier return.\n\nTransfer times are shorter than many passengers expect at Mahogany Bay and the Costa Maya village pier, but inland ruin tours still need disciplined timing. Book one anchor activity per port, keep a weather backup, and compare independent specialists before peak winter weeks sell out reef boats.",
+      "The smartest Central America strategy splits reef intensity from ruin-and-beach pacing and rainforest wildlife. Use Roatan for West Bay snorkelling or Gumbalimba wildlife, Costa Maya for Chacchoben ruins or Mahahual beach clubs, and Puerto Limón for sloth sanctuary tours or Veragua aerial tram adventures. All three ports reward early excursion departures and operators who guarantee on-time pier return.\n\nTransfer times are shorter than many passengers expect at Mahogany Bay and the Costa Maya village pier, but inland ruin and rainforest tours still need disciplined timing. Book one anchor activity per port, keep a weather backup, and compare independent specialists before peak winter weeks sell out popular tours.",
     itineraryHighlights: [
       "Roatan for barrier-reef snorkelling at strong Caribbean value",
       "Costa Maya for Chacchoben ruins and Mahahual beach clubs",
-      "Short pier transfers at both ports compared with mainland Mexico routes",
+      "Puerto Limón for sloth sanctuaries and Veragua Rainforest adventures",
+      "Short pier transfers at Roatan and Costa Maya compared with mainland Mexico routes",
       "Private drivers and snorkel boats widely available in Roatan",
-      "Ideal pairing within a broader Western Caribbean week",
+      "Ideal pairing within a broader Western Caribbean or Panama Canal week",
     ],
-    topPortSlugs: ["roatan", "costa-maya"],
+    topPortSlugs: ["roatan", "costa-maya", "puerto-limon"],
     bestExcursions: [
       {
         name: "West Bay Beach and Reef Snorkel",
@@ -1142,6 +1143,16 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
         portSlug: "roatan",
         description: "Custom reef stops with flexible departure times for small groups.",
       },
+      {
+        name: "Sloth Sanctuary Wildlife Tour",
+        portSlug: "puerto-limon",
+        description: "Rainforest sanctuary visit with sloths, monkeys, and tropical birds near Limón.",
+      },
+      {
+        name: "Veragua Rainforest Adventure",
+        portSlug: "puerto-limon",
+        description: "Aerial tram, zip-line, and waterfall trails in primary Costa Rican rainforest.",
+      },
     ],
     suggestedDayPlans: [
       {
@@ -1158,6 +1169,13 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
         afternoon: "Mahahual beach club with a strict return checkpoint agreed with your operator.",
         tip: "Do not stack a long ruin tour with a distant second stop on shorter port calls.",
       },
+      {
+        portSlug: "puerto-limon",
+        title: "Wildlife Sanctuary Focus Day",
+        morning: "Depart early for sloth sanctuary tour before coach groups peak at rainforest sites.",
+        afternoon: "Optional Cahuita beach extension only if your operator confirms pier return timing.",
+        tip: "Rainforest tours dominate Limón; pack insect repellent and light rain gear year-round.",
+      },
     ],
     bestBeaches: [
       {
@@ -1169,6 +1187,11 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
         portSlug: "costa-maya",
         title: "Mahahual village beach clubs",
         advice: "Organized loungers and lunch without long-distance beach transfers.",
+      },
+      {
+        portSlug: "puerto-limon",
+        title: "Cahuita National Park beach",
+        advice: "Protected Caribbean sand paired with reef snorkel on organized half-day tours.",
       },
     ],
     bestSnorkelling: [
@@ -1182,6 +1205,11 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
         title: "Village-area boat snorkel add-ons",
         advice: "Choose concise trips that protect your return window after ruin mornings.",
       },
+      {
+        portSlug: "puerto-limon",
+        title: "Cahuita National Park reef",
+        advice: "Best Caribbean reef snorkel near Limón; allow 45 minutes coach time each way.",
+      },
     ],
     familyRecommendations: [
       {
@@ -1194,6 +1222,11 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
         title: "Cruise village pool day",
         advice: "Low-stress option when younger travellers need shade and facilities close to port.",
       },
+      {
+        portSlug: "puerto-limon",
+        title: "Sloth sanctuary for all ages",
+        advice: "Guaranteed wildlife viewing without long hikes or open-ocean boat rides.",
+      },
     ],
     privateTourRecommendations: [
       {
@@ -1205,6 +1238,11 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
         portSlug: "costa-maya",
         title: "Small-group ruins tour",
         advice: "Moves faster than large coaches and protects afternoon beach time.",
+      },
+      {
+        portSlug: "puerto-limon",
+        title: "Private sanctuary and coast tour",
+        advice: "Custom wildlife stops with optional Cahuita snorkel extension on a flexible timeline.",
       },
     ],
     regionPageSlug: "western-caribbean-cruise-ports",

@@ -10,6 +10,7 @@ import { itineraryPlanners } from "@/data/itinerary-planners";
 import { regionalCruisePlanners } from "@/data/regional-cruise-planners";
 import { bestGuides } from "@/data/best-guides";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import { ExploreByRegion } from "@/components/ExploreByRegion";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
@@ -78,6 +79,14 @@ export default function CruisePlannerPage() {
             <Link href="/caribbean-excursion-finder" className="btn-primary mt-6">
               Open Excursion Finder
             </Link>
+          </div>
+
+          {/* Caribbean cruise map */}
+          <div className="mb-16 -mx-4 rounded-2xl border border-caribbean-100 bg-caribbean-50/30 px-4 py-10 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
+            <ExploreByRegion
+              variant="compact"
+              subtitle="Ten Caribbean cruise regions with port lists, best-for taglines, and links to regional planners and port guides."
+            />
           </div>
 
           {/* Itinerary planners */}

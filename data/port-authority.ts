@@ -344,6 +344,44 @@ const authority: Record<string, PortAuthorityContent> = {
       { name: "Private Bacalar expedition", description: "Full-day lagoon and fort visit with private transport." },
     ],
   },
+  "puerto-limon": {
+    seoTitle: "Puerto Limón Shore Excursions & Cruise Port Authority Guide",
+    seoDescription:
+      "Puerto Limón cruise port authority guide to sloth sanctuaries, Veragua rainforest, Cahuita snorkel, family wildlife tours, private options and puertolimonshoreexcursions.com.",
+    whyVisit: [
+      "Costa Rica's Caribbean coast delivers sloth, monkey, and tropical bird encounters in primary rainforest",
+      "Veragua Rainforest Park aerial tram and zip-lines suit active adventure seekers",
+      "Cahuita National Park pairs reef snorkel with protected Caribbean beach time",
+      "Direct pier docking at Limón Cruise Terminal with no tender required",
+    ],
+    bestBeaches: [
+      { name: "Cahuita National Park Beach", description: "Protected Caribbean sand with reef snorkel access on organized park tours." },
+      { name: "Playa Bonita", description: "Calm swim spot south of Limón popular on combination culture-and-beach excursions." },
+      { name: "Puerto Viejo Beach (excursion)", description: "Laid-back southern coast stretch on longer full-day tours from the cruise pier." },
+    ],
+    bestForFamilies: [
+      "Sloth and wildlife sanctuary tours with guaranteed animal viewing for all ages",
+      "Veragua Rainforest aerial tram for non-hikers wanting canopy views",
+      "Banana plantation tour with educational farm visit and cultural storytelling",
+      "Cahuita snorkel with calm shallow reef sections for beginner swimmers",
+    ],
+    bestForCouples: [
+      "Private sloth sanctuary tour with rainforest walk and photography time",
+      "Couples zip-line and waterfall adventure at Veragua Rainforest Park",
+      "Private Cahuita reef snorkel and beach picnic on the southern coast",
+      "Chocolate and coffee tasting tour through Limón's Caribbean heritage",
+    ],
+    snorkelling: [
+      { site: "Cahuita National Park Reef", description: "Protected Caribbean reef with coral heads and tropical fish on guided park tours." },
+      { site: "Manzanillo Reef (boat tour)", description: "Southern coast snorkel stops on longer combination excursions from Limón." },
+      { site: "In-shore reef patches", description: "Seasonal near-shore snorkel on calm days; Cahuita remains the most reliable option." },
+    ],
+    privateTours: [
+      { name: "Private sloth sanctuary and rainforest tour", description: "Custom wildlife stops with flexible sanctuary timing and photography breaks." },
+      { name: "Private Veragua adventure day", description: "Dedicated guide for aerial tram, zip-line, and waterfall trail at your pace." },
+      { name: "Private Cahuita snorkel and coast tour", description: "Small-group reef snorkel with beach time and Limón cultural highlights." },
+    ],
+  },
   curacao: {
     seoTitle: "Curaçao Shore Excursions & Cruise Port Authority Guide",
     seoDescription:

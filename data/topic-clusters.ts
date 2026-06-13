@@ -26,7 +26,7 @@ const sharedBestGuides = [
 export const topicClusters: TopicClusterData[] = [
   {
     slug: "abc-islands-cruise-planner",
-    portSlugs: ["aruba", "curacao"],
+    portSlugs: ["aruba", "curacao", "bonaire"],
     portCardNotes: {
       aruba: {
         shortDescription:
@@ -37,6 +37,11 @@ export const topicClusters: TopicClusterData[] = [
         shortDescription:
           "UNESCO waterfront culture, Dutch-Caribbean dining, and west-coast snorkel coves a short taxi from Willemstad.",
         topExcursionType: "Culture & reef snorkel",
+      },
+      bonaire: {
+        shortDescription:
+          "Marine park shore diving, flamingo salt flats, and conservation-focused reef days from Kralendijk pier.",
+        topExcursionType: "Reef snorkel & wildlife",
       },
     },
     comparisonTable: [
@@ -62,6 +67,17 @@ export const topicClusters: TopicClusterData[] = [
         privateTours: "Very good custom routes",
         easeFromShip: "Easy downtown access",
       },
+      {
+        portSlug: "bonaire",
+        portName: "Bonaire",
+        bestFor: "Marine park reefs",
+        bestExcursion: "Shore reef snorkel tour",
+        beachQuality: "Reef-entry focused",
+        snorkelling: "Excellent protected reefs",
+        families: "Good with reef guides",
+        privateTours: "Excellent charters",
+        easeFromShip: "Very easy pier walk",
+      },
     ],
     dayPlans: [
       {
@@ -78,6 +94,13 @@ export const topicClusters: TopicClusterData[] = [
         beachDay: "Grote Knip or Porto Mari with pre-booked taxi timing for a full beach afternoon.",
         privateTourDay: "Private driver combining old town, local market, and a west-coast snorkel stop.",
       },
+      {
+        portSlug: "bonaire",
+        easyDay: "Guided beginner reef snorkel with Kralendijk waterfront lunch.",
+        adventureDay: "Washington Slagbaai park jeep with flamingo lagoon stops.",
+        beachDay: "Reef-entry shore snorkel at a marine park site with water shoes.",
+        privateTourDay: "Private reef charter or flamingo and salt flat safari on your schedule.",
+      },
     ],
     travellerPicks: [
       { travellerType: "Families", portSlug: "aruba", excursionName: "De Palm Island day pass", description: "All-inclusive water park, snorkel areas, and lunch in one controlled setting.", guideHref: "/best-caribbean-family-excursions" },
@@ -86,6 +109,7 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Active travellers", portSlug: "curacao", excursionName: "Arikok-style off-road and cove combo", description: "Rugged scenery plus reef time on Curacao's less resort-focused side.", guideHref: "/excursion-types/adventure-tours" },
       { travellerType: "Beach lovers", portSlug: "aruba", excursionName: "Eagle Beach morning", description: "Top-ranked Caribbean sand with reliable swim conditions.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "curacao", excursionName: "West-coast reef snorkel", description: "Healthy hard and soft coral in protected coves.", guideHref: "/best-caribbean-snorkeling-excursions" },
+      { travellerType: "Wildlife/nature lovers", portSlug: "bonaire", excursionName: "Marine park shore snorkel", description: "Protected house reefs with flamingo lagoon add-ons.", guideHref: "/best-caribbean-snorkeling-excursions" },
     ],
     comparisonSlugs: ["aruba-vs-curacao", "aruba-vs-bonaire", "bonaire-vs-curacao"],
     bestGuideSlugs: [...sharedBestGuides, "best-caribbean-couple-excursions"],
@@ -94,7 +118,7 @@ export const topicClusters: TopicClusterData[] = [
   },
   {
     slug: "virgin-islands-cruise-planner",
-    portSlugs: ["st-thomas", "st-maarten"],
+    portSlugs: ["st-thomas", "st-maarten", "tortola"],
     portCardNotes: {
       "st-thomas": {
         shortDescription:
@@ -105,6 +129,11 @@ export const topicClusters: TopicClusterData[] = [
         shortDescription:
           "Dual-nation port days pairing Dutch Philipsburg with French Orient Bay beaches and Maho plane spotting.",
         topExcursionType: "Beach & culture split",
+      },
+      tortola: {
+        shortDescription:
+          "BVI catamaran sailing, Virgin Gorda day trips, and quieter English-speaking island days via Road Town tender.",
+        topExcursionType: "Catamaran & sailing",
       },
     },
     comparisonTable: [
@@ -130,6 +159,17 @@ export const topicClusters: TopicClusterData[] = [
         privateTours: "Very good island splits",
         easeFromShip: "Easy pier, taxi needed",
       },
+      {
+        portSlug: "tortola",
+        portName: "Tortola",
+        bestFor: "BVI sailing & coves",
+        bestExcursion: "Catamaran snorkel sail",
+        beachQuality: "Very good Cane Garden Bay",
+        snorkelling: "Excellent BVI reef stops",
+        families: "Good with sailing tours",
+        privateTours: "Excellent charters",
+        easeFromShip: "Tender port",
+      },
     ],
     dayPlans: [
       {
@@ -146,6 +186,13 @@ export const topicClusters: TopicClusterData[] = [
         beachDay: "Orient Bay beach club day with lunch and loungers on the French side.",
         privateTourDay: "Private driver splitting Dutch shopping, French beach, and scenic overlooks.",
       },
+      {
+        portSlug: "tortola",
+        easyDay: "Tender to Road Town, Cane Garden Bay taxi, and waterfront lunch.",
+        adventureDay: "Full-day Virgin Gorda and The Baths grotto excursion.",
+        beachDay: "Half-day Cane Garden Bay with calm swim time.",
+        privateTourDay: "Private BVI catamaran charter with custom snorkel and beach stops.",
+      },
     ],
     travellerPicks: [
       { travellerType: "Families", portSlug: "st-thomas", excursionName: "Coral World Ocean Park", description: "Touch pools and observatory without long boat transfers.", guideHref: "/best-caribbean-family-excursions" },
@@ -154,6 +201,7 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Active travellers", portSlug: "st-maarten", excursionName: "Maho and Orient Bay combo", description: "High-energy dual-nation day with beach and aviation spectacle.", guideHref: "/excursion-types/adventure-tours" },
       { travellerType: "Beach lovers", portSlug: "st-thomas", excursionName: "Magens Bay morning", description: "Horseshoe bay with calm water in most conditions.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "st-thomas", excursionName: "St. John Trunk Bay trail", description: "National Park snorkel trail via short ferry.", guideHref: "/best-caribbean-snorkeling-excursions" },
+      { travellerType: "First-time cruisers", portSlug: "tortola", excursionName: "BVI catamaran snorkel sail", description: "Quieter sailing alternative to busy USVI port days.", guideHref: "/ports/tortola" },
     ],
     comparisonSlugs: ["st-thomas-vs-st-maarten", "st-thomas-vs-tortola", "st-maarten-vs-tortola"],
     bestGuideSlugs: sharedBestGuides,
@@ -230,12 +278,22 @@ export const topicClusters: TopicClusterData[] = [
   },
   {
     slug: "dominican-republic-cruise-planner",
-    portSlugs: ["puerto-plata"],
+    portSlugs: ["puerto-plata", "samana", "la-romana"],
     portCardNotes: {
       "puerto-plata": {
         shortDescription:
           "Amber Coast calls at Amber Cove or Puerto Plata with Teleférico views, waterfalls, and colonial city culture.",
         topExcursionType: "Adventure & culture",
+      },
+      samana: {
+        shortDescription:
+          "Northeast peninsula port for seasonal whale watching, El Limón waterfall, and secluded Playa Rincón escapes.",
+        topExcursionType: "Wildlife & rainforest",
+      },
+      "la-romana": {
+        shortDescription:
+          "Southeast gateway for Saona Island catamarans, Altos de Chavón village, and Catalina Island reef snorkel.",
+        topExcursionType: "Island catamaran",
       },
     },
     comparisonTable: [
@@ -250,6 +308,28 @@ export const topicClusters: TopicClusterData[] = [
         privateTours: "Excellent private drivers",
         easeFromShip: "Good pier access",
       },
+      {
+        portSlug: "samana",
+        portName: "Samaná",
+        bestFor: "Whales & rainforest",
+        bestExcursion: "Humpback whale watching",
+        beachQuality: "Excellent secluded beaches",
+        snorkelling: "Moderate island stops",
+        families: "Good ages 6+ for whales",
+        privateTours: "Very good nature guides",
+        easeFromShip: "Good pier access",
+      },
+      {
+        portSlug: "la-romana",
+        portName: "La Romana",
+        bestFor: "Island catamaran days",
+        bestExcursion: "Saona Island sail",
+        beachQuality: "Excellent island beaches",
+        snorkelling: "Good Catalina Island reef",
+        families: "Very strong",
+        privateTours: "Excellent charters",
+        easeFromShip: "Very easy pier",
+      },
     ],
     dayPlans: [
       {
@@ -259,6 +339,20 @@ export const topicClusters: TopicClusterData[] = [
         beachDay: "Organized beach transfer or Amber Cove facilities day.",
         privateTourDay: "Private countryside route with waterfall, viewpoint, and beach on your timing.",
       },
+      {
+        portSlug: "samana",
+        easyDay: "Playa Bonita beach with organized transport and waterfront lunch.",
+        adventureDay: "El Limón waterfall horseback trek with swim at the cascade.",
+        beachDay: "Playa Rincón boat transfer for a secluded full-day beach.",
+        privateTourDay: "Private whale watching boat in peak season or custom waterfall route.",
+      },
+      {
+        portSlug: "la-romana",
+        easyDay: "Altos de Chavón village walk with river gorge views.",
+        adventureDay: "Full-day Saona Island catamaran with natural pool stop.",
+        beachDay: "Catalina Island snorkel and beach combo.",
+        privateTourDay: "Private Saona charter with custom beach and snorkel timing.",
+      },
     ],
     travellerPicks: [
       { travellerType: "Families", portSlug: "puerto-plata", excursionName: "Teleférico cable car", description: "Scenic ride popular with school-age children.", guideHref: "/best-caribbean-family-excursions" },
@@ -267,6 +361,8 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Active travellers", portSlug: "puerto-plata", excursionName: "27 Waterfalls of Damajagua", description: "Signature Dominican adventure excursion.", guideHref: "/excursion-types/adventure-tours" },
       { travellerType: "Beach lovers", portSlug: "puerto-plata", excursionName: "Guided beach transfer", description: "Organized transport protects return timing inland.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "puerto-plata", excursionName: "Rainforest waterfall route", description: "Tropical river and canopy settings on guided tours.", guideHref: "/excursion-types/adventure-tours" },
+      { travellerType: "Wildlife/nature lovers", portSlug: "samana", excursionName: "Humpback whale watching", description: "Seasonal breeding-ground boat tours in Samaná Bay.", guideHref: "/best-caribbean-wildlife-excursions" },
+      { travellerType: "Beach lovers", portSlug: "la-romana", excursionName: "Saona Island catamaran", description: "National park island beaches with natural pool stops.", guideHref: "/best-caribbean-beach-excursions" },
     ],
     comparisonSlugs: [
       "amber-cove-vs-puerto-plata",
@@ -279,7 +375,7 @@ export const topicClusters: TopicClusterData[] = [
   },
   {
     slug: "jamaica-cruise-planner",
-    portSlugs: ["ocho-rios", "falmouth"],
+    portSlugs: ["ocho-rios", "falmouth", "montego-bay"],
     portCardNotes: {
       "ocho-rios": {
         shortDescription:
@@ -290,6 +386,11 @@ export const topicClusters: TopicClusterData[] = [
         shortDescription:
           "Heritage port with Martha Brae rafting, cultural routes, and Montego Bay area beach access.",
         topExcursionType: "Culture & scenic river",
+      },
+      "montego-bay": {
+        shortDescription:
+          "Resort capital with Doctor's Cave Beach, Rose Hall Great House, and Hip Strip beach clubs.",
+        topExcursionType: "Beach & heritage",
       },
     },
     comparisonTable: [
@@ -315,6 +416,17 @@ export const topicClusters: TopicClusterData[] = [
         privateTours: "Excellent drivers",
         easeFromShip: "Good pier access",
       },
+      {
+        portSlug: "montego-bay",
+        portName: "Montego Bay",
+        bestFor: "Resort beaches",
+        bestExcursion: "Doctor's Cave Beach",
+        beachQuality: "Excellent Hip Strip beaches",
+        snorkelling: "Moderate marine park boats",
+        families: "Very strong",
+        privateTours: "Very good drivers",
+        easeFromShip: "Easy pier access",
+      },
     ],
     dayPlans: [
       {
@@ -331,6 +443,13 @@ export const topicClusters: TopicClusterData[] = [
         beachDay: "Resort beach transfer with organized return transport.",
         privateTourDay: "Private driver for beach, river, and culinary stops on flexible timing.",
       },
+      {
+        portSlug: "montego-bay",
+        easyDay: "Doctor's Cave Beach with Hip Strip lunch and short downtown browse.",
+        adventureDay: "Rose Hall Great House tour with rum tasting and viewpoint stops.",
+        beachDay: "Resort beach day pass or Margaritaville pool and slide complex.",
+        privateTourDay: "Private MoBay highlights loop with beach and heritage on your schedule.",
+      },
     ],
     travellerPicks: [
       { travellerType: "Families", portSlug: "ocho-rios", excursionName: "Gentler falls alternatives", description: "Scenic parks when full climbs are too demanding for younger children.", guideHref: "/best-caribbean-family-excursions" },
@@ -339,6 +458,7 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Active travellers", portSlug: "ocho-rios", excursionName: "Mystic Mountain bobsled", description: "Rainforest adrenaline paired with north-coast views.", guideHref: "/excursion-types/adventure-tours" },
       { travellerType: "Beach lovers", portSlug: "falmouth", excursionName: "Resort beach day", description: "Predictable facilities with guided pier transfers.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "ocho-rios", excursionName: "Rainforest adventure parks", description: "Tropical canopy settings with guided supervision.", guideHref: "/excursion-types/adventure-tours" },
+      { travellerType: "Beach lovers", portSlug: "montego-bay", excursionName: "Doctor's Cave Beach", description: "Classic MoBay swim beach with Hip Strip facilities.", guideHref: "/best-caribbean-beach-excursions" },
     ],
     comparisonSlugs: [
       "ocho-rios-vs-falmouth",
@@ -351,7 +471,7 @@ export const topicClusters: TopicClusterData[] = [
   },
   {
     slug: "mexican-caribbean-cruise-planner",
-    portSlugs: ["cozumel", "costa-maya"],
+    portSlugs: ["cozumel", "costa-maya", "progreso"],
     portCardNotes: {
       cozumel: {
         shortDescription:
@@ -362,6 +482,11 @@ export const topicClusters: TopicClusterData[] = [
         shortDescription:
           "Purpose-built Mahahual cruise village with Chacchoben ruins and relaxed beach club options nearby.",
         topExcursionType: "Ruins & beach village",
+      },
+      progreso: {
+        shortDescription:
+          "Yucatán Gulf pier gateway to colonial Mérida, Uxmal ruins, and Celestún flamingo reserves.",
+        topExcursionType: "Culture & ruins",
       },
     },
     comparisonTable: [
@@ -387,6 +512,17 @@ export const topicClusters: TopicClusterData[] = [
         privateTours: "Good small groups",
         easeFromShip: "Excellent village pier",
       },
+      {
+        portSlug: "progreso",
+        portName: "Progreso",
+        bestFor: "Mérida culture & Uxmal",
+        bestExcursion: "Mérida colonial tour",
+        beachQuality: "Moderate Gulf beach",
+        snorkelling: "Limited reef access",
+        families: "Very good",
+        privateTours: "Excellent private vans",
+        easeFromShip: "Long pier shuttle",
+      },
     ],
     dayPlans: [
       {
@@ -403,6 +539,13 @@ export const topicClusters: TopicClusterData[] = [
         beachDay: "Mahahual beach club with loungers and lunch included.",
         privateTourDay: "Private ruins tour with custom beach extension when in-port time allows.",
       },
+      {
+        portSlug: "progreso",
+        easyDay: "Mérida plaza walk with cathedral and market stops.",
+        adventureDay: "Early Uxmal ruins departure with hacienda lunch.",
+        beachDay: "Progreso malecón beach break after a short cultural morning.",
+        privateTourDay: "Private Mérida or Celestún flamingo tour on custom timing.",
+      },
     ],
     travellerPicks: [
       { travellerType: "Families", portSlug: "cozumel", excursionName: "Chankanaab Park", description: "Protected lagoon, beach, and facilities near the pier.", guideHref: "/best-caribbean-family-excursions" },
@@ -411,6 +554,7 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Active travellers", portSlug: "costa-maya", excursionName: "Chacchoben ruins tour", description: "Mayan archaeology without mainland ferry complexity.", guideHref: "/excursion-types/adventure-tours" },
       { travellerType: "Beach lovers", portSlug: "costa-maya", excursionName: "Mahahual beach club", description: "Relaxed white sand without Cozumel-level crowds.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "cozumel", excursionName: "Columbia Deep snorkel", description: "Healthy reef fish, rays, and occasional turtles.", guideHref: "/best-caribbean-snorkeling-excursions" },
+      { travellerType: "First-time cruisers", portSlug: "progreso", excursionName: "Mérida colonial tour", description: "Yucatán culture port distinct from reef-focused Cozumel.", guideHref: "/ports/progreso" },
     ],
     comparisonSlugs: [
       "roatan-vs-cozumel",
@@ -424,7 +568,7 @@ export const topicClusters: TopicClusterData[] = [
   },
   {
     slug: "central-america-cruise-planner",
-    portSlugs: ["roatan", "costa-maya"],
+    portSlugs: ["roatan", "costa-maya", "puerto-limon"],
     portCardNotes: {
       roatan: {
         shortDescription:
@@ -435,6 +579,11 @@ export const topicClusters: TopicClusterData[] = [
         shortDescription:
           "Compact cruise village with Mayan ruin routes and low-stress Mahahual beach clubs.",
         topExcursionType: "Ruins & relaxed beach",
+      },
+      "puerto-limon": {
+        shortDescription:
+          "Costa Rica rainforest wildlife, sloth sanctuaries, and Caribbean coast snorkel at Cahuita.",
+        topExcursionType: "Wildlife & rainforest",
       },
     },
     comparisonTable: [
@@ -460,6 +609,17 @@ export const topicClusters: TopicClusterData[] = [
         privateTours: "Good",
         easeFromShip: "Excellent pier village",
       },
+      {
+        portSlug: "puerto-limon",
+        portName: "Puerto Limón",
+        bestFor: "Rainforest wildlife",
+        bestExcursion: "Sloth sanctuary tour",
+        beachQuality: "Good at Cahuita",
+        snorkelling: "Moderate Cahuita reef",
+        families: "Very strong",
+        privateTours: "Very good",
+        easeFromShip: "Easy pier docking",
+      },
     ],
     dayPlans: [
       {
@@ -476,6 +636,13 @@ export const topicClusters: TopicClusterData[] = [
         beachDay: "Mahahual loungers, lunch, and calm swim time.",
         privateTourDay: "Small-group ruins tour with optional private beach extension.",
       },
+      {
+        portSlug: "puerto-limon",
+        easyDay: "Sloth sanctuary morning with short rainforest walk and pier return.",
+        adventureDay: "Veragua Rainforest aerial tram and zip-line with waterfall trail.",
+        beachDay: "Cahuita National Park snorkel and protected Caribbean beach time.",
+        privateTourDay: "Private sanctuary tour with custom Cahuita coast extension.",
+      },
     ],
     travellerPicks: [
       { travellerType: "Families", portSlug: "roatan", excursionName: "Gumbalimba Park", description: "Wildlife, zip-lines, and beach in one Mahogany Bay transfer.", guideHref: "/best-caribbean-family-excursions" },
@@ -483,33 +650,42 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "First-time cruisers", portSlug: "roatan", excursionName: "West Bay Beach break", description: "Simple, high-quality white sand day.", guideHref: "/ports/roatan" },
       { travellerType: "Active travellers", portSlug: "costa-maya", excursionName: "Chacchoben ruins", description: "Accessible Mayan site with manageable transfers.", guideHref: "/excursion-types/adventure-tours" },
       { travellerType: "Beach lovers", portSlug: "roatan", excursionName: "West Bay full day", description: "Caribbean-quality sand at strong value.", guideHref: "/best-caribbean-beach-excursions" },
-      { travellerType: "Wildlife/nature lovers", portSlug: "roatan", excursionName: "Reef snorkel off West End", description: "Healthy coral with fewer boats than Cozumel.", guideHref: "/best-caribbean-snorkeling-excursions" },
+      { travellerType: "Wildlife/nature lovers", portSlug: "puerto-limon", excursionName: "Sloth sanctuary tour", description: "Guaranteed sloth and monkey encounters in Costa Rica rainforest.", guideHref: "/best-caribbean-wildlife-excursions" },
     ],
     comparisonSlugs: ["roatan-vs-cozumel"],
     bestGuideSlugs: sharedBestGuides,
     nextStepCta:
-      "Pair Roatan reef value with Costa Maya ruin-and-beach pacing on Western Caribbean weeks, check schedules, then book specialists with pier return guarantees.",
+      "Pair Roatan reef value with Costa Maya ruin-and-beach pacing and Puerto Limón wildlife on Western Caribbean weeks, check schedules, then book specialists with pier return guarantees.",
   },
   {
     slug: "eastern-caribbean-cruise-planner",
-    portSlugs: ["st-thomas", "st-maarten", "puerto-plata", "nassau"],
+    portSlugs: ["st-thomas", "st-maarten", "puerto-plata", "nassau", "tortola", "samana", "la-romana"],
     portCardNotes: {
       "st-thomas": { shortDescription: "Magens Bay and St. John access from a no-tender pier.", topExcursionType: "Beach & ferry" },
       "st-maarten": { shortDescription: "French and Dutch beaches in one Philipsburg call.", topExcursionType: "Dual-nation beach" },
       "puerto-plata": { shortDescription: "Dominican waterfalls, cable car, and Amber Cove convenience.", topExcursionType: "Adventure" },
       nassau: { shortDescription: "Bahamas waterparks and walkable downtown from Prince George Wharf.", topExcursionType: "Family resort" },
+      tortola: { shortDescription: "BVI catamaran sailing and Virgin Gorda day trips via Road Town tender.", topExcursionType: "Catamaran & sailing" },
+      samana: { shortDescription: "Seasonal whale watching, El Limón waterfall, and secluded Playa Rincón.", topExcursionType: "Wildlife & rainforest" },
+      "la-romana": { shortDescription: "Saona Island catamarans, Altos de Chavón village, and Catalina reef snorkel.", topExcursionType: "Island catamaran" },
     },
     comparisonTable: [
       { portSlug: "st-thomas", portName: "St. Thomas", bestFor: "Beach variety", bestExcursion: "Magens Bay and St. John", beachQuality: "Excellent", snorkelling: "Very good", families: "Excellent", privateTours: "Excellent", easeFromShip: "Very easy" },
       { portSlug: "st-maarten", portName: "St. Maarten", bestFor: "Two-nation day", bestExcursion: "Orient Bay club", beachQuality: "Very good", snorkelling: "Good", families: "Strong", privateTours: "Very good", easeFromShip: "Easy" },
       { portSlug: "puerto-plata", portName: "Puerto Plata", bestFor: "Adventure culture", bestExcursion: "Teleférico and falls", beachQuality: "Good", snorkelling: "Moderate", families: "Strong", privateTours: "Excellent", easeFromShip: "Good" },
       { portSlug: "nassau", portName: "Nassau", bestFor: "Atlantis families", bestExcursion: "Aquaventure day pass", beachQuality: "Very good", snorkelling: "Good", families: "Excellent", privateTours: "Good", easeFromShip: "Very easy" },
+      { portSlug: "tortola", portName: "Tortola", bestFor: "BVI sailing", bestExcursion: "Catamaran snorkel sail", beachQuality: "Very good", snorkelling: "Excellent", families: "Good", privateTours: "Excellent", easeFromShip: "Tender port" },
+      { portSlug: "samana", portName: "Samaná", bestFor: "Whales & rainforest", bestExcursion: "Humpback whale watching", beachQuality: "Excellent secluded", snorkelling: "Moderate", families: "Good ages 6+", privateTours: "Very good", easeFromShip: "Good pier" },
+      { portSlug: "la-romana", portName: "La Romana", bestFor: "Island catamaran", bestExcursion: "Saona Island sail", beachQuality: "Excellent island", snorkelling: "Good Catalina", families: "Very strong", privateTours: "Excellent", easeFromShip: "Very easy" },
     ],
     dayPlans: [
       { portSlug: "st-thomas", easyDay: "Magens Bay and Charlotte Amalie browse.", adventureDay: "St. John Trunk Bay ferry day.", beachDay: "Full Magens Bay with facilities.", privateTourDay: "Private island taxi loop." },
       { portSlug: "st-maarten", easyDay: "Philipsburg and short beach taxi.", adventureDay: "Maho and Orient Bay combo.", beachDay: "Orient Bay club loungers.", privateTourDay: "French-Dutch private split." },
       { portSlug: "puerto-plata", easyDay: "Teleférico and Amber Cove pool.", adventureDay: "Damajagua waterfalls.", beachDay: "Organized beach transfer.", privateTourDay: "Private countryside driver." },
       { portSlug: "nassau", easyDay: "Downtown walk and Junkanoo Beach.", adventureDay: "Atlantis Aquaventure.", beachDay: "Paradise Island beach pass.", privateTourDay: "Private Rose Island snorkel." },
+      { portSlug: "tortola", easyDay: "Cane Garden Bay taxi and waterfront lunch.", adventureDay: "Virgin Gorda and The Baths grotto day.", beachDay: "Half-day Cane Garden Bay swim.", privateTourDay: "Private BVI catamaran charter." },
+      { portSlug: "samana", easyDay: "Playa Bonita beach with organized transport.", adventureDay: "El Limón waterfall horseback trek.", beachDay: "Playa Rincón boat transfer.", privateTourDay: "Private whale watching or waterfall route." },
+      { portSlug: "la-romana", easyDay: "Altos de Chavón village walk.", adventureDay: "Full-day Saona Island catamaran.", beachDay: "Catalina Island snorkel and beach.", privateTourDay: "Private Saona charter." },
     ],
     travellerPicks: [
       { travellerType: "Families", portSlug: "nassau", excursionName: "Atlantis Aquaventure", description: "Best Eastern family waterpark day.", guideHref: "/best-caribbean-family-excursions" },
@@ -518,12 +694,17 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Active travellers", portSlug: "puerto-plata", excursionName: "Damajagua falls", description: "High-energy Dominican adventure.", guideHref: "/excursion-types/adventure-tours" },
       { travellerType: "Beach lovers", portSlug: "st-thomas", excursionName: "Magens Bay day", description: "Top-ranked calm swimming bay.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "st-thomas", excursionName: "St. John snorkel trail", description: "National Park underwater trail.", guideHref: "/best-caribbean-snorkeling-excursions" },
+      { travellerType: "Couples", portSlug: "tortola", excursionName: "Private BVI catamaran", description: "Custom sailing to Norman Island caves and secluded coves.", guideHref: "/best-caribbean-couple-excursions" },
+      { travellerType: "Wildlife/nature lovers", portSlug: "samana", excursionName: "Humpback whale watching", description: "Seasonal breeding grounds in Samaná Bay.", guideHref: "/best-caribbean-wildlife-excursions" },
+      { travellerType: "Beach lovers", portSlug: "la-romana", excursionName: "Saona Island catamaran", description: "National park island beaches with natural pool stops.", guideHref: "/best-caribbean-beach-excursions" },
     ],
     comparisonSlugs: [
       "st-thomas-vs-st-maarten",
       "st-thomas-vs-tortola",
       "st-maarten-vs-tortola",
       "amber-cove-vs-puerto-plata",
+      "puerto-plata-vs-samana",
+      "la-romana-vs-puerto-plata",
       "grand-cayman-vs-nassau",
     ],
     bestGuideSlugs: sharedBestGuides,
@@ -532,13 +713,17 @@ export const topicClusters: TopicClusterData[] = [
   },
   {
     slug: "western-caribbean-cruise-planner",
-    portSlugs: ["cozumel", "roatan", "grand-cayman", "costa-maya", "ocho-rios"],
+    portSlugs: ["cozumel", "roatan", "grand-cayman", "costa-maya", "ocho-rios", "puerto-limon", "progreso", "falmouth", "montego-bay"],
     portCardNotes: {
       cozumel: { shortDescription: "Barrier reef capital with ruin-and-reef combo potential.", topExcursionType: "Snorkelling" },
       roatan: { shortDescription: "Reef quality rivalling Cozumel at lower prices.", topExcursionType: "Beach reef" },
       "grand-cayman": { shortDescription: "Tender wildlife sandbar and Seven Mile Beach.", topExcursionType: "Wildlife" },
       "costa-maya": { shortDescription: "Village pier with ruins and Mahahual beach clubs.", topExcursionType: "Ruins" },
       "ocho-rios": { shortDescription: "Jamaica waterfall and rainforest adventure port.", topExcursionType: "Waterfalls" },
+      "puerto-limon": { shortDescription: "Costa Rica sloth sanctuaries and Veragua rainforest adventures.", topExcursionType: "Wildlife" },
+      progreso: { shortDescription: "Yucatán Gulf pier gateway to Mérida culture and Uxmal ruins.", topExcursionType: "Culture & ruins" },
+      falmouth: { shortDescription: "Heritage port with Martha Brae rafting and north-coast culture.", topExcursionType: "River & culture" },
+      "montego-bay": { shortDescription: "Resort beaches, Rose Hall estate, and Hip Strip beach clubs.", topExcursionType: "Beach & heritage" },
     },
     comparisonTable: [
       { portSlug: "cozumel", portName: "Cozumel", bestFor: "Reef depth", bestExcursion: "Palancar snorkel sail", beachQuality: "Very good", snorkelling: "Excellent", families: "Excellent", privateTours: "Excellent", easeFromShip: "Very easy" },
@@ -546,6 +731,10 @@ export const topicClusters: TopicClusterData[] = [
       { portSlug: "grand-cayman", portName: "Grand Cayman", bestFor: "Stingrays", bestExcursion: "Stingray City", beachQuality: "Excellent", snorkelling: "Very good", families: "Excellent", privateTours: "Excellent", easeFromShip: "Tender port" },
       { portSlug: "costa-maya", portName: "Costa Maya", bestFor: "Ruins pace", bestExcursion: "Chacchoben combo", beachQuality: "Good", snorkelling: "Moderate", families: "Strong", privateTours: "Good", easeFromShip: "Excellent" },
       { portSlug: "ocho-rios", portName: "Ocho Rios", bestFor: "Waterfalls", bestExcursion: "Dunn's River Falls", beachQuality: "Good add-on", snorkelling: "Moderate", families: "Strong", privateTours: "Very good", easeFromShip: "Good pier" },
+      { portSlug: "puerto-limon", portName: "Puerto Limón", bestFor: "Rainforest wildlife", bestExcursion: "Sloth sanctuary tour", beachQuality: "Good Cahuita", snorkelling: "Moderate", families: "Very strong", privateTours: "Very good", easeFromShip: "Easy pier" },
+      { portSlug: "progreso", portName: "Progreso", bestFor: "Mérida culture", bestExcursion: "Mérida colonial tour", beachQuality: "Moderate Gulf", snorkelling: "Limited", families: "Very good", privateTours: "Excellent", easeFromShip: "Long pier shuttle" },
+      { portSlug: "falmouth", portName: "Falmouth", bestFor: "River scenery", bestExcursion: "Martha Brae rafting", beachQuality: "Good resort", snorkelling: "Moderate", families: "Strong", privateTours: "Excellent", easeFromShip: "Good pier" },
+      { portSlug: "montego-bay", portName: "Montego Bay", bestFor: "Resort beaches", bestExcursion: "Doctor's Cave Beach", beachQuality: "Excellent Hip Strip", snorkelling: "Moderate", families: "Very strong", privateTours: "Very good", easeFromShip: "Easy pier" },
     ],
     dayPlans: [
       { portSlug: "cozumel", easyDay: "Chankanaab lagoon day.", adventureDay: "Tulum and reef combo.", beachDay: "Beach club with lunch.", privateTourDay: "Private reef two-stop boat." },
@@ -553,6 +742,10 @@ export const topicClusters: TopicClusterData[] = [
       { portSlug: "grand-cayman", easyDay: "Morning stingray sandbar.", adventureDay: "Stingray plus reef sail.", beachDay: "Seven Mile organized break.", privateTourDay: "Private stingray charter." },
       { portSlug: "costa-maya", easyDay: "Village pool day.", adventureDay: "Chacchoben ruins morning.", beachDay: "Mahahual club loungers.", privateTourDay: "Small-group ruin tour." },
       { portSlug: "ocho-rios", easyDay: "Short beach club recovery.", adventureDay: "Early Dunn's River climb.", beachDay: "Beach after scenic stop.", privateTourDay: "Private falls first slot." },
+      { portSlug: "puerto-limon", easyDay: "Sloth sanctuary morning tour.", adventureDay: "Veragua tram and zip-line.", beachDay: "Cahuita snorkel and beach.", privateTourDay: "Private wildlife and coast tour." },
+      { portSlug: "progreso", easyDay: "Mérida plaza walk with cathedral stops.", adventureDay: "Early Uxmal ruins departure.", beachDay: "Progreso malecón beach break.", privateTourDay: "Private Mérida or Celestún tour." },
+      { portSlug: "falmouth", easyDay: "Martha Brae raft and heritage walk.", adventureDay: "River rafting with culture afternoon.", beachDay: "Resort beach transfer.", privateTourDay: "Private beach and river combo." },
+      { portSlug: "montego-bay", easyDay: "Doctor's Cave Beach and Hip Strip lunch.", adventureDay: "Rose Hall Great House tour.", beachDay: "Resort beach day pass.", privateTourDay: "Private MoBay highlights loop." },
     ],
     travellerPicks: [
       { travellerType: "Families", portSlug: "cozumel", excursionName: "Chankanaab Park", description: "Secure lagoon and beach near pier.", guideHref: "/best-caribbean-family-excursions" },
@@ -561,6 +754,9 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Active travellers", portSlug: "ocho-rios", excursionName: "Dunn's River Falls", description: "Signature Jamaica climb experience.", guideHref: "/excursion-types/adventure-tours" },
       { travellerType: "Beach lovers", portSlug: "roatan", excursionName: "West Bay white sand", description: "Top value beach in the Western Caribbean.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "grand-cayman", excursionName: "Stingray City", description: "Unique shallow sandbar wildlife encounter.", guideHref: "/best-caribbean-wildlife-excursions" },
+      { travellerType: "First-time cruisers", portSlug: "progreso", excursionName: "Mérida colonial tour", description: "Yucatán culture port distinct from reef-focused Cozumel.", guideHref: "/ports/progreso" },
+      { travellerType: "Couples", portSlug: "falmouth", excursionName: "Martha Brae rafting", description: "Slow-paced scenic river through jungle channels.", guideHref: "/ports/falmouth" },
+      { travellerType: "Beach lovers", portSlug: "montego-bay", excursionName: "Doctor's Cave Beach", description: "Classic MoBay swim beach with Hip Strip facilities.", guideHref: "/best-caribbean-beach-excursions" },
     ],
     comparisonSlugs: [
       "roatan-vs-cozumel",
@@ -578,21 +774,24 @@ export const topicClusters: TopicClusterData[] = [
   },
   {
     slug: "southern-caribbean-cruise-planner",
-    portSlugs: ["aruba", "curacao", "st-maarten"],
+    portSlugs: ["aruba", "curacao", "st-maarten", "bonaire"],
     portCardNotes: {
       aruba: { shortDescription: "Hurricane-belt escape with Eagle Beach reliability.", topExcursionType: "Beach & sail" },
       curacao: { shortDescription: "Dutch Caribbean culture and superior cove snorkelling.", topExcursionType: "Culture & dive" },
       "st-maarten": { shortDescription: "Southern loop stop with Orient Bay and Philipsburg energy.", topExcursionType: "Beach club" },
+      bonaire: { shortDescription: "Marine park shore reefs and flamingo wildlife outside the hurricane belt.", topExcursionType: "Reef & wildlife" },
     },
     comparisonTable: [
       { portSlug: "aruba", portName: "Aruba", bestFor: "Sun reliability", bestExcursion: "Eagle Beach catamaran", beachQuality: "Excellent", snorkelling: "Good", families: "Excellent", privateTours: "Excellent", easeFromShip: "Very easy" },
       { portSlug: "curacao", portName: "Curacao", bestFor: "Culture and reefs", bestExcursion: "Willemstad and cove snorkel", beachQuality: "Good coves", snorkelling: "Excellent", families: "Strong", privateTours: "Very good", easeFromShip: "Easy" },
       { portSlug: "st-maarten", portName: "St. Maarten", bestFor: "Lively beach clubs", bestExcursion: "Orient Bay day", beachQuality: "Very good", snorkelling: "Good", families: "Strong", privateTours: "Very good", easeFromShip: "Easy" },
+      { portSlug: "bonaire", portName: "Bonaire", bestFor: "Marine park reefs", bestExcursion: "Shore reef snorkel", beachQuality: "Reef-entry", snorkelling: "Excellent", families: "Good", privateTours: "Excellent", easeFromShip: "Very easy" },
     ],
     dayPlans: [
       { portSlug: "aruba", easyDay: "Eagle Beach and downtown browse.", adventureDay: "Arikok 4x4 north coast.", beachDay: "Full Eagle or Palm Beach club.", privateTourDay: "Private island SUV tour." },
       { portSlug: "curacao", easyDay: "Willemstad walking morning.", adventureDay: "Park hike and cove snorkel.", beachDay: "Grote Knip afternoon.", privateTourDay: "Private town and reef combo." },
       { portSlug: "st-maarten", easyDay: "Philipsburg and short beach.", adventureDay: "Maho and Orient Bay.", beachDay: "Orient Bay club lunch.", privateTourDay: "Dual-nation private driver." },
+      { portSlug: "bonaire", easyDay: "Guided reef snorkel and Kralendijk walk.", adventureDay: "Washington Slagbaai park safari.", beachDay: "Shore reef entry with water shoes.", privateTourDay: "Private reef charter or flamingo tour." },
     ],
     travellerPicks: [
       { travellerType: "Families", portSlug: "aruba", excursionName: "De Palm Island", description: "All-inclusive island day with water park.", guideHref: "/best-caribbean-family-excursions" },
@@ -601,6 +800,7 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "Active travellers", portSlug: "curacao", excursionName: "Off-road and snorkel combo", description: "Culture plus reef in one paced day.", guideHref: "/excursion-types/adventure-tours" },
       { travellerType: "Beach lovers", portSlug: "aruba", excursionName: "Eagle Beach morning", description: "Wide sand with trade-wind cooling.", guideHref: "/best-caribbean-beach-excursions" },
       { travellerType: "Wildlife/nature lovers", portSlug: "curacao", excursionName: "West-coast reef snorkel", description: "Protected coves with healthy coral.", guideHref: "/best-caribbean-snorkeling-excursions" },
+      { travellerType: "Wildlife/nature lovers", portSlug: "bonaire", excursionName: "Marine park shore snorkel", description: "Caribbean's healthiest accessible reefs with flamingo lagoon add-ons.", guideHref: "/best-caribbean-snorkeling-excursions" },
     ],
     comparisonSlugs: ["aruba-vs-curacao", "aruba-vs-bonaire", "bonaire-vs-curacao"],
     bestGuideSlugs: [...sharedBestGuides, "best-caribbean-couple-excursions"],
