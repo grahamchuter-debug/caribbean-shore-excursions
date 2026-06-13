@@ -14,6 +14,9 @@ import {
 export const SCHEDULE_MONTH_FALLBACK_NOTE =
   "Full monthly schedule not available yet — view the main port schedule.";
 
+export const SCHEDULE_YEAR_FALLBACK_NOTE =
+  "Schedule year not available yet — view the main port schedule.";
+
 export interface ScheduleCtaInput {
   portSlug: string;
   year?: number | string | null;
@@ -80,10 +83,15 @@ export function getBestScheduleUrl(input: ScheduleCtaInput): ScheduleCtaResult |
     };
   }
 
-  if (month && !year) {
+  if (month && (!year || !isValidScheduleYear(year))) {
     const verifiedMonthKey = findVerifiedMonthKey(input.portSlug, month);
     if (verifiedMonthKey) {
-      return { href: portMonthPath(input.portSlug, verifiedMonthKey) };
+      return {
+        href: portMonthPath(input.portSlug, verifiedMonthKey),
+        ...(year && !isValidScheduleYear(year)
+          ? { fallbackNote: SCHEDULE_YEAR_FALLBACK_NOTE }
+          : {}),
+      };
     }
 
     return {
@@ -94,6 +102,13 @@ export function getBestScheduleUrl(input: ScheduleCtaInput): ScheduleCtaResult |
 
   if (year && isValidScheduleYear(year)) {
     return { href: portYearPath(input.portSlug, year as ScheduleYear) };
+  }
+
+  if (year) {
+    return {
+      href: portHubPath(input.portSlug),
+      fallbackNote: SCHEDULE_YEAR_FALLBACK_NOTE,
+    };
   }
 
   return { href: portHubPath(input.portSlug) };

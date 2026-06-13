@@ -3,7 +3,7 @@ import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { getPortBySlug, getAllPortSlugs } from "@/data/ports";
 import { getPortAuthority } from "@/data/port-authority";
-import { hasShipSchedule } from "@/lib/routes";
+import { getBestScheduleUrl } from "@/lib/schedule-cta-url";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PageHero } from "@/components/PageHero";
 import { FAQSection } from "@/components/FAQSection";
@@ -68,6 +68,7 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
     { name: "Caribbean Ports", path: "/ports" },
     { name: port.name, path: `/ports/${slug}` },
   ];
+  const scheduleCta = getBestScheduleUrl({ portSlug: slug });
 
   return (
     <>
@@ -111,8 +112,8 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
           <PortRelatedLinks links={getPortRelatedLinks(slug)} />
 
           <section className="mb-12 flex flex-wrap gap-4">
-            {hasShipSchedule(port.slug) && (
-              <Link href={`/ship-schedules/${port.slug}`} className="btn-secondary text-sm">
+            {scheduleCta && (
+              <Link href={scheduleCta.href} className="btn-secondary text-sm">
                 {port.name} Ship Schedule
               </Link>
             )}

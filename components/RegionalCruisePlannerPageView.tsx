@@ -126,6 +126,9 @@ export function RegionalCruisePlannerPageView({ planner }: { planner: RegionalCr
                               Ship Schedule
                             </Link>
                           )}
+                          {scheduleCta?.fallbackNote && (
+                            <p className="w-full text-xs text-gray-500">{scheduleCta.fallbackNote}</p>
+                          )}
                           <a
                             href={port.specialistUrl}
                             target="_blank"

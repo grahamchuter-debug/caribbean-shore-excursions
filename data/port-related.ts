@@ -1,5 +1,6 @@
 import type { PortRelatedLink } from "./types";
 import { getPortBySlug } from "./ports";
+import { getBestScheduleUrl } from "@/lib/schedule-cta-url";
 
 /** 2-4 related Caribbean port slugs for cross-linking on each authority page. */
 const relatedPortSlugs: Record<string, string[]> = {
@@ -244,6 +245,13 @@ export function getPortRelatedLinks(slug: string): PortRelatedLink[] {
         label: `${related.name} port guide`,
         href: `/ports/${relSlug}`,
       });
+      const scheduleCta = getBestScheduleUrl({ portSlug: relSlug });
+      if (scheduleCta) {
+        links.push({
+          label: `${related.name} ship schedule`,
+          href: scheduleCta.href,
+        });
+      }
     }
   }
 

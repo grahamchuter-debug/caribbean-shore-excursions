@@ -489,12 +489,12 @@ const monthNameToNumber: Record<string, number> = {
 };
 
 /** Sensible default when a cruise date is not yet known (e.g. excursion finder). */
-export function getDefaultCruiseDayPlanDate(sailingMonth?: string): string {
+export function getDefaultCruiseDayPlanDate(sailingMonth?: string, sailingYear?: number): string {
   const today = new Date();
   if (sailingMonth && monthNameToNumber[sailingMonth]) {
-    let year = today.getFullYear();
     const month = monthNameToNumber[sailingMonth];
-    if (month < today.getMonth() + 1) year += 1;
+    let year = sailingYear ?? today.getFullYear();
+    if (!sailingYear && month < today.getMonth() + 1) year += 1;
     return `${year}-${String(month).padStart(2, "0")}-15`;
   }
   const fallback = new Date(today.getFullYear(), today.getMonth() + 2, 15);
@@ -525,11 +525,12 @@ export function buildCruiseDayPlanFromFinderContext(options: {
   travellerTypes: TravellerTypeId[];
   fitnessLevel: FitnessLevel;
   sailingMonth?: string;
+  sailingYear?: number;
   date?: string;
 }): CruiseDayPlan | null {
   return generateCruiseDayPlan({
     portSlug: options.portSlug,
-    date: options.date ?? getDefaultCruiseDayPlanDate(options.sailingMonth),
+    date: options.date ?? getDefaultCruiseDayPlanDate(options.sailingMonth, options.sailingYear),
     interests: travellerTypesToInterests(options.travellerTypes),
     activityLevel: options.fitnessLevel,
   });

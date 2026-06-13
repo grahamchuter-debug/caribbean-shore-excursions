@@ -27,6 +27,7 @@ import {
   getCruiseDayPlanDownloadUrl,
 } from "@/lib/cruise-day-plan";
 import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadButton";
+import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
 
 type FinderVariant = "home" | "page";
 
@@ -52,6 +53,7 @@ export function CaribbeanExcursionFinder({
   const [cruiseLineSlug, setCruiseLineSlug] = useState("");
   const [shipSlug, setShipSlug] = useState("");
   const [sailingMonth, setSailingMonth] = useState("");
+  const [sailingYear, setSailingYear] = useState<number | "">("");
   const [selectedPorts, setSelectedPorts] = useState<string[]>(initialPorts);
   const [selectedTravellers, setSelectedTravellers] = useState<TravellerTypeId[]>(["first-time"]);
   const [fitnessLevel, setFitnessLevel] = useState<FitnessLevel>("easy");
@@ -98,6 +100,7 @@ export function CaribbeanExcursionFinder({
       fitnessLevel,
       timeInPort,
       sailingMonth: sailingMonth || undefined,
+      sailingYear: sailingYear === "" ? undefined : sailingYear,
     });
     setResult(plan);
     setHasGenerated(true);
@@ -137,7 +140,7 @@ export function CaribbeanExcursionFinder({
           )}
         </div>
 
-        <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-5">
           <label className="block">
             <span className="text-sm font-medium text-gray-700">Cruise line</span>
             <select
@@ -168,6 +171,24 @@ export function CaribbeanExcursionFinder({
               {shipsForLine.map((ship) => (
                 <option key={ship.slug} value={ship.slug}>
                   {ship.name}
+                </option>
+              ))}
+            </select>
+          </label>
+
+          <label className="block">
+            <span className="text-sm font-medium text-gray-700">Sailing year</span>
+            <select
+              value={sailingYear}
+              onChange={(event) =>
+                setSailingYear(event.target.value === "" ? "" : Number(event.target.value))
+              }
+              className="mt-1.5 w-full rounded-xl border border-caribbean-200 bg-white px-3 py-2.5 text-base text-gray-900 shadow-sm focus:border-caribbean-500 focus:outline-none focus:ring-2 focus:ring-caribbean-200"
+            >
+              <option value="">Select year (optional)</option>
+              {SCHEDULE_YEARS.map((year) => (
+                <option key={year} value={year}>
+                  {year}
                 </option>
               ))}
             </select>
@@ -402,6 +423,7 @@ export function CaribbeanExcursionFinder({
                       travellerTypes: selectedTravellers,
                       fitnessLevel,
                       sailingMonth: sailingMonth || undefined,
+                      sailingYear: sailingYear === "" ? undefined : sailingYear,
                     })
                   : null;
                 if (!dayPlanPdf) return null;
@@ -427,6 +449,7 @@ export function CaribbeanExcursionFinder({
                     travellerTypes: selectedTravellers,
                     fitnessLevel,
                     sailingMonth: sailingMonth || undefined,
+                    sailingYear: sailingYear === "" ? undefined : sailingYear,
                   })
                 : null;
               return (
