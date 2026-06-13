@@ -2,10 +2,12 @@ import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { ports } from "@/data/ports";
 import { regions as regionPages } from "@/data/regions";
+import { getPortGuideCount } from "@/data/content-inventory";
 import { PageHero } from "@/components/PageHero";
 import { PortCard } from "@/components/PortCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import { PortSearch } from "@/components/PortSearch";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, travelGuideSchema } from "@/lib/schema";
 
@@ -18,6 +20,7 @@ export const metadata = buildMetadata({
 });
 
 export default function PortsPage() {
+  const portCount = getPortGuideCount();
   const portRegions = [...new Set(ports.map((p) => p.region))];
 
   return (
@@ -48,8 +51,14 @@ export default function PortsPage() {
             ]}
           />
 
+          <section className="mb-12">
+            <PortSearch variant="page" syncQueryFromUrl />
+          </section>
+
           <section className="mb-12 rounded-xl border border-caribbean-100 bg-caribbean-50/40 p-6">
-            <h2 className="font-display text-xl font-bold text-gray-900 mb-2">All 12 Caribbean Cruise Ports</h2>
+            <h2 className="font-display text-xl font-bold text-gray-900 mb-2">
+              All {portCount} Caribbean Cruise Ports
+            </h2>
             <p className="text-gray-700 text-sm mb-4">
               Every port below has an authority guide, specialist local excursion website, related port links, and a Detailed Local Guide section.
             </p>

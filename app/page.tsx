@@ -21,6 +21,7 @@ import { CaribbeanExcursionFinder } from "@/components/CaribbeanExcursionFinder"
 import { CaribbeanRoutePresets } from "@/components/CaribbeanRoutePresets";
 import { ExploreByRegion } from "@/components/ExploreByRegion";
 import { HeroBackground } from "@/components/HeroBackground";
+import { PortSearch } from "@/components/PortSearch";
 
 export const metadata = buildMetadata({
   title: "Caribbean Shore Excursion Planner | Ports, Ship Schedules & Cruise Tours",
@@ -100,6 +101,9 @@ export default function HomePage() {
               Find My Excursions
             </Link>
           </div>
+          <div className="mt-10 max-w-2xl">
+            <PortSearch variant="home" />
+          </div>
         </div>
       </section>
 
@@ -143,7 +147,7 @@ export default function HomePage() {
             <div>
               <h2 className="section-title">All Caribbean Cruise Ports</h2>
               <p className="section-subtitle">
-                Twelve authority port guides with excursion recommendations, related port links, and specialist local booking sites.
+                {getPortGuideCount()} authority port guides with excursion recommendations, related port links, and specialist local booking sites.
               </p>
             </div>
             <Link href="/ports" className="btn-secondary shrink-0">
