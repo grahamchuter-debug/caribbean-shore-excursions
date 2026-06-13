@@ -9,6 +9,7 @@ import { getPortGuideCount } from "@/data/content-inventory";
 import { schedulePorts } from "@/data/schedules";
 import { featuredPortCards, HOMEPAGE_SCHEDULE_SLUGS, getHomepageFaqs } from "@/data/homepage";
 import { bestGuides } from "@/data/best-guides";
+import { getFeaturedBestCaribbeanGuides, bestCaribbeanGuidesHub } from "@/data/best-caribbean-guides-hub";
 import { itineraryPlanners } from "@/data/itinerary-planners";
 import { regionalCruisePlanners } from "@/data/regional-cruise-planners";
 import { AuthorityPortCard } from "@/components/AuthorityPortCard";
@@ -56,6 +57,7 @@ export default function HomePage() {
   ).filter(Boolean);
 
   const homepageFaqs = getHomepageFaqs();
+  const featuredBestGuides = getFeaturedBestCaribbeanGuides();
   const breadcrumbs = [{ name: "Home", path: "/" }];
 
   return (
@@ -317,46 +319,50 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Best Excursion Guides */}
+      {/* Best Caribbean Guides */}
       <section className="section-padding bg-caribbean-50">
         <div className="container-wide">
           <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-10">
             <div>
-              <h2 className="section-title">Best Caribbean Excursions</h2>
+              <h2 className="section-title">{bestCaribbeanGuidesHub.title}</h2>
               <p className="section-subtitle">
-                Authority-ranked excursion guides by type, beaches, snorkeling, families, couples, private tours, and more.
+                Ranked port guides for beaches, snorkelling, families, first-time cruisers, and top 2027 cruise ports.
               </p>
             </div>
             <div className="flex flex-wrap gap-2 shrink-0">
-              <Link href="/best-shore-excursion-every-caribbean-port" className="btn-primary">
-                Every Port Guide
+              <Link href={`/${bestCaribbeanGuidesHub.slug}`} className="btn-primary">
+                Guides Hub
               </Link>
-              <Link href="/best-caribbean-shore-excursions" className="btn-secondary">
-                All Best Guides
+              <Link href="/best-shore-excursion-every-caribbean-port" className="btn-secondary">
+                Every Port Table
               </Link>
             </div>
           </div>
-          <Link
-            href="/best-shore-excursion-every-caribbean-port"
-            className="card-gradient mb-6 block group border-2 border-caribbean-200"
-          >
-            <h3 className="font-display text-xl font-bold text-gray-900 group-hover:text-caribbean-700">
-              Best Shore Excursion at Every Caribbean Port
-            </h3>
-            <p className="mt-2 text-gray-600">
-              Master table covering all {getPortGuideCount()} ports, signature excursion, duration, activity level, and links to authority guides and local specialists.
-            </p>
-          </Link>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {bestGuides.map((guide) => (
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {featuredBestGuides.map((guide, index) => (
               <Link key={guide.slug} href={`/${guide.slug}`} className="card group hover:border-caribbean-200">
-                <h3 className="font-display text-base font-bold text-gray-900 group-hover:text-caribbean-700 leading-snug">
+                <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">Guide {index + 1}</p>
+                <h3 className="mt-1 font-display text-base font-bold text-gray-900 group-hover:text-caribbean-700 leading-snug">
                   {guide.title}
                 </h3>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-2">{guide.heroSubtitle}</p>
               </Link>
             ))}
           </div>
+          <p className="mt-6 text-sm text-gray-600">
+            More ranked guides:{" "}
+            {bestGuides
+              .filter((g) => !featuredBestGuides.some((f) => f.slug === g.slug))
+              .slice(0, 4)
+              .map((guide, i, arr) => (
+                <span key={guide.slug}>
+                  <Link href={`/${guide.slug}`} className="font-medium text-caribbean-700 hover:underline">
+                    {guide.title}
+                  </Link>
+                  {i < arr.length - 1 ? " · " : ""}
+                </span>
+              ))}
+          </p>
         </div>
       </section>
 

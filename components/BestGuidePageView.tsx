@@ -1,7 +1,9 @@
 import Link from "next/link";
 import type { BestGuidePage } from "@/data/types";
 import { getPortBySlug } from "@/data/ports";
-import { hasShipSchedule } from "@/lib/routes";
+import { getBestScheduleUrl } from "@/lib/schedule-cta-url";
+import { getRelatedComparisonsForPorts } from "@/lib/best-guide";
+import { BEST_CARIBBEAN_GUIDES_HUB_SLUG } from "@/data/best-caribbean-guides-hub";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
@@ -15,9 +17,11 @@ import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
   const breadcrumbs = [
     { name: "Home", path: "/" },
-    { name: "Best Excursions", path: "/best-shore-excursion-every-caribbean-port" },
+    { name: "Best Caribbean Guides", path: `/${BEST_CARIBBEAN_GUIDES_HUB_SLUG}` },
     { name: guide.title, path: `/${guide.slug}` },
   ];
+
+  const relatedComparisons = getRelatedComparisonsForPorts(guide.topPorts.map((p) => p.slug));
 
   return (
     <>
@@ -44,14 +48,18 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
           </section>
 
           <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-6">Top Recommended Ports</h2>
+            <h2 className="section-title text-2xl sm:text-3xl mb-6">Ranked Ports</h2>
             <div className="grid gap-4 sm:grid-cols-2">
-              {guide.topPorts.map((item) => {
+              {guide.topPorts.map((item, index) => {
                 const port = getPortBySlug(item.slug);
+                const scheduleCta = getBestScheduleUrl({ portSlug: item.slug, year: 2027 });
                 if (!port) return null;
                 return (
                   <div key={item.slug} className="card-gradient">
-                    <h3 className="font-display text-lg font-bold text-gray-900">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">
+                      #{index + 1} · {port.region}
+                    </p>
+                    <h3 className="mt-1 font-display text-lg font-bold text-gray-900">
                       <Link href={`/ports/${item.slug}`} className="hover:text-caribbean-700">
                         {port.name}
                       </Link>
@@ -62,8 +70,8 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
                       <Link href={`/ports/${item.slug}`} className="btn-primary text-xs">
                         Authority Port Guide
                       </Link>
-                      {hasShipSchedule(item.slug) && (
-                        <Link href={`/ship-schedules/${item.slug}`} className="btn-secondary text-xs">
+                      {scheduleCta && (
+                        <Link href={scheduleCta.href} className="btn-secondary text-xs">
                           Ship Schedule
                         </Link>
                       )}
@@ -76,6 +84,9 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
                         {port.specialistName}
                       </a>
                     </div>
+                    {scheduleCta?.fallbackNote && (
+                      <p className="mt-2 text-xs text-gray-500">{scheduleCta.fallbackNote}</p>
+                    )}
                   </div>
                 );
               })}
@@ -125,6 +136,29 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
             <BestGuideComparisonTable rows={guide.comparisonTable} />
           </section>
 
+          {relatedComparisons.length > 0 && (
+            <section className="mb-12">
+              <h2 className="section-title text-2xl sm:text-3xl mb-4">Related Port Comparisons</h2>
+              <p className="text-sm text-gray-600 mb-4">
+                Head-to-head comparisons for ports featured in this guide.
+              </p>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {relatedComparisons.map((comparison) => (
+                  <Link
+                    key={comparison.slug}
+                    href={`/compare/${comparison.slug}`}
+                    className="rounded-lg border border-caribbean-100 bg-white px-4 py-3 hover:border-caribbean-200 hover:shadow-sm transition-all"
+                  >
+                    <span className="font-medium text-gray-900">
+                      {comparison.portA} vs {comparison.portB}
+                    </span>
+                    <span className="mt-1 block text-xs text-gray-500 line-clamp-2">{comparison.summary}</span>
+                  </Link>
+                ))}
+              </div>
+            </section>
+          )}
+
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Cruise Passenger Recommendations</h2>
             <div className="space-y-4">
@@ -138,6 +172,9 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
           </section>
 
           <section className="mb-12 flex flex-wrap gap-4">
+            <Link href={`/${BEST_CARIBBEAN_GUIDES_HUB_SLUG}`} className="btn-primary text-sm">
+              All Best Caribbean Guides
+            </Link>
             <Link href="/ship-schedules" className="btn-secondary text-sm">
               Check Ship Schedules
             </Link>

@@ -53,8 +53,8 @@ export const bestGuides: BestGuidePage[] = [
   },
   {
     slug: "best-caribbean-beach-excursions",
-    seoTitle: "Best Caribbean Beach Excursions | Ranked by Port",
-    title: "Best Caribbean Beach Excursions",
+    seoTitle: "Best Caribbean Beaches For Cruise Passengers | Ranked by Port",
+    title: "Best Caribbean Beaches For Cruise Passengers",
     metaDescription:
       "Best Caribbean beach shore excursions ranked at St. Thomas, Aruba, Grand Cayman, Roatán, St. Maarten and Nassau. Calm bays, chair rentals, and port-day beach logistics.",
     heroSubtitle:
@@ -105,8 +105,8 @@ export const bestGuides: BestGuidePage[] = [
   },
   {
     slug: "best-caribbean-snorkeling-excursions",
-    seoTitle: "Best Caribbean Snorkeling Excursions | Reef Port Rankings",
-    title: "Best Caribbean Snorkeling Excursions",
+    seoTitle: "Best Caribbean Snorkelling Ports | Reef Rankings for Cruise Passengers",
+    title: "Best Caribbean Snorkelling Ports",
     metaDescription:
       "Best Caribbean snorkeling shore excursions at Cozumel, Roatán, Grand Cayman, St. Thomas, Aruba and Nassau. Reef visibility, marine life, beginner sites, and booking tips.",
     heroSubtitle:
@@ -157,8 +157,8 @@ export const bestGuides: BestGuidePage[] = [
   },
   {
     slug: "best-caribbean-family-excursions",
-    seoTitle: "Best Caribbean Family Excursions | Kid-Friendly Port Guide",
-    title: "Best Caribbean Family Excursions",
+    seoTitle: "Best Caribbean Ports For Families | Kid-Friendly Cruise Guide",
+    title: "Best Caribbean Ports For Families",
     metaDescription:
       "Best family shore excursions in the Caribbean at Nassau, Cozumel, Grand Cayman, St. Thomas, Aruba and Puerto Plata. Calm beaches, wildlife, and age-appropriate adventures.",
     heroSubtitle:
@@ -410,6 +410,108 @@ export const bestGuides: BestGuidePage[] = [
       { question: "How much does the Exuma swimming pigs excursion cost?", answer: "Exuma pig excursions from Nassau typically cost $300-450 per person including the short flight. It is a premium full-day experience, budget accordingly and book through specialist operators." },
     ],
     excursionTypeSlug: "adventure-tours",
+  },
+  {
+    slug: "best-caribbean-ports-for-first-time-cruisers",
+    seoTitle: "Best Caribbean Ports For First-Time Cruisers | Easy Port Day Guide",
+    title: "Best Caribbean Ports For First-Time Cruisers",
+    metaDescription:
+      "Best Caribbean cruise ports for first-time cruisers: St. Thomas, Cozumel, Aruba, Nassau, and Grand Cayman ranked for easy logistics, English-speaking operators, and forgiving port days.",
+    heroSubtitle:
+      "The ports where first-time cruisers get direct docking, clear excursion menus, and the least stressful return-to-ship logistics.",
+    introduction:
+      "First Caribbean port days go wrong when tenders, long transfers, or confusing terminals eat your time ashore. The best first-time cruiser ports combine direct pier access (or short tenders), English-speaking operators, calm excursion options, and walkable downtown areas when you want a low-stress day.",
+    introductionDetail:
+      "This guide ranks ports by first-timer friendliness: pier logistics, excursion clarity, safety reputation, and how forgiving the port is if plans change. Each ranked port links to our authority guide, relevant comparisons, and ship schedules where data is available.",
+    topPorts: [
+      { slug: "st-thomas", reason: "Direct docking, Magens Bay beach taxis, Coral World, and optional St. John ferry — the most forgiving Eastern Caribbean introduction port." },
+      { slug: "cozumel", reason: "Simple pier logistics, huge excursion menu, and reef snorkel boats that operators run daily. San Miguel is walkable for lunch if you skip a tour." },
+      { slug: "aruba", reason: "Year-round sunshine outside the hurricane belt, short walks to downtown Oranjestad, and reliable catamaran/beach excursions with strong operator standards." },
+      { slug: "nassau", reason: "Prince George Wharf puts downtown Nassau at your feet. Atlantis and Blue Lagoon are structured full-day options when you want zero navigation stress." },
+      { slug: "grand-cayman", reason: "Stingray City is a bucket-list first port day if you accept tender logistics. Book early tender departure and a morning wildlife tour." },
+      { slug: "st-maarten", reason: "Dual-nation island with compact Philipsburg waterfront. Great second or third port once you are comfortable with Caribbean port days." },
+    ],
+    recommendedExcursions: [
+      { name: "Magens Bay Beach Day", portSlug: "st-thomas", description: "The safest first beach excursion in the Caribbean: calm water, facilities, and straightforward taxi logistics from Havensight or Crown Bay.", duration: "4-5 hours" },
+      { name: "Chankanaab Beach Park", portSlug: "cozumel", description: "All-in-one park with snorkel lagoon, beach, and facilities near the pier — ideal when you want one predictable location.", duration: "4-5 hours" },
+      { name: "Eagle Beach & Snorkel Sail", portSlug: "aruba", description: "Short transfer, calm leeward sailing, and a reef stop with crew assistance for first-time snorkelers.", duration: "4-5 hours" },
+      { name: "Downtown Nassau Heritage Walk", portSlug: "nassau", description: "Self-guided or short guided walk to Queen's Staircase, forts, and straw market without committing to a full-day tour.", duration: "2-3 hours" },
+      { name: "Stingray City Sandbar", portSlug: "grand-cayman", description: "Waist-deep wildlife encounter with guide supervision — memorable but requires planning around tenders.", duration: "3-4 hours" },
+      { name: "Philipsburg & Orient Bay Intro", portSlug: "st-maarten", description: "Dutch-side shopping plus optional French-side beach club — a gentle introduction to dual-culture Caribbean port days.", duration: "4-5 hours" },
+    ],
+    comparisonTable: [
+      { portSlug: "st-thomas", portName: "St. Thomas", bestFor: "Easiest first port", bestExcursion: "Magens Bay", transferTime: "15 min taxi", rating: "4.9" },
+      { portSlug: "cozumel", portName: "Cozumel", bestFor: "Reef variety", bestExcursion: "Chankanaab", transferTime: "15 min taxi", rating: "4.8" },
+      { portSlug: "aruba", portName: "Aruba", bestFor: "Weather reliability", bestExcursion: "Eagle Beach Sail", transferTime: "10 min taxi", rating: "4.9" },
+      { portSlug: "nassau", portName: "Nassau", bestFor: "Walkable downtown", bestExcursion: "Heritage Walk", transferTime: "At pier", rating: "4.7" },
+      { portSlug: "grand-cayman", portName: "Grand Cayman", bestFor: "Signature wildlife", bestExcursion: "Stingray City", transferTime: "Tender + boat", rating: "4.8" },
+      { portSlug: "st-maarten", portName: "St. Maarten", bestFor: "Second port pick", bestExcursion: "Orient Bay", transferTime: "25 min taxi", rating: "4.7" },
+    ],
+    passengerRecommendations: [
+      { title: "Start with a beach or park day", advice: "Magens Bay, Chankanaab, or Eagle Beach give predictable timing and facilities — better first bets than ambitious ruin combos or long ferry days." },
+      { title: "Book one must-do through the ship", advice: "On your first cruise, reserve your highest-priority excursion through the cruise line for the return guarantee. Add independent tours once you are comfortable with port logistics." },
+      { title: "Avoid waterfall and adventure ports on day one", advice: "Ocho Rios, Puerto Plata canyoning, and long St. John ferry days are better once you know your ship's rhythm and tender timing." },
+      { title: "Disembark early on every port day", advice: "The first hour ashore is the least crowded for beaches, taxis, and popular tours. Set an alarm and skip the leisurely breakfast on port days." },
+      { title: "Use our ship schedule pages before booking", advice: "Multi-ship days change everything for first-timers. Check how many vessels share your port before committing to independent operators." },
+    ],
+    faqs: [
+      { question: "What is the best Caribbean port for a first-time cruiser?", answer: "St. Thomas ranks highest for direct docking, calm beach options, and forgiving logistics. Cozumel and Aruba are excellent Western and Southern Caribbean first ports with reliable excursions." },
+      { question: "Should first-time cruisers book excursions in advance?", answer: "Book your one must-do experience before sailing — especially Atlantis, Stingray City, or popular reef snorkel boats. Simple beach days can often be arranged with taxis at the pier." },
+      { question: "Which ports should first-timers avoid?", answer: "Ports requiring long transfers, strenuous hiking, or tight timing — such as full-day Tulum from Cozumel or 27 Charcos in Puerto Plata — are better saved for experienced cruisers." },
+      { question: "Is it safe to leave the ship on your own?", answer: "Yes at major hubs like St. Thomas, Cozumel, Aruba, and Nassau when you use licensed taxis and stay in tourist areas. Follow standard travel awareness and return with 60–90 minutes before all-aboard." },
+      { question: "Tender port or dock port for beginners?", answer: "Dock ports (St. Thomas, Cozumel, Nassau, Aruba) are easier. Grand Cayman tenders are manageable if you disembark on the first tender and book a morning tour." },
+    ],
+  },
+  {
+    slug: "best-caribbean-cruise-ports-2027",
+    seoTitle: "Best Caribbean Cruise Ports In 2027 | Schedule & Planning Rankings",
+    title: "Best Caribbean Cruise Ports In 2027",
+    metaDescription:
+      "Best Caribbean cruise ports in 2027 ranked by verified ship calls, passenger volume, excursion quality, and planning resources. St. Thomas, Cozumel, Nassau, Aruba, and more.",
+    heroSubtitle:
+      "Where the ships are going in 2027 — ranked ports with authority guides, comparisons, and schedule hubs as verified data expands.",
+    introduction:
+      "The best Caribbean cruise ports in 2027 combine heavy ship traffic (more sailing options and competitive excursion pricing) with strong shore-day experiences. St. Thomas leads verified 2027 call volume in our dataset, while Cozumel, Nassau, Aruba, and Grand Cayman remain essential Western and Eastern Caribbean hubs regardless of year.",
+    introductionDetail:
+      "This guide ranks ports for 2027 cruise planning using verified schedule imports where available, authority port quality scores, and excursion depth from our port guides. Rankings will expand as more ports complete schedule imports — see our busiest ports and 2027 calendar pages for live analytics.",
+    topPorts: [
+      { slug: "st-thomas", reason: "Highest verified 2027 ship call volume in our dataset. Magens Bay, St. John access, and dense Eastern Caribbean itinerary coverage make it the planning anchor for 2027." },
+      { slug: "cozumel", reason: "Perennial Western Caribbean #1 by industry traffic. Essential for reef snorkel, El Cielo sails, and Mayan combos on 2027 seven-night loops from Texas and Florida." },
+      { slug: "nassau", reason: "Bahamas hub with Perfect Day overlap on many 2027 itineraries. Atlantis and downtown Nassau suit short calls and family-heavy sailings." },
+      { slug: "aruba", reason: "Southern Caribbean reliability outside the hurricane belt — strong for winter 2027 sailings when Eastern routes need weather backup options." },
+      { slug: "grand-cayman", reason: "Stingray City remains the signature wildlife draw. Tender logistics require planning on busy 2027 multi-ship days." },
+      { slug: "roatan", reason: "Fast-growing Western Caribbean value port with excellent reef snorkeling and West Bay beach clubs at lower price points than Cozumel." },
+    ],
+    recommendedExcursions: [
+      { name: "Magens Bay Beach Day", portSlug: "st-thomas", description: "Still the benchmark Eastern Caribbean beach on high-traffic 2027 sailings — arrive early on multi-ship days.", duration: "4-5 hours" },
+      { name: "Palancar Reef Two-Stop Snorkel", portSlug: "cozumel", description: "Core Western Caribbean reef experience for 2027 seven-night itineraries from Galveston, Miami, and Tampa.", duration: "3-4 hours" },
+      { name: "Atlantis Aquaventure", portSlug: "nassau", description: "Top structured family day when your 2027 sailing includes Nassau and Perfect Day at CocoCay.", duration: "5-6 hours" },
+      { name: "Sunset Catamaran Cruise", portSlug: "aruba", description: "Reliable evening sail on Southern Caribbean 2027 routes with late departures from Oranjestad.", duration: "2-3 hours" },
+      { name: "Stingray City Sandbar", portSlug: "grand-cayman", description: "Book first tender on busy 2027 port days — sandbar crowds track ship call volume closely.", duration: "3-4 hours" },
+      { name: "West Bay Reef Snorkel", portSlug: "roatan", description: "Value alternative to Cozumel reef boats on Western Caribbean 2027 loops that include Honduras.", duration: "3-4 hours" },
+    ],
+    comparisonTable: [
+      { portSlug: "st-thomas", portName: "St. Thomas", bestFor: "2027 call volume", bestExcursion: "Magens Bay", transferTime: "15 min taxi", rating: "4.9" },
+      { portSlug: "cozumel", portName: "Cozumel", bestFor: "Western hub", bestExcursion: "Palancar Snorkel", transferTime: "20 min boat", rating: "4.9" },
+      { portSlug: "nassau", portName: "Nassau", bestFor: "Bahamas sailings", bestExcursion: "Atlantis", transferTime: "10 min taxi", rating: "4.8" },
+      { portSlug: "aruba", portName: "Aruba", bestFor: "Southern reliability", bestExcursion: "Sunset Cat", transferTime: "5 min walk", rating: "4.9" },
+      { portSlug: "grand-cayman", portName: "Grand Cayman", bestFor: "Wildlife", bestExcursion: "Stingray City", transferTime: "Tender + boat", rating: "4.9" },
+      { portSlug: "roatan", portName: "Roatán", bestFor: "Reef value", bestExcursion: "West Bay Snorkel", transferTime: "25 min boat", rating: "4.8" },
+    ],
+    passengerRecommendations: [
+      { title: "Check 2027 ship schedules before finalizing excursions", advice: "Use our St. Thomas and Ocho Rios verified 2027 monthly pages today; other hubs update as imports complete. Multi-ship days should drive your booking timeline." },
+      { title: "Use the 2027 calendar for peak months", advice: "Our Caribbean cruise calendar shows when call volume spikes — book signature tours earlier for March, November, and holiday weeks." },
+      { title: "Compare Western vs Eastern 2027 itineraries", advice: "Cozumel-heavy Western loops suit reef and adventure passengers; St. Thomas and St. Maarten anchor classic Eastern Caribbean weeks." },
+      { title: "Watch for new ship deployments", advice: "Icon-class and MSC World America sailings shift 2027 port mixes — check your specific ship guide for common port lists." },
+      { title: "Link busiest-port data to your sailing", advice: "See our busiest Caribbean cruise ports 2027 page for verified rankings and passenger estimates as the dataset grows." },
+    ],
+    faqs: [
+      { question: "What are the best Caribbean cruise ports in 2027?", answer: "St. Thomas, Cozumel, Nassau, Aruba, Grand Cayman, and Roatán lead for excursion depth and itinerary frequency. Verified 2027 rankings prioritize ports with imported schedule data." },
+      { question: "How do you rank 2027 Caribbean ports?", answer: "We combine verified ship call counts where available, authority port excursion quality, pier logistics, and specialist operator coverage — not marketing lists from cruise lines." },
+      { question: "Where can I see 2027 ship schedules?", answer: "Start at our 2027 Caribbean schedules hub and drill into port-year pages. St. Thomas has the most complete verified 2027 monthly data today." },
+      { question: "Will rankings change as more ports import schedules?", answer: "Yes. This guide and our busiest ports analytics expand as Cozumel, Nassau, and other hubs complete verified imports." },
+      { question: "Best 2027 port for first-time cruisers?", answer: "St. Thomas and Cozumel remain the top 2027 picks for easy logistics and excursion variety. See our first-time cruiser guide for detailed port-by-port advice." },
+    ],
   },
 ];
 

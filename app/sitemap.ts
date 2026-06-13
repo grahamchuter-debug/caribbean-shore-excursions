@@ -38,6 +38,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/ports", priority: 0.8 },
     { path: "/cruise-planner", priority: 0.8 },
     { path: "/cruise-day-plan", priority: 0.9 },
+    { path: "/best-caribbean-guides", priority: 0.92 },
     { path: "/caribbean-excursion-finder", priority: 0.95 },
     { path: "/ship-schedules", priority: 0.85 },
     { path: "/ship-schedules/2026", priority: 0.9 },

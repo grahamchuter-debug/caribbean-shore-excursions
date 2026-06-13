@@ -9,6 +9,10 @@ import { cruiseTips } from "@/data/tips";
 import { itineraryPlanners } from "@/data/itinerary-planners";
 import { regionalCruisePlanners } from "@/data/regional-cruise-planners";
 import { bestGuides } from "@/data/best-guides";
+import {
+  bestCaribbeanGuidesHub,
+  getFeaturedBestCaribbeanGuides,
+} from "@/data/best-caribbean-guides-hub";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { ExploreByRegion } from "@/components/ExploreByRegion";
 import { PageHero } from "@/components/PageHero";
@@ -117,20 +121,42 @@ export default function CruisePlannerPage() {
             </div>
           </div>
 
-          {/* Best excursion guides */}
+          {/* Best Caribbean Guides */}
           <div className="mb-16">
-            <h2 className="section-title text-2xl mb-6">Best Excursion Guides</h2>
+            <h2 className="section-title text-2xl mb-6">{bestCaribbeanGuidesHub.title}</h2>
             <Link
-              href="/best-shore-excursion-every-caribbean-port"
-              className="card-gradient mb-4 block hover:border-caribbean-300"
+              href={`/${bestCaribbeanGuidesHub.slug}`}
+              className="card-gradient mb-6 block hover:border-caribbean-300 border-2 border-caribbean-200"
             >
-              <span className="font-semibold text-gray-900">Best Shore Excursion at Every Caribbean Port</span>
+              <span className="font-semibold text-gray-900">{bestCaribbeanGuidesHub.title} Hub</span>
               <span className="block text-sm text-gray-600 mt-1">
-                Master table for all {getPortGuideCount()} ports with authority guides and specialist links
+                Ranked beaches, snorkelling ports, family ports, first-time cruiser picks, and top 2027 ports — each
+                linking to authority guides, comparisons, and schedules.
               </span>
             </Link>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-4">
+              {getFeaturedBestCaribbeanGuides().map((guide) => (
+                <Link key={guide.slug} href={`/${guide.slug}`} className="card-gradient hover:border-caribbean-200">
+                  <h3 className="font-semibold text-gray-900">{guide.title}</h3>
+                  <p className="mt-1 text-sm text-gray-600 line-clamp-2">{guide.heroSubtitle}</p>
+                </Link>
+              ))}
+            </div>
+            <Link
+              href="/best-shore-excursion-every-caribbean-port"
+              className="text-sm font-medium text-caribbean-700 hover:underline"
+            >
+              Best shore excursion at every port →
+            </Link>
+          </div>
+
+          {/* More excursion guides */}
+          <div className="mb-16">
+            <h2 className="section-title text-2xl mb-6">More Excursion Guides</h2>
             <div className="flex flex-wrap gap-2">
-              {bestGuides.map((guide) => (
+              {bestGuides
+                .filter((g) => !getFeaturedBestCaribbeanGuides().some((f) => f.slug === g.slug))
+                .map((guide) => (
                 <Link
                   key={guide.slug}
                   href={`/${guide.slug}`}
