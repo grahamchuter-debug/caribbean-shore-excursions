@@ -56,3 +56,32 @@
     @apply prose prose-lg max-w-none prose-headings:font-display prose-headings:text-gray-900 prose-a:text-caribbean-700 prose-a:no-underline hover:prose-a:underline;
   }
 }
+
+@media print {
+  body > header,
+  body > footer {
+    display: none !important;
+  }
+
+  main {
+    flex: none !important;
+  }
+
+  .print\\:hidden {
+    display: none !important;
+  }
+
+  .cruise-day-plan-section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .cruise-day-plan-document {
+    color: #111827;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
+}

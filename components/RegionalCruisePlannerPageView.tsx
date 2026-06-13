@@ -7,7 +7,7 @@ import { getItineraryPlannerBySlug } from "@/data/itinerary-planners";
 import { getRegionBySlug } from "@/data/regions";
 import { excursionTypes } from "@/data/excursion-types";
 import { comparisons } from "@/data/comparisons";
-import { hasShipSchedule } from "@/lib/routes";
+import { getBestScheduleUrl } from "@/lib/schedule-cta-url";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
@@ -102,6 +102,7 @@ export function RegionalCruisePlannerPageView({ planner }: { planner: RegionalCr
                 <div className="grid gap-4 sm:grid-cols-2">
                   {planner.topPortSlugs.map((slug) => {
                     const port = getPortBySlug(slug);
+                    const scheduleCta = getBestScheduleUrl({ portSlug: slug });
                     if (!port) return null;
                     return (
                       <div key={slug} className="card-gradient">
@@ -116,8 +117,8 @@ export function RegionalCruisePlannerPageView({ planner }: { planner: RegionalCr
                           <Link href={`/ports/${slug}`} className="btn-primary text-xs">
                             Authority Port Guide
                           </Link>
-                          {hasShipSchedule(slug) && (
-                            <Link href={`/ship-schedules/${slug}`} className="btn-secondary text-xs">
+                          {scheduleCta && (
+                            <Link href={scheduleCta.href} className="btn-secondary text-xs">
                               Ship Schedule
                             </Link>
                           )}

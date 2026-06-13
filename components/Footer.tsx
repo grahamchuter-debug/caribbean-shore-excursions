@@ -3,6 +3,7 @@ import { SITE } from "@/lib/site";
 
 const planYourCruise = [
   { href: "/cruise-planner", label: "Cruise Planner" },
+  { href: "/cruise-day-plan", label: "Cruise Day Plan" },
   { href: "/ship-schedules", label: "Ship Schedules" },
   { href: "/caribbean-excursion-finder", label: "Excursion Finder" },
   { href: "/cruise-lines", label: "Cruise Lines" },

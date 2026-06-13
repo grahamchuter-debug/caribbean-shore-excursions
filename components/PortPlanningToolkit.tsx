@@ -72,6 +72,12 @@ export function PortPlanningToolkit({ port }: { port: Port }) {
           <p className="mt-1 text-sm text-gray-600">
             Snapshot, excursion picks, ship activity, and a sample timeline — not a long article.
           </p>
+          <Link
+            href={`/cruise-day-plan?port=${port.slug}`}
+            className="mt-4 inline-flex items-center rounded-xl bg-caribbean-700 px-4 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-caribbean-800 print:hidden"
+          >
+            Build printable {port.name} day plan →
+          </Link>
         </div>
       </div>
 

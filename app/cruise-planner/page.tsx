@@ -81,6 +81,18 @@ export default function CruisePlannerPage() {
             </Link>
           </div>
 
+          <div className="mb-16 card-gradient border-2 border-violet-200 bg-gradient-to-br from-violet-50/80 to-white">
+            <p className="text-xs font-semibold uppercase tracking-wide text-violet-700">Printable port day planner</p>
+            <h2 className="mt-2 font-display text-2xl font-bold text-gray-900">Caribbean Cruise Day Plan</h2>
+            <p className="mt-2 text-gray-700">
+              Build a single-port day plan with excursion picks, passenger snapshot, schedule context, and
+              return-to-ship advice — then save as PDF for your cruise binder.
+            </p>
+            <Link href="/cruise-day-plan" className="btn-primary mt-6">
+              Build My Cruise Day Plan
+            </Link>
+          </div>
+
           {/* Caribbean cruise map */}
           <div className="mb-16 -mx-4 rounded-2xl border border-caribbean-100 bg-caribbean-50/30 px-4 py-10 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
             <ExploreByRegion

@@ -216,6 +216,9 @@ export default function HomePage() {
                 <Link href="/caribbean-excursion-finder" className="btn-primary">
                   Open Excursion Finder
                 </Link>
+                <Link href="/cruise-day-plan" className="btn-primary">
+                  Cruise Day Plan PDF
+                </Link>
                 <Link href="/cruise-planner" className="btn-secondary">
                   Cruise Planner Hub
                 </Link>

@@ -3,13 +3,13 @@ import type { TopicClusterData } from "@/data/types";
 import { getPortBySlug } from "@/data/ports";
 import { getBestGuideBySlug } from "@/data/best-guides";
 import { getComparisonBySlug } from "@/data/comparisons";
-import { hasShipSchedule } from "@/lib/routes";
+import { getBestScheduleUrl } from "@/lib/schedule-cta-url";
 import { ClusterComparisonTable } from "@/components/ClusterComparisonTable";
 import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
 import { getVerifiedMonthKeysForPortYear } from "@/data/schedules";
 
 export function ClusterPageSections({ cluster }: { cluster: TopicClusterData }) {
-  const portsWithSchedules = cluster.portSlugs.filter((slug) => hasShipSchedule(slug));
+  const portsWithSchedules = cluster.portSlugs.filter((slug) => getBestScheduleUrl({ portSlug: slug }));
 
   return (
     <div className="space-y-12">
@@ -19,6 +19,7 @@ export function ClusterPageSections({ cluster }: { cluster: TopicClusterData }) 
           {cluster.portSlugs.map((slug) => {
             const port = getPortBySlug(slug);
             const notes = cluster.portCardNotes[slug];
+            const scheduleCta = getBestScheduleUrl({ portSlug: slug });
             if (!port) return null;
             return (
               <div key={slug} className="card-gradient">
@@ -40,8 +41,8 @@ export function ClusterPageSections({ cluster }: { cluster: TopicClusterData }) 
                   <Link href={`/ports/${slug}`} className="btn-primary text-xs">
                     Authority Port Guide
                   </Link>
-                  {hasShipSchedule(slug) && (
-                    <Link href={`/ship-schedules/${slug}`} className="btn-secondary text-xs">
+                  {scheduleCta && (
+                    <Link href={scheduleCta.href} className="btn-secondary text-xs">
                       Ship Schedule
                     </Link>
                   )}

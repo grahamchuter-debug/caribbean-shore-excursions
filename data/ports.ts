@@ -328,7 +328,7 @@ export const ports: Port[] = [
       { name: "Blue Lagoon Island", description: "Private island with marine encounters.", distance: "30 min by boat" },
       { name: "Cable Beach", description: "Popular beach strip with resorts and restaurants.", distance: "15 min by taxi" },
     ],
-    specialistUrl: "https://nassaushoreexcursions.com",
+    specialistUrl: "https://nassaucruiseexcursions.com",
     specialistName: "Nassau Shore Excursions",
     faqs: [
       { question: "Can I visit Atlantis without staying there?", answer: "Yes. Day passes are available for Aquaventure water park and beach access. Book through your cruise line or independently." },

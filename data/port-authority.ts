@@ -157,7 +157,7 @@ const authority: Record<string, PortAuthorityContent> = {
   nassau: {
     seoTitle: "Nassau Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "Nassau cruise port authority guide to Atlantis, beaches, snorkeling, family excursions, private tours and nassaushoreexcursions.com specialist link.",
+      "Nassau cruise port authority guide to Atlantis, beaches, snorkeling, family excursions, private tours and nassaucruiseexcursions.com specialist link.",
     whyVisit: [
       "Downtown Nassau and Paradise Island are immediately accessible from the cruise pier",
       "Atlantis Aquaventure is one of the Caribbean's top family excursion days",

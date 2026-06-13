@@ -92,6 +92,7 @@ export function CaribbeanExcursionFinder({
       travellerTypes: selectedTravellers,
       fitnessLevel,
       timeInPort,
+      sailingMonth: sailingMonth || undefined,
     });
     setResult(plan);
     setHasGenerated(true);
@@ -476,6 +477,9 @@ export function CaribbeanExcursionFinder({
                           {plan.specialistName}
                         </a>
                       </div>
+                      {plan.scheduleFallbackNote && (
+                        <p className="text-xs text-gray-500">{plan.scheduleFallbackNote}</p>
+                      )}
                     </div>
                   </div>
                 </article>

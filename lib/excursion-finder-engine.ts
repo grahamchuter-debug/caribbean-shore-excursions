@@ -6,7 +6,7 @@ import {
 } from "@/data/port-planning";
 import { portExcursionAuthority } from "@/data/port-excursion-authority";
 import { topicClusters } from "@/data/topic-clusters";
-import { hasShipSchedule } from "@/lib/routes";
+import { getBestScheduleUrl } from "@/lib/schedule-cta-url";
 import type {
   FitnessLevel,
   TimeInPort,
@@ -45,6 +45,7 @@ export interface PortExcursionPlan {
   specialistUrl: string;
   specialistName: string;
   scheduleHref?: string;
+  scheduleFallbackNote?: string;
   portMatchScore: number;
   portMatchLabel: MatchTier;
 }
@@ -63,6 +64,8 @@ export interface ExcursionFinderInput {
   travellerTypes: TravellerTypeId[];
   fitnessLevel: FitnessLevel;
   timeInPort: TimeInPort;
+  sailingMonth?: string;
+  sailingYear?: number;
 }
 
 const hiddenGemSlugs = new Set([
@@ -381,6 +384,11 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
       );
       const returnInfo = getReturnConfidence(portSlug, pick.primary.duration, input.timeInPort);
       const normalizedScore = normalizeExcursionScore(pick.score);
+      const scheduleCta = getBestScheduleUrl({
+        portSlug,
+        month: input.sailingMonth,
+        year: input.sailingYear,
+      });
 
       return {
         portSlug,
@@ -397,7 +405,8 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
         portGuideHref: `/ports/${portSlug}`,
         specialistUrl: port.specialistUrl,
         specialistName: port.specialistName,
-        scheduleHref: hasShipSchedule(portSlug) ? `/ship-schedules/${portSlug}` : undefined,
+        scheduleHref: scheduleCta?.href,
+        scheduleFallbackNote: scheduleCta?.fallbackNote,
         rawScore: pick.score,
         portMatchScore: normalizedScore,
         portMatchLabel: getMatchTier(normalizedScore),

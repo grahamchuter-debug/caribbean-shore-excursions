@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useMemo } from "react";
 import type { ScheduleEntry } from "@/data/types";
 import {
@@ -24,12 +25,14 @@ interface CruiseDayLookupProps {
 export function CruiseDayLookup({
   entries,
   portName,
+  portSlug,
   selectedDate,
   onDateChange,
   ports,
   selectedPortSlug,
   onPortChange,
 }: CruiseDayLookupProps) {
+  const planPortSlug = portSlug ?? selectedPortSlug;
   const availableDates = useMemo(() => getAvailableScheduleDates(entries), [entries]);
   const summary = useMemo(
     () => (selectedDate ? getDailyScheduleSummary(entries, selectedDate, portName) : null),
@@ -153,6 +156,14 @@ export function CruiseDayLookup({
           <p className="mt-4 text-sm text-gray-700">
             <span className="font-semibold text-gray-900">Planning tip:</span> {summary.planningNote}
           </p>
+          {planPortSlug && selectedDate && (
+            <Link
+              href={`/cruise-day-plan?port=${planPortSlug}&date=${selectedDate}`}
+              className="mt-4 inline-flex items-center rounded-lg bg-caribbean-700 px-4 py-2 text-sm font-semibold text-white hover:bg-caribbean-800"
+            >
+              Build printable cruise day plan for this date →
+            </Link>
+          )}
         </div>
       )}
     </section>
