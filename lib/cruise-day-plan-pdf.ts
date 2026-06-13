@@ -1,8 +1,22 @@
 import { jsPDF } from "jspdf";
 import type { CombinedCruisePlannerInput, CruiseDayPlan } from "@/lib/cruise-day-plan";
 import { cruiseDayPlanActivityLevels, cruiseDayPlanInterests } from "@/lib/cruise-day-plan";
-import type { MatchTier } from "@/lib/excursion-finder-engine";
 import { getSpecialistExcursionUrl } from "@/lib/specialist-links";
+import { loadPdfBrandAssets, type PdfBrandAssets } from "@/lib/pdf-brand-assets";
+import {
+  drawBrandedFooter,
+  drawCardSurface,
+  drawDisplayTitle,
+  drawEyebrowLabel,
+  drawGradientCardSurface,
+  drawHeroImageBand,
+  drawMatchBadge,
+  drawPrimaryCta,
+  drawSiteWordmark,
+  PDF_CONTENT_WIDTH,
+  PDF_PAGE,
+} from "@/lib/pdf-brand-layout";
+import { PDF_BRAND } from "@/lib/pdf-brand-tokens";
 
 /**
  * Client-side PDF generation for static export (Cloudflare Pages).
@@ -19,28 +33,10 @@ export interface CruiseDayPlanPdfGenerator {
   print(options: CruiseDayPlanPdfOptions): void;
 }
 
-const PAGE_WIDTH = 210;
-const PAGE_HEIGHT = 297;
-const MARGIN = 16;
-const CONTENT_WIDTH = PAGE_WIDTH - MARGIN * 2;
-const FOOTER_Y = PAGE_HEIGHT - 12;
-const FOOTER_DISCLAIMER =
-  "For planning only — always confirm times with your cruise line and tour operator.";
-const BRAND_RGB: [number, number, number] = [0, 95, 146];
-const ACCENT_RGB: [number, number, number] = [0, 119, 182];
-const MUTED_RGB: [number, number, number] = [75, 85, 99];
-const SAND_RGB: [number, number, number] = [255, 248, 240];
-const CARD_BG: [number, number, number] = [248, 252, 255];
-const CARD_BORDER: [number, number, number] = [210, 225, 238];
-const SITE_NAME = "Caribbean Shore Excursions";
-const SITE_URL = "https://caribbeanshoreexcursion.com";
-
-const MATCH_BADGE_COLORS: Record<MatchTier, [number, number, number]> = {
-  "Excellent Match": [6, 95, 70],
-  "Strong Match": [0, 95, 146],
-  "Good Match": [180, 120, 0],
-  "Possible Match": [100, 110, 120],
-};
+const { margin: MARGIN, width: PAGE_WIDTH, height: PAGE_HEIGHT, footerY: FOOTER_Y } = PDF_PAGE;
+const CONTENT_WIDTH = PDF_CONTENT_WIDTH;
+const C = PDF_BRAND.colors;
+const F = PDF_BRAND.fonts;
 
 function interestLabels(ids: CruiseDayPlan["interests"]): string {
   return ids
@@ -86,70 +82,28 @@ function getExcursionCtaUrl(plan: CruiseDayPlan): string {
     text: `${plan.recommendedExcursions.primary.name} ${plan.recommendedExcursions.primary.description}`,
     guideHref: related?.guideHref,
   });
-  return path.startsWith("http") ? path : `${SITE_URL}${path}`;
+  return path.startsWith("http") ? path : `${PDF_BRAND.siteUrl}${path}`;
 }
 
-type PageHeaderMode = "none" | "port" | "combined";
-
 class PdfCanvas {
-  y = MARGIN;
+  y: number = MARGIN;
   pageNumber = 1;
-  private pageHeaderMode: PageHeaderMode = "none";
-  private pageHeaderLabel = "";
 
-  constructor(readonly doc: jsPDF) {}
-
-  setPageHeader(mode: PageHeaderMode, label = ""): void {
-    this.pageHeaderMode = mode;
-    this.pageHeaderLabel = label;
-  }
+  constructor(
+    readonly doc: jsPDF,
+    readonly assets: PdfBrandAssets,
+  ) {}
 
   ensureSpace(needed: number): void {
-    if (this.y + needed <= FOOTER_Y - 6) return;
+    if (this.y + needed <= FOOTER_Y - 10) return;
     this.drawFooter();
     this.doc.addPage();
     this.pageNumber += 1;
     this.y = MARGIN;
-    if (this.pageHeaderMode === "port") {
-      this.drawPortPageHeader(this.pageHeaderLabel);
-    } else if (this.pageHeaderMode === "combined") {
-      this.drawCombinedPageHeader(this.pageHeaderLabel);
-    }
   }
 
   drawFooter(): void {
-    const { doc } = this;
-    doc.setDrawColor(...CARD_BORDER);
-    doc.line(MARGIN, FOOTER_Y - 5, PAGE_WIDTH - MARGIN, FOOTER_Y - 5);
-    doc.setTextColor(...MUTED_RGB);
-    doc.setFont("helvetica", "normal");
-    doc.setFontSize(6.5);
-    doc.text(FOOTER_DISCLAIMER, MARGIN, FOOTER_Y);
-    doc.text(`${SITE_URL.replace("https://", "")} · Page ${this.pageNumber}`, PAGE_WIDTH - MARGIN, FOOTER_Y, {
-      align: "right",
-    });
-  }
-
-  drawPortPageHeader(portName: string): void {
-    const { doc } = this;
-    doc.setFillColor(...BRAND_RGB);
-    doc.rect(0, 0, PAGE_WIDTH, 12, "F");
-    doc.setTextColor(255, 255, 255);
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(8);
-    doc.text(`${SITE_NAME} · ${portName}`, MARGIN, 8);
-    this.y = 18;
-  }
-
-  drawCombinedPageHeader(portName: string): void {
-    const { doc } = this;
-    doc.setFillColor(...BRAND_RGB);
-    doc.rect(0, 0, PAGE_WIDTH, 12, "F");
-    doc.setTextColor(255, 255, 255);
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(8);
-    doc.text(`${SITE_NAME} · Your Caribbean Cruise Planner · ${portName}`, MARGIN, 8);
-    this.y = 18;
+    drawBrandedFooter(this.doc, this.pageNumber);
   }
 
   addSpacer(mm = 4): void {
@@ -157,23 +111,19 @@ class PdfCanvas {
   }
 
   addSectionTitle(title: string): void {
-    this.ensureSpace(16);
+    this.ensureSpace(14);
     const { doc } = this;
-    doc.setTextColor(...BRAND_RGB);
-    doc.setFont("helvetica", "bold");
+    doc.setTextColor(...C.caribbean800);
+    doc.setFont(F.display, "bold");
     doc.setFontSize(12);
     doc.text(title, MARGIN, this.y);
-    this.y += 3;
-    doc.setDrawColor(...ACCENT_RGB);
-    doc.setLineWidth(0.5);
-    doc.line(MARGIN, this.y, MARGIN + 48, this.y);
     this.y += 7;
   }
 
   addParagraph(text: string, fontSize = 9, maxLines?: number): void {
     const { doc } = this;
-    doc.setTextColor(45, 45, 45);
-    doc.setFont("helvetica", "normal");
+    doc.setTextColor(...C.gray700);
+    doc.setFont(F.body, "normal");
     doc.setFontSize(fontSize);
     const lines = doc.splitTextToSize(text, CONTENT_WIDTH);
     const visible = maxLines ? lines.slice(0, maxLines) : lines;
@@ -181,20 +131,6 @@ class PdfCanvas {
     this.ensureSpace(blockHeight);
     doc.text(visible, MARGIN, this.y);
     this.y += blockHeight + 3;
-  }
-
-  addMatchBadge(label: MatchTier, score: number, x: number, y: number): number {
-    const { doc } = this;
-    const rgb = MATCH_BADGE_COLORS[label] ?? MATCH_BADGE_COLORS["Good Match"];
-    const text = `${label} · ${score}/100`;
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(7.5);
-    const width = doc.getTextWidth(text) + 8;
-    doc.setFillColor(...rgb);
-    doc.roundedRect(x, y - 4.5, width, 7, 2, 2, "F");
-    doc.setTextColor(255, 255, 255);
-    doc.text(text, x + 4, y);
-    return width;
   }
 
   addMetaChips(chips: { label: string; value: string }[]): void {
@@ -207,10 +143,10 @@ class PdfCanvas {
     this.ensureSpace(chipHeight + 4);
 
     for (const chip of chips) {
-      doc.setFont("helvetica", "bold");
+      doc.setFont(F.body, "bold");
       doc.setFontSize(6.5);
       const labelWidth = doc.getTextWidth(chip.label.toUpperCase()) + 3;
-      doc.setFont("helvetica", "normal");
+      doc.setFont(F.body, "normal");
       doc.setFontSize(7.5);
       const valueWidth = doc.getTextWidth(chip.value) + 6;
       const chipWidth = labelWidth + valueWidth + 6;
@@ -223,17 +159,17 @@ class PdfCanvas {
       }
 
       const chipY = this.y + row * (chipHeight + gap);
-      doc.setDrawColor(...CARD_BORDER);
-      doc.setFillColor(255, 255, 255);
+      doc.setDrawColor(...C.cardBorder);
+      doc.setFillColor(...C.white);
       doc.roundedRect(x, chipY - 5, chipWidth, chipHeight, 2, 2, "FD");
 
-      doc.setTextColor(...MUTED_RGB);
-      doc.setFont("helvetica", "bold");
+      doc.setTextColor(...C.gray600);
+      doc.setFont(F.body, "bold");
       doc.setFontSize(6.5);
       doc.text(chip.label.toUpperCase(), x + 3, chipY);
 
-      doc.setTextColor(30, 30, 30);
-      doc.setFont("helvetica", "normal");
+      doc.setTextColor(...C.gray900);
+      doc.setFont(F.body, "normal");
       doc.setFontSize(7.5);
       doc.text(chip.value, x + 3 + labelWidth, chipY);
 
@@ -241,19 +177,6 @@ class PdfCanvas {
     }
 
     this.y += (row + 1) * (chipHeight + gap) + 2;
-  }
-
-  addSectionCard(render: () => void, padding = 5, minHeight = 30): void {
-    const startY = this.y;
-    this.ensureSpace(minHeight);
-
-    this.doc.setDrawColor(...CARD_BORDER);
-    this.doc.setFillColor(...CARD_BG);
-    this.doc.roundedRect(MARGIN, startY, CONTENT_WIDTH, minHeight, 3, 3, "FD");
-
-    this.y = startY + padding;
-    render();
-    this.y = startY + Math.max(minHeight, this.y - startY + padding) + 4;
   }
 
   addSnapshotGrid(items: { label: string; value: string }[]): void {
@@ -269,17 +192,17 @@ class PdfCanvas {
       const x = MARGIN + col * (colWidth + 4);
       const y = this.y + row * rowHeight;
 
-      this.doc.setDrawColor(...CARD_BORDER);
-      this.doc.setFillColor(255, 255, 255);
+      this.doc.setDrawColor(...C.cardBorder);
+      this.doc.setFillColor(...C.white);
       this.doc.roundedRect(x, y - 5, colWidth, rowHeight - 2, 2, 2, "FD");
 
-      this.doc.setTextColor(...MUTED_RGB);
-      this.doc.setFont("helvetica", "bold");
+      this.doc.setTextColor(...C.gray600);
+      this.doc.setFont(F.body, "bold");
       this.doc.setFontSize(6.5);
       this.doc.text(items[i].label.toUpperCase(), x + 3, y);
 
-      this.doc.setTextColor(30, 30, 30);
-      this.doc.setFont("helvetica", "normal");
+      this.doc.setTextColor(...C.gray900);
+      this.doc.setFont(F.body, "normal");
       this.doc.setFontSize(8);
       const valueLines = this.doc.splitTextToSize(items[i].value, colWidth - 6);
       this.doc.text(valueLines.slice(0, 2), x + 3, y + 4.5);
@@ -293,10 +216,10 @@ class PdfCanvas {
       const lines = this.doc.splitTextToSize(item, CONTENT_WIDTH - indent - 2);
       const blockHeight = lines.length * 4 + 2;
       this.ensureSpace(blockHeight);
-      this.doc.setTextColor(45, 45, 45);
-      this.doc.setFont("helvetica", "normal");
+      this.doc.setTextColor(...C.gray700);
+      this.doc.setFont(F.body, "normal");
       this.doc.setFontSize(8.5);
-      this.doc.setFillColor(...ACCENT_RGB);
+      this.doc.setFillColor(...C.caribbean600);
       this.doc.circle(MARGIN + 1.5, this.y - 1, 0.8, "F");
       this.doc.text(lines, MARGIN + indent, this.y);
       this.y += blockHeight + 1;
@@ -310,15 +233,15 @@ class PdfCanvas {
       const blockHeight = Math.max(10, activityLines.length * 4 + 4);
       this.ensureSpace(blockHeight + 2);
 
-      this.doc.setFillColor(...ACCENT_RGB);
+      this.doc.setFillColor(...C.caribbean700);
       this.doc.roundedRect(MARGIN, this.y - 4, 22, 7, 1.5, 1.5, "F");
-      this.doc.setTextColor(255, 255, 255);
-      this.doc.setFont("helvetica", "bold");
+      this.doc.setTextColor(...C.white);
+      this.doc.setFont(F.body, "bold");
       this.doc.setFontSize(7);
       this.doc.text(step.time, MARGIN + 11, this.y, { align: "center" });
 
-      this.doc.setTextColor(40, 40, 40);
-      this.doc.setFont("helvetica", "normal");
+      this.doc.setTextColor(...C.gray900);
+      this.doc.setFont(F.body, "normal");
       this.doc.setFontSize(8.5);
       this.doc.text(activityLines, MARGIN + 26, this.y);
 
@@ -327,35 +250,11 @@ class PdfCanvas {
     this.y += 2;
   }
 
-  addCtaButton(label: string, url: string): void {
-    this.ensureSpace(16);
-    const { doc } = this;
-    const buttonWidth = CONTENT_WIDTH;
-    const buttonHeight = 12;
-
-    doc.setFillColor(...BRAND_RGB);
-    doc.roundedRect(MARGIN, this.y - 5, buttonWidth, buttonHeight, 3, 3, "F");
-    doc.setTextColor(255, 255, 255);
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(10);
-    doc.textWithLink(label, MARGIN + buttonWidth / 2, this.y + 1.5, {
-      align: "center",
-      url,
-    });
-    doc.setFont("helvetica", "normal");
-    doc.setFontSize(7);
-    doc.text(url.replace("https://", ""), MARGIN + buttonWidth / 2, this.y + 5.5, {
-      align: "center",
-    });
-
-    this.y += buttonHeight + 4;
-  }
-
   getCurrentPage(): number {
     return this.doc.getNumberOfPages();
   }
 
-  resetY(offset = MARGIN): void {
+  resetY(offset: number = MARGIN): void {
     this.y = offset;
   }
 }
@@ -363,7 +262,7 @@ class PdfCanvas {
 class PortPlanPdfSections {
   constructor(private canvas: PdfCanvas) {}
 
-  addPremiumPassengerSnapshot(plan: CruiseDayPlan): void {
+  addPassengerSnapshot(plan: CruiseDayPlan): void {
     const { passengerSnapshot } = plan;
     this.canvas.addSectionTitle("Cruise Passenger Snapshot");
     this.canvas.addParagraph("Six quick signals to shape your day ashore.", 8.5);
@@ -377,7 +276,7 @@ class PortPlanPdfSections {
     ]);
   }
 
-  addPremiumExcursionBlock(plan: CruiseDayPlan): void {
+  addRecommendedExcursion(plan: CruiseDayPlan): void {
     const { recommendedExcursions: rec } = plan;
     const { doc } = this.canvas;
 
@@ -385,30 +284,27 @@ class PortPlanPdfSections {
     this.canvas.ensureSpace(42);
 
     const cardTop = this.canvas.y;
-    doc.setFillColor(...SAND_RGB);
-    doc.setDrawColor(...ACCENT_RGB);
-    doc.setLineWidth(0.6);
-    doc.roundedRect(MARGIN, cardTop - 2, CONTENT_WIDTH, 38, 3, 3, "FD");
+    drawGradientCardSurface(doc, MARGIN, cardTop - 2, CONTENT_WIDTH, 38);
 
-    doc.setTextColor(...ACCENT_RGB);
-    doc.setFont("helvetica", "bold");
+    doc.setTextColor(...C.caribbean800);
+    doc.setFont(F.body, "bold");
     doc.setFontSize(7);
     doc.text("TOP PICK FOR YOU", MARGIN + 4, cardTop + 3);
 
-    this.canvas.addMatchBadge(rec.matchLabel, rec.matchScore, PAGE_WIDTH - MARGIN - 52, cardTop + 3);
+    drawMatchBadge(doc, rec.matchLabel, rec.matchScore, PAGE_WIDTH - MARGIN - 52, cardTop + 3);
 
-    doc.setTextColor(25, 25, 25);
-    doc.setFont("helvetica", "bold");
+    doc.setTextColor(...C.gray900);
+    doc.setFont(F.body, "bold");
     doc.setFontSize(13);
     doc.text(rec.primary.name, MARGIN + 4, cardTop + 11);
 
-    doc.setFont("helvetica", "normal");
+    doc.setFont(F.body, "normal");
     doc.setFontSize(8.5);
     const descLines = doc.splitTextToSize(rec.primary.description, CONTENT_WIDTH - 8);
     doc.text(descLines.slice(0, 2), MARGIN + 4, cardTop + 17);
 
     doc.setFontSize(7.5);
-    doc.setTextColor(...MUTED_RGB);
+    doc.setTextColor(...C.gray600);
     doc.text(rec.primary.type, MARGIN + 4, cardTop + 28);
 
     this.canvas.y = cardTop + 42;
@@ -417,26 +313,44 @@ class PortPlanPdfSections {
     this.canvas.addMetaChips([
       { label: "Duration", value: rec.primary.duration },
       { label: "Activity", value: activityLevelLabel(plan.activityLevel) },
-      {
-        label: "Return",
-        value: plan.returnToShipAdvice.returnLabel,
-      },
+      { label: "Return", value: plan.returnToShipAdvice.returnLabel },
     ]);
-
-    if (rec.matchReasons.length > 0) {
-      this.canvas.addSpacer(2);
-      doc.setFont("helvetica", "bold");
-      doc.setFontSize(8.5);
-      doc.setTextColor(...BRAND_RGB);
-      this.canvas.ensureSpace(6);
-      doc.text("Why this matches", MARGIN, this.canvas.y);
-      this.canvas.y += 5;
-      this.canvas.addBulletList(rec.matchReasons);
-    }
   }
 
-  addPremiumItinerary(plan: CruiseDayPlan): void {
-    this.canvas.addSectionTitle("Typical Port Day Itinerary");
+  addMatchReasonsPanel(plan: CruiseDayPlan): void {
+    const { recommendedExcursions: rec } = plan;
+    if (rec.matchReasons.length === 0) return;
+
+    const { doc } = this.canvas;
+    const panelHeight = 14 + rec.matchReasons.length * 6;
+    this.canvas.ensureSpace(panelHeight);
+
+    const panelTop = this.canvas.y;
+    drawCardSurface(doc, MARGIN, panelTop, CONTENT_WIDTH, panelHeight, C.caribbean50);
+
+    drawEyebrowLabel(doc, "Why this matches", MARGIN + 4, panelTop + 6);
+    doc.setFont(F.body, "bold");
+    doc.setFontSize(9);
+    doc.setTextColor(...C.gray900);
+    doc.text(`${rec.matchLabel} because:`, MARGIN + 4, panelTop + 11);
+
+    let reasonY = panelTop + 16;
+    for (const reason of rec.matchReasons) {
+      doc.setFillColor(...C.caribbean600);
+      doc.circle(MARGIN + 5, reasonY - 1, 0.8, "F");
+      doc.setFont(F.body, "normal");
+      doc.setFontSize(8.5);
+      doc.setTextColor(...C.gray700);
+      const lines = doc.splitTextToSize(reason, CONTENT_WIDTH - 12);
+      doc.text(lines.slice(0, 2), MARGIN + 8, reasonY);
+      reasonY += lines.length > 1 ? 8 : 5;
+    }
+
+    this.canvas.y = panelTop + panelHeight + 4;
+  }
+
+  addPortDayOutline(plan: CruiseDayPlan): void {
+    this.canvas.addSectionTitle("Port Day Outline");
     const steps = plan.itinerary;
     if (steps.length === 0) {
       this.canvas.addParagraph(
@@ -448,36 +362,12 @@ class PortPlanPdfSections {
     this.canvas.addTimeline(steps);
   }
 
-  addPremiumReturnAdvice(plan: CruiseDayPlan): void {
-    const advice = plan.returnToShipAdvice;
-    this.canvas.addSectionCard(() => {
-      this.canvas.doc.setFont("helvetica", "bold");
-      this.canvas.doc.setFontSize(9);
-      this.canvas.doc.setTextColor(...BRAND_RGB);
-      this.canvas.doc.text("Return-to-Ship Advice", MARGIN + 4, this.canvas.y);
-      this.canvas.y += 6;
-
-      this.canvas.addParagraph(`${advice.returnLabel} — ${advice.returnMessage}`, 8.5, 2);
-      if (advice.tenderRequired) {
-        this.canvas.addParagraph(
-          advice.tenderNote ? `Tender port: ${advice.tenderNote}` : "Tender port — allow extra return time.",
-          8,
-          2,
-        );
-      }
-      this.canvas.addParagraph(advice.timeBuffer, 8, 2);
-      if (advice.typicalReturnStep) {
-        this.canvas.addParagraph(`Typical return: ${advice.typicalReturnStep}`, 8, 2);
-      }
-    });
-  }
-
-  addPremiumSchedule(plan: CruiseDayPlan): void {
+  addScheduleSummary(plan: CruiseDayPlan): void {
     const { scheduleInfo } = plan;
     const hasSchedule = scheduleInfo.hasDateMatch && scheduleInfo.entries.length > 0;
     if (!hasSchedule && !scheduleInfo.scheduleHref) return;
 
-    this.canvas.addSectionTitle("Schedule Information");
+    this.canvas.addSectionTitle("Schedule Summary");
     this.canvas.addParagraph(scheduleInfo.message, 8.5, 3);
 
     if (hasSchedule) {
@@ -485,75 +375,32 @@ class PortPlanPdfSections {
     }
 
     if (scheduleInfo.scheduleHref) {
-      this.canvas.addParagraph(`Full schedule: ${SITE_URL}${scheduleInfo.scheduleHref}`, 7.5);
+      this.canvas.addParagraph(`Full schedule: ${PDF_BRAND.siteUrl}${scheduleInfo.scheduleHref}`, 7.5);
     }
     if (scheduleInfo.scheduleFallbackNote) {
       this.canvas.addParagraph(scheduleInfo.scheduleFallbackNote, 7.5, 2);
     }
   }
 
-  addPremiumShipsSummary(plan: CruiseDayPlan): void {
-    const { shipsSummary, shipsInPort } = plan;
-    if (!shipsSummary && shipsInPort.length === 0) return;
-
-    this.canvas.addSectionTitle("Ships in Port Summary");
-    if (!shipsSummary) {
-      this.canvas.addParagraph(
-        "No verified ship schedule for this date yet. Confirm your ship's published all-aboard time before booking independent excursions.",
-        8.5,
-        3,
-      );
-      return;
-    }
-
-    this.canvas.addSectionCard(() => {
-      this.canvas.addParagraph(
-        `${shipsSummary.crowdLevel} — ${shipsSummary.shipCount} ship${shipsSummary.shipCount === 1 ? "" : "s"} · ~${shipsSummary.estimatedPassengers.toLocaleString()} passengers`,
-        8.5,
-        2,
-      );
-      this.canvas.addParagraph(shipsSummary.planningNote, 8, 2);
-      if (shipsSummary.busiestShip) {
-        this.canvas.addParagraph(
-          `Largest call: ${shipsSummary.busiestShip.name} (~${shipsSummary.busiestShip.passengers.toLocaleString()} passengers)`,
-          8,
-          2,
-        );
-      }
-    });
-
-    if (shipsInPort.length > 0) {
-      this.canvas.addBulletList(
-        shipsInPort.map(
-          (ship) =>
-            `${ship.ship} · ${ship.cruiseLine} · ${ship.arrival}–${ship.departure} · ${ship.passengers} pax`,
-        ),
-      );
-    }
-  }
-
   addExcursionCta(plan: CruiseDayPlan): void {
     this.canvas.addSpacer(2);
-    this.canvas.addCtaButton("View Excursion Options →", getExcursionCtaUrl(plan));
+    this.canvas.ensureSpace(18);
+    this.canvas.y = drawPrimaryCta(
+      this.canvas.doc,
+      "View Excursion Options →",
+      getExcursionCtaUrl(plan),
+      MARGIN,
+      this.canvas.y,
+      CONTENT_WIDTH,
+    );
   }
 
-  addPremiumPortSections(plan: CruiseDayPlan): void {
-    this.addPremiumPassengerSnapshot(plan);
-    this.addPremiumExcursionBlock(plan);
-    this.addPremiumItinerary(plan);
-    this.addPremiumReturnAdvice(plan);
-    this.addPremiumSchedule(plan);
-    this.addPremiumShipsSummary(plan);
-    this.addExcursionCta(plan);
-  }
-
-  addSinglePortSections(plan: CruiseDayPlan): void {
-    this.addPremiumPassengerSnapshot(plan);
-    this.addPremiumExcursionBlock(plan);
-    this.addPremiumItinerary(plan);
-    this.addPremiumReturnAdvice(plan);
-    this.addPremiumSchedule(plan);
-    this.addPremiumShipsSummary(plan);
+  addPortSections(plan: CruiseDayPlan): void {
+    this.addPassengerSnapshot(plan);
+    this.addRecommendedExcursion(plan);
+    this.addMatchReasonsPanel(plan);
+    this.addPortDayOutline(plan);
+    this.addScheduleSummary(plan);
     this.addExcursionCta(plan);
   }
 
@@ -564,20 +411,20 @@ class PortPlanPdfSections {
     const { doc } = this.canvas;
 
     this.canvas.ensureSpace(12 + entries.length * 6);
-    doc.setFillColor(240, 245, 250);
+    doc.setFillColor(...C.caribbean50);
     doc.roundedRect(MARGIN, this.canvas.y - 4, CONTENT_WIDTH, 8, 1.5, 1.5, "F");
-    doc.setFont("helvetica", "bold");
+    doc.setFont(F.body, "bold");
     doc.setFontSize(7);
-    doc.setTextColor(...MUTED_RGB);
+    doc.setTextColor(...C.gray600);
     for (let i = 0; i < headers.length; i++) {
       doc.text(headers[i], x + 2, this.canvas.y);
       x += colWidths[i];
     }
     this.canvas.y += 7;
 
-    doc.setFont("helvetica", "normal");
+    doc.setFont(F.body, "normal");
     doc.setFontSize(7.5);
-    doc.setTextColor(40, 40, 40);
+    doc.setTextColor(...C.gray900);
     for (const entry of entries) {
       this.canvas.ensureSpace(7);
       x = MARGIN;
@@ -603,50 +450,49 @@ class CruiseDayPlanPdfBuilder {
   private canvas: PdfCanvas;
   private sections: PortPlanPdfSections;
 
-  constructor(private plan: CruiseDayPlan) {
+  constructor(
+    private plan: CruiseDayPlan,
+    assets: PdfBrandAssets,
+  ) {
     const doc = new jsPDF({ unit: "mm", format: "a4", compress: true });
-    this.canvas = new PdfCanvas(doc);
+    this.canvas = new PdfCanvas(doc, assets);
     this.sections = new PortPlanPdfSections(this.canvas);
     this.drawSinglePortCover();
-    this.canvas.setPageHeader("port", plan.portName);
   }
 
   private drawSinglePortCover(): void {
-    const { plan } = this;
-    const { doc } = this.canvas;
-    doc.setFillColor(...BRAND_RGB);
-    doc.rect(0, 0, PAGE_WIDTH, 52, "F");
-    doc.setFillColor(...ACCENT_RGB);
-    doc.rect(0, 48, PAGE_WIDTH, 8, "F");
+    const { plan, canvas } = this;
+    const { doc } = canvas;
+    const heroHeight = 58;
 
-    doc.setTextColor(255, 255, 255);
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(8);
-    doc.text(SITE_NAME.toUpperCase(), MARGIN, 12);
+    drawHeroImageBand(doc, canvas.assets, 0, 0, PAGE_WIDTH, heroHeight);
+    drawSiteWordmark(doc, MARGIN, 14);
 
-    doc.setFontSize(22);
-    doc.text("Your Caribbean Cruise Planner", MARGIN, 26);
+    drawDisplayTitle(doc, "Your Personal", MARGIN, 30, 18);
+    drawDisplayTitle(doc, "Cruise Planner", MARGIN, 38, 18);
 
-    doc.setFont("helvetica", "normal");
-    doc.setFontSize(14);
-    doc.text(plan.portName, MARGIN, 36);
+    doc.setFont(F.body, "normal");
+    doc.setFontSize(12);
+    doc.setTextColor(...C.white);
+    doc.text(plan.portName, MARGIN, 48);
 
-    doc.setFontSize(9);
+    doc.setFontSize(8.5);
+    doc.setTextColor(230, 247, 251);
     doc.text(
       `${plan.displayDate} · ${interestLabels(plan.interests)} · ${activityLevelLabel(plan.activityLevel)} activity`,
       MARGIN,
-      44,
+      54,
     );
 
-    this.canvas.y = 64;
-    this.canvas.addParagraph(
+    canvas.y = heroHeight + 8;
+    canvas.addParagraph(
       "A personalised shore-day guide with excursion picks, itinerary timing, and return-to-ship advice.",
       9,
     );
   }
 
   build(): Blob {
-    this.sections.addSinglePortSections(this.plan);
+    this.sections.addPortSections(this.plan);
     this.canvas.drawFooter();
     return this.canvas.doc.output("blob");
   }
@@ -662,9 +508,12 @@ class CombinedCruisePlannerPdfBuilder {
   private sections: PortPlanPdfSections;
   private tocEntries: TocEntry[] = [];
 
-  constructor(private input: CombinedCruisePlannerInput) {
+  constructor(
+    private input: CombinedCruisePlannerInput,
+    assets: PdfBrandAssets,
+  ) {
     const doc = new jsPDF({ unit: "mm", format: "a4", compress: true });
-    this.canvas = new PdfCanvas(doc);
+    this.canvas = new PdfCanvas(doc, assets);
     this.sections = new PortPlanPdfSections(this.canvas);
     this.drawCoverPage();
     doc.addPage();
@@ -680,9 +529,8 @@ class CombinedCruisePlannerPdfBuilder {
         portName: plan.portName,
         page: this.canvas.pageNumber,
       });
-      this.canvas.setPageHeader("combined", plan.portName);
-      this.drawPortSectionHeader(plan);
-      this.sections.addPremiumPortSections(plan);
+      this.drawPortHeroBand(plan);
+      this.sections.addPortSections(plan);
     }
 
     this.drawTableOfContents();
@@ -693,176 +541,196 @@ class CombinedCruisePlannerPdfBuilder {
   private drawCoverPage(): void {
     const { input, canvas } = this;
     const { doc } = canvas;
+    const heroHeight = 72;
     const sailingLabel =
       input.sailingMonth && input.sailingYear
         ? `${input.sailingMonth} ${input.sailingYear}`
-        : input.sailingMonth ?? "Your sailing dates";
+        : (input.sailingMonth ?? "Your sailing dates");
 
-    doc.setFillColor(...BRAND_RGB);
-    doc.rect(0, 0, PAGE_WIDTH, 78, "F");
-    doc.setFillColor(...ACCENT_RGB);
-    doc.rect(0, 72, PAGE_WIDTH, 12, "F");
+    drawHeroImageBand(doc, canvas.assets, 0, 0, PAGE_WIDTH, heroHeight);
+    drawSiteWordmark(doc, MARGIN, 16);
 
-    doc.setTextColor(255, 255, 255);
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(8);
-    doc.text(SITE_NAME.toUpperCase(), MARGIN, 14);
+    drawDisplayTitle(doc, "Your Personal", MARGIN, 34, 22);
+    drawDisplayTitle(doc, "Cruise Planner", MARGIN, 44, 22);
 
-    doc.setFontSize(26);
-    doc.text("Your Caribbean", MARGIN, 32);
-    doc.text("Cruise Planner", MARGIN, 44);
-
-    doc.setFont("helvetica", "normal");
-    doc.setFontSize(11);
+    doc.setFont(F.body, "normal");
+    doc.setFontSize(9.5);
+    doc.setTextColor(230, 247, 251);
+    let metaY = 54;
     if (input.cruiseLineName) {
-      doc.text(`Cruise line: ${input.cruiseLineName}`, MARGIN, 56);
+      doc.text(`Cruise line: ${input.cruiseLineName}`, MARGIN, metaY);
+      metaY += 5;
     }
     if (input.shipName) {
-      doc.text(`Ship: ${input.shipName}`, MARGIN, input.cruiseLineName ? 62 : 56);
+      doc.text(`Ship: ${input.shipName}`, MARGIN, metaY);
+      metaY += 5;
     }
-    const sailingY = input.cruiseLineName && input.shipName ? 68 : input.cruiseLineName || input.shipName ? 62 : 56;
-    doc.text(`Sailing: ${sailingLabel}`, MARGIN, sailingY);
+    doc.text(`Sailing: ${sailingLabel}`, MARGIN, metaY);
 
-    canvas.resetY(92);
-    canvas.setPageHeader("none");
+    canvas.resetY(heroHeight + 8);
 
-    canvas.addSectionCard(() => {
-      doc.setFont("helvetica", "bold");
-      doc.setFontSize(8);
-      doc.setTextColor(...MUTED_RGB);
-      doc.text("TRAVELLER PROFILE", MARGIN + 4, canvas.y);
-      canvas.y += 5;
-      doc.setFont("helvetica", "normal");
-      doc.setFontSize(10);
-      doc.setTextColor(30, 30, 30);
-      doc.text(input.travellerTypeLabels.join(" · "), MARGIN + 4, canvas.y);
-      canvas.y += 6;
-      doc.setFont("helvetica", "bold");
-      doc.setFontSize(8);
-      doc.setTextColor(...MUTED_RGB);
-      doc.text("ACTIVITY LEVEL", MARGIN + 4, canvas.y);
-      canvas.y += 5;
-      doc.setFont("helvetica", "normal");
-      doc.setFontSize(10);
-      doc.setTextColor(30, 30, 30);
-      doc.text(input.fitnessLevelLabel, MARGIN + 4, canvas.y);
-    });
+    drawCardSurface(doc, MARGIN, canvas.y, CONTENT_WIDTH, 28, C.caribbean50);
+    doc.setFont(F.body, "bold");
+    doc.setFontSize(7);
+    doc.setTextColor(...C.caribbean800);
+    doc.text("TRAVELLER PROFILE", MARGIN + 4, canvas.y + 6);
+    doc.setFont(F.body, "normal");
+    doc.setFontSize(10);
+    doc.setTextColor(...C.gray900);
+    doc.text(input.travellerTypeLabels.join(" · "), MARGIN + 4, canvas.y + 12);
+    doc.setFont(F.body, "bold");
+    doc.setFontSize(7);
+    doc.setTextColor(...C.caribbean800);
+    doc.text("ACTIVITY LEVEL", MARGIN + 4, canvas.y + 18);
+    doc.setFont(F.body, "normal");
+    doc.setFontSize(10);
+    doc.setTextColor(...C.gray900);
+    doc.text(input.fitnessLevelLabel, MARGIN + 4, canvas.y + 24);
+    canvas.y += 34;
 
-    canvas.addSpacer(4);
     canvas.addSectionTitle("Your Ports");
     for (let i = 0; i < input.portPlans.length; i++) {
       const plan = input.portPlans[i];
-      canvas.ensureSpace(8);
-      doc.setFillColor(...ACCENT_RGB);
+      canvas.ensureSpace(10);
+      doc.setFillColor(...C.caribbean700);
       doc.circle(MARGIN + 2, canvas.y - 1.5, 2.5, "F");
-      doc.setTextColor(255, 255, 255);
-      doc.setFont("helvetica", "bold");
+      doc.setTextColor(...C.white);
+      doc.setFont(F.body, "bold");
       doc.setFontSize(7);
       doc.text(String(i + 1), MARGIN + 2, canvas.y, { align: "center" });
-      doc.setTextColor(30, 30, 30);
-      doc.setFont("helvetica", "normal");
+      doc.setTextColor(...C.gray900);
+      doc.setFont(F.body, "normal");
       doc.setFontSize(10);
       doc.text(plan.portName, MARGIN + 8, canvas.y);
       doc.setFontSize(8);
-      doc.setTextColor(...MUTED_RGB);
+      doc.setTextColor(...C.gray600);
       doc.text(plan.portInformation.region, MARGIN + 8, canvas.y + 4);
       canvas.y += 10;
     }
 
-    canvas.addSpacer(4);
+    canvas.addSpacer(2);
+    this.drawExcursionSummary();
+
+    canvas.addSpacer(2);
     canvas.addParagraph(
       "Your personalised guide to every port on this itinerary — excursion picks, day plans, return-to-ship advice, and schedule context.",
       9,
       3,
     );
-
-    doc.setFont("helvetica", "italic");
-    doc.setFontSize(8);
-    doc.setTextColor(...MUTED_RGB);
-    canvas.ensureSpace(8);
-    doc.text(`Prepared by ${SITE_NAME}`, MARGIN, FOOTER_Y - 18);
   }
 
-  private drawPortSectionHeader(plan: CruiseDayPlan): void {
+  private drawExcursionSummary(): void {
+    const { input, canvas } = this;
+    const { doc } = canvas;
+
+    canvas.addSectionTitle("Recommended Excursions");
+    for (let i = 0; i < input.portPlans.length; i++) {
+      const plan = input.portPlans[i];
+      const rec = plan.recommendedExcursions;
+      canvas.ensureSpace(14);
+
+      drawCardSurface(doc, MARGIN, canvas.y - 4, CONTENT_WIDTH, 12, C.caribbean50);
+
+      doc.setFillColor(...C.caribbean700);
+      doc.circle(MARGIN + 3, canvas.y + 1.5, 2.2, "F");
+      doc.setTextColor(...C.white);
+      doc.setFont(F.body, "bold");
+      doc.setFontSize(7);
+      doc.text(String(i + 1), MARGIN + 3, canvas.y + 2, { align: "center" });
+
+      doc.setTextColor(...C.gray900);
+      doc.setFont(F.body, "bold");
+      doc.setFontSize(9);
+      doc.text(plan.portName, MARGIN + 8, canvas.y + 1);
+
+      doc.setFont(F.body, "normal");
+      doc.setFontSize(8);
+      const excursionLine = doc.splitTextToSize(rec.primary.name, CONTENT_WIDTH - 58)[0] ?? rec.primary.name;
+      doc.text(excursionLine, MARGIN + 8, canvas.y + 5.5);
+
+      drawMatchBadge(doc, rec.matchLabel, rec.matchScore, PAGE_WIDTH - MARGIN - 52, canvas.y + 3);
+
+      canvas.y += 12;
+    }
+    canvas.addSpacer(2);
+  }
+
+  private drawPortHeroBand(plan: CruiseDayPlan): void {
     const { doc } = this.canvas;
     const { recommendedExcursions: rec } = plan;
+    const bandHeight = 36;
 
-    doc.setFillColor(...BRAND_RGB);
-    doc.rect(0, 0, PAGE_WIDTH, 28, "F");
-    doc.setFillColor(...ACCENT_RGB);
-    doc.rect(0, 24, PAGE_WIDTH, 6, "F");
+    drawHeroImageBand(doc, this.canvas.assets, 0, 0, PAGE_WIDTH, bandHeight);
 
-    doc.setTextColor(255, 255, 255);
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(7.5);
-    doc.text(SITE_NAME.toUpperCase(), MARGIN, 9);
+    drawEyebrowLabel(doc, plan.portInformation.region, MARGIN, 12);
+    doc.setTextColor(...C.white);
+    doc.setFont(F.display, "bold");
+    doc.setFontSize(20);
+    doc.text(plan.portName, MARGIN, 22);
 
-    doc.setFontSize(18);
-    doc.text(plan.portName, MARGIN, 18);
-
-    doc.setFont("helvetica", "normal");
+    doc.setFont(F.body, "normal");
     doc.setFontSize(8.5);
-    doc.text(`${plan.displayDate} · ${plan.portInformation.region}`, MARGIN, 24);
+    doc.setTextColor(230, 247, 251);
+    doc.text(plan.displayDate, MARGIN, 29);
 
-    this.canvas.addMatchBadge(rec.matchLabel, rec.matchScore, PAGE_WIDTH - MARGIN - 54, 18);
+    drawMatchBadge(doc, rec.matchLabel, rec.matchScore, PAGE_WIDTH - MARGIN - 54, 22);
 
-    this.canvas.resetY(36);
+    this.canvas.resetY(bandHeight + 6);
   }
 
   private drawTableOfContents(): void {
     const { doc } = this.canvas;
     doc.setPage(2);
     this.canvas.pageNumber = 2;
-    this.canvas.resetY(MARGIN + 4);
+    this.canvas.resetY(MARGIN);
 
-    doc.setFillColor(...SAND_RGB);
-    doc.roundedRect(MARGIN, this.canvas.y - 6, CONTENT_WIDTH, 18, 3, 3, "F");
-    doc.setTextColor(...BRAND_RGB);
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(20);
-    doc.text("Table of Contents", MARGIN + 4, this.canvas.y + 4);
+    drawCardSurface(doc, MARGIN, this.canvas.y, CONTENT_WIDTH, 16, C.caribbean50);
+    doc.setTextColor(...C.caribbean800);
+    doc.setFont(F.display, "bold");
+    doc.setFontSize(18);
+    doc.text("Table of Contents", MARGIN + 4, this.canvas.y + 10);
     this.canvas.y += 22;
 
-    doc.setFont("helvetica", "normal");
+    doc.setFont(F.body, "normal");
     doc.setFontSize(10);
 
     for (let i = 0; i < this.tocEntries.length; i++) {
       const entry = this.tocEntries[i];
-      this.canvas.ensureSpace(10);
+      this.canvas.ensureSpace(12);
       const rowY = this.canvas.y;
 
-      doc.setFillColor(...ACCENT_RGB);
-      doc.circle(MARGIN + 2, rowY - 1.5, 2.2, "F");
-      doc.setTextColor(255, 255, 255);
-      doc.setFont("helvetica", "bold");
-      doc.setFontSize(7);
-      doc.text(String(i + 1), MARGIN + 2, rowY, { align: "center" });
+      drawCardSurface(doc, MARGIN, rowY - 5, CONTENT_WIDTH, 10, C.white);
 
-      doc.setTextColor(35, 35, 35);
-      doc.setFont("helvetica", "normal");
+      doc.setFillColor(...C.caribbean700);
+      doc.circle(MARGIN + 5, rowY, 2.2, "F");
+      doc.setTextColor(...C.white);
+      doc.setFont(F.body, "bold");
+      doc.setFontSize(7);
+      doc.text(String(i + 1), MARGIN + 5, rowY + 0.5, { align: "center" });
+
+      doc.setTextColor(...C.gray900);
+      doc.setFont(F.body, "normal");
       doc.setFontSize(10);
-      doc.text(entry.portName, MARGIN + 8, rowY);
+      doc.text(entry.portName, MARGIN + 11, rowY + 0.5);
 
       const pageText = String(entry.page);
-      doc.text(pageText, PAGE_WIDTH - MARGIN, rowY, { align: "right" });
+      doc.text(pageText, PAGE_WIDTH - MARGIN - 4, rowY + 0.5, { align: "right" });
 
-      const nameWidth = doc.getTextWidth(entry.portName) + MARGIN + 10;
-      const pageWidth = doc.getTextWidth(pageText) + 4;
+      const nameWidth = doc.getTextWidth(entry.portName) + MARGIN + 14;
+      const pageWidth = doc.getTextWidth(pageText) + 6;
       const dotsStart = nameWidth + 2;
-      const dotsEnd = PAGE_WIDTH - MARGIN - pageWidth - 2;
+      const dotsEnd = PAGE_WIDTH - MARGIN - pageWidth - 6;
       if (dotsEnd > dotsStart) {
         doc.setTextColor(190, 190, 190);
         doc.setFontSize(8);
         let dotX = dotsStart;
         while (dotX < dotsEnd) {
-          doc.text(".", dotX, rowY);
+          doc.text(".", dotX, rowY + 0.5);
           dotX += 1.8;
         }
       }
 
-      doc.setDrawColor(...CARD_BORDER);
-      doc.line(MARGIN, rowY + 3, PAGE_WIDTH - MARGIN, rowY + 3);
-      this.canvas.y += 10;
+      this.canvas.y += 12;
     }
   }
 
@@ -877,20 +745,24 @@ class CombinedCruisePlannerPdfBuilder {
 }
 
 /** Build combined PDF blob without browser guard (for smoke tests). */
-export function buildCombinedCruisePlannerPdfBlob(input: CombinedCruisePlannerInput): Blob {
-  return new CombinedCruisePlannerPdfBuilder(input).build();
+export function buildCombinedCruisePlannerPdfBlob(
+  input: CombinedCruisePlannerInput,
+  assets: PdfBrandAssets = {},
+): Blob {
+  return new CombinedCruisePlannerPdfBuilder(input, assets).build();
 }
 
 /** Build single-port PDF blob without browser guard (for smoke tests). */
-export function buildCruiseDayPlanPdfBlob(plan: CruiseDayPlan): Blob {
-  return new CruiseDayPlanPdfBuilder(plan).build();
+export function buildCruiseDayPlanPdfBlob(plan: CruiseDayPlan, assets: PdfBrandAssets = {}): Blob {
+  return new CruiseDayPlanPdfBuilder(plan, assets).build();
 }
 
 /** Generate an A4 PDF blob from a cruise day plan (client-side). */
 export async function generateCruiseDayPlanPdf(plan: CruiseDayPlan): Promise<Blob | null> {
   if (typeof window === "undefined") return null;
   try {
-    return buildCruiseDayPlanPdfBlob(plan);
+    const assets = await loadPdfBrandAssets();
+    return buildCruiseDayPlanPdfBlob(plan, assets);
   } catch {
     return null;
   }
@@ -902,7 +774,8 @@ export async function generateCombinedCruisePlannerPdf(
 ): Promise<Blob | null> {
   if (typeof window === "undefined") return null;
   try {
-    return buildCombinedCruisePlannerPdfBlob(input);
+    const assets = await loadPdfBrandAssets();
+    return buildCombinedCruisePlannerPdfBlob(input, assets);
   } catch {
     return null;
   }

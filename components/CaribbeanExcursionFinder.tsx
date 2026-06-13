@@ -459,7 +459,17 @@ export function CaribbeanExcursionFinder({
             </p>
             {combinedPlanner && (
               <div className="mt-4">
-                <CombinedCruisePlannerDownloadButton planner={combinedPlanner} />
+                <CombinedCruisePlannerDownloadButton
+                  planner={combinedPlanner}
+                  leadMetadata={{
+                    cruiseLineSlug: cruiseLineSlug || undefined,
+                    cruiseLineName: finderCruiseLines.find((line) => line.slug === cruiseLineSlug)?.name,
+                    shipSlug: shipSlug || undefined,
+                    shipName: finderShips.find((ship) => ship.slug === shipSlug)?.name,
+                    sailingMonth: sailingMonth || undefined,
+                    sailingYear: sailingYear === "" ? undefined : sailingYear,
+                  }}
+                />
               </div>
             )}
             <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-gray-500">
