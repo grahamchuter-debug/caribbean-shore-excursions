@@ -22,6 +22,7 @@ import { CaribbeanRoutePresets } from "@/components/CaribbeanRoutePresets";
 import { ExploreByRegion } from "@/components/ExploreByRegion";
 import { HeroBackground } from "@/components/HeroBackground";
 import { PortSearch } from "@/components/PortSearch";
+import { FindMyCruiseShip } from "@/components/FindMyCruiseShip";
 
 export const metadata = buildMetadata({
   title: "Caribbean Shore Excursion Planner | Ports, Ship Schedules & Cruise Tours",
@@ -233,6 +234,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <FindMyCruiseShip />
 
       {/* Compare Caribbean Ports */}
       <section className="section-padding bg-white">
