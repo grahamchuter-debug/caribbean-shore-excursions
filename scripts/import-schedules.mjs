@@ -7,12 +7,18 @@
 
 import fs from "fs";
 import path from "path";
-import { fileURLToPath } from "url";
+import { PORT_CONFIG } from "./schedule-port-config.mjs";
+import {
+  OUTPUT_DIR,
+  ROOT,
+  SOURCES_DIR,
+  discoverPageUrls,
+  fetchHtml,
+  parseCsv,
+  readCachedPage,
+  writeCachedPage,
+} from "./schedule-cache-utils.mjs";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const ROOT = path.join(__dirname, "..");
-const SOURCES_DIR = path.join(ROOT, "data/schedule-sources");
-const OUTPUT_DIR = path.join(ROOT, "data/imported-schedules");
 const CAPACITY_PATH = path.join(ROOT, "data/ship-capacities.json");
 
 const MONTH_MAP = {
@@ -41,61 +47,6 @@ const MONTH_MAP = {
   dec: 12,
   december: 12,
 };
-
-const PORT_CONFIG = {
-  "st-thomas": {
-    name: "St. Thomas",
-    itineraryPortRegex:
-      /St\.?\s*Thomas,\s*US Virgin Islands\s*\(\s*(\d{1,2}\s+\w{3})\s+(\d{4})-(\d{4})\s*\)/i,
-  },
-  "ocho-rios": {
-    name: "Ocho Rios",
-    itineraryPortRegex:
-      /Ocho Rios,\s*Jamaica\s*\(\s*(\d{1,2}\s+\w{3})\s+(\d{4})-(\d{4})\s*\)/i,
-  },
-  tortola: {
-    name: "Tortola",
-    itineraryPortRegex:
-      /Tortola,\s*British Virgin Islands\s*\(\s*(\d{1,2}\s+\w{3})\s+(\d{4})-(\d{4})\s*\)/i,
-  },
-};
-
-const FETCH_HEADERS = {
-  "User-Agent":
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-  Accept: "text/html,application/xhtml+xml",
-};
-
-function normalizeUrl(raw) {
-  let url = raw.trim();
-  if (!url.startsWith("http")) {
-    url = `https://${url.replace(/^\/\//, "")}`;
-  }
-  if (!url.startsWith("https://www.")) {
-    url = url.replace("https://", "https://www.");
-  }
-  return url;
-}
-
-function parseCsv(filePath) {
-  const lines = fs
-    .readFileSync(filePath, "utf8")
-    .split(/\r?\n/)
-    .map((l) => l.trim())
-    .filter(Boolean);
-
-  const urls = [];
-  for (const line of lines.slice(1)) {
-    const comma = line.indexOf(",");
-    if (comma === -1) continue;
-    const monthLabel = line.slice(0, comma).trim();
-    const rawUrl = line.slice(comma + 1).trim();
-    if (!/^https?:\/\//i.test(rawUrl)) continue;
-    const url = normalizeUrl(rawUrl);
-    urls.push({ monthLabel, url });
-  }
-  return urls;
-}
 
 function normalizeShipKey(name) {
   return name.toLowerCase().replace(/\s+/g, " ").trim();
@@ -191,8 +142,17 @@ function stripHtml(html) {
     .trim();
 }
 
+function normalizeParseText(text) {
+  return text
+    .replace(/\*\*/g, "")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/!\[[^\]]*\]\([^)]+\)/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 function parseEntriesFromText(text, config) {
-  const plain = text.includes("<") ? stripHtml(text) : text;
+  const plain = normalizeParseText(text.includes("<") ? stripHtml(text) : text);
   const entries = [];
   const blockRe =
     /Arriving\s+(?:\w+\s+)?(\d{1,2})\s+(\w{3})\s+(\d{4})[\s\S]*?Ship\s+(.+?)\s+More details[\s\S]*?Cruise Itinerary\s*:\s*([\s\S]*?)(?:port loads|ChangeMonth|©CruiseTimetables)/gi;
@@ -226,66 +186,40 @@ function parseEntriesFromText(text, config) {
   return entries;
 }
 
-function parseEntriesFromHtml(html, config) {
-  return parseEntriesFromText(html, config);
-}
-
-function cacheFileName(url) {
-  const match = url.match(/-([a-z]{3}\d{4})\.html/i);
-  return match ? `${match[1]}.txt` : `${Buffer.from(url).toString("base64url")}.txt`;
-}
-
-function readCachedPage(cacheDir, url) {
-  const cachePath = path.join(cacheDir, cacheFileName(url));
-  if (!fs.existsSync(cachePath)) return null;
-  return fs.readFileSync(cachePath, "utf8");
-}
-
-function writeCachedPage(cacheDir, url, content) {
-  fs.mkdirSync(cacheDir, { recursive: true });
-  fs.writeFileSync(path.join(cacheDir, cacheFileName(url)), content);
-}
-
-async function fetchHtml(url, attempt = 1) {
-  const res = await fetch(url, { headers: FETCH_HEADERS });
-  if (res.status === 429 && attempt <= 8) {
-    const waitMs = attempt * 5000;
-    process.stdout.write(`429, retry in ${waitMs / 1000}s... `);
-    await new Promise((r) => setTimeout(r, waitMs));
-    return fetchHtml(url, attempt + 1);
+async function fetchHtmlWithRetry(url, attempt = 1) {
+  if (cacheOnly) {
+    const err = new Error(`No cache for ${url} (--cache-only)`);
+    err.status = 404;
+    throw err;
   }
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-  return res.text();
+  try {
+    return await fetchHtml(url);
+  } catch (err) {
+    if (err.status === 429 && attempt <= 8) {
+      const waitMs = attempt * 5000;
+      process.stdout.write(`429, retry in ${waitMs / 1000}s... `);
+      await new Promise((r) => setTimeout(r, waitMs));
+      return fetchHtmlWithRetry(url, attempt + 1);
+    }
+    throw err;
+  }
 }
 
 async function fetchAllPagesForMonth(url, config, cacheDir) {
   let firstHtml = readCachedPage(cacheDir, url);
   if (!firstHtml) {
-    firstHtml = await fetchHtml(url);
+    firstHtml = await fetchHtmlWithRetry(url);
     writeCachedPage(cacheDir, url, firstHtml);
   }
 
-  const pageUrls = new Set([url]);
-
-  const offsetMatches = firstHtml.matchAll(/pageit\('([^']+)'\)/g);
-  for (const m of offsetMatches) {
-    const rel = m[1];
-    if (rel.includes("offset=")) {
-      pageUrls.add(
-        rel.startsWith("http")
-          ? rel
-          : `https://www.cruisetimetables.com/${rel.replace(/^\//, "")}`,
-      );
-    }
-  }
-
+  const pageUrls = discoverPageUrls(firstHtml, url);
   const allEntries = [];
   const seen = new Set();
 
   for (const pageUrl of pageUrls) {
     let html = pageUrl === url ? firstHtml : readCachedPage(cacheDir, pageUrl);
     if (!html) {
-      html = await fetchHtml(pageUrl);
+      html = await fetchHtmlWithRetry(pageUrl);
       writeCachedPage(cacheDir, pageUrl, html);
     }
     for (const entry of parseEntriesFromText(html, config)) {
@@ -300,9 +234,11 @@ async function fetchAllPagesForMonth(url, config, cacheDir) {
   return allEntries;
 }
 
-const slug = process.argv[2] || "st-thomas";
+const argv = process.argv.slice(2);
+const cacheOnly = argv.includes("--cache-only");
+const slug = argv.find((a) => !a.startsWith("--")) || "st-thomas";
 const config = PORT_CONFIG[slug];
-if (!PORT_CONFIG[slug]) {
+if (!config) {
   console.error(`Unknown port slug: ${slug}. Add config to PORT_CONFIG.`);
   process.exit(1);
 }

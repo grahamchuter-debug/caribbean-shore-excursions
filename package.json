@@ -9,7 +9,10 @@
     "lint": "next lint",
     "pages:build": "next build",
     "pages:deploy": "npm run build && npx wrangler pages deploy out --project-name=caribbean-shore-excursions",
+    "export:schedule-sources": "python3 scripts/export-schedule-sources-from-xlsx.py",
     "import:schedules": "node scripts/import-schedules.mjs",
+    "import:hub-schedules": "node scripts/import-hub-schedules.mjs",
+    "warm:schedules": "node scripts/warm-schedule-cache.mjs",
     "check-links": "node scripts/check-links.js"
   },
   "engines": {

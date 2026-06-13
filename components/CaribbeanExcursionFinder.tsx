@@ -23,9 +23,12 @@ import {
   type ExcursionFinderResult,
 } from "@/lib/excursion-finder-engine";
 import {
+  buildCombinedCruisePlannerFromFinderContext,
   buildCruiseDayPlanFromFinderContext,
   getCruiseDayPlanDownloadUrl,
 } from "@/lib/cruise-day-plan";
+import { resolveItineraryPorts } from "@/lib/finder-itinerary-ports";
+import { CombinedCruisePlannerDownloadButton } from "@/components/CombinedCruisePlannerDownloadButton";
 import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadButton";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 import { MatchReasonsPanel } from "@/components/MatchReasonsPanel";
@@ -89,11 +92,16 @@ export function CaribbeanExcursionFinder({
   }, [initialRouteId, initialPorts, applyPorts]);
 
   useEffect(() => {
-    if (!shipSlug) return;
-    const ship = finderShips.find((item) => item.slug === shipSlug);
-    if (!ship || selectedPorts.length > 0) return;
-    applyPorts(ship.commonPortSlugs.filter((slug) => visiblePortSlugs.includes(slug)).slice(0, 5));
-  }, [shipSlug, selectedPorts.length, applyPorts, visiblePortSlugs]);
+    if (!shipSlug && !cruiseLineSlug) return;
+    const ports = resolveItineraryPorts({
+      shipSlug: shipSlug || undefined,
+      cruiseLineSlug: cruiseLineSlug || undefined,
+      visiblePortSlugs: visiblePortSlugs,
+    });
+    if (ports.length > 0) {
+      applyPorts(ports);
+    }
+  }, [shipSlug, cruiseLineSlug, applyPorts, visiblePortSlugs]);
 
   const handleGenerate = () => {
     const plan = generateExcursionFinderPlan({
@@ -103,6 +111,8 @@ export function CaribbeanExcursionFinder({
       timeInPort,
       sailingMonth: sailingMonth || undefined,
       sailingYear: sailingYear === "" ? undefined : sailingYear,
+      shipSlug: shipSlug || undefined,
+      cruiseLineSlug: cruiseLineSlug || undefined,
     });
     setResult(plan);
     setHasGenerated(true);
@@ -112,6 +122,27 @@ export function CaribbeanExcursionFinder({
   };
 
   const canGenerate = selectedPorts.length > 0 && selectedTravellers.length > 0;
+
+  const combinedPlanner = useMemo(() => {
+    if (!result) return null;
+    const portSlugs = result.portPlans
+      .map((plan) => plan.portSlug)
+      .filter((slug) => featuredFinderPortSlugs.includes(slug));
+    if (portSlugs.length === 0) return null;
+
+    const cruiseLineName = finderCruiseLines.find((line) => line.slug === cruiseLineSlug)?.name;
+    const shipName = finderShips.find((ship) => ship.slug === shipSlug)?.name;
+
+    return buildCombinedCruisePlannerFromFinderContext({
+      portSlugs,
+      travellerTypes: selectedTravellers,
+      fitnessLevel,
+      sailingMonth: sailingMonth || undefined,
+      sailingYear: sailingYear === "" ? undefined : sailingYear,
+      cruiseLineName,
+      shipName,
+    });
+  }, [result, cruiseLineSlug, shipSlug, selectedTravellers, fitnessLevel, sailingMonth, sailingYear]);
 
   return (
     <div className="space-y-8">
@@ -232,7 +263,11 @@ export function CaribbeanExcursionFinder({
           <div className="flex items-center justify-between gap-3">
             <div>
               <p className="text-sm font-semibold text-gray-900">Ports on your itinerary</p>
-              <p className="text-xs text-gray-500">Select every Caribbean port your cruise visits</p>
+              <p className="text-xs text-gray-500">
+                {shipSlug || cruiseLineSlug
+                  ? "Ports update when you change ship or cruise line. You can still adjust manually."
+                  : "Select every Caribbean port your cruise visits"}
+              </p>
             </div>
             {variant === "home" && (
               <Link href="/caribbean-excursion-finder#all-ports" className="text-xs font-medium text-caribbean-700 hover:underline">
@@ -418,11 +453,19 @@ export function CaribbeanExcursionFinder({
           </div>
 
           <div className="rounded-2xl border border-caribbean-200 bg-caribbean-50/50 p-5">
-            <p className="text-sm font-semibold text-gray-900">Download cruise day plans</p>
+            <p className="text-sm font-semibold text-gray-900">Download your cruise planner</p>
             <p className="mt-1 text-xs text-gray-600">
-              One PDF per port with excursions, itinerary, and return-to-ship advice.
+              Get one complete PDF for your whole itinerary, or download individual port day plans below.
             </p>
-            <div className="mt-4 flex flex-wrap gap-2">
+            {combinedPlanner && (
+              <div className="mt-4">
+                <CombinedCruisePlannerDownloadButton planner={combinedPlanner} />
+              </div>
+            )}
+            <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-gray-500">
+              Individual port PDFs
+            </p>
+            <div className="mt-2 flex flex-wrap gap-2">
               {result.portPlans.map((plan) => {
                 const dayPlanPdf = featuredFinderPortSlugs.includes(plan.portSlug)
                   ? buildCruiseDayPlanFromFinderContext({

@@ -6,7 +6,12 @@ import {
   getPortActivityEstimate,
   getTypicalCruiseDay,
 } from "@/data/port-planning";
-import { featuredFinderPortSlugs, portDayMistakes, type FitnessLevel } from "@/data/excursion-finder";
+import {
+  featuredFinderPortSlugs,
+  portDayMistakes,
+  travellerTypes,
+  type FitnessLevel,
+} from "@/data/excursion-finder";
 import {
   generateExcursionFinderPlan,
   getConfidenceStyles,
@@ -536,6 +541,60 @@ export function buildCruiseDayPlanFromFinderContext(options: {
     interests: travellerTypesToInterests(options.travellerTypes),
     activityLevel: options.fitnessLevel,
   });
+}
+
+export interface CombinedCruisePlannerInput {
+  cruiseLineName?: string;
+  shipName?: string;
+  sailingMonth?: string;
+  sailingYear?: number;
+  travellerTypeLabels: string[];
+  fitnessLevelLabel: string;
+  portPlans: CruiseDayPlan[];
+  generatedAt: string;
+}
+
+function getTravellerTypeLabels(ids: TravellerTypeId[]): string[] {
+  return ids.map((id) => travellerTypes.find((type) => type.id === id)?.label ?? id);
+}
+
+export function buildCombinedCruisePlannerFromFinderContext(options: {
+  portSlugs: string[];
+  travellerTypes: TravellerTypeId[];
+  fitnessLevel: FitnessLevel;
+  sailingMonth?: string;
+  sailingYear?: number;
+  cruiseLineName?: string;
+  shipName?: string;
+}): CombinedCruisePlannerInput | null {
+  const portPlans = options.portSlugs
+    .map((portSlug) =>
+      buildCruiseDayPlanFromFinderContext({
+        portSlug,
+        travellerTypes: options.travellerTypes,
+        fitnessLevel: options.fitnessLevel,
+        sailingMonth: options.sailingMonth,
+        sailingYear: options.sailingYear,
+      }),
+    )
+    .filter((plan): plan is CruiseDayPlan => plan !== null);
+
+  if (portPlans.length === 0) return null;
+
+  const fitnessLevelLabel =
+    cruiseDayPlanActivityLevels.find((level) => level.id === options.fitnessLevel)?.label ??
+    options.fitnessLevel;
+
+  return {
+    cruiseLineName: options.cruiseLineName,
+    shipName: options.shipName,
+    sailingMonth: options.sailingMonth,
+    sailingYear: options.sailingYear,
+    travellerTypeLabels: getTravellerTypeLabels(options.travellerTypes),
+    fitnessLevelLabel,
+    portPlans,
+    generatedAt: new Date().toISOString(),
+  };
 }
 
 export function getCruiseDayPlanDownloadUrl(

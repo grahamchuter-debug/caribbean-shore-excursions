@@ -1,0 +1,726 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Basseterre, St. Kitts during November 2027 (02 Nov-08 Nov)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Basseterre, St. Kitts during November 2027 Basseterre, St. Kitts sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Basseterre, St. Kitts during November 2027 (02 Nov-08 Nov)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-basseterre-st-kitts.html'>Cruises To Basseterre, St. Kitts</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- prslot1header -->
+<ins class="adsbygoogle prslot1header"
+     style="display:inline-block"
+     data-ad-client="ca-pub-9797911548575941"
+     data-ad-slot="7203331839"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Basseterre, St. Kitts during November 2027</h1>
+Showing 1 to 10 of total 88
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-stkitts-sanjuan-1.gif' alt='Cruise itinerary map for Princess Cruises 7 Night Eastern Caribbean with St. Kitts (140872)' title='Cruise itinerary map for Princess Cruises 7 Night Eastern Caribbean with St. Kitts (140872)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 2 Nov 2027</b><br>
+<b>7 Night Eastern Caribbean with St. Kitts</b><br>
+Ship 
+<a class=red href='/cruise-ship-island-princess.html'>Island Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=2731">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 7 Night Eastern Caribbean with St. Kitts at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$889
+Balcony&nbsp;$994
+Mini-Suite&nbsp;$1,379
+Suite&nbsp;$3,349
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (29 Oct d1500); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (31 Oct 1000-1700); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (01 Nov 1000-1700); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (02 Nov 0700-1600); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (05 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsislandprincess-29oct2027-05nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/southampton-tenerife-philipsburg.gif' alt='Cruise itinerary map for P & O Cruises 14 Night Caribbean Transatlantic (87131)' title='Cruise itinerary map for P & O Cruises 14 Night Caribbean Transatlantic (87131)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 3 Nov 2027</b><br>
+<b>14 Night Caribbean Transatlantic</b><br>
+Ship 
+<a class=red href='/cruise-ship-arvia.html'>Arvia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.pocruises.com/find-a-cruise/K724/K724">
+<img class='noborder' src='/logos/pocruises.gif' alt='More details for 14 Night Caribbean Transatlantic at P & O Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside From&nbsp;&pound;1,249pp
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-southampton-england.html'>Southampton, England</a>  (22 Oct); 
+<a class=red href='cruises-to-tenerife-canary-islands.html'>Tenerife, Canary Islands</a>  (26 Oct morning-early evening); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (02 Nov early morning-early evening); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (03 Nov early morning-early evening); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (04 Nov early morning-early evening); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (05 Nov)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsarvia-22oct2027-05nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/southampton-tenerife-stlucia.gif' alt='Cruise itinerary map for P & O Cruises 22 Night Caribbean Transatlantic (139186)' title='Cruise itinerary map for P & O Cruises 22 Night Caribbean Transatlantic (139186)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 3 Nov 2027</b><br>
+<b>22 Night Caribbean Transatlantic</b><br>
+Ship 
+<a class=red href='/cruise-ship-arvia.html'>Arvia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.pocruises.com/find-a-cruise/K724C/K724C">
+<img class='noborder' src='/logos/pocruises.gif' alt='More details for 22 Night Caribbean Transatlantic at P & O Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside From&nbsp;&pound;2,029pp
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-southampton-england.html'>Southampton, England</a>  (22 Oct); 
+<a class=red href='cruises-to-tenerife-canary-islands.html'>Tenerife, Canary Islands</a>  (26 Oct morning-early evening); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (02 Nov early morning-early evening); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (03 Nov early morning-early evening); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (04 Nov early morning-early evening); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (05 Nov (+1)evening); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (08 Nov early morning-early evening); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (09 Nov early morning-early evening); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (10 Nov early morning-early evening); 
+<a class=red href='cruises-to-roseau-dominica.html'>Roseau, Dominica</a>  (12 Nov early morning-early evening); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (13 Nov)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsarvia-22oct2027-13nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/southampton-tenerife-stmaarten.gif' alt='Cruise itinerary map for P & O Cruises 17 Night Caribbean Transatlantic (139191)' title='Cruise itinerary map for P & O Cruises 17 Night Caribbean Transatlantic (139191)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 3 Nov 2027</b><br>
+<b>17 Night Caribbean Transatlantic</b><br>
+Ship 
+<a class=red href='/cruise-ship-arvia.html'>Arvia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.pocruises.com/find-a-cruise/K724B/K724B">
+<img class='noborder' src='/logos/pocruises.gif' alt='More details for 17 Night Caribbean Transatlantic at P & O Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside From&nbsp;&pound;1,499pp
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-southampton-england.html'>Southampton, England</a>  (22 Oct); 
+<a class=red href='cruises-to-tenerife-canary-islands.html'>Tenerife, Canary Islands</a>  (26 Oct morning-early evening); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (02 Nov early morning-early evening); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (03 Nov early morning-early evening); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (04 Nov early morning-early evening); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (05 Nov (+1)evening); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (08 Nov)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsarvia-22oct2027-08nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/southampton-tenerife-philipsburg.gif' alt='Cruise itinerary map for P & O Cruises 15 Night Caribbean Transatlantic (87131)' title='Cruise itinerary map for P & O Cruises 15 Night Caribbean Transatlantic (87131)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 3 Nov 2027</b><br>
+<b>15 Night Caribbean Transatlantic</b><br>
+Ship 
+<a class=red href='/cruise-ship-arvia.html'>Arvia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.pocruises.com/find-a-cruise/K724A/K724A">
+<img class='noborder' src='/logos/pocruises.gif' alt='More details for 15 Night Caribbean Transatlantic at P & O Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside From&nbsp;&pound;1,299pp
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-southampton-england.html'>Southampton, England</a>  (22 Oct); 
+<a class=red href='cruises-to-tenerife-canary-islands.html'>Tenerife, Canary Islands</a>  (26 Oct morning-early evening); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (02 Nov early morning-early evening); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (03 Nov early morning-early evening); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (04 Nov early morning-early evening); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (05 Nov a(+1)disembark)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsarvia-22oct2027-06nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/sanjuan-stjohn-virgingorda.gif' alt='Cruise itinerary map for Windstar Cruises 14 Night Star Collector: Lovely Leewards (128985)' title='Cruise itinerary map for Windstar Cruises 14 Night Star Collector: Lovely Leewards (128985)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 3 Nov 2027</b><br>
+<b>14 Night Star Collector: Lovely Leewards</b><br>
+Ship 
+<a class=red href='/cruise-ship-star-pride.html'>Star Pride</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://windstarcruises.com/tour-details/SJUSJU14D/caribbean/san-juan-to-san-juan/14-day-star-collector-lovely-leewards/?pkgid=1050266">
+<img class='noborder' src='/logos/windstar-cruises.gif' alt='More details for 14 Night Star Collector: Lovely Leewards at Windstar Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$4994
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (01 Nov d1900); 
+<a class=red href='cruises-to-st-john-us-virgin-islands.html'>St John, US Virgin Islands</a>  (02 Nov 0800-1800); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (03 Nov 0800-1700); 
+<a class=red href='cruises-to-st-barthelemy.html'>St Barthelemy</a>  (04 Nov 0700-2200); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (05 Nov 0800-2200); 
+<a class=red href='cruises-to-jost-van-dyke-british-virgin-islands.html'>Jost Van Dyke, British Virgin Islands</a>  (06 Nov 0900-2200); 
+<a class=red href='cruises-to-virgin-gorda-british-virgin-islands.html'>Virgin Gorda, British Virgin Islands</a>  (07 Nov 0800-1700); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (08 Nov 0700-1900); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (10 Nov 0900-2200); 
+<a class=red href='cruises-to-bequia-grenadines.html'>Bequia, Grenadines</a>  (11 Nov 0800-2200); 
+<a class=red href='cruises-to-mayreau-grenadines.html'>Mayreau, Grenadines</a>  (12 Nov 0800-1700); 
+<a class=red href='cruises-to-iles-des-saintes-guadeloupe.html'>Iles Des Saintes, Guadeloupe</a>  (13 Nov 1000-1700); 
+<a class=red href='cruises-to-marigot-st-maarten.html'>Marigot, St Maarten</a>  (14 Nov 0800-1500); 
+<a class=red href='cruises-from-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (15 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsstarpride-01nov2027-15nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/sanjuan-stjohn-stkitts.gif' alt='Cruise itinerary map for Windstar Cruises 7 Night San Juan & the Virgin Islands (122102)' title='Cruise itinerary map for Windstar Cruises 7 Night San Juan & the Virgin Islands (122102)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 3 Nov 2027</b><br>
+<b>7 Night San Juan & the Virgin Islands</b><br>
+Ship 
+<a class=red href='/cruise-ship-star-pride.html'>Star Pride</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://windstarcruises.com/tour-details/SJUSJU7D/caribbean/san-juan-to-san-juan/7-day-san-juan-and-the-virgin-islands/?pkgid=1050797">
+<img class='noborder' src='/logos/windstar-cruises.gif' alt='More details for 7 Night San Juan & the Virgin Islands at Windstar Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$3108
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (01 Nov d1900); 
+<a class=red href='cruises-to-st-john-us-virgin-islands.html'>St John, US Virgin Islands</a>  (02 Nov 0800-1800); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (03 Nov 0800-1700); 
+<a class=red href='cruises-to-st-barthelemy.html'>St Barthelemy</a>  (04 Nov 0700-2200); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (05 Nov 0800-2200); 
+<a class=red href='cruises-to-jost-van-dyke-british-virgin-islands.html'>Jost Van Dyke, British Virgin Islands</a>  (06 Nov 0900-2200); 
+<a class=red href='cruises-to-virgin-gorda-british-virgin-islands.html'>Virgin Gorda, British Virgin Islands</a>  (07 Nov 0800-1700); 
+<a class=red href='cruises-from-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (08 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsstarpride-01nov2027-08nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/b/boston-hamilton-virgingorda.gif' alt='Cruise itinerary map for Windstar Cruises 17 Night Star Collector: Bermuda & Caribbean Island Explorer (144243)' title='Cruise itinerary map for Windstar Cruises 17 Night Star Collector: Bermuda & Caribbean Island Explorer (144243)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 3 Nov 2027</b><br>
+<b>17 Night Star Collector: Bermuda & Caribbean Island Explorer</b><br>
+Ship 
+<a class=red href='/cruise-ship-star-pride.html'>Star Pride</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://windstarcruises.com/tour-details/BOSSJU17D/caribbean/boston-to-san-juan/17-day-star-collector-bermuda-and-caribbean-island-explorer/?pkgid=1050238">
+<img class='noborder' src='/logos/windstar-cruises.gif' alt='More details for 17 Night Star Collector: Bermuda & Caribbean Island Explorer at Windstar Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$5882
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-boston-massachusetts.html'>Boston, Massachusetts</a>  (22 Oct d1700); 
+<a class=red href='cruises-to-hamilton-bermuda.html'>Hamilton, Bermuda</a>  (25 Oct 0845(+1)0700); 
+<a class=red href='cruises-to-st-george-bermuda.html'>St George, Bermuda</a>  (26 Oct 1000(+1)1200); 
+<a class=red href='cruises-to-st-barthelemy.html'>St Barthelemy</a>  (30 Oct 1000-2200); 
+<a class=red href='cruises-to-virgin-gorda-british-virgin-islands.html'>Virgin Gorda, British Virgin Islands</a>  (31 Oct 0800-1800); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (01 Nov 0700-1900); 
+<a class=red href='cruises-to-st-john-us-virgin-islands.html'>St John, US Virgin Islands</a>  (02 Nov 0800-1800); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (03 Nov 0800-1700); 
+<a class=red href='cruises-to-st-barthelemy.html'>St Barthelemy</a>  (04 Nov 0700-2200); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (05 Nov 0800-2200); 
+<a class=red href='cruises-to-jost-van-dyke-british-virgin-islands.html'>Jost Van Dyke, British Virgin Islands</a>  (06 Nov 0900-2200); 
+<a class=red href='cruises-to-virgin-gorda-british-virgin-islands.html'>Virgin Gorda, British Virgin Islands</a>  (07 Nov 0800-1700); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (08 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsstarpride-22oct2027-08nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/b/baltimore-stthomas.gif' alt='Cruise itinerary map for Carnival Cruises 14 Night Southern Caribbean (87790)' title='Cruise itinerary map for Carnival Cruises 14 Night Southern Caribbean (87790)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 6 Nov 2027</b><br>
+<b>14 Night Southern Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-pride.html'>Carnival Pride</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/14-day-southern-caribbean-cruise/baltimore/pride/14-days/jsm/?sailDate=10312027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 14 Night Southern Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1572
+Oceanview&nbsp;$1852
+Balcony&nbsp;$2252
+Suite&nbsp;$3922
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-baltimore-maryland.html'>Baltimore, Maryland</a>  (31 Oct d1730); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (04 Nov 0900-1800); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (05 Nov 0800-1700); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (06 Nov 0800-1700); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (08 Nov 0900-2200); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (09 Nov 0700-1600); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (11 Nov 0800-1600); 
+<a class=red href='cruises-from-baltimore-maryland.html'>Baltimore, Maryland</a>  (14 Nov a1000)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalpride-31oct2027-14nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/southampton-tenerife-stmaarten.gif' alt='Cruise itinerary map for P & O Cruises 17 Night Caribbean Transatlantic (139191)' title='Cruise itinerary map for P & O Cruises 17 Night Caribbean Transatlantic (139191)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 8 Nov 2027</b><br>
+<b>17 Night Caribbean Transatlantic</b><br>
+Ship 
+<a class=red href='/cruise-ship-arvia.html'>Arvia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.pocruises.com/find-a-cruise/K724B/K724B">
+<img class='noborder' src='/logos/pocruises.gif' alt='More details for 17 Night Caribbean Transatlantic at P & O Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside From&nbsp;&pound;1,499pp
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-southampton-england.html'>Southampton, England</a>  (22 Oct); 
+<a class=red href='cruises-to-tenerife-canary-islands.html'>Tenerife, Canary Islands</a>  (26 Oct morning-early evening); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (02 Nov early morning-early evening); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (03 Nov early morning-early evening); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (04 Nov early morning-early evening); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (05 Nov (+1)evening); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (08 Nov)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsarvia-22oct2027-08nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<b><a class='button' href="javascript:pageit('visitingbasseterrestkitts-nov2027.html')">1-10</a>
+</b><a class='button' href="javascript:pageit('visitingbasseterrestkitts-nov2027.html?offset=11')">11-20</a>
+<a class='button' href="javascript:pageit('visitingbasseterrestkitts-nov2027.html?offset=21')">21-30</a>
+<a class='button' href="javascript:pageit('visitingbasseterrestkitts-nov2027.html?offset=31')">31-40</a>
+<a class='button' href="javascript:pageit('visitingbasseterrestkitts-nov2027.html?offset=41')">41-50</a>
+<a class='button' href="javascript:pageit('visitingbasseterrestkitts-nov2027.html?offset=51')">51-60</a>
+<a class='button' href="javascript:pageit('visitingbasseterrestkitts-nov2027.html?offset=61')">61-70</a>
+<a class='button' href="javascript:pageit('visitingbasseterrestkitts-nov2027.html?offset=71')">71-80</a>
+<a class='button' href="javascript:pageit('visitingbasseterrestkitts-nov2027.html?offset=81')">81-88</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingbasseterrestkitts-nov2027.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingbasseterrestkitts-nov2027.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Basseterre, St. Kitts during November 2027 (02 Nov-08 Nov)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>

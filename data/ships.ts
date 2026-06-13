@@ -637,7 +637,7 @@ export const ships: CruiseShip[] = [
       "7-night Western Caribbean via Cozumel and Costa Maya",
       "Eastern Caribbean routes with St. Maarten or Puerto Plata",
     ],
-    commonPortSlugs: ["nassau", "cozumel", "puerto-plata", "costa-maya", "st-maarten"],
+    commonPortSlugs: ["cozumel", "costa-maya", "roatan", "nassau", "puerto-plata"],
     recommendedExcursions: [
       {
         name: "Palancar Two-Stop Snorkel",
@@ -857,7 +857,7 @@ export const ships: CruiseShip[] = [
       "Southern Caribbean loops with Aruba and Curacao",
       "Western Caribbean Cozumel calls on select deployments",
     ],
-    commonPortSlugs: ["cozumel", "aruba", "st-maarten", "st-thomas", "curacao"],
+    commonPortSlugs: ["st-thomas", "st-maarten", "puerto-plata", "aruba", "curacao"],
     recommendedExcursions: [
       {
         name: "Willemstad and Blue Bay Combo",

@@ -1,4 +1,6 @@
 import { getPortBySlug } from "@/data/ports";
+import { getShipBySlug } from "@/data/ships";
+import { getCruiseLineBySlug } from "@/data/cruise-lines";
 import {
   getPortPlanningSnapshot,
   getTypicalCruiseDay,
@@ -69,6 +71,8 @@ export interface ExcursionFinderInput {
   timeInPort: TimeInPort;
   sailingMonth?: string;
   sailingYear?: number;
+  shipSlug?: string;
+  cruiseLineSlug?: string;
 }
 
 const hiddenGemSlugs = new Set([
@@ -215,6 +219,7 @@ function buildExcursionPick(
   travellerTypes: TravellerTypeId[],
   fitnessLevel: FitnessLevel,
   timeInPort: TimeInPort,
+  shipSlug?: string,
 ): { primary: FinderExcursionPick; alternate?: FinderExcursionPick; score: number } {
   const port = getPortBySlug(portSlug);
   if (!port) {
@@ -285,7 +290,35 @@ function buildExcursionPick(
       }
     : undefined;
 
-  return { primary, alternate: altPick, score: best?.score ?? 0.6 };
+  let score = best?.score ?? 0.6;
+  const ship = shipSlug ? getShipBySlug(shipSlug) : undefined;
+  if (ship) {
+    const shipRec = ship.recommendedExcursions.find((rec) => rec.portSlug === portSlug);
+    if (shipRec) {
+      score += 0.12;
+      if (primary.name !== shipRec.name) {
+        primary = {
+          name: shipRec.name,
+          description: shipRec.description,
+          duration: primary.duration,
+          type: primary.type,
+          rating: primary.rating,
+          matchReason: `Recommended for ${ship.name} passengers`,
+        };
+      } else {
+        primary = {
+          ...primary,
+          matchReason: `Recommended for ${ship.name} passengers`,
+        };
+      }
+    }
+    const portRank = ship.commonPortSlugs.indexOf(portSlug);
+    if (portRank >= 0) {
+      score += Math.max(0.04, 0.14 - portRank * 0.025);
+    }
+  }
+
+  return { primary, alternate: altPick, score };
 }
 
 function getReturnConfidence(
@@ -390,9 +423,20 @@ export function buildMatchReasons(options: {
   excursion: FinderExcursionPick;
   returnConfidence: ReturnConfidence;
   rawScore: number;
+  shipSlug?: string;
+  cruiseLineSlug?: string;
 }): string[] {
-  const { portSlug, travellerTypes, fitnessLevel, timeInPort, excursion, returnConfidence, rawScore } =
-    options;
+  const {
+    portSlug,
+    travellerTypes,
+    fitnessLevel,
+    timeInPort,
+    excursion,
+    returnConfidence,
+    rawScore,
+    shipSlug,
+    cruiseLineSlug,
+  } = options;
   const port = getPortBySlug(portSlug);
   const snapshot = getPortPlanningSnapshot(portSlug);
   const haystack = `${excursion.name} ${excursion.description} ${excursion.type}`.toLowerCase();
@@ -404,6 +448,18 @@ export function buildMatchReasons(options: {
     seen.add(reason);
     reasons.push(reason);
   };
+
+  if (shipSlug) {
+    const ship = getShipBySlug(shipSlug);
+    if (ship?.commonPortSlugs.includes(portSlug)) {
+      add(`Typical ${ship.name} Caribbean port stop`);
+    }
+  } else if (cruiseLineSlug) {
+    const line = getCruiseLineBySlug(cruiseLineSlug);
+    if (line?.popularPorts.some((entry) => entry.slug === portSlug)) {
+      add(`Common ${line.name} Caribbean itinerary port`);
+    }
+  }
 
   for (const traveller of travellerTypes) {
     if (traveller === "families" && (isFamilyFriendly(snapshot) || /family|beach|park|lagoon/.test(haystack))) {
@@ -503,6 +559,9 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
     return null;
   }
 
+  const ship = input.shipSlug ? getShipBySlug(input.shipSlug) : undefined;
+  const itineraryOrder = ship?.commonPortSlugs ?? [];
+
   const portPlans = uniquePorts
     .map((portSlug) => {
       const port = getPortBySlug(portSlug)!;
@@ -511,6 +570,7 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
         input.travellerTypes,
         input.fitnessLevel,
         input.timeInPort,
+        input.shipSlug,
       );
       const returnInfo = getReturnConfidence(portSlug, pick.primary.duration, input.timeInPort);
       const normalizedScore = normalizeExcursionScore(pick.score);
@@ -536,6 +596,8 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
           excursion: pick.primary,
           returnConfidence: returnInfo.confidence,
           rawScore: pick.score,
+          shipSlug: input.shipSlug,
+          cruiseLineSlug: input.cruiseLineSlug,
         }),
         returnConfidence: returnInfo.confidence,
         returnLabel: returnInfo.label,
@@ -547,12 +609,20 @@ export function generateExcursionFinderPlan(input: ExcursionFinderInput): Excurs
         scheduleHref: scheduleCta?.href,
         scheduleFallbackNote: scheduleCta?.fallbackNote,
         rawScore: pick.score,
+        itineraryRank: itineraryOrder.indexOf(portSlug),
         portMatchScore: normalizedScore,
         portMatchLabel: getMatchTier(normalizedScore),
       };
     })
-    .sort((a, b) => b.rawScore - a.rawScore)
-    .map(({ rawScore: _rawScore, ...plan }) => plan);
+    .sort((a, b) => {
+      if (itineraryOrder.length > 0) {
+        const aRank = a.itineraryRank >= 0 ? a.itineraryRank : 999;
+        const bRank = b.itineraryRank >= 0 ? b.itineraryRank : 999;
+        if (aRank !== bRank) return aRank - bRank;
+      }
+      return b.rawScore - a.rawScore;
+    })
+    .map(({ rawScore: _rawScore, itineraryRank: _itineraryRank, ...plan }) => plan);
 
   const avgPortScore =
     portPlans.reduce((sum, plan) => sum + plan.portMatchScore, 0) / portPlans.length;

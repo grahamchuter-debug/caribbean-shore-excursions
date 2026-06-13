@@ -10,6 +10,7 @@ import { SCHEDULE_FAQS, SCHEDULE_PLANNING_TIPS } from "./schedule-content";
 import stThomasSchedule from "./imported-schedules/st-thomas.json";
 import ochoRiosSchedule from "./imported-schedules/ocho-rios.json";
 import tortolaSchedule from "./imported-schedules/tortola.json";
+import stKittsSchedule from "./imported-schedules/st-kitts.json";
 
 export const TOP_SCHEDULE_PORT_SLUGS = [
   "st-thomas",
@@ -22,6 +23,7 @@ export const TOP_SCHEDULE_PORT_SLUGS = [
   "puerto-plata",
   "costa-maya",
   "ocho-rios",
+  "st-kitts",
   "puerto-limon",
 ] as const;
 
@@ -211,6 +213,24 @@ export const schedulePorts: ShipSchedulePort[] = [
     faqs: SCHEDULE_FAQS,
   },
   {
+    slug: "st-kitts",
+    name: "St. Kitts",
+    country: "St. Kitts & Nevis",
+    seoTitle: "St. Kitts Cruise Ship Schedule 2026 & 2027",
+    metaDescription:
+      "St. Kitts cruise ship schedule with verified 2026 and 2027 arrival and departure times at Basseterre. Plan Brimstone Hill, railway, and beach excursions around your port day.",
+    intro:
+      "This St. Kitts cruise ship schedule shows which vessels are expected at Basseterre and their published port times, helping you plan Brimstone Hill fortress visits, scenic railway tours, and beach excursions with safe return buffers.",
+    description:
+      "Eastern Caribbean port at Basseterre serving Southern Caribbean and multi-island itineraries.",
+    scheduleOverview:
+      "St. Kitts receives Eastern and Southern Caribbean traffic alongside St. Maarten and Tortola on many itineraries. Review monthly ship calls before booking railway tours or rainforest adventures on busy multi-ship days.",
+    relatedPortSlugs: ["st-maarten", "tortola", "st-thomas"],
+    excursionTypeSlugs: ["adventure-tours", "beaches", "private-tours", "family-tours"],
+    planningTips: [...SCHEDULE_PLANNING_TIPS],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
     slug: "tortola",
     name: "Tortola",
     country: "British Virgin Islands",
@@ -257,6 +277,7 @@ export const portSchedules: Record<string, ScheduleEntry[]> = {
   "st-thomas": stThomasSchedule as ScheduleEntry[],
   "ocho-rios": ochoRiosSchedule as ScheduleEntry[],
   tortola: tortolaSchedule as ScheduleEntry[],
+  "st-kitts": stKittsSchedule as ScheduleEntry[],
 };
 
 export function getSchedulePortBySlug(slug: string): ShipSchedulePort | undefined {

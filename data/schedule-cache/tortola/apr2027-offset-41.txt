@@ -1,0 +1,686 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Tortola, British Virgin Islands during April 2027 (21 Apr-30 Apr)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Tortola, British Virgin Islands during April 2027 Tortola, British Virgin Islands sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Tortola, British Virgin Islands during April 2027 (21 Apr-30 Apr)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-tortola-british-virgin-islands.html'>Cruises To Tortola, British Virgin Islands</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Tortola, British Virgin Islands during April 2027</h1>
+Showing 41 to 47 of total 47
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map-wide'>
+<img src='/automaps/s/sydney-noumea-hilo.gif' alt='Cruise itinerary map for MSC Cruises 52 Night World Cruise (147916)' title='Cruise itinerary map for MSC Cruises 52 Night World Cruise (147916)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info-wide'> <!-- Start cd-info-wide -->
+Arriving <b>Wed 21 Apr 2027</b><br>
+<b>52 Night World Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-magnifica.html'>MSC Magnifica</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=MA20270316SDYMRS&itineraryCode=UZOM">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 52 Night World Cruise at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$8109
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-sydney-australia.html'>Sydney, Australia</a>  (16 Mar d2000); 
+<a class=red href='cruises-to-noumea-new-caledonia.html'>Noumea, New Caledonia</a>  (19 Mar 0900-1800); 
+<a class=red href='cruises-to-luganville-vanuatu.html'>Luganville, Vanuatu</a>  (21 Mar 0800-1800); 
+<a class=red href='cruises-to-apia-western-samoa.html'>Apia, Western Samoa</a>  (25 Mar 0800-1800); 
+<a class=red href='cruises-to-pago-pago-american-samoa.html'>Pago Pago, American Samoa</a>  (25 Mar 0800-1800); 
+<a class=red href='cruises-to-honolulu-oahu-hawaii.html'>Honolulu (Oahu), Hawaii</a>  (31 Mar 0700-1800); 
+<a class=red href='cruises-to-hilo-hawaii.html'>Hilo, Hawaii</a>  (01 Apr 0800-1800); 
+<a class=red href='cruises-to-los-angeles-california.html'>Los Angeles, California</a>  (07 Apr 0800-1800); 
+<a class=red href='cruises-to-cabo-san-lucas-mexico.html'>Cabo San Lucas, Mexico</a>  (10 Apr 0700-1500); 
+<a class=red href='cruises-to-puntarenas-costa-rica.html'>Puntarenas, Costa Rica</a>  (14 Apr 1000-1800); 
+<a class=red href='cruises-to-panama-city-panama.html'>Panama City, Panama</a>  (16 Apr 0800-1800); 
+<a class=red href='cruises-to-panama-canal-cruising-canal.html'>Panama Canal (Cruising Canal)</a>  (17 Apr 0500-0515); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (20 Apr 0800-1700); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (21 Apr 0900-2000); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (22 Apr 0800-1800); 
+<a class=red href='cruises-to-gran-canaria-canary-islands.html'>Gran Canaria, Canary Islands</a>  (29 Apr 0800-1900); 
+<a class=red href='cruises-to-ibiza-spain.html'>Ibiza, Spain</a>  (02 May 1200-2000); 
+<a class=red href='cruises-to-naples-italy.html'>Naples, Italy</a>  (04 May 0800-1900); 
+<a class=red href='cruises-to-civitavecchia-rome-italy.html'>Civitavecchia (Rome), Italy</a>  (05 May 0800-1900); 
+<a class=red href='cruises-to-genoa-italy.html'>Genoa, Italy</a>  (06 May 0800-1800); 
+<a class=red href='cruises-to-marseille-france.html'>Marseille, France</a>  (07 May a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscmagnifica-16mar2027-07may2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map-wide'>
+<img src='/automaps/v/valparaiso-easterisl-papeete.gif' alt='Cruise itinerary map for MSC Cruises 86 Night World Cruise (147917)' title='Cruise itinerary map for MSC Cruises 86 Night World Cruise (147917)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info-wide'> <!-- Start cd-info-wide -->
+Arriving <b>Wed 21 Apr 2027</b><br>
+<b>86 Night World Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-magnifica.html'>MSC Magnifica</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=MA20270210VAPMRS&itineraryCode=UZOO">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 86 Night World Cruise at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$12309
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-valparaiso-chile.html'>Valparaiso, Chile</a>  (10 Feb d1800); 
+<a class=red href='cruises-to-easter-island-chile.html'>Easter Island, Chile</a>  (15 Feb 0700-1700); 
+<a class=red href='cruises-to-papeete-tahiti-french-polynesia.html'>Papeete, Tahiti, French Polynesia</a>  (21 Feb 0000(+1)1800); 
+<a class=red href='cruises-to-moorea-french-polynesia.html'>Moorea, French Polynesia</a>  (23 Feb 0800-1800); 
+<a class=red href='cruises-to-aitutaki-cook-islands.html'>Aitutaki, Cook Islands</a>  (25 Feb 0800-1900); 
+<a class=red href='cruises-to-rarotonga-cook-islands.html'>Rarotonga, Cook Islands</a>  (26 Feb 0800-1800); 
+<a class=red href='cruises-to-bay-of-islands-new-zealand.html'>Bay of Islands, New Zealand</a>  (04 Mar 0800-1800); 
+<a class=red href='cruises-to-auckland-new-zealand.html'>Auckland, New Zealand</a>  (05 Mar 0800-1800); 
+<a class=red href='cruises-to-tauranga-new-zealand.html'>Tauranga, New Zealand</a>  (06 Mar 0800-1800); 
+<a class=red href='cruises-to-christchurch-new-zealand.html'>Christchurch, New Zealand</a>  (08 Mar 0800-1800); 
+<a class=red href='cruises-to-dunedin-new-zealand.html'>Dunedin, New Zealand</a>  (09 Mar 0800-1600); 
+<a class=red href='cruises-to-fjordland-national-park-new-zealand.html'>Fjordland National Park, New Zealand</a>  (10 Mar 1300-1700); 
+<a class=red href='cruises-to-hobart-tasmania.html'>Hobart, Tasmania</a>  (12 Mar 0000(+1)1800); 
+<a class=red href='cruises-to-sydney-australia.html'>Sydney, Australia</a>  (15 Mar 0000(+1)2000); 
+<a class=red href='cruises-to-noumea-new-caledonia.html'>Noumea, New Caledonia</a>  (19 Mar 0900-1800); 
+<a class=red href='cruises-to-luganville-vanuatu.html'>Luganville, Vanuatu</a>  (21 Mar 0800-1800); 
+<a class=red href='cruises-to-apia-western-samoa.html'>Apia, Western Samoa</a>  (25 Mar 0800-1800); 
+<a class=red href='cruises-to-pago-pago-american-samoa.html'>Pago Pago, American Samoa</a>  (25 Mar 0800-1800); 
+<a class=red href='cruises-to-honolulu-oahu-hawaii.html'>Honolulu (Oahu), Hawaii</a>  (31 Mar 0700-1800); 
+<a class=red href='cruises-to-hilo-hawaii.html'>Hilo, Hawaii</a>  (01 Apr 0800-1800); 
+<a class=red href='cruises-to-los-angeles-california.html'>Los Angeles, California</a>  (07 Apr 0800-1800); 
+<a class=red href='cruises-to-cabo-san-lucas-mexico.html'>Cabo San Lucas, Mexico</a>  (10 Apr 0700-1500); 
+<a class=red href='cruises-to-puntarenas-costa-rica.html'>Puntarenas, Costa Rica</a>  (14 Apr 1000-1800); 
+<a class=red href='cruises-to-panama-city-panama.html'>Panama City, Panama</a>  (16 Apr 0800-1800); 
+<a class=red href='cruises-to-panama-canal-cruising-canal.html'>Panama Canal (Cruising Canal)</a>  (17 Apr 0500-0515); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (20 Apr 0800-1700); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (21 Apr 0900-2000); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (22 Apr 0800-1800); 
+<a class=red href='cruises-to-gran-canaria-canary-islands.html'>Gran Canaria, Canary Islands</a>  (29 Apr 0800-1900); 
+<a class=red href='cruises-to-ibiza-spain.html'>Ibiza, Spain</a>  (02 May 1200-2000); 
+<a class=red href='cruises-to-naples-italy.html'>Naples, Italy</a>  (04 May 0800-1900); 
+<a class=red href='cruises-to-civitavecchia-rome-italy.html'>Civitavecchia (Rome), Italy</a>  (05 May 0800-1900); 
+<a class=red href='cruises-to-genoa-italy.html'>Genoa, Italy</a>  (06 May 0800-1800); 
+<a class=red href='cruises-to-marseille-france.html'>Marseille, France</a>  (07 May a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscmagnifica-10feb2027-07may2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map-wide'>
+<img src='/automaps/v/valparaiso-easterisl.gif' alt='Cruise itinerary map for MSC Cruises 87 Night World Cruise (147918)' title='Cruise itinerary map for MSC Cruises 87 Night World Cruise (147918)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info-wide'> <!-- Start cd-info-wide -->
+Arriving <b>Wed 21 Apr 2027</b><br>
+<b>87 Night World Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-magnifica.html'>MSC Magnifica</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=MA20270210VAPTAR&itineraryCode=UZOT">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 87 Night World Cruise at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$22059
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-valparaiso-chile.html'>Valparaiso, Chile</a>  (10 Feb d1800); 
+<a class=red href='cruises-to-easter-island-chile.html'>Easter Island, Chile</a>  (15 Feb 0700-1700); 
+<a class=red href='cruises-to-papeete-tahiti-french-polynesia.html'>Papeete, Tahiti, French Polynesia</a>  (21 Feb 0000(+1)1800); 
+<a class=red href='cruises-to-moorea-french-polynesia.html'>Moorea, French Polynesia</a>  (23 Feb 0800-1800); 
+<a class=red href='cruises-to-aitutaki-cook-islands.html'>Aitutaki, Cook Islands</a>  (25 Feb 0800-1900); 
+<a class=red href='cruises-to-rarotonga-cook-islands.html'>Rarotonga, Cook Islands</a>  (26 Feb 0800-1800); 
+<a class=red href='cruises-to-bay-of-islands-new-zealand.html'>Bay of Islands, New Zealand</a>  (04 Mar 0800-1800); 
+<a class=red href='cruises-to-auckland-new-zealand.html'>Auckland, New Zealand</a>  (05 Mar 0800-1800); 
+<a class=red href='cruises-to-tauranga-new-zealand.html'>Tauranga, New Zealand</a>  (06 Mar 0800-1800); 
+<a class=red href='cruises-to-christchurch-new-zealand.html'>Christchurch, New Zealand</a>  (08 Mar 0800-1800); 
+<a class=red href='cruises-to-dunedin-new-zealand.html'>Dunedin, New Zealand</a>  (09 Mar 0800-1600); 
+<a class=red href='cruises-to-fjordland-national-park-new-zealand.html'>Fjordland National Park, New Zealand</a>  (10 Mar 1300-1700); 
+<a class=red href='cruises-to-hobart-tasmania.html'>Hobart, Tasmania</a>  (12 Mar 0000(+1)1800); 
+<a class=red href='cruises-to-sydney-australia.html'>Sydney, Australia</a>  (15 Mar 0000(+1)2000); 
+<a class=red href='cruises-to-noumea-new-caledonia.html'>Noumea, New Caledonia</a>  (19 Mar 0900-1800); 
+<a class=red href='cruises-to-luganville-vanuatu.html'>Luganville, Vanuatu</a>  (21 Mar 0800-1800); 
+<a class=red href='cruises-to-apia-western-samoa.html'>Apia, Western Samoa</a>  (25 Mar 0800-1800); 
+<a class=red href='cruises-to-pago-pago-american-samoa.html'>Pago Pago, American Samoa</a>  (25 Mar 0800-1800); 
+<a class=red href='cruises-to-honolulu-oahu-hawaii.html'>Honolulu (Oahu), Hawaii</a>  (31 Mar 0700-1800); 
+<a class=red href='cruises-to-hilo-hawaii.html'>Hilo, Hawaii</a>  (01 Apr 0800-1800); 
+<a class=red href='cruises-to-los-angeles-california.html'>Los Angeles, California</a>  (07 Apr 0800-1800); 
+<a class=red href='cruises-to-cabo-san-lucas-mexico.html'>Cabo San Lucas, Mexico</a>  (10 Apr 0700-1500); 
+<a class=red href='cruises-to-puntarenas-costa-rica.html'>Puntarenas, Costa Rica</a>  (14 Apr 1000-1800); 
+<a class=red href='cruises-to-panama-city-panama.html'>Panama City, Panama</a>  (16 Apr 0800-1800); 
+<a class=red href='cruises-to-panama-canal-cruising-canal.html'>Panama Canal (Cruising Canal)</a>  (17 Apr 0500-0515); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (20 Apr 0800-1700); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (21 Apr 0900-2000); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (22 Apr 0800-1800); 
+<a class=red href='cruises-to-gran-canaria-canary-islands.html'>Gran Canaria, Canary Islands</a>  (29 Apr 0800-1900); 
+<a class=red href='cruises-to-ibiza-spain.html'>Ibiza, Spain</a>  (02 May 1200-2000); 
+<a class=red href='cruises-to-naples-italy.html'>Naples, Italy</a>  (04 May 0800-1900); 
+<a class=red href='cruises-to-civitavecchia-rome-italy.html'>Civitavecchia (Rome), Italy</a>  (05 May 0800-1900); 
+<a class=red href='cruises-to-genoa-italy.html'>Genoa, Italy</a>  (06 May 0800-1800); 
+<a class=red href='cruises-to-marseille-france.html'>Marseille, France</a>  (07 May 0800-1800); 
+<a class=red href='cruises-to-tarragona-spain.html'>Tarragona, Spain</a>  (08 May a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscmagnifica-10feb2027-08may2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map-wide'>
+<img src='/automaps/s/sydney-noumea-honolulu.gif' alt='Cruise itinerary map for MSC Cruises 53 Night World Cruise (147919)' title='Cruise itinerary map for MSC Cruises 53 Night World Cruise (147919)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info-wide'> <!-- Start cd-info-wide -->
+Arriving <b>Wed 21 Apr 2027</b><br>
+<b>53 Night World Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-magnifica.html'>MSC Magnifica</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=MA20270316SDYTAR&itineraryCode=UZOS">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 53 Night World Cruise at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$8279
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-sydney-australia.html'>Sydney, Australia</a>  (16 Mar d2000); 
+<a class=red href='cruises-to-noumea-new-caledonia.html'>Noumea, New Caledonia</a>  (19 Mar 0900-1800); 
+<a class=red href='cruises-to-luganville-vanuatu.html'>Luganville, Vanuatu</a>  (21 Mar 0800-1800); 
+<a class=red href='cruises-to-apia-western-samoa.html'>Apia, Western Samoa</a>  (25 Mar 0800-1800); 
+<a class=red href='cruises-to-pago-pago-american-samoa.html'>Pago Pago, American Samoa</a>  (25 Mar 0800-1800); 
+<a class=red href='cruises-to-honolulu-oahu-hawaii.html'>Honolulu (Oahu), Hawaii</a>  (31 Mar 0700-1800); 
+<a class=red href='cruises-to-hilo-hawaii.html'>Hilo, Hawaii</a>  (01 Apr 0800-1800); 
+<a class=red href='cruises-to-los-angeles-california.html'>Los Angeles, California</a>  (07 Apr 0800-1800); 
+<a class=red href='cruises-to-cabo-san-lucas-mexico.html'>Cabo San Lucas, Mexico</a>  (10 Apr 0700-1500); 
+<a class=red href='cruises-to-puntarenas-costa-rica.html'>Puntarenas, Costa Rica</a>  (14 Apr 1000-1800); 
+<a class=red href='cruises-to-panama-city-panama.html'>Panama City, Panama</a>  (16 Apr 0800-1800); 
+<a class=red href='cruises-to-panama-canal-cruising-canal.html'>Panama Canal (Cruising Canal)</a>  (17 Apr 0500-0515); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (20 Apr 0800-1700); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (21 Apr 0900-2000); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (22 Apr 0800-1800); 
+<a class=red href='cruises-to-gran-canaria-canary-islands.html'>Gran Canaria, Canary Islands</a>  (29 Apr 0800-1900); 
+<a class=red href='cruises-to-ibiza-spain.html'>Ibiza, Spain</a>  (02 May 1200-2000); 
+<a class=red href='cruises-to-naples-italy.html'>Naples, Italy</a>  (04 May 0800-1900); 
+<a class=red href='cruises-to-civitavecchia-rome-italy.html'>Civitavecchia (Rome), Italy</a>  (05 May 0800-1900); 
+<a class=red href='cruises-to-genoa-italy.html'>Genoa, Italy</a>  (06 May 0800-1800); 
+<a class=red href='cruises-to-marseille-france.html'>Marseille, France</a>  (07 May 0800-1800); 
+<a class=red href='cruises-to-tarragona-spain.html'>Tarragona, Spain</a>  (08 May a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscmagnifica-16mar2027-08may2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-oranjestad-kralendijk.gif' alt='Cruise itinerary map for Regent Seven Seas Cruises 14 Night Caribbean Compass Miami To New York (134398)' title='Cruise itinerary map for Regent Seven Seas Cruises 14 Night Caribbean Compass Miami To New York (134398)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sun 25 Apr 2027</b><br>
+<b>14 Night Caribbean Compass Miami To New York</b><br>
+Ship 
+<a class=red href='/cruise-ship-seven-seas-mariner.html'>Seven Seas Mariner</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.rssc.com/cruises/MAR270415/summary?source=CruiseSearch&amp;sh=MAR&amp;pageNumber=1">
+<img class='noborder' src='/logos/regentsevenseascruises.gif' alt='More details for 14 Night Caribbean Compass Miami To New York at Regent Seven Seas Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Deluxe Veranda Suite H&nbsp;$23,398
+Deluxe Veranda Suite G&nbsp;$23,598
+Deluxe Veranda Suite F&nbsp;$23,798
+Concierge Suite E&nbsp;$24,598
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (15 Apr d1600); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (18 Apr 1000-1800); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (19 Apr 0700-1700); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (20 Apr 0700-1700); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (22 Apr 0700-1700); 
+<a class=red href='cruises-to-st-barthelemy.html'>St Barthelemy</a>  (23 Apr 0700-1700); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (24 Apr 0700-1700); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (25 Apr 0700-1600); 
+<a class=red href='cruises-to-new-york-city-new-york.html'>New York City, New York</a>  (29 Apr a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadssevenseasmariner-15apr2027-29apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-tortola.gif' alt='Cruise itinerary map for Disney Cruise Line 7 Night Eastern Caribbean Cruise From Port Canaveral (32669)' title='Cruise itinerary map for Disney Cruise Line 7 Night Eastern Caribbean Cruise From Port Canaveral (32669)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 27 Apr 2027</b><br>
+<b>7 Night Eastern Caribbean Cruise From Port Canaveral</b><br>
+Ship 
+<a class=red href='/cruise-ship-disney-treasure.html'>Disney Treasure</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://disneycruise.disney.go.com/cruises-destinations/list/WT0123/7-Night-Eastern-Caribbean-Cruise-from-Port-Canaveral/2027-04-24-Disney-Treasure/">
+<img class='noborder' src='/logos/disneycruiseline.gif' alt='More details for 7 Night Eastern Caribbean Cruise From Port Canaveral at Disney Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$4969
+Oceanview&nbsp;$5417
+Verandah&nbsp;$6201
+Concierge&nbsp;$13719
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (24 Apr d1545); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (27 Apr 0730-1745); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (28 Apr 0700-1500); 
+<a class=red href='cruises-to-castaway-cay-bahamas.html'>Castaway Cay, Bahamas</a>  (30 Apr 1000-1645); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (01 May a0730)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsdisneytreasure-24apr2027-01may2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/c/colon-stvincent.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 7 Night Colon To San Juan Cruise (142713)' title='Cruise itinerary map for Royal Caribbean Cruises 7 Night Colon To San Juan Cruise (142713)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 30 Apr 2027</b><br>
+<b>7 Night Colon To San Juan Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-grandeur-of-the-seas.html'>Grandeur Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/7-night-colon-to-san-juan-from-col&amp;atilde;&amp;sup3;n-on-grandeur//GR07R042?country=GBR&sail-date=2027-04-24&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 7 Night Colon To San Juan Cruise at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$595
+Outside&nbsp;$665
+Balcony&nbsp;$1118
+Deluxe&nbsp;$1368
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-colon-panama.html'>Colon, Panama</a>  (24 Apr d2000); 
+<a class=red href='cruises-to-st-vincent-st-vincent-and-the-grenadines.html'>St Vincent, St Vincent and the Grenadines</a>  (27 Apr 0800-1700); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (28 Apr 0800-1700); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (29 Apr 0800-1700); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (30 Apr 0800-1700); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (01 May a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsgrandeuroftheseas-24apr2027-01may2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingtortolabritishvirginislands-apr2027.html')">1-10</a>
+<a class='button' href="javascript:pageit('visitingtortolabritishvirginislands-apr2027.html?offset=11')">11-20</a>
+<a class='button' href="javascript:pageit('visitingtortolabritishvirginislands-apr2027.html?offset=21')">21-30</a>
+<a class='button' href="javascript:pageit('visitingtortolabritishvirginislands-apr2027.html?offset=31')">31-40</a>
+<b><a class='button' href="javascript:pageit('visitingtortolabritishvirginislands-apr2027.html?offset=41')">41-47</a>
+</b></div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingtortolabritishvirginislands-apr2027.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingtortolabritishvirginislands-apr2027.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Tortola, British Virgin Islands during April 2027 (21 Apr-30 Apr)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>
