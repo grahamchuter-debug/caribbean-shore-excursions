@@ -73,9 +73,9 @@ export default function CruisePlannerPage() {
             ]}
           />
 
-          <div className="mb-16 card-gradient border-2 border-caribbean-200">
-            <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">Recommended first step</p>
-            <h2 className="mt-2 font-display text-2xl font-bold text-gray-900">Caribbean Excursion Finder™</h2>
+          <div className="mb-16 card-feature">
+            <p className="section-eyebrow">Recommended first step</p>
+            <h2 className="mt-2 font-display text-2xl font-semibold text-gray-900">Caribbean Excursion Finder™</h2>
             <p className="mt-2 text-gray-700">
               Generate personalised shore excursion picks for every port on your itinerary, with Caribbean Cruise Match
               scores, return-to-ship confidence, and links to port guides and specialist operators.
@@ -85,9 +85,9 @@ export default function CruisePlannerPage() {
             </Link>
           </div>
 
-          <div className="mb-16 card-gradient border-2 border-violet-200 bg-gradient-to-br from-violet-50/80 to-white">
-            <p className="text-xs font-semibold uppercase tracking-wide text-violet-700">Printable port day planner</p>
-            <h2 className="mt-2 font-display text-2xl font-bold text-gray-900">Caribbean Cruise Day Plan</h2>
+          <div className="mb-16 card-feature">
+            <p className="section-eyebrow">Printable port day planner</p>
+            <h2 className="mt-2 font-display text-2xl font-semibold text-gray-900">Caribbean Cruise Day Plan</h2>
             <p className="mt-2 text-gray-700">
               Build a single-port day plan with excursion picks, passenger snapshot, schedule context, and
               return-to-ship advice — then save as PDF for your cruise binder.

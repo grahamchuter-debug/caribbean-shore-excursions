@@ -2,12 +2,11 @@ import Link from "next/link";
 import { SITE } from "@/lib/site";
 
 const planYourCruise = [
-  { href: "/cruise-planner", label: "Cruise Planner" },
-  { href: "/cruise-day-plan", label: "Cruise Day Plan" },
-  { href: "/ship-schedules", label: "Ship Schedules" },
-  { href: "/caribbean-excursion-finder", label: "Excursion Finder" },
-  { href: "/cruise-lines", label: "Cruise Lines" },
-  { href: "/ships", label: "Ships" },
+  { href: "/cruise-planner", label: "Plan your itinerary" },
+  { href: "/caribbean-excursion-finder", label: "Find shore excursions" },
+  { href: "/cruise-day-plan", label: "Build a port day plan" },
+  { href: "/ship-schedules", label: "Ship schedules" },
+  { href: "/ports", label: "Port guides" },
 ];
 
 const popularPorts = [
@@ -22,7 +21,7 @@ const popularPorts = [
 const cruiseLines = [
   { href: "/royal-caribbean-shore-excursions", label: "Royal Caribbean" },
   { href: "/carnival-shore-excursions", label: "Carnival" },
-  { href: "/norwegian-cruise-line-shore-excursions", label: "NCL" },
+  { href: "/norwegian-cruise-line-shore-excursions", label: "Norwegian" },
   { href: "/msc-shore-excursions", label: "MSC" },
   { href: "/celebrity-shore-excursions", label: "Celebrity" },
   { href: "/princess-shore-excursions", label: "Princess" },
@@ -33,7 +32,8 @@ const explore = [
   { href: "/western-caribbean-cruise-planner", label: "Western Caribbean" },
   { href: "/southern-caribbean-cruise-planner", label: "Southern Caribbean" },
   { href: "/abc-islands-cruise-planner", label: "ABC Islands" },
-  { href: "/cruise-planner#compare", label: "Comparison Guides" },
+  { href: "/bahamas-cruise-planner", label: "Bahamas" },
+  { href: "/compare/aruba-vs-curacao", label: "Compare destinations" },
 ];
 
 const legalLinks = [
@@ -46,7 +46,7 @@ const footerLinkClass =
   "inline-block text-[13px] leading-snug text-caribbean-100/70 transition-[color,opacity,transform] duration-300 ease-out hover:text-white/95 hover:translate-x-0.5";
 
 const columnHeadingClass =
-  "mb-3 text-[11px] font-semibold uppercase tracking-[0.12em] text-caribbean-300/90";
+  "mb-3 text-sm font-medium text-white/90";
 
 function FooterColumn({
   title,
@@ -93,7 +93,7 @@ export function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="relative mt-auto bg-[#032f4a] text-white">
+    <footer className="relative mt-auto bg-footer-depth text-white">
       {/* Gradient divider — soft glow band + dual accent lines */}
       <div className="relative" aria-hidden="true">
         <div className="absolute inset-x-0 -top-px h-8 bg-gradient-to-b from-turquoise/[0.06] to-transparent blur-sm" />
@@ -113,44 +113,44 @@ export function Footer() {
                   <div className="font-display text-[1.25rem] font-semibold leading-tight tracking-[-0.01em] text-white">
                     Caribbean Shore
                   </div>
-                  <div className="mt-0.5 text-[11px] font-medium uppercase tracking-[0.14em] text-caribbean-300/80">
+                  <div className="mt-0.5 text-xs font-medium tracking-wide text-caribbean-200/80">
                     Excursion Planner
                   </div>
                   <div className="mt-2 flex items-center gap-2">
                     <span className="h-px w-3 bg-gradient-to-r from-turquoise/60 to-transparent" />
-                    <span className="text-[11px] font-light tracking-[0.04em] text-caribbean-200/90">
-                      Plan smarter cruise days
+                    <span className="text-xs font-light text-caribbean-100/90">
+                      Caribbean cruise inspiration &amp; planning
                     </span>
                   </div>
                 </div>
               </Link>
 
-              <p className="mt-5 text-[13px] leading-[1.65] text-caribbean-100/60">
-                Independent port guides, ship schedules, and excursion recommendations for
-                Caribbean cruise passengers.
+              <p className="mt-5 text-sm leading-relaxed text-caribbean-100/70">
+                Independent port guides, ship schedules, and curated shore excursion ideas for
+                discerning Caribbean cruisers.
               </p>
             </div>
 
-            <FooterColumn title="Plan Your Cruise" links={planYourCruise} />
+            <FooterColumn title="Plan your cruise" links={planYourCruise} />
 
             <FooterColumn
-              title="Popular Ports"
+              title="Discover ports"
               links={popularPorts}
-              viewAll={{ href: "/ports", label: "View All Ports" }}
+              viewAll={{ href: "/ports", label: "All Caribbean ports" }}
             />
 
-            <FooterColumn title="Cruise Lines" links={cruiseLines} />
+            <FooterColumn title="By cruise line" links={cruiseLines} />
 
-            <FooterColumn title="Explore" links={explore} />
+            <FooterColumn title="Regions & routes" links={explore} />
           </div>
         </div>
       </div>
 
       <div className="border-t border-white/[0.06]">
         <div className="container-wide px-4 py-3.5 sm:px-6 sm:py-4 lg:px-8">
-          <p className="mx-auto max-w-2xl text-center text-[11px] leading-[1.7] tracking-[0.01em] text-caribbean-300/70 sm:text-left">
-            Independent cruise excursion planning guides. Always check your ship arrival and
-            departure times before booking.
+          <p className="mx-auto max-w-2xl text-center text-xs leading-relaxed text-caribbean-200/75 sm:text-left">
+            Your independent guide to Caribbean port days. Always confirm ship times before booking
+            shore excursions.
           </p>
         </div>
       </div>

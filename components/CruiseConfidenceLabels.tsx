@@ -24,7 +24,7 @@ export function CruiseConfidenceLabels({
           <span
             key={id}
             title={compact ? meta.description : undefined}
-            className="rounded-full border border-caribbean-200 bg-white px-2.5 py-1 text-xs font-medium text-caribbean-800"
+            className="rounded-full border border-gray-200/90 bg-white/95 px-3 py-1 text-xs font-medium text-gray-700 shadow-sm transition-colors duration-300 hover:border-caribbean-200"
           >
             {meta.label}
           </span>

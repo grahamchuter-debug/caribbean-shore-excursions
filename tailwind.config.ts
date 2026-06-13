@@ -39,9 +39,19 @@ const config: Config = {
       },
       backgroundImage: {
         "hero-gradient":
-          "linear-gradient(135deg, #0077b6 0%, #00b4d8 50%, #40e0d0 100%)",
+          "linear-gradient(135deg, #004770 0%, #0077b6 42%, #00b4d8 78%, #40e0d0 100%)",
         "card-gradient":
-          "linear-gradient(180deg, rgba(0,119,182,0.05) 0%, rgba(255,255,255,1) 100%)",
+          "linear-gradient(180deg, rgba(0,119,182,0.04) 0%, rgba(255,255,255,1) 55%)",
+        "card-shine":
+          "radial-gradient(ellipse at top right, rgba(64,224,208,0.08), transparent 55%)",
+        "footer-depth":
+          "linear-gradient(180deg, #043a5c 0%, #032f4a 40%, #021f33 100%)",
+      },
+      boxShadow: {
+        premium: "0 4px 24px -4px rgba(0, 71, 112, 0.12), 0 2px 8px -2px rgba(0, 0, 0, 0.06)",
+        "premium-hover":
+          "0 12px 40px -8px rgba(0, 71, 112, 0.18), 0 4px 16px -4px rgba(0, 0, 0, 0.08)",
+        editorial: "0 1px 2px rgba(0,0,0,0.04), 0 8px 24px -6px rgba(0, 71, 112, 0.1)",
       },
     },
   },

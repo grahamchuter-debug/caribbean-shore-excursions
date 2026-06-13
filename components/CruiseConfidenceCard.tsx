@@ -22,11 +22,11 @@ export function CruiseConfidenceCard({
   const styles = getCruiseConfidenceStyles(assessment.level);
 
   return (
-    <div className={`rounded-2xl border p-4 sm:p-5 ${styles.card} ${className}`}>
+    <div className={`rounded-2xl border p-5 shadow-editorial sm:p-6 ${styles.card} ${className}`}>
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-gray-500">{title}</p>
-          <p className={`mt-1 font-display text-lg font-bold ${styles.accent}`}>{assessment.title}</p>
+          <p className="text-xs font-medium text-gray-500">{title}</p>
+          <p className={`mt-1 font-display text-lg font-semibold ${styles.accent}`}>{assessment.title}</p>
         </div>
         <CruiseConfidenceBadge level={assessment.level} />
       </div>

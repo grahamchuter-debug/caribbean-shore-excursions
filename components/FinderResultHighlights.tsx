@@ -30,7 +30,7 @@ export function FinderResultHighlights({
             imageLabel: `${bestPort.name} cruise port`,
             href: `/ports/${bestPort.slug}`,
             details: [
-              { label: "Why it stands out", value: bestPort.whyItStandsOut },
+              { label: "Why we recommend it", value: bestPort.whyItStandsOut },
               { label: "Best excursion", value: bestPort.excursion },
               { label: "Cruise passenger fit", value: bestPort.cruisePassengerFit },
             ],

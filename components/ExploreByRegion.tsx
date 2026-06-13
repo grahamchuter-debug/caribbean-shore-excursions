@@ -62,10 +62,8 @@ function RegionCard({
 
   return (
     <article
-      className={`group relative flex h-full flex-col rounded-xl border bg-card-gradient shadow-sm transition-all hover:shadow-md ${
-        highlighted
-          ? "border-caribbean-400 ring-2 ring-caribbean-200 ring-offset-2"
-          : "border-caribbean-100 hover:border-caribbean-300"
+      className={`card-editorial group relative flex h-full flex-col ${
+        highlighted ? "ring-2 ring-caribbean-200 ring-offset-2" : ""
       } ${compact ? "p-4" : "p-5 sm:p-6"}`}
     >
       {showConnector && <RouteConnector />}
@@ -74,7 +72,7 @@ function RegionCard({
         <RegionBadge label={region.badge} />
         <div className="min-w-0 flex-1">
           <h3
-            className={`font-display font-bold text-gray-900 group-hover:text-caribbean-700 ${
+            className={`font-display font-semibold text-gray-900 transition-colors group-hover:text-caribbean-800 ${
               compact ? "text-base" : "text-lg"
             }`}
           >

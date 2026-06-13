@@ -28,32 +28,58 @@
     @apply mx-auto max-w-7xl;
   }
 
-  .btn-primary {
-    @apply inline-flex items-center justify-center rounded-lg bg-caribbean-700 px-6 py-3 text-sm font-semibold text-white shadow-md transition-all hover:bg-caribbean-800 hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-caribbean-500 focus:ring-offset-2;
-  }
-
-  .btn-secondary {
-    @apply inline-flex items-center justify-center rounded-lg border-2 border-caribbean-700 bg-white px-6 py-3 text-sm font-semibold text-caribbean-700 transition-all hover:bg-caribbean-50 focus:outline-none focus:ring-2 focus:ring-caribbean-500 focus:ring-offset-2;
-  }
-
-  .card {
-    @apply rounded-xl border border-gray-100 bg-white p-6 shadow-sm transition-shadow hover:shadow-md;
-  }
-
-  .card-gradient {
-    @apply rounded-xl border border-caribbean-100 bg-card-gradient p-6 shadow-sm transition-all hover:shadow-md hover:border-caribbean-200;
+  .section-eyebrow {
+    @apply text-sm font-medium tracking-wide text-caribbean-700;
   }
 
   .section-title {
-    @apply font-display text-3xl font-bold text-gray-900 sm:text-4xl;
+    @apply font-display text-3xl font-semibold leading-tight text-gray-900 sm:text-4xl lg:text-[2.75rem];
   }
 
   .section-subtitle {
-    @apply mt-3 max-w-2xl text-lg text-gray-600;
+    @apply mt-4 max-w-2xl text-base leading-relaxed text-gray-600 sm:text-lg;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-xl bg-caribbean-800 px-6 py-3.5 text-sm font-semibold text-white shadow-premium transition-all duration-300 ease-out hover:-translate-y-0.5 hover:bg-caribbean-900 hover:shadow-premium-hover focus:outline-none focus:ring-2 focus:ring-caribbean-500 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-xl border border-caribbean-200 bg-white px-6 py-3.5 text-sm font-semibold text-caribbean-800 shadow-sm transition-all duration-300 ease-out hover:-translate-y-0.5 hover:border-caribbean-300 hover:bg-caribbean-50/50 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-caribbean-500 focus:ring-offset-2;
+  }
+
+  .card {
+    @apply rounded-2xl border border-gray-100/90 bg-white p-6 shadow-editorial transition-all duration-300 ease-out hover:-translate-y-0.5 hover:border-caribbean-100 hover:shadow-premium-hover;
+  }
+
+  .card-gradient {
+    @apply relative overflow-hidden rounded-2xl border border-caribbean-100/80 bg-card-gradient p-6 shadow-editorial transition-all duration-300 ease-out hover:-translate-y-0.5 hover:border-caribbean-200/80 hover:shadow-premium-hover;
+  }
+
+  .card-gradient::before {
+    content: "";
+    @apply pointer-events-none absolute inset-0 bg-card-shine opacity-80;
+  }
+
+  .card-gradient > * {
+    @apply relative;
+  }
+
+  .card-editorial {
+    @apply overflow-hidden rounded-2xl border border-gray-100/90 bg-white shadow-editorial transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-premium-hover;
+  }
+
+  .card-feature {
+    @apply relative overflow-hidden rounded-2xl border border-caribbean-100/70 bg-white p-6 shadow-premium sm:p-8;
+  }
+
+  .card-feature::after {
+    content: "";
+    @apply pointer-events-none absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-caribbean-600 via-turquoise to-caribbean-400;
   }
 
   .prose-content {
-    @apply prose prose-lg max-w-none prose-headings:font-display prose-headings:text-gray-900 prose-a:text-caribbean-700 prose-a:no-underline hover:prose-a:underline;
+    @apply prose prose-lg max-w-none prose-headings:font-display prose-headings:font-semibold prose-headings:text-gray-900 prose-a:text-caribbean-700 prose-a:no-underline hover:prose-a:underline;
   }
 }
 

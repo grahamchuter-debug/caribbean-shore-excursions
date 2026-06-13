@@ -43,14 +43,15 @@ export default function ExcursionTypesPage() {
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {excursionTypes.map((type) => (
-              <Link key={type.slug} href={`/excursion-types/${type.slug}`} className="card-gradient group">
-                <h2 className="font-display text-xl font-bold text-gray-900 group-hover:text-caribbean-700">
+              <Link key={type.slug} href={`/excursion-types/${type.slug}`} className="card-editorial group block">
+                <h2 className="font-display text-xl font-semibold text-gray-900 transition-colors group-hover:text-caribbean-800">
                   {type.name}
                 </h2>
-                <p className="mt-2 text-sm text-gray-600">{type.tagline}</p>
-                <div className="mt-4 flex flex-wrap gap-1.5">
+                <p className="mt-3 text-sm leading-relaxed text-gray-600">{type.tagline}</p>
+                <p className="mt-4 text-xs font-medium text-gray-500">Best ports for this experience</p>
+                <div className="mt-2 flex flex-wrap gap-1.5">
                   {type.bestPorts.slice(0, 3).map((p) => (
-                    <span key={p.slug} className="rounded bg-caribbean-50 px-2 py-0.5 text-xs text-caribbean-700">
+                    <span key={p.slug} className="rounded-full border border-caribbean-100 bg-caribbean-50/60 px-2.5 py-0.5 text-xs text-caribbean-900">
                       {p.name}
                     </span>
                   ))}

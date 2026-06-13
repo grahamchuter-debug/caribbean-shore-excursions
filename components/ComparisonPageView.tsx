@@ -13,6 +13,7 @@ import { getClusterLinksForComparison } from "@/data/topic-clusters";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 import { hasShipSchedule } from "@/lib/routes";
 import { evaluatePortConfidence } from "@/lib/cruise-confidence";
+import { DestinationHeroBand } from "@/components/DestinationHeroBand";
 import { CruiseConfidenceCard } from "@/components/CruiseConfidenceCard";
 
 const CATEGORIES: { key: keyof Comparison; label: string }[] = [
@@ -78,47 +79,57 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
               Compare both destinations in depth below, then open each authority port guide or book
               directly with local excursion specialists.
             </p>
-            <div className="grid gap-4 sm:grid-cols-2">
-              <div className="card border-t-4 border-t-caribbean-500">
-                <h3 className="font-display text-lg font-bold text-caribbean-800 mb-3">{comp.portA}</h3>
-                <div className="flex flex-wrap gap-2">
-                  {portA && (
-                    <>
-                      <Link href={`/ports/${comp.portASlug}`} className="btn-primary text-xs">
-                        {comp.portA} Port Guide
-                      </Link>
-                      <a
-                        href={portA.specialistUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn-secondary text-xs"
-                      >
-                        {portA.specialistName}
-                      </a>
-                    </>
-                  )}
+            <div className="grid gap-5 sm:grid-cols-2">
+              {portA && (
+                <div className="card-editorial overflow-hidden">
+                  <DestinationHeroBand
+                    imageTheme={portA.imageTheme}
+                    imageAlt={portA.imageAlt}
+                    title={comp.portA}
+                    subtitle={portA.country}
+                    eyebrow="Port guide"
+                    heightClass="h-32"
+                  />
+                  <div className="flex flex-wrap gap-2 p-5">
+                    <Link href={`/ports/${comp.portASlug}`} className="btn-primary text-xs">
+                      {comp.portA} guide
+                    </Link>
+                    <a
+                      href={portA.specialistUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-secondary text-xs"
+                    >
+                      {portA.specialistName}
+                    </a>
+                  </div>
                 </div>
-              </div>
-              <div className="card border-t-4 border-t-tropical-mango">
-                <h3 className="font-display text-lg font-bold text-caribbean-800 mb-3">{comp.portB}</h3>
-                <div className="flex flex-wrap gap-2">
-                  {portB && (
-                    <>
-                      <Link href={`/ports/${comp.portBSlug}`} className="btn-primary text-xs">
-                        {comp.portB} Port Guide
-                      </Link>
-                      <a
-                        href={portB.specialistUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn-secondary text-xs"
-                      >
-                        {portB.specialistName}
-                      </a>
-                    </>
-                  )}
+              )}
+              {portB && (
+                <div className="card-editorial overflow-hidden">
+                  <DestinationHeroBand
+                    imageTheme={portB.imageTheme}
+                    imageAlt={portB.imageAlt}
+                    title={comp.portB}
+                    subtitle={portB.country}
+                    eyebrow="Port guide"
+                    heightClass="h-32"
+                  />
+                  <div className="flex flex-wrap gap-2 p-5">
+                    <Link href={`/ports/${comp.portBSlug}`} className="btn-primary text-xs">
+                      {comp.portB} guide
+                    </Link>
+                    <a
+                      href={portB.specialistUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn-secondary text-xs"
+                    >
+                      {portB.specialistName}
+                    </a>
+                  </div>
                 </div>
-              </div>
+              )}
             </div>
           </section>
 
@@ -129,14 +140,14 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
               <section key={key} className="mb-10">
                 <h2 className="section-title text-2xl sm:text-3xl mb-6">{label}</h2>
                 <div className="grid gap-6 sm:grid-cols-2">
-                  <div className="card border-t-4 border-t-caribbean-500">
-                    <h3 className="font-display text-lg font-bold text-caribbean-800 mb-3">
+                  <div className="card p-5 sm:p-6">
+                    <h3 className="font-display text-lg font-semibold text-gray-900 mb-3">
                       {comp.portA}
                     </h3>
                     <p className="text-gray-700 leading-relaxed">{category.portA}</p>
                   </div>
-                  <div className="card border-t-4 border-t-tropical-mango">
-                    <h3 className="font-display text-lg font-bold text-caribbean-800 mb-3">
+                  <div className="card p-5 sm:p-6">
+                    <h3 className="font-display text-lg font-semibold text-gray-900 mb-3">
                       {comp.portB}
                     </h3>
                     <p className="text-gray-700 leading-relaxed">{category.portB}</p>

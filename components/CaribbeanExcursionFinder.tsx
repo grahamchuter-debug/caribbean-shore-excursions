@@ -32,6 +32,7 @@ import { resolveItineraryPorts } from "@/lib/finder-itinerary-ports";
 import { CombinedCruisePlannerDownloadButton } from "@/components/CombinedCruisePlannerDownloadButton";
 import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadButton";
 import { MatchReasonsPanel } from "@/components/MatchReasonsPanel";
+import { HeroBackground } from "@/components/HeroBackground";
 import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
 
 type FinderVariant = "home" | "page";
@@ -420,25 +421,30 @@ export function CaribbeanExcursionFinder({
 
       {result && (
         <section id="caribbean-excursion-results" className="space-y-8">
-          <div className="overflow-hidden rounded-2xl border border-caribbean-200/80 bg-white shadow-lg">
-            <div className="bg-gradient-to-br from-caribbean-800 via-caribbean-700 to-caribbean-900 px-6 py-8 sm:px-8 sm:py-10">
-              <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-caribbean-100">
-                Your Caribbean cruise match
-              </p>
-              <div className="mt-4 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
-                <div>
-                  <span
-                    className={`inline-flex rounded-full px-3 py-1 text-sm font-semibold shadow-sm ${getMatchTierStyles(result.matchLabel)}`}
-                  >
-                    {result.matchLabel}
-                  </span>
-                  <p className="mt-4 font-display text-4xl font-bold text-white sm:text-5xl">
-                    {result.matchScore}
-                    <span className="text-2xl font-normal text-caribbean-100">/100</span>
-                  </p>
-                  <p className="mt-3 max-w-2xl text-base leading-relaxed text-caribbean-50">
-                    {result.summaryLine}
-                  </p>
+          <div className="card-editorial overflow-hidden">
+            <div className="relative overflow-hidden px-6 py-8 sm:px-8 sm:py-10">
+              <div className="absolute inset-0">
+                <HeroBackground />
+              </div>
+              <div className="relative">
+                <p className="text-sm font-medium text-caribbean-100">
+                  Your Caribbean cruise match
+                </p>
+                <div className="mt-4 flex flex-col gap-5 lg:flex-row lg:items-end lg:justify-between">
+                  <div>
+                    <span
+                      className={`inline-flex rounded-full px-3 py-1 text-sm font-semibold shadow-sm backdrop-blur-sm ${getMatchTierStyles(result.matchLabel)}`}
+                    >
+                      {result.matchLabel}
+                    </span>
+                    <p className="mt-4 font-display text-4xl font-semibold text-white sm:text-5xl">
+                      {result.matchScore}
+                      <span className="text-2xl font-normal text-caribbean-100">/100</span>
+                    </p>
+                    <p className="mt-3 max-w-2xl text-base leading-relaxed text-white/90">
+                      {result.summaryLine}
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -457,13 +463,11 @@ export function CaribbeanExcursionFinder({
             </div>
           </div>
 
-          <div className="overflow-hidden rounded-2xl border-2 border-caribbean-300 bg-gradient-to-br from-white via-caribbean-50/70 to-tropical-sand/25 p-6 shadow-md sm:p-8">
+          <div className="card-feature">
             <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
               <div className="max-w-xl">
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-caribbean-700">
-                  Your personalised guide
-                </p>
-                <h3 className="mt-2 font-display text-xl font-bold text-gray-900 sm:text-2xl">
+                <p className="section-eyebrow">Your personalised guide</p>
+                <h3 className="mt-2 font-display text-xl font-semibold text-gray-900 sm:text-2xl">
                   One PDF for your whole cruise
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-gray-600">

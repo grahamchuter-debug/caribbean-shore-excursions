@@ -24,6 +24,7 @@ import { ExploreByRegion } from "@/components/ExploreByRegion";
 import { HeroBackground } from "@/components/HeroBackground";
 import { PortSearch } from "@/components/PortSearch";
 import { FindMyCruiseShip } from "@/components/FindMyCruiseShip";
+import { TrustBadgeStrip } from "@/components/TrustBadge";
 
 export const metadata = buildMetadata({
   title: "Caribbean Shore Excursion Planner | Ports, Ship Schedules & Cruise Tours",
@@ -76,18 +77,21 @@ export default function HomePage() {
       />
 
       {/* Hero */}
-      <section className="relative overflow-hidden text-white py-20 sm:py-28">
+      <section className="relative overflow-hidden text-white py-24 sm:py-32">
         <HeroBackground />
         <div className="container-wide relative z-10 px-4 sm:px-6 lg:px-8">
-          <p className="text-caribbean-50 font-medium mb-4 tracking-wide uppercase text-sm drop-shadow-sm">
-            The Caribbean Shore Excursion Planner
+          <p className="section-eyebrow mb-5 text-caribbean-100 drop-shadow-sm">
+            Caribbean cruise planning authority
           </p>
-          <h1 className="font-display text-4xl font-bold sm:text-5xl lg:text-6xl max-w-4xl leading-tight drop-shadow-sm">
+          <h1 className="font-display text-4xl font-semibold leading-[1.1] sm:text-5xl lg:text-6xl max-w-4xl drop-shadow-md">
             Caribbean Shore Excursion Planner
           </h1>
-          <p className="mt-6 max-w-2xl text-lg text-caribbean-50 sm:text-xl leading-relaxed drop-shadow-sm">
-            Compare Caribbean cruise ports, discover top-rated excursions, view ship schedules and find the best shore excursions for your cruise.
+          <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/90 sm:text-lg drop-shadow-sm">
+            Compare Caribbean cruise ports, discover curated shore excursions, view ship schedules, and plan every port day with confidence.
           </p>
+          <div className="mt-8">
+            <TrustBadgeStrip variant="dark" />
+          </div>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link
               href="/ports"
@@ -115,8 +119,8 @@ export default function HomePage() {
       <section className="section-padding bg-white border-b border-caribbean-100">
         <div className="container-wide max-w-6xl">
           <div className="mb-8 text-center sm:text-left">
-            <p className="text-xs font-semibold uppercase tracking-[0.18em] text-caribbean-600">
-              Personalised recommendation engine
+            <p className="section-eyebrow">
+              Personalised shore excursion matching
             </p>
             <h2 className="section-title mt-2">Caribbean Excursion Finder™</h2>
             <p className="section-subtitle mx-auto sm:mx-0">

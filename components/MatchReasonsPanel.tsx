@@ -11,16 +11,14 @@ export function MatchReasonsPanel({ matchLabel, reasons, className = "" }: Match
 
   return (
     <div
-      className={`rounded-xl border border-caribbean-100 bg-caribbean-50/40 p-4 ${className}`}
+      className={`rounded-xl border border-gray-100 bg-white/80 p-5 shadow-sm ${className}`}
     >
-      <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-800">
-        Why this matches
-      </p>
-      <p className="mt-1 text-sm font-semibold text-gray-900">{matchLabel} because:</p>
-      <ul className="mt-3 space-y-2">
+      <p className="text-xs font-medium text-gray-500">Why we recommend it</p>
+      <p className="mt-1 text-sm font-medium text-gray-900">{matchLabel}</p>
+      <ul className="mt-3 space-y-2.5">
         {reasons.map((reason) => (
-          <li key={reason} className="flex items-start gap-2 text-sm text-gray-700">
-            <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-caribbean-600" aria-hidden="true" />
+          <li key={reason} className="flex items-start gap-2.5 text-sm leading-relaxed text-gray-700">
+            <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-caribbean-500" aria-hidden="true" />
             <span>{reason}</span>
           </li>
         ))}
