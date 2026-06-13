@@ -2,6 +2,7 @@ import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { SITE } from "@/lib/site";
 import { ports } from "@/data/ports";
+import { getPortGuideCount } from "@/data/content-inventory";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
@@ -15,6 +16,8 @@ export const metadata = buildMetadata({
 });
 
 export default function AboutPage() {
+  const portGuideCount = getPortGuideCount();
+
   return (
     <>
       <JsonLd
@@ -56,7 +59,7 @@ export default function AboutPage() {
             <h2 className="font-display text-2xl font-bold text-gray-900 mt-10">What We Offer</h2>
             <ul className="space-y-3">
               {[
-                "In-depth guides to 10+ Caribbean cruise ports and growing",
+                `In-depth guides to ${portGuideCount} Caribbean cruise ports and growing`,
                 "Head-to-head port comparisons to help you choose itineraries",
                 "Excursion type guides matched to the best Caribbean ports",
                 "Cruise line-specific Caribbean planning advice",

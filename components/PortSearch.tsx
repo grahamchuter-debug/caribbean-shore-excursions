@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { getBestScheduleUrl } from "@/lib/schedule-cta-url";
 import { getTopExcursionLabel, searchPorts } from "@/lib/port-search";
+import { getPortGuideCount } from "@/data/content-inventory";
 
 const DEBOUNCE_MS = 250;
 
@@ -140,7 +141,7 @@ export function PortSearch({
       >
         {hasQuery
           ? `${results.length} port${results.length === 1 ? "" : "s"} match “${debouncedQuery}”`
-          : "Search 19 authority ports by name, country, region, or popular excursions."}
+          : `Search ${getPortGuideCount()} authority ports by name, country, region, or popular excursions.`}
       </p>
 
       {hasQuery && (

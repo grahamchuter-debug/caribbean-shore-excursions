@@ -5,6 +5,7 @@ import { getShipsByCruiseLine } from "@/data/ships";
 import { CARIBBEAN_HUB_PORT_SLUGS } from "@/data/cruise-line-ports";
 import { getPortBySlug } from "@/data/ports";
 import { hasShipSchedule } from "@/lib/routes";
+import { getPortGuideCount } from "@/data/content-inventory";
 
 interface CruiseLinePlanningSectionsProps {
   line: CruiseLine;
@@ -262,7 +263,7 @@ export function CruiseLinePlanningSections({
           <div>
             <h3 className="font-semibold text-gray-900 mb-3">All Port Guides</h3>
             <Link href="/ports" className="text-sm text-caribbean-700 hover:underline">
-              Browse all 12 Caribbean port authority guides →
+              Browse all {getPortGuideCount()} Caribbean port authority guides →
             </Link>
           </div>
         </div>

@@ -7,7 +7,7 @@ import { cruiseTips } from "@/data/tips";
 import { comparisons } from "@/data/comparisons";
 import { getPortGuideCount } from "@/data/content-inventory";
 import { schedulePorts } from "@/data/schedules";
-import { featuredPortCards, HOMEPAGE_SCHEDULE_SLUGS, homepageFaqs } from "@/data/homepage";
+import { featuredPortCards, HOMEPAGE_SCHEDULE_SLUGS, getHomepageFaqs } from "@/data/homepage";
 import { bestGuides } from "@/data/best-guides";
 import { itineraryPlanners } from "@/data/itinerary-planners";
 import { regionalCruisePlanners } from "@/data/regional-cruise-planners";
@@ -54,6 +54,7 @@ export default function HomePage() {
     schedulePorts.find((p) => p.slug === slug)
   ).filter(Boolean);
 
+  const homepageFaqs = getHomepageFaqs();
   const breadcrumbs = [{ name: "Home", path: "/" }];
 
   return (

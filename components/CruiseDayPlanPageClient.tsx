@@ -12,6 +12,7 @@ import {
   type CruiseDayPlanInput,
 } from "@/lib/cruise-day-plan";
 import { downloadCruiseDayPlanPdf } from "@/lib/cruise-day-plan-pdf";
+import { getPortGuideCount } from "@/data/content-inventory";
 import type { FitnessLevel } from "@/data/excursion-finder";
 
 function isValidActivity(value: string | null): value is FitnessLevel {
@@ -90,7 +91,7 @@ function CruiseDayPlanPageInner() {
 
       {hasSubmitted && !plan && (
         <div className="mt-8 rounded-xl border border-rose-200 bg-rose-50 px-4 py-3 text-sm text-rose-900">
-          We couldn&apos;t build a plan for that port. Choose one of the 19 authority ports listed in the dropdown.
+          We couldn&apos;t build a plan for that port. Choose one of the {getPortGuideCount()} authority ports listed in the dropdown.
         </div>
       )}
 

@@ -4,6 +4,7 @@ import { getAllCruiseLineSlugs } from "./cruise-lines";
 import { getAllShipSlugs } from "./ships";
 import { itineraryPlanners } from "./itinerary-planners";
 import { regionalCruisePlanners } from "./regional-cruise-planners";
+import { caribbeanMapRegions } from "./caribbean-regions-map";
 import {
   getAllSchedulePortSlugs,
   getAllVerifiedMonthPageParams,
@@ -33,6 +34,16 @@ export function getPortGuideCount(): number {
   return getAllPortAuthoritySlugs().length;
 }
 
+/** Count ports with ship schedule hub pages (matches /ship-schedules/[slug] routes). */
+export function getSchedulePortCount(): number {
+  return getAllSchedulePortSlugs().length;
+}
+
+/** Count Caribbean map / explore-by-region cards. */
+export function getCaribbeanMapRegionCount(): number {
+  return caribbeanMapRegions.length;
+}
+
 /** Unique itinerary + regional cruise planner pages (no double-counting shared slugs). */
 export function getCruisePlannerPageCount(): number {
   const slugs = new Set([
@@ -43,7 +54,7 @@ export function getCruisePlannerPageCount(): number {
 }
 
 export function getContentInventory(): ContentInventory {
-  const shipSchedulePorts = getAllSchedulePortSlugs().length;
+  const shipSchedulePorts = getSchedulePortCount();
 
   return {
     portGuides: getPortGuideCount(),

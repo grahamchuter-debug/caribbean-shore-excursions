@@ -1,3 +1,4 @@
+import { getSchedulePortCount } from "./content-inventory";
 import {
   getAllSchedulePortSlugs,
   getScheduleForPortYear,
@@ -99,34 +100,39 @@ export function getPeakMonths(year: number, limit = 5): MonthlyCallStats[] {
   return [...getMonthlyCallTotals(year)].sort((a, b) => b.shipCalls - a.shipCalls).slice(0, limit);
 }
 
-export const busiestPorts2027Insights = {
-  intro:
-    "This page ranks Caribbean cruise ports using verified 2027 ship call data where available, with planning context for all ten ports we track. Passenger figures are estimates based on an average of 3,000 guests per call when cruise lines do not publish capacity.",
-  planningInsights: [
-    "St. Thomas leads verified 2027 call volume among imported schedules, making Magens Bay, St. John ferries, and downtown shopping busiest on multi-ship winter weeks.",
-    "Ocho Rios call counts are lower but spike in January through March, when Dunn's River Falls and Mystic Mountain excursions need early booking.",
-    "Cozumel, Nassau, and Grand Cayman typically rank among the busiest Caribbean ports industry-wide. Import those schedules next to compare exact call totals.",
-    "Tender ports like Grand Cayman add 30-60 minutes each way. Build excursion return times around published departure windows, not just arrival times.",
-    "Use monthly year schedules to spot quiet port days before booking private drivers, beach clubs, or small-group snorkel tours.",
-  ],
-  faqs: [
-    {
-      question: "Which Caribbean cruise port has the most ship calls in 2027?",
-      answer:
-        "Among verified schedules on this site, St. Thomas has the highest 2027 ship call count. Additional ports will rank here as monthly schedule imports are completed.",
-    },
-    {
-      question: "How are passenger estimates calculated?",
-      answer:
-        "When cruise lines do not publish capacity, we multiply verified ship calls by 3,000 guests as a conservative industry average. Treat these figures as planning estimates, not official port authority totals.",
-    },
-    {
-      question: "Why do some ports show zero verified calls?",
-      answer:
-        "Only ports with completed CSV imports display verified totals. Other top ten ports show placeholders until their monthly source data is imported.",
-    },
-  ],
-};
+export function getBusiestPorts2027Insights() {
+  const schedulePortCount = getSchedulePortCount();
+
+  return {
+    intro: `This page ranks Caribbean cruise ports using verified 2027 ship call data where available, with planning context for all ${schedulePortCount} ports we track. Passenger figures are estimates based on an average of 3,000 guests per call when cruise lines do not publish capacity.`,
+    planningInsights: [
+      "St. Thomas leads verified 2027 call volume among imported schedules, making Magens Bay, St. John ferries, and downtown shopping busiest on multi-ship winter weeks.",
+      "Ocho Rios call counts are lower but spike in January through March, when Dunn's River Falls and Mystic Mountain excursions need early booking.",
+      "Cozumel, Nassau, and Grand Cayman typically rank among the busiest Caribbean ports industry-wide. Import those schedules next to compare exact call totals.",
+      "Tender ports like Grand Cayman add 30-60 minutes each way. Build excursion return times around published departure windows, not just arrival times.",
+      "Use monthly year schedules to spot quiet port days before booking private drivers, beach clubs, or small-group snorkel tours.",
+    ],
+    faqs: [
+      {
+        question: "Which Caribbean cruise port has the most ship calls in 2027?",
+        answer:
+          "Among verified schedules on this site, St. Thomas has the highest 2027 ship call count. Additional ports will rank here as monthly schedule imports are completed.",
+      },
+      {
+        question: "How are passenger estimates calculated?",
+        answer:
+          "When cruise lines do not publish capacity, we multiply verified ship calls by 3,000 guests as a conservative industry average. Treat these figures as planning estimates, not official port authority totals.",
+      },
+      {
+        question: "Why do some ports show zero verified calls?",
+        answer: `Only ports with completed CSV imports display verified totals. Other tracked ports show placeholders until their monthly source data is imported.`,
+      },
+    ],
+  };
+}
+
+/** @deprecated Use getBusiestPorts2027Insights() for current inventory counts. */
+export const busiestPorts2027Insights = getBusiestPorts2027Insights();
 
 export const calendar2027Insights = {
   intro:

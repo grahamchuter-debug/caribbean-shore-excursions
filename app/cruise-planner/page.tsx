@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { ports } from "@/data/ports";
-import { getPortGuideCount } from "@/data/content-inventory";
+import { getPortGuideCount, getCaribbeanMapRegionCount } from "@/data/content-inventory";
 import { comparisons } from "@/data/comparisons";
 import { excursionTypes } from "@/data/excursion-types";
 import { cruiseLines } from "@/data/cruise-lines";
@@ -97,7 +97,7 @@ export default function CruisePlannerPage() {
           <div className="mb-16 -mx-4 rounded-2xl border border-caribbean-100 bg-caribbean-50/30 px-4 py-10 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
             <ExploreByRegion
               variant="compact"
-              subtitle="Ten Caribbean cruise regions with port lists, best-for taglines, and links to regional planners and port guides."
+              subtitle={`${getCaribbeanMapRegionCount()} Caribbean cruise regions with port lists, best-for taglines, and links to regional planners and port guides.`}
             />
           </div>
 

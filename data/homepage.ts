@@ -1,5 +1,7 @@
 import type { FeaturedPortCard } from "./types";
 import { getAllPortSlugs } from "./ports";
+import { schedulePorts } from "./schedules";
+import { getSchedulePortCount } from "./content-inventory";
 
 export const FEATURED_PORT_SLUGS = getAllPortSlugs();
 
@@ -133,20 +135,27 @@ export const HOMEPAGE_SCHEDULE_SLUGS = [
   "ocho-rios",
 ] as const;
 
-export const homepageFaqs = [
-  {
-    question: "What is the Caribbean Shore Excursion Planner?",
-    answer:
-      "The Caribbean Shore Excursion Planner is an independent authority hub for comparing Caribbean cruise ports, ship schedules, cruise lines, excursion types, and local specialist excursion websites. It helps cruise passengers plan better port days across the Caribbean.",
-  },
-  {
-    question: "Which Caribbean ports are best for shore excursions?",
-    answer:
-      "Top ports include Cozumel for reef snorkeling, St. Thomas for beaches, Aruba and Curaçao for ABC island variety, Grand Cayman for Stingray City, Nassau for Atlantis, Roatán for value snorkeling, Puerto Plata for waterfall adventures, Costa Maya for Mayan ruins, and Ocho Rios or Falmouth for Jamaica adventures.",
-  },
-  {
-    question: "How do I check cruise ship schedules for Caribbean ports?",
-    answer:
-      "Use our 2026 and 2027 ship schedule pages for all twelve major ports including St. Thomas, Cozumel, Aruba, Curaçao, Grand Cayman, Nassau, Roatán, Puerto Plata, St. Maarten, Costa Maya, Ocho Rios, and Falmouth. Knowing which ships are in port helps you avoid crowds and sold-out excursions.",
-  },
-];
+export function getHomepageFaqs() {
+  const schedulePortCount = getSchedulePortCount();
+  const schedulePortNames = schedulePorts.map((port) => port.name).join(", ");
+
+  return [
+    {
+      question: "What is the Caribbean Shore Excursion Planner?",
+      answer:
+        "The Caribbean Shore Excursion Planner is an independent authority hub for comparing Caribbean cruise ports, ship schedules, cruise lines, excursion types, and local specialist excursion websites. It helps cruise passengers plan better port days across the Caribbean.",
+    },
+    {
+      question: "Which Caribbean ports are best for shore excursions?",
+      answer:
+        "Top ports include Cozumel for reef snorkeling, St. Thomas for beaches, Aruba and Curaçao for ABC island variety, Grand Cayman for Stingray City, Nassau for Atlantis, Roatán for value snorkeling, Puerto Plata for waterfall adventures, Costa Maya for Mayan ruins, and Ocho Rios or Falmouth for Jamaica adventures.",
+    },
+    {
+      question: "How do I check cruise ship schedules for Caribbean ports?",
+      answer: `Use our 2026 and 2027 ship schedule pages for all ${schedulePortCount} major ports including ${schedulePortNames}. Knowing which ships are in port helps you avoid crowds and sold-out excursions.`,
+    },
+  ];
+}
+
+/** @deprecated Use getHomepageFaqs() for current inventory counts. */
+export const homepageFaqs = getHomepageFaqs();

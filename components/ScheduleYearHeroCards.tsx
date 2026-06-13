@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
 import { getScheduleYearHubContent } from "@/data/schedule-year-hubs";
 import { getVerifiedPortRankings } from "@/data/schedule-insights";
+import { getSchedulePortCount } from "@/data/content-inventory";
 import { yearHubPath } from "@/lib/schedule-utils";
 
 export function ScheduleYearHeroCards() {
@@ -29,7 +30,7 @@ export function ScheduleYearHeroCards() {
             <p className="mt-4 text-sm text-caribbean-100">
               {verifiedCount > 0
                 ? `${totalCalls.toLocaleString()} verified ship calls across ${verifiedCount} port${verifiedCount !== 1 ? "s" : ""}`
-                : "Ten ports tracked, imports rolling out by month"}
+                : `${getSchedulePortCount()} ports tracked, imports rolling out by month`}
             </p>
             <span className="mt-6 inline-flex items-center rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-caribbean-800 group-hover:bg-caribbean-50">
               Open {year} Caribbean schedules

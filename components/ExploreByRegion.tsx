@@ -127,7 +127,7 @@ export function ExploreByRegion({
   highlightRegionId,
   showHeader = true,
   heading = "Caribbean Cruise Map",
-  subtitle = "Explore ten cruise regions across the Caribbean — compare included ports, find the best fit for your travel style, and jump to regional planners.",
+  subtitle = `Explore ${caribbeanMapRegions.length} cruise regions across the Caribbean — compare included ports, find the best fit for your travel style, and jump to regional planners.`,
   variant = "default",
   className = "",
 }: ExploreByRegionProps) {

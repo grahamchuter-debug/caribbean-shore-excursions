@@ -2,11 +2,12 @@ import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { schedulePorts } from "@/data/schedules";
 import {
-  busiestPorts2027Insights,
+  getBusiestPorts2027Insights,
   ESTIMATED_PASSENGERS_PER_CALL,
   getAllPortYearStats,
   getVerifiedPortRankings,
 } from "@/data/schedule-insights";
+import { getSchedulePortCount } from "@/data/content-inventory";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
@@ -37,6 +38,8 @@ function formatPassengers(value: number | null): string {
 }
 
 export default function BusiestCaribbeanCruisePorts2027Page() {
+  const busiestPorts2027Insights = getBusiestPorts2027Insights();
+  const schedulePortCount = getSchedulePortCount();
   const allStats = getAllPortYearStats(YEAR);
   const verifiedRankings = getVerifiedPortRankings(YEAR);
   const breadcrumbs = [
@@ -124,7 +127,7 @@ export default function BusiestCaribbeanCruisePorts2027Page() {
           )}
 
           <section className="mb-12">
-            <h2 className="section-title text-2xl sm:text-3xl mb-4">All Top Ten Ports</h2>
+            <h2 className="section-title text-2xl sm:text-3xl mb-4">All {schedulePortCount} Tracked Ports</h2>
             <p className="text-sm text-gray-600 mb-4">
               Full port list we track. Ports without verified imports show call and passenger fields as pending.
             </p>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { schedulePorts } from "@/data/schedules";
+import { getSchedulePortCount } from "@/data/content-inventory";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ScheduleYearHeroCards } from "@/components/ScheduleYearHeroCards";
@@ -9,10 +10,14 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
 import { portHubPath } from "@/lib/schedule-utils";
 
+const SCHEDULE_PORT_COUNT = getSchedulePortCount();
+const NAMED_SCHEDULE_PORTS = 5;
+const MORE_SCHEDULE_PORTS = SCHEDULE_PORT_COUNT - NAMED_SCHEDULE_PORTS;
+
 export const metadata = buildMetadata({
   title: "Caribbean Cruise Ship Schedules",
   description:
-    "Choose your sailing year first: browse 2026 or 2027 Caribbean cruise ship schedules for St. Thomas, Cozumel, Aruba, Grand Cayman, Nassau, and seven more top ports.",
+    `Choose your sailing year first: browse 2026 or 2027 Caribbean cruise ship schedules for St. Thomas, Cozumel, Aruba, Grand Cayman, Nassau, and ${MORE_SCHEDULE_PORTS} more top ports.`,
   path: "/ship-schedules",
   keywords: [
     "cruise ship schedule 2026",
@@ -34,7 +39,7 @@ export default function ShipSchedulesPage() {
           webPageSchema({
             title: "Caribbean Cruise Ship Schedules",
             description:
-              "Year-first hub for 2026 and 2027 Caribbean cruise ship schedules across ten top ports.",
+              `Year-first hub for 2026 and 2027 Caribbean cruise ship schedules across ${SCHEDULE_PORT_COUNT} top ports.`,
             path: "/ship-schedules",
           }),
         ]}
