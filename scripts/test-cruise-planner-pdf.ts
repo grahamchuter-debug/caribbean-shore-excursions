@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { getCruiseLineBySlug } from "../data/cruise-lines";
 import { getShipBySlug } from "../data/ships";
 import { buildCombinedCruisePlannerFromFinderContext } from "../lib/cruise-day-plan";
-import { buildCombinedCruisePlannerPdfBlob } from "../lib/cruise-day-plan-pdf";
+import { buildCombinedCruisePlannerPdfBlobAsync } from "../lib/cruise-day-plan-pdf";
 import { loadPdfBrandAssetsFromDisk } from "../lib/pdf-brand-assets-server";
 import { resolveItineraryPorts } from "../lib/finder-itinerary-ports";
 
@@ -13,6 +13,7 @@ interface TestScenario {
 }
 
 const SCENARIOS: TestScenario[] = [
+  { label: "Regal Princess", shipSlug: "regal-princess" },
   { label: "MSC World America", shipSlug: "world-america" },
   { label: "Celebrity Ascent", shipSlug: "ascent" },
 ];
@@ -51,7 +52,7 @@ async function runScenario(scenario: TestScenario): Promise<string> {
     );
   }
 
-  const blob = buildCombinedCruisePlannerPdfBlob(combined, assets);
+  const blob = await buildCombinedCruisePlannerPdfBlobAsync(combined, assets);
   const buffer = Buffer.from(await blob.arrayBuffer());
 
   if (buffer.byteLength < 8000) {

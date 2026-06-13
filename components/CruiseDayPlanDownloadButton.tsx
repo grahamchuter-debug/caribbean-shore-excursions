@@ -7,6 +7,7 @@ import { downloadCruiseDayPlanPdf, printCruiseDayPlan } from "@/lib/cruise-day-p
 interface CruiseDayPlanDownloadButtonProps {
   plan: CruiseDayPlan;
   className?: string;
+  wrapperClassName?: string;
   label?: string;
   showPrintFallback?: boolean;
 }
@@ -14,6 +15,7 @@ interface CruiseDayPlanDownloadButtonProps {
 export function CruiseDayPlanDownloadButton({
   plan,
   className = "btn-primary",
+  wrapperClassName = "flex flex-col gap-2",
   label = "Download PDF",
   showPrintFallback = true,
 }: CruiseDayPlanDownloadButtonProps) {
@@ -32,7 +34,7 @@ export function CruiseDayPlanDownloadButton({
   };
 
   return (
-    <div className="flex flex-col gap-2">
+    <div className={wrapperClassName}>
       <button
         type="button"
         onClick={handleDownload}

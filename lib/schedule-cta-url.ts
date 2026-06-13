@@ -12,10 +12,10 @@ import {
 } from "@/lib/schedule-utils";
 
 export const SCHEDULE_MONTH_FALLBACK_NOTE =
-  "Full monthly schedule not available yet — view the main port schedule.";
+  "Cruise schedule information is updated regularly — open the port schedule hub for the latest monthly calls.";
 
 export const SCHEDULE_YEAR_FALLBACK_NOTE =
-  "Schedule year not available yet — view the main port schedule.";
+  "Cruise schedule information is updated regularly — view the live port schedule for current sailing dates.";
 
 export interface ScheduleCtaInput {
   portSlug: string;

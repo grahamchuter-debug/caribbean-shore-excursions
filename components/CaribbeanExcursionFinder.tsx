@@ -469,15 +469,24 @@ export function CaribbeanExcursionFinder({
             </div>
           </div>
 
-          <div className="rounded-2xl border border-caribbean-200 bg-caribbean-50/50 p-5">
-            <p className="text-sm font-semibold text-gray-900">Download your Caribbean cruise planner</p>
-            <p className="mt-1 text-xs text-gray-600">
-              Your premium personalised guide — one complete PDF for your whole itinerary, with individual port plans below.
-            </p>
-            {combinedPlanner && (
-              <div className="mt-4">
+          <div className="overflow-hidden rounded-2xl border-2 border-caribbean-300 bg-gradient-to-br from-white via-caribbean-50/70 to-tropical-sand/25 p-6 shadow-md sm:p-8">
+            <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+              <div className="max-w-xl">
+                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-caribbean-700">
+                  Your personalised guide
+                </p>
+                <h3 className="mt-2 font-display text-xl font-bold text-gray-900 sm:text-2xl">
+                  One PDF for your whole cruise
+                </h3>
+                <p className="mt-3 text-sm leading-relaxed text-gray-600">
+                  Includes all selected ports, recommended excursions, return-to-ship advice and schedule links in
+                  one guide.
+                </p>
+              </div>
+              {combinedPlanner && (
                 <CombinedCruisePlannerDownloadButton
                   planner={combinedPlanner}
+                  variant="premium"
                   leadMetadata={{
                     cruiseLineSlug: cruiseLineSlug || undefined,
                     cruiseLineName: finderCruiseLines.find((line) => line.slug === cruiseLineSlug)?.name,
@@ -487,33 +496,55 @@ export function CaribbeanExcursionFinder({
                     sailingYear: sailingYear === "" ? undefined : sailingYear,
                   }}
                 />
-              </div>
-            )}
-            <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-gray-500">
-              Individual port PDFs
-            </p>
-            <div className="mt-2 flex flex-wrap gap-2">
-              {result.portPlans.map((plan) => {
-                const dayPlanPdf = featuredFinderPortSlugs.includes(plan.portSlug)
-                  ? buildCruiseDayPlanFromFinderContext({
-                      portSlug: plan.portSlug,
-                      travellerTypes: selectedTravellers,
-                      fitnessLevel,
-                      sailingMonth: sailingMonth || undefined,
-                      sailingYear: sailingYear === "" ? undefined : sailingYear,
-                    })
-                  : null;
-                if (!dayPlanPdf) return null;
-                return (
-                  <CruiseDayPlanDownloadButton
-                    key={plan.portSlug}
-                    plan={dayPlanPdf}
-                    className="btn-secondary text-xs"
-                    label={`Download PDF · ${plan.portName}`}
-                  />
-                );
-              })}
+              )}
             </div>
+
+            <details className="group mt-6 border-t border-caribbean-200/90 pt-5">
+              <summary className="flex cursor-pointer list-none items-center justify-between gap-3 text-sm font-semibold text-gray-700 marker:content-none [&::-webkit-details-marker]:hidden">
+                <span>
+                  <span className="block text-base font-semibold text-gray-800">Need just one port?</span>
+                  <span className="mt-0.5 block text-xs font-normal text-gray-500">
+                    Download individual port guides below.
+                  </span>
+                </span>
+                <span
+                  className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-gray-200 bg-white text-gray-500 transition group-open:rotate-180"
+                  aria-hidden
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
+                    <path
+                      fillRule="evenodd"
+                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.94a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </span>
+              </summary>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {result.portPlans.map((plan) => {
+                  const dayPlanPdf = featuredFinderPortSlugs.includes(plan.portSlug)
+                    ? buildCruiseDayPlanFromFinderContext({
+                        portSlug: plan.portSlug,
+                        travellerTypes: selectedTravellers,
+                        fitnessLevel,
+                        sailingMonth: sailingMonth || undefined,
+                        sailingYear: sailingYear === "" ? undefined : sailingYear,
+                      })
+                    : null;
+                  if (!dayPlanPdf) return null;
+                  return (
+                    <CruiseDayPlanDownloadButton
+                      key={plan.portSlug}
+                      plan={dayPlanPdf}
+                      wrapperClassName="inline-flex flex-col items-start"
+                      className="inline-flex items-center rounded-lg border border-gray-200 bg-gray-50/90 px-3 py-2 text-xs font-medium text-gray-600 shadow-none transition hover:border-caribbean-200 hover:bg-white hover:text-caribbean-800"
+                      label={`${plan.portName} only`}
+                      showPrintFallback={false}
+                    />
+                  );
+                })}
+              </div>
+            </details>
           </div>
 
           <div className="space-y-4">

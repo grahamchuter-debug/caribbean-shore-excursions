@@ -3,7 +3,6 @@ import { getCruisePortNaming } from "@/data/cruise-port-naming";
 import {
   getPortPlanningSnapshot,
   getPortPlanningCards,
-  getPortActivityEstimate,
   getTypicalCruiseDay,
 } from "@/data/port-planning";
 import {
@@ -296,17 +295,15 @@ function buildScheduleMessage(
   hasVerified: boolean,
   dateEntries: ScheduleEntry[],
 ): string {
-  const activity = getPortActivityEstimate(portSlug);
-
   if (hasVerified && dateEntries.length > 0) {
-    return `Verified schedule data for ${formatScheduleDisplayDate(date)} at ${portName}. Arrival and departure times below are from imported port schedules.`;
+    return `Schedule snapshot for ${formatScheduleDisplayDate(date)} at ${portName}. Arrival and departure times below are from our imported port schedules.`;
   }
 
   if (hasVerified) {
-    return `We publish verified schedules for ${portName}, but no ships are listed on ${formatScheduleDisplayDate(date)} in our imported data. Check back as new months are added, or review the full schedule hub for nearby dates.`;
+    return `Cruise schedule information is updated regularly for ${portName}. No ships are listed for ${formatScheduleDisplayDate(date)} in the current import — view the live schedule page for nearby dates.`;
   }
 
-  return `${portName} schedule hub is live, but verified daily calls are not yet imported. ${activity.planningNote} Peak season: ${activity.peakSeason}.`;
+  return `Cruise schedule information is updated regularly. For the latest arrivals and departures, view the live schedule page for ${portName}.`;
 }
 
 function mapShipRows(entries: ScheduleEntry[]): CruiseDayPlanShipRow[] {
