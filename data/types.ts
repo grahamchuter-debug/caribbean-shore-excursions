@@ -36,6 +36,8 @@ export interface PortRelatedLink {
 
 export interface CruisePortNaming {
   dockTown: string;
+  /** Geographic qualifier for titles when dockTown repeats the port name (e.g. "Jamaica"). */
+  titleParenthetical?: string;
   alternativeNames: string[];
   terminals: string[];
   portGuideIntro: string;

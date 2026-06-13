@@ -187,6 +187,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
   },
   falmouth: {
     dockTown: "Falmouth",
+    titleParenthetical: "Jamaica",
     terminals: ["Historic Falmouth Pier"],
     alternativeNames: ["Falmouth Jamaica", "Jamaica north coast", "Trelawny"],
     portGuideIntro:
