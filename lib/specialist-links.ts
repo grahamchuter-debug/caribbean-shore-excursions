@@ -36,8 +36,15 @@ const SECTION_HINT_TO_SLUG: Record<string, string> = {
   family: "family-tours",
   private: "private-tours",
   wildlife: "adventure-tours",
+  culture: "adventure-tours",
   adventure: "adventure-tours",
   catamaran: "catamaran-cruises",
+};
+
+/** Excursion type slugs that map to a specialist category path. */
+const EXCURSION_TYPE_SPECIALIST_ALIASES: Record<string, string> = {
+  wildlife: "adventure-tours",
+  culture: "adventure-tours",
 };
 
 const TYPE_LABEL_PATTERNS: [RegExp, string][] = [
@@ -72,6 +79,8 @@ function inferFromText(text: string): string | undefined {
 
 export function resolveExcursionTypeSlug(input: SpecialistExcursionUrlInput = {}): string | undefined {
   if (input.excursionTypeSlug) {
+    const alias = EXCURSION_TYPE_SPECIALIST_ALIASES[input.excursionTypeSlug];
+    if (alias) return alias;
     const normalized = normalizeSlug(input.excursionTypeSlug);
     if (normalized) return normalized;
   }

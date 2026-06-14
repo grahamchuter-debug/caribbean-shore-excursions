@@ -71,6 +71,50 @@ function portAuthorityLink(slug: string, label?: string): ExcursionTypeLink {
   };
 }
 
+const CULTURE_PORT_PICKS: PortExcursionCategoryPick[] = [
+  {
+    portSlug: "costa-maya",
+    excursionName: "Chacchoben Mayan Ruins",
+    description: "Jungle pyramids with manageable coach time from the Costa Maya cruise village.",
+  },
+  {
+    portSlug: "progreso",
+    excursionName: "Mérida Colonial City Tour",
+    description: "Plazas, cathedral, and Yucatecan cuisine from Progreso's mainland gateway.",
+  },
+  {
+    portSlug: "curacao",
+    excursionName: "Willemstad Walking & Hato Caves",
+    description: "Pastel Dutch architecture paired with limestone cave geology.",
+  },
+  {
+    portSlug: "puerto-plata",
+    excursionName: "Teleférico & Victorian Highlights",
+    description: "Cable car ascent and Amber Coast heritage in one port day.",
+  },
+  {
+    portSlug: "falmouth",
+    excursionName: "Martha Brae River Rafting",
+    description: "Heritage bamboo rafting on Jamaica's scenic river corridor.",
+  },
+  {
+    portSlug: "cozumel",
+    excursionName: "Tulum Coastal Ruins",
+    description: "Clifftop Mayan ruins with Caribbean views via mainland transfer.",
+  },
+];
+
+const HERO_IMAGES: Record<string, { src: string; alt: string }> = {
+  beaches: { src: "/images/ports/aruba.png", alt: "White sand Caribbean beach with turquoise water" },
+  snorkeling: { src: "/images/ports/cozumel.png", alt: "Snorkeller above Caribbean reef" },
+  "family-tours": { src: "/images/ports/nassau.png", alt: "Family-friendly Caribbean port day" },
+  "private-tours": { src: "/images/ports/st-thomas.jpg", alt: "Private tour at Caribbean cruise port" },
+  "catamaran-cruises": { src: "/images/ports/st-maarten.png", alt: "Catamaran sailing Caribbean waters" },
+  "adventure-tours": { src: "/images/ports/ocho-rios.jpg", alt: "Caribbean waterfall adventure excursion" },
+  wildlife: { src: "/images/ports/grand-cayman.png", alt: "Caribbean marine wildlife encounter" },
+  culture: { src: "/images/ports/costa-maya.jpg", alt: "Mayan ruins and Caribbean culture tour" },
+};
+
 const ADVENTURE_PORT_PICKS: PortExcursionCategoryPick[] = [
   {
     portSlug: "ocho-rios",
@@ -179,6 +223,7 @@ type PathwayConfig = {
   extraAuthorityLinks?: ExcursionTypeLink[];
   extraBookingLinks?: ExcursionTypeLink[];
   categoryImageAlt: string;
+  heroImage?: { src: string; alt: string };
 };
 
 const PATHWAY_CONFIG: Record<string, PathwayConfig> = {
@@ -239,25 +284,50 @@ const PATHWAY_CONFIG: Record<string, PathwayConfig> = {
     ],
   },
   "adventure-tours": {
-    picks: [...ADVENTURE_PORT_PICKS, ...portExcursionAuthority.bestWildlifeExcursions.slice(0, 4)],
-    authoritySectionTitle: "Best Caribbean Ports For Adventure & Wildlife",
+    picks: ADVENTURE_PORT_PICKS,
+    authoritySectionTitle: "Best Caribbean Ports For Adventure Tours",
     authorityGuideSlug: "best-caribbean-wildlife-excursions",
-    specialistSectionTitle: "Adventure & Wildlife Excursion Sites",
+    specialistSectionTitle: "Adventure Excursion Specialist Sites",
     categoryImageAlt: "Caribbean rainforest waterfall adventure excursion",
     extraAuthorityLinks: [
       { href: "/jamaica-cruise-planner", label: "Jamaica cruise planner" },
       { href: "/dominican-republic-cruise-planner", label: "Dominican Republic cruise planner" },
-      {
-        href: "/best-shore-excursion-every-caribbean-port",
-        label: "Culture & sightseeing at every port",
-        description: "Mayan ruins, colonial cities, and heritage routes",
-      },
     ],
     extraBookingLinks: [
       {
         href: "/best-caribbean-shore-excursions",
         label: "Best Caribbean shore excursions hub",
         description: "Compare signature picks across every port",
+      },
+    ],
+  },
+  wildlife: {
+    picks: portExcursionAuthority.bestWildlifeExcursions,
+    authoritySectionTitle: "Best Caribbean Ports For Wildlife Excursions",
+    authorityGuideSlug: "best-caribbean-wildlife-excursions",
+    specialistSectionTitle: "Wildlife Excursion Specialist Sites",
+    categoryImageAlt: "Stingray and reef wildlife in Caribbean waters",
+    extraAuthorityLinks: [
+      { href: "/western-caribbean-cruise-planner", label: "Western Caribbean cruise planner" },
+      { href: "/jamaica-cruise-planner", label: "Jamaica cruise planner" },
+    ],
+  },
+  culture: {
+    picks: CULTURE_PORT_PICKS,
+    authoritySectionTitle: "Best Caribbean Ports For Culture & Sightseeing",
+    authorityGuideSlug: "best-shore-excursion-every-caribbean-port",
+    specialistSectionTitle: "Culture & Sightseeing Specialist Sites",
+    categoryImageAlt: "Colonial architecture and Mayan heritage in the Caribbean",
+    extraAuthorityLinks: [
+      { href: "/mexican-caribbean-cruise-planner", label: "Mexican Caribbean cruise planner" },
+      { href: "/southern-caribbean-cruise-planner", label: "Southern Caribbean cruise planner" },
+      { href: "/jamaica-cruise-planner", label: "Jamaica cruise planner" },
+    ],
+    extraBookingLinks: [
+      {
+        href: "/best-caribbean-shore-excursions",
+        label: "Best excursion at every port",
+        description: "Culture and heritage highlights across all nineteen ports",
       },
     ],
   },
@@ -331,11 +401,11 @@ export function enrichExcursionType(base: ExcursionType): ExcursionType {
     specialistSectionTitle: config.specialistSectionTitle,
     specialistSites,
     bookingPathways,
-    heroImage: base.heroImage ?? {
+    heroImage: base.heroImage ?? config.heroImage ?? HERO_IMAGES[base.slug] ?? {
       src: "/images/caribbean-cruise-hero.png",
       alt: `${base.name} in the Caribbean`,
     },
-    categoryImage: base.categoryImage ?? {
+    categoryImage: base.categoryImage ?? config.heroImage ?? HERO_IMAGES[base.slug] ?? {
       src: "/images/caribbean-cruise-hero.png",
       alt: config.categoryImageAlt,
     },
@@ -393,14 +463,5 @@ export function auditExcursionTypes(): ExcursionTypeAuditRow[] {
   });
 }
 
-/** Pages mentioned in audits that do not exist as excursion-type routes */
-export const NON_EXISTENT_EXCURSION_TYPE_PAGES = [
-  {
-    label: "Culture",
-    note: "No /excursion-types/culture page. Culture routes appear under Adventure Tours and port guides (e.g. Progreso, Costa Maya, Puerto Plata).",
-  },
-  {
-    label: "Wildlife",
-    note: "No standalone /excursion-types/wildlife page. Wildlife pathways live under Adventure Tours and /best-caribbean-wildlife-excursions.",
-  },
-];
+/** Legacy note: wildlife and culture now have dedicated excursion-type routes. */
+export const NON_EXISTENT_EXCURSION_TYPE_PAGES: { label: string; note: string }[] = [];

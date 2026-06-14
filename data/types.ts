@@ -293,6 +293,12 @@ export interface ExcursionTypeImage {
   alt: string;
 }
 
+export interface ExcursionTypeSuitability {
+  family: string;
+  firstTimeCruisers: string;
+  mobility: string;
+}
+
 export interface ExcursionType {
   slug: string;
   name: string;
@@ -302,6 +308,8 @@ export interface ExcursionType {
   bestPorts: { slug: string; name: string; reason: string }[];
   tips: string[];
   faqs: FAQ[];
+  whyPassengersChoose?: string[];
+  suitability?: ExcursionTypeSuitability;
   /** Enriched in excursion-type-pathways.ts */
   recommendedByPort?: ExcursionTypePortRecommendation[];
   authoritySectionTitle?: string;
