@@ -1,0 +1,773 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Oranjestad, Aruba during October 2026 (20 Oct-22 Oct)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Oranjestad, Aruba during October 2026 Oranjestad, Aruba sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Oranjestad, Aruba during October 2026 (20 Oct-22 Oct)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-oranjestad-aruba.html'>Cruises To Oranjestad, Aruba</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Oranjestad, Aruba during October 2026</h1>
+Showing 21 to 30 of total 40
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-willemstad-kralendijk-1.gif' alt='Cruise itinerary map for Carnival Cruises 8 Night Southern Caribbean (64882)' title='Cruise itinerary map for Carnival Cruises 8 Night Southern Caribbean (64882)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 20 Oct 2026</b><br>
+<b>8 Night Southern Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-magic.html'>Carnival Magic</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/8-day-southern-caribbean-cruise/miami/magic/8-days/csx/?sailDate=10172026">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 8 Night Southern Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$610
+Oceanview&nbsp;$815
+Balcony&nbsp;$1155
+Suite&nbsp;$2555
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (17 Oct d1530); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (20 Oct 0900-2200); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (21 Oct 0900-2200); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (22 Oct 0800-1700); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (25 Oct a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalmagic-17oct2026-25oct2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/c/colon-cartagena-oranjestad.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 7 Night Southern Caribbean Cruise (124022)' title='Cruise itinerary map for Royal Caribbean Cruises 7 Night Southern Caribbean Cruise (124022)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 20 Oct 2026</b><br>
+<b>7 Night Southern Caribbean Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-grandeur-of-the-seas.html'>Grandeur Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/7-night-southern-caribbean-from-col&amp;atilde;&amp;sup3;n-on-grandeur//GR07D487?country=GBR&sail-date=2026-10-17&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 7 Night Southern Caribbean Cruise at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$906
+Outside&nbsp;$936
+Balcony&nbsp;$1296
+Deluxe&nbsp;$1316
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-colon-panama.html'>Colon, Panama</a>  (17 Oct d1600); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (18 Oct 0900-1800); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (20 Oct 0800-2300); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (21 Oct 0800-1800); 
+<a class=red href='cruises-from-colon-panama.html'>Colon, Panama</a>  (24 Oct a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsgrandeuroftheseas-17oct2026-24oct2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/c/cartagena-oranjestad.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 7 Night Southern Caribbean Cruise (124019)' title='Cruise itinerary map for Royal Caribbean Cruises 7 Night Southern Caribbean Cruise (124019)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 20 Oct 2026</b><br>
+<b>7 Night Southern Caribbean Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-grandeur-of-the-seas.html'>Grandeur Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/7-night-southern-caribbean-from-cartagena-on-grandeur//GR7IP220?country=GBR&sail-date=2026-10-18&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 7 Night Southern Caribbean Cruise at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$946
+Outside&nbsp;$967
+Balcony&nbsp;$1386
+Deluxe&nbsp;$1496
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-cartagena-colombia.html'>Cartagena, Colombia</a>  (18 Oct d1800); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (20 Oct 0800-2300); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (21 Oct 0800-1800); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (24 Oct 0700-1600); 
+<a class=red href='cruises-from-cartagena-colombia.html'>Cartagena, Colombia</a>  (25 Oct a0900)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsgrandeuroftheseas-18oct2026-25oct2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-willemstad-cococay.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 8 Night Southern Caribbean & Perfect Day (94621)' title='Cruise itinerary map for Royal Caribbean Cruises 8 Night Southern Caribbean & Perfect Day (94621)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 21 Oct 2026</b><br>
+<b>8 Night Southern Caribbean & Perfect Day</b><br>
+Ship 
+<a class=red href='/cruise-ship-allure-of-the-seas.html'>Allure Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/8-night-southern-caribbean-perfect-day-from-fort-lauderdale-on-allure//AL08D139?country=GBR&sail-date=2026-10-17&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 8 Night Southern Caribbean & Perfect Day at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$980
+Outside&nbsp;$1150
+Balcony&nbsp;$1132
+Deluxe&nbsp;$5665
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (17 Oct d1600); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (20 Oct 0800-1800); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (21 Oct 0800-2300); 
+<a class=red href='cruises-to-coco-cay-bahamas.html'>Coco Cay, Bahamas</a>  (24 Oct 0700-1700); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (25 Oct a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsallureoftheseas-17oct2026-25oct2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/seattle-vancouver-cabosanlucas.gif' alt='Cruise itinerary map for Holland America Line 21 Night Panama Canal (132076)' title='Cruise itinerary map for Holland America Line 21 Night Panama Canal (132076)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 21 Oct 2026</b><br>
+<b>21 Night Panama Canal</b><br>
+Ship 
+<a class=red href='/cruise-ship-eurodam.html'>Eurodam</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.hollandamerica.com/en/us/find-a-cruise/t6p21a/d674">
+<img class='noborder' src='/logos/hollandamericaline.gif' alt='More details for 21 Night Panama Canal at Holland America Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$2544
+Ocean View&nbsp;$2744
+Verandah&nbsp;$3744
+Signature Suite&nbsp;$6444
+Neptune Suite&nbsp;$8944
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-seattle-washington.html'>Seattle, Washington</a>  (03 Oct d1500); 
+<a class=red href='cruises-to-vancouver-canada.html'>Vancouver, Canada</a>  (04 Oct 0700-1500); 
+<a class=red href='cruises-to-santa-barbara-california.html'>Santa Barbara, California</a>  (07 Oct 0800-1700); 
+<a class=red href='cruises-to-san-diego-california.html'>San Diego, California</a>  (08 Oct 0700-1600); 
+<a class=red href='cruises-to-cabo-san-lucas-mexico.html'>Cabo San Lucas, Mexico</a>  (10 Oct 0900-1700); 
+<a class=red href='cruises-to-acajutia-el-salvador.html'>Acajutia, El Salvador</a>  (12 Oct 0800-1700); 
+<a class=red href='cruises-to-huatulco-mexico.html'>Huatulco, Mexico</a>  (13 Oct 0800-1700); 
+<a class=red href='cruises-to-puerto-chiapas-mexico.html'>Puerto Chiapas, Mexico</a>  (14 Oct 0800-1700); 
+<a class=red href='cruises-to-puerto-quetzal-guatemala.html'>Puerto Quetzal, Guatemala</a>  (15 Oct 0600-1800); 
+<a class=red href='cruises-to-puerto-caldera-costa-rica.html'>Puerto Caldera, Costa Rica</a>  (17 Oct 0800-1800); 
+<a class=red href='cruises-to-panama-canal-cruising-canal.html'>Panama Canal (Cruising Canal)</a>  (19 Oct); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (21 Oct 0800-1700); 
+<a class=red href='cruises-to-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (24 Oct a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadseurodam-03oct2026-24oct2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/v/vancouver-santabarbara-cabosanlucas.gif' alt='Cruise itinerary map for Holland America Line 20 Night Panama Canal (132077)' title='Cruise itinerary map for Holland America Line 20 Night Panama Canal (132077)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 21 Oct 2026</b><br>
+<b>20 Night Panama Canal</b><br>
+Ship 
+<a class=red href='/cruise-ship-eurodam.html'>Eurodam</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.hollandamerica.com/en/us/find-a-cruise/t6p20b/d674b">
+<img class='noborder' src='/logos/hollandamericaline.gif' alt='More details for 20 Night Panama Canal at Holland America Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$2379
+Ocean View&nbsp;$2579
+Verandah&nbsp;$3569
+Signature Suite&nbsp;$6239
+Neptune Suite&nbsp;$8699
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-vancouver-canada.html'>Vancouver, Canada</a>  (04 Oct d1500); 
+<a class=red href='cruises-to-santa-barbara-california.html'>Santa Barbara, California</a>  (07 Oct 0800-1700); 
+<a class=red href='cruises-to-san-diego-california.html'>San Diego, California</a>  (08 Oct 0700-1600); 
+<a class=red href='cruises-to-cabo-san-lucas-mexico.html'>Cabo San Lucas, Mexico</a>  (10 Oct 0900-1700); 
+<a class=red href='cruises-to-acajutia-el-salvador.html'>Acajutia, El Salvador</a>  (12 Oct 0800-1700); 
+<a class=red href='cruises-to-huatulco-mexico.html'>Huatulco, Mexico</a>  (13 Oct 0800-1700); 
+<a class=red href='cruises-to-puerto-chiapas-mexico.html'>Puerto Chiapas, Mexico</a>  (14 Oct 0800-1700); 
+<a class=red href='cruises-to-puerto-quetzal-guatemala.html'>Puerto Quetzal, Guatemala</a>  (15 Oct 0600-1800); 
+<a class=red href='cruises-to-puerto-caldera-costa-rica.html'>Puerto Caldera, Costa Rica</a>  (17 Oct 0800-1800); 
+<a class=red href='cruises-to-panama-canal-cruising-canal.html'>Panama Canal (Cruising Canal)</a>  (19 Oct); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (21 Oct 0800-1700); 
+<a class=red href='cruises-to-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (24 Oct a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadseurodam-04oct2026-24oct2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/sandiego-cabosanlucas-acajutla.gif' alt='Cruise itinerary map for Holland America Line 16 Night Panama Canal (132078)' title='Cruise itinerary map for Holland America Line 16 Night Panama Canal (132078)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 21 Oct 2026</b><br>
+<b>16 Night Panama Canal</b><br>
+Ship 
+<a class=red href='/cruise-ship-eurodam.html'>Eurodam</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.hollandamerica.com/en/us/find-a-cruise/t6p16a/d674d">
+<img class='noborder' src='/logos/hollandamericaline.gif' alt='More details for 16 Night Panama Canal at Holland America Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$2119
+Ocean View&nbsp;$2289
+Verandah&nbsp;$3199
+Signature Suite&nbsp;$5669
+Neptune Suite&nbsp;$7939
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-san-diego-california.html'>San Diego, California</a>  (08 Oct d1600); 
+<a class=red href='cruises-to-cabo-san-lucas-mexico.html'>Cabo San Lucas, Mexico</a>  (10 Oct 0900-1700); 
+<a class=red href='cruises-to-acajutia-el-salvador.html'>Acajutia, El Salvador</a>  (12 Oct 0800-1700); 
+<a class=red href='cruises-to-huatulco-mexico.html'>Huatulco, Mexico</a>  (13 Oct 0800-1700); 
+<a class=red href='cruises-to-puerto-chiapas-mexico.html'>Puerto Chiapas, Mexico</a>  (14 Oct 0800-1700); 
+<a class=red href='cruises-to-puerto-quetzal-guatemala.html'>Puerto Quetzal, Guatemala</a>  (15 Oct 0600-1800); 
+<a class=red href='cruises-to-puerto-caldera-costa-rica.html'>Puerto Caldera, Costa Rica</a>  (17 Oct 0800-1800); 
+<a class=red href='cruises-to-panama-canal-cruising-canal.html'>Panama Canal (Cruising Canal)</a>  (19 Oct); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (21 Oct 0800-1700); 
+<a class=red href='cruises-to-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (24 Oct a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadseurodam-08oct2026-24oct2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-oranjestad-nassau.gif' alt='Cruise itinerary map for Princess Cruises 12 Night Southern Caribbean Islander (130685)' title='Cruise itinerary map for Princess Cruises 12 Night Southern Caribbean Islander (130685)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 22 Oct 2026</b><br>
+<b>12 Night Southern Caribbean Islander</b><br>
+Ship 
+<a class=red href='/cruise-ship-caribbean-princess.html'>Caribbean Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=B636">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 12 Night Southern Caribbean Islander at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$874
+Balcony&nbsp;$1,699
+Mini-Suite&nbsp;$2,649
+Suite&nbsp;$2,999
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (18 Oct d1530); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (22 Oct 0900-2200); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (23 Oct 0800-2200); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (24 Oct 0700-1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (26 Oct 0900-1800); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (27 Oct 0700-1600); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (29 Oct 0800-1600); 
+<a class=red href='cruises-to-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (30 Oct a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscaribbeanprincess-18oct2026-30oct2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-halfmooncay-limon.gif' alt='Cruise itinerary map for Holland America Line 12 Night Panama Canal Discovery: Costa Rica & Greater Antilles (132450)' title='Cruise itinerary map for Holland America Line 12 Night Panama Canal Discovery: Costa Rica & Greater Antilles (132450)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 22 Oct 2026</b><br>
+<b>12 Night Panama Canal Discovery: Costa Rica & Greater Antilles</b><br>
+Ship 
+<a class=red href='/cruise-ship-nieuw-amsterdam.html'>Nieuw Amsterdam</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.hollandamerica.com/en/us/find-a-cruise/c6f12c/i672">
+<img class='noborder' src='/logos/hollandamericaline.gif' alt='More details for 12 Night Panama Canal Discovery: Costa Rica & Greater Antilles at Holland America Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$1419
+Ocean View&nbsp;$1469
+Verandah&nbsp;$2119
+Signature Suite&nbsp;$3919
+Neptune Suite&nbsp;$5419
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (18 Oct d1600); 
+<a class=red href='cruises-to-half-moon-cay-bahamas.html'>Half Moon Cay, Bahamas</a>  (19 Oct 0800-1700); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (22 Oct 0800-1700); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (24 Oct 0700-1400); 
+<a class=red href='cruises-to-panama-canal-cruising-canal.html'>Panama Canal (Cruising Canal)</a>  (25 Oct 0600-0700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (25 Oct 1700-2100); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (26 Oct 0730-1630); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (28 Oct 0700-1600); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (30 Oct a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnieuwamsterdam-18oct2026-30oct2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-halfmooncay-caborojo.gif' alt='Cruise itinerary map for Holland America Line 21 Night Panama Canal & Southern Caribbean: Abc Islands (132453)' title='Cruise itinerary map for Holland America Line 21 Night Panama Canal & Southern Caribbean: Abc Islands (132453)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 22 Oct 2026</b><br>
+<b>21 Night Panama Canal & Southern Caribbean: Abc Islands</b><br>
+Ship 
+<a class=red href='/cruise-ship-nieuw-amsterdam.html'>Nieuw Amsterdam</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.hollandamerica.com/en/us/find-a-cruise/c6f21g/i672a">
+<img class='noborder' src='/logos/hollandamericaline.gif' alt='More details for 21 Night Panama Canal & Southern Caribbean: Abc Islands at Holland America Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$2224
+Ocean View&nbsp;$2314
+Verandah&nbsp;$3084
+Signature Suite&nbsp;$5824
+Neptune Suite&nbsp;$8074
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (18 Oct d1600); 
+<a class=red href='cruises-to-half-moon-cay-bahamas.html'>Half Moon Cay, Bahamas</a>  (19 Oct 0800-1700); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (22 Oct 0800-1700); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (24 Oct 0700-1400); 
+<a class=red href='cruises-to-panama-canal-cruising-canal.html'>Panama Canal (Cruising Canal)</a>  (25 Oct 0600-0700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (25 Oct 1700-2100); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (26 Oct 0730-1630); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (28 Oct 0700-1600); 
+<a class=red href='cruises-to-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (30 Oct 0700-1600); 
+<a class=red href='cruises-to-cabo-rojo-dominican-republic.html'>Cabo Rojo, Dominican Republic</a>  (02 Nov 0800-1500); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (03 Nov 1200-2300); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (04 Nov 0800-1700); 
+<a class=red href='cruises-to-half-moon-cay-bahamas.html'>Half Moon Cay, Bahamas</a>  (07 Nov 0800-1500); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (08 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnieuwamsterdam-18oct2026-08nov2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingoranjestadaruba-oct2026.html')">1-10</a>
+<a class='button' href="javascript:pageit('visitingoranjestadaruba-oct2026.html?offset=11')">11-20</a>
+<b><a class='button' href="javascript:pageit('visitingoranjestadaruba-oct2026.html?offset=21')">21-30</a>
+</b><a class='button' href="javascript:pageit('visitingoranjestadaruba-oct2026.html?offset=31')">31-40</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingoranjestadaruba-oct2026.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingoranjestadaruba-oct2026.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Oranjestad, Aruba during October 2026 (20 Oct-22 Oct)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>

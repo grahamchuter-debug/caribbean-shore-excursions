@@ -1,0 +1,787 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Oranjestad, Aruba during November 2027 (26 Nov-30 Nov)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Oranjestad, Aruba during November 2027 Oranjestad, Aruba sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Oranjestad, Aruba during November 2027 (26 Nov-30 Nov)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-oranjestad-aruba.html'>Cruises To Oranjestad, Aruba</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Oranjestad, Aruba during November 2027</h1>
+Showing 51 to 60 of total 61
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-willemstad-smarta.gif' alt='Cruise itinerary map for Explora Journeys 10 Night A Journey of Caribbean Charm & Spectacular Natural Beauty (133215)' title='Cruise itinerary map for Explora Journeys 10 Night A Journey of Caribbean Charm & Spectacular Natural Beauty (133215)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 26 Nov 2027</b><br>
+<b>10 Night A Journey of Caribbean Charm & Spectacular Natural Beauty</b><br>
+Ship 
+<a class=red href='/cruise-ship-explora-ii.html'>Explora II</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.explorajourneys.com/us/en/destinations-globe/car/journeys/miamia-10-v8?id-journey=EP20271122MIAMIA&amp;id-offer=ejeb">
+<img class='noborder' src='/logos/explora-journeys.gif' alt='More details for 10 Night A Journey of Caribbean Charm & Spectacular Natural Beauty at Explora Journeys'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$5,730 per guest
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (22 Nov d1700); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (25 Nov 0900-2300); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (26 Nov 0800-1700); 
+<a class=red href='cruises-to-santa-marta-colombia.html'>Santa Marta, Colombia</a>  (27 Nov 0900-2100); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (28 Nov 0800-1900); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (30 Nov 0900-1600); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (02 Dec a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsexploraii-22nov2027-02dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/h/hamburg-cherbourg-arrecife.gif' alt='Cruise itinerary map for AIDA 27 Nacht Von Hamburg uber die Kanaren nach Barbados (139222)' title='Cruise itinerary map for AIDA 27 Nacht Von Hamburg uber die Kanaren nach Barbados (139222)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 27 Nov 2027</b><br>
+<b>27 Nacht Von Hamburg uber die Kanaren nach Barbados</b><br>
+Ship 
+<a class=red href='/cruise-ship-aidaprima.html'>AIDAprima</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://aida.de/finden/PR27271105/">
+<img class='noborder' src='/logos/aida.gif' alt='More details for 27 Nacht Von Hamburg uber die Kanaren nach Barbados at AIDA'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Innen&nbsp;EUR 3.375
+Meerblick&nbsp;EUR 4.005
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-hamburg-germany.html'>Hamburg, Germany</a>  (05 Nov d1800); 
+<a class=red href='cruises-to-cherbourg-france.html'>Cherbourg, France</a>  (07 Nov 0800-1800); 
+<a class=red href='cruises-to-la-coruna-spain.html'>La Coruna, Spain</a>  (09 Nov 0800-1800); 
+<a class=red href='cruises-to-porto-portugal.html'>Porto, Portugal</a>  (10 Nov 0900-1900); 
+<a class=red href='cruises-to-lisbon-portugal.html'>Lisbon, Portugal</a>  (11 Nov 0900-1900); 
+<a class=red href='cruises-to-arrecife-canary-islands.html'>Arrecife, Canary Islands</a>  (13 Nov 1130-2130); 
+<a class=red href='cruises-to-gran-canaria-canary-islands.html'>Gran Canaria, Canary Islands</a>  (14 Nov 0700-2100); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (21 Nov 1100-2100); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (22 Nov 0800-2000); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (23 Nov 0800-1700); 
+<a class=red href='cruises-to-samana-dominican-republic.html'>Samana, Dominican Republic</a>  (24 Nov 1100-2000); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (25 Nov 0800-2200); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (27 Nov 0900-2200); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (28 Nov 0800-2200); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (29 Nov 0800-1800); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (01 Dec 0800-1800); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (02 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsaidaprima-05nov2027-02dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/g/grancanaria-stjohns.gif' alt='Cruise itinerary map for AIDA 18 Nacht Von Gran Canaria uber Curacao nach Barbados (139224)' title='Cruise itinerary map for AIDA 18 Nacht Von Gran Canaria uber Curacao nach Barbados (139224)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 27 Nov 2027</b><br>
+<b>18 Nacht Von Gran Canaria uber Curacao nach Barbados</b><br>
+Ship 
+<a class=red href='/cruise-ship-aidaprima.html'>AIDAprima</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://aida.de/finden/PR18271114/">
+<img class='noborder' src='/logos/aida.gif' alt='More details for 18 Nacht Von Gran Canaria uber Curacao nach Barbados at AIDA'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Innen&nbsp;EUR 2.680
+Meerblick&nbsp;EUR 2.990
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-gran-canaria-canary-islands.html'>Gran Canaria, Canary Islands</a>  (14 Nov d2100); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (21 Nov 1100-2100); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (22 Nov 0800-2000); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (23 Nov 0800-1700); 
+<a class=red href='cruises-to-samana-dominican-republic.html'>Samana, Dominican Republic</a>  (24 Nov 1100-2000); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (25 Nov 0800-2200); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (27 Nov 0900-2200); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (28 Nov 0800-2200); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (29 Nov 0800-1800); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (01 Dec 0800-1800); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (02 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsaidaprima-14nov2027-02dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/l/laromana-oranjestad-stvincent.gif' alt='Cruise itinerary map for AIDA 14 Nacht Karibische Inseln ab Dominikanische Republik (97698)' title='Cruise itinerary map for AIDA 14 Nacht Karibische Inseln ab Dominikanische Republik (97698)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 27 Nov 2027</b><br>
+<b>14 Nacht Karibische Inseln ab Dominikanische Republik</b><br>
+Ship 
+<a class=red href='/cruise-ship-aidaprima.html'>AIDAprima</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://aida.de/finden/PR14271125/">
+<img class='noborder' src='/logos/aida.gif' alt='More details for 14 Nacht Karibische Inseln ab Dominikanische Republik at AIDA'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Innen&nbsp;EUR 2.545
+Meerblick&nbsp;EUR 2.805
+Suite&nbsp;EUR 6.120
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (25 Nov d2200); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (27 Nov 0900-2200); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (28 Nov 0800-2200); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (29 Nov 0800-1800); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (01 Dec 0800-1800); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (02 Dec 0700-2200); 
+<a class=red href='cruises-to-st-vincent-st-vincent-and-the-grenadines.html'>St Vincent, St Vincent and the Grenadines</a>  (03 Dec 0730-2030); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (04 Dec 0800-1800); 
+<a class=red href='cruises-to-roseau-dominica.html'>Roseau, Dominica</a>  (05 Dec 0800-2200); 
+<a class=red href='cruises-to-pointe-a-pitre-guadeloupe.html'>Pointe A Pitre, Guadeloupe</a>  (06 Dec 0730-1800); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (07 Dec 0800-1800); 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (09 Dec a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsaidaprima-25nov2027-09dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/l/laromana-willemstad-guadeloupe.gif' alt='Cruise itinerary map for AIDA 21 Nacht Karibische Insel-Rundreise (139237)' title='Cruise itinerary map for AIDA 21 Nacht Karibische Insel-Rundreise (139237)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 27 Nov 2027</b><br>
+<b>21 Nacht Karibische Insel-Rundreise</b><br>
+Ship 
+<a class=red href='/cruise-ship-aidaprima.html'>AIDAprima</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://aida.de/finden/PR21271125/">
+<img class='noborder' src='/logos/aida.gif' alt='More details for 21 Nacht Karibische Insel-Rundreise at AIDA'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Innen&nbsp;EUR 3.390
+Meerblick&nbsp;EUR 3.770
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (25 Nov d2200); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (27 Nov a0900); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (28 Nov a0800); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (29 Nov a0800); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (01 Dec a0800); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (02 Dec 0700-2200); 
+<a class=red href='cruises-to-st-vincent-st-vincent-and-the-grenadines.html'>St Vincent, St Vincent and the Grenadines</a>  (03 Dec 0730-2030); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (04 Dec 0800-1800); 
+<a class=red href='cruises-to-roseau-dominica.html'>Roseau, Dominica</a>  (05 Dec 0800-2200); 
+<a class=red href='cruises-to-pointe-a-pitre-guadeloupe.html'>Pointe A Pitre, Guadeloupe</a>  (06 Dec 0730-1800); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (07 Dec 0800-1800); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (09 Dec 0800-2200); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (11 Dec d1900); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (12 Dec d2200); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (13 Dec d1800); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (15 Dec d1800); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (16 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsaidaprima-25nov2027-16dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/h/hamburg-cherbourg-lacoruna.gif' alt='Cruise itinerary map for AIDA 34 Nacht Weltenbummler Karibische Inseln ab Hamburg (146017)' title='Cruise itinerary map for AIDA 34 Nacht Weltenbummler Karibische Inseln ab Hamburg (146017)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 27 Nov 2027</b><br>
+<b>34 Nacht Weltenbummler Karibische Inseln ab Hamburg</b><br>
+Ship 
+<a class=red href='/cruise-ship-aidaprima.html'>AIDAprima</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://aida.de/finden/PR34271105/">
+<img class='noborder' src='/logos/aida.gif' alt='More details for 34 Nacht Weltenbummler Karibische Inseln ab Hamburg at AIDA'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Innen&nbsp;EUR 5.370
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-hamburg-germany.html'>Hamburg, Germany</a>  (05 Nov d1800); 
+<a class=red href='cruises-to-cherbourg-france.html'>Cherbourg, France</a>  (07 Nov 0800-1800); 
+<a class=red href='cruises-to-la-coruna-spain.html'>La Coruna, Spain</a>  (09 Nov 0800-1800); 
+<a class=red href='cruises-to-porto-portugal.html'>Porto, Portugal</a>  (10 Nov 0900-1900); 
+<a class=red href='cruises-to-lisbon-portugal.html'>Lisbon, Portugal</a>  (11 Nov 0900-1900); 
+<a class=red href='cruises-to-arrecife-canary-islands.html'>Arrecife, Canary Islands</a>  (13 Nov 1130-2130); 
+<a class=red href='cruises-to-gran-canaria-canary-islands.html'>Gran Canaria, Canary Islands</a>  (14 Nov 0700-2100); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (21 Nov a1100); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (22 Nov 0800-2000); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (23 Nov 0800-1700); 
+<a class=red href='cruises-to-samana-dominican-republic.html'>Samana, Dominican Republic</a>  (24 Nov 1100-2000); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (25 Nov 0800-2200); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (27 Nov 0900-2200); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (28 Nov 0800-2200); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (29 Nov 0800-1800); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (01 Dec 0800-1800); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (02 Dec 0700-2200); 
+<a class=red href='cruises-to-st-vincent-st-vincent-and-the-grenadines.html'>St Vincent, St Vincent and the Grenadines</a>  (03 Dec 0730-2030); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (04 Dec 0800-1800); 
+<a class=red href='cruises-to-roseau-dominica.html'>Roseau, Dominica</a>  (05 Dec 0800-2200); 
+<a class=red href='cruises-to-pointe-a-pitre-guadeloupe.html'>Pointe A Pitre, Guadeloupe</a>  (06 Dec 0730-1800); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (07 Dec d1800); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (09 Dec a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsaidaprima-05nov2027-09dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-georgetown-stkitts.gif' alt='Cruise itinerary map for Celebrity Cruises 11 Night Best of Southern Caribbean (141484)' title='Cruise itinerary map for Celebrity Cruises 11 Night Best of Southern Caribbean (141484)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 27 Nov 2027</b><br>
+<b>11 Night Best of Southern Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-celebrity-eclipse.html'>Celebrity Eclipse</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.celebritycruises.com/gb/itinerary/11-night-best-of-southern-caribbean-from-fort-lauderdale-on-eclipse-EC11D100?sailDate=2027-11-23&amp;packageCode=EC11D100">
+<img class='noborder' src='/logos/celebritycruises.gif' alt='More details for 11 Night Best of Southern Caribbean at Celebrity Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1307
+Outside&nbsp;$1777
+Balcony&nbsp;$1813
+Deluxe&nbsp;$5563
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (23 Nov d1600); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (25 Nov 0700-1600); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (27 Nov 1030-2300); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (28 Nov 0800-1700); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (30 Nov 0800-1700); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (01 Dec 0800-1700); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (04 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscelebrityeclipse-23nov2027-04dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/l/laromana-sanjuan-tortola.gif' alt='Cruise itinerary map for TUI Cruises 14 Nachte - Karibische Inselwelten - Ab/Bis La Romana (146285)' title='Cruise itinerary map for TUI Cruises 14 Nachte - Karibische Inselwelten - Ab/Bis La Romana (146285)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sun 28 Nov 2027</b><br>
+<b>14 Nachte - Karibische Inselwelten - Ab/Bis La Romana</b><br>
+Ship 
+<a class=red href='/cruise-ship-mein-schiff-1.html'>Mein Schiff 1</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.meinschiff.com/de/trips/14-naechte-karibische-inselwelten-abbis-la-romana-MSE273839SEE">
+<img class='noborder' src='/logos/tuicruises.gif' alt='More details for 14 Nachte - Karibische Inselwelten - Ab/Bis La Romana at TUI Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+&nbsp;ab 1.549 EUR p.P.
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (17 Nov d1900); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (19 Nov 0730-2200); 
+<a class=red href='cruises-to-st-croix-us-virgin-islands.html'>St Croix, US Virgin Islands</a>  (20 Nov 0730-2200); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (21 Nov 0730-2200); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (22 Nov 0730-1900); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (24 Nov 0700-2200); 
+<a class=red href='cruises-to-catalina-island-dominican-republic.html'>Catalina Island, Dominican Republic</a>  (25 Nov 0700-1800); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (27 Nov 0730-1900); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (28 Nov 0730-1900); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (29 Nov 0730-2200); 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (01 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmeinschiff1-17nov2027-01dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/l/laromana-kralendijk-sanjuan.gif' alt='Cruise itinerary map for TUI Cruises 14 Nachte - Karibische Inselwelten - Ab/Bis La Romana (146288)' title='Cruise itinerary map for TUI Cruises 14 Nachte - Karibische Inselwelten - Ab/Bis La Romana (146288)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sun 28 Nov 2027</b><br>
+<b>14 Nachte - Karibische Inselwelten - Ab/Bis La Romana</b><br>
+Ship 
+<a class=red href='/cruise-ship-mein-schiff-1.html'>Mein Schiff 1</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.meinschiff.com/de/trips/14-naechte-karibische-inselwelten-abbis-la-romana-MSE273940SEE">
+<img class='noborder' src='/logos/tuicruises.gif' alt='More details for 14 Nachte - Karibische Inselwelten - Ab/Bis La Romana at TUI Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+&nbsp;ab 1.499 EUR p.P.
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (24 Nov d2200); 
+<a class=red href='cruises-to-catalina-island-dominican-republic.html'>Catalina Island, Dominican Republic</a>  (25 Nov 0700-1800); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (27 Nov 0730-1900); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (28 Nov 0730-1900); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (29 Nov 0730-2200); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (01 Dec 0700-1900); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (03 Dec 0730-2200); 
+<a class=red href='cruises-to-st-croix-us-virgin-islands.html'>St Croix, US Virgin Islands</a>  (04 Dec 0730-2200); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (05 Dec 0730-2200); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (06 Dec 0730-1900); 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (08 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmeinschiff1-24nov2027-08dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-oranjestad.gif' alt='Cruise itinerary map for Carnival Cruises 8 Night Southern Caribbean (145726)' title='Cruise itinerary map for Carnival Cruises 8 Night Southern Caribbean (145726)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 30 Nov 2027</b><br>
+<b>8 Night Southern Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-venezia.html'>Carnival Venezia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/8-day-southern-caribbean-cruise/miami/venezia/8-days/czt/?sailDate=11272027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 8 Night Southern Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$649
+Oceanview&nbsp;$849
+Balcony&nbsp;$1109
+Suite&nbsp;$2489
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (27 Nov d1530); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (30 Nov 0900-2200); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (01 Dec 0800-1700); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (03 Dec 0800-1600); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (05 Dec a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalvenezia-27nov2027-05dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingoranjestadaruba-nov2027.html')">1-10</a>
+<a class='button' href="javascript:pageit('visitingoranjestadaruba-nov2027.html?offset=11')">11-20</a>
+<a class='button' href="javascript:pageit('visitingoranjestadaruba-nov2027.html?offset=21')">21-30</a>
+<a class='button' href="javascript:pageit('visitingoranjestadaruba-nov2027.html?offset=31')">31-40</a>
+<a class='button' href="javascript:pageit('visitingoranjestadaruba-nov2027.html?offset=41')">41-50</a>
+<b><a class='button' href="javascript:pageit('visitingoranjestadaruba-nov2027.html?offset=51')">51-60</a>
+</b><a class='button' href="javascript:pageit('visitingoranjestadaruba-nov2027.html?offset=61')">61-61</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingoranjestadaruba-nov2027.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingoranjestadaruba-nov2027.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Oranjestad, Aruba during November 2027 (26 Nov-30 Nov)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>

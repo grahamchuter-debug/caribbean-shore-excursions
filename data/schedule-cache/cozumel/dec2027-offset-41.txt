@@ -1,0 +1,737 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Cozumel, Mexico during December 2027 (08 Dec-10 Dec)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Cozumel, Mexico during December 2027 Cozumel, Mexico sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Cozumel, Mexico during December 2027 (08 Dec-10 Dec)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-cozumel-mexico.html'>Cruises To Cozumel, Mexico</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- prslot1header -->
+<ins class="adsbygoogle prslot1header"
+     style="display:inline-block"
+     data-ad-client="ca-pub-9797911548575941"
+     data-ad-slot="7203331839"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Cozumel, Mexico during December 2027</h1>
+Showing 41 to 50 of total 158
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-cozumel-princesscays.gif' alt='Cruise itinerary map for Princess Cruises 14 Night Eastern/Western Caribbean Adventurer with Celebration Key (141082)' title='Cruise itinerary map for Princess Cruises 14 Night Eastern/Western Caribbean Adventurer with Celebration Key (141082)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 8 Dec 2027</b><br>
+<b>14 Night Eastern/Western Caribbean Adventurer with Celebration Key</b><br>
+Ship 
+<a class=red href='/cruise-ship-sun-princess.html'>Sun Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=U745A">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 14 Night Eastern/Western Caribbean Adventurer with Celebration Key at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1,473
+Balcony&nbsp;$2,193
+Mini-Suite&nbsp;$3,143
+Suite&nbsp;$7,993
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (04 Dec d1500); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (06 Dec 0900-1900); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (07 Dec 0700-1600); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (08 Dec 0900-1900); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (10 Dec 0800-1700); 
+<a class=red href='cruises-to-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (11 Dec 0600-1500); 
+<a class=red href='cruises-to-princess-cays-bahamas.html'>Princess Cays, Bahamas</a>  (12 Dec 0800-1500); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (14 Dec 1000-2000); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (15 Dec 0700-1700); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (18 Dec a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadssunprincess-04dec2027-18dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-celebrationkey-roatan.gif' alt='Cruise itinerary map for Princess Cruises 7 Night Western Caribbean with Mexico & Celebration Key (141081)' title='Cruise itinerary map for Princess Cruises 7 Night Western Caribbean with Mexico & Celebration Key (141081)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 8 Dec 2027</b><br>
+<b>7 Night Western Caribbean with Mexico & Celebration Key</b><br>
+Ship 
+<a class=red href='/cruise-ship-sun-princess.html'>Sun Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=U745">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 7 Night Western Caribbean with Mexico & Celebration Key at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$744
+Balcony&nbsp;$1,244
+Mini-Suite&nbsp;$1,499
+Suite&nbsp;$3,534
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (04 Dec d1500); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (06 Dec 0900-1900); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (07 Dec 0700-1600); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (08 Dec 0900-1900); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (10 Dec 0800-1700); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (11 Dec a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadssunprincess-04dec2027-11dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-celebrationkey-cozumel.gif' alt='Cruise itinerary map for Princess Cruises 14 Night Eastern/Western Caribbean Adventurer with Celebration Key (141086)' title='Cruise itinerary map for Princess Cruises 14 Night Eastern/Western Caribbean Adventurer with Celebration Key (141086)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 8 Dec 2027</b><br>
+<b>14 Night Eastern/Western Caribbean Adventurer with Celebration Key</b><br>
+Ship 
+<a class=red href='/cruise-ship-sun-princess.html'>Sun Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=U744A">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 14 Night Eastern/Western Caribbean Adventurer with Celebration Key at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1,558
+Balcony&nbsp;$2,368
+Mini-Suite&nbsp;$3,298
+Suite&nbsp;$7,838
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (27 Nov d1500); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (28 Nov 0800-1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (30 Nov 0700-1500); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (01 Dec 0800-1500); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (02 Dec 1000-1800); 
+<a class=red href='cruises-to-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (04 Dec 0600-1500); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (06 Dec 0900-1900); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (07 Dec 0700-1600); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (08 Dec 0900-1900); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (10 Dec 0800-1700); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (11 Dec a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadssunprincess-27nov2027-11dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/g/galveston-montegobay-georgetown.gif' alt='Cruise itinerary map for Carnival Cruises 7 Night Western Caribbean (69)' title='Cruise itinerary map for Carnival Cruises 7 Night Western Caribbean (69)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 9 Dec 2027</b><br>
+<b>7 Night Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-breeze.html'>Carnival Breeze</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/7-day-western-caribbean-cruise/galveston/breeze/7-days/cwc/?sailDate=12042027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 7 Night Western Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$648
+Oceanview&nbsp;$848
+Balcony&nbsp;$1013
+Suite&nbsp;$1741
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-galveston-texas.html'>Galveston, Texas</a>  (04 Dec d1530); 
+<a class=red href='cruises-to-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (07 Dec 0800-1700); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (08 Dec 0700-1500); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (09 Dec 0900-1700); 
+<a class=red href='cruises-from-galveston-texas.html'>Galveston, Texas</a>  (11 Dec a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalbreeze-04dec2027-11dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/t/tampa-georgetown-cozumel.gif' alt='Cruise itinerary map for Carnival Cruises 5 Night Western Caribbean (36)' title='Cruise itinerary map for Carnival Cruises 5 Night Western Caribbean (36)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 9 Dec 2027</b><br>
+<b>5 Night Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-paradise.html'>Carnival Paradise</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/5-day-western-caribbean-cruise/tampa/paradise/5-days/wcb/?sailDate=12062027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 5 Night Western Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$425
+Oceanview&nbsp;$505
+Balcony&nbsp;$915
+Suite&nbsp;$1100
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (06 Dec d1530); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (08 Dec 0800-1500); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (09 Dec 1000-1800); 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (11 Dec a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalparadise-06dec2027-11dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-costamaya-cozumel.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 6 Night Perfect Day Cococay & West Carib (145596)' title='Cruise itinerary map for Royal Caribbean Cruises 6 Night Perfect Day Cococay & West Carib (145596)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 9 Dec 2027</b><br>
+<b>6 Night Perfect Day Cococay & West Carib</b><br>
+Ship 
+<a class=red href='/cruise-ship-legend-of-the-seas.html'>Legend Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/6-night-perfect-day-cococay-west-carib-from-fort-lauderdale-on-legend//LE06W352?country=GBR&sail-date=2027-12-05&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 6 Night Perfect Day Cococay & West Carib at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1216
+Outside&nbsp;$1286
+Balcony&nbsp;$1359
+Deluxe&nbsp;$2244
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (05 Dec d1630); 
+<a class=red href='cruises-to-coco-cay-bahamas.html'>Coco Cay, Bahamas</a>  (06 Dec 0700-1700); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (08 Dec 0800-1700); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (09 Dec 0700-1700); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (11 Dec a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadslegendoftheseas-05dec2027-11dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/t/tampa-cozumel-tampa.gif' alt='Cruise itinerary map for Margaritaville At Sea 4 Night Cozumel Express (35)' title='Cruise itinerary map for Margaritaville At Sea 4 Night Cozumel Express (35)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 9 Dec 2027</b><br>
+<b>4 Night Cozumel Express</b><br>
+Ship 
+<a class=red href='/cruise-ship-margaritaville-at-sea-islander.html'>Margaritaville At Sea Islander</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://margaritavilleatsea.com/">
+<img class='noborder' src='/logos/margaritaville-at-sea.gif' alt='More details for 4 Night Cozumel Express at Margaritaville At Sea'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$299
+Ocean View&nbsp;$349
+Balcony&nbsp;$399
+Suite&nbsp;$1099
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (07 Dec d1530); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (09 Dec 0800-1600); 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (11 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmargaritavilleatseaislander-07dec2027-11dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-roatan-cozumel.gif' alt='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-Trip Miami: Harvest Caye, Cozumel & Roatan (33514)' title='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-Trip Miami: Harvest Caye, Cozumel & Roatan (33514)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 9 Dec 2027</b><br>
+<b>7 Night Caribbean Round-Trip Miami: Harvest Caye, Cozumel & Roatan</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-aura.html'>Norwegian Aura</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/7-night-caribbean-round-trip-miami-harvest-caye,-cozumel-and-roatan-AURA7MIARTBBPICMACZMMIA">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 7 Night Caribbean Round-Trip Miami: Harvest Caye, Cozumel & Roatan at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$1279
+Oceanview&nbsp;$1489
+Balcony&nbsp;$1709
+Club Balcony Suite&nbsp;$2649
+Suite&nbsp;$3069
+The Haven&nbsp;$4319
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (04 Dec d1600); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (06 Dec 1000-1800); 
+<a class=red href='cruises-to-harvest-caye-belize.html'>Harvest Caye, Belize</a>  (07 Dec 0800-1700); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (08 Dec 0800-1700); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (09 Dec 0700-1700); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (11 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegianaura-04dec2027-11dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/t/tampa-progreso-cozumel.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 5 Night Western Caribbean Getaway (105769)' title='Cruise itinerary map for Royal Caribbean Cruises 5 Night Western Caribbean Getaway (105769)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 9 Dec 2027</b><br>
+<b>5 Night Western Caribbean Getaway</b><br>
+Ship 
+<a class=red href='/cruise-ship-radiance-of-the-seas.html'>Radiance Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/5-night-western-caribbean-getaway-from-tampa-on-radiance//RD05W750?country=GBR&sail-date=2027-12-06&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 5 Night Western Caribbean Getaway at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$521
+Outside&nbsp;$591
+Balcony&nbsp;$754
+Deluxe&nbsp;$1284
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (06 Dec d1600); 
+<a class=red href='cruises-to-progreso-mexico.html'>Progreso, Mexico</a>  (08 Dec 0700-1500); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (09 Dec 0800-1800); 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (11 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsradianceoftheseas-06dec2027-11dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/n/neworleans-montegobay-willemstad.gif' alt='Cruise itinerary map for Carnival Cruises 14 Night Caribbean & Panama (113625)' title='Cruise itinerary map for Carnival Cruises 14 Night Caribbean & Panama (113625)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 10 Dec 2027</b><br>
+<b>14 Night Caribbean & Panama</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-liberty.html'>Carnival Liberty</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/14-day-caribbean-and-panama-cruise/new-orleans/liberty/14-days/jpb/?sailDate=11282027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 14 Night Caribbean & Panama at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1297
+Oceanview&nbsp;$1617
+Balcony&nbsp;$2617
+Suite&nbsp;$4497
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-new-orleans-louisiana.html'>New Orleans, Louisiana</a>  (28 Nov d1630); 
+<a class=red href='cruises-to-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (01 Dec 0800-1700); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (03 Dec 0900-2200); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (04 Dec 0800-1700); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (06 Dec 0800-1600); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (07 Dec 0900-1830); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (08 Dec 0700-1500); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (10 Dec 0900-1700); 
+<a class=red href='cruises-from-new-orleans-louisiana.html'>New Orleans, Louisiana</a>  (12 Dec a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalliberty-28nov2027-12dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html')">1-10</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=11')">11-20</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=21')">21-30</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=31')">31-40</a>
+<b><a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=41')">41-50</a>
+</b><a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=51')">51-60</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=61')">61-70</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=71')">71-80</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=81')">81-90</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=91')">91-100</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=101')">101-110</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=111')">111-120</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=121')">121-130</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=131')">131-140</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=141')">141-150</a>
+<a class='button' href="javascript:pageit('visitingcozumelmexico-dec2027.html?offset=151')">151-158</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingcozumelmexico-dec2027.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingcozumelmexico-dec2027.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Cozumel, Mexico during December 2027 (08 Dec-10 Dec)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>

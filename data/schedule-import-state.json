@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-06-13T17:43:49.225Z",
-  "blockedUntil": null,
+  "lastRun": "2026-06-14T08:01:39.544Z",
+  "blockedUntil": "2026-06-14T16:01:40.188Z",
   "ports": {
     "ocho-rios": {
       "lastFetch": "2026-06-13T10:56:15.814Z",
@@ -25,8 +25,16 @@
       "importEntryCount": 59
     },
     "cozumel": {
-      "lastFetch": "2026-06-13T17:48:49.013Z",
-      "lastFetchUrl": "https://www.cruisetimetables.com/visitingcozumelmexico-jan2027.html?offset=11"
+      "lastFetch": "2026-06-14T07:36:02.433Z",
+      "lastFetchUrl": "https://www.cruisetimetables.com/visitingcozumelmexico-dec2027.html?offset=151",
+      "lastImport": "2026-06-14T07:36:20.704Z",
+      "importEntryCount": 1861
+    },
+    "aruba": {
+      "lastFetch": "2026-06-14T08:01:39.296Z",
+      "lastFetchUrl": "https://www.cruisetimetables.com/visitingoranjestadaruba-dec2027.html?offset=71",
+      "lastImport": "2026-06-14T08:01:39.448Z",
+      "importEntryCount": 510
     }
   }
 }
