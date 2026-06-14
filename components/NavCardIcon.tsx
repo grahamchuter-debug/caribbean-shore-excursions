@@ -161,16 +161,23 @@ const iconPaths: Record<NavIconKey, ReactNode> = {
 export function NavCardIcon({
   icon,
   className = "",
+  variant = "default",
 }: {
   icon: NavIconKey;
   className?: string;
+  variant?: "default" | "hero";
 }) {
+  const styles =
+    variant === "hero"
+      ? "h-12 w-12 rounded-2xl border border-caribbean-200/60 bg-gradient-to-br from-caribbean-50/90 via-white to-tropical-sand/40 text-caribbean-800 shadow-[0_8px_24px_-12px_rgba(0,71,112,0.25)]"
+      : "h-11 w-11 rounded-xl border border-caribbean-100 bg-gradient-to-br from-caribbean-50 to-white text-caribbean-700 shadow-sm";
+
   return (
     <span
-      className={`inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-caribbean-100 bg-gradient-to-br from-caribbean-50 to-white text-caribbean-700 shadow-sm ${className}`}
+      className={`inline-flex shrink-0 items-center justify-center ${styles} ${className}`}
       aria-hidden="true"
     >
-      <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg className={variant === "hero" ? "h-5 w-5" : "h-5 w-5"} fill="none" viewBox="0 0 24 24" stroke="currentColor">
         {iconPaths[icon]}
       </svg>
     </span>

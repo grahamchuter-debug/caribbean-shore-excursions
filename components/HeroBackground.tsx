@@ -21,7 +21,7 @@ export function HeroBackground() {
         aria-hidden
       />
       <div
-        className="absolute inset-0 bg-gradient-to-t from-gray-950/40 via-transparent to-transparent"
+        className="absolute inset-0 bg-gradient-to-t from-gray-950/55 via-gray-950/10 to-transparent"
         aria-hidden
       />
     </>

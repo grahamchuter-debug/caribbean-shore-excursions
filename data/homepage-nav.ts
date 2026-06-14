@@ -1,34 +1,45 @@
 import type { NavIconKey } from "@/components/NavCardIcon";
+import { getPortGuideCount } from "@/data/content-inventory";
 
 export interface HomepageNavAction {
   href: string;
+  category: string;
   title: string;
   description: string;
   icon: NavIconKey;
   actionLabel: string;
 }
 
-/** Secondary hero navigation — always-visible cards with icon, title, and description. */
-export const homepageNavActions: HomepageNavAction[] = [
-  {
-    href: "/ports",
-    title: "Explore Caribbean Ports",
-    description: "Authority port guides with excursion picks, terminal facts, and specialist booking links.",
-    icon: "ports",
-    actionLabel: "Browse all ports",
-  },
-  {
-    href: "/ship-schedules",
-    title: "View Ship Schedules",
-    description: "See which ships are in port before you book — avoid crowded beaches and sold-out tours.",
-    icon: "schedules",
-    actionLabel: "Check schedules",
-  },
-  {
-    href: "/caribbean-excursion-finder",
-    title: "Find My Excursions",
-    description: "Match your ports and travel style to shore excursions with confidence scores.",
-    icon: "finder",
-    actionLabel: "Open excursion finder",
-  },
-];
+/** Secondary hero discovery cards — value-driven copy for first-time visitors. */
+export function getHomepageNavActions(): HomepageNavAction[] {
+  const portCount = getPortGuideCount();
+
+  return [
+    {
+      href: "/ports",
+      category: "Port guides",
+      title: "Explore Caribbean Ports",
+      description: `${portCount} detailed port guides with local insights, cruise tips and excursion recommendations.`,
+      icon: "ports",
+      actionLabel: "Browse Ports",
+    },
+    {
+      href: "/ship-schedules",
+      category: "Ship schedules",
+      title: "View Ship Schedules",
+      description:
+        "Check cruise arrivals and departures before planning your port day.",
+      icon: "schedules",
+      actionLabel: "View Schedules",
+    },
+    {
+      href: "/caribbean-excursion-finder",
+      category: "Excursions",
+      title: "Find Your Perfect Excursion",
+      description:
+        "Compare beaches, wildlife, snorkelling, private tours and family favourites.",
+      icon: "finder",
+      actionLabel: "Explore Excursions",
+    },
+  ];
+}

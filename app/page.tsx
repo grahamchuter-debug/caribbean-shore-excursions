@@ -27,7 +27,7 @@ import { FindMyCruiseShip } from "@/components/FindMyCruiseShip";
 import { TrustBadgeStrip } from "@/components/TrustBadge";
 import { HomeActionCard } from "@/components/HomeActionCard";
 import { NavCardIcon, excursionTypeNavIcon } from "@/components/NavCardIcon";
-import { homepageNavActions } from "@/data/homepage-nav";
+import { getHomepageNavActions } from "@/data/homepage-nav";
 
 export const metadata = buildMetadata({
   title: "Caribbean Shore Excursion Planner | Ports, Ship Schedules & Cruise Tours",
@@ -62,6 +62,7 @@ export default function HomePage() {
 
   const homepageFaqs = getHomepageFaqs();
   const featuredBestGuides = getFeaturedBestCaribbeanGuides();
+  const homepageNavActions = getHomepageNavActions();
   const breadcrumbs = [{ name: "Home", path: "/" }];
 
   return (
@@ -79,49 +80,71 @@ export default function HomePage() {
         ]}
       />
 
-      {/* Hero */}
-      <section className="relative overflow-hidden text-white py-24 sm:py-32">
+      {/* Hero — compact above-the-fold: heading → search → trust */}
+      <section className="home-hero">
         <HeroBackground />
         <div className="container-wide relative z-10 px-4 sm:px-6 lg:px-8">
-          <p className="section-eyebrow mb-5 text-caribbean-100 drop-shadow-sm">
+          <p className="section-eyebrow mb-2 text-caribbean-100 drop-shadow-sm">
             Caribbean cruise planning authority
           </p>
-          <h1 className="font-display text-4xl font-semibold leading-[1.1] sm:text-5xl lg:text-6xl max-w-4xl drop-shadow-md">
+          <h1 className="home-hero-heading">
             Caribbean Shore Excursion Planner
           </h1>
-          <p className="mt-6 max-w-2xl text-base leading-relaxed text-white/90 sm:text-lg drop-shadow-sm">
+          <p className="mt-3 max-w-2xl text-base leading-snug text-white/90 sm:text-[1.0625rem] drop-shadow-sm">
             Compare Caribbean cruise ports, discover curated shore excursions, view ship schedules, and plan every port day with confidence.
           </p>
-          <div className="mt-8">
-            <TrustBadgeStrip variant="dark" />
-          </div>
-          <div className="mt-10 max-w-2xl">
+          <div className="mt-4 max-w-2xl">
+            <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-caribbean-100/90">
+              Start with your port
+            </p>
             <PortSearch variant="home" />
           </div>
-          <div className="mt-8">
-            <p className="mb-4 text-sm font-medium text-caribbean-100">Start planning</p>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl">
-              {homepageNavActions.map((action) => (
-                <div
-                  key={action.href}
-                  className="rounded-2xl border border-white/20 bg-white/95 p-1 shadow-lg backdrop-blur-sm"
-                >
-                  <HomeActionCard
-                    href={action.href}
-                    title={action.title}
-                    description={action.description}
-                    icon={action.icon}
-                    actionLabel={action.actionLabel}
-                  />
-                </div>
-              ))}
-            </div>
+          <div className="mt-3">
+            <TrustBadgeStrip variant="dark" />
+          </div>
+        </div>
+        <div className="hero-scroll-cue" aria-hidden="true">
+          <div className="hero-scroll-cue-fade" />
+          <span className="hero-scroll-cue-label">
+            <span className="text-[10px] font-medium uppercase tracking-[0.22em]">More below</span>
+            <svg
+              className="hero-scroll-cue-icon h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+            </svg>
+          </span>
+        </div>
+      </section>
+
+      {/* Discovery cards — secondary; sits below hero so the next section peeks above the fold */}
+      <section className="hero-discovery-strip">
+        <div className="container-wide px-4 sm:px-6 lg:px-8">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-caribbean-700/80">
+            Or explore by topic
+          </p>
+          <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3 lg:gap-4">
+            {homepageNavActions.map((action) => (
+              <HomeActionCard
+                key={action.href}
+                href={action.href}
+                category={action.category}
+                title={action.title}
+                description={action.description}
+                icon={action.icon}
+                actionLabel={action.actionLabel}
+                variant="hero"
+              />
+            ))}
           </div>
         </div>
       </section>
 
       {/* Caribbean Excursion Finder */}
-      <section className="section-padding bg-white border-b border-caribbean-100">
+      <section className="home-hero-next-peek section-padding bg-white border-b border-caribbean-100">
         <div className="container-wide max-w-6xl">
           <div className="mb-8 text-center sm:text-left">
             <p className="section-eyebrow">

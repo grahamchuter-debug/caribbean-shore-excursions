@@ -82,7 +82,70 @@
     @apply overflow-hidden rounded-2xl border border-gray-100/90 bg-white text-gray-900 shadow-editorial transition-[transform,box-shadow] duration-300 ease-out;
   }
 
+  .home-hero {
+    @apply relative overflow-hidden text-white pt-12 pb-14 sm:pt-14 sm:pb-16 lg:pt-10 lg:pb-14;
+  }
+
+  .home-hero-heading {
+    @apply font-display text-4xl font-semibold leading-[1.06] sm:text-[2.5rem] lg:text-[2.65rem] max-w-4xl drop-shadow-md;
+  }
+
+  .hero-discovery-strip {
+    @apply relative z-10 -mt-6 border-b border-caribbean-100/90 bg-gradient-to-b from-white via-white to-caribbean-50/40 pb-6 pt-5 sm:-mt-8 sm:pb-7 sm:pt-6;
+  }
+
+  .hero-scroll-cue {
+    @apply pointer-events-none absolute inset-x-0 bottom-0 z-20 flex flex-col items-center;
+  }
+
+  .hero-scroll-cue-fade {
+    @apply h-16 w-full bg-gradient-to-t from-gray-950/55 via-gray-950/20 to-transparent;
+  }
+
+  .hero-scroll-cue-label {
+    @apply -mt-10 mb-3 flex flex-col items-center gap-1.5 text-white/55;
+  }
+
+  .hero-scroll-cue-icon {
+    animation: hero-scroll-bounce 2.4s ease-in-out infinite;
+  }
+
+  .home-hero-next-peek {
+    @apply relative z-10 bg-white;
+  }
+
+  @media (max-height: 820px) and (min-width: 1024px) {
+    .home-hero {
+      @apply pt-10 pb-8 lg:pt-10 lg:pb-8;
+    }
+
+    .home-hero-next-peek {
+      @apply -mt-24 pt-24;
+    }
+
+    .hero-discovery-card {
+      @apply p-4;
+    }
+  }
+
+  .hero-discovery-card {
+    @apply relative flex h-full flex-col overflow-hidden rounded-[1.35rem] border border-white/70 bg-gradient-to-br from-[#fffdf9] via-white to-caribbean-50/50 p-5 text-gray-900 shadow-[0_20px_50px_-24px_rgba(0,0,0,0.45)] transition-[transform,box-shadow,border-color] duration-500 ease-out sm:p-6;
+  }
+
+  .hero-discovery-card::before {
+    content: "";
+    @apply pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-caribbean-300/70 to-transparent;
+  }
+
+  .hero-discovery-card::after {
+    content: "";
+    @apply pointer-events-none absolute -right-8 -top-8 h-24 w-24 rounded-full bg-tropical-sand/30 blur-2xl;
+  }
+
   @media (hover: hover) and (pointer: fine) {
+    .hero-discovery-card:hover {
+      @apply -translate-y-1 border-white shadow-[0_28px_60px_-28px_rgba(0,0,0,0.5)];
+    }
     .card:hover {
       @apply -translate-y-0.5 border-caribbean-100 shadow-premium-hover;
     }
