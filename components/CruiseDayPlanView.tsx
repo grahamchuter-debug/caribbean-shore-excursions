@@ -10,6 +10,7 @@ import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadB
 import { BookingJourneyPanel } from "@/components/BookingJourneyPanel";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 import { MatchReasonsPanel } from "@/components/MatchReasonsPanel";
+import { ShipNameLink } from "@/components/ShipNameLink";
 import { cruiseDayPlanInterests } from "@/lib/cruise-day-plan";
 
 interface CruiseDayPlanViewProps {
@@ -277,7 +278,9 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
               <tbody>
                 {plan.scheduleInfo.entries.map((entry) => (
                   <tr key={`${entry.date}-${entry.ship}`} className="border-b border-gray-100">
-                    <td className="py-2 pr-4 font-medium text-gray-900">{entry.ship}</td>
+                    <td className="py-2 pr-4">
+                      <ShipNameLink name={entry.ship} className="font-medium text-gray-900" />
+                    </td>
                     <td className="py-2 pr-4 text-gray-700">{entry.cruiseLine}</td>
                     <td className="py-2 pr-4 text-gray-700">{entry.arrival}</td>
                     <td className="py-2 pr-4 text-gray-700">{entry.departure}</td>
@@ -324,8 +327,8 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
             {plan.shipsInPort.length > 0 && (
               <ul className="mt-4 space-y-2 text-sm text-gray-700">
                 {plan.shipsInPort.map((ship) => (
-                  <li key={ship.ship} className="rounded-lg bg-gray-50 px-3 py-2">
-                    <span className="font-medium text-gray-900">{ship.ship}</span>
+                  <li key={ship.ship} className="text-sm text-gray-700">
+                    <ShipNameLink name={ship.ship} />
                     <span className="text-gray-600">
                       {" "}
                       · {ship.cruiseLine} · {ship.arrival}–{ship.departure} · {ship.passengers} pax

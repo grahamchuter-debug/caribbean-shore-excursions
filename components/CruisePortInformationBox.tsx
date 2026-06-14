@@ -42,10 +42,7 @@ export function CruisePortInformationBox({
           </dt>
           <dd className="mt-2 flex flex-wrap gap-2">
             {naming.terminals.map((terminal) => (
-              <span
-                key={terminal}
-                className="rounded-full border border-caribbean-300 bg-caribbean-50 px-3 py-1 text-sm font-medium text-caribbean-900"
-              >
+              <span key={terminal} className="info-badge-teal">
                 {terminal}
               </span>
             ))}
@@ -57,10 +54,7 @@ export function CruisePortInformationBox({
           </dt>
           <dd className="mt-2 flex flex-wrap gap-2">
             {naming.alternativeNames.map((name) => (
-              <span
-                key={name}
-                className="rounded-full border border-caribbean-200 bg-white px-3 py-1 text-sm text-caribbean-800"
-              >
+              <span key={name} className="info-label">
                 {name}
               </span>
             ))}

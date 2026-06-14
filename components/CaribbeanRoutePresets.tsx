@@ -57,7 +57,7 @@ export function CaribbeanRoutePresets({ linkToFinder = true }: CaribbeanRoutePre
         }
 
         return (
-          <div key={route.id} className="nav-card">
+          <div key={route.id} className="rounded-2xl border border-gray-100 bg-white p-4 shadow-sm">
             {inner}
           </div>
         );

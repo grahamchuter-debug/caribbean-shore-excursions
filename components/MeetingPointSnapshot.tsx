@@ -45,7 +45,7 @@ function StatusBadge({
     caution: "bg-amber-50 text-amber-900 border-amber-200",
   };
   return (
-    <span className={`inline-flex rounded-full border px-2.5 py-0.5 text-xs font-semibold ${tones[tone]}`}>
+    <span className={`inline-flex cursor-default rounded-md border px-2.5 py-0.5 text-xs font-normal ${tones[tone]}`}>
       {label}
     </span>
   );

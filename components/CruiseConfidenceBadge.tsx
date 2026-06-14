@@ -26,7 +26,7 @@ export function CruiseConfidenceBadge({
 
   return (
     <span
-      className={`inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-semibold uppercase tracking-wide ${styles.badge} ${className}`}
+      className={`inline-flex cursor-default items-center gap-2 rounded-md border px-3 py-1 text-xs font-medium uppercase tracking-wide ${styles.badge} ${className}`}
     >
       {showDot && <span className={`h-2 w-2 shrink-0 rounded-full ${styles.dot}`} aria-hidden />}
       {title}

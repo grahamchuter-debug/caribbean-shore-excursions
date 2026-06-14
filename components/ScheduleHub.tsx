@@ -56,10 +56,7 @@ export function ScheduleHub({
           <h2 className="section-title text-2xl sm:text-3xl mb-4">Cruise Lines Visiting</h2>
           <div className="flex flex-wrap gap-2">
             {cruiseLines.map((line) => (
-              <span
-                key={line}
-                className="rounded-full bg-caribbean-100 px-3 py-1 text-sm font-medium text-caribbean-800"
-              >
+              <span key={line} className="info-badge-subtle">
                 {line}
               </span>
             ))}

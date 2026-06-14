@@ -56,13 +56,9 @@ function RegionCard({
   compact: boolean;
   showConnector: boolean;
 }) {
-  const portNames = region.portSlugs
-    .map((slug) => getPortBySlug(slug)?.name)
-    .filter(Boolean) as string[];
-
   return (
     <article
-      className={`card-editorial group relative flex h-full flex-col ${
+      className={`card-editorial-static relative flex h-full flex-col ${
         highlighted ? "ring-2 ring-caribbean-200 ring-offset-2" : ""
       } ${compact ? "p-4" : "p-5 sm:p-6"}`}
     >
@@ -72,7 +68,7 @@ function RegionCard({
         <RegionBadge label={region.badge} />
         <div className="min-w-0 flex-1">
           <h3
-            className={`font-display font-semibold text-gray-900 transition-colors group-hover:text-caribbean-800 ${
+            className={`font-display font-semibold text-gray-900 ${
               compact ? "text-base" : "text-lg"
             }`}
           >
@@ -85,16 +81,21 @@ function RegionCard({
       </div>
 
       <div className={`mt-4 flex flex-wrap gap-1.5 ${compact ? "gap-1" : "gap-1.5"}`}>
-        {portNames.map((name) => (
-          <span
-            key={name}
-            className={`rounded-full border border-caribbean-100 bg-white/80 font-medium text-caribbean-800 ${
-              compact ? "px-2 py-0.5 text-[11px]" : "px-2.5 py-1 text-xs"
-            }`}
-          >
-            {name}
-          </span>
-        ))}
+        {region.portSlugs.map((slug) => {
+          const port = getPortBySlug(slug);
+          if (!port) return null;
+          return (
+            <Link
+              key={slug}
+              href={`/ports/${slug}`}
+              className={`info-badge-subtle transition-colors hover:border hover:border-caribbean-200 hover:bg-caribbean-100/80 ${
+                compact ? "text-[11px]" : ""
+              }`}
+            >
+              {port.name}
+            </Link>
+          );
+        })}
       </div>
 
       <div className={`mt-auto flex flex-wrap gap-2 ${compact ? "mt-4 pt-3" : "mt-5 pt-4"} border-t border-caribbean-100/80`}>

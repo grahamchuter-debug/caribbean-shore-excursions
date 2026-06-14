@@ -1,4 +1,5 @@
 import type { ScheduleEntry } from "@/data/types";
+import { ShipNameLink } from "@/components/ShipNameLink";
 
 function getEntryNotes(entry: ScheduleEntry): string {
   if (entry.notes) return entry.notes;
@@ -62,12 +63,14 @@ export function ScheduleTable({
                 entry.isPlaceholder
                   ? "bg-amber-50/80"
                   : isHighlighted
-                    ? "bg-caribbean-100 ring-2 ring-inset ring-caribbean-400 transition-colors"
-                    : "hover:bg-caribbean-50 transition-colors"
+                    ? "bg-caribbean-100 ring-2 ring-inset ring-caribbean-400"
+                    : undefined
               }
             >
               <td className="px-4 py-3 text-sm text-gray-900 whitespace-nowrap">{entry.date}</td>
-              <td className="px-4 py-3 text-sm font-medium text-gray-900">{entry.ship}</td>
+              <td className="px-4 py-3 text-sm">
+                <ShipNameLink name={entry.ship} />
+              </td>
               <td className="px-4 py-3 text-sm text-gray-600">{entry.cruiseLine}</td>
               <td className="px-4 py-3 text-sm text-gray-600 whitespace-nowrap">{entry.arrival}</td>
               <td className="px-4 py-3 text-sm text-gray-600 whitespace-nowrap">{entry.departure}</td>

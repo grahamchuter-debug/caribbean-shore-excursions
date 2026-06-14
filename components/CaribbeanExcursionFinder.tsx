@@ -287,6 +287,11 @@ export function CaribbeanExcursionFinder({
                   ? "Ports update when you change ship or cruise line. You can still adjust manually."
                   : "Select every Caribbean port your cruise visits"}
               </p>
+              {selectedPorts.length > 0 && (
+                <p className="mt-1 text-xs font-medium text-caribbean-700" aria-live="polite">
+                  {selectedPorts.length} port{selectedPorts.length === 1 ? "" : "s"} selected — tap Generate when ready
+                </p>
+              )}
             </div>
             {variant === "home" && (
               <Link href="/caribbean-excursion-finder#all-ports" className="text-xs font-medium text-caribbean-700 hover:underline">
@@ -306,6 +311,7 @@ export function CaribbeanExcursionFinder({
                     <button
                       key={port.slug}
                       type="button"
+                      aria-pressed={active}
                       onClick={() => setSelectedPorts((current) => toggleInList(current, port.slug))}
                       className={`rounded-full border px-3 py-1.5 text-sm font-medium transition-colors ${
                         active
@@ -330,6 +336,7 @@ export function CaribbeanExcursionFinder({
                         <button
                           key={port.slug}
                           type="button"
+                          aria-pressed={active}
                           onClick={() => setSelectedPorts((current) => toggleInList(current, port.slug))}
                           className={`rounded-full border px-3 py-1.5 text-sm font-medium transition-colors ${
                             active
@@ -358,6 +365,7 @@ export function CaribbeanExcursionFinder({
                 <button
                   key={traveller.id}
                   type="button"
+                  aria-pressed={active}
                   onClick={() =>
                     setSelectedTravellers((current) => toggleInList(current, traveller.id))
                   }
@@ -387,6 +395,7 @@ export function CaribbeanExcursionFinder({
                 <button
                   key={level.id}
                   type="button"
+                  aria-pressed={active}
                   onClick={() => setFitnessLevel(level.id)}
                   className={`rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
                     active

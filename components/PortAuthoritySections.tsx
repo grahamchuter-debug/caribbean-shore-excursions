@@ -34,7 +34,7 @@ export function PortAuthoritySections({
           {port.highlights.map((h) => (
             <span
               key={h}
-              className="rounded-full bg-caribbean-100 px-3 py-1 text-xs text-caribbean-800 font-medium"
+              className="info-badge-subtle"
             >
               {h}
             </span>
@@ -62,7 +62,7 @@ export function PortAuthoritySections({
                 <h3 className="font-semibold text-gray-900 text-sm sm:text-base">{exc.name}</h3>
                 <div className="flex shrink-0 flex-col items-end gap-1">
                   {isSignature && (
-                    <span className="rounded-full bg-caribbean-700 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">
+                    <span className="info-label text-[10px] uppercase tracking-wide">
                       Signature pick
                     </span>
                   )}

@@ -82,6 +82,26 @@
     @apply overflow-hidden rounded-2xl border border-gray-100/90 bg-white text-gray-900 shadow-editorial transition-[transform,box-shadow] duration-300 ease-out;
   }
 
+  .card-editorial-static {
+    @apply overflow-hidden rounded-2xl border border-gray-100/90 bg-white text-gray-900 shadow-editorial;
+  }
+
+  .info-badge {
+    @apply inline-flex cursor-default items-center rounded-md border border-gray-200/80 bg-gray-50 px-2.5 py-0.5 text-sm font-normal text-gray-700;
+  }
+
+  .info-badge-teal {
+    @apply inline-flex cursor-default items-center rounded-md border border-caribbean-200/70 bg-caribbean-50/70 px-2.5 py-0.5 text-sm font-normal text-caribbean-900;
+  }
+
+  .info-badge-subtle {
+    @apply inline-flex cursor-default items-center rounded-md bg-caribbean-50/80 px-2.5 py-0.5 text-xs font-normal text-caribbean-800;
+  }
+
+  .info-label {
+    @apply inline-flex cursor-default items-center rounded-md border border-gray-200/70 bg-white px-2 py-0.5 text-xs font-normal text-gray-700;
+  }
+
   .home-hero {
     @apply relative overflow-hidden text-white pt-12 pb-14 sm:pt-14 sm:pb-16 lg:pt-10 lg:pb-14;
   }
@@ -146,19 +166,19 @@
     .hero-discovery-card:hover {
       @apply -translate-y-1 border-white shadow-[0_28px_60px_-28px_rgba(0,0,0,0.5)];
     }
-    .card:hover {
+    a.card:hover {
       @apply -translate-y-0.5 border-caribbean-100 shadow-premium-hover;
     }
 
-    .card-gradient:hover {
+    a.card-gradient:hover {
       @apply -translate-y-0.5 border-caribbean-200 bg-caribbean-50/40 shadow-premium-hover;
     }
 
-    .nav-card:hover {
+    a.nav-card:hover {
       @apply -translate-y-0.5 border-caribbean-200 bg-caribbean-50/40 shadow-premium-hover;
     }
 
-    .card-editorial:hover {
+    a:hover .card-editorial {
       @apply -translate-y-1 shadow-premium-hover;
     }
   }

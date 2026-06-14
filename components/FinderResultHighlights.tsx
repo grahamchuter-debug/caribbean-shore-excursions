@@ -6,6 +6,7 @@ import type {
 } from "@/lib/excursion-finder-engine";
 import { PremiumEditorialCard } from "@/components/PremiumEditorialCard";
 import { EXCURSION_THEME_HERO_PORT } from "@/lib/port-hero-images";
+import { getExcursionTypeSlugByLabel } from "@/lib/excursion-type-lookup";
 
 interface FinderResultHighlightsProps {
   bestPort: FinderBestPortHighlight | null;
@@ -48,6 +49,10 @@ export function FinderResultHighlights({
             title: bestExcursionType.type,
             imageTheme: bestExcursionType.imageTheme,
             imageLabel: `${bestExcursionType.type} excursions`,
+            href: (() => {
+              const slug = getExcursionTypeSlugByLabel(bestExcursionType.type);
+              return slug ? `/excursion-types/${slug}` : undefined;
+            })(),
             portSlug: EXCURSION_THEME_HERO_PORT[bestExcursionType.imageTheme],
             details: [
               { label: "Why passengers love it", value: bestExcursionType.whyPassengersLoveIt },

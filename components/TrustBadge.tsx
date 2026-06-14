@@ -8,12 +8,12 @@ interface TrustBadgeProps {
 export function TrustBadge({ children, className = "", variant = "light" }: TrustBadgeProps) {
   const variantClass =
     variant === "dark"
-      ? "border-white/20 bg-white/10 text-white/90 hover:border-white/35 hover:text-white"
-      : "border-gray-200/90 bg-white/90 text-gray-700 hover:border-caribbean-200 hover:text-caribbean-900";
+      ? "border-white/20 bg-white/10 text-white/90"
+      : "border-gray-200/90 bg-white/90 text-gray-700";
 
   return (
     <span
-      className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-medium shadow-sm backdrop-blur-sm transition-colors duration-300 ${variantClass} ${className}`}
+      className={`inline-flex cursor-default items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-medium shadow-sm backdrop-blur-sm ${variantClass} ${className}`}
     >
       <span className={variant === "dark" ? "text-turquoise-light" : "text-caribbean-600"} aria-hidden>
         ✓

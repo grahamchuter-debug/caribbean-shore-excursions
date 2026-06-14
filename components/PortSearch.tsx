@@ -191,7 +191,7 @@ export function PortSearch({
                         {getTopExcursionLabel(port)}
                       </p>
                     </div>
-                    <span className="inline-flex shrink-0 self-start rounded-full border border-caribbean-100 bg-caribbean-50 px-2.5 py-1 text-xs font-medium text-caribbean-800">
+                    <span className="info-badge-subtle shrink-0 self-start">
                       {port.bestFor}
                     </span>
                   </div>
