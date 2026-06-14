@@ -110,9 +110,9 @@ export function CaribbeanExcursionFinder({
     });
     if (ports.length === 0) return;
 
-    const key = ports.join(",");
-    if (itineraryPortsKeyRef.current === key) return;
-    itineraryPortsKeyRef.current = key;
+    const identityKey = `${cruiseLineSlug}|${shipSlug}`;
+    if (itineraryPortsKeyRef.current === identityKey) return;
+    itineraryPortsKeyRef.current = identityKey;
 
     setSelectedPorts(ports);
     setResult(null);
@@ -195,8 +195,11 @@ export function CaribbeanExcursionFinder({
             <select
               value={cruiseLineSlug}
               onChange={(event) => {
+                itineraryPortsKeyRef.current = null;
                 setCruiseLineSlug(event.target.value);
                 setShipSlug("");
+                setResult(null);
+                setHasGenerated(false);
               }}
               className="mt-1.5 w-full rounded-xl border border-caribbean-200 bg-white px-3 py-2.5 text-base text-gray-900 shadow-sm focus:border-caribbean-500 focus:outline-none focus:ring-2 focus:ring-caribbean-200"
             >

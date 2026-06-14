@@ -362,7 +362,7 @@ export const ships: CruiseShip[] = [
       "7-night Western Caribbean via Cozumel and Grand Cayman",
       "Short Bahamas cruises with Nassau and private island days",
     ],
-    commonPortSlugs: ["nassau", "puerto-plata", "cozumel", "st-maarten", "grand-cayman"],
+    commonPortSlugs: ["nassau", "puerto-plata", "cozumel", "costa-maya", "st-maarten", "grand-cayman"],
     recommendedExcursions: [
       {
         name: "Damajagua Waterfalls",
@@ -472,12 +472,12 @@ export const ships: CruiseShip[] = [
       "7-night Western Caribbean: Cozumel, Roatan, and Costa Maya",
       "Bahamas combo sailings with Nassau on select deployments",
     ],
-    commonPortSlugs: ["cozumel", "st-thomas", "nassau", "st-maarten", "roatan"],
+    commonPortSlugs: ["cozumel", "st-thomas", "nassau", "st-maarten", "costa-maya", "roatan"],
     recommendedExcursions: [
       {
-        name: "Dunn's River Falls and Beach Club",
-        portSlug: "ocho-rios",
-        description: "Signature Jamaica adventure when Prima includes Ocho Rios on Western routes.",
+        name: "Gumbalimba Park Wildlife",
+        portSlug: "roatan",
+        description: "Rainforest zip-lines and animals near Mahogany Bay on Prima Western Caribbean weeks.",
       },
       {
         name: "Salsa Salsa and Beach",
@@ -527,7 +527,7 @@ export const ships: CruiseShip[] = [
       "7-night Western Caribbean via Cozumel and Roatan",
       "Bahamas and private island combinations on shorter routes",
     ],
-    commonPortSlugs: ["cozumel", "st-thomas", "nassau", "st-maarten"],
+    commonPortSlugs: ["st-thomas", "st-maarten", "nassau", "cozumel", "roatan"],
     recommendedExcursions: [
       {
         name: "Catamaran Sail to St. John Waters",
@@ -582,7 +582,7 @@ export const ships: CruiseShip[] = [
       "7-night Western Caribbean: Cozumel, Roatan, and Costa Maya",
       "Mixed freestyle weeks with private island and standard port combinations",
     ],
-    commonPortSlugs: ["cozumel", "st-thomas", "nassau", "roatan"],
+    commonPortSlugs: ["cozumel", "costa-maya", "roatan", "st-thomas", "nassau"],
     recommendedExcursions: [
       {
         name: "El Cielo Sandbar Sail",
@@ -802,7 +802,7 @@ export const ships: CruiseShip[] = [
       "7-9 night Southern Caribbean with Aruba and Curacao",
       "Western Caribbean reef ports on select seasonal deployments",
     ],
-    commonPortSlugs: ["cozumel", "st-maarten", "aruba", "st-thomas"],
+    commonPortSlugs: ["cozumel", "st-maarten", "aruba", "curacao", "st-thomas"],
     recommendedExcursions: [
       {
         name: "Luxury Catamaran Sail",
