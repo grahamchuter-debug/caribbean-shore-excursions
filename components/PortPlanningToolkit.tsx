@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Port } from "@/data/types";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 import type { PortActivityTier } from "@/data/port-planning";
 import {
   getPortPlanningSnapshot,
@@ -83,6 +84,7 @@ export function PortPlanningToolkit({ port }: { port: Port }) {
           >
             Build printable {port.name} day plan →
           </Link>
+          <ExcursionCardCTAs portSlug={port.slug} className="mt-4 print:hidden" />
         </div>
       </div>
 

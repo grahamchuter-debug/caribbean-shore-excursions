@@ -7,6 +7,7 @@ import type { CruiseDayPlan } from "@/lib/cruise-day-plan";
 import { getMatchTierStyles } from "@/lib/cruise-day-plan";
 import { getCrowdLevelStyles } from "@/lib/cruise-day-lookup";
 import { CruiseDayPlanDownloadButton } from "@/components/CruiseDayPlanDownloadButton";
+import { BookingJourneyPanel } from "@/components/BookingJourneyPanel";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 import { MatchReasonsPanel } from "@/components/MatchReasonsPanel";
 import { cruiseDayPlanInterests } from "@/lib/cruise-day-plan";
@@ -205,9 +206,12 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
           {plan.portInformation.overview}
         </p>
         {!isPrint && (
-          <Link href={plan.portInformation.portGuideHref} className="mt-4 inline-block text-sm font-medium text-caribbean-700 hover:underline print:hidden">
-            Full {plan.portName} port guide →
-          </Link>
+          <ExcursionCardCTAs
+            portSlug={plan.portSlug}
+            excursionType={plan.recommendedExcursions.primary.type}
+            text={`${plan.recommendedExcursions.primary.name} ${plan.recommendedExcursions.primary.description}`}
+            className="mt-4 print:hidden"
+          />
         )}
       </section>
 
@@ -373,9 +377,17 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
       )}
 
       {!isPrint && (
-        <div className="flex justify-center print:hidden">
-          <CruiseDayPlanDownloadButton plan={plan} />
-        </div>
+        <>
+          <BookingJourneyPanel
+            portSlug={plan.portSlug}
+            title={`Book ${plan.portName} shore excursions`}
+            description="Your day plan is ready — compare recommended excursions with local specialists, open the full port guide, or check ship schedules for your sailing date."
+            className="print:hidden"
+          />
+          <div className="flex justify-center print:hidden">
+            <CruiseDayPlanDownloadButton plan={plan} />
+          </div>
+        </>
       )}
     </article>
   );

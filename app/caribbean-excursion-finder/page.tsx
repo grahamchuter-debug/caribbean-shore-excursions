@@ -6,6 +6,8 @@ import { FAQSection } from "@/components/FAQSection";
 import { JsonLd } from "@/components/JsonLd";
 import { CaribbeanExcursionFinderWithRoute } from "@/components/CaribbeanExcursionFinderWithRoute";
 import { CaribbeanRoutePresets } from "@/components/CaribbeanRoutePresets";
+import { BookingJourneyPanel } from "@/components/BookingJourneyPanel";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 import { finderFaqs, getPortComparisonRows, portDayMistakes } from "@/data/excursion-finder";
 import { getPortBySlug } from "@/data/ports";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
@@ -97,6 +99,7 @@ export default function CaribbeanExcursionFinderPage() {
                     <th className="px-4 py-3 font-semibold text-gray-900">Top excursion</th>
                     <th className="px-4 py-3 font-semibold text-gray-900">Time needed</th>
                     <th className="px-4 py-3 font-semibold text-gray-900">Activity</th>
+                    <th className="px-4 py-3 font-semibold text-gray-900">Next steps</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -111,6 +114,9 @@ export default function CaribbeanExcursionFinderPage() {
                       <td className="px-4 py-3 text-gray-600">{row.topExcursion}</td>
                       <td className="px-4 py-3 text-gray-600">{row.duration}</td>
                       <td className="px-4 py-3 text-gray-600">{row.activityLevel}</td>
+                      <td className="px-4 py-3">
+                        <ExcursionCardCTAs portSlug={row.portSlug} className="mt-0" />
+                      </td>
                     </tr>
                   ))}
                 </tbody>
@@ -144,6 +150,7 @@ export default function CaribbeanExcursionFinderPage() {
                       </div>
                     </div>
                   </dl>
+                  <ExcursionCardCTAs portSlug={row.portSlug} className="mt-4" />
                 </div>
               ))}
             </div>
@@ -171,18 +178,18 @@ export default function CaribbeanExcursionFinderPage() {
                       <span className="font-semibold text-emerald-700">Better:</span> {tip.better}
                     </p>
                     {port && (
-                      <Link
-                        href={`/ports/${tip.portSlug}`}
-                        className="mt-4 inline-flex text-sm font-medium text-caribbean-700 hover:underline"
-                      >
-                        {port.name} port guide →
-                      </Link>
+                      <ExcursionCardCTAs portSlug={tip.portSlug} className="mt-4" />
                     )}
                   </div>
                 );
               })}
             </div>
           </div>
+
+          <BookingJourneyPanel
+            title="Turn your finder results into bookings"
+            description="After you generate a plan, use the port cards above to view recommended excursions, open port guides, and check ship schedules for each call."
+          />
 
           <FAQSection faqs={finderFaqs} title="Caribbean Excursion Finder FAQs" />
         </div>

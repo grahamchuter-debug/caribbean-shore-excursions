@@ -166,24 +166,7 @@ export function CruiseLinePlanningSections({
                   )}
                 </div>
                 <p className="mt-1 text-xs text-caribbean-600">{port.bestFor}</p>
-                <div className="mt-4 flex flex-wrap gap-2">
-                  <Link href={`/ports/${portSlug}`} className="btn-primary text-xs">
-                    Port Guide
-                  </Link>
-                  {hasShipSchedule(portSlug) && (
-                    <Link href={`/ship-schedules/${portSlug}`} className="btn-secondary text-xs">
-                      Ship Schedule
-                    </Link>
-                  )}
-                  <a
-                    href={port.specialistUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn-secondary text-xs"
-                  >
-                    {port.specialistName}
-                  </a>
-                </div>
+                <ExcursionCardCTAs portSlug={portSlug} className="mt-4" />
               </div>
             );
           })}

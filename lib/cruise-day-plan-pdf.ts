@@ -659,7 +659,7 @@ class PortPlanPdfSections {
     if (this.premium) {
       this.canvas.y = drawPremiumCtaBox(
         this.canvas.doc,
-        "View Excursion Options →",
+        "View Recommended Excursions →",
         getExcursionCtaUrl(plan),
         MARGIN,
         this.canvas.y,
@@ -668,7 +668,7 @@ class PortPlanPdfSections {
     } else {
       this.canvas.y = drawPrimaryCta(
         this.canvas.doc,
-        "View Excursion Options →",
+        "View Recommended Excursions →",
         getExcursionCtaUrl(plan),
         MARGIN,
         this.canvas.y,

@@ -127,24 +127,7 @@ export function ShipPageView({ ship }: { ship: CruiseShip }) {
                       </Link>
                     </h3>
                     <p className="mt-1 text-xs text-caribbean-600">{port.bestFor}</p>
-                    <div className="mt-4 flex flex-wrap gap-2">
-                      <Link href={`/ports/${portSlug}`} className="btn-primary text-xs">
-                        Port Guide
-                      </Link>
-                      {hasShipSchedule(portSlug) && (
-                        <Link href={`/ship-schedules/${portSlug}`} className="btn-secondary text-xs">
-                          Ship Schedule
-                        </Link>
-                      )}
-                      <a
-                        href={port.specialistUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="btn-secondary text-xs"
-                      >
-                        {port.specialistName}
-                      </a>
-                    </div>
+                    <ExcursionCardCTAs portSlug={portSlug} className="mt-4" />
                   </div>
                 );
               })}
@@ -242,6 +225,27 @@ export function ShipPageView({ ship }: { ship: CruiseShip }) {
               </div>
             </section>
           )}
+
+          <section className="mb-12 rounded-2xl border border-caribbean-200 bg-caribbean-50/40 p-6 sm:p-8">
+            <h2 className="section-title text-2xl sm:text-3xl mb-2">Plan and Book This Ship&apos;s Port Days</h2>
+            <p className="text-sm text-gray-600 mb-5">
+              Match excursions to your itinerary with the Caribbean Excursion Finder, or open the cruise line shore
+              excursions guide for fleet-wide recommendations.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <Link href="/caribbean-excursion-finder" className="btn-primary text-sm">
+                Caribbean Excursion Finder
+              </Link>
+              {line && (
+                <Link href={`/${line.pageSlug}`} className="btn-secondary text-sm">
+                  {line.name} Shore Excursions Guide
+                </Link>
+              )}
+              <Link href="/ship-schedules" className="btn-secondary text-sm">
+                Check Ship Schedules
+              </Link>
+            </div>
+          </section>
 
           {ship.faqs.length > 0 && <FAQSection faqs={ship.faqs} />}
         </div>

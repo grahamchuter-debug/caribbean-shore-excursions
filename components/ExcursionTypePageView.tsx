@@ -158,7 +158,7 @@ export function ExcursionTypePageView({
                       {site.portName}
                     </p>
                     <p className="mt-1 font-semibold text-gray-900">{site.siteLabel}</p>
-                    <p className="mt-2 text-sm text-caribbean-700">View excursion options →</p>
+                    <p className="mt-2 text-sm text-caribbean-700">View recommended excursions →</p>
                   </a>
                 ))}
               </div>
@@ -207,10 +207,16 @@ export function ExcursionTypePageView({
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Best Ports</h2>
             <div className="space-y-4">
               {type.bestPorts.map((port) => (
-                <Link key={port.slug} href={`/ports/${port.slug}`} className="card block hover:border-caribbean-200">
+                <div key={port.slug} className="card block hover:border-caribbean-200">
                   <h3 className="font-semibold text-gray-900">{port.name}</h3>
                   <p className="mt-1 text-sm text-gray-600">{port.reason}</p>
-                </Link>
+                  <ExcursionCardCTAs
+                    portSlug={port.slug}
+                    excursionTypeSlug={type.slug}
+                    text={`${type.name} ${port.reason}`}
+                    className="mt-4"
+                  />
+                </div>
               ))}
             </div>
           </section>

@@ -1,6 +1,6 @@
-import Link from "next/link";
 import type { Port } from "@/data/types";
 import { DestinationHeroBand } from "@/components/DestinationHeroBand";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 
 interface AuthorityPortCardProps {
   port: Port;
@@ -23,19 +23,7 @@ export function AuthorityPortCard({ port, description, bestFor }: AuthorityPortC
       <div className="flex flex-1 flex-col p-5 sm:p-6">
         <p className="text-xs font-medium text-gray-500">Why we recommend it</p>
         <p className="mt-2 text-sm leading-relaxed text-gray-700 flex-1">{description}</p>
-        <div className="mt-6 flex flex-col gap-2 sm:flex-row">
-          <Link href={`/ports/${port.slug}`} className="btn-primary flex-1 text-center text-sm">
-            Port guide
-          </Link>
-          <a
-            href={port.specialistUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn-secondary flex-1 text-center text-sm"
-          >
-            Local specialists
-          </a>
-        </div>
+        <ExcursionCardCTAs portSlug={port.slug} sectionHint={port.bestFor} className="mt-6" />
       </div>
     </article>
   );

@@ -15,6 +15,7 @@ import { hasShipSchedule } from "@/lib/routes";
 import { evaluatePortConfidence } from "@/lib/cruise-confidence";
 import { DestinationHeroBand } from "@/components/DestinationHeroBand";
 import { CruiseConfidenceCard } from "@/components/CruiseConfidenceCard";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 
 const CATEGORIES: { key: keyof Comparison; label: string }[] = [
   { key: "overview", label: "Overview" },
@@ -92,17 +93,7 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
                     portSlug={comp.portASlug}
                   />
                   <div className="flex flex-wrap gap-2 p-5">
-                    <Link href={`/ports/${comp.portASlug}`} className="btn-primary text-xs">
-                      {comp.portA} guide
-                    </Link>
-                    <a
-                      href={portA.specialistUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn-secondary text-xs"
-                    >
-                      {portA.specialistName}
-                    </a>
+                    <ExcursionCardCTAs portSlug={comp.portASlug} className="mt-0" />
                   </div>
                 </div>
               )}
@@ -118,17 +109,7 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
                     portSlug={comp.portBSlug}
                   />
                   <div className="flex flex-wrap gap-2 p-5">
-                    <Link href={`/ports/${comp.portBSlug}`} className="btn-primary text-xs">
-                      {comp.portB} guide
-                    </Link>
-                    <a
-                      href={portB.specialistUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn-secondary text-xs"
-                    >
-                      {portB.specialistName}
-                    </a>
+                    <ExcursionCardCTAs portSlug={comp.portBSlug} className="mt-0" />
                   </div>
                 </div>
               )}

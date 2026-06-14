@@ -8,6 +8,7 @@ import {
 export interface ExcursionCardCTAsProps extends SpecialistExcursionUrlInput {
   portSlug: string;
   className?: string;
+  variant?: "default" | "on-dark";
 }
 
 export function ExcursionCardCTAs({
@@ -18,6 +19,7 @@ export function ExcursionCardCTAs({
   guideHref,
   text,
   className,
+  variant = "default",
 }: ExcursionCardCTAsProps) {
   const specialistHref = getSpecialistExcursionUrl(portSlug, {
     excursionTypeSlug,
@@ -27,6 +29,11 @@ export function ExcursionCardCTAs({
     text,
   });
   const scheduleCta = getBestScheduleUrl({ portSlug });
+  const primaryClass = variant === "on-dark" ? "btn-primary bg-white text-caribbean-800 hover:bg-caribbean-50" : "btn-primary";
+  const secondaryClass =
+    variant === "on-dark"
+      ? "btn-secondary border-white/70 text-white hover:bg-white/10"
+      : "btn-secondary";
 
   return (
     <div className={`flex flex-wrap gap-2 ${className ?? "mt-4"}`}>
@@ -34,15 +41,15 @@ export function ExcursionCardCTAs({
         href={specialistHref}
         target="_blank"
         rel="noopener noreferrer"
-        className="btn-primary text-xs"
+        className={`${primaryClass} text-xs`}
       >
-        View Excursion Options
+        View Recommended Excursions
       </a>
-      <Link href={`/ports/${portSlug}`} className="btn-secondary text-xs">
+      <Link href={`/ports/${portSlug}`} className={`${secondaryClass} text-xs`}>
         View Port Guide
       </Link>
       {scheduleCta && (
-        <Link href={scheduleCta.href} className="btn-secondary text-xs">
+        <Link href={scheduleCta.href} className={`${secondaryClass} text-xs`}>
           Check Ship Schedule
         </Link>
       )}

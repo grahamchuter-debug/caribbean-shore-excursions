@@ -1,9 +1,7 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { getPortBySlug, getAllPortSlugs } from "@/data/ports";
 import { getPortAuthority } from "@/data/port-authority";
-import { getBestScheduleUrl } from "@/lib/schedule-cta-url";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { PortPageHero } from "@/components/PortPageHero";
 import { FAQSection } from "@/components/FAQSection";
@@ -12,6 +10,8 @@ import { PortRelatedLinks } from "@/components/PortRelatedLinks";
 import { PortAuthoritySections } from "@/components/PortAuthoritySections";
 import { PortPlanningToolkit } from "@/components/PortPlanningToolkit";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import { BookingJourneyPanel } from "@/components/BookingJourneyPanel";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 import { CruisePortInformationBox } from "@/components/CruisePortInformationBox";
 import { getPortRelatedLinks } from "@/data/port-related";
 import { JsonLd } from "@/components/JsonLd";
@@ -68,7 +68,6 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
     { name: "Caribbean Ports", path: "/ports" },
     { name: port.name, path: `/ports/${slug}` },
   ];
-  const scheduleCta = getBestScheduleUrl({ portSlug: slug });
 
   return (
     <>
@@ -83,7 +82,9 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
           }),
         ]}
       />
-      <PortPageHero port={port} title={heroTitle} subtitle={heroIntro} />
+      <PortPageHero port={port} title={heroTitle} subtitle={heroIntro}>
+        <ExcursionCardCTAs portSlug={slug} variant="on-dark" className="mt-0" />
+      </PortPageHero>
       <article className="section-padding">
         <div className="container-wide max-w-5xl">
           <Breadcrumbs items={breadcrumbs} />
@@ -105,25 +106,18 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
                 </div>
               ))}
             </div>
+            <ExcursionCardCTAs portSlug={slug} className="mt-6" />
           </section>
 
           <SpecialistLocalGuide portSlug={slug} />
 
           <PortRelatedLinks links={getPortRelatedLinks(slug)} />
 
-          <section className="mb-12 flex flex-wrap gap-4">
-            {scheduleCta && (
-              <Link href={scheduleCta.href} className="btn-secondary text-sm">
-                {port.name} Ship Schedule
-              </Link>
-            )}
-            <Link href="/excursion-types" className="btn-secondary text-sm">
-              Excursion Types
-            </Link>
-            <Link href="/cruise-lines" className="btn-secondary text-sm">
-              Cruise Lines
-            </Link>
-          </section>
+          <BookingJourneyPanel
+            portSlug={slug}
+            title={`Book ${port.name} shore excursions`}
+            description="Compare recommended excursions with local specialists, revisit this port guide, or check which ships are in port on your sailing date."
+          />
 
           <FAQSection faqs={port.faqs} />
 

@@ -1,10 +1,12 @@
 import { notFound } from "next/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { getCruiseLineBySlug, getAllCruiseLineSlugs } from "@/data/cruise-lines";
+import Link from "next/link";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { CruiseLinePlanningSections } from "@/components/CruiseLinePlanningSections";
+import { BookingJourneyPanel } from "@/components/BookingJourneyPanel";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
@@ -64,6 +66,18 @@ export default async function CruiseLinePage({
         <div className="container-wide max-w-4xl">
           <Breadcrumbs items={breadcrumbs} />
           <CruiseLinePlanningSections line={line} variant="hub" />
+          <BookingJourneyPanel
+            title={`Book ${line.name} Caribbean shore excursions`}
+            description={`Open the ${line.name} shore excursions guide, match ports in the Excursion Finder, or check ship schedules before you book independent tours.`}
+          />
+          <div className="mt-8 flex flex-wrap gap-3">
+            <Link href={`/${line.pageSlug}`} className="btn-primary text-sm">
+              {line.name} Shore Excursions Guide
+            </Link>
+            <Link href="/caribbean-excursion-finder" className="btn-secondary text-sm">
+              Caribbean Excursion Finder
+            </Link>
+          </div>
           <div className="mt-12">
             <FAQSection faqs={line.faqs} />
           </div>

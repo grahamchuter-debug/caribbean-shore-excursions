@@ -14,6 +14,8 @@ import {
   getFeaturedBestCaribbeanGuides,
 } from "@/data/best-caribbean-guides-hub";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import { BookingJourneyPanel } from "@/components/BookingJourneyPanel";
+import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 import { ExploreByRegion } from "@/components/ExploreByRegion";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -287,10 +289,13 @@ export default function CruisePlannerPage() {
             </p>
             <div className="grid gap-3 sm:grid-cols-2">
               {ports.map((port) => (
-                <Link key={port.slug} href={`/ports/${port.slug}`} className="card text-sm hover:border-caribbean-200">
-                  <span className="font-semibold text-gray-900">{port.name}</span>
+                <div key={port.slug} className="card text-sm hover:border-caribbean-200">
+                  <Link href={`/ports/${port.slug}`} className="font-semibold text-gray-900 hover:text-caribbean-700">
+                    {port.name}
+                  </Link>
                   <span className="text-gray-500"> ({port.region})</span>
-                </Link>
+                  <ExcursionCardCTAs portSlug={port.slug} className="mt-3" />
+                </div>
               ))}
             </div>
           </div>
@@ -375,6 +380,11 @@ export default function CruisePlannerPage() {
               ))}
             </div>
           </div>
+
+          <BookingJourneyPanel
+            title="Continue your Caribbean booking journey"
+            description="You have compared ports and excursion types — now match recommendations to your ship, open port guides, or check schedules before you book."
+          />
 
           <AuthorityHubLinks />
         </div>
