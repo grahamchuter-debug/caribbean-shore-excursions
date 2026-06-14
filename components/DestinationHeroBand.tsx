@@ -46,8 +46,8 @@ export function DestinationHeroBand({
         />
       ) : null}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_20%_0%,rgba(255,255,255,0.15),transparent_50%)]" />
-      <div className="absolute inset-0 bg-gradient-to-t from-gray-950/85 via-gray-900/35 to-gray-900/10" />
-      <div className="absolute inset-0 bg-gradient-to-r from-gray-950/40 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-gray-950/90 via-gray-900/50 to-gray-900/15" />
+      <div className="absolute inset-0 bg-gradient-to-r from-gray-950/45 via-transparent to-transparent" />
       {eyebrow && (
         <div className="absolute left-4 top-4 z-10 sm:left-5 sm:top-5">
           <span className="inline-flex rounded-full border border-white/20 bg-white/10 px-3 py-1 text-[11px] font-medium tracking-wide text-white/95 backdrop-blur-sm">
@@ -56,11 +56,13 @@ export function DestinationHeroBand({
         </div>
       )}
       <div className="absolute bottom-0 left-0 right-0 z-10 p-4 sm:p-5">
-        <h3 className="font-display text-xl font-semibold leading-tight text-white drop-shadow-md sm:text-2xl">
+        <h3 className="font-display text-xl font-semibold leading-tight text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.55)] sm:text-2xl">
           {title}
         </h3>
         {subtitle && (
-          <p className="mt-1.5 text-sm font-normal leading-relaxed text-white/90">{subtitle}</p>
+          <p className="mt-1.5 text-sm font-normal leading-relaxed text-white/95 drop-shadow-[0_1px_4px_rgba(0,0,0,0.45)]">
+            {subtitle}
+          </p>
         )}
       </div>
       {children}

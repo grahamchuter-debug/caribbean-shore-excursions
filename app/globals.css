@@ -49,24 +49,42 @@
   }
 
   .card {
-    @apply rounded-2xl border border-gray-100/90 bg-white p-6 shadow-editorial transition-all duration-300 ease-out hover:-translate-y-0.5 hover:border-caribbean-100 hover:shadow-premium-hover;
+    @apply rounded-2xl border border-gray-100/90 bg-white p-6 text-gray-900 shadow-editorial transition-[transform,box-shadow,border-color] duration-300 ease-out;
   }
 
   .card-gradient {
-    @apply relative overflow-hidden rounded-2xl border border-caribbean-100/80 bg-card-gradient p-6 shadow-editorial transition-all duration-300 ease-out hover:-translate-y-0.5 hover:border-caribbean-200/80 hover:shadow-premium-hover;
+    @apply relative overflow-hidden rounded-2xl border border-caribbean-100/80 bg-card-gradient p-6 text-gray-900 shadow-editorial transition-[transform,box-shadow,border-color] duration-300 ease-out;
   }
 
   .card-gradient::before {
     content: "";
-    @apply pointer-events-none absolute inset-0 bg-card-shine opacity-80;
+    @apply pointer-events-none absolute inset-0 z-0 bg-card-shine opacity-40 transition-opacity duration-300 ease-out;
   }
 
   .card-gradient > * {
-    @apply relative;
+    @apply relative z-[1];
   }
 
   .card-editorial {
-    @apply overflow-hidden rounded-2xl border border-gray-100/90 bg-white shadow-editorial transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-premium-hover;
+    @apply overflow-hidden rounded-2xl border border-gray-100/90 bg-white text-gray-900 shadow-editorial transition-[transform,box-shadow] duration-300 ease-out;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .card:hover {
+      @apply -translate-y-0.5 border-caribbean-100 shadow-premium-hover;
+    }
+
+    .card-gradient:hover {
+      @apply -translate-y-0.5 border-caribbean-200/80 shadow-premium-hover;
+    }
+
+    .card-gradient:hover::before {
+      @apply opacity-70;
+    }
+
+    .card-editorial:hover {
+      @apply -translate-y-1 shadow-premium-hover;
+    }
   }
 
   .card-feature {
