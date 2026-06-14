@@ -17,8 +17,10 @@ import { JsonLd } from "@/components/JsonLd";
 import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
+import { MeetingPointSnapshot } from "@/components/MeetingPointSnapshot";
 import { evaluatePortConfidence } from "@/lib/cruise-confidence";
 import { CruiseConfidenceBadge } from "@/components/CruiseConfidenceBadge";
+import { matchesSignatureExcursion } from "@/lib/excursion-logistics";
 
 function CategorySection({
   title,
@@ -62,6 +64,14 @@ function CategorySection({
                 </Link>
               </p>
               <p className="mt-2 text-gray-600 leading-relaxed text-sm">{pick.description}</p>
+              {matchesSignatureExcursion(pick.portSlug, pick.excursionName) && (
+                <MeetingPointSnapshot
+                  portSlug={pick.portSlug}
+                  excursionName={pick.excursionName}
+                  compact
+                  className="mt-4"
+                />
+              )}
               <ExcursionCardCTAs
                 portSlug={pick.portSlug}
                 sectionHint={sectionHint ?? title}
@@ -115,6 +125,23 @@ export function PortExcursionAuthorityPageView({ page }: { page: PortExcursionAu
               for the full authority guide or specialist booking site.
             </p>
             <PortExcursionAuthorityTable rows={page.portTable} />
+          </section>
+
+          <section className="mb-12">
+            <h2 className="section-title text-2xl sm:text-3xl mb-2">Meeting Point Snapshots</h2>
+            <p className="section-subtitle mb-6">
+              First-time cruise passengers: where to meet, how far from your ship, and whether you need a taxi —
+              for each port&apos;s signature excursion.
+            </p>
+            <div className="grid gap-5 lg:grid-cols-2">
+              {page.portTable.map((row) => (
+                <MeetingPointSnapshot
+                  key={row.portSlug}
+                  portSlug={row.portSlug}
+                  excursionName={row.bestExcursion}
+                />
+              ))}
+            </div>
           </section>
 
           <section className="mb-12 rounded-xl border border-caribbean-200 bg-caribbean-50/50 p-6 sm:p-8">

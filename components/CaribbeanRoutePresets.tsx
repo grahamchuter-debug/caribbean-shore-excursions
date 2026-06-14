@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { popularCaribbeanRoutes } from "@/data/excursion-finder";
 import { getPortBySlug } from "@/data/ports";
+import { NavCardIcon } from "@/components/NavCardIcon";
 
 interface CaribbeanRoutePresetsProps {
   linkToFinder?: boolean;
@@ -17,11 +18,16 @@ export function CaribbeanRoutePresets({ linkToFinder = true }: CaribbeanRoutePre
 
         const inner = (
           <>
-            <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">Cruise route</p>
-            <h3 className="mt-2 font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
-              {route.title}
-            </h3>
-            <p className="mt-2 text-sm text-gray-600">{portNames}</p>
+            <div className="flex items-start gap-4">
+              <NavCardIcon icon="route" />
+              <div className="min-w-0 flex-1">
+                <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">Cruise route</p>
+                <h3 className="mt-1 font-display text-lg font-bold text-gray-900 transition-colors group-hover:text-caribbean-800">
+                  {route.title}
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-gray-600">{portNames}</p>
+              </div>
+            </div>
             <div className="mt-3 flex flex-wrap gap-2">
               {route.tags.map((tag) => (
                 <span
@@ -32,7 +38,7 @@ export function CaribbeanRoutePresets({ linkToFinder = true }: CaribbeanRoutePre
                 </span>
               ))}
             </div>
-            <span className="mt-4 inline-flex items-center text-sm font-medium text-caribbean-700">
+            <span className="mt-4 inline-flex items-center text-sm font-semibold text-caribbean-700">
               {linkToFinder ? "Use in finder →" : "Open route →"}
             </span>
           </>
@@ -43,7 +49,7 @@ export function CaribbeanRoutePresets({ linkToFinder = true }: CaribbeanRoutePre
             <Link
               key={route.id}
               href={`/caribbean-excursion-finder?route=${route.id}`}
-              className="card-gradient group hover:border-caribbean-300"
+              className="nav-card group"
             >
               {inner}
             </Link>
@@ -51,7 +57,7 @@ export function CaribbeanRoutePresets({ linkToFinder = true }: CaribbeanRoutePre
         }
 
         return (
-          <div key={route.id} className="card-gradient">
+          <div key={route.id} className="nav-card">
             {inner}
           </div>
         );

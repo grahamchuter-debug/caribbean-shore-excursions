@@ -53,6 +53,28 @@ export interface ExcursionItem {
   rating?: number;
 }
 
+export type TaxiNeeded = "yes" | "no" | "optional";
+export type WalkingRealistic = "yes" | "no" | "depends";
+
+/** Phase 1 logistics for each port's signature excursion. */
+export interface SignatureExcursionLogistics {
+  portSlug: string;
+  excursionName: string;
+  meetingPoint: string;
+  distanceFromShip: string;
+  walkingTime: string;
+  taxiNeeded: TaxiNeeded;
+  walkingRealistic: WalkingRealistic;
+  likelyPier: string;
+  /** Google Maps search or place URL when destination is well established. */
+  googleMapsUrl?: string;
+  googleMapsLabel?: string;
+  passengerNote: string;
+}
+
+export const MEETING_POINT_DISCLAIMER =
+  "Meeting points can vary by operator and ship berth. Always check your final voucher before travelling.";
+
 export interface PortInfo {
   dockType: string;
   walkingDistance: string;

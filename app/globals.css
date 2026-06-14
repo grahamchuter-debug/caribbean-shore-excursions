@@ -53,12 +53,25 @@
   }
 
   .card-gradient {
-    @apply relative overflow-hidden rounded-2xl border border-caribbean-100/80 bg-card-gradient p-6 text-gray-900 shadow-editorial transition-[transform,box-shadow,border-color] duration-300 ease-out;
+    @apply relative overflow-hidden rounded-2xl border border-caribbean-100/80 bg-white p-6 text-gray-900 shadow-editorial transition-[transform,box-shadow,border-color,background-color] duration-300 ease-out;
+  }
+
+  .nav-card {
+    @apply relative block overflow-hidden rounded-2xl border border-gray-200/90 bg-white p-5 text-gray-900 shadow-editorial transition-[transform,box-shadow,border-color,background-color] duration-300 ease-out sm:p-6;
+  }
+
+  .nav-card::before {
+    content: "";
+    @apply pointer-events-none absolute inset-x-0 top-0 z-0 h-1 bg-gradient-to-r from-caribbean-600 via-turquoise to-caribbean-400;
+  }
+
+  .nav-card > * {
+    @apply relative z-[1];
   }
 
   .card-gradient::before {
     content: "";
-    @apply pointer-events-none absolute inset-0 z-0 bg-card-shine opacity-40 transition-opacity duration-300 ease-out;
+    @apply pointer-events-none absolute inset-x-0 top-0 z-0 h-1 bg-gradient-to-r from-caribbean-500/80 via-turquoise/70 to-caribbean-300/80;
   }
 
   .card-gradient > * {
@@ -75,11 +88,11 @@
     }
 
     .card-gradient:hover {
-      @apply -translate-y-0.5 border-caribbean-200/80 shadow-premium-hover;
+      @apply -translate-y-0.5 border-caribbean-200 bg-caribbean-50/40 shadow-premium-hover;
     }
 
-    .card-gradient:hover::before {
-      @apply opacity-70;
+    .nav-card:hover {
+      @apply -translate-y-0.5 border-caribbean-200 bg-caribbean-50/40 shadow-premium-hover;
     }
 
     .card-editorial:hover {

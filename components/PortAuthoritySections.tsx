@@ -1,10 +1,13 @@
 import type { Port } from "@/data/types";
 import type { PortAuthorityContent } from "@/data/types";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
+import { MeetingPointSnapshot } from "@/components/MeetingPointSnapshot";
 import { evaluateExcursionConfidence, evaluatePortConfidence } from "@/lib/cruise-confidence";
 import { CruiseConfidenceBadge } from "@/components/CruiseConfidenceBadge";
 import { CruiseConfidenceLabels } from "@/components/CruiseConfidenceLabels";
 import { CruiseConfidenceCard } from "@/components/CruiseConfidenceCard";
+import { getSignatureExcursionLogistics } from "@/data/excursion-logistics";
+import { matchesSignatureExcursion } from "@/lib/excursion-logistics";
 
 export function PortAuthoritySections({
   port,
@@ -15,6 +18,11 @@ export function PortAuthoritySections({
 }) {
   const overviewLead = port.overview.split(". ").slice(0, 2).join(". ") + ".";
   const portConfidence = evaluatePortConfidence(port.slug);
+  const signatureLogistics = getSignatureExcursionLogistics(port.slug);
+  const featuredExcursions = port.bestExcursions.slice(0, 4);
+  const signatureShownInGrid = featuredExcursions.some((exc) =>
+    matchesSignatureExcursion(port.slug, exc.name),
+  );
 
   return (
     <>
@@ -45,13 +53,19 @@ export function PortAuthoritySections({
       <section className="mb-10">
         <h2 className="section-title text-xl sm:text-2xl mb-4">Top Shore Excursions</h2>
         <div className="grid gap-3 sm:grid-cols-2">
-          {port.bestExcursions.slice(0, 4).map((exc) => {
+          {featuredExcursions.map((exc) => {
             const confidence = evaluateExcursionConfidence(port.slug, exc);
+            const isSignature = matchesSignatureExcursion(port.slug, exc.name);
             return (
-            <div key={exc.name} className="rounded-lg border border-gray-200 bg-white p-4">
+            <div key={exc.name} className={`rounded-lg border bg-white p-4 ${isSignature ? "border-caribbean-200 ring-1 ring-caribbean-100" : "border-gray-200"}`}>
               <div className="flex items-start justify-between gap-2">
                 <h3 className="font-semibold text-gray-900 text-sm sm:text-base">{exc.name}</h3>
                 <div className="flex shrink-0 flex-col items-end gap-1">
+                  {isSignature && (
+                    <span className="rounded-full bg-caribbean-700 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">
+                      Signature pick
+                    </span>
+                  )}
                   {exc.rating && (
                     <span className="text-xs text-tropical-mango font-semibold">★ {exc.rating}</span>
                   )}
@@ -64,6 +78,14 @@ export function PortAuthoritySections({
                 <span>·</span>
                 <span>{exc.type}</span>
               </div>
+              {isSignature && (
+                <MeetingPointSnapshot
+                  portSlug={port.slug}
+                  excursionName={exc.name}
+                  compact
+                  className="mt-4"
+                />
+              )}
               <CruiseConfidenceLabels labels={confidence.supportingLabels} className="mt-3" compact />
               <ExcursionCardCTAs
                 portSlug={port.slug}
@@ -74,6 +96,13 @@ export function PortAuthoritySections({
             );
           })}
         </div>
+        {signatureLogistics && !signatureShownInGrid && (
+          <MeetingPointSnapshot
+            portSlug={port.slug}
+            excursionName={signatureLogistics.excursionName}
+            className="mt-4"
+          />
+        )}
       </section>
 
       <section className="mb-10">

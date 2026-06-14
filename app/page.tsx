@@ -25,6 +25,9 @@ import { HeroBackground } from "@/components/HeroBackground";
 import { PortSearch } from "@/components/PortSearch";
 import { FindMyCruiseShip } from "@/components/FindMyCruiseShip";
 import { TrustBadgeStrip } from "@/components/TrustBadge";
+import { HomeActionCard } from "@/components/HomeActionCard";
+import { NavCardIcon, excursionTypeNavIcon } from "@/components/NavCardIcon";
+import { homepageNavActions } from "@/data/homepage-nav";
 
 export const metadata = buildMetadata({
   title: "Caribbean Shore Excursion Planner | Ports, Ship Schedules & Cruise Tours",
@@ -92,25 +95,27 @@ export default function HomePage() {
           <div className="mt-8">
             <TrustBadgeStrip variant="dark" />
           </div>
-          <div className="mt-10 flex flex-wrap gap-4">
-            <Link
-              href="/ports"
-              className="btn-primary bg-white text-caribbean-800 hover:bg-caribbean-50 hover:text-caribbean-900"
-            >
-              Explore Caribbean Ports
-            </Link>
-            <Link href="/ship-schedules" className="btn-secondary border-white text-white hover:bg-white/10">
-              View Ship Schedules
-            </Link>
-            <Link
-              href="/caribbean-excursion-finder"
-              className="btn-secondary border-white/60 text-white hover:bg-white/10"
-            >
-              Find My Excursions
-            </Link>
-          </div>
           <div className="mt-10 max-w-2xl">
             <PortSearch variant="home" />
+          </div>
+          <div className="mt-8">
+            <p className="mb-4 text-sm font-medium text-caribbean-100">Start planning</p>
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 max-w-5xl">
+              {homepageNavActions.map((action) => (
+                <div
+                  key={action.href}
+                  className="rounded-2xl border border-white/20 bg-white/95 p-1 shadow-lg backdrop-blur-sm"
+                >
+                  <HomeActionCard
+                    href={action.href}
+                    title={action.title}
+                    description={action.description}
+                    icon={action.icon}
+                    actionLabel={action.actionLabel}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -252,12 +257,17 @@ export default function HomePage() {
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {comparisons.map((comp) => (
-              <Link key={comp.slug} href={`/compare/${comp.slug}`} className="card-gradient group">
-                <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700 transition-colors">
-                  {comp.portA} vs {comp.portB}
-                </h3>
-                <p className="mt-2 text-sm text-gray-600 line-clamp-3">{comp.summary}</p>
-                <span className="mt-4 inline-flex items-center text-sm font-medium text-caribbean-700">
+              <Link key={comp.slug} href={`/compare/${comp.slug}`} className="nav-card group">
+                <div className="flex items-start gap-4">
+                  <NavCardIcon icon="compare" />
+                  <div className="min-w-0 flex-1">
+                    <h3 className="font-display text-lg font-bold text-gray-900 transition-colors group-hover:text-caribbean-800">
+                      {comp.portA} vs {comp.portB}
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-gray-600 line-clamp-3">{comp.summary}</p>
+                  </div>
+                </div>
+                <span className="mt-4 inline-flex items-center text-sm font-semibold text-caribbean-700">
                   Read comparison
                   <svg className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -285,11 +295,16 @@ export default function HomePage() {
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {excursionTypes.map((type) => (
-              <Link key={type.slug} href={`/excursion-types/${type.slug}`} className="card group hover:border-caribbean-200">
-                <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
-                  {type.name}
-                </h3>
-                <p className="mt-2 text-sm text-gray-600">{type.tagline}</p>
+              <Link key={type.slug} href={`/excursion-types/${type.slug}`} className="nav-card group">
+                <div className="flex items-start gap-4">
+                  <NavCardIcon icon={excursionTypeNavIcon(type.slug)} />
+                  <div className="min-w-0 flex-1">
+                    <h3 className="font-display text-lg font-bold text-gray-900 transition-colors group-hover:text-caribbean-800">
+                      {type.name}
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-gray-600">{type.tagline}</p>
+                  </div>
+                </div>
               </Link>
             ))}
           </div>
@@ -312,11 +327,16 @@ export default function HomePage() {
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {cruiseLines.map((line) => (
-              <Link key={line.slug} href={`/cruise-lines/${line.slug}`} className="card-gradient group">
-                <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
-                  {line.name}
-                </h3>
-                <p className="mt-2 text-sm text-gray-600">{line.tagline}</p>
+              <Link key={line.slug} href={`/cruise-lines/${line.slug}`} className="nav-card group">
+                <div className="flex items-start gap-4">
+                  <NavCardIcon icon="cruise-line" />
+                  <div className="min-w-0 flex-1">
+                    <h3 className="font-display text-lg font-bold text-gray-900 transition-colors group-hover:text-caribbean-800">
+                      {line.name}
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-gray-600">{line.tagline}</p>
+                  </div>
+                </div>
               </Link>
             ))}
           </div>
@@ -344,12 +364,17 @@ export default function HomePage() {
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {featuredBestGuides.map((guide, index) => (
-              <Link key={guide.slug} href={`/${guide.slug}`} className="card group hover:border-caribbean-200">
-                <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">Guide {index + 1}</p>
-                <h3 className="mt-1 font-display text-base font-bold text-gray-900 group-hover:text-caribbean-700 leading-snug">
-                  {guide.title}
-                </h3>
-                <p className="mt-2 text-sm text-gray-600 line-clamp-2">{guide.heroSubtitle}</p>
+              <Link key={guide.slug} href={`/${guide.slug}`} className="nav-card group">
+                <div className="flex items-start gap-4">
+                  <NavCardIcon icon="guide" />
+                  <div className="min-w-0 flex-1">
+                    <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">Guide {index + 1}</p>
+                    <h3 className="mt-1 font-display text-base font-bold text-gray-900 transition-colors group-hover:text-caribbean-800 leading-snug">
+                      {guide.title}
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-gray-600 line-clamp-2">{guide.heroSubtitle}</p>
+                  </div>
+                </div>
               </Link>
             ))}
           </div>
@@ -379,11 +404,16 @@ export default function HomePage() {
           </p>
           <div className="grid gap-4 sm:grid-cols-3">
             {itineraryPlanners.map((planner) => (
-              <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient group">
-                <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
-                  {planner.title}
-                </h3>
-                <p className="mt-2 text-sm text-gray-600 line-clamp-3">{planner.heroSubtitle}</p>
+              <Link key={planner.slug} href={`/${planner.slug}`} className="nav-card group">
+                <div className="flex items-start gap-4">
+                  <NavCardIcon icon="planner" />
+                  <div className="min-w-0 flex-1">
+                    <h3 className="font-display text-lg font-bold text-gray-900 transition-colors group-hover:text-caribbean-800">
+                      {planner.title}
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-gray-600 line-clamp-3">{planner.heroSubtitle}</p>
+                  </div>
+                </div>
               </Link>
             ))}
           </div>
@@ -399,11 +429,16 @@ export default function HomePage() {
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {regionalCruisePlanners.map((planner) => (
-              <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient group">
-                <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
-                  {planner.title.replace(" Cruise Planner", "")}
-                </h3>
-                <p className="mt-2 text-sm text-gray-600 line-clamp-3">{planner.heroSubtitle}</p>
+              <Link key={planner.slug} href={`/${planner.slug}`} className="nav-card group">
+                <div className="flex items-start gap-4">
+                  <NavCardIcon icon="planner" />
+                  <div className="min-w-0 flex-1">
+                    <h3 className="font-display text-lg font-bold text-gray-900 transition-colors group-hover:text-caribbean-800">
+                      {planner.title.replace(" Cruise Planner", "")}
+                    </h3>
+                    <p className="mt-2 text-sm leading-relaxed text-gray-600 line-clamp-3">{planner.heroSubtitle}</p>
+                  </div>
+                </div>
               </Link>
             ))}
           </div>
