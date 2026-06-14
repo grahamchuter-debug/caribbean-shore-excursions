@@ -2,6 +2,8 @@ import { HERO_IMAGE } from "@/lib/hero-image";
 
 export interface PdfBrandAssets {
   heroImageDataUrl?: string;
+  /** Per-port destination photography for magazine PDF layouts. */
+  portHeroDataUrls?: Record<string, string>;
 }
 
 function blobToDataUrl(blob: Blob): Promise<string> {

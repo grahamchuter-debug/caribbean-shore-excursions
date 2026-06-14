@@ -13,9 +13,9 @@ interface TestScenario {
 }
 
 const SCENARIOS: TestScenario[] = [
+  { label: "Norwegian Viva", shipSlug: "viva" },
   { label: "Regal Princess", shipSlug: "regal-princess" },
   { label: "MSC World America", shipSlug: "world-america" },
-  { label: "Celebrity Ascent", shipSlug: "ascent" },
 ];
 
 const PROJECT_ROOT = join(import.meta.dirname, "..");

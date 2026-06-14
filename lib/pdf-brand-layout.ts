@@ -69,7 +69,16 @@ export function drawPillBadge(
 const CONFIDENCE_BADGE_COLORS: Record<CruiseConfidenceLevel, Rgb> = {
   high: [16, 120, 84],
   medium: [180, 120, 8],
-  "plan-carefully": [190, 60, 60],
+  "plan-carefully": [72, 88, 120],
+};
+
+const CONFIDENCE_PANEL_PALETTE: Record<
+  CruiseConfidenceLevel,
+  { bg: Rgb; accent: Rgb }
+> = {
+  high: { bg: [240, 250, 246], accent: [16, 120, 84] },
+  medium: { bg: [255, 250, 240], accent: [180, 120, 8] },
+  "plan-carefully": { bg: [245, 247, 252], accent: [72, 88, 120] },
 };
 
 export function drawConfidenceBadge(
@@ -281,10 +290,13 @@ export function drawHeroImageBand(
   y: number,
   w: number,
   h: number,
+  imageDataUrl?: string,
 ): void {
-  if (assets.heroImageDataUrl) {
+  const heroUrl = imageDataUrl ?? assets.heroImageDataUrl;
+  if (heroUrl) {
     try {
-      doc.addImage(assets.heroImageDataUrl, "PNG", x, y, w, h, undefined, "FAST");
+      const format = imageFormatFromDataUrl(heroUrl);
+      doc.addImage(heroUrl, format, x, y, w, h, undefined, "FAST");
     } catch {
       drawHeroGradient(doc, x, y, w, h);
     }
@@ -436,6 +448,12 @@ function drawImageVignette(doc: jsPDF, x: number, y: number, w: number, h: numbe
   }
 }
 
+function imageFormatFromDataUrl(dataUrl: string): "PNG" | "JPEG" | "WEBP" {
+  if (dataUrl.includes("image/jpeg")) return "JPEG";
+  if (dataUrl.includes("image/webp")) return "WEBP";
+  return "PNG";
+}
+
 /** Rich destination band — themed gradient with optional hero crop and magazine vignette. */
 export function drawLuxuryImageBand(
   doc: jsPDF,
@@ -446,13 +464,16 @@ export function drawLuxuryImageBand(
   w: number,
   h: number,
   cropOffset = 0,
+  imageDataUrl?: string,
 ): void {
   drawThemeGradientBand(doc, theme, x, y, w, h, false);
 
-  if (assets.heroImageDataUrl) {
+  const heroUrl = imageDataUrl ?? assets.heroImageDataUrl;
+  if (heroUrl) {
     try {
       const imageW = w * 1.35;
-      doc.addImage(assets.heroImageDataUrl, "PNG", x - cropOffset, y, imageW, h, undefined, "FAST");
+      const format = imageFormatFromDataUrl(heroUrl);
+      doc.addImage(heroUrl, format, x - cropOffset, y, imageW, h, undefined, "FAST");
     } catch {
       // Gradient fallback only
     }
@@ -528,6 +549,8 @@ export interface ExperienceCardOptions {
   imageTheme: keyof typeof PDF_PORT_THEMES;
   assets?: PdfBrandAssets;
   cropOffset?: number;
+  portHeroDataUrl?: string;
+  sectionLabel?: string;
 }
 
 /** Magazine-style experience card with imagery and editorial bullets. */
@@ -549,6 +572,7 @@ export function drawExperienceCard(
     w,
     imageH,
     options.cropOffset ?? 0,
+    options.portHeroDataUrl,
   );
 
   doc.setFont(PDF_BRAND.fonts.body, "bold");
@@ -569,7 +593,7 @@ export function drawExperienceCard(
   doc.setFont(PDF_BRAND.fonts.body, "bold");
   doc.setFontSize(7);
   doc.setTextColor(...PDF_BRAND.colors.caribbean800);
-  doc.text("WHY CRUISERS LOVE IT", x + 4, cardY + 6);
+  doc.text((options.sectionLabel ?? "OUR PICK FOR THIS PORT").toUpperCase(), x + 4, cardY + 6);
 
   let bulletY = cardY + 11;
   doc.setFont(PDF_BRAND.fonts.body, "normal");
@@ -595,7 +619,7 @@ export function drawExperienceCard(
   return cardY + cardH + 5;
 }
 
-/** Minimal cover experience preview tile. */
+/** Minimal cover experience preview tile with optional destination photography. */
 export function drawCoverExperienceTile(
   doc: jsPDF,
   portName: string,
@@ -605,19 +629,40 @@ export function drawCoverExperienceTile(
   y: number,
   w: number,
   h: number,
+  portImageDataUrl?: string,
 ): void {
-  drawThemeGradientBand(doc, theme, x, y, w, 14, false);
+  const imageH = 18;
+  drawThemeGradientBand(doc, theme, x, y, w, imageH, false);
+  if (portImageDataUrl) {
+    try {
+      const format = imageFormatFromDataUrl(portImageDataUrl);
+      doc.addImage(portImageDataUrl, format, x, y, w, imageH, undefined, "FAST");
+      for (let i = 0; i < 4; i++) {
+        const alpha = 0.2 + i * 0.12;
+        const mix = 1 - alpha;
+        doc.setFillColor(
+          Math.round(0 * alpha + theme.end[0] * mix),
+          Math.round(30 * alpha + theme.end[1] * mix),
+          Math.round(50 * alpha + theme.end[2] * mix),
+        );
+        doc.rect(x + (w / 4) * i, y, w / 4 + 0.5, imageH, "F");
+      }
+    } catch {
+      // gradient band only
+    }
+  }
+
   doc.setFont(PDF_BRAND.fonts.body, "bold");
   doc.setFontSize(6);
   doc.setTextColor(...PDF_BRAND.colors.white);
   doc.text(portName.toUpperCase(), x + 3, y + 5);
 
-  drawCardSurface(doc, x, y + 14, w, h - 14, PDF_BRAND.colors.white);
+  drawCardSurface(doc, x, y + imageH, w, h - imageH, PDF_BRAND.colors.white);
   doc.setFont(PDF_BRAND.fonts.display, "bold");
   doc.setFontSize(9);
   doc.setTextColor(...PDF_BRAND.colors.gray900);
   const lines = doc.splitTextToSize(excursionName, w - 6);
-  doc.text(lines.slice(0, 2), x + 3, y + 20);
+  doc.text(lines.slice(0, 2), x + 3, y + imageH + 6);
 }
 
 /** Visual TOC row with destination colour strip. */
@@ -665,6 +710,122 @@ export function drawMagazineTocEntry(
   return h + 3;
 }
 
+function drawEditorialCallout(
+  doc: jsPDF,
+  eyebrow: string,
+  text: string,
+  x: number,
+  y: number,
+  w: number,
+): number {
+  const lines = doc.splitTextToSize(text, w - 8);
+  const lineCount = Math.min(lines.length, 3);
+  const h = 10 + lineCount * 4.2;
+  drawCardSurface(doc, x, y, w, h, PDF_BRAND.colors.white);
+  drawEyebrowLabel(doc, eyebrow, x + 4, y + 6);
+  doc.setFont(PDF_BRAND.fonts.body, "normal");
+  doc.setFontSize(8.5);
+  doc.setTextColor(...PDF_BRAND.colors.gray700);
+  doc.text(lines.slice(0, lineCount), x + 4, y + 11);
+  return h;
+}
+
+/** Destination editorial moments — why visit, expert tip, photo spot. */
+export function drawPortEditorialMoments(
+  doc: jsPDF,
+  editorial: { whySpecial: string; expertTip: string; photoMoment: string },
+  x: number,
+  y: number,
+  w: number,
+): number {
+  const colW = (w - 4) / 2;
+  let cy = y;
+
+  const whyH = drawEditorialCallout(doc, "Why this port is special", editorial.whySpecial, x, cy, w);
+  cy += whyH + 3;
+
+  const tipH = drawEditorialCallout(doc, "Local expert tip", editorial.expertTip, x, cy, colW);
+  const photoH = drawEditorialCallout(doc, "Best photo moment", editorial.photoMoment, x + colW + 4, cy, colW);
+  cy += Math.max(tipH, photoH) + 3;
+
+  return cy;
+}
+
+/** Prominent but calm Cruise Confidence panel for magazine port pages. */
+export function drawLuxuryConfidencePanel(
+  doc: jsPDF,
+  title: string,
+  level: CruiseConfidenceLevel,
+  guidance: string,
+  supportingLabels: string[],
+  timeBuffer: string,
+  x: number,
+  y: number,
+  w: number,
+): number {
+  const palette = CONFIDENCE_PANEL_PALETTE[level];
+  const guidanceLines = doc.splitTextToSize(guidance, w - 16);
+  const lineCount = Math.min(guidanceLines.length, 3);
+  const h = 30 + lineCount * 4;
+
+  doc.setDrawColor(...palette.accent);
+  doc.setLineWidth(0.4);
+  doc.setFillColor(...palette.bg);
+  doc.roundedRect(x, y, w, h, 3, 3, "FD");
+  doc.setFillColor(...palette.accent);
+  doc.roundedRect(x, y, 3, h, 1.5, 1.5, "F");
+
+  drawEyebrowLabel(doc, "Cruise Confidence", x + 8, y + 7);
+  let badgeX = x + 8;
+  badgeX += drawConfidenceBadge(doc, title, level, badgeX, y + 13) + 3;
+
+  doc.setFont(PDF_BRAND.fonts.body, "normal");
+  doc.setFontSize(8.5);
+  doc.setTextColor(...PDF_BRAND.colors.gray700);
+  doc.text(guidanceLines.slice(0, lineCount), x + 8, y + 20);
+
+  let pillX = x + 8;
+  const pillY = y + h - 7;
+  pillX += drawPillBadge(doc, `Buffer · ${timeBuffer}`, pillX, pillY, PDF_BRAND.colors.white, PDF_BRAND.colors.gray700) + 2;
+  for (const label of supportingLabels.slice(0, 2)) {
+    pillX += drawPillBadge(doc, label, pillX, pillY, PDF_BRAND.colors.white, PDF_BRAND.colors.gray700) + 2;
+    if (pillX > x + w - 20) break;
+  }
+
+  return y + h + 4;
+}
+
+/** QR-ready placeholder when live QR generation is unavailable. */
+export function drawQrPlaceholder(
+  doc: jsPDF,
+  x: number,
+  y: number,
+  size: number,
+  caption = "Scan to book",
+): void {
+  doc.setDrawColor(...PDF_BRAND.colors.cardBorder);
+  doc.setFillColor(...PDF_BRAND.colors.white);
+  doc.roundedRect(x, y, size, size, 2, 2, "FD");
+
+  const cell = (size - 4) / 7;
+  doc.setFillColor(...PDF_BRAND.colors.caribbean100);
+  for (let row = 0; row < 7; row++) {
+    for (let col = 0; col < 7; col++) {
+      const corner =
+        (row < 3 && col < 3) || (row < 3 && col > 3) || (row > 3 && col < 3);
+      const checker = (row + col) % 2 === 0;
+      if (corner || checker) {
+        doc.rect(x + 2 + col * cell, y + 2 + row * cell, cell - 0.15, cell - 0.15, "F");
+      }
+    }
+  }
+
+  doc.setFont(PDF_BRAND.fonts.body, "bold");
+  doc.setFontSize(5);
+  doc.setTextColor(...PDF_BRAND.colors.gray600);
+  doc.text(caption, x + size / 2, y + size + 3.5, { align: "center" });
+}
+
 /** Soft invitation CTA — luxury travel brochure tone. */
 export function drawLuxuryInvitationCta(
   doc: jsPDF,
@@ -679,8 +840,9 @@ export function drawLuxuryInvitationCta(
   w: number,
 ): number {
   const heading = options.heading ?? "Begin planning this port day";
-  const hasQr = Boolean(options.qrDataUrl);
-  const boxH = hasQr ? 48 : 36;
+  const primaryLink = links[0];
+  const boxH = 58;
+  const qrSize = 22;
 
   doc.setDrawColor(...PDF_BRAND.colors.caribbean100);
   doc.setFillColor(252, 250, 246);
@@ -695,12 +857,25 @@ export function drawLuxuryInvitationCta(
     doc.setFont(PDF_BRAND.fonts.body, "normal");
     doc.setFontSize(7.5);
     doc.setTextColor(...PDF_BRAND.colors.gray600);
-    doc.text(options.subline, x + 5, y + 13);
+    const sublineLines = doc.splitTextToSize(options.subline, w - qrSize - 14);
+    doc.text(sublineLines.slice(0, 2), x + 5, y + 13);
   }
 
-  const linkAreaW = hasQr ? w - 32 : w - 10;
-  let linkY = y + 18;
-  for (const link of links) {
+  if (primaryLink) {
+    const btnY = y + 20;
+    const btnW = w - qrSize - 14;
+    doc.setFillColor(...PDF_BRAND.colors.caribbean800);
+    doc.roundedRect(x + 5, btnY, btnW, 12, 2.5, 2.5, "F");
+    doc.setFillColor(...PDF_BRAND.colors.caribbean700);
+    doc.roundedRect(x + 6.5, btnY + 1.5, btnW - 3, 9, 2, 2, "F");
+    doc.setTextColor(...PDF_BRAND.colors.white);
+    doc.setFont(PDF_BRAND.fonts.body, "bold");
+    doc.setFontSize(9.5);
+    doc.textWithLink(primaryLink.label, x + 5 + btnW / 2, btnY + 6.5, { align: "center", url: primaryLink.url });
+  }
+
+  let linkY = y + 36;
+  for (const link of links.slice(1)) {
     doc.setFont(PDF_BRAND.fonts.body, "bold");
     doc.setFontSize(8);
     doc.setTextColor(...PDF_BRAND.colors.caribbean800);
@@ -708,15 +883,20 @@ export function drawLuxuryInvitationCta(
     linkY += 5;
   }
 
-  if (hasQr && options.qrDataUrl) {
-    const qrSize = 22;
-    const qrX = x + w - qrSize - 5;
-    const qrY = y + 14;
+  const qrX = x + w - qrSize - 5;
+  const qrY = y + 14;
+  if (options.qrDataUrl) {
     try {
       doc.addImage(options.qrDataUrl, "PNG", qrX, qrY, qrSize, qrSize, undefined, "FAST");
+      doc.setFont(PDF_BRAND.fonts.body, "bold");
+      doc.setFontSize(5);
+      doc.setTextColor(...PDF_BRAND.colors.gray600);
+      doc.text("Scan to book", qrX + qrSize / 2, qrY + qrSize + 3.5, { align: "center" });
     } catch {
-      // optional
+      drawQrPlaceholder(doc, qrX, qrY, qrSize);
     }
+  } else {
+    drawQrPlaceholder(doc, qrX, qrY, qrSize);
   }
 
   return y + boxH + 4;

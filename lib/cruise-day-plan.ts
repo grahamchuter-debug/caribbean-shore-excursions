@@ -300,10 +300,10 @@ function buildScheduleMessage(
   }
 
   if (hasVerified) {
-    return `Cruise schedule information is updated regularly for ${portName}. No ships are listed for ${formatScheduleDisplayDate(date)} in the current import — view the live schedule page for nearby dates.`;
+    return `View the live schedule hub for the latest arrivals and departures at ${portName}.`;
   }
 
-  return `Cruise schedule information is updated regularly. For the latest arrivals and departures, view the live schedule page for ${portName}.`;
+  return `View the live schedule hub for the latest arrivals and departures at ${portName}.`;
 }
 
 function mapShipRows(entries: ScheduleEntry[]): CruiseDayPlanShipRow[] {
