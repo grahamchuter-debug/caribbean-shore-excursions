@@ -1,0 +1,730 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Roatan, Honduras during April 2027 (01 Apr-05 Apr)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Roatan, Honduras during April 2027 Roatan, Honduras sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Roatan, Honduras during April 2027 (01 Apr-05 Apr)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-roatan-honduras.html'>Cruises To Roatan, Honduras</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- prslot1header -->
+<ins class="adsbygoogle prslot1header"
+     style="display:inline-block"
+     data-ad-client="ca-pub-9797911548575941"
+     data-ad-slot="7203331839"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Roatan, Honduras during April 2027</h1>
+Showing 1 to 10 of total 54
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/t/tampa-costamaya-roatan-1.gif' alt='Cruise itinerary map for Carnival Cruises 7 Night Western Caribbean (148831)' title='Cruise itinerary map for Carnival Cruises 7 Night Western Caribbean (148831)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 1 Apr 2027</b><br>
+<b>7 Night Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-legend.html'>Carnival Legend</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/7-day-western-caribbean-cruise/tampa/legend/7-days/cwg/?sailDate=03282027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 7 Night Western Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$863
+Oceanview&nbsp;$1013
+Balcony&nbsp;$1133
+Suite&nbsp;$1943
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (28 Mar d1530); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (30 Mar 0800-1600); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (31 Mar 0800-1700); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (01 Apr 0800-1700); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (02 Apr 0800-1600); 
+<a class=red href='cruises-to-tampa-florida.html'>Tampa, Florida</a>  (04 Apr 0800(+7)1530); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (30 Mar 0800-1600); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (31 Mar 0800-1700); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (01 Apr 0800-1700); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (02 Apr 0800-1600); 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (04 Apr a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivallegend-28mar2027-04apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/t/tampa-costamaya-roatan-1.gif' alt='Cruise itinerary map for Carnival Cruises 7 Night Western Caribbean (148831)' title='Cruise itinerary map for Carnival Cruises 7 Night Western Caribbean (148831)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 1 Apr 2027</b><br>
+<b>7 Night Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-legend.html'>Carnival Legend</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/7-day-western-caribbean-cruise/tampa/legend/7-days/cwg/?sailDate=03282027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 7 Night Western Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$863
+Oceanview&nbsp;$1013
+Balcony&nbsp;$1133
+Suite&nbsp;$1943
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (28 Mar d1530); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (30 Mar 0800-1600); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (31 Mar 0800-1700); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (01 Apr 0800-1700); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (02 Apr 0800-1600); 
+<a class=red href='cruises-to-tampa-florida.html'>Tampa, Florida</a>  (04 Apr 0800(+7)1530); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (30 Mar 0800-1600); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (31 Mar 0800-1700); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (01 Apr 0800-1700); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (02 Apr 0800-1600); 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (04 Apr a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivallegend-28mar2027-04apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-celebrationkey-cozumel.gif' alt='Cruise itinerary map for Carnival Cruises 7 Night Western Caribbean (114432)' title='Cruise itinerary map for Carnival Cruises 7 Night Western Caribbean (114432)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 1 Apr 2027</b><br>
+<b>7 Night Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-venezia.html'>Carnival Venezia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/7-day-western-caribbean-cruise/pt-canaveral/venezia/7-days/wsa/?sailDate=03282027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 7 Night Western Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$822
+Oceanview&nbsp;$997
+Balcony&nbsp;$1232
+Suite&nbsp;$2532
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (28 Mar d1530); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (29 Mar 0800-1600); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (31 Mar 0800-1600); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (01 Apr 0800-1700); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (04 Apr a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalvenezia-28mar2027-04apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/g/galveston-costamaya.gif' alt='Cruise itinerary map for MSC Cruises 7 Night Western Caribbean (23565)' title='Cruise itinerary map for MSC Cruises 7 Night Western Caribbean (23565)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 1 Apr 2027</b><br>
+<b>7 Night Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-seascape.html'>MSC Seascape</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=SC20270328GLSGLS&itineraryCode=UX2T">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 7 Night Western Caribbean at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$544
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-galveston-texas.html'>Galveston, Texas</a>  (28 Mar d1600); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (31 Mar 0800-1800); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (01 Apr 0800-1600); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (02 Apr 0800-1600); 
+<a class=red href='cruises-from-galveston-texas.html'>Galveston, Texas</a>  (04 Apr a0630)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscseascape-28mar2027-04apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/g/galveston-costamaya.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 7 Night Western Caribbean Cruise (23565)' title='Cruise itinerary map for Royal Caribbean Cruises 7 Night Western Caribbean Cruise (23565)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 1 Apr 2027</b><br>
+<b>7 Night Western Caribbean Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-symphony-of-the-seas.html'>Symphony Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/7-night-western-caribbean-from-galveston-on-symphony//SY07W702?country=GBR&sail-date=2027-03-28&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 7 Night Western Caribbean Cruise at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$899
+Outside&nbsp;$1049
+Balcony&nbsp;$1049
+Deluxe&nbsp;$2707
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-galveston-texas.html'>Galveston, Texas</a>  (28 Mar d1500); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (31 Mar 0800-1700); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (01 Apr 0700-1600); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (02 Apr 0800-1800); 
+<a class=red href='cruises-from-galveston-texas.html'>Galveston, Texas</a>  (04 Apr a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadssymphonyoftheseas-28mar2027-04apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/montegobay-cozumel-roatan.gif' alt='Cruise itinerary map for TUI Cruises 14 Nachte - Best Of Mittelamerika - Ab Montego Bay/Bis Bridgetown (133817)' title='Cruise itinerary map for TUI Cruises 14 Nachte - Best Of Mittelamerika - Ab Montego Bay/Bis Bridgetown (133817)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 3 Apr 2027</b><br>
+<b>14 Nachte - Best Of Mittelamerika - Ab Montego Bay/Bis Bridgetown</b><br>
+Ship 
+<a class=red href='/cruise-ship-mein-schiff-1.html'>Mein Schiff 1</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.meinschiff.com/de/trips/14-naechte-best-of-mittelamerika-ab-montego-baybis-bridgetown-MSE271415SEE">
+<img class='noborder' src='/logos/tuicruises.gif' alt='More details for 14 Nachte - Best Of Mittelamerika - Ab Montego Bay/Bis Bridgetown at TUI Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+&nbsp;ab 3.119 EUR p.P.
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (29 Mar d2200); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (31 Mar 0630-2000); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (02 Apr 0800-1900); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (03 Apr 0800-1800); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (05 Apr 0700-1700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (06 Apr 0545-1630); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (07 Apr 0930-1800); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (09 Apr 0700-2200); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (11 Apr 0730-1900); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (12 Apr a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmeinschiff1-29mar2027-12apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/l/laromana-ochorios-limon.gif' alt='Cruise itinerary map for TUI Cruises 14 Nachte - Best Of Mittelamerika - Ab/Bis La Romana (133821)' title='Cruise itinerary map for TUI Cruises 14 Nachte - Best Of Mittelamerika - Ab/Bis La Romana (133821)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 3 Apr 2027</b><br>
+<b>14 Nachte - Best Of Mittelamerika - Ab/Bis La Romana</b><br>
+Ship 
+<a class=red href='/cruise-ship-mein-schiff-1.html'>Mein Schiff 1</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.meinschiff.com/de/trips/14-naechte-best-of-mittelamerika-abbis-la-romana-MSE271314SEE">
+<img class='noborder' src='/logos/tuicruises.gif' alt='More details for 14 Nachte - Best Of Mittelamerika - Ab/Bis La Romana at TUI Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+&nbsp;ab 3.319 EUR p.P.
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (26 Mar d2200); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (28 Mar 0700-2000); 
+<a class=red href='cruises-to-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (29 Mar 0700-2200); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (31 Mar 0630-2000); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (02 Apr 0800-1900); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (03 Apr 0800-1800); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (05 Apr 0700-1700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (06 Apr 0545-1630); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (07 Apr 0930-1800); 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (09 Apr a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmeinschiff1-26mar2027-09apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/t/tampa-tampa-cozumel.gif' alt='Cruise itinerary map for Carnival Cruises 5 Night Western Caribbean (44850)' title='Cruise itinerary map for Carnival Cruises 5 Night Western Caribbean (44850)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 5 Apr 2027</b><br>
+<b>5 Night Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-paradise.html'>Carnival Paradise</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/5-day-western-caribbean-cruise/tampa/paradise/5-days/wci/?sailDate=04032027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 5 Night Western Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$414
+Oceanview&nbsp;$524
+Balcony&nbsp;$964
+Suite&nbsp;$1144
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (03 Apr d1530); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (05 Apr 1100-1900); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (06 Apr 1100-1900); 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (08 Apr a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalparadise-03apr2027-08apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-cartagena-belize.gif' alt='Cruise itinerary map for MSC Cruises 11 Night Southern & Western Caribbean (132647)' title='Cruise itinerary map for MSC Cruises 11 Night Southern & Western Caribbean (132647)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 5 Apr 2027</b><br>
+<b>11 Night Southern & Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-poesia.html'>MSC Poesia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=PO20270328MIAMIA&itineraryCode=UX5Z">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 11 Night Southern & Western Caribbean at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$1021
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (28 Mar d1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (30 Mar 0900-1800); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (01 Apr 0700-1700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (02 Apr 1000-2000); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (03 Apr 0700-1800); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (05 Apr 0800-1800); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (06 Apr 0700-1500); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (08 Apr a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscpoesia-28mar2027-08apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-willemstad-colon.gif' alt='Cruise itinerary map for MSC Cruises 21 Night Southern & Western Caribbean (133285)' title='Cruise itinerary map for MSC Cruises 21 Night Southern & Western Caribbean (133285)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 5 Apr 2027</b><br>
+<b>21 Night Southern & Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-poesia.html'>MSC Poesia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=PO20270318MIAMI1&itineraryCode=UX6I">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 21 Night Southern & Western Caribbean at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$1869
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (18 Mar d1700); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (21 Mar 0800-1800); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (22 Mar 0800-1800); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (23 Mar 0800-1800); 
+<a class=red href='cruises-to-cabo-rojo-dominican-republic.html'>Cabo Rojo, Dominican Republic</a>  (25 Mar 0700-1530); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (26 Mar 0800-1500); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (28 Mar 0700-1800); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (30 Mar 1000-1800); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (01 Apr 0700-1700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (02 Apr 1000-2000); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (03 Apr 0700-1800); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (05 Apr 0800-1800); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (06 Apr 0700-1500); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (08 Apr a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscpoesia-18mar2027-08apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<b><a class='button' href="javascript:pageit('visitingroatanhonduras-apr2027.html')">1-10</a>
+</b><a class='button' href="javascript:pageit('visitingroatanhonduras-apr2027.html?offset=11')">11-20</a>
+<a class='button' href="javascript:pageit('visitingroatanhonduras-apr2027.html?offset=21')">21-30</a>
+<a class='button' href="javascript:pageit('visitingroatanhonduras-apr2027.html?offset=31')">31-40</a>
+<a class='button' href="javascript:pageit('visitingroatanhonduras-apr2027.html?offset=41')">41-50</a>
+<a class='button' href="javascript:pageit('visitingroatanhonduras-apr2027.html?offset=51')">51-54</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingroatanhonduras-apr2027.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingroatanhonduras-apr2027.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Roatan, Honduras during April 2027 (01 Apr-05 Apr)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>
