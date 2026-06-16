@@ -5,11 +5,11 @@
  *
  * Usage:
  *   node scripts/import-schedules-slow.mjs [--list] [--import-ready] [--force]
- *   node scripts/import-schedules-slow.mjs st-kitts --max-fetches 3 --delay-ms 90000
+ *   node scripts/import-schedules-slow.mjs st-kitts --max-fetches 3 --delay-ms 30000
  *
  * Options:
  *   --max-fetches N   Max HTTP fetches per run (default 1)
- *   --delay-ms MS     Delay between fetches (default 90000)
+ *   --delay-ms MS     Delay between fetches (default 30000)
  *   --import-ready    Import ports whose cache is complete
  *   --list            Show ports needing CSV, cache, or import
  *   --force           Ignore blockedUntil cooldown
@@ -51,7 +51,7 @@ function parseArg(name, fallback) {
 }
 
 const maxFetches = Number.parseInt(parseArg("--max-fetches", "1"), 10);
-const delayMs = Number.parseInt(parseArg("--delay-ms", "90000"), 10);
+const delayMs = Number.parseInt(parseArg("--delay-ms", "30000"), 10);
 const importReady = args.includes("--import-ready");
 const listMode = args.includes("--list");
 const force = args.includes("--force");

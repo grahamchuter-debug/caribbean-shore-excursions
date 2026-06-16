@@ -11,6 +11,10 @@ import stThomasSchedule from "./imported-schedules/st-thomas.json";
 import ochoRiosSchedule from "./imported-schedules/ocho-rios.json";
 import tortolaSchedule from "./imported-schedules/tortola.json";
 import stKittsSchedule from "./imported-schedules/st-kitts.json";
+import cozumelSchedule from "./imported-schedules/cozumel.json";
+import arubaSchedule from "./imported-schedules/aruba.json";
+import grandCaymanSchedule from "./imported-schedules/grand-cayman.json";
+import nassauSchedule from "./imported-schedules/nassau.json";
 
 export const TOP_SCHEDULE_PORT_SLUGS = [
   "st-thomas",
@@ -275,6 +279,10 @@ export const schedulePorts: ShipSchedulePort[] = [
 /** Verified schedule rows imported via scripts/import-schedules.mjs */
 export const portSchedules: Record<string, ScheduleEntry[]> = {
   "st-thomas": stThomasSchedule as ScheduleEntry[],
+  cozumel: cozumelSchedule as ScheduleEntry[],
+  aruba: arubaSchedule as ScheduleEntry[],
+  "grand-cayman": grandCaymanSchedule as ScheduleEntry[],
+  nassau: nassauSchedule as ScheduleEntry[],
   "ocho-rios": ochoRiosSchedule as ScheduleEntry[],
   tortola: tortolaSchedule as ScheduleEntry[],
   "st-kitts": stKittsSchedule as ScheduleEntry[],

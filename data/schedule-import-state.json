@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-06-14T08:01:39.544Z",
-  "blockedUntil": "2026-06-14T16:01:40.188Z",
+  "lastRun": "2026-06-16T07:09:05.697Z",
+  "blockedUntil": "2026-06-16T15:09:06.337Z",
   "ports": {
     "ocho-rios": {
       "lastFetch": "2026-06-13T10:56:15.814Z",
@@ -35,6 +35,20 @@
       "lastFetchUrl": "https://www.cruisetimetables.com/visitingoranjestadaruba-dec2027.html?offset=71",
       "lastImport": "2026-06-14T08:01:39.448Z",
       "importEntryCount": 510
+    },
+    "grand-cayman": {
+      "lastFetch": "2026-06-15T09:51:23.182Z",
+      "lastFetchUrl": "https://www.cruisetimetables.com/visitinggeorgetowngrandcayman-dec2027.html?offset=51",
+      "lastError": "fetch failed",
+      "lastErrorAt": "2026-06-15T09:47:46.590Z",
+      "lastImport": "2026-06-15T09:51:53.330Z",
+      "importEntryCount": 499
+    },
+    "nassau": {
+      "lastFetch": "2026-06-16T07:08:35.337Z",
+      "lastFetchUrl": "https://www.cruisetimetables.com/visitingnassaubahamas-dec2027.html?offset=121",
+      "lastImport": "2026-06-16T07:09:05.576Z",
+      "importEntryCount": 2301
     }
   }
 }

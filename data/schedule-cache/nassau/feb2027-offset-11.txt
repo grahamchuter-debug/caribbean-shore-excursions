@@ -1,0 +1,740 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Nassau, Bahamas during February 2027 (03 Feb-05 Feb)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Nassau, Bahamas during February 2027 Nassau, Bahamas sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Nassau, Bahamas during February 2027 (03 Feb-05 Feb)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-nassau-bahamas.html'>Cruises To Nassau, Bahamas</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Nassau, Bahamas during February 2027</h1>
+Showing 11 to 20 of total 161
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/g/galveston-celebrationkey-nassau.gif' alt='Cruise itinerary map for Carnival Cruises 7 Night The Bahamas (125180)' title='Cruise itinerary map for Carnival Cruises 7 Night The Bahamas (125180)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 3 Feb 2027</b><br>
+<b>7 Night The Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-dream.html'>Carnival Dream</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/7-day-the-bahamas-cruise/galveston/dream/7-days/ec8/?sailDate=01302027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 7 Night The Bahamas at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$655
+Oceanview&nbsp;$866
+Balcony&nbsp;$1046
+Suite&nbsp;$1908
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-galveston-texas.html'>Galveston, Texas</a>  (30 Jan d1530); 
+<a class=red href='cruises-to-key-west-florida.html'>Key West, Florida</a>  (01 Feb 1000-1800); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (02 Feb 0900-1700); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (03 Feb 0800-1600); 
+<a class=red href='cruises-from-galveston-texas.html'>Galveston, Texas</a>  (06 Feb a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivaldream-30jan2027-06feb2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/b/baltimore-nassau-celebrationkey.gif' alt='Cruise itinerary map for Carnival Cruises 7 Night The Bahamas (113437)' title='Cruise itinerary map for Carnival Cruises 7 Night The Bahamas (113437)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 3 Feb 2027</b><br>
+<b>7 Night The Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-pride.html'>Carnival Pride</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/7-day-the-bahamas-cruise/baltimore/pride/7-days/bak/?sailDate=01312027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 7 Night The Bahamas at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$674
+Oceanview&nbsp;$774
+Balcony&nbsp;$894
+Suite&nbsp;$1516
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-baltimore-maryland.html'>Baltimore, Maryland</a>  (31 Jan d1630); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (03 Feb 0800-1700); 
+<a class=red href='cruises-to-half-moon-cay-bahamas.html'>Half Moon Cay, Bahamas</a>  (04 Feb 0800-1600); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (05 Feb 0700-1300); 
+<a class=red href='cruises-from-baltimore-maryland.html'>Baltimore, Maryland</a>  (07 Feb a1000)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalpride-31jan2027-07feb2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/g/galveston-nassau.gif' alt='Cruise itinerary map for Disney Cruise Line 7 Night Bahamian Cruise From Galveston With Marvel Days At Sea (138544)' title='Cruise itinerary map for Disney Cruise Line 7 Night Bahamian Cruise From Galveston With Marvel Days At Sea (138544)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 3 Feb 2027</b><br>
+<b>7 Night Bahamian Cruise From Galveston With Marvel Days At Sea</b><br>
+Ship 
+<a class=red href='/cruise-ship-disney-magic.html'>Disney Magic</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://disneycruise.disney.go.com/cruises-destinations/list/DM1775/7-Night-Bahamian-Cruise-from-Galveston-with-Marvel-Days-at-Sea/2027-01-31-Disney-Magic/">
+<img class='noborder' src='/logos/disneycruiseline.gif' alt='More details for 7 Night Bahamian Cruise From Galveston With Marvel Days At Sea at Disney Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$3160
+Oceanview&nbsp;$3566
+Verandah&nbsp;$4504
+Concierge&nbsp;$11364
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-galveston-texas.html'>Galveston, Texas</a>  (31 Jan d1630); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (03 Feb 1000-1830); 
+<a class=red href='cruises-to-castaway-cay-bahamas.html'>Castaway Cay, Bahamas</a>  (04 Feb 0800-1500); 
+<a class=red href='cruises-from-galveston-texas.html'>Galveston, Texas</a>  (07 Feb a0730)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsdisneymagic-31jan2027-07feb2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-cococay-nassau.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 4 Night Bahamas & Perfect Day Cruise (84358)' title='Cruise itinerary map for Royal Caribbean Cruises 4 Night Bahamas & Perfect Day Cruise (84358)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 3 Feb 2027</b><br>
+<b>4 Night Bahamas & Perfect Day Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-oasis-of-the-seas.html'>Oasis Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/4-night-bahamas-perfect-day-from-fort-lauderdale-on-oasis//OA4BH369?country=GBR&sail-date=2027-02-01&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 4 Night Bahamas & Perfect Day Cruise at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$447
+Outside&nbsp;$578
+Balcony&nbsp;$634
+Deluxe&nbsp;$1301
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (01 Feb d1600); 
+<a class=red href='cruises-to-coco-cay-bahamas.html'>Coco Cay, Bahamas</a>  (02 Feb 0700-1700); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (03 Feb 0730-1730); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (05 Feb a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsoasisoftheseas-01feb2027-05feb2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/n/neworleans-keywest-celebrationkey.gif' alt='Cruise itinerary map for Carnival Cruises 7 Night The Bahamas (113623)' title='Cruise itinerary map for Carnival Cruises 7 Night The Bahamas (113623)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 4 Feb 2027</b><br>
+<b>7 Night The Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-liberty.html'>Carnival Liberty</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/7-day-the-bahamas-cruise/new-orleans/liberty/7-days/ecn/?sailDate=01312027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 7 Night The Bahamas at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$504
+Oceanview&nbsp;$639
+Balcony&nbsp;$889
+Suite&nbsp;$1504
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-new-orleans-louisiana.html'>New Orleans, Louisiana</a>  (31 Jan d1530); 
+<a class=red href='cruises-to-key-west-florida.html'>Key West, Florida</a>  (02 Feb 0800-1600); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (03 Feb 0800-1600); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (04 Feb 0800-1600); 
+<a class=red href='cruises-from-new-orleans-louisiana.html'>New Orleans, Louisiana</a>  (07 Feb a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalliberty-31jan2027-07feb2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-nassau-lighthousepoint.gif' alt='Cruise itinerary map for Disney Cruise Line 4 Night Bahamian Cruise From Port Canaveral (109924)' title='Cruise itinerary map for Disney Cruise Line 4 Night Bahamian Cruise From Port Canaveral (109924)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 4 Feb 2027</b><br>
+<b>4 Night Bahamian Cruise From Port Canaveral</b><br>
+Ship 
+<a class=red href='/cruise-ship-disney-fantasy.html'>Disney Fantasy</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://disneycruise.disney.go.com/cruises-destinations/list/DF0858/4-Night-Bahamian-Cruise-from-Port-Canaveral/2027-02-03-Disney-Fantasy/">
+<img class='noborder' src='/logos/disneycruiseline.gif' alt='More details for 4 Night Bahamian Cruise From Port Canaveral at Disney Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$2420
+Oceanview&nbsp;$2588
+Verandah&nbsp;$2852
+Concierge&nbsp;$5588
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (03 Feb d1500); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (04 Feb 0930-1730); 
+<a class=red href='cruises-to-lighthouse-point-bahamas.html'>Lighthouse Point, Bahamas</a>  (05 Feb 0830-1645); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (07 Feb a0730)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsdisneyfantasy-03feb2027-07feb2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-cococay.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 4 Night Bahamas & Perfect Day Cruise (74)' title='Cruise itinerary map for Royal Caribbean Cruises 4 Night Bahamas & Perfect Day Cruise (74)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 4 Feb 2027</b><br>
+<b>4 Night Bahamas & Perfect Day Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-harmony-of-the-seas.html'>Harmony Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/4-night-bahamas-perfect-day-from-orlando-port-canaveral-on-harmony//HM4BH365?country=GBR&sail-date=2027-02-02&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 4 Night Bahamas & Perfect Day Cruise at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$667
+Outside&nbsp;$729
+Balcony&nbsp;$807
+Deluxe&nbsp;$1071
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (02 Feb d1600); 
+<a class=red href='cruises-to-coco-cay-bahamas.html'>Coco Cay, Bahamas</a>  (03 Feb 0700-1700); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (04 Feb 0800-1700); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (06 Feb a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsharmonyoftheseas-02feb2027-06feb2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/palmbeach-freeport-nassau.gif' alt='Cruise itinerary map for Margaritaville At Sea 4 Night Bahamas Duo (134301)' title='Cruise itinerary map for Margaritaville At Sea 4 Night Bahamas Duo (134301)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 4 Feb 2027</b><br>
+<b>4 Night Bahamas Duo</b><br>
+Ship 
+<a class=red href='/cruise-ship-margaritaville-at-sea-paradise.html'>Margaritaville At Sea Paradise</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://margaritavilleatsea.com/">
+<img class='noborder' src='/logos/margaritaville-at-sea.gif' alt='More details for 4 Night Bahamas Duo at Margaritaville At Sea'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$199
+Ocean View&nbsp;$229
+Suite&nbsp;$1099
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-palm-beach-florida.html'>Palm Beach, Florida</a>  (01 Feb d1530); 
+<a class=red href='cruises-to-freeport-bahamas.html'>Freeport, Bahamas</a>  (03 Feb 0800-1600); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (04 Feb 0800-1600); 
+<a class=red href='cruises-from-palm-beach-florida.html'>Palm Beach, Florida</a>  (05 Feb a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmargaritavilleatseaparadise-01feb2027-05feb2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-greatstirrupcay-nassau.gif' alt='Cruise itinerary map for Norwegian Cruise Line 5 Night Bahamas Round-Trip Miami: Great Stirrup Cay & Nassau (5667)' title='Cruise itinerary map for Norwegian Cruise Line 5 Night Bahamas Round-Trip Miami: Great Stirrup Cay & Nassau (5667)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 4 Feb 2027</b><br>
+<b>5 Night Bahamas Round-Trip Miami: Great Stirrup Cay & Nassau</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-joy.html'>Norwegian Joy</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/5-night-bahamas-round-trip-miami-great-stirrup-cay-and-nassau-JOY5MIANPINASMIA">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 5 Night Bahamas Round-Trip Miami: Great Stirrup Cay & Nassau at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$629
+Oceanview&nbsp;$729
+Balcony&nbsp;$824
+Club Balcony Suite&nbsp;$862
+Suite&nbsp;$1314
+The Haven&nbsp;$2204
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (31 Jan d1600); 
+<a class=red href='cruises-to-great-stirrup-cay-bahamas.html'>Great Stirrup Cay, Bahamas</a>  (02 Feb 0700-1700); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (04 Feb 0700-1700); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (05 Feb a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegianjoy-31jan2027-05feb2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-nassau-celebrationkey-1.gif' alt='Cruise itinerary map for Carnival Cruises 5 Night The Bahamas (126912)' title='Cruise itinerary map for Carnival Cruises 5 Night The Bahamas (126912)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 5 Feb 2027</b><br>
+<b>5 Night The Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-sunrise.html'>Carnival Sunrise</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/5-day-the-bahamas-cruise/miami/sunrise/5-days/bhi/?sailDate=02012027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 5 Night The Bahamas at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$301
+Oceanview&nbsp;$362
+Balcony&nbsp;$527
+Suite&nbsp;$861
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (01 Feb d1530); 
+<a class=red href='cruises-to-half-moon-cay-bahamas.html'>Half Moon Cay, Bahamas</a>  (03 Feb 0800-1600); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (04 Feb 0800-1600); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (05 Feb 0800-1600); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (06 Feb a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalsunrise-01feb2027-06feb2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html')">1-10</a>
+<b><a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=11')">11-20</a>
+</b><a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=21')">21-30</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=31')">31-40</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=41')">41-50</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=51')">51-60</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=61')">61-70</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=71')">71-80</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=81')">81-90</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=91')">91-100</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=101')">101-110</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=111')">111-120</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=121')">121-130</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=131')">131-140</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=141')">141-150</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=151')">151-160</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-feb2027.html?offset=161')">161-161</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingnassaubahamas-feb2027.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingnassaubahamas-feb2027.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Nassau, Bahamas during February 2027 (03 Feb-05 Feb)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>

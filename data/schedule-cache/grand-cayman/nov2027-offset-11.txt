@@ -1,0 +1,774 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To George Town, Grand Cayman during November 2027 (16 Nov-22 Nov)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To George Town, Grand Cayman during November 2027 George Town, Grand Cayman sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To George Town, Grand Cayman during November 2027 (16 Nov-22 Nov)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-george-town-grand-cayman.html'>Cruises To George Town, Grand Cayman</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting George Town, Grand Cayman during November 2027</h1>
+Showing 11 to 20 of total 40
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/n/newyork-nassau-caborojo.gif' alt='Cruise itinerary map for Regent Seven Seas Cruises 14 Night Sunkissed Soiree New York To Miami (138613)' title='Cruise itinerary map for Regent Seven Seas Cruises 14 Night Sunkissed Soiree New York To Miami (138613)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 16 Nov 2027</b><br>
+<b>14 Night Sunkissed Soiree New York To Miami</b><br>
+Ship 
+<a class=red href='/cruise-ship-seven-seas-grandeur.html'>Seven Seas Grandeur</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.rssc.com/cruises/GRA271104/summary?source=CruiseSearch&amp;sh=GRA&amp;pageNumber=1">
+<img class='noborder' src='/logos/regentsevenseascruises.gif' alt='More details for 14 Night Sunkissed Soiree New York To Miami at Regent Seven Seas Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Veranda Suite H&nbsp;$25,998
+Deluxe Veranda Suite G2&nbsp;$26,598
+Deluxe Veranda Suite G1&nbsp;$26,998
+Serenity Suite F2&nbsp;$29,898
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-new-york-city-new-york.html'>New York City, New York</a>  (04 Nov d1700); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (07 Nov 0800-1700); 
+<a class=red href='cruises-to-cabo-rojo-dominican-republic.html'>Cabo Rojo, Dominican Republic</a>  (10 Nov 0800-1700); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (12 Nov 0800-1700); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (13 Nov 0800-1700); 
+<a class=red href='cruises-to-falmouth-jamaica.html'>Falmouth, Jamaica</a>  (15 Nov 0700-1600); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (16 Nov 0800-1700); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (18 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadssevenseasgrandeur-04nov2027-18nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-cozumel-georgetown-3.gif' alt='Cruise itinerary map for Celebrity Cruises 6 Night Mexico & Belize (148390)' title='Cruise itinerary map for Celebrity Cruises 6 Night Mexico & Belize (148390)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 17 Nov 2027</b><br>
+<b>6 Night Mexico & Belize</b><br>
+Ship 
+<a class=red href='/cruise-ship-celebrity-beyond.html'>Celebrity Beyond</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.celebritycruises.com/gb/itinerary/6-night-mexico-belize-cruise-from-fort-lauderdale-on-beyond-BY06W330?sailDate=2027-11-14&amp;packageCode=BY06W330">
+<img class='noborder' src='/logos/celebritycruises.gif' alt='More details for 6 Night Mexico & Belize at Celebrity Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$757
+Outside&nbsp;$866
+Balcony&nbsp;$966
+Deluxe&nbsp;$2791
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (14 Nov d1600); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (16 Nov 0900-1630); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (17 Nov 0700-1600); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (18 Nov 1030-2000); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (20 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscelebritybeyond-14nov2027-20nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-greatstirrupcay-ochorios.gif' alt='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-trip Orlando (Port Canaveral): Great Stirrup Cay & Cozumel (38724)' title='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-trip Orlando (Port Canaveral): Great Stirrup Cay & Cozumel (38724)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 18 Nov 2027</b><br>
+<b>7 Night Caribbean Round-trip Orlando (Port Canaveral): Great Stirrup Cay & Cozumel</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-aqua.html'>Norwegian Aqua</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/7-night-caribbean-round-trip-orlando--port-canaveral--great-stirrup-cay-and-cozumel-AQUA7PCVNPIOCJGECCZMPCV">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 7 Night Caribbean Round-trip Orlando (Port Canaveral): Great Stirrup Cay & Cozumel at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$1269
+Oceanview&nbsp;$1479
+Balcony&nbsp;$1719
+Club Balcony Suite&nbsp;$2359
+Suite&nbsp;$3069
+The Haven&nbsp;$4469
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (14 Nov d1600); 
+<a class=red href='cruises-to-great-stirrup-cay-bahamas.html'>Great Stirrup Cay, Bahamas</a>  (15 Nov 0800-1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (17 Nov 0700-1600); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (18 Nov 0700-1530); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (19 Nov 0930-1730); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (21 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegianaqua-14nov2027-21nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-kralendijk-georgetown.gif' alt='Cruise itinerary map for MSC Cruises 21 Night Caribbean & Bahamas (142581)' title='Cruise itinerary map for MSC Cruises 21 Night Caribbean & Bahamas (142581)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 19 Nov 2027</b><br>
+<b>21 Night Caribbean & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-poesia.html'>MSC Poesia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=PO20271111MIAMI1&itineraryCode=UYRR">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 21 Night Caribbean & Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$1825
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (11 Nov d1700); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (14 Nov 0900-1800); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (15 Nov 0800-1800); 
+<a class=red href='cruises-to-cabo-rojo-dominican-republic.html'>Cabo Rojo, Dominican Republic</a>  (17 Nov 0800-1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (18 Nov 1000-1800); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (19 Nov 0800-1800); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (21 Nov 0700-1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (23 Nov 0900-1800); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (25 Nov 0700-1700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (26 Nov 1000-2000); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (27 Nov 0700-1800); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (29 Nov 0800-1800); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (30 Nov 0700-1500); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (02 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscpoesia-11nov2027-02dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-cartagena-limon.gif' alt='Cruise itinerary map for MSC Cruises 21 Night Caribbean & Bahamas (142582)' title='Cruise itinerary map for MSC Cruises 21 Night Caribbean & Bahamas (142582)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 19 Nov 2027</b><br>
+<b>21 Night Caribbean & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-poesia.html'>MSC Poesia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=PO20271031MIAMI1&itineraryCode=UYRO">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 21 Night Caribbean & Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$1825
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (31 Oct d1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (02 Nov 0900-1800); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (04 Nov 0700-1700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (05 Nov 1000-2000); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (06 Nov 0700-1800); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (08 Nov 0800-1800); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (09 Nov 0700-1500); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (11 Nov 0700-1700); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (14 Nov 0900-1800); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (15 Nov 0800-1800); 
+<a class=red href='cruises-to-cabo-rojo-dominican-republic.html'>Cabo Rojo, Dominican Republic</a>  (17 Nov 0800-1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (18 Nov 1000-1800); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (19 Nov 0800-1800); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (21 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscpoesia-31oct2027-21nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-caborojo-georgetown.gif' alt='Cruise itinerary map for MSC Cruises 10 Night Caribbean & Bahamas (142599)' title='Cruise itinerary map for MSC Cruises 10 Night Caribbean & Bahamas (142599)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 19 Nov 2027</b><br>
+<b>10 Night Caribbean & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-poesia.html'>MSC Poesia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=PO20271111MIAMIA&itineraryCode=UYRM">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 10 Night Caribbean & Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$889
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (11 Nov d1700); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (14 Nov 0900-1800); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (15 Nov 0800-1800); 
+<a class=red href='cruises-to-cabo-rojo-dominican-republic.html'>Cabo Rojo, Dominican Republic</a>  (17 Nov 0800-1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (18 Nov 1000-1800); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (19 Nov 0800-1800); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (21 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscpoesia-11nov2027-21nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/montreal-quebec-tortola.gif' alt='Cruise itinerary map for Oceania Cruises 27 Night East Coast Escapade Montreal to Miami (138325)' title='Cruise itinerary map for Oceania Cruises 27 Night East Coast Escapade Montreal to Miami (138325)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 19 Nov 2027</b><br>
+<b>27 Night East Coast Escapade Montreal to Miami</b><br>
+Ship 
+<a class=red href='/cruise-ship-oceania-sirena.html'>Oceania Sirena</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.oceaniacruises.com/cruises/SIR271025A">
+<img class='noborder' src='/logos/oceaniacruises.gif' alt='More details for 27 Night East Coast Escapade Montreal to Miami at Oceania Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;From $8,749
+Ocean View&nbsp;From $9,599
+Veranda&nbsp;From $13,699
+Suite&nbsp;From $19,099
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-montreal-quebec.html'>Montreal, Quebec</a>  (25 Oct d1700); 
+<a class=red href='cruises-to-quebec-city-quebec.html'>Quebec City, Quebec</a>  (26 Oct 0900-1900); 
+<a class=red href='cruises-to-saguenay-quebec.html'>Saguenay, Quebec</a>  (27 Oct 0800-1800); 
+<a class=red href='cruises-to-baie-comeau-quebec.html'>Baie-Comeau, Quebec</a>  (28 Oct 0700-1700); 
+<a class=red href='cruises-to-havre-st-pierre-quebec.html'>Havre St Pierre, Quebec</a>  (29 Oct 0900-1900); 
+<a class=red href='cruises-to-corner-brook-newfoundland.html'>Corner Brook, Newfoundland</a>  (31 Oct 0700-1500); 
+<a class=red href='cruises-to-sydney-nova-scotia.html'>Sydney, Nova Scotia</a>  (01 Nov 0900-1700); 
+<a class=red href='cruises-to-halifax-nova-scotia.html'>Halifax, Nova Scotia</a>  (02 Nov 1000-1800); 
+<a class=red href='cruises-to-saint-john-new-brunswick.html'>Saint John, New Brunswick</a>  (03 Nov 1300-2000); 
+<a class=red href='cruises-to-portland-maine.html'>Portland, Maine</a>  (04 Nov 1100-2000); 
+<a class=red href='cruises-to-new-york-city-new-york.html'>New York City, New York</a>  (06 Nov 0700-1700); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (10 Nov 1000-1800); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (11 Nov 0800-1700); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (12 Nov 0800-1700); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (14 Nov 0800-1700); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (15 Nov 0800-1700); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (16 Nov 0800-1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (18 Nov 0700-1400); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (19 Nov 0800-1500); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (21 Nov a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsoceaniasirena-25oct2027-21nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/n/newyork-tortola-stjohns.gif' alt='Cruise itinerary map for Oceania Cruises 15 Night Broadway to the Abc Islands New York to Miami (138326)' title='Cruise itinerary map for Oceania Cruises 15 Night Broadway to the Abc Islands New York to Miami (138326)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 19 Nov 2027</b><br>
+<b>15 Night Broadway to the Abc Islands New York to Miami</b><br>
+Ship 
+<a class=red href='/cruise-ship-oceania-sirena.html'>Oceania Sirena</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.oceaniacruises.com/cruises/SIR271106">
+<img class='noborder' src='/logos/oceaniacruises.gif' alt='More details for 15 Night Broadway to the Abc Islands New York to Miami at Oceania Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;From $4,199
+Ocean View&nbsp;From $4,599
+Veranda&nbsp;From $6,999
+Suite&nbsp;From $9,599
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-new-york-city-new-york.html'>New York City, New York</a>  (06 Nov d1700); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (10 Nov 1000-1800); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (11 Nov 0800-1700); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (12 Nov 0800-1700); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (14 Nov 0800-1700); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (15 Nov 0800-1700); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (16 Nov 0800-1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (18 Nov 0700-1400); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (19 Nov 0800-1500); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (21 Nov a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsoceaniasirena-06nov2027-21nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-cartagena-cozumel.gif' alt='Cruise itinerary map for Princess Cruises 12 Night Panama Canal with Costa Rica & Caribbean (140996)' title='Cruise itinerary map for Princess Cruises 12 Night Panama Canal with Costa Rica & Caribbean (140996)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 20 Nov 2027</b><br>
+<b>12 Night Panama Canal with Costa Rica & Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-caribbean-princess.html'>Caribbean Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=B728">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 12 Night Panama Canal with Costa Rica & Caribbean at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1,524
+Balcony&nbsp;$2,549
+Mini-Suite&nbsp;$4,139
+Suite&nbsp;$4,401
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (11 Nov d1500); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (14 Nov 1000-2200); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (16 Nov 0700-1400); 
+<a class=red href='cruises-to-panama-canal-cruising-canal.html'>Panama Canal (Cruising Canal)</a>  (17 Nov 0600-1530); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (17 Nov 1730-2000); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (18 Nov 0700-1800); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (20 Nov 0700-1500); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (21 Nov 1000-2000); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (23 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscaribbeanprincess-11nov2027-23nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/t/tampa-belize-roatan.gif' alt='Cruise itinerary map for Carnival Cruises 8 Night Western Caribbean (47341)' title='Cruise itinerary map for Carnival Cruises 8 Night Western Caribbean (47341)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 22 Nov 2027</b><br>
+<b>8 Night Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-spirit.html'>Carnival Spirit</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/8-day-western-caribbean-cruise/tampa/spirit/8-days/wcx/?sailDate=11202027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 8 Night Western Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$931
+Oceanview&nbsp;$1071
+Balcony&nbsp;$1271
+Suite&nbsp;$2203
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (20 Nov d1530); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (22 Nov 0800-1600); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (24 Nov 0800-1700); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (25 Nov 0800-1700); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (26 Nov 0800-1600); 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (28 Nov a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalspirit-20nov2027-28nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitinggeorgetowngrandcayman-nov2027.html')">1-10</a>
+<b><a class='button' href="javascript:pageit('visitinggeorgetowngrandcayman-nov2027.html?offset=11')">11-20</a>
+</b><a class='button' href="javascript:pageit('visitinggeorgetowngrandcayman-nov2027.html?offset=21')">21-30</a>
+<a class='button' href="javascript:pageit('visitinggeorgetowngrandcayman-nov2027.html?offset=31')">31-40</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitinggeorgetowngrandcayman-nov2027.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitinggeorgetowngrandcayman-nov2027.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To George Town, Grand Cayman during November 2027 (16 Nov-22 Nov)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>

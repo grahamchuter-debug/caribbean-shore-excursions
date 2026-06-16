@@ -36,8 +36,8 @@ const args = process.argv.slice(2);
 const delayIdx = args.indexOf("--delay-ms");
 const fetchIdx = args.indexOf("--max-fetches");
 const roundsIdx = args.indexOf("--rounds");
-const delayMs = delayIdx >= 0 ? args[delayIdx + 1] : "12000";
-const maxFetches = fetchIdx >= 0 ? args[fetchIdx + 1] : "30";
+const delayMs = delayIdx >= 0 ? args[delayIdx + 1] : "30000";
+const maxFetches = fetchIdx >= 0 ? args[fetchIdx + 1] : "5";
 const maxRounds = roundsIdx >= 0 ? Number.parseInt(args[roundsIdx + 1], 10) : 50;
 
 function run(cmd, cmdArgs) {

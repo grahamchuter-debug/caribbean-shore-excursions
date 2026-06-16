@@ -1,0 +1,734 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Nassau, Bahamas during April 2027 (21 Apr-23 Apr)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Nassau, Bahamas during April 2027 Nassau, Bahamas sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Nassau, Bahamas during April 2027 (21 Apr-23 Apr)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-nassau-bahamas.html'>Cruises To Nassau, Bahamas</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Nassau, Bahamas during April 2027</h1>
+Showing 111 to 120 of total 148
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-nassau-cococay.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 4 Night Bahamas & Perfect Day Cruise (1304)' title='Cruise itinerary map for Royal Caribbean Cruises 4 Night Bahamas & Perfect Day Cruise (1304)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 21 Apr 2027</b><br>
+<b>4 Night Bahamas & Perfect Day Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-wonder-of-the-seas.html'>Wonder Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/4-night-perfect-day-cococay-bahamas-from-miami-on-wonder//WN4BH355?country=GBR&sail-date=2027-04-19&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 4 Night Bahamas & Perfect Day Cruise at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$659
+Outside&nbsp;$689
+Balcony&nbsp;$722
+Deluxe&nbsp;$1272
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (19 Apr d1630); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (21 Apr 0730-1730); 
+<a class=red href='cruises-to-coco-cay-bahamas.html'>Coco Cay, Bahamas</a>  (22 Apr 0700-1700); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (23 Apr a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadswonderoftheseas-19apr2027-23apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-keywest-ftlauderdale.gif' alt='Cruise itinerary map for Celebrity Cruises 4 Night Key West & Bahamas (22821)' title='Cruise itinerary map for Celebrity Cruises 4 Night Key West & Bahamas (22821)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 22 Apr 2027</b><br>
+<b>4 Night Key West & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-celebrity-reflection.html'>Celebrity Reflection</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.celebritycruises.com/gb/itinerary/4-night-key-west-bahamas-cruise-from-fort-lauderdale-on-reflection-RF4BH328?sailDate=2027-04-19&amp;packageCode=RF4BH328">
+<img class='noborder' src='/logos/celebritycruises.gif' alt='More details for 4 Night Key West & Bahamas at Celebrity Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$443
+Outside&nbsp;$527
+Balcony&nbsp;$704
+Deluxe&nbsp;$1491
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (19 Apr d1600); 
+<a class=red href='cruises-to-key-west-florida.html'>Key West, Florida</a>  (20 Apr 0800-1700); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (22 Apr 0730-1730); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (23 Apr a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscelebrityreflection-19apr2027-23apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/t/tampa-freeport-nassau.gif' alt='Cruise itinerary map for Margaritaville At Sea 5 Night Bahamas Duo (134890)' title='Cruise itinerary map for Margaritaville At Sea 5 Night Bahamas Duo (134890)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 22 Apr 2027</b><br>
+<b>5 Night Bahamas Duo</b><br>
+Ship 
+<a class=red href='/cruise-ship-margaritaville-at-sea-islander.html'>Margaritaville At Sea Islander</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://margaritavilleatsea.com/">
+<img class='noborder' src='/logos/margaritaville-at-sea.gif' alt='More details for 5 Night Bahamas Duo at Margaritaville At Sea'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$429
+Ocean View&nbsp;$479
+Balcony&nbsp;$529
+Suite&nbsp;$1279
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (19 Apr d1530); 
+<a class=red href='cruises-to-freeport-bahamas.html'>Freeport, Bahamas</a>  (21 Apr 0800-1600); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (22 Apr 0800-1600); 
+<a class=red href='cruises-from-tampa-florida.html'>Tampa, Florida</a>  (24 Apr a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmargaritavilleatseaislander-19apr2027-24apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-greatstirrupcay-nassau.gif' alt='Cruise itinerary map for Norwegian Cruise Line 4 Night Bahamas from Orlando (Port Canaveral): Nassau & Great Stirrup Cay (116505)' title='Cruise itinerary map for Norwegian Cruise Line 4 Night Bahamas from Orlando (Port Canaveral): Nassau & Great Stirrup Cay (116505)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 22 Apr 2027</b><br>
+<b>4 Night Bahamas from Orlando (Port Canaveral): Nassau & Great Stirrup Cay</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-escape.html'>Norwegian Escape</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/4-night-bahamas-from-orlando--port-canaveral--nassau-and-great-stirrup-cay-ESCAPE4PCVNPINASPCV">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 4 Night Bahamas from Orlando (Port Canaveral): Nassau & Great Stirrup Cay at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$579
+Oceanview&nbsp;$669
+Balcony&nbsp;$749
+Club Balcony Suite&nbsp;$799
+The Haven&nbsp;$1979
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (19 Apr d1600); 
+<a class=red href='cruises-to-great-stirrup-cay-bahamas.html'>Great Stirrup Cay, Bahamas</a>  (21 Apr 0700-1700); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (22 Apr 0700-1500); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (23 Apr a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegianescape-19apr2027-23apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-greatstirrupcay-nassau.gif' alt='Cruise itinerary map for Norwegian Cruise Line 4 Night Bahamas Round-Trip Miami: Great Stirrup Cay & Nassau (5667)' title='Cruise itinerary map for Norwegian Cruise Line 4 Night Bahamas Round-Trip Miami: Great Stirrup Cay & Nassau (5667)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 22 Apr 2027</b><br>
+<b>4 Night Bahamas Round-Trip Miami: Great Stirrup Cay & Nassau</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-getaway.html'>Norwegian Getaway</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/4-night-bahamas-round-trip-miami-great-stirrup-cay-and-nassau-GETAWAY4MIANPINASMIA">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 4 Night Bahamas Round-Trip Miami: Great Stirrup Cay & Nassau at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$579
+Oceanview&nbsp;$659
+Balcony&nbsp;$789
+Club Balcony Suite&nbsp;$849
+The Haven&nbsp;$2049
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (19 Apr d1600); 
+<a class=red href='cruises-to-great-stirrup-cay-bahamas.html'>Great Stirrup Cay, Bahamas</a>  (20 Apr 0700-1700); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (22 Apr 0700-1700); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (23 Apr a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegiangetaway-19apr2027-23apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/n/newyork-portcanaveral-cococay.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 7 Night Perfect Day Bahamas Cruise (33992)' title='Cruise itinerary map for Royal Caribbean Cruises 7 Night Perfect Day Bahamas Cruise (33992)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 22 Apr 2027</b><br>
+<b>7 Night Perfect Day Bahamas Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-odyssey-of-the-seas.html'>Odyssey Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/7-night-perfect-day-bahamas-from-cape-liberty-new-york-on-odyssey//OY7BH144?country=GBR&sail-date=2027-04-18&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 7 Night Perfect Day Bahamas Cruise at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1162
+Outside&nbsp;$1383
+Balcony&nbsp;$1435
+Deluxe&nbsp;$2620
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-new-york-city-new-york.html'>New York City, New York</a>  (18 Apr d1500); 
+<a class=red href='cruises-to-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (20 Apr 1159-2000); 
+<a class=red href='cruises-to-coco-cay-bahamas.html'>Coco Cay, Bahamas</a>  (21 Apr 0830-1700); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (22 Apr 0730-1730); 
+<a class=red href='cruises-from-new-york-city-new-york.html'>New York City, New York</a>  (25 Apr a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsodysseyoftheseas-18apr2027-25apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-costamaya-nassau.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 6 Night Western Caribbean Cruise (128270)' title='Cruise itinerary map for Royal Caribbean Cruises 6 Night Western Caribbean Cruise (128270)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 23 Apr 2027</b><br>
+<b>6 Night Western Caribbean Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-adventure-of-the-seas.html'>Adventure Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/6-night-western-caribbean-from-fort-lauderdale-on-adventure//AD06W285?country=GBR&sail-date=2027-04-18&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 6 Night Western Caribbean Cruise at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$423
+Outside&nbsp;$613
+Balcony&nbsp;$738
+Deluxe&nbsp;$1386
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (18 Apr d1600); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (20 Apr 0700-1700); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (21 Apr 0700-1500); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (23 Apr 0900-1730); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (24 Apr a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsadventureoftheseas-18apr2027-24apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-nassau-castawaycay.gif' alt='Cruise itinerary map for Disney Cruise Line 3 Night Bahamian Cruise From Port Canaveral (2911)' title='Cruise itinerary map for Disney Cruise Line 3 Night Bahamian Cruise From Port Canaveral (2911)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 23 Apr 2027</b><br>
+<b>3 Night Bahamian Cruise From Port Canaveral</b><br>
+Ship 
+<a class=red href='/cruise-ship-disney-wish.html'>Disney Wish</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://disneycruise.disney.go.com/cruises-destinations/list/WW0574/3-Night-Bahamian-Cruise-from-Port-Canaveral/2027-04-22-Disney-Wish/">
+<img class='noborder' src='/logos/disneycruiseline.gif' alt='More details for 3 Night Bahamian Cruise From Port Canaveral at Disney Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$2279
+Oceanview&nbsp;$2423
+Verandah&nbsp;$2717
+Concierge&nbsp;$5297
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (22 Apr d1500); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (23 Apr 0930-1730); 
+<a class=red href='cruises-to-castaway-cay-bahamas.html'>Castaway Cay, Bahamas</a>  (24 Apr 0800-1630); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (25 Apr a0730)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsdisneywish-22apr2027-25apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-nassau-falmouth.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 5 Night Western Caribbean (138147)' title='Cruise itinerary map for Royal Caribbean Cruises 5 Night Western Caribbean (138147)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 23 Apr 2027</b><br>
+<b>5 Night Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-freedom-of-the-seas.html'>Freedom Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/5-night-western-caribbean-from-miami-on-freedom//FR05W777?country=GBR&sail-date=2027-04-22&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 5 Night Western Caribbean at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$659
+Outside&nbsp;$766
+Balcony&nbsp;$876
+Deluxe&nbsp;$1392
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (22 Apr d1630); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (23 Apr 0730-1600); 
+<a class=red href='cruises-to-falmouth-jamaica.html'>Falmouth, Jamaica</a>  (25 Apr 0700-1500); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (27 Apr a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsfreedomoftheseas-22apr2027-27apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-nassau-oceancay.gif' alt='Cruise itinerary map for MSC Cruises 3 Night The Bahamas (78759)' title='Cruise itinerary map for MSC Cruises 3 Night The Bahamas (78759)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 23 Apr 2027</b><br>
+<b>3 Night The Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-seashore.html'>MSC Seashore</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=SH20270422CPVCPV&itineraryCode=UX3E">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 3 Night The Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$296
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (22 Apr d1600); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (23 Apr 0900-1800); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (24 Apr 0800-1800); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (25 Apr a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscseashore-22apr2027-25apr2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html')">1-10</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=11')">11-20</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=21')">21-30</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=31')">31-40</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=41')">41-50</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=51')">51-60</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=61')">61-70</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=71')">71-80</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=81')">81-90</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=91')">91-100</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=101')">101-110</a>
+<b><a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=111')">111-120</a>
+</b><a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=121')">121-130</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=131')">131-140</a>
+<a class='button' href="javascript:pageit('visitingnassaubahamas-apr2027.html?offset=141')">141-148</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingnassaubahamas-apr2027.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingnassaubahamas-apr2027.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Nassau, Bahamas during April 2027 (21 Apr-23 Apr)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>
