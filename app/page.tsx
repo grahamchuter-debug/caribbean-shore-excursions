@@ -27,6 +27,7 @@ import { FindMyCruiseShip } from "@/components/FindMyCruiseShip";
 import { TrustBadgeStrip } from "@/components/TrustBadge";
 import { HomeActionCard } from "@/components/HomeActionCard";
 import { NavCardIcon, excursionTypeNavIcon } from "@/components/NavCardIcon";
+import { NavCardCta } from "@/components/NavCardCta";
 import { getHomepageNavActions } from "@/data/homepage-nav";
 
 export const metadata = buildMetadata({
@@ -280,7 +281,7 @@ export default function HomePage() {
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {comparisons.map((comp) => (
-              <Link key={comp.slug} href={`/compare/${comp.slug}`} className="nav-card group">
+              <Link key={comp.slug} href={`/compare/${comp.slug}`} className="nav-card group flex h-full flex-col">
                 <div className="flex items-start gap-4">
                   <NavCardIcon icon="compare" />
                   <div className="min-w-0 flex-1">
@@ -290,12 +291,7 @@ export default function HomePage() {
                     <p className="mt-2 text-sm leading-relaxed text-gray-600 line-clamp-3">{comp.summary}</p>
                   </div>
                 </div>
-                <span className="mt-4 inline-flex items-center text-sm font-semibold text-caribbean-700">
-                  Read comparison
-                  <svg className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                  </svg>
-                </span>
+                <NavCardCta className="pt-4">Read comparison</NavCardCta>
               </Link>
             ))}
           </div>
@@ -318,7 +314,7 @@ export default function HomePage() {
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {excursionTypes.map((type) => (
-              <Link key={type.slug} href={`/excursion-types/${type.slug}`} className="nav-card group">
+              <Link key={type.slug} href={`/excursion-types/${type.slug}`} className="nav-card group flex h-full flex-col">
                 <div className="flex items-start gap-4">
                   <NavCardIcon icon={excursionTypeNavIcon(type.slug)} />
                   <div className="min-w-0 flex-1">
@@ -328,6 +324,7 @@ export default function HomePage() {
                     <p className="mt-2 text-sm leading-relaxed text-gray-600">{type.tagline}</p>
                   </div>
                 </div>
+                <NavCardCta className="pt-4">Explore excursion type</NavCardCta>
               </Link>
             ))}
           </div>
@@ -350,7 +347,7 @@ export default function HomePage() {
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {cruiseLines.map((line) => (
-              <Link key={line.slug} href={`/cruise-lines/${line.slug}`} className="nav-card group">
+              <Link key={line.slug} href={`/cruise-lines/${line.slug}`} className="nav-card group flex h-full flex-col">
                 <div className="flex items-start gap-4">
                   <NavCardIcon icon="cruise-line" />
                   <div className="min-w-0 flex-1">
@@ -360,6 +357,7 @@ export default function HomePage() {
                     <p className="mt-2 text-sm leading-relaxed text-gray-600">{line.tagline}</p>
                   </div>
                 </div>
+                <NavCardCta className="pt-4">View cruise line guide</NavCardCta>
               </Link>
             ))}
           </div>
@@ -387,7 +385,7 @@ export default function HomePage() {
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {featuredBestGuides.map((guide, index) => (
-              <Link key={guide.slug} href={`/${guide.slug}`} className="nav-card group">
+              <Link key={guide.slug} href={`/${guide.slug}`} className="nav-card group flex h-full flex-col">
                 <div className="flex items-start gap-4">
                   <NavCardIcon icon="guide" />
                   <div className="min-w-0 flex-1">
@@ -398,6 +396,7 @@ export default function HomePage() {
                     <p className="mt-2 text-sm leading-relaxed text-gray-600 line-clamp-2">{guide.heroSubtitle}</p>
                   </div>
                 </div>
+                <NavCardCta className="pt-4">Read guide</NavCardCta>
               </Link>
             ))}
           </div>
@@ -427,7 +426,7 @@ export default function HomePage() {
           </p>
           <div className="grid gap-4 sm:grid-cols-3">
             {itineraryPlanners.map((planner) => (
-              <Link key={planner.slug} href={`/${planner.slug}`} className="nav-card group">
+              <Link key={planner.slug} href={`/${planner.slug}`} className="nav-card group flex h-full flex-col">
                 <div className="flex items-start gap-4">
                   <NavCardIcon icon="planner" />
                   <div className="min-w-0 flex-1">
@@ -437,6 +436,7 @@ export default function HomePage() {
                     <p className="mt-2 text-sm leading-relaxed text-gray-600 line-clamp-3">{planner.heroSubtitle}</p>
                   </div>
                 </div>
+                <NavCardCta className="pt-4">Open planner</NavCardCta>
               </Link>
             ))}
           </div>
@@ -452,7 +452,7 @@ export default function HomePage() {
           </p>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {regionalCruisePlanners.map((planner) => (
-              <Link key={planner.slug} href={`/${planner.slug}`} className="nav-card group">
+              <Link key={planner.slug} href={`/${planner.slug}`} className="nav-card group flex h-full flex-col">
                 <div className="flex items-start gap-4">
                   <NavCardIcon icon="planner" />
                   <div className="min-w-0 flex-1">
@@ -462,6 +462,7 @@ export default function HomePage() {
                     <p className="mt-2 text-sm leading-relaxed text-gray-600 line-clamp-3">{planner.heroSubtitle}</p>
                   </div>
                 </div>
+                <NavCardCta className="pt-4">Open regional planner</NavCardCta>
               </Link>
             ))}
           </div>

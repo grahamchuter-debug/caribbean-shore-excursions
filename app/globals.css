@@ -69,6 +69,17 @@
     @apply relative z-[1];
   }
 
+  .nav-card-cta {
+    @apply mt-auto inline-flex w-fit items-center rounded-lg border border-caribbean-200 bg-caribbean-50 px-3.5 py-2 text-sm font-semibold text-caribbean-900 shadow-sm transition-all duration-300 ease-out;
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    a.group:hover .nav-card-cta,
+    .group:hover .nav-card-cta {
+      @apply -translate-y-0.5 border-caribbean-300 bg-caribbean-100 shadow-md;
+    }
+  }
+
   .card-gradient::before {
     content: "";
     @apply pointer-events-none absolute inset-x-0 top-0 z-0 h-1 bg-gradient-to-r from-caribbean-500/80 via-turquoise/70 to-caribbean-300/80;

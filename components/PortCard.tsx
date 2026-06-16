@@ -1,12 +1,13 @@
 import Link from "next/link";
 import type { Port } from "@/data/types";
 import { DestinationHeroBand } from "@/components/DestinationHeroBand";
+import { NavCardCta } from "@/components/NavCardCta";
 
 export function PortCard({ port }: { port: Port }) {
   return (
     <Link
       href={`/ports/${port.slug}`}
-      className="card-editorial group block"
+      className="card-editorial group flex h-full flex-col"
     >
       <DestinationHeroBand
         imageTheme={port.imageTheme}
@@ -19,7 +20,7 @@ export function PortCard({ port }: { port: Port }) {
           {port.region}
         </span>
       </DestinationHeroBand>
-      <div className="p-5 sm:p-6">
+      <div className="flex flex-1 flex-col p-5 sm:p-6">
         <p className="text-sm leading-relaxed text-gray-600 line-clamp-2">{port.tagline}</p>
         <p className="mt-3 text-xs font-medium text-gray-500">Why we recommend it</p>
         <div className="mt-2 flex flex-wrap gap-1.5">
@@ -32,9 +33,7 @@ export function PortCard({ port }: { port: Port }) {
             </span>
           ))}
         </div>
-        <p className="mt-5 text-sm font-medium text-caribbean-800 transition-colors group-hover:text-caribbean-900">
-          View port guide →
-        </p>
+        <NavCardCta className="pt-5">View port guide</NavCardCta>
       </div>
     </Link>
   );

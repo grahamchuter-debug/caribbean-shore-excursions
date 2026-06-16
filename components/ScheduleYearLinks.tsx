@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
 import { getShipCallCountForPortYear } from "@/data/schedules";
 import { portYearPath, yearHubPath } from "@/lib/schedule-utils";
+import { NavCardCta } from "@/components/NavCardCta";
 
 export function ScheduleYearLinks({
   portSlug,
@@ -25,11 +26,11 @@ export function ScheduleYearLinks({
             <Link
               key={year}
               href={portYearPath(portSlug, year)}
-              className={`group block rounded-2xl border-2 transition-colors ${
+              className={`group flex h-full flex-col ${
                 prominent
                   ? isCurrent
-                    ? "border-caribbean-500 bg-gradient-to-br from-caribbean-50 to-white p-8 ring-2 ring-caribbean-200"
-                    : "border-caribbean-200 bg-white p-8 hover:border-caribbean-400"
+                    ? "rounded-2xl border-2 border-caribbean-500 bg-gradient-to-br from-caribbean-50 to-white p-8 ring-2 ring-caribbean-200"
+                    : "rounded-2xl border-2 border-caribbean-200 bg-white p-8 hover:border-caribbean-400"
                   : isCurrent
                     ? "card-gradient border-caribbean-400 ring-2 ring-caribbean-200"
                     : "card-gradient"
@@ -57,12 +58,7 @@ export function ScheduleYearLinks({
                   ? `${shipCalls} verified ship call${shipCalls !== 1 ? "s" : ""}`
                   : "Monthly schedule, import in progress"}
               </p>
-              <span className="mt-4 inline-flex items-center text-sm font-semibold text-caribbean-700">
-                Open {portName} {year} schedule
-                <svg className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                </svg>
-              </span>
+              <NavCardCta className="pt-4">Open {portName} {year} schedule</NavCardCta>
             </Link>
           );
         })}

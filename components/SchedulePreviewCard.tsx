@@ -1,13 +1,14 @@
 import Link from "next/link";
 import type { ShipSchedulePort } from "@/data/types";
 import { getShipCallCountForPortYear } from "@/data/schedules";
+import { NavCardCta } from "@/components/NavCardCta";
 export function SchedulePreviewCard({ port }: { port: ShipSchedulePort }) {
   const count2026 = getShipCallCountForPortYear(port.slug, 2026);
   const count2027 = getShipCallCountForPortYear(port.slug, 2027);
   const href = `/ship-schedules/${port.slug}`;
 
   return (
-    <Link href={href} className="card group hover:border-caribbean-200 block">
+    <Link href={href} className="card group flex h-full flex-col hover:border-caribbean-200">
       <div className="flex items-start justify-between gap-2">
         <div>
           <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700 transition-colors">
@@ -25,12 +26,7 @@ export function SchedulePreviewCard({ port }: { port: ShipSchedulePort }) {
           ? `${count2026 + count2027} verified ship call${count2026 + count2027 !== 1 ? "s" : ""} listed`
           : "2026 and 2027 schedules, import in progress"}
       </p>
-      <span className="mt-4 inline-flex items-center text-sm font-medium text-caribbean-700">
-        View {port.name} schedule
-        <svg className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-        </svg>
-      </span>
+      <NavCardCta className="pt-4">View {port.name} schedule</NavCardCta>
     </Link>
   );
 }

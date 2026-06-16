@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { PortImageTheme } from "@/data/types";
 import { DestinationHeroBand } from "@/components/DestinationHeroBand";
+import { NavCardCta } from "@/components/NavCardCta";
 
 export interface EditorialDetail {
   label: string;
@@ -57,9 +58,7 @@ export function PremiumEditorialCard({
           ))}
         </dl>
         {href && (
-          <p className="mt-auto pt-2 text-sm font-medium text-caribbean-800 transition-colors group-hover:text-caribbean-900">
-            Explore this destination →
-          </p>
+          <NavCardCta className="pt-2">Explore this destination</NavCardCta>
         )}
       </div>
     </article>
@@ -88,9 +87,7 @@ export function PremiumEditorialCard({
                 </div>
               ))}
             </dl>
-            <p className="mt-auto pt-2 text-sm font-medium text-caribbean-800 transition-colors group-hover:text-caribbean-900">
-              Explore this destination →
-            </p>
+            <NavCardCta className="pt-2">Explore this destination</NavCardCta>
           </div>
         </article>
       </Link>

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { popularCaribbeanRoutes } from "@/data/excursion-finder";
 import { getPortBySlug } from "@/data/ports";
 import { NavCardIcon } from "@/components/NavCardIcon";
+import { NavCardCta } from "@/components/NavCardCta";
 
 interface CaribbeanRoutePresetsProps {
   linkToFinder?: boolean;
@@ -38,9 +39,9 @@ export function CaribbeanRoutePresets({ linkToFinder = true }: CaribbeanRoutePre
                 </span>
               ))}
             </div>
-            <span className="mt-4 inline-flex items-center text-sm font-semibold text-caribbean-700">
-              {linkToFinder ? "Use in finder →" : "Open route →"}
-            </span>
+            <NavCardCta className="pt-4">
+              {linkToFinder ? "Use in finder" : "Open route"}
+            </NavCardCta>
           </>
         );
 
@@ -49,7 +50,7 @@ export function CaribbeanRoutePresets({ linkToFinder = true }: CaribbeanRoutePre
             <Link
               key={route.id}
               href={`/caribbean-excursion-finder?route=${route.id}`}
-              className="nav-card group"
+              className="nav-card group flex h-full flex-col"
             >
               {inner}
             </Link>

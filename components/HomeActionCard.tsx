@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { NavCardIcon, type NavIconKey } from "@/components/NavCardIcon";
+import { NavCardCta } from "@/components/NavCardCta";
 
 export interface HomeActionCardProps {
   href: string;
@@ -23,7 +24,7 @@ export function HomeActionCard({
   if (variant === "hero") {
     return (
       <Link href={href} className="hero-discovery-card group flex h-full flex-col">
-        <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-caribbean-700/80">
+        <p className="text-[10px] font-semibold uppercase tracking-[0.22em] text-caribbean-700">
           {category}
         </p>
         <div className="mt-3 flex items-start gap-3.5">
@@ -32,17 +33,12 @@ export function HomeActionCard({
             <h3 className="font-display text-lg font-semibold leading-snug text-gray-900 sm:text-xl">
               {title}
             </h3>
-            <p className="mt-2 text-sm leading-snug text-gray-600 line-clamp-2">
+            <p className="mt-2 text-sm leading-snug text-gray-600">
               {description}
             </p>
           </div>
         </div>
-        <span className="mt-auto inline-flex items-center pt-4 text-sm font-semibold tracking-wide text-caribbean-800 transition-colors duration-300 group-hover:text-caribbean-900">
-          {actionLabel}
-          <span aria-hidden="true" className="ml-2 text-base transition-transform duration-300 group-hover:translate-x-0.5">
-            →
-          </span>
-        </span>
+        <NavCardCta className="pt-4">{actionLabel}</NavCardCta>
       </Link>
     );
   }
@@ -61,12 +57,7 @@ export function HomeActionCard({
           <p className="mt-2 text-sm leading-relaxed text-gray-600">{description}</p>
         </div>
       </div>
-      <span className="mt-auto inline-flex items-center pt-5 text-sm font-semibold tracking-wide text-caribbean-800 transition-colors duration-300 group-hover:text-caribbean-900">
-        {actionLabel}
-        <span aria-hidden="true" className="ml-2 transition-transform duration-300 group-hover:translate-x-0.5">
-          →
-        </span>
-      </span>
+      <NavCardCta className="pt-5">{actionLabel}</NavCardCta>
     </Link>
   );
 }
