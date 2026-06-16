@@ -15,6 +15,7 @@ import cozumelSchedule from "./imported-schedules/cozumel.json";
 import arubaSchedule from "./imported-schedules/aruba.json";
 import grandCaymanSchedule from "./imported-schedules/grand-cayman.json";
 import nassauSchedule from "./imported-schedules/nassau.json";
+import roatanSchedule from "./imported-schedules/roatan.json";
 
 export const TOP_SCHEDULE_PORT_SLUGS = [
   "st-thomas",
@@ -283,6 +284,7 @@ export const portSchedules: Record<string, ScheduleEntry[]> = {
   aruba: arubaSchedule as ScheduleEntry[],
   "grand-cayman": grandCaymanSchedule as ScheduleEntry[],
   nassau: nassauSchedule as ScheduleEntry[],
+  roatan: roatanSchedule as ScheduleEntry[],
   "ocho-rios": ochoRiosSchedule as ScheduleEntry[],
   tortola: tortolaSchedule as ScheduleEntry[],
   "st-kitts": stKittsSchedule as ScheduleEntry[],

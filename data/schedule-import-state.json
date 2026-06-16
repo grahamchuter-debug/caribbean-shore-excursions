@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-06-16T17:26:55.483Z",
-  "blockedUntil": "2026-06-16T15:09:06.337Z",
+  "lastRun": "2026-06-16T17:30:39.437Z",
+  "blockedUntil": "2026-06-17T01:30:40.115Z",
   "ports": {
     "ocho-rios": {
       "lastFetch": "2026-06-13T10:56:15.814Z",
@@ -51,8 +51,10 @@
       "importEntryCount": 2301
     },
     "roatan": {
-      "lastFetch": "2026-06-16T17:29:04.695Z",
-      "lastFetchUrl": "https://www.cruisetimetables.com/visitingroatanhonduras-mar2027.html?offset=71"
+      "lastFetch": "2026-06-16T17:30:37.148Z",
+      "lastFetchUrl": "https://www.cruisetimetables.com/visitingroatanhonduras-dec2027.html?offset=71",
+      "lastImport": "2026-06-16T17:30:39.308Z",
+      "importEntryCount": 787
     }
   }
 }
