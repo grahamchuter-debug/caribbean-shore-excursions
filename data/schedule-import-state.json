@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-06-16T17:30:39.437Z",
-  "blockedUntil": "2026-06-17T01:30:40.115Z",
+  "lastRun": "2026-06-17T07:54:42.856Z",
+  "blockedUntil": "2026-06-17T15:54:44.056Z",
   "ports": {
     "ocho-rios": {
       "lastFetch": "2026-06-13T10:56:15.814Z",
@@ -55,6 +55,10 @@
       "lastFetchUrl": "https://www.cruisetimetables.com/visitingroatanhonduras-dec2027.html?offset=71",
       "lastImport": "2026-06-16T17:30:39.308Z",
       "importEntryCount": 787
+    },
+    "st-maarten": {
+      "lastFetch": "2026-06-17T07:54:42.750Z",
+      "lastFetchUrl": "https://www.cruisetimetables.com/visitingphilipsburgstmaarten-nov2027.html"
     }
   }
 }

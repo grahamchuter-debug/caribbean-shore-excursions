@@ -1,0 +1,529 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Philipsburg, St. Maarten during October 2026 (29 Oct-31 Oct)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Philipsburg, St. Maarten during October 2026 Philipsburg, St. Maarten sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Philipsburg, St. Maarten during October 2026 (29 Oct-31 Oct)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-philipsburg-st-maarten.html'>Cruises To Philipsburg, St. Maarten</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Philipsburg, St. Maarten during October 2026</h1>
+Showing 21 to 26 of total 26
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-tortola-philipsburg.gif' alt='Cruise itinerary map for Celebrity Cruises 7 Night Tortola, St. Maarten & Puerto Plata (128624)' title='Cruise itinerary map for Celebrity Cruises 7 Night Tortola, St. Maarten & Puerto Plata (128624)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 29 Oct 2026</b><br>
+<b>7 Night Tortola, St. Maarten & Puerto Plata</b><br>
+Ship 
+<a class=red href='/cruise-ship-celebrity-beyond.html'>Celebrity Beyond</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.celebritycruises.com/gb/itinerary/7-nt-tortola-st-maarten-puerto-plata-from-miami-on-beyond-BY07E468?sailDate=2026-10-25&amp;packageCode=BY07E468">
+<img class='noborder' src='/logos/celebritycruises.gif' alt='More details for 7 Night Tortola, St. Maarten & Puerto Plata at Celebrity Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Outside&nbsp;$1306
+Balcony&nbsp;$1389
+Deluxe&nbsp;$3266
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (25 Oct d1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (27 Oct 0800-1430); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (28 Oct 1230-1900); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (29 Oct 0800-1700); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (01 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscelebritybeyond-25oct2026-01nov2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-cococay-sanjuan.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 7 Night Eastern Caribbean & Perfect Day (17582)' title='Cruise itinerary map for Royal Caribbean Cruises 7 Night Eastern Caribbean & Perfect Day (17582)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 29 Oct 2026</b><br>
+<b>7 Night Eastern Caribbean & Perfect Day</b><br>
+Ship 
+<a class=red href='/cruise-ship-star-of-the-seas.html'>Star Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/7-night-eastern-caribbean-perfect-day-from-orlando-port-canaveral-on-star//ST07E487?country=GBR&sail-date=2026-10-25&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 7 Night Eastern Caribbean & Perfect Day at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1405
+Outside&nbsp;$1617
+Balcony&nbsp;$1779
+Deluxe&nbsp;$3445
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (25 Oct d1630); 
+<a class=red href='cruises-to-coco-cay-bahamas.html'>Coco Cay, Bahamas</a>  (26 Oct 0700-1700); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (28 Oct 1100-2000); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (29 Oct 0800-1700); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (01 Nov a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsstaroftheseas-25oct2026-01nov2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/n/newyork-kingswharf-bimini.gif' alt='Cruise itinerary map for Virgin Voyages 12 Night Bermuda & Caribbean: NYC to San Juan (134244)' title='Cruise itinerary map for Virgin Voyages 12 Night Bermuda & Caribbean: NYC to San Juan (134244)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 29 Oct 2026</b><br>
+<b>12 Night Bermuda & Caribbean: NYC to San Juan</b><br>
+Ship 
+<a class=red href='/cruise-ship-valiant-lady.html'>Valiant Lady</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.virginvoyages.com/share?type=G&amp;pkgCode=12NNBSL&amp;voyageCode=VL26101912NNBSL&amp;metaCat=TR&currencyCode=GBP">
+<img class='noborder' src='/logos/virgin-voyages.gif' alt='More details for 12 Night Bermuda & Caribbean: NYC to San Juan at Virgin Voyages'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$2138
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-new-york-city-new-york.html'>New York City, New York</a>  (19 Oct d1700); 
+<a class=red href='cruises-to-kings-wharf-bermuda.html'>Kings Wharf, Bermuda</a>  (21 Oct 1600(+1)1600); 
+<a class=red href='cruises-to-bimini-islands-bahamas.html'>Bimini Islands, Bahamas</a>  (25 Oct 0800-1800); 
+<a class=red href='cruises-to-st-croix-us-virgin-islands.html'>St Croix, US Virgin Islands</a>  (28 Oct 0900-1800); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (29 Oct 0800-1800); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (30 Oct 0800-1800); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (31 Oct a0630)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsvaliantlady-19oct2026-31oct2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-stjohn-stmaarten.gif' alt='Cruise itinerary map for Explora Journeys 7 Night A Journey of Caribbean Adventure & Shimmering Tropical Harmony (131341)' title='Cruise itinerary map for Explora Journeys 7 Night A Journey of Caribbean Adventure & Shimmering Tropical Harmony (131341)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 31 Oct 2026</b><br>
+<b>7 Night A Journey of Caribbean Adventure & Shimmering Tropical Harmony</b><br>
+Ship 
+<a class=red href='/cruise-ship-explora-iii.html'>Explora III</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.explorajourneys.com/us/en/destinations-globe/car/journeys/miasju-07-v1?id-journey=EL20261025MIASJU&amp;id-offer=aidiscover">
+<img class='noborder' src='/logos/explora-journeys.gif' alt='More details for 7 Night A Journey of Caribbean Adventure & Shimmering Tropical Harmony at Explora Journeys'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$5,185 per guest
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (25 Oct d1700); 
+<a class=red href='cruises-to-st-john-us-virgin-islands.html'>St John, US Virgin Islands</a>  (28 Oct 0800-1700); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (29 Oct 0900-1900); 
+<a class=red href='cruises-to-iles-des-saintes-guadeloupe.html'>Iles Des Saintes, Guadeloupe</a>  (30 Oct 0900-1800); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (31 Oct 0800-1800); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (01 Nov a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsexploraiii-25oct2026-01nov2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/q/quebec-saguenay-stjohns.gif' alt='Cruise itinerary map for Explora Journeys 17 Night A Grand Journey of Bright Coastlines & Captivating Havens (138690)' title='Cruise itinerary map for Explora Journeys 17 Night A Grand Journey of Bright Coastlines & Captivating Havens (138690)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 31 Oct 2026</b><br>
+<b>17 Night A Grand Journey of Bright Coastlines & Captivating Havens</b><br>
+Ship 
+<a class=red href='/cruise-ship-explora-iii.html'>Explora III</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.explorajourneys.com/us/en/destinations-globe/tra/journeys/quesju-17-v1?id-journey=EL20261015QUESJU&amp;id-offer=aidiscoverm">
+<img class='noborder' src='/logos/explora-journeys.gif' alt='More details for 17 Night A Grand Journey of Bright Coastlines & Captivating Havens at Explora Journeys'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$9,900 per guest
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-quebec-city-quebec.html'>Quebec City, Quebec</a>  (15 Oct d2000); 
+<a class=red href='cruises-to-saguenay-quebec.html'>Saguenay, Quebec</a>  (16 Oct 0900-1600); 
+<a class=red href='cruises-to-sept-iles-quebec.html'>Sept-Iles, Quebec</a>  (17 Oct 0900-1800); 
+<a class=red href='cruises-to-sydney-nova-scotia.html'>Sydney, Nova Scotia</a>  (19 Oct 0800-1700); 
+<a class=red href='cruises-to-halifax-nova-scotia.html'>Halifax, Nova Scotia</a>  (20 Oct 0900-1700); 
+<a class=red href='cruises-to-new-york-city-new-york.html'>New York City, New York</a>  (22 Oct 0800-1900); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (25 Oct 0800-1700); 
+<a class=red href='cruises-to-st-john-us-virgin-islands.html'>St John, US Virgin Islands</a>  (28 Oct 0800-1700); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (29 Oct 0900-1900); 
+<a class=red href='cruises-to-iles-des-saintes-guadeloupe.html'>Iles Des Saintes, Guadeloupe</a>  (30 Oct 0900-1800); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (31 Oct 0800-1800); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (01 Nov a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsexploraiii-15oct2026-01nov2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-stjohn-anguilla.gif' alt='Cruise itinerary map for Explora Journeys 14 Night An Extended Journey of Maritime Soul & Island Zest (138692)' title='Cruise itinerary map for Explora Journeys 14 Night An Extended Journey of Maritime Soul & Island Zest (138692)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 31 Oct 2026</b><br>
+<b>14 Night An Extended Journey of Maritime Soul & Island Zest</b><br>
+Ship 
+<a class=red href='/cruise-ship-explora-iii.html'>Explora III</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.explorajourneys.com/us/en/destinations-globe/car/journeys/miamia-14-v5?id-journey=EL20261025MIAMIA&amp;id-offer=aidiscover">
+<img class='noborder' src='/logos/explora-journeys.gif' alt='More details for 14 Night An Extended Journey of Maritime Soul & Island Zest at Explora Journeys'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$10,285 per guest
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (25 Oct d1700); 
+<a class=red href='cruises-to-st-john-us-virgin-islands.html'>St John, US Virgin Islands</a>  (28 Oct 0800-1700); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (29 Oct 0900-1900); 
+<a class=red href='cruises-to-iles-des-saintes-guadeloupe.html'>Iles Des Saintes, Guadeloupe</a>  (30 Oct 0900-1800); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (31 Oct 0800-1800); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (01 Nov 0800-1800); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (02 Nov 0900-1800); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (03 Nov 0900-1900); 
+<a class=red href='cruises-to-st-barthelemy.html'>St Barthelemy</a>  (04 Nov 0900(+1)0100); 
+<a class=red href='cruises-to-anguilla.html'>Anguilla</a>  (05 Nov 0900-1700); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (08 Nov a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsexploraiii-25oct2026-08nov2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-oct2026.html')">1-10</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-oct2026.html?offset=11')">11-20</a>
+<b><a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-oct2026.html?offset=21')">21-26</a>
+</b></div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingphilipsburgstmaarten-oct2026.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingphilipsburgstmaarten-oct2026.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Philipsburg, St. Maarten during October 2026 (29 Oct-31 Oct)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>

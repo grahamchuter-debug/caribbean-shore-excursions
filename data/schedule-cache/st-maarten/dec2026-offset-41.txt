@@ -1,0 +1,773 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Philipsburg, St. Maarten during December 2026 (07 Dec-09 Dec)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Philipsburg, St. Maarten during December 2026 Philipsburg, St. Maarten sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Philipsburg, St. Maarten during December 2026 (07 Dec-09 Dec)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-philipsburg-st-maarten.html'>Cruises To Philipsburg, St. Maarten</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Philipsburg, St. Maarten during December 2026</h1>
+Showing 41 to 50 of total 195
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/sanjuan-tortola-stthomas-3.gif' alt='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-trip San Juan: St. Thomas & Tortola (137731)' title='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-trip San Juan: St. Thomas & Tortola (137731)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 7 Dec 2026</b><br>
+<b>7 Night Caribbean Round-trip San Juan: St. Thomas & Tortola</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-prima.html'>Norwegian Prima</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/7-night-caribbean-round-trip-san-juan-st.-thomas-and-tortola-PRIMA7SJUPHISLUBGIBASSTTTOVSJU">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 7 Night Caribbean Round-trip San Juan: St. Thomas & Tortola at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$1459
+Oceanview&nbsp;$1509
+Balcony&nbsp;$1809
+Club Balcony Suite&nbsp;$1989
+Suite&nbsp;$2719
+The Haven&nbsp;$3829
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (06 Dec d1600); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (07 Dec 0700-1700); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (08 Dec 0900-1800); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (09 Dec 0700-1600); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (10 Dec 1030-1800); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (11 Dec 0700-1700); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (12 Dec 0700-1700); 
+<a class=red href='cruises-from-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (13 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegianprima-06dec2026-13dec2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-stbarts-stcroix.gif' alt='Cruise itinerary map for Oceania Cruises 10 Night Caribbean Island Bliss Miami to Miami (147098)' title='Cruise itinerary map for Oceania Cruises 10 Night Caribbean Island Bliss Miami to Miami (147098)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 7 Dec 2026</b><br>
+<b>10 Night Caribbean Island Bliss Miami to Miami</b><br>
+Ship 
+<a class=red href='/cruise-ship-oceania-allura.html'>Oceania Allura</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.oceaniacruises.com/cruises/ALU261202">
+<img class='noborder' src='/logos/oceaniacruises.gif' alt='More details for 10 Night Caribbean Island Bliss Miami to Miami at Oceania Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Veranda&nbsp;From $4,449
+Suite&nbsp;From NA
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (02 Dec d1600); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (05 Dec 0700-1900); 
+<a class=red href='cruises-to-st-barthelemy.html'>St Barthelemy</a>  (06 Dec 0700-1900); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (07 Dec 0700-1900); 
+<a class=red href='cruises-to-st-croix-us-virgin-islands.html'>St Croix, US Virgin Islands</a>  (08 Dec 0700-1900); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (09 Dec 0700-1900); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (12 Dec a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsoceaniaallura-02dec2026-12dec2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/b/barbados-willemstad-ochorios.gif' alt='Cruise itinerary map for P & O Cruises 14 Night Caribbean Islands Fly-Cruise (137255)' title='Cruise itinerary map for P & O Cruises 14 Night Caribbean Islands Fly-Cruise (137255)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 8 Dec 2026</b><br>
+<b>14 Night Caribbean Islands Fly-Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-britannia.html'>Britannia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.pocruises.com/find-a-cruise/B628/B628">
+<img class='noborder' src='/logos/pocruises.gif' alt='More details for 14 Night Caribbean Islands Fly-Cruise at P & O Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Balcony From&nbsp;&pound;1,679pp
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (27 Nov embark(+1)d evening); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (29 Nov early morning-early evening); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (01 Dec early morning-early evening); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (03 Dec early morning-early evening); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (05 Dec early morning-early evening); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (06 Dec early morning-early evening); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (08 Dec early morning-early evening); 
+<a class=red href='cruises-to-roseau-dominica.html'>Roseau, Dominica</a>  (10 Dec early morning-early evening); 
+<a class=red href='cruises-from-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (11 Dec)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsbritannia-27nov2026-11dec2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/b/barbados-willemstad-ochorios.gif' alt='Cruise itinerary map for P & O Cruises 14 Night Caribbean Islands Fly-Cruise (137255)' title='Cruise itinerary map for P & O Cruises 14 Night Caribbean Islands Fly-Cruise (137255)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 8 Dec 2026</b><br>
+<b>14 Night Caribbean Islands Fly-Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-britannia.html'>Britannia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.pocruises.com/find-a-cruise/B628A/B628A">
+<img class='noborder' src='/logos/pocruises.gif' alt='More details for 14 Night Caribbean Islands Fly-Cruise at P & O Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Balcony From&nbsp;&pound;1,729pp
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (28 Nov d evening); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (29 Nov early morning-early evening); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (01 Dec early morning-early evening); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (03 Dec early morning-early evening); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (05 Dec early morning-early evening); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (06 Dec early morning-early evening); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (08 Dec early morning-early evening); 
+<a class=red href='cruises-to-roseau-dominica.html'>Roseau, Dominica</a>  (10 Dec early morning-early evening); 
+<a class=red href='cruises-from-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (11 Dec a(+1)disembark)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsbritannia-28nov2026-12dec2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-stjohns-roseau.gif' alt='Cruise itinerary map for Carnival Cruises 14 Night Southern Caribbean (143994)' title='Cruise itinerary map for Carnival Cruises 14 Night Southern Caribbean (143994)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 8 Dec 2026</b><br>
+<b>14 Night Southern Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-venezia.html'>Carnival Venezia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/14-day-southern-caribbean-cruise/pt-canaveral/venezia/14-days/jsk/?sailDate=11292026">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 14 Night Southern Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$995
+Oceanview&nbsp;$1595
+Balcony&nbsp;$1980
+Suite&nbsp;$6159
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (29 Nov d1630); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (02 Dec 0800-1700); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (03 Dec 0800-1700); 
+<a class=red href='cruises-to-roseau-dominica.html'>Roseau, Dominica</a>  (04 Dec 0800-1700); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (05 Dec 0800-1700); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (06 Dec 0800-1700); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (08 Dec 0800-1700); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (09 Dec 0700-1600); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (10 Dec 0700-1600); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (13 Dec a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalvenezia-29nov2026-13dec2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-philipsburg-cococay.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 7 Night Eastern Caribbean & Perfect Day (55933)' title='Cruise itinerary map for Royal Caribbean Cruises 7 Night Eastern Caribbean & Perfect Day (55933)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 8 Dec 2026</b><br>
+<b>7 Night Eastern Caribbean & Perfect Day</b><br>
+Ship 
+<a class=red href='/cruise-ship-harmony-of-the-seas.html'>Harmony Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/7-night-eastern-caribbean-perfect-day-from-orlando-port-canaveral-on-harmony//HM07E524?country=GBR&sail-date=2026-12-05&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 7 Night Eastern Caribbean & Perfect Day at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$929
+Outside&nbsp;$1078
+Balcony&nbsp;$1101
+Deluxe&nbsp;$3568
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (05 Dec d1600); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (08 Dec 0800-1700); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (09 Dec 0700-1500); 
+<a class=red href='cruises-to-coco-cay-bahamas.html'>Coco Cay, Bahamas</a>  (11 Dec 0800-1700); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (12 Dec a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsharmonyoftheseas-05dec2026-12dec2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-stthomas-cococay.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 7 Night Eastern Caribbean & Perfect Day (65697)' title='Cruise itinerary map for Royal Caribbean Cruises 7 Night Eastern Caribbean & Perfect Day (65697)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 8 Dec 2026</b><br>
+<b>7 Night Eastern Caribbean & Perfect Day</b><br>
+Ship 
+<a class=red href='/cruise-ship-icon-of-the-seas.html'>Icon Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/7-night-eastern-caribbean-perfect-day-from-miami-on-icon//IC07E484?country=GBR&sail-date=2026-12-05&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 7 Night Eastern Caribbean & Perfect Day at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1384
+Outside&nbsp;$1573
+Balcony&nbsp;$1686
+Deluxe&nbsp;$3116
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (05 Dec d1630); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (08 Dec 0800-1700); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (09 Dec 0700-1430); 
+<a class=red href='cruises-to-coco-cay-bahamas.html'>Coco Cay, Bahamas</a>  (11 Dec 0830-1700); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (12 Dec a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsiconoftheseas-05dec2026-12dec2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/sanjuan-roseau-stjohns-1.gif' alt='Cruise itinerary map for Royal Caribbean Cruises 7 Night Southern Caribbean Cruise (128092)' title='Cruise itinerary map for Royal Caribbean Cruises 7 Night Southern Caribbean Cruise (128092)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 8 Dec 2026</b><br>
+<b>7 Night Southern Caribbean Cruise</b><br>
+Ship 
+<a class=red href='/cruise-ship-rhapsody-of-the-seas.html'>Rhapsody Of The Seas</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.royalcaribbean.com/gbr/en/cruises/itinerary/7-night-southern-caribbean-from-san-juan-on-rhapsody//RH07D519?country=GBR&sail-date=2026-12-05&currency=GBP">
+<img class='noborder' src='/logos/royalcaribbean.gif' alt='More details for 7 Night Southern Caribbean Cruise at Royal Caribbean Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$558
+Outside&nbsp;$648
+Balcony&nbsp;$1123
+Deluxe&nbsp;$1241
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (05 Dec d1800); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (06 Dec 0800-1700); 
+<a class=red href='cruises-to-st-croix-us-virgin-islands.html'>St Croix, US Virgin Islands</a>  (07 Dec 0800-1700); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (08 Dec 0800-1700); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (09 Dec 0800-1700); 
+<a class=red href='cruises-to-roseau-dominica.html'>Roseau, Dominica</a>  (10 Dec 0800-1700); 
+<a class=red href='cruises-from-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (12 Dec a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsrhapsodyoftheseas-05dec2026-12dec2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/montegobay-limon.gif' alt='Cruise itinerary map for AIDA 14 Nacht Karibik & Mittelamerika ab Jamaika (97449)' title='Cruise itinerary map for AIDA 14 Nacht Karibik & Mittelamerika ab Jamaika (97449)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 9 Dec 2026</b><br>
+<b>14 Nacht Karibik & Mittelamerika ab Jamaika</b><br>
+Ship 
+<a class=red href='/cruise-ship-aidabella.html'>AIDAbella</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://aida.de/finden/BE14261129/">
+<img class='noborder' src='/logos/aida.gif' alt='More details for 14 Nacht Karibik & Mittelamerika ab Jamaika at AIDA'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Innen&nbsp;EUR 2.235
+Meerblick&nbsp;EUR 2.565
+Balkon&nbsp;EUR 3.110
+Suite&nbsp;EUR 4.675
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (29 Nov d2100); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (01 Dec 0730-1630); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (02 Dec 0530-1600); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (03 Dec 1000-1700); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (05 Dec 0800-2200); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (07 Dec 0800-2000); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (08 Dec 0700-2000); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (09 Dec 0700-1800); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (10 Dec 0700-1600); 
+<a class=red href='cruises-to-samana-dominican-republic.html'>Samana, Dominican Republic</a>  (11 Dec 1100-1800); 
+<a class=red href='cruises-from-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (13 Dec a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsaidabella-29nov2026-13dec2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/l/laromana-stjohns.gif' alt='Cruise itinerary map for AIDA 14 Nacht Karibik & Mittelamerika ab Dominikanische Republik (97451)' title='Cruise itinerary map for AIDA 14 Nacht Karibik & Mittelamerika ab Dominikanische Republik (97451)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 9 Dec 2026</b><br>
+<b>14 Nacht Karibik & Mittelamerika ab Dominikanische Republik</b><br>
+Ship 
+<a class=red href='/cruise-ship-aidabella.html'>AIDAbella</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://aida.de/finden/BE14261205/">
+<img class='noborder' src='/logos/aida.gif' alt='More details for 14 Nacht Karibik & Mittelamerika ab Dominikanische Republik at AIDA'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Innen&nbsp;EUR 2.375
+Meerblick&nbsp;EUR 2.605
+Balkon&nbsp;EUR 3.245
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (05 Dec d2200); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (07 Dec 0800-2000); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (08 Dec 0700-2000); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (09 Dec 0700-1800); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (10 Dec 0700-1600); 
+<a class=red href='cruises-to-samana-dominican-republic.html'>Samana, Dominican Republic</a>  (11 Dec 1100-1800); 
+<a class=red href='cruises-to-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (13 Dec 0800-2100); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (15 Dec 0730-1630); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (16 Dec 0530-1600); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (17 Dec 1000-1700); 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (19 Dec a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsaidabella-05dec2026-19dec2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html')">1-10</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=11')">11-20</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=21')">21-30</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=31')">31-40</a>
+<b><a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=41')">41-50</a>
+</b><a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=51')">51-60</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=61')">61-70</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=71')">71-80</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=81')">81-90</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=91')">91-100</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=101')">101-110</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=111')">111-120</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=121')">121-130</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=131')">131-140</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=141')">141-150</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=151')">151-160</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=161')">161-170</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=171')">171-180</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=181')">181-190</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2026.html?offset=191')">191-195</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingphilipsburgstmaarten-dec2026.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingphilipsburgstmaarten-dec2026.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Philipsburg, St. Maarten during December 2026 (07 Dec-09 Dec)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>
