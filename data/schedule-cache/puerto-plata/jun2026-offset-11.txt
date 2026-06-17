@@ -1,0 +1,706 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Puerto Plata/Amber Cove, Dominican Republic during June 2026 (16 Jun-24 Jun)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Puerto Plata/Amber Cove, Dominican Republic during June 2026 Puerto Plata/Amber Cove, Dominican Republic sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Puerto Plata/Amber Cove, Dominican Republic during June 2026 (16 Jun-24 Jun)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Cruises To Puerto Plata/Amber Cove, Dominican Republic</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Puerto Plata/Amber Cove, Dominican Republic during June 2026</h1>
+Showing 11 to 20 of total 30
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-ambercove-stthomas.gif' alt='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-trip Orlando: Great Stirrup Cay & Dominican Republic (66092)' title='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-trip Orlando: Great Stirrup Cay & Dominican Republic (66092)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 16 Jun 2026</b><br>
+<b>7 Night Caribbean Round-trip Orlando: Great Stirrup Cay & Dominican Republic</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-prima.html'>Norwegian Prima</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/7-night-caribbean-round-trip-orlando-great-stirrup-cay-and-dominican-republic-PRIMA7PCVPOPSTTTOVNPIPCV">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 7 Night Caribbean Round-trip Orlando: Great Stirrup Cay & Dominican Republic at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (14 Jun d1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (16 Jun 0900-1600); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (17 Jun 1100-1900); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (18 Jun 0645-1400); 
+<a class=red href='cruises-to-great-stirrup-cay-bahamas.html'>Great Stirrup Cay, Bahamas</a>  (20 Jun 1030-1730); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (21 Jun a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegianprima-14jun2026-21jun2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-sanjuan-puertoplata-1.gif' alt='Cruise itinerary map for Princess Cruises 7 Night Eastern Caribbean with Puerto Rico (130698)' title='Cruise itinerary map for Princess Cruises 7 Night Eastern Caribbean with Puerto Rico (130698)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 17 Jun 2026</b><br>
+<b>7 Night Eastern Caribbean with Puerto Rico</b><br>
+Ship 
+<a class=red href='/cruise-ship-caribbean-princess.html'>Caribbean Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=B618">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 7 Night Eastern Caribbean with Puerto Rico at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (14 Jun d1530); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (16 Jun 0900-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (17 Jun 0700-1500); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (18 Jun 0900-1700); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (21 Jun a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscaribbeanprincess-14jun2026-21jun2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-sanjuan-puertoplata-2.gif' alt='Cruise itinerary map for Princess Cruises 14 Night Eastern Caribbean Adventurer (133477)' title='Cruise itinerary map for Princess Cruises 14 Night Eastern Caribbean Adventurer (133477)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 17 Jun 2026</b><br>
+<b>14 Night Eastern Caribbean Adventurer</b><br>
+Ship 
+<a class=red href='/cruise-ship-caribbean-princess.html'>Caribbean Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=B618A">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 14 Night Eastern Caribbean Adventurer at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (14 Jun d1530); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (16 Jun 0900-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (17 Jun 0700-1500); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (18 Jun 0900-1700); 
+<a class=red href='cruises-to-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (21 Jun 0700-1530); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (23 Jun 0900-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (24 Jun 0700-1500); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (25 Jun 0900-1700); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (28 Jun a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscaribbeanprincess-14jun2026-28jun2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-puertoplata-grandturk.gif' alt='Cruise itinerary map for Princess Cruises 14 Night Eastern Caribbean Adventurer (133478)' title='Cruise itinerary map for Princess Cruises 14 Night Eastern Caribbean Adventurer (133478)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 17 Jun 2026</b><br>
+<b>14 Night Eastern Caribbean Adventurer</b><br>
+Ship 
+<a class=red href='/cruise-ship-caribbean-princess.html'>Caribbean Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=B617A">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 14 Night Eastern Caribbean Adventurer at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (07 Jun d1530); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (08 Jun 0900-1700); 
+<a class=red href='cruises-to-princess-cays-bahamas.html'>Princess Cays, Bahamas</a>  (09 Jun 0800-1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (11 Jun 0800-1700); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (12 Jun 0700-1600); 
+<a class=red href='cruises-to-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (14 Jun 0700-1530); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (16 Jun 0800-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (17 Jun 0700-1600); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (18 Jun 0900-1800); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (21 Jun a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscaribbeanprincess-07jun2026-21jun2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/n/norfolk-puertoplata.gif' alt='Cruise itinerary map for Carnival Cruises 9 Night Eastern Caribbean (125864)' title='Cruise itinerary map for Carnival Cruises 9 Night Eastern Caribbean (125864)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 17 Jun 2026</b><br>
+<b>9 Night Eastern Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-sunshine.html'>Carnival Sunshine</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/9-day-eastern-caribbean-cruise/norfolk/sunshine/9-days/je1/?sailDate=06142026">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 9 Night Eastern Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-norfolk-virginia.html'>Norfolk, Virginia</a>  (14 Jun d1630); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (17 Jun 1000-1800); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (18 Jun 1000-1800); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (19 Jun 0700-1600); 
+<a class=red href='cruises-from-norfolk-virginia.html'>Norfolk, Virginia</a>  (23 Jun a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalsunshine-14jun2026-23jun2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-ambercove-tortola.gif' alt='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-trip Miami: Great Stirrup Cay & Dominican Republic (65770)' title='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-trip Miami: Great Stirrup Cay & Dominican Republic (65770)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 22 Jun 2026</b><br>
+<b>7 Night Caribbean Round-trip Miami: Great Stirrup Cay & Dominican Republic</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-luna.html'>Norwegian Luna</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/7-night-caribbean-round-trip-miami-great-stirrup-cay-and-dominican-republic-LUNA7MIAPOPSTTTOVNPIMIA">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 7 Night Caribbean Round-trip Miami: Great Stirrup Cay & Dominican Republic at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$1409
+Oceanview&nbsp;$1539
+Balcony&nbsp;$1659
+Club Balcony Suite&nbsp;$2159
+Suite&nbsp;$2709
+The Haven&nbsp;$4109
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (20 Jun d1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (22 Jun 0700-1500); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (23 Jun 1000-1800); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (24 Jun 0645-1400); 
+<a class=red href='cruises-to-great-stirrup-cay-bahamas.html'>Great Stirrup Cay, Bahamas</a>  (26 Jun 1000-1800); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (27 Jun a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegianluna-20jun2026-27jun2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-grandturk-celebrationkey.gif' alt='Cruise itinerary map for Carnival Cruises 7 Night Eastern Caribbean (113530)' title='Cruise itinerary map for Carnival Cruises 7 Night Eastern Caribbean (113530)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 23 Jun 2026</b><br>
+<b>7 Night Eastern Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-mardi-gras.html'>Mardi Gras</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/7-day-eastern-caribbean-cruise/pt-canaveral/mardi-gras/7-days/ead/?sailDate=06202026">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 7 Night Eastern Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1326
+Oceanview&nbsp;Sold Out
+Balcony&nbsp;Sold Out
+Suite&nbsp;Sold Out
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (20 Jun d1530); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (22 Jun 0800-1700); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (23 Jun 0800-1700); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (25 Jun 0800-1700); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (26 Jun 0800-1600); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (27 Jun a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmardigras-20jun2026-27jun2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-sanjuan-puertoplata-2.gif' alt='Cruise itinerary map for Princess Cruises 14 Night Eastern Caribbean Adventurer (133477)' title='Cruise itinerary map for Princess Cruises 14 Night Eastern Caribbean Adventurer (133477)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 24 Jun 2026</b><br>
+<b>14 Night Eastern Caribbean Adventurer</b><br>
+Ship 
+<a class=red href='/cruise-ship-caribbean-princess.html'>Caribbean Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=B618A">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 14 Night Eastern Caribbean Adventurer at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (14 Jun d1530); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (16 Jun 0900-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (17 Jun 0700-1500); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (18 Jun 0900-1700); 
+<a class=red href='cruises-to-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (21 Jun 0700-1530); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (23 Jun 0900-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (24 Jun 0700-1500); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (25 Jun 0900-1700); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (28 Jun a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscaribbeanprincess-14jun2026-28jun2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-sanjuan-puertoplata-1.gif' alt='Cruise itinerary map for Princess Cruises 7 Night Eastern Caribbean with Puerto Rico (130698)' title='Cruise itinerary map for Princess Cruises 7 Night Eastern Caribbean with Puerto Rico (130698)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 24 Jun 2026</b><br>
+<b>7 Night Eastern Caribbean with Puerto Rico</b><br>
+Ship 
+<a class=red href='/cruise-ship-caribbean-princess.html'>Caribbean Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=B619">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 7 Night Eastern Caribbean with Puerto Rico at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$753
+Balcony&nbsp;$1,242
+Mini-Suite&nbsp;$1,531
+Suite&nbsp;$1,762
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (21 Jun d1530); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (23 Jun 0900-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (24 Jun 0700-1500); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (25 Jun 0900-1700); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (28 Jun a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscaribbeanprincess-21jun2026-28jun2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-grandturk-nassau.gif' alt='Cruise itinerary map for Princess Cruises 14 Night Eastern/Western Caribbean Adventurer (130709)' title='Cruise itinerary map for Princess Cruises 14 Night Eastern/Western Caribbean Adventurer (130709)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 24 Jun 2026</b><br>
+<b>14 Night Eastern/Western Caribbean Adventurer</b><br>
+Ship 
+<a class=red href='/cruise-ship-caribbean-princess.html'>Caribbean Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=B619A">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 14 Night Eastern/Western Caribbean Adventurer at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1,668
+Balcony&nbsp;Sold Out
+Mini-Suite&nbsp;Sold Out
+Suite&nbsp;Sold Out
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (21 Jun d1530); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (23 Jun 0900-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (24 Jun 0700-1500); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (25 Jun 0900-1700); 
+<a class=red href='cruises-to-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (28 Jun 0700-1530); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (29 Jun 0900-1700); 
+<a class=red href='cruises-to-princess-cays-bahamas.html'>Princess Cays, Bahamas</a>  (30 Jun 0800-1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (02 Jul 0800-1700); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (03 Jul 0700-1530); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (05 Jul a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscaribbeanprincess-21jun2026-05jul2026.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-jun2026.html')">1-10</a>
+<b><a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-jun2026.html?offset=11')">11-20</a>
+</b><a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-jun2026.html?offset=21')">21-30</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingpuertoplataambercovedominicanrepublic-jun2026.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingpuertoplataambercovedominicanrepublic-jun2026.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Puerto Plata/Amber Cove, Dominican Republic during June 2026 (16 Jun-24 Jun)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>

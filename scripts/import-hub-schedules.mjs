@@ -39,6 +39,7 @@ const roundsIdx = args.indexOf("--rounds");
 const delayMs = delayIdx >= 0 ? args[delayIdx + 1] : "30000";
 const maxFetches = fetchIdx >= 0 ? args[fetchIdx + 1] : "5";
 const maxRounds = roundsIdx >= 0 ? Number.parseInt(args[roundsIdx + 1], 10) : 50;
+const force = args.includes("--force");
 
 function run(cmd, cmdArgs) {
   const result = spawnSync(cmd, cmdArgs, { cwd: ROOT, stdio: "inherit" });
@@ -46,6 +47,7 @@ function run(cmd, cmdArgs) {
 }
 
 function isFetchBlocked() {
+  if (force) return false;
   const state = loadImportState();
   if (!state.blockedUntil) return false;
   return new Date(state.blockedUntil) > new Date();

@@ -1,0 +1,775 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Philipsburg, St. Maarten during December 2027 (29 Dec-30 Dec)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Philipsburg, St. Maarten during December 2027 Philipsburg, St. Maarten sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Philipsburg, St. Maarten during December 2027 (29 Dec-30 Dec)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-philipsburg-st-maarten.html'>Cruises To Philipsburg, St. Maarten</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Philipsburg, St. Maarten during December 2027</h1>
+Showing 151 to 160 of total 172
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/b/barbados-martinique-oranjestad.gif' alt='Cruise itinerary map for AIDA 14 Nacht Karibische Inseln ab Barbados (147166)' title='Cruise itinerary map for AIDA 14 Nacht Karibische Inseln ab Barbados (147166)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 29 Dec 2027</b><br>
+<b>14 Nacht Karibische Inseln ab Barbados</b><br>
+Ship 
+<a class=red href='/cruise-ship-aidabella.html'>AIDAbella</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://aida.de/finden/BE14271219/">
+<img class='noborder' src='/logos/aida.gif' alt='More details for 14 Nacht Karibische Inseln ab Barbados at AIDA'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Innen&nbsp;EUR 3.500
+Meerblick&nbsp;EUR 4.100
+Balkon&nbsp;EUR 4.920
+Suite&nbsp;EUR 6.705
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (19 Dec d2200); 
+<a class=red href='cruises-to-fort-de-france-martinique.html'>Fort de France, Martinique</a>  (20 Dec 0800-1800); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (21 Dec 0800-1800); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (23 Dec 0800-1800); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (25 Dec 0800-2200); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (27 Dec 0800-2000); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (28 Dec 0700-2000); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (29 Dec 0700-1800); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (30 Dec 0700-1600); 
+<a class=red href='cruises-to-samana-dominican-republic.html'>Samana, Dominican Republic</a>  (31 Dec 1100-1800); 
+<a class=red href='cruises-to-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (02 Jan a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsaidabella-19dec2027-02jan2028.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/l/laromana-stjohns.gif' alt='Cruise itinerary map for AIDA 14 Nacht Karibik & Mittelamerika ab Dom. Republik 1 (97451)' title='Cruise itinerary map for AIDA 14 Nacht Karibik & Mittelamerika ab Dom. Republik 1 (97451)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 29 Dec 2027</b><br>
+<b>14 Nacht Karibik & Mittelamerika ab Dom. Republik 1</b><br>
+Ship 
+<a class=red href='/cruise-ship-aidabella.html'>AIDAbella</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://aida.de/finden/BE14271225/">
+<img class='noborder' src='/logos/aida.gif' alt='More details for 14 Nacht Karibik & Mittelamerika ab Dom. Republik 1 at AIDA'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Innen&nbsp;EUR 3.920
+Meerblick&nbsp;EUR 4.565
+Balkon&nbsp;EUR 5.440
+Suite&nbsp;EUR 7.645
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (25 Dec d2200); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (27 Dec 0800-2000); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (28 Dec 0700-2000); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (29 Dec 0700-1800); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (30 Dec 0700-1600); 
+<a class=red href='cruises-to-samana-dominican-republic.html'>Samana, Dominican Republic</a>  (31 Dec 1100-1800); 
+<a class=red href='cruises-to-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (02 Jan 0800-2100); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (04 Jan 0730-1630); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (05 Jan 0530-1600); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (06 Jan 1000-1700); 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (08 Jan a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsaidabella-25dec2027-08jan2028.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-stmaarten-puertoplata.gif' alt='Cruise itinerary map for Celebrity Cruises 7 Night  St. Maarten & Puerto Plata Holiday (148826)' title='Cruise itinerary map for Celebrity Cruises 7 Night  St. Maarten & Puerto Plata Holiday (148826)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 29 Dec 2027</b><br>
+<b>7 Night  St. Maarten & Puerto Plata Holiday</b><br>
+Ship 
+<a class=red href='/cruise-ship-celebrity-xcel.html'>Celebrity Xcel</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.celebritycruises.com/gb/itinerary/7-nt-st-maarten-puerto-plata-holiday-from-fort-lauderdale-on-xcel-XC07E581?sailDate=2027-12-26&amp;packageCode=XC07E581">
+<img class='noborder' src='/logos/celebritycruises.gif' alt='More details for 7 Night  St. Maarten & Puerto Plata Holiday at Celebrity Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$1687
+Outside&nbsp;$1837
+Balcony&nbsp;$2137
+Deluxe&nbsp;$5167
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (26 Dec d1600); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (29 Dec 0800-1700); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (30 Dec 0700-1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (31 Dec 0900-1700); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (02 Jan a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscelebrityxcel-26dec2027-02jan2028.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/b/barbados-stmaarten-grenada.gif' alt='Cruise itinerary map for P & O Cruises 14 Night Christmas And New Year Caribbean Escape (139609)' title='Cruise itinerary map for P & O Cruises 14 Night Christmas And New Year Caribbean Escape (139609)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 29 Dec 2027</b><br>
+<b>14 Night Christmas And New Year Caribbean Escape</b><br>
+Ship 
+<a class=red href='/cruise-ship-iona.html'>Iona</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.pocruises.com/find-a-cruise/G741D/G741D">
+<img class='noborder' src='/logos/pocruises.gif' alt='More details for 14 Night Christmas And New Year Caribbean Escape at P & O Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside From&nbsp;&pound;2,249pp
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (24 Dec embark(+1)d evening); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (27 Dec early morning-early evening); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (28 Dec early morning-early evening); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (29 Dec early morning-early evening); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (31 Dec early morning(+2)early evening); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (04 Jan early morning-early evening); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (05 Jan early morning-early evening); 
+<a class=red href='cruises-from-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (07 Jan)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsiona-24dec2027-07jan2028.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/b/barbados-stmaarten-grenada.gif' alt='Cruise itinerary map for P & O Cruises 14 Night Christmas And New Year Caribbean Escape (139609)' title='Cruise itinerary map for P & O Cruises 14 Night Christmas And New Year Caribbean Escape (139609)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 29 Dec 2027</b><br>
+<b>14 Night Christmas And New Year Caribbean Escape</b><br>
+Ship 
+<a class=red href='/cruise-ship-iona.html'>Iona</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.pocruises.com/find-a-cruise/G741E/G741E">
+<img class='noborder' src='/logos/pocruises.gif' alt='More details for 14 Night Christmas And New Year Caribbean Escape at P & O Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside From&nbsp;&pound;2,029pp
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (25 Dec d evening); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (27 Dec early morning-early evening); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (28 Dec early morning-early evening); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (29 Dec early morning-early evening); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (31 Dec early morning(+2)early evening); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (04 Jan early morning-early evening); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (05 Jan early morning-early evening); 
+<a class=red href='cruises-from-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (07 Jan a(+1)disembark)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsiona-25dec2027-08jan2028.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/stkitts-tortola-barbados.gif' alt='Cruise itinerary map for P & O Cruises 14 Night New Year In The Caribbean Islands (139610)' title='Cruise itinerary map for P & O Cruises 14 Night New Year In The Caribbean Islands (139610)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 29 Dec 2027</b><br>
+<b>14 Night New Year In The Caribbean Islands</b><br>
+Ship 
+<a class=red href='/cruise-ship-iona.html'>Iona</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.pocruises.com/find-a-cruise/G741F/G741F">
+<img class='noborder' src='/logos/pocruises.gif' alt='More details for 14 Night New Year In The Caribbean Islands at P & O Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside From&nbsp;&pound;2,399pp
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (27 Dec d early evening); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (28 Dec early morning-early evening); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (29 Dec early morning-early evening); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (31 Dec early morning(+2)early evening); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (04 Jan early morning-early evening); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (05 Jan early morning-early evening); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (07 Jan (+1)evening); 
+<a class=red href='cruises-from-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (10 Jan)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsiona-27dec2027-10jan2028.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/stjohns-stlucia-stmaarten.gif' alt='Cruise itinerary map for P & O Cruises 14 Night Christmas And New Year Caribbean Escape (140308)' title='Cruise itinerary map for P & O Cruises 14 Night Christmas And New Year Caribbean Escape (140308)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 29 Dec 2027</b><br>
+<b>14 Night Christmas And New Year Caribbean Escape</b><br>
+Ship 
+<a class=red href='/cruise-ship-iona.html'>Iona</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.pocruises.com/find-a-cruise/G740H/G740H">
+<img class='noborder' src='/logos/pocruises.gif' alt='More details for 14 Night Christmas And New Year Caribbean Escape at P & O Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside From&nbsp;&pound;2,499pp
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-st-johns-antigua.html'>St Johns, Antigua</a>  (18 Dec embark(+1)d early evening); 
+<a class=red href='cruises-to-castries-st-lucia.html'>Castries, St Lucia</a>  (21 Dec early morning-early evening); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (22 Dec early morning-early evening); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (24 Dec (+1)evening); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (27 Dec early morning-early evening); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (28 Dec early morning-early evening); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (29 Dec early morning-early evening); 
+<a class=red href='cruises-from-st-johns-antigua.html'>St Johns, Antigua</a>  (31 Dec a early morning(+1)disembark)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsiona-18dec2027-01jan2028.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/sanjuan-stmaarten-stthomas.gif' alt='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-trip San Juan: Tortola & Barbados (142336)' title='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-trip San Juan: Tortola & Barbados (142336)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 29 Dec 2027</b><br>
+<b>7 Night Caribbean Round-trip San Juan: Tortola & Barbados</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-prima.html'>Norwegian Prima</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/7-night-caribbean-round-trip-san-juan-tortola-and-barbados-PRIMA7SJUBASBGIANUPHITOVSTTSJU">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 7 Night Caribbean Round-trip San Juan: Tortola & Barbados at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$1909
+Oceanview&nbsp;$2149
+Balcony&nbsp;$2429
+Club Balcony Suite&nbsp;$3499
+Suite&nbsp;$5509
+The Haven&nbsp;$7659
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (25 Dec d1600); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (26 Dec 0700-1600); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (27 Dec 1000-1800); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (28 Dec 1100-1800); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (29 Dec 0700-1700); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (30 Dec 0700-1700); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (31 Dec 0700-1700); 
+<a class=red href='cruises-from-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (01 Jan a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegianprima-25dec2027-01jan2028.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/l/laromana-smarta-cartagena.gif' alt='Cruise itinerary map for AIDA 14 Nacht Karibik & Mittelamerika ab Dom. Republik 1 (139551)' title='Cruise itinerary map for AIDA 14 Nacht Karibik & Mittelamerika ab Dom. Republik 1 (139551)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 30 Dec 2027</b><br>
+<b>14 Nacht Karibik & Mittelamerika ab Dom. Republik 1</b><br>
+Ship 
+<a class=red href='/cruise-ship-aidaluna.html'>AIDAluna</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://aida.de/finden/LU14271218/">
+<img class='noborder' src='/logos/aida.gif' alt='More details for 14 Nacht Karibik & Mittelamerika ab Dom. Republik 1 at AIDA'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Innen&nbsp;EUR 3.470
+Meerblick&nbsp;EUR 4.070
+Balkon&nbsp;EUR 4.890
+Suite&nbsp;EUR 6.675
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (18 Dec d2200); 
+<a class=red href='cruises-to-santa-marta-colombia.html'>Santa Marta, Colombia</a>  (20 Dec 0800-1800); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (21 Dec 0700-1600); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (22 Dec 1000-2000); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (23 Dec 0800-1700); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (25 Dec 0800-1600); 
+<a class=red href='cruises-to-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (26 Dec 0800-2100); 
+<a class=red href='cruises-to-samana-dominican-republic.html'>Samana, Dominican Republic</a>  (28 Dec 0900-1630); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (29 Dec 1130-2000); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (30 Dec 0800-1800); 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (01 Jan a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsaidaluna-18dec2027-01jan2028.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/montegobay-samana-laromana.gif' alt='Cruise itinerary map for AIDA 14 Nacht Karibische Inseln ab Jamaika (139553)' title='Cruise itinerary map for AIDA 14 Nacht Karibische Inseln ab Jamaika (139553)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 30 Dec 2027</b><br>
+<b>14 Nacht Karibische Inseln ab Jamaika</b><br>
+Ship 
+<a class=red href='/cruise-ship-aidaluna.html'>AIDAluna</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://aida.de/finden/LU14271226/">
+<img class='noborder' src='/logos/aida.gif' alt='More details for 14 Nacht Karibische Inseln ab Jamaika at AIDA'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Innen&nbsp;EUR 3.845
+Meerblick&nbsp;EUR 4.460
+Balkon&nbsp;EUR 5.295
+Suite&nbsp;EUR 7.115
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (26 Dec d2100); 
+<a class=red href='cruises-to-samana-dominican-republic.html'>Samana, Dominican Republic</a>  (28 Dec 0900-1630); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (29 Dec 1130-2000); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (30 Dec 0800-1800); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (01 Jan 0800-2200); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (03 Jan 0800-2000); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (04 Jan 0800-2200); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (05 Jan 0800-1800); 
+<a class=red href='cruises-to-st-georges-grenada.html'>St Georges, Grenada</a>  (07 Jan 0800-1800); 
+<a class=red href='cruises-to-st-vincent-st-vincent-and-the-grenadines.html'>St Vincent, St Vincent and the Grenadines</a>  (08 Jan 0800-1800); 
+<a class=red href='cruises-to-bridgetown-barbados.html'>Bridgetown, Barbados</a>  (09 Jan a0900)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsaidaluna-26dec2027-09jan2028.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html')">1-10</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=11')">11-20</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=21')">21-30</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=31')">31-40</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=41')">41-50</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=51')">51-60</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=61')">61-70</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=71')">71-80</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=81')">81-90</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=91')">91-100</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=101')">101-110</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=111')">111-120</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=121')">121-130</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=131')">131-140</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=141')">141-150</a>
+<b><a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=151')">151-160</a>
+</b><a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=161')">161-170</a>
+<a class='button' href="javascript:pageit('visitingphilipsburgstmaarten-dec2027.html?offset=171')">171-172</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingphilipsburgstmaarten-dec2027.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingphilipsburgstmaarten-dec2027.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Philipsburg, St. Maarten during December 2027 (29 Dec-30 Dec)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>
