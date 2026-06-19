@@ -1,0 +1,736 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Puerto Plata/Amber Cove, Dominican Republic during November 2027 (15 Nov-17 Nov)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Puerto Plata/Amber Cove, Dominican Republic during November 2027 Puerto Plata/Amber Cove, Dominican Republic sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Puerto Plata/Amber Cove, Dominican Republic during November 2027 (15 Nov-17 Nov)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Cruises To Puerto Plata/Amber Cove, Dominican Republic</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Puerto Plata/Amber Cove, Dominican Republic during November 2027</h1>
+Showing 31 to 40 of total 77
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-oceancay-sanjuan-1.gif' alt='Cruise itinerary map for MSC Cruises 7 Night Eastern Caribbean & Bahamas (107030)' title='Cruise itinerary map for MSC Cruises 7 Night Eastern Caribbean & Bahamas (107030)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 15 Nov 2027</b><br>
+<b>7 Night Eastern Caribbean & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-world-america.html'>MSC World America</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=AM20271113MIAMIA&itineraryCode=UYR3">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 7 Night Eastern Caribbean & Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$767
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (13 Nov d1630); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (15 Nov 0900-1700); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (16 Nov 0900-2300); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (19 Nov 0700-1800); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (20 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscworldamerica-13nov2027-20nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-roatan-sanjuan.gif' alt='Cruise itinerary map for MSC Cruises 14 Night Eastern & Western Caribbean (142632)' title='Cruise itinerary map for MSC Cruises 14 Night Eastern & Western Caribbean (142632)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 15 Nov 2027</b><br>
+<b>14 Night Eastern & Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-world-america.html'>MSC World America</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=AM20271106MIAMI1&itineraryCode=UYRA">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 14 Night Eastern & Western Caribbean at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$1533
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (06 Nov d1630); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (08 Nov 0900-1800); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (09 Nov 0800-1700); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (10 Nov 0800-1900); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (13 Nov 0700-1630); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (15 Nov 0900-1700); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (16 Nov 0900-2300); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (19 Nov 0700-1800); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (20 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscworldamerica-06nov2027-20nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-puertoplata-roatan.gif' alt='Cruise itinerary map for MSC Cruises 14 Night Eastern & Western Caribbean (122355)' title='Cruise itinerary map for MSC Cruises 14 Night Eastern & Western Caribbean (122355)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 15 Nov 2027</b><br>
+<b>14 Night Eastern & Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-world-america.html'>MSC World America</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=AM20271113MIAMI1&itineraryCode=UYR5">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 14 Night Eastern & Western Caribbean at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$1653
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (13 Nov d1630); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (15 Nov 0900-1700); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (16 Nov 0900-2300); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (19 Nov 0700-1800); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (20 Nov 0700-1630); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (22 Nov 0900-1800); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (23 Nov 0800-1700); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (24 Nov 0800-1900); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (26 Nov 0700-1800); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (27 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscworldamerica-13nov2027-27nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-puertoplata-grandturk-1.gif' alt='Cruise itinerary map for Carnival Cruises 5 Night Eastern Caribbean (147452)' title='Cruise itinerary map for Carnival Cruises 5 Night Eastern Caribbean (147452)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 16 Nov 2027</b><br>
+<b>5 Night Eastern Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-firenze.html'>Carnival Firenze</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/5-day-eastern-caribbean-cruise/pt-canaveral/firenze/5-days/ecd/?sailDate=11142027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 5 Night Eastern Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$381
+Oceanview&nbsp;$511
+Balcony&nbsp;$636
+Suite&nbsp;$1481
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (14 Nov d1530); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (16 Nov 1030-1830); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (17 Nov 0800-1600); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (19 Nov a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalfirenze-14nov2027-19nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/s/sanjuan-stthomas-catalinaisl.gif' alt='Cruise itinerary map for Explora Journeys 7 Night A Journey Across the Caribbean&rsquo;s Colourful Heart (148063)' title='Cruise itinerary map for Explora Journeys 7 Night A Journey Across the Caribbean&rsquo;s Colourful Heart (148063)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 16 Nov 2027</b><br>
+<b>7 Night A Journey Across the Caribbean&rsquo;s Colourful Heart</b><br>
+Ship 
+<a class=red href='/cruise-ship-explora-iv.html'>Explora IV</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.explorajourneys.com/us/en/destinations-globe/car/journeys/sjumia-07-v34?id-journey=EO20271113SJUMIA&amp;id-offer=ejeb">
+<img class='noborder' src='/logos/explora-journeys.gif' alt='More details for 7 Night A Journey Across the Caribbean&rsquo;s Colourful Heart at Explora Journeys'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$4,020 per guest
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (13 Nov d1800); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (14 Nov 0800-1700); 
+<a class=red href='cruises-to-catalina-island-dominican-republic.html'>Catalina Island, Dominican Republic</a>  (15 Nov 0900-1700); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (16 Nov 0900-1700); 
+<a class=red href='cruises-to-key-west-florida.html'>Key West, Florida</a>  (18 Nov 0900-1700); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (19 Nov 0900-2100); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (20 Nov a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsexploraiv-13nov2027-20nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-ambercove-tortola.gif' alt='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-trip Miami: Great Stirrup Cay & Dominican Republic (65770)' title='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean Round-trip Miami: Great Stirrup Cay & Dominican Republic (65770)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 16 Nov 2027</b><br>
+<b>7 Night Caribbean Round-trip Miami: Great Stirrup Cay & Dominican Republic</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-luna.html'>Norwegian Luna</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/7-night-caribbean-round-trip-miami-great-stirrup-cay-and-dominican-republic-LUNA7MIAPOPSTTTOVNPIMIA">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 7 Night Caribbean Round-trip Miami: Great Stirrup Cay & Dominican Republic at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$1289
+Oceanview&nbsp;$1499
+Balcony&nbsp;$1729
+Club Balcony Suite&nbsp;$2499
+Suite&nbsp;$3099
+The Haven&nbsp;$4499
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (14 Nov d1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (16 Nov 0700-1500); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (17 Nov 1000-1800); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (18 Nov 0645-1400); 
+<a class=red href='cruises-to-great-stirrup-cay-bahamas.html'>Great Stirrup Cay, Bahamas</a>  (20 Nov 1000-1800); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (21 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegianluna-14nov2027-21nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-stkitts-sanjuan-1.gif' alt='Cruise itinerary map for Princess Cruises 7 Night Eastern Caribbean with St. Kitts (140872)' title='Cruise itinerary map for Princess Cruises 7 Night Eastern Caribbean with St. Kitts (140872)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 16 Nov 2027</b><br>
+<b>7 Night Eastern Caribbean with St. Kitts</b><br>
+Ship 
+<a class=red href='/cruise-ship-sky-princess.html'>Sky Princess</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.princess.com/itinerary-details/?voyageCode=Y732">
+<img class='noborder' src='/logos/princess.gif' alt='More details for 7 Night Eastern Caribbean with St. Kitts at Princess Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$609
+Balcony&nbsp;$889
+Mini-Suite&nbsp;$1,249
+Suite&nbsp;$3,279
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (14 Nov d1500); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (16 Nov 1000-1700); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (17 Nov 1000-1800); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (18 Nov 0800-1700); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (21 Nov a0600)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsskyprincess-14nov2027-21nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-puertoplata-celebrationkey.gif' alt='Cruise itinerary map for Carnival Cruises 6 Night Eastern Caribbean (139573)' title='Cruise itinerary map for Carnival Cruises 6 Night Eastern Caribbean (139573)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 17 Nov 2027</b><br>
+<b>6 Night Eastern Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-magic.html'>Carnival Magic</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/6-day-eastern-caribbean-cruise/miami/magic/6-days/cec/?sailDate=11142027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 6 Night Eastern Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$421
+Oceanview&nbsp;$551
+Balcony&nbsp;$681
+Suite&nbsp;$1025
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (14 Nov d1530); 
+<a class=red href='cruises-to-grand-turk-turks-and-caicos.html'>Grand Turk, Turks and Caicos</a>  (16 Nov 0800-1700); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (17 Nov 0800-1700); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (19 Nov 0800-1600); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (20 Nov a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalmagic-14nov2027-20nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-nassau-puertoplata-5.gif' alt='Cruise itinerary map for MSC Cruises 6 Night Caribbean & Bahamas (142324)' title='Cruise itinerary map for MSC Cruises 6 Night Caribbean & Bahamas (142324)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 17 Nov 2027</b><br>
+<b>6 Night Caribbean & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-seashore.html'>MSC Seashore</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=SH20271114MIAMIA&itineraryCode=UYT7">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 6 Night Caribbean & Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$445
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (14 Nov d1600); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (15 Nov 0800-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (17 Nov 0800-1900); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (19 Nov 0800-1800); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (20 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscseashore-14nov2027-20nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-nassau-puertoplata.gif' alt='Cruise itinerary map for MSC Cruises 14 Night Caribbean & Bahamas (142309)' title='Cruise itinerary map for MSC Cruises 14 Night Caribbean & Bahamas (142309)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 17 Nov 2027</b><br>
+<b>14 Night Caribbean & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-seashore.html'>MSC Seashore</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=SH20271114MIAMI1&itineraryCode=UYTH">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 14 Night Caribbean & Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$1233
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (14 Nov d1600); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (15 Nov 0800-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (17 Nov 0800-1900); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (19 Nov 0800-1800); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (20 Nov 0700-1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (22 Nov 0700-1600); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (23 Nov 1100-2100); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (24 Nov 0900-1900); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (25 Nov 0700-1600); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (28 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscseashore-14nov2027-28nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-nov2027.html')">1-10</a>
+<a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-nov2027.html?offset=11')">11-20</a>
+<a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-nov2027.html?offset=21')">21-30</a>
+<b><a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-nov2027.html?offset=31')">31-40</a>
+</b><a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-nov2027.html?offset=41')">41-50</a>
+<a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-nov2027.html?offset=51')">51-60</a>
+<a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-nov2027.html?offset=61')">61-70</a>
+<a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-nov2027.html?offset=71')">71-77</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingpuertoplataambercovedominicanrepublic-nov2027.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingpuertoplataambercovedominicanrepublic-nov2027.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Puerto Plata/Amber Cove, Dominican Republic during November 2027 (15 Nov-17 Nov)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>

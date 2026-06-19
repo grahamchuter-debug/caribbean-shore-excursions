@@ -1,0 +1,740 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Puerto Plata/Amber Cove, Dominican Republic during August 2027 (16 Aug-23 Aug)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Puerto Plata/Amber Cove, Dominican Republic during August 2027 Puerto Plata/Amber Cove, Dominican Republic sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Puerto Plata/Amber Cove, Dominican Republic during August 2027 (16 Aug-23 Aug)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Cruises To Puerto Plata/Amber Cove, Dominican Republic</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Puerto Plata/Amber Cove, Dominican Republic during August 2027</h1>
+Showing 21 to 30 of total 41
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-ambercove-tortola.gif' alt='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean from Miami: Great Stirrup Cay & Dominican Republic (65770)' title='Cruise itinerary map for Norwegian Cruise Line 7 Night Caribbean from Miami: Great Stirrup Cay & Dominican Republic (65770)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 16 Aug 2027</b><br>
+<b>7 Night Caribbean from Miami: Great Stirrup Cay & Dominican Republic</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-aura.html'>Norwegian Aura</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/7-night-caribbean-from-miami-great-stirrup-cay-and-dominican-republic-AURA7MIAPOPSTTTOVNPIMIA">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 7 Night Caribbean from Miami: Great Stirrup Cay & Dominican Republic at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$1469
+Oceanview&nbsp;$1789
+Balcony&nbsp;$1989
+Club Balcony Suite&nbsp;$2919
+Suite&nbsp;$3339
+The Haven&nbsp;$4589
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (14 Aug d1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (16 Aug 0700-1600); 
+<a class=red href='cruises-to-st-thomas-us-virgin-islands.html'>St Thomas, US Virgin Islands</a>  (17 Aug 1100-1900); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (18 Aug 0700-1300); 
+<a class=red href='cruises-to-great-stirrup-cay-bahamas.html'>Great Stirrup Cay, Bahamas</a>  (20 Aug 1100-1800); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (21 Aug a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegianaura-14aug2027-21aug2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-puertoplata-halfmooncay.gif' alt='Cruise itinerary map for Carnival Cruises 6 Night Eastern Caribbean (114457)' title='Cruise itinerary map for Carnival Cruises 6 Night Eastern Caribbean (114457)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Tue 17 Aug 2027</b><br>
+<b>6 Night Eastern Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-festivale.html'>Carnival Festivale</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/6-day-eastern-caribbean-cruise/pt-canaveral/festivale/6-days/cef/?sailDate=08152027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 6 Night Eastern Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$904
+Oceanview&nbsp;$1094
+Balcony&nbsp;$1184
+Suite&nbsp;$1814
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (15 Aug d1530); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (17 Aug 1030-1830); 
+<a class=red href='cruises-to-half-moon-cay-bahamas.html'>Half Moon Cay, Bahamas</a>  (19 Aug 0700-1630); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (20 Aug 0800-1600); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (21 Aug a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalfestivale-15aug2027-21aug2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-oceancay-puertoplata.gif' alt='Cruise itinerary map for MSC Cruises 7 Night Caribbean & Bahamas (122472)' title='Cruise itinerary map for MSC Cruises 7 Night Caribbean & Bahamas (122472)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 18 Aug 2027</b><br>
+<b>7 Night Caribbean & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-grandiosa.html'>MSC Grandiosa</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=GR20270814CPVCPV&itineraryCode=UXTS">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 7 Night Caribbean & Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$704
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (14 Aug d1600); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (15 Aug 0900-1800); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (16 Aug 0800-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (18 Aug 0800-1700); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (21 Aug a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscgrandiosa-14aug2027-21aug2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-puertoplata-oceancay.gif' alt='Cruise itinerary map for MSC Cruises 14 Night Caribbean & Bahamas (131858)' title='Cruise itinerary map for MSC Cruises 14 Night Caribbean & Bahamas (131858)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 18 Aug 2027</b><br>
+<b>14 Night Caribbean & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-grandiosa.html'>MSC Grandiosa</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=GR20270814CPVCP1&itineraryCode=UXTT">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 14 Night Caribbean & Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$1378
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (14 Aug d1600); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (15 Aug 0900-1800); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (16 Aug 0800-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (18 Aug 0800-1700); 
+<a class=red href='cruises-to-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (21 Aug 0700-1600); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (22 Aug 0900-1800); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (23 Aug 0800-1800); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (25 Aug 0700-1900); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (26 Aug 0800-1400); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (28 Aug a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscgrandiosa-14aug2027-28aug2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-costamaya-puertoplata.gif' alt='Cruise itinerary map for MSC Cruises 14 Night Caribbean & Bahamas (131859)' title='Cruise itinerary map for MSC Cruises 14 Night Caribbean & Bahamas (131859)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Wed 18 Aug 2027</b><br>
+<b>14 Night Caribbean & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-grandiosa.html'>MSC Grandiosa</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=GR20270807CPVCP1&itineraryCode=UXTU">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 14 Night Caribbean & Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$1478
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (07 Aug d1600); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (08 Aug 0900-1800); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (09 Aug 0800-1800); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (11 Aug 0700-1900); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (12 Aug 0800-1400); 
+<a class=red href='cruises-to-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (14 Aug 0700-1600); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (15 Aug 0900-1800); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (16 Aug 0800-1800); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (18 Aug 0800-1700); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (21 Aug a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscgrandiosa-07aug2027-21aug2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-puertoplata-sanjuan-4.gif' alt='Cruise itinerary map for Margaritaville At Sea 7 Night Eastern Caribbean (138822)' title='Cruise itinerary map for Margaritaville At Sea 7 Night Eastern Caribbean (138822)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 19 Aug 2027</b><br>
+<b>7 Night Eastern Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-margaritaville-at-sea-beachcomber.html'>Margaritaville At Sea Beachcomber</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://margaritavilleatsea.com/">
+<img class='noborder' src='/logos/margaritaville-at-sea.gif' alt='More details for 7 Night Eastern Caribbean at Margaritaville At Sea'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$649
+Ocean View&nbsp;$889
+Balcony&nbsp;$1059
+Suite&nbsp;$1639
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (14 Aug d1600); 
+<a class=red href='cruises-to-philipsburg-st-maarten.html'>Philipsburg, St. Maarten</a>  (17 Aug 1100-1900); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (18 Aug 0700-1500); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (19 Aug 0900-1600); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (21 Aug a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmargaritavilleatseabeachcomber-14aug2027-21aug2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-puertoplata-nassau-1.gif' alt='Cruise itinerary map for Carnival Cruises 7 Night Eastern Caribbean (137700)' title='Cruise itinerary map for Carnival Cruises 7 Night Eastern Caribbean (137700)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 20 Aug 2027</b><br>
+<b>7 Night Eastern Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-celebration.html'>Carnival Celebration</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/7-day-eastern-caribbean-cruise/miami/celebration/7-days/cc5/?sailDate=08152027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 7 Night Eastern Caribbean at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$686
+Oceanview&nbsp;$916
+Balcony&nbsp;$1016
+Suite&nbsp;$1766
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (15 Aug d1530); 
+<a class=red href='cruises-to-celebration-key-bahamas.html'>Celebration Key, Bahamas</a>  (16 Aug 0800-1600); 
+<a class=red href='cruises-to-half-moon-cay-bahamas.html'>Half Moon Cay, Bahamas</a>  (17 Aug 0800-1600); 
+<a class=red href='cruises-to-nassau-bahamas.html'>Nassau, Bahamas</a>  (18 Aug 0800-1700); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (20 Aug 0800-1700); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (22 Aug a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalcelebration-15aug2027-22aug2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/p/portcanaveral-puertoplata-greatstirrupcay.gif' alt='Cruise itinerary map for Norwegian Cruise Line 5 Night Caribbean from Orlando (Port Canaveral): Puerto Plata & Great Stirrup Cay (128495)' title='Cruise itinerary map for Norwegian Cruise Line 5 Night Caribbean from Orlando (Port Canaveral): Puerto Plata & Great Stirrup Cay (128495)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 20 Aug 2027</b><br>
+<b>5 Night Caribbean from Orlando (Port Canaveral): Puerto Plata & Great Stirrup Cay</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-escape.html'>Norwegian Escape</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/5-night-caribbean-from-orlando--port-canaveral--puerto-plata-and-great-stirrup-cay-ESCAPE5PCVPOPNPIPCV">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 5 Night Caribbean from Orlando (Port Canaveral): Puerto Plata & Great Stirrup Cay at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$869
+Oceanview&nbsp;$1009
+Balcony&nbsp;$1139
+Club Balcony Suite&nbsp;$1249
+The Haven&nbsp;$2569
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (18 Aug d1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (20 Aug 0900-1800); 
+<a class=red href='cruises-to-great-stirrup-cay-bahamas.html'>Great Stirrup Cay, Bahamas</a>  (22 Aug 0700-1700); 
+<a class=red href='cruises-from-port-canaveral-florida.html'>Port Canaveral, Florida</a>  (23 Aug a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegianescape-18aug2027-23aug2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-georgetown-ochorios-2.gif' alt='Cruise itinerary map for Margaritaville At Sea 7 Night Dominican Republic & Western Caribbean (142018)' title='Cruise itinerary map for Margaritaville At Sea 7 Night Dominican Republic & Western Caribbean (142018)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 23 Aug 2027</b><br>
+<b>7 Night Dominican Republic & Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-margaritaville-at-sea-beachcomber.html'>Margaritaville At Sea Beachcomber</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://margaritavilleatsea.com/">
+<img class='noborder' src='/logos/margaritaville-at-sea.gif' alt='More details for 7 Night Dominican Republic & Western Caribbean at Margaritaville At Sea'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$649
+Ocean View&nbsp;$849
+Balcony&nbsp;$1019
+Suite&nbsp;$1589
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (21 Aug d1600); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (23 Aug 1100-1900); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (25 Aug 0800-1600); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (26 Aug 0800-1600); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (28 Aug a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmargaritavilleatseabeachcomber-21aug2027-28aug2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-puertoplata-roatan.gif' alt='Cruise itinerary map for MSC Cruises 14 Night Eastern & Western Caribbean (122355)' title='Cruise itinerary map for MSC Cruises 14 Night Eastern & Western Caribbean (122355)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 23 Aug 2027</b><br>
+<b>14 Night Eastern & Western Caribbean</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-world-america.html'>MSC World America</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=AM20270821MIAMI1&itineraryCode=UXIF">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 14 Night Eastern & Western Caribbean at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$1535
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (21 Aug d1630); 
+<a class=red href='cruises-to-puerto-plata-amber-cove-dominican-republic.html'>Puerto Plata/Amber Cove, Dominican Republic</a>  (23 Aug 0900-1700); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (24 Aug 0900-2300); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (27 Aug 0700-1800); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (28 Aug 0700-1630); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (30 Aug 0900-1800); 
+<a class=red href='cruises-to-costa-maya-mexico.html'>Costa Maya, Mexico</a>  (31 Aug 0800-1700); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (01 Sep 0800-1900); 
+<a class=red href='cruises-to-ocean-cay-bahamas.html'>Ocean Cay, Bahamas</a>  (03 Sep 0700-1800); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (04 Sep a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscworldamerica-21aug2027-04sep2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-aug2027.html')">1-10</a>
+<a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-aug2027.html?offset=11')">11-20</a>
+<b><a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-aug2027.html?offset=21')">21-30</a>
+</b><a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-aug2027.html?offset=31')">31-40</a>
+<a class='button' href="javascript:pageit('visitingpuertoplataambercovedominicanrepublic-aug2027.html?offset=41')">41-41</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingpuertoplataambercovedominicanrepublic-aug2027.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingpuertoplataambercovedominicanrepublic-aug2027.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Puerto Plata/Amber Cove, Dominican Republic during August 2027 (16 Aug-23 Aug)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>
