@@ -18,6 +18,8 @@ import nassauSchedule from "./imported-schedules/nassau.json";
 import roatanSchedule from "./imported-schedules/roatan.json";
 import stMaartenSchedule from "./imported-schedules/st-maarten.json";
 import puertoPlataSchedule from "./imported-schedules/puerto-plata.json";
+import costaMayaSchedule from "./imported-schedules/costa-maya.json";
+import puertoLimonSchedule from "./imported-schedules/puerto-limon.json";
 
 export const TOP_SCHEDULE_PORT_SLUGS = [
   "st-thomas",

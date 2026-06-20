@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-06-19T11:32:23.645Z",
+  "lastRun": "2026-06-20T12:36:39.995Z",
   "blockedUntil": "2026-06-19T19:32:24.312Z",
   "ports": {
     "ocho-rios": {
@@ -71,8 +71,16 @@
       "importEntryCount": 865
     },
     "costa-maya": {
-      "lastFetch": "2026-06-19T11:30:33.661Z",
-      "lastFetchUrl": "https://www.cruisetimetables.com/visitingcostamayamexico-mar2027.html?offset=11"
+      "lastFetch": "2026-06-20T12:36:10.202Z",
+      "lastFetchUrl": "https://www.cruisetimetables.com/visitingcostamayamexico-dec2027.html?offset=91",
+      "lastImport": "2026-06-20T12:36:12.330Z",
+      "importEntryCount": 821
+    },
+    "puerto-limon": {
+      "lastFetch": "2026-06-20T12:37:16.799Z",
+      "lastFetchUrl": "https://www.cruisetimetables.com/visitingpuertolimoncostarica-dec2027.html?offset=21",
+      "lastImport": "2026-06-20T12:37:18.923Z",
+      "importEntryCount": 107
     }
   }
 }

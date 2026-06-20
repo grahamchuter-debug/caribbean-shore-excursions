@@ -1,0 +1,964 @@
+[
+  {
+    "date": "2026-10-26",
+    "ship": "Nieuw Amsterdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,106 to 2,527"
+  },
+  {
+    "date": "2026-10-30",
+    "ship": "Carnival Miracle",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "10:00",
+    "departure": "19:00",
+    "timeInPort": "9h",
+    "passengers": "2,124 to 2,549"
+  },
+  {
+    "date": "2026-11-06",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2026-11-07",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2026-11-14",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2026-11-16",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,534 to 2,894"
+  },
+  {
+    "date": "2026-11-16",
+    "ship": "Nieuw Amsterdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,106 to 2,527"
+  },
+  {
+    "date": "2026-11-18",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2026-11-22",
+    "ship": "Artania",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "1,188 to 1,260"
+  },
+  {
+    "date": "2026-11-24",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2026-11-28",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2026-11-30",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2026-11-30",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,534 to 2,894"
+  },
+  {
+    "date": "2026-12-01",
+    "ship": "AIDAbella",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,050 to 2,500"
+  },
+  {
+    "date": "2026-12-05",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2026-12-09",
+    "ship": "Carnival Liberty",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "passengers": "2,978 to 3,574"
+  },
+  {
+    "date": "2026-12-11",
+    "ship": "Carnival Miracle",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "10:00",
+    "departure": "19:00",
+    "timeInPort": "9h",
+    "passengers": "2,124 to 2,549"
+  },
+  {
+    "date": "2026-12-12",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2026-12-14",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,534 to 2,894"
+  },
+  {
+    "date": "2026-12-15",
+    "ship": "AIDAbella",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,050 to 2,500"
+  },
+  {
+    "date": "2026-12-16",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2026-12-24",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2026-12-28",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,534 to 2,894"
+  },
+  {
+    "date": "2026-12-29",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2026-12-30",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "06:45",
+    "departure": "13:30",
+    "timeInPort": "6h 45m",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2027-01-04",
+    "ship": "Nieuw Amsterdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,106 to 2,527"
+  },
+  {
+    "date": "2027-01-05",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2027-01-08",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2027-01-09",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2027-01-11",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,534 to 2,894"
+  },
+  {
+    "date": "2027-01-12",
+    "ship": "AIDAbella",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,050 to 2,500"
+  },
+  {
+    "date": "2027-01-13",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "1,258 to 1,447"
+  },
+  {
+    "date": "2027-01-17",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2027-01-19",
+    "ship": "Carnival Legend",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "2,124 to 2,549"
+  },
+  {
+    "date": "2027-01-20",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2027-01-22",
+    "ship": "Carnival Miracle",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "10:00",
+    "departure": "19:00",
+    "timeInPort": "9h",
+    "passengers": "2,124 to 2,549"
+  },
+  {
+    "date": "2027-01-22",
+    "ship": "Seven Seas Splendor",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "10:30",
+    "departure": "19:30",
+    "timeInPort": "9h",
+    "passengers": "754 to 829"
+  },
+  {
+    "date": "2027-01-25",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,534 to 2,894"
+  },
+  {
+    "date": "2027-01-25",
+    "ship": "Nieuw Amsterdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,106 to 2,527"
+  },
+  {
+    "date": "2027-01-26",
+    "ship": "AIDAbella",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,050 to 2,500"
+  },
+  {
+    "date": "2027-01-29",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2027-01-30",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2027-02-03",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "06:45",
+    "departure": "13:30",
+    "timeInPort": "6h 45m",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2027-02-04",
+    "ship": "Carnival Legend",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h",
+    "passengers": "2,124 to 2,549"
+  },
+  {
+    "date": "2027-02-08",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,534 to 2,894"
+  },
+  {
+    "date": "2027-02-10",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2027-02-12",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2027-02-15",
+    "ship": "Nieuw Amsterdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,106 to 2,527"
+  },
+  {
+    "date": "2027-02-20",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2027-02-22",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2027-02-22",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,534 to 2,894"
+  },
+  {
+    "date": "2027-02-23",
+    "ship": "AIDAbella",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,050 to 2,500"
+  },
+  {
+    "date": "2027-02-24",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2027-02-24",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "822"
+  },
+  {
+    "date": "2027-03-02",
+    "ship": "Crystal Symphony",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "passengers": "904 to 1,040"
+  },
+  {
+    "date": "2027-03-04",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "10:30",
+    "departure": "19:30",
+    "timeInPort": "9h",
+    "passengers": "754 to 829"
+  },
+  {
+    "date": "2027-03-08",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,534 to 2,894"
+  },
+  {
+    "date": "2027-03-08",
+    "ship": "Nieuw Amsterdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,106 to 2,527"
+  },
+  {
+    "date": "2027-03-09",
+    "ship": "Carnival Miracle",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "10:00",
+    "departure": "19:00",
+    "timeInPort": "9h",
+    "passengers": "2,124 to 2,549"
+  },
+  {
+    "date": "2027-03-10",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "06:45",
+    "departure": "13:30",
+    "timeInPort": "6h 45m",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2027-03-13",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2027-03-13",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "1,258 to 1,447"
+  },
+  {
+    "date": "2027-03-16",
+    "ship": "Carnival Legend",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "2,124 to 2,549"
+  },
+  {
+    "date": "2027-03-19",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2027-03-20",
+    "ship": "Seven Seas Mariner",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "708 to 779"
+  },
+  {
+    "date": "2027-03-22",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,534 to 2,894"
+  },
+  {
+    "date": "2027-03-24",
+    "ship": "Azamara Journey",
+    "cruiseLine": "Azamara",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "710 to 781"
+  },
+  {
+    "date": "2027-03-29",
+    "ship": "Nieuw Amsterdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,106 to 2,527"
+  },
+  {
+    "date": "2027-03-31",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2027-04-02",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2027-04-03",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2027-04-05",
+    "ship": "Mein Schiff 1",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,534 to 2,894"
+  },
+  {
+    "date": "2027-04-11",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "1,936 to 2,323"
+  },
+  {
+    "date": "2027-04-21",
+    "ship": "Europa",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "5,240 to 6,774"
+  },
+  {
+    "date": "2027-04-22",
+    "ship": "Amera",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h"
+  },
+  {
+    "date": "2027-04-30",
+    "ship": "Carnival Miracle",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "10:00",
+    "departure": "19:00",
+    "timeInPort": "9h",
+    "passengers": "2,124 to 2,549"
+  },
+  {
+    "date": "2027-10-06",
+    "ship": "Carnival Valor",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "passengers": "2,984 to 3,581"
+  },
+  {
+    "date": "2027-10-29",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "10:00",
+    "departure": "19:00",
+    "timeInPort": "9h",
+    "passengers": "2,124 to 2,549"
+  },
+  {
+    "date": "2027-11-06",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2027-11-15",
+    "ship": "Mein Schiff 3",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,506 to 2,700"
+  },
+  {
+    "date": "2027-11-15",
+    "ship": "Norwegian Gem",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:30",
+    "departure": "16:00",
+    "timeInPort": "8h 30m",
+    "passengers": "2,394 to 2,873"
+  },
+  {
+    "date": "2027-11-17",
+    "ship": "AIDAdiva",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "2,050 to 2,500"
+  },
+  {
+    "date": "2027-11-18",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2027-11-19",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "1,970 to 2,364"
+  },
+  {
+    "date": "2027-11-25",
+    "ship": "Norwegian Gem",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:30",
+    "departure": "16:00",
+    "timeInPort": "8h 30m",
+    "passengers": "2,394 to 2,873"
+  },
+  {
+    "date": "2027-11-27",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2027-11-28",
+    "ship": "Carnival Sunshine",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "passengers": "3,012 to 3,765"
+  },
+  {
+    "date": "2027-11-29",
+    "ship": "Mein Schiff 3",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,506 to 2,700"
+  },
+  {
+    "date": "2027-11-29",
+    "ship": "Crystal Symphony",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "904 to 1,040"
+  },
+  {
+    "date": "2027-12-06",
+    "ship": "Norwegian Gem",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:30",
+    "departure": "16:00",
+    "timeInPort": "8h 30m",
+    "passengers": "2,394 to 2,873"
+  },
+  {
+    "date": "2027-12-07",
+    "ship": "AIDAbella",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": "2,050 to 2,500"
+  },
+  {
+    "date": "2027-12-07",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "2,124 to 2,549"
+  },
+  {
+    "date": "2027-12-08",
+    "ship": "Carnival Liberty",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "passengers": "2,978 to 3,574"
+  },
+  {
+    "date": "2027-12-08",
+    "ship": "Explora II",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "20:00",
+    "timeInPort": "12h",
+    "passengers": "922 to 1,473"
+  },
+  {
+    "date": "2027-12-10",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2027-12-10",
+    "ship": "AIDAluna",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "2,050 to 2,500"
+  },
+  {
+    "date": "2027-12-13",
+    "ship": "Mein Schiff 3",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,506 to 2,700"
+  },
+  {
+    "date": "2027-12-13",
+    "ship": "Crystal Serenity",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "1,090 to 1,254"
+  },
+  {
+    "date": "2027-12-15",
+    "ship": "Norwegian Jewel",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "2,388 to 2,866"
+  },
+  {
+    "date": "2027-12-16",
+    "ship": "Norwegian Gem",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:30",
+    "departure": "16:00",
+    "timeInPort": "8h 30m",
+    "passengers": "2,394 to 2,873"
+  },
+  {
+    "date": "2027-12-18",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2027-12-21",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "2,124 to 2,549"
+  },
+  {
+    "date": "2027-12-23",
+    "ship": "AIDAluna",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "2,050 to 2,500"
+  },
+  {
+    "date": "2027-12-27",
+    "ship": "Mein Schiff 3",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,506 to 2,700"
+  },
+  {
+    "date": "2027-12-29",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2027-12-30",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2027-12-30",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "754 to 829"
+  }
+]

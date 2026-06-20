@@ -1,0 +1,768 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-M1R71RG6FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-M1R71RG6FJ');
+</script>
+<script async src="https://fundingchoicesmessages.google.com/i/pub-9797911548575941?ers=1" nonce="i60mMwkUlTry21vII0USBw"></script><script nonce="i60mMwkUlTry21vII0USBw">(function() {function signalGooglefcPresent() {if (!window.frames['googlefcPresent']) {if (document.body) {const iframe = document.createElement('iframe'); iframe.style = 'width: 0; height: 0; border: none; z-index: -1000; left: -1000px; top: -1000px;'; iframe.style.display = 'none'; iframe.name = 'googlefcPresent'; document.body.appendChild(iframe);} else {setTimeout(signalGooglefcPresent, 0);}}}signalGooglefcPresent();})();</script>
+
+<title>
+Timetables for Cruises To Puerto Limon, Costa Rica during November 2027 (25 Nov-29 Nov)
+</title>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="Keywords" content="Timetables for Cruises To Puerto Limon, Costa Rica during November 2027 Puerto Limon, Costa Rica sailing schedule times leaving from port dates calendar">
+<meta name="Description" content="Timetables for Cruises To Puerto Limon, Costa Rica during November 2027 (25 Nov-29 Nov)">
+<meta name="robots" content="index,follow,archive">
+
+<!-- mobile metas -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
+
+<!-- Favicon -->
+<link rel='shortcut icon' href='https://cruisetimetables.com/favicon.ico'>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+
+
+<!-- CSS style sheets -->
+<link href='/src83/resp.css' rel='stylesheet' type='text/css'>
+
+<!-- Small -->
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small.css'>
+<link rel='stylesheet' media='screen and (min-width: 0px)' href='/src83/small-cd.css'>
+
+<!-- Medium -->
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium.css'>
+<link rel='stylesheet' media='screen and (min-width: 640px)' href='/src83/medium-cd.css'>
+
+<!-- 20171229 932 changed to 1072 -->
+<!-- Large -->
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large.css'>
+<link rel='stylesheet' media='screen and (min-width: 1072px)' href='/src83/large-cd.css'>
+
+
+<!-- javascript -->
+<script type='text/javascript' src='/src83/resp.js'></script>
+<script type='text/javascript' src='/src83/resp-cd.js'></script>
+
+
+<script type="text/javascript" src="/src83/nav.js"></script>
+
+
+
+
+
+<script type="text/javascript">
+var inEU = true;
+ var myCountry = 'GB';</script>
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9797911548575941" data-overlays="bottom" crossorigin="anonymous"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-9797911548575941",
+    enable_page_level_ads: true,
+    overlays: {bottom: true}
+  });
+</script>
+
+</head>
+
+<!-- 20141208 set body margin to 0 -->
+<body style='margin:0;'>
+
+<div class="resp-header"> <!--Start resp-header -->
+<div id="idDateHolder"></div>
+</div>  <!--End resp-header -->
+
+<div class="resp-middle"> <!--Start resp-middle -->
+
+<div class="resp-nav-pr"> <!--Start resp-nav-pr -->
+
+
+<div class="resp-nav-heading"></div>
+<div class="resp-nav"> <!--Start resp-nav -->
+<a class='button-navlist-li' href='/'>Home</a>
+<a class='button-navlist-li' href='/cruises-to-puerto-limon-costa-rica.html'>Cruises To Puerto Limon, Costa Rica</a>
+</div> <!--End resp-nav -->
+ 
+
+
+
+ 
+
+
+
+<div class="resp-divider-top-pr"></div>
+<div class="resp-top-pr-heading"> </div>
+<div class="resp-top-pr"> <!--Start resp-top-pr-->
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script type="text/javascript">
+
+<!-- 300x600 L ATF introduced 20171219 -->
+<!-- 160 changed to 300  9334614228 changed to 7289649542 -->
+<!-- 932 changed to 1072 -->
+
+if(window.innerWidth < 640)
+   {googlead_width='320';  googlead_height= '100'; googlead_crid='2076295839';}
+if(window.innerWidth >= 640 && window.innerWidth < 1072)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='2710150741';}
+if(window.innerWidth >= 1072)
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='300';  googlead_height= '600';  googlead_crid='7289649542';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div> <!--End resp-top-pr -->
+<div class="resp-divider-top-pr"></div>
+
+ 
+
+</div> <!--End resp-nav-pr -->
+
+
+<div class="resp-content">
+
+
+
+<!-- TAB control display set to none for DESKTOP -->
+<div class="tabcontrol">
+<ul class="tabrow">
+<a href="#all"><li id="li-all" class="selected">All</li></a>
+<a href="#summary"><li id="li-summary">Summary</li></a>
+</ul>
+</div>
+
+<div class="resp-heading"> </div>
+
+<div class="resp-content1"> <!--Start resp-content1-->
+
+<div id="idContent" class="resp-override">
+
+<div class='resp-heading-text'>
+<h1>Cruises visiting Puerto Limon, Costa Rica during November 2027</h1>
+Showing 11 to 20 of total 20
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-greatstirrupcay-colon.gif' alt='Cruise itinerary map for Norwegian Cruise Line 11 Night Panama Canal Round-trip Miami: Bahamas, Jamaica & Costa Rica (127561)' title='Cruise itinerary map for Norwegian Cruise Line 11 Night Panama Canal Round-trip Miami: Bahamas, Jamaica & Costa Rica (127561)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-0');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Thu 25 Nov 2027</b><br>
+<b>11 Night Panama Canal Round-trip Miami: Bahamas, Jamaica & Costa Rica</b><br>
+Ship 
+<a class=red href='/cruise-ship-norwegian-gem.html'>Norwegian Gem</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.ncl.com/uk/en/cruises/11-night-panama-canal-round-trip-miami-bahamas,-jamaica-and-costa-rica-GEM11MIANPICTGPCGCLNLIOFMHGECMIA">
+<img class='noborder' src='/logos/norwegiancruiseline.gif' alt='More details for 11 Night Panama Canal Round-trip Miami: Bahamas, Jamaica & Costa Rica at Norwegian Cruise Line'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-0' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Inside&nbsp;$1969
+Oceanview&nbsp;$2119
+Balcony&nbsp;$3019
+Club Balcony Suite&nbsp;$3419
+Suite&nbsp;$5419
+The Haven&nbsp;$7519
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (19 Nov d1600); 
+<a class=red href='cruises-to-great-stirrup-cay-bahamas.html'>Great Stirrup Cay, Bahamas</a>  (20 Nov 0700-1700); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (23 Nov 0600-1330); 
+<a class=red href='cruises-to-panama-canal-cruising-canal.html'>Panama Canal (Cruising Canal)</a>  (24 Nov 0500-1500); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (24 Nov 1700-2000); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (25 Nov 0730-1600); 
+<a class=red href='cruises-to-falmouth-jamaica.html'>Falmouth, Jamaica</a>  (27 Nov 0700-1700); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (28 Nov 0800-1700); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (30 Nov a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsnorwegiangem-19nov2027-30nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-progreso.gif' alt='Cruise itinerary map for Viking Cruises 10 Night Classic Panama Canal Passage (138099)' title='Cruise itinerary map for Viking Cruises 10 Night Classic Panama Canal Passage (138099)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-1');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Fri 26 Nov 2027</b><br>
+<b>10 Night Classic Panama Canal Passage</b><br>
+Ship 
+<a class=red href='/cruise-ship-viking-mars.html'>Viking Mars</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.vikingcruises.com/oceans/cruise-destinations/caribbean-americas/classic-panama-canal-passage/index.html?startLocation=ft-lauderdale-florida&amp;endLocation=panama-city-fuerte-amador&amp;year=2027">
+<img class='noborder' src='/logos/viking-cruises.gif' alt='More details for 10 Night Classic Panama Canal Passage at Viking Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-1' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Veranda&nbsp;$3,899
+Deluxe Veranda&nbsp;$3,999
+Penthouse Veranda&nbsp;$4,999
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (19 Nov); 
+<a class=red href='cruises-to-progreso-mexico.html'>Progreso, Mexico</a>  (21 Nov (+1)); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (23 Nov); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (24 Nov); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (26 Nov); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (27 Nov); 
+<a class=red href='cruises-to-panama-canal-cruising-canal.html'>Panama Canal (Cruising Canal)</a>  (28 Nov); 
+<a class=red href='cruises-to-panama-city-panama.html'>Panama City, Panama</a>  (29 Nov)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsvikingmars-19nov2027-29nov2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-cartagena-belize.gif' alt='Cruise itinerary map for MSC Cruises 11 Night Caribbean & Bahamas (132647)' title='Cruise itinerary map for MSC Cruises 11 Night Caribbean & Bahamas (132647)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-2');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 27 Nov 2027</b><br>
+<b>11 Night Caribbean & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-poesia.html'>MSC Poesia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=PO20271121MIAMIA&itineraryCode=UYRL">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 11 Night Caribbean & Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-2' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$936
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (21 Nov d1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (23 Nov 0900-1800); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (25 Nov 0700-1700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (26 Nov 1000-2000); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (27 Nov 0700-1800); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (29 Nov 0800-1800); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (30 Nov 0700-1500); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (02 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscpoesia-21nov2027-02dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='resp-inline-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='2316169051';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='1338316754';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';  googlead_crid='6362224239';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-kralendijk-georgetown.gif' alt='Cruise itinerary map for MSC Cruises 21 Night Caribbean & Bahamas (142581)' title='Cruise itinerary map for MSC Cruises 21 Night Caribbean & Bahamas (142581)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-3');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 27 Nov 2027</b><br>
+<b>21 Night Caribbean & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-poesia.html'>MSC Poesia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=PO20271111MIAMI1&itineraryCode=UYRR">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 21 Night Caribbean & Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-3' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$1825
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (11 Nov d1700); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (14 Nov 0900-1800); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (15 Nov 0800-1800); 
+<a class=red href='cruises-to-cabo-rojo-dominican-republic.html'>Cabo Rojo, Dominican Republic</a>  (17 Nov 0800-1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (18 Nov 1000-1800); 
+<a class=red href='cruises-to-george-town-grand-cayman.html'>George Town, Grand Cayman</a>  (19 Nov 0800-1800); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (21 Nov 0700-1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (23 Nov 0900-1800); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (25 Nov 0700-1700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (26 Nov 1000-2000); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (27 Nov 0700-1800); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (29 Nov 0800-1800); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (30 Nov 0700-1500); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (02 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscpoesia-11nov2027-02dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/miami-colon-cartagena.gif' alt='Cruise itinerary map for MSC Cruises 21 Night Caribbean & Bahamas (142590)' title='Cruise itinerary map for MSC Cruises 21 Night Caribbean & Bahamas (142590)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-4');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sat 27 Nov 2027</b><br>
+<b>21 Night Caribbean & Bahamas</b><br>
+Ship 
+<a class=red href='/cruise-ship-msc-poesia.html'>MSC Poesia</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.msccruises.co.uk/search/itinerary?cruiseid=PO20271121MIAMI1&itineraryCode=UYRQ">
+<img class='noborder' src='/logos/msc.gif' alt='More details for 21 Night Caribbean & Bahamas at MSC Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-4' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$1825
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (21 Nov d1700); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (23 Nov 0900-1800); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (25 Nov 0700-1700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (26 Nov 1000-2000); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (27 Nov 0700-1800); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (29 Nov 0800-1800); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (30 Nov 0700-1500); 
+<a class=red href='cruises-to-miami-florida.html'>Miami, Florida</a>  (02 Dec 0700-1700); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (05 Dec 0800-1800); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (06 Dec 0800-1800); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (07 Dec 0800-1800); 
+<a class=red href='cruises-to-cabo-rojo-dominican-republic.html'>Cabo Rojo, Dominican Republic</a>  (09 Dec 0700-1530); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (10 Dec 0800-1600); 
+<a class=red href='cruises-from-miami-florida.html'>Miami, Florida</a>  (12 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmscpoesia-21nov2027-12dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/g/galveston-roatan-colon.gif' alt='Cruise itinerary map for Carnival Cruises 10 Night Caribbean & Panama (138420)' title='Cruise itinerary map for Carnival Cruises 10 Night Caribbean & Panama (138420)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-5');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Sun 28 Nov 2027</b><br>
+<b>10 Night Caribbean & Panama</b><br>
+Ship 
+<a class=red href='/cruise-ship-carnival-sunshine.html'>Carnival Sunshine</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.carnival.com/itinerary/10-day-caribbean-and-panama-cruise/galveston/sunshine/10-days/wcd/?sailDate=11222027">
+<img class='noborder' src='/logos/carnival.gif' alt='More details for 10 Night Caribbean & Panama at Carnival Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-5' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+Interior&nbsp;$956
+Oceanview&nbsp;$1146
+Balcony&nbsp;$1526
+Suite&nbsp;$2446
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-galveston-texas.html'>Galveston, Texas</a>  (22 Nov d1600); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (25 Nov 0800-1700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (27 Nov 0900-1830); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (28 Nov 0700-1500); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (30 Nov 1000-1700); 
+<a class=red href='cruises-from-galveston-texas.html'>Galveston, Texas</a>  (02 Dec a0800)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscarnivalsunshine-22nov2027-02dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-cozumel-oranjestad.gif' alt='Cruise itinerary map for Crystal Cruises 27 Night The Americas & Caribbean - Fort Lauderdale To Fort Lauderdale (133901)' title='Cruise itinerary map for Crystal Cruises 27 Night The Americas & Caribbean - Fort Lauderdale To Fort Lauderdale (133901)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-6');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 29 Nov 2027</b><br>
+<b>27 Night The Americas & Caribbean - Fort Lauderdale To Fort Lauderdale</b><br>
+Ship 
+<a class=red href='/cruise-ship-crystal-symphony.html'>Crystal Symphony</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://crystalcruises.com/cruises/none-csy-c27-271122">
+<img class='noborder' src='/logos/crystalcruises.gif' alt='More details for 27 Night The Americas & Caribbean - Fort Lauderdale To Fort Lauderdale at Crystal Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-6' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$10,460
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (22 Nov d1800); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (24 Nov 0900-1800); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (25 Nov 0800-1800); 
+<a class=red href='cruises-to-santo-tomas-de-castilla-guatemala.html'>Santo Tomas De Castilla, Guatemala</a>  (26 Nov 0800-1800); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (27 Nov 0800-1700); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (29 Nov 0800-1800); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (30 Nov 0800-1900); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (01 Dec 1200(+1)1900); 
+<a class=red href='cruises-to-oranjestad-aruba.html'>Oranjestad, Aruba</a>  (04 Dec 0800-1800); 
+<a class=red href='cruises-to-willemstad-curacao.html'>Willemstad, Curacao</a>  (05 Dec 0700-2300); 
+<a class=red href='cruises-to-kralendijk-bonaire.html'>Kralendijk, Bonaire</a>  (06 Dec 0700-1800); 
+<a class=red href='cruises-to-pointe-a-pitre-guadeloupe.html'>Pointe A Pitre, Guadeloupe</a>  (08 Dec 0800-1800); 
+<a class=red href='cruises-to-marigot-st-maarten.html'>Marigot, St Maarten</a>  (09 Dec 0800-1800); 
+<a class=red href='cruises-to-san-juan-puerto-rico.html'>San Juan, Puerto Rico</a>  (10 Dec d1800); 
+<a class=red href='cruises-to-basseterre-st-kitts.html'>Basseterre, St. Kitts</a>  (11 Dec 0900-1800); 
+<a class=red href='cruises-to-fort-de-france-martinique.html'>Fort de France, Martinique</a>  (12 Dec 0800-1800); 
+<a class=red href='cruises-to-roseau-dominica.html'>Roseau, Dominica</a>  (13 Dec 0800-1800); 
+<a class=red href='cruises-to-st-johns-antigua.html'>St Johns, Antigua</a>  (14 Dec 0800-1800); 
+<a class=red href='cruises-to-st-barthelemy.html'>St Barthelemy</a>  (15 Dec 0800-1800); 
+<a class=red href='cruises-to-tortola-british-virgin-islands.html'>Tortola, British Virgin Islands</a>  (16 Dec 0700-1700); 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (19 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscrystalsymphony-22nov2027-19dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/f/ftlauderdale-belize-santotomas.gif' alt='Cruise itinerary map for Crystal Cruises 10 Night The Americas & Caribbean - Fort Lauderdale To Cartagena (133907)' title='Cruise itinerary map for Crystal Cruises 10 Night The Americas & Caribbean - Fort Lauderdale To Cartagena (133907)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-7');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 29 Nov 2027</b><br>
+<b>10 Night The Americas & Caribbean - Fort Lauderdale To Cartagena</b><br>
+Ship 
+<a class=red href='/cruise-ship-crystal-symphony.html'>Crystal Symphony</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://crystalcruises.com/cruises/none-csy-010-271122">
+<img class='noborder' src='/logos/crystalcruises.gif' alt='More details for 10 Night The Americas & Caribbean - Fort Lauderdale To Cartagena at Crystal Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-7' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+From&nbsp;$4,540
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-fort-lauderdale-florida.html'>Fort Lauderdale, Florida</a>  (22 Nov d1800); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (24 Nov 0900-1800); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (25 Nov 0800-1800); 
+<a class=red href='cruises-to-santo-tomas-de-castilla-guatemala.html'>Santo Tomas De Castilla, Guatemala</a>  (26 Nov 0800-1800); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (27 Nov 0800-1700); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (29 Nov 0800-1800); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (30 Nov 0800-1900); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (01 Dec a1200(+1)disembark)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadscrystalsymphony-22nov2027-02dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/m/montegobay-cozumel-limon.gif' alt='Cruise itinerary map for TUI Cruises 14 Nachte - Best Of Mittelamerika - Ab/Bis Montego Bay (133822)' title='Cruise itinerary map for TUI Cruises 14 Nachte - Best Of Mittelamerika - Ab/Bis Montego Bay (133822)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-8');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 29 Nov 2027</b><br>
+<b>14 Nachte - Best Of Mittelamerika - Ab/Bis Montego Bay</b><br>
+Ship 
+<a class=red href='/cruise-ship-mein-schiff-3.html'>Mein Schiff 3</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.meinschiff.com/de/trips/14-naechte-best-of-mittelamerika-abbis-montego-bay-MSD273132SEE">
+<img class='noborder' src='/logos/tuicruises.gif' alt='More details for 14 Nachte - Best Of Mittelamerika - Ab/Bis Montego Bay at TUI Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-8' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+&nbsp;ab 1.519 EUR p.P.
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (22 Nov d2200); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (24 Nov 0630-2000); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (26 Nov 0800-1900); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (27 Nov 0800-1800); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (29 Nov 0700-1700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (30 Nov 0545-1630); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (01 Dec 0930-1800); 
+<a class=red href='cruises-to-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (03 Dec 0700-2200); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (05 Dec 0700-2000); 
+<a class=red href='cruises-from-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (06 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmeinschiff3-22nov2027-06dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'></div>
+<div class='cd-listing'> <!--Start cd-listing-->
+<div class='cd-listing-map-info'> <!--Start cd-listing-map-info-->
+<div class='cd-map'>
+<img src='/automaps/l/laromana-ochorios-limon.gif' alt='Cruise itinerary map for TUI Cruises 14 Nachte - Best Of Mittelamerika - Ab/Bis La Romana (133821)' title='Cruise itinerary map for TUI Cruises 14 Nachte - Best Of Mittelamerika - Ab/Bis La Romana (133821)'>
+<div class='cd-expand-up'> <!-- Start cd-expand-up -->
+<a href='' onclick="javascript:fnToggleItinerary('div-itinerary-9');return(false);">
+<span class='button'>
+<b>V&nbsp;&#923;</b>
+</span>
+</a>
+</div> <!-- End cd-expand-up -->
+</div> <!-- End cd-map or cd-map-wide -->
+<div class='cd-info'> <!-- Start cd-info -->
+Arriving <b>Mon 29 Nov 2027</b><br>
+<b>14 Nachte - Best Of Mittelamerika - Ab/Bis La Romana</b><br>
+Ship 
+<a class=red href='/cruise-ship-mein-schiff-3.html'>Mein Schiff 3</a>
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+More details at<br>
+<a target="_blank" href="https://www.meinschiff.com/de/trips/14-naechte-best-of-mittelamerika-abbis-la-romana-MSD273031SEE">
+<img class='noborder' src='/logos/tuicruises.gif' alt='More details for 14 Nachte - Best Of Mittelamerika - Ab/Bis La Romana at TUI Cruises'>
+</a>
+</div> <!-- End cd-info or cd-info-wide -->
+</div> <!--End of cd-listing-map-info-->
+<div id='div-itinerary-9' class='cd-itinerary resp-override'> <!--Start cd-itinerary-->
+<b>Cruise Prices</b>&nbsp;&nbsp;
+<img src='/images/help.gif' class=noborder width=12 height=12 border=0 title='Prices are sampled from the relevant cruiseline website and may not be up-to-date.' alt=''>&nbsp;&nbsp;
+&nbsp;ab 1.549 EUR p.P.
+<br>
+<span class='mobile-no-desktop-yes'><br></span>
+<b>Cruise Itinerary</b>: 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (19 Nov d2200); 
+<a class=red href='cruises-to-ocho-rios-jamaica.html'>Ocho Rios, Jamaica</a>  (21 Nov 0700-2000); 
+<a class=red href='cruises-to-montego-bay-jamaica.html'>Montego Bay, Jamaica</a>  (22 Nov 0700-2200); 
+<a class=red href='cruises-to-cozumel-mexico.html'>Cozumel, Mexico</a>  (24 Nov 0630-2000); 
+<a class=red href='cruises-to-belize-city-belize.html'>Belize City, Belize</a>  (26 Nov 0800-1900); 
+<a class=red href='cruises-to-roatan-honduras.html'>Roatan, Honduras</a>  (27 Nov 0800-1800); 
+<a class=red href='cruises-to-puerto-limon-costa-rica.html'>Puerto Limon, Costa Rica</a>  (29 Nov 0700-1700); 
+<a class=red href='cruises-to-colon-panama.html'>Colon, Panama</a>  (30 Nov 0545-1630); 
+<a class=red href='cruises-to-cartagena-colombia.html'>Cartagena, Colombia</a>  (01 Dec 0930-1800); 
+<a class=red href='cruises-from-la-romana-dominican-republic.html'>La Romana, Dominican Republic</a>  (03 Dec a0700)
+<a style='width:73px;'  href="https://www.cruisetimetables.com/portloadsmeinschiff3-19nov2027-03dec2027.html">&gt;&gt;port loads</a>
+</div> <!--End cd-itinerary-->
+</div> <!--End cd-listing-->
+<div class='resp-divider'> </div>
+<div class='cd-change-page'> <!--Start cd-change-page-->
+<div class='cd-buttonlist'>
+<a class='button' href="javascript:pageit('visitingpuertolimoncostarica-nov2027.html')">1-10</a>
+<b><a class='button' href="javascript:pageit('visitingpuertolimoncostarica-nov2027.html?offset=11')">11-20</a>
+</b></div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-page-->
+<div class='cd-change-month'> <!--Start cd-change-month-->
+<div class=cd-buttonlist>
+<div style='display:inline-block;font-size:12px;'>
+Change<br>Month</div>
+<a class='button' style='width:73px;' id='nav-prev-it' href="javascript:nav('nav-prev-it','visitingpuertolimoncostarica-nov2027.html','prev')">&lt;&lt;prev</a>
+<a class=button style='width:73px;' id='nav-next-it' href="javascript:nav('nav-next-it','visitingpuertolimoncostarica-nov2027.html','next')">next&gt;&gt;</a>
+</div> <!--End cd-buttonlist-->
+<div class='cd-buttonlist-clear'></div>
+</div> <!--End cd-change-month-->
+
+</div> <!--End idContent -->
+
+</div> <!--End resp-content1-->
+
+<div id="idFooterStuff1" class="resp-override"> <!-- Start idFooterStuff1 -->
+
+<div class="">
+<div class='resp-footer-pr'>
+<script type="text/javascript">
+
+if(window.innerWidth < 640)
+   {googlead_width='300';  googlead_height= '250'; googlead_crid='7119903912';}
+if(window.innerWidth >= 640 && window.innerWidth < 932)
+  {googlead_width='468';  googlead_height= '60';   googlead_crid='3037161972';}
+if(window.innerWidth >= 932)
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+if(typeof window.innerWidth === 'undefined')
+  {googlead_width='728';  googlead_height= '90';   googlead_crid='6922205437';}
+
+googlead_client= "ca-pub-9797911548575941";
+
+document.write (
+     '<ins class="adsbygoogle" style="display:inline-block;width:' 
+      + googlead_width + 'px;height:' 
+      + googlead_height + 'px" data-ad-client="' 
+      + googlead_client + '" data-ad-slot="' 
+      + googlead_crid + '"></ins>'
+    );
+</script>
+
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+</div>
+
+</div> <!--End resp-content-->
+
+</div> <!--End resp-middle -->
+
+
+<div id='idFooterStuff2' class='resp-override'> <!-- Start idFooterStuff2 -->
+<div class='resp-footer'> <!--START resp-footer -->
+<div style='float:left;padding-left:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+&copy;CruiseTimetables.com
+</div>
+</div>
+<div style='float:right;padding-right:20px;line-height:26px;font-size:12px;'>
+<div class='mobile-no-desktop-yes'>
+<span>Cruises To Puerto Limon, Costa Rica during November 2027 (25 Nov-29 Nov)</span></div>
+</div>
+</div> <!--END resp-footer -->
+</div> <!-- End idFooterStuff2 -->
+
+<script type='text/javascript'>
+showdate();
+fnMyOnLoad();
+</script>
+
+
+</body>
+</html>
