@@ -291,6 +291,8 @@ export const portSchedules: Record<string, ScheduleEntry[]> = {
   roatan: roatanSchedule as ScheduleEntry[],
   "st-maarten": stMaartenSchedule as ScheduleEntry[],
   "puerto-plata": puertoPlataSchedule as ScheduleEntry[],
+  "costa-maya": costaMayaSchedule as ScheduleEntry[],
+  "puerto-limon": puertoLimonSchedule as ScheduleEntry[],
   "ocho-rios": ochoRiosSchedule as ScheduleEntry[],
   tortola: tortolaSchedule as ScheduleEntry[],
   "st-kitts": stKittsSchedule as ScheduleEntry[],
