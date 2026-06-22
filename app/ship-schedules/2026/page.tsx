@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { getScheduleYearHubContent } from "@/data/schedule-year-hubs";
+import { getSchedulePageContent } from "@/data/schedule-page-content";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ShipScheduleMasterYearHub } from "@/components/ShipScheduleMasterYearHub";
@@ -11,6 +12,7 @@ import { yearHubPath } from "@/lib/schedule-utils";
 
 const YEAR = 2026 as const;
 const content = getScheduleYearHubContent(YEAR);
+const pageContent = getSchedulePageContent("year-2026");
 
 export const metadata = buildMetadata({
   title: content.title,
@@ -45,7 +47,10 @@ export default function ShipSchedules2026Page() {
           faqSchema(getScheduleYearHubFaqs(YEAR)),
         ]}
       />
-      <PageHero title={content.title} subtitle={content.heroSubtitle} />
+      <PageHero
+        title={content.title}
+        subtitle={pageContent.heroSubtitle ?? content.heroSubtitle}
+      />
       <section className="section-padding">
         <div className="container-wide">
           <Breadcrumbs items={breadcrumbs} />

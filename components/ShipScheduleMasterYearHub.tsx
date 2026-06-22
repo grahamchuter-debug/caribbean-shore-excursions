@@ -2,21 +2,37 @@ import Link from "next/link";
 import { schedulePorts, getShipCallCountForPortYear, getVerifiedMonthKeysForPortYear } from "@/data/schedules";
 import { getVerifiedPortRankings } from "@/data/schedule-insights";
 import { getScheduleYearHubContent } from "@/data/schedule-year-hubs";
+import { getSchedulePageContent } from "@/data/schedule-page-content";
 import type { ScheduleYear } from "@/lib/schedule-utils";
 import { formatMonthLabel, portHubPath, portMonthPath, portYearPath } from "@/lib/schedule-utils";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import {
+  SchedulePageContentSections,
+  SchedulePageIntro,
+} from "@/components/SchedulePageContentSections";
 
 import { FAQSection } from "@/components/FAQSection";
 import { getScheduleYearHubFaqs } from "@/data/schedule-hub-faqs";
 
 export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
   const content = getScheduleYearHubContent(year);
+  const pageContent = getSchedulePageContent(`year-${year}`);
   const rankings = getVerifiedPortRankings(year);
 
   return (
     <>
+      <SchedulePageIntro content={pageContent} />
+
+      <SchedulePageContentSections
+        content={{
+          ...pageContent,
+          whyPassengersUseTitle: `Why Cruise Passengers Use the ${year} Schedule Hub`,
+          planningTitle: `Planning Shore Excursions Across ${year} Sailings`,
+        }}
+      />
+
       <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-4">About the {year} Schedules</h2>
+        <h2 className="section-title text-2xl sm:text-3xl mb-4">Verified {year} Import Status</h2>
         <p className="text-gray-700 leading-relaxed text-lg max-w-3xl">{content.intro}</p>
         <p className="mt-4 text-sm text-gray-500 max-w-3xl">
           Months awaiting verified data display &quot;Schedule data being updated&quot;. We do not

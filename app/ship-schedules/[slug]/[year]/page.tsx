@@ -39,6 +39,7 @@ import {
   getScheduleIntro,
   getScheduleYearHeroTitle,
 } from "@/lib/cruise-port-display";
+import { getSchedulePageContentForPortYear } from "@/data/schedule-page-content";
 
 export function generateStaticParams() {
   const yearParams = getAllSchedulePortSlugs().flatMap((slug) =>
@@ -81,6 +82,7 @@ export function generateMetadata({
     const year = parseScheduleYear(periodParam);
     if (!year) return {};
 
+    const pageContent = getSchedulePageContentForPortYear(slug, year);
     const shipCalls = getShipCallCountForPortYear(slug, year);
     const callNote =
       shipCalls > 0
@@ -91,9 +93,10 @@ export function generateMetadata({
       ? port.seoTitle.replace(/\s2026\s&\s2027/, ` ${year}`)
       : `${port.name} Cruise Ship Schedule ${year}`;
     const baseDescription =
-      port.metaDescription?.includes("2026 and 2027") && year
+      pageContent?.intro ??
+      (port.metaDescription?.includes("2026 and 2027") && year
         ? port.metaDescription.replace("2026 and 2027", String(year))
-        : `${port.name} ${year} cruise ship schedule with arrival and departure times. ${callNote} Plan shore excursions around your port day.`;
+        : `${port.name} ${year} cruise ship schedule with arrival and departure times. ${callNote} Plan shore excursions around your port day.`);
     return buildMetadata({
       title: augmentMetadataTitle(baseTitle, port.name, slug),
       description: augmentMetadataDescription(baseDescription, slug, "schedule"),
@@ -164,8 +167,10 @@ export default async function ShipSchedulePeriodPage({
   const year = parseScheduleYear(periodParam);
   if (!year || !isValidScheduleYear(year)) notFound();
 
+  const pageContent = getSchedulePageContentForPortYear(slug, year);
   const title = getScheduleYearHeroTitle(slug, port.name, year);
-  const subtitle = getScheduleIntro(slug) ?? port.description;
+  const subtitle = pageContent?.intro ?? getScheduleIntro(slug) ?? port.description;
+  const portYearFaqs = pageContent?.faqs ?? port.faqs ?? [];
   const otherYear = year === 2026 ? 2027 : 2026;
   const breadcrumbs = [
     { name: "Home", path: "/" },
@@ -184,7 +189,7 @@ export default async function ShipSchedulePeriodPage({
             description: `${port.name} ${year} cruise ship schedule with verified arrival and departure times where available.`,
             path: portYearPath(slug, year),
           }),
-          ...(port.faqs?.length ? [faqSchema(port.faqs)] : []),
+          ...(portYearFaqs.length ? [faqSchema(portYearFaqs)] : []),
         ]}
       />
       <PageHero title={title} subtitle={subtitle} compact />

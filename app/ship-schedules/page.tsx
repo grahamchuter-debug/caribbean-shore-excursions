@@ -2,17 +2,22 @@ import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { schedulePorts } from "@/data/schedules";
 import { getSchedulePortCount } from "@/data/content-inventory";
+import { getSchedulePageContent } from "@/data/schedule-page-content";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ScheduleYearHeroCards } from "@/components/ScheduleYearHeroCards";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { FAQSection } from "@/components/FAQSection";
-import { SCHEDULE_HOME_FAQS } from "@/data/schedule-hub-faqs";
+import {
+  SchedulePageContentSections,
+  SchedulePageIntro,
+} from "@/components/SchedulePageContentSections";
 import { breadcrumbSchema, faqSchema, webPageSchema } from "@/lib/schema";
 import { portHubPath } from "@/lib/schedule-utils";
 
 const SCHEDULE_PORT_COUNT = getSchedulePortCount();
+const homeContent = getSchedulePageContent("home");
 
 export const metadata = buildMetadata({
   title: "Caribbean Cruise Ship Schedules 2026 & 2027",
@@ -44,12 +49,12 @@ export default function ShipSchedulesPage() {
               `Year-first cruise ship schedule hub for verified 2026 and 2027 Caribbean port schedules across ${SCHEDULE_PORT_COUNT} top ports.`,
             path: "/ship-schedules",
           }),
-          faqSchema(SCHEDULE_HOME_FAQS),
+          faqSchema(homeContent.faqs),
         ]}
       />
       <PageHero
         title="Caribbean Cruise Ship Schedules"
-        subtitle="Browse verified cruise ship and port schedules for 2026 and 2027. Each port page includes arrival and departure times, cruise passenger tips, recommended excursions, and links to local specialist operators."
+        subtitle={homeContent.heroSubtitle ?? "Browse verified cruise ship and port schedules for 2026 and 2027."}
       />
       <section className="section-padding">
         <div className="container-wide">
@@ -60,20 +65,9 @@ export default function ShipSchedulesPage() {
             ]}
           />
 
-          <section className="mb-14 max-w-3xl">
-            <h2 className="section-title text-2xl sm:text-3xl mb-4">How to Use This Cruise Schedule Hub</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Search for a cruise ship schedule, port schedule, or sailing year and you will land here
-              or on a port-specific page. Start with 2026 or 2027, open your destination, then use
-              monthly tables to see which ships are in port and how long you have ashore before booking
-              excursions.
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              Every port schedule page includes cruise passenger information, what to do in port,
-              recommended shore excursions, and links to vetted local specialist websites with
-              pier-aware pickup and return guarantees.
-            </p>
-          </section>
+          <SchedulePageIntro content={homeContent} />
+
+          <SchedulePageContentSections content={homeContent} />
 
           <section className="mb-14">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Choose Your Schedule Year</h2>
@@ -123,7 +117,7 @@ export default function ShipSchedulesPage() {
             </div>
           </section>
 
-          <FAQSection faqs={SCHEDULE_HOME_FAQS} />
+          <FAQSection faqs={homeContent.faqs} />
 
           <AuthorityHubLinks current="schedules" />
         </div>

@@ -11,6 +11,11 @@ import { SpecialistLocalGuide } from "@/components/SpecialistLocalGuide";
 import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { SCHEDULE_PLANNING_TIPS } from "@/data/schedule-content";
+import { getSchedulePageContentForPortYear } from "@/data/schedule-page-content";
+import {
+  SchedulePageContentSections,
+  SchedulePageIntro,
+} from "@/components/SchedulePageContentSections";
 import { hasShipSchedule } from "@/lib/routes";
 import { CruisePortInformationBox } from "@/components/CruisePortInformationBox";
 import { getScheduleIntro } from "@/lib/cruise-port-display";
@@ -27,7 +32,8 @@ export function ShipSchedulePageView({
   const schedule = year ? getScheduleForPortYear(port.slug, year) : getScheduleForPort(port.slug);
   const authorityPort = getPortBySlug(port.slug);
   const planningTips = port.planningTips ?? SCHEDULE_PLANNING_TIPS;
-  const faqs = port.faqs ?? [];
+  const pageContent = year ? getSchedulePageContentForPortYear(port.slug, year) : null;
+  const faqs = pageContent?.faqs ?? port.faqs ?? [];
 
   const relatedPorts = port.relatedPortSlugs
     .map((slug) => getPortBySlug(slug))
@@ -36,7 +42,7 @@ export function ShipSchedulePageView({
   const excursions = port.excursionTypeSlugs
     .map((slug) => excursionTypes.find((e) => e.slug === slug))
     .filter(Boolean);
-  const scheduleIntro = getScheduleIntro(port.slug) ?? port.intro;
+  const scheduleIntro = pageContent?.intro ?? getScheduleIntro(port.slug) ?? port.intro;
 
   return (
     <>
@@ -51,7 +57,19 @@ export function ShipSchedulePageView({
             schedules may change with weather. Allow extra time when planning excursions.
           </p>
         )}
+        {!port.usesTender && (port.slug === "nassau" || port.slug === "cozumel") && year && (
+          <p className="mt-4 rounded-lg border border-caribbean-200 bg-caribbean-50 px-4 py-3 text-sm text-caribbean-900">
+            <strong>Docked port:</strong>{" "}
+            {port.slug === "nassau"
+              ? "Nassau ships berth at Prince George Wharf downtown — no tender boats required."
+              : "Cozumel ships dock at Punta Langosta, International Pier, or Puerta Maya — no tender boats required."}
+          </p>
+        )}
       </section>
+
+      {pageContent && (
+        <SchedulePageContentSections content={pageContent} portName={port.name} />
+      )}
 
       {year && (
         <section className="mb-8">
