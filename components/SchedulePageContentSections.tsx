@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { SchedulePageContent } from "@/data/schedule-page-content";
+import type { ScheduleHubDetails, SchedulePageContent } from "@/data/schedule-page-content";
 
 interface SchedulePageContentSectionsProps {
   content: SchedulePageContent;
@@ -106,6 +106,10 @@ export function SchedulePageContentSections({
         </p>
       </section>
 
+      {content.hubDetails && (
+        <ScheduleHubDetailSections hubDetails={content.hubDetails} portName={portName} />
+      )}
+
       {content.internalLinks.length > 0 && (
         <section className="mb-12">
           <h2 className="section-title text-2xl sm:text-3xl mb-6">Related Planning Resources</h2>
@@ -145,6 +149,70 @@ export function SchedulePageIntro({ content }: { content: SchedulePageContent })
   return (
     <section className="mb-12 max-w-3xl">
       <p className="text-gray-700 leading-relaxed text-lg">{content.intro}</p>
+    </section>
+  );
+}
+
+function ScheduleHubDetailSections({
+  hubDetails,
+  portName,
+}: {
+  hubDetails: ScheduleHubDetails;
+  portName?: string;
+}) {
+  const locationLabel = portName ?? "this port";
+
+  return (
+    <section className="mb-12 space-y-6">
+      <h2 className="section-title text-2xl sm:text-3xl">
+        {portName ? `${portName} Port-Day Essentials` : "Port-Day Essentials"}
+      </h2>
+
+      <div className="grid gap-6 lg:grid-cols-2">
+        <div className="rounded-xl border border-gray-200 bg-white p-6">
+          <h3 className="font-semibold text-gray-900 mb-3">Most popular excursions</h3>
+          <ul className="space-y-4">
+            {hubDetails.popularExcursions.map((excursion) => (
+              <li key={excursion.name}>
+                <p className="font-medium text-gray-900">{excursion.name}</p>
+                <p className="mt-1 text-xs font-medium text-caribbean-700">{excursion.duration}</p>
+                <p className="mt-1 text-sm text-gray-600 leading-relaxed">{excursion.description}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div className="space-y-4">
+          <div className="rounded-xl border border-gray-200 bg-white p-6">
+            <h3 className="font-semibold text-gray-900 mb-2">Cruise terminal information</h3>
+            <p className="text-sm text-gray-700 leading-relaxed">{hubDetails.terminalInfo}</p>
+          </div>
+
+          <div className="rounded-xl border border-gray-200 bg-white p-6">
+            <h3 className="font-semibold text-gray-900 mb-2">Tender vs dock</h3>
+            <p className="text-sm text-gray-700 leading-relaxed">{hubDetails.tenderVsDock}</p>
+          </div>
+
+          <div className="rounded-xl border border-caribbean-200 bg-caribbean-50/50 p-6">
+            <h3 className="font-semibold text-gray-900 mb-2">Typical time in port</h3>
+            <p className="text-sm text-gray-700 leading-relaxed">{hubDetails.typicalTimeInPort}</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="rounded-xl border border-gray-200 bg-white p-6">
+        <h3 className="font-semibold text-gray-900 mb-3">Best excursion timing for {locationLabel}</h3>
+        <ul className="space-y-2">
+          {hubDetails.bestExcursionTiming.map((tip) => (
+            <li key={tip} className="flex items-start gap-2 text-sm text-gray-700">
+              <span className="mt-1 text-caribbean-700" aria-hidden="true">
+                •
+              </span>
+              {tip}
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 }

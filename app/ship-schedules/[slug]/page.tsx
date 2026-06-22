@@ -12,8 +12,8 @@ import {
   augmentMetadataDescription,
   augmentMetadataTitle,
   getScheduleHubHeroTitle,
-  getScheduleIntro,
 } from "@/lib/cruise-port-display";
+import { getSchedulePageContentForPortHub } from "@/data/schedule-page-content";
 
 export function generateStaticParams() {
   return getAllSchedulePortSlugs().map((slug) => ({ slug }));
@@ -24,8 +24,10 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
     if (isScheduleYearSlug(slug)) return {};
     const port = getSchedulePortBySlug(slug);
     if (!port) return {};
+    const hubContent = getSchedulePageContentForPortHub(slug);
     const baseTitle = port.seoTitle ?? `${port.name} Cruise Ship Schedule`;
     const baseDescription =
+      hubContent?.heroSubtitle ??
       port.metaDescription ??
       `${port.name} cruise ship schedule hub. View the 2026 schedule or 2027 schedule with monthly arrival and departure times to plan shore excursions.`;
     return buildMetadata({
@@ -53,8 +55,10 @@ export default async function ShipSchedulePortPage({
   const port = getSchedulePortBySlug(slug);
   if (!port) notFound();
 
+  const hubContent = getSchedulePageContentForPortHub(slug);
   const title = getScheduleHubHeroTitle(slug, port.name);
-  const subtitle = getScheduleIntro(slug) ?? port.description;
+  const subtitle = hubContent?.heroSubtitle ?? port.description;
+  const faqs = hubContent?.faqs ?? port.faqs ?? [];
   const breadcrumbs = [
     { name: "Home", path: "/" },
     { name: "Ship Schedules", path: "/ship-schedules" },
@@ -68,10 +72,10 @@ export default async function ShipSchedulePortPage({
           breadcrumbSchema(breadcrumbs),
           webPageSchema({
             title,
-            description: `${port.name} schedule hub with dedicated 2026 and 2027 monthly tables.`,
+            description: subtitle,
             path: portHubPath(slug),
           }),
-          ...(port.faqs?.length ? [faqSchema(port.faqs)] : []),
+          ...(faqs.length ? [faqSchema(faqs)] : []),
         ]}
       />
       <PageHero title={title} subtitle={subtitle} compact />

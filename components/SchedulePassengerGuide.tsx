@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { getPortBySlug } from "@/data/ports";
 import { excursionTypes } from "@/data/excursion-types";
-import { getShipCallCountForPortYear } from "@/data/schedules";
+import { getShipCallCountForPortYear, getSchedulePortBySlug } from "@/data/schedules";
 import { getSignatureExcursionForPort } from "@/lib/schedule-signature-excursion";
 import { portYearPath } from "@/lib/schedule-utils";
 import type { ScheduleYear } from "@/lib/schedule-utils";
@@ -10,15 +10,20 @@ interface SchedulePassengerGuideProps {
   portSlug: string;
   year?: ScheduleYear;
   excursionTypeSlugs?: string[];
+  /** Hub pages use centralized schedule content — show year promo only */
+  variant?: "full" | "hub";
 }
 
 export function SchedulePassengerGuide({
   portSlug,
   year,
   excursionTypeSlugs = [],
+  variant = "full",
 }: SchedulePassengerGuideProps) {
   const port = getPortBySlug(portSlug);
-  if (!port) return null;
+  const schedulePort = getSchedulePortBySlug(portSlug);
+  const portName = port?.name ?? schedulePort?.name;
+  if (!portName) return null;
 
   const signature = getSignatureExcursionForPort(portSlug);
   const calls2027 = getShipCallCountForPortYear(portSlug, 2027);
@@ -28,6 +33,63 @@ export function SchedulePassengerGuide({
   const excursionTypesForPort = excursionTypeSlugs
     .map((slug) => excursionTypes.find((type) => type.slug === slug))
     .filter(Boolean);
+
+  if (variant === "hub") {
+    if (!show2027Promo && excursionTypesForPort.length === 0) return null;
+
+    return (
+      <>
+        {show2027Promo && (
+          <section className="mb-12 rounded-xl border border-caribbean-200 bg-caribbean-50/50 p-6">
+            <h2 className="font-display text-xl font-bold text-gray-900 mb-2">
+              Also sailing in 2027?
+            </h2>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              {portName} has {calls2027.toLocaleString()} verified ship call
+              {calls2027 !== 1 ? "s" : ""} listed for 2027
+              {calls2026 > 0 ? ` and ${calls2026.toLocaleString()} for 2026` : ""}. Compare both years if
+              your itinerary spans seasons or you are choosing between sail dates.
+            </p>
+            <div className="flex flex-wrap gap-3">
+              <Link href={portYearPath(portSlug, 2027)} className="btn-primary text-sm">
+                View {portName} 2027 schedule
+              </Link>
+              {calls2026 > 0 && (
+                <Link href={portYearPath(portSlug, 2026)} className="btn-secondary text-sm">
+                  View 2026 schedule
+                </Link>
+              )}
+              <Link href="/ship-schedules/2027" className="btn-secondary text-sm">
+                All 2027 Caribbean schedules
+              </Link>
+            </div>
+          </section>
+        )}
+
+        {excursionTypesForPort.length > 0 && (
+          <section className="mb-12">
+            <h2 className="section-title text-2xl sm:text-3xl mb-4">Browse by excursion type</h2>
+            <div className="flex flex-wrap gap-2">
+              {excursionTypesForPort.map(
+                (type) =>
+                  type && (
+                    <Link
+                      key={type.slug}
+                      href={`/excursion-types/${type.slug}`}
+                      className="rounded-full bg-caribbean-50 px-4 py-2 text-sm font-medium text-caribbean-700 hover:bg-caribbean-100"
+                    >
+                      {type.name}
+                    </Link>
+                  ),
+              )}
+            </div>
+          </section>
+        )}
+      </>
+    );
+  }
+
+  if (!port) return null;
 
   return (
     <>

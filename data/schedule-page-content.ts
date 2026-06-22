@@ -1,5 +1,25 @@
 import type { FAQ } from "./types";
 import type { ScheduleYear } from "@/lib/schedule-utils";
+import { getAverageTimeInPort } from "./port-planning";
+import { scheduleHubContent } from "./schedule-hub-content";
+
+export const SCHEDULE_HUB_PORT_SLUGS = [
+  "nassau",
+  "cozumel",
+  "st-maarten",
+  "grand-cayman",
+  "costa-maya",
+  "roatan",
+  "puerto-plata",
+  "st-thomas",
+  "aruba",
+  "tortola",
+  "ocho-rios",
+  "st-kitts",
+  "puerto-limon",
+] as const;
+
+export type ScheduleHubPortSlug = (typeof SCHEDULE_HUB_PORT_SLUGS)[number];
 
 export type SchedulePageContentKey =
   | "home"
@@ -8,7 +28,8 @@ export type SchedulePageContentKey =
   | "nassau-2026"
   | "nassau-2027"
   | "cozumel-2026"
-  | "cozumel-2027";
+  | "cozumel-2027"
+  | `${ScheduleHubPortSlug}-hub`;
 
 export interface PlanningYourDayContent {
   summary: string;
@@ -26,6 +47,20 @@ export interface SchedulePageInternalLink {
   external?: boolean;
 }
 
+export interface ScheduleHubPopularExcursion {
+  name: string;
+  description: string;
+  duration: string;
+}
+
+export interface ScheduleHubDetails {
+  popularExcursions: ScheduleHubPopularExcursion[];
+  terminalInfo: string;
+  tenderVsDock: string;
+  typicalTimeInPort: string;
+  bestExcursionTiming: string[];
+}
+
 export interface SchedulePageContent {
   intro: string;
   heroSubtitle?: string;
@@ -35,9 +70,11 @@ export interface SchedulePageContent {
   planningYourDay: PlanningYourDayContent;
   faqs: FAQ[];
   internalLinks: SchedulePageInternalLink[];
+  hubDetails?: ScheduleHubDetails;
 }
 
 const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> = {
+  ...scheduleHubContent,
   home: {
     intro:
       "This is the starting point for Caribbean cruise ship and port schedules across our busiest destinations. Whether you are comparing 2026 and 2027 sailings, checking how many ships share a pier on your port day, or lining up shore excursions before you sail, open the year hub or port page that matches your itinerary and work backward from published arrival and departure times.",
@@ -716,4 +753,27 @@ export function getSchedulePageContentForPortYear(
 ): SchedulePageContent | null {
   const key = getSchedulePageContentKey({ portSlug, year });
   return key ? getSchedulePageContent(key) : null;
+}
+
+export function getSchedulePageContentForPortHub(
+  portSlug: string,
+): SchedulePageContent | null {
+  const key = `${portSlug}-hub` as SchedulePageContentKey;
+  if (!(key in schedulePageContent)) return null;
+
+  const content = schedulePageContent[key];
+  const verifiedTime = getAverageTimeInPort(portSlug);
+  if (!verifiedTime || !content.hubDetails) return content;
+
+  return {
+    ...content,
+    hubDetails: {
+      ...content.hubDetails,
+      typicalTimeInPort: `${verifiedTime} — derived from verified schedule imports at this port.`,
+    },
+  };
+}
+
+export function isScheduleHubPortSlug(slug: string): slug is ScheduleHubPortSlug {
+  return (SCHEDULE_HUB_PORT_SLUGS as readonly string[]).includes(slug);
 }

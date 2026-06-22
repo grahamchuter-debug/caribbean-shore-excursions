@@ -5,21 +5,34 @@ import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { yearHubPath } from "@/lib/schedule-utils";
 import { CruisePortInformationBox } from "@/components/CruisePortInformationBox";
-import { getScheduleIntro } from "@/lib/cruise-port-display";
-
+import { getSchedulePageContentForPortHub } from "@/data/schedule-page-content";
+import {
+  SchedulePageContentSections,
+  SchedulePageIntro,
+} from "@/components/SchedulePageContentSections";
 import { SchedulePassengerGuide } from "@/components/SchedulePassengerGuide";
 
 export function ShipScheduleHubView({ port }: { port: ShipSchedulePort }) {
-  const faqs = port.faqs ?? [];
-  const scheduleIntro = getScheduleIntro(port.slug) ?? port.intro;
+  const pageContent = getSchedulePageContentForPortHub(port.slug);
+  const faqs = pageContent?.faqs ?? port.faqs ?? [];
 
   return (
     <>
       <CruisePortInformationBox portSlug={port.slug} />
 
+      {pageContent && <SchedulePageIntro content={pageContent} />}
+
       <section className="mb-12">
         <h2 className="section-title text-2xl sm:text-3xl mb-4">Choose a Schedule Year</h2>
-        <p className="text-gray-700 leading-relaxed text-lg mb-6 max-w-3xl">{scheduleIntro}</p>
+        {!pageContent && (
+          <p className="text-gray-700 leading-relaxed text-lg mb-6 max-w-3xl">{port.intro}</p>
+        )}
+        {pageContent && (
+          <p className="text-gray-700 leading-relaxed mb-6 max-w-3xl">
+            Open the year that matches your sailing for monthly arrival and departure tables. Compare
+            both years from this hub if you are still choosing between 2026 and 2027 itineraries.
+          </p>
+        )}
         {port.usesTender && (
           <p className="mb-6 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
             <strong>Tender port:</strong> {port.name} uses ship-to-shore tender boats. Published
@@ -28,6 +41,10 @@ export function ShipScheduleHubView({ port }: { port: ShipSchedulePort }) {
         )}
         <ScheduleYearLinks portSlug={port.slug} portName={port.name} prominent />
       </section>
+
+      {pageContent && (
+        <SchedulePageContentSections content={pageContent} portName={port.name} />
+      )}
 
       <section className="mb-12 rounded-xl border border-gray-200 bg-caribbean-50/40 p-6">
         <h2 className="section-title text-2xl sm:text-3xl mb-4">All Ports by Year</h2>
@@ -66,12 +83,11 @@ export function ShipScheduleHubView({ port }: { port: ShipSchedulePort }) {
         </div>
       </section>
 
-      <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-4">Port Overview</h2>
-        <p className="text-gray-700 leading-relaxed">{port.scheduleOverview}</p>
-      </section>
-
-      <SchedulePassengerGuide portSlug={port.slug} excursionTypeSlugs={port.excursionTypeSlugs} />
+      <SchedulePassengerGuide
+        portSlug={port.slug}
+        excursionTypeSlugs={port.excursionTypeSlugs}
+        variant="hub"
+      />
 
       {faqs.length > 0 && <FAQSection faqs={faqs} />}
 
