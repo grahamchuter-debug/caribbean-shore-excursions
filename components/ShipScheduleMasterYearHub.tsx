@@ -6,6 +6,9 @@ import type { ScheduleYear } from "@/lib/schedule-utils";
 import { formatMonthLabel, portHubPath, portMonthPath, portYearPath } from "@/lib/schedule-utils";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 
+import { FAQSection } from "@/components/FAQSection";
+import { getScheduleYearHubFaqs } from "@/data/schedule-hub-faqs";
+
 export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
   const content = getScheduleYearHubContent(year);
   const rankings = getVerifiedPortRankings(year);
@@ -147,6 +150,20 @@ export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
         </div>
       </section>
 
+      {year === 2026 && (
+        <section className="mb-12 rounded-xl border border-caribbean-200 bg-caribbean-50/50 p-6">
+          <h2 className="section-title text-2xl sm:text-3xl mb-2">Planning for 2027 sailings?</h2>
+          <p className="text-gray-700 leading-relaxed mb-4">
+            Many passengers compare both years when choosing itineraries. Open the{" "}
+            <Link href="/ship-schedules/2027" className="font-medium text-caribbean-700 hover:text-caribbean-800">
+              2027 Caribbean cruise ship schedule hub
+            </Link>{" "}
+            to see verified call volumes — Nassau and Cozumel lead 2027 ship calls — or jump to a
+            port&apos;s 2027 table from any card below.
+          </p>
+        </section>
+      )}
+
       {year === 2027 && (
         <section className="mb-12 rounded-xl border border-gray-200 bg-white p-6">
           <h2 className="section-title text-2xl sm:text-3xl mb-4">2027 Planning Tools</h2>
@@ -166,6 +183,8 @@ export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
           </div>
         </section>
       )}
+
+      <FAQSection faqs={getScheduleYearHubFaqs(year)} />
 
       <div className="mt-10">
         <AuthorityHubLinks current="schedules" />

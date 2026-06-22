@@ -5,7 +5,8 @@ import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ShipScheduleMasterYearHub } from "@/components/ShipScheduleMasterYearHub";
 import { JsonLd } from "@/components/JsonLd";
-import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
+import { breadcrumbSchema, faqSchema, webPageSchema } from "@/lib/schema";
+import { getScheduleYearHubFaqs } from "@/data/schedule-hub-faqs";
 import { yearHubPath } from "@/lib/schedule-utils";
 
 const YEAR = 2027 as const;
@@ -17,9 +18,10 @@ export const metadata = buildMetadata({
   path: yearHubPath(YEAR),
   keywords: [
     "cruise ship schedule 2027",
+    "ship schedule 2027",
     "Caribbean cruise schedule 2027",
-    "ships in port 2027",
     "Caribbean port schedule",
+    "ships in port 2027",
   ],
 });
 
@@ -40,6 +42,7 @@ export default function ShipSchedules2027Page() {
             description: content.metaDescription,
             path: yearHubPath(YEAR),
           }),
+          faqSchema(getScheduleYearHubFaqs(YEAR)),
         ]}
       />
       <PageHero title={content.title} subtitle={content.heroSubtitle} />

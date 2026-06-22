@@ -87,8 +87,13 @@ export function generateMetadata({
         ? `${shipCalls} verified ship calls listed.`
         : "Monthly schedule with placeholders until import completes.";
 
-    const baseTitle = `${port.name} Cruise Ship Schedule ${year}`;
-    const baseDescription = `${port.name} ${year} cruise ship schedule with arrival and departure times. ${callNote} Plan shore excursions around your port day.`;
+    const baseTitle = port.seoTitle?.includes(String(year))
+      ? port.seoTitle.replace(/\s2026\s&\s2027/, ` ${year}`)
+      : `${port.name} Cruise Ship Schedule ${year}`;
+    const baseDescription =
+      port.metaDescription?.includes("2026 and 2027") && year
+        ? port.metaDescription.replace("2026 and 2027", String(year))
+        : `${port.name} ${year} cruise ship schedule with arrival and departure times. ${callNote} Plan shore excursions around your port day.`;
     return buildMetadata({
       title: augmentMetadataTitle(baseTitle, port.name, slug),
       description: augmentMetadataDescription(baseDescription, slug, "schedule"),

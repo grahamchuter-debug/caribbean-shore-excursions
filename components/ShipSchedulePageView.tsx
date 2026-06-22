@@ -15,6 +15,8 @@ import { hasShipSchedule } from "@/lib/routes";
 import { CruisePortInformationBox } from "@/components/CruisePortInformationBox";
 import { getScheduleIntro } from "@/lib/cruise-port-display";
 
+import { SchedulePassengerGuide } from "@/components/SchedulePassengerGuide";
+
 export function ShipSchedulePageView({
   port,
   year,
@@ -74,6 +76,12 @@ export function ShipSchedulePageView({
         year={year}
       />
 
+      <SchedulePassengerGuide
+        portSlug={port.slug}
+        year={year}
+        excursionTypeSlugs={port.excursionTypeSlugs}
+      />
+
       <section className="mb-12">
         <h2 className="section-title text-2xl sm:text-3xl mb-6">Cruise Planning Tips</h2>
         <ul className="space-y-3">
@@ -86,33 +94,6 @@ export function ShipSchedulePageView({
             </li>
           ))}
         </ul>
-      </section>
-
-      <section className="mb-12 rounded-xl border-2 border-caribbean-200 bg-gradient-to-br from-caribbean-50 to-white p-6 sm:p-8">
-        <h2 className="section-title text-2xl sm:text-3xl mb-3">Plan Your Excursion</h2>
-        <p className="text-gray-700 leading-relaxed mb-6">
-          Once you know your ship&apos;s arrival and departure time, compare shore excursions for{" "}
-          {port.name}. Start with our authority port guide, then browse specialist local operators
-          with pier-aware pickup and return guarantees.
-        </p>
-        <div className="flex flex-wrap gap-3">
-          <Link href={`/ports/${port.slug}`} className="btn-primary text-sm">
-            {port.name} port guide &amp; excursions
-          </Link>
-          {authorityPort && (
-            <a
-              href={authorityPort.specialistUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary text-sm"
-            >
-              {authorityPort.specialistName}
-            </a>
-          )}
-          <Link href="/excursion-types" className="btn-secondary text-sm">
-            Excursion types
-          </Link>
-        </div>
       </section>
 
       <section className="mb-12">

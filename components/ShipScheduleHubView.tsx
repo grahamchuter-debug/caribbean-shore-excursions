@@ -7,6 +7,8 @@ import { yearHubPath } from "@/lib/schedule-utils";
 import { CruisePortInformationBox } from "@/components/CruisePortInformationBox";
 import { getScheduleIntro } from "@/lib/cruise-port-display";
 
+import { SchedulePassengerGuide } from "@/components/SchedulePassengerGuide";
+
 export function ShipScheduleHubView({ port }: { port: ShipSchedulePort }) {
   const faqs = port.faqs ?? [];
   const scheduleIntro = getScheduleIntro(port.slug) ?? port.intro;
@@ -68,6 +70,8 @@ export function ShipScheduleHubView({ port }: { port: ShipSchedulePort }) {
         <h2 className="section-title text-2xl sm:text-3xl mb-4">Port Overview</h2>
         <p className="text-gray-700 leading-relaxed">{port.scheduleOverview}</p>
       </section>
+
+      <SchedulePassengerGuide portSlug={port.slug} excursionTypeSlugs={port.excursionTypeSlugs} />
 
       {faqs.length > 0 && <FAQSection faqs={faqs} />}
 

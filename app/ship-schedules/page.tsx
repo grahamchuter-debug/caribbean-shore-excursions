@@ -7,21 +7,23 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { ScheduleYearHeroCards } from "@/components/ScheduleYearHeroCards";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
-import { breadcrumbSchema, webPageSchema } from "@/lib/schema";
+import { FAQSection } from "@/components/FAQSection";
+import { SCHEDULE_HOME_FAQS } from "@/data/schedule-hub-faqs";
+import { breadcrumbSchema, faqSchema, webPageSchema } from "@/lib/schema";
 import { portHubPath } from "@/lib/schedule-utils";
 
 const SCHEDULE_PORT_COUNT = getSchedulePortCount();
-const NAMED_SCHEDULE_PORTS = 5;
-const MORE_SCHEDULE_PORTS = SCHEDULE_PORT_COUNT - NAMED_SCHEDULE_PORTS;
 
 export const metadata = buildMetadata({
-  title: "Caribbean Cruise Ship Schedules",
+  title: "Caribbean Cruise Ship Schedules 2026 & 2027",
   description:
-    `Choose your sailing year first: browse 2026 or 2027 Caribbean cruise ship schedules for St. Thomas, Cozumel, Aruba, Grand Cayman, Nassau, and ${MORE_SCHEDULE_PORTS} more top ports.`,
+    `Caribbean cruise ship schedule and port schedule hub for ${SCHEDULE_PORT_COUNT} top ports. Browse verified 2026 and 2027 arrival and departure times for Cozumel, Nassau, St. Thomas, Aruba, Grand Cayman, and more.`,
   path: "/ship-schedules",
   keywords: [
+    "cruise ship schedule",
     "cruise ship schedule 2026",
     "cruise ship schedule 2027",
+    "cruise schedule",
     "Caribbean port schedule",
     "ships in port",
   ],
@@ -39,14 +41,15 @@ export default function ShipSchedulesPage() {
           webPageSchema({
             title: "Caribbean Cruise Ship Schedules",
             description:
-              `Year-first hub for 2026 and 2027 Caribbean cruise ship schedules across ${SCHEDULE_PORT_COUNT} top ports.`,
+              `Year-first cruise ship schedule hub for verified 2026 and 2027 Caribbean port schedules across ${SCHEDULE_PORT_COUNT} top ports.`,
             path: "/ship-schedules",
           }),
+          faqSchema(SCHEDULE_HOME_FAQS),
         ]}
       />
       <PageHero
         title="Caribbean Cruise Ship Schedules"
-        subtitle="Start with your sailing year. Each master hub lists every top port with monthly arrival and departure tables for planning shore excursions."
+        subtitle="Browse verified cruise ship and port schedules for 2026 and 2027. Each port page includes arrival and departure times, cruise passenger tips, recommended excursions, and links to local specialist operators."
       />
       <section className="section-padding">
         <div className="container-wide">
@@ -56,6 +59,21 @@ export default function ShipSchedulesPage() {
               { name: "Ship Schedules", path: "/ship-schedules" },
             ]}
           />
+
+          <section className="mb-14 max-w-3xl">
+            <h2 className="section-title text-2xl sm:text-3xl mb-4">How to Use This Cruise Schedule Hub</h2>
+            <p className="text-gray-700 leading-relaxed mb-4">
+              Search for a cruise ship schedule, port schedule, or sailing year and you will land here
+              or on a port-specific page. Start with 2026 or 2027, open your destination, then use
+              monthly tables to see which ships are in port and how long you have ashore before booking
+              excursions.
+            </p>
+            <p className="text-gray-700 leading-relaxed">
+              Every port schedule page includes cruise passenger information, what to do in port,
+              recommended shore excursions, and links to vetted local specialist websites with
+              pier-aware pickup and return guarantees.
+            </p>
+          </section>
 
           <section className="mb-14">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Choose Your Schedule Year</h2>
@@ -104,6 +122,8 @@ export default function ShipSchedulesPage() {
               ))}
             </div>
           </section>
+
+          <FAQSection faqs={SCHEDULE_HOME_FAQS} />
 
           <AuthorityHubLinks current="schedules" />
         </div>

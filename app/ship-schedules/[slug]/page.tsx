@@ -24,8 +24,10 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
     if (isScheduleYearSlug(slug)) return {};
     const port = getSchedulePortBySlug(slug);
     if (!port) return {};
-    const baseTitle = `${port.name} Cruise Ship Schedule`;
-    const baseDescription = `${port.name} cruise ship schedule hub. View the 2026 schedule or 2027 schedule with monthly arrival and departure times to plan shore excursions.`;
+    const baseTitle = port.seoTitle ?? `${port.name} Cruise Ship Schedule`;
+    const baseDescription =
+      port.metaDescription ??
+      `${port.name} cruise ship schedule hub. View the 2026 schedule or 2027 schedule with monthly arrival and departure times to plan shore excursions.`;
     return buildMetadata({
       title: augmentMetadataTitle(baseTitle, port.name, slug),
       description: augmentMetadataDescription(baseDescription, slug, "schedule"),

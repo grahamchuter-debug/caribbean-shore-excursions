@@ -15,25 +15,25 @@ export const scheduleYearHubContent: Record<ScheduleYear, ScheduleYearHubContent
     year: 2026,
     title: "2026 Caribbean Cruise Ship Schedules",
     metaDescription:
-      "2026 Caribbean cruise ship schedules for St. Thomas, Cozumel, Aruba, Grand Cayman, Nassau, Roatán, St. Maarten, Puerto Plata, Costa Maya, and Ocho Rios. Monthly arrival and departure times for every top port.",
+      "2026 Caribbean cruise ship schedule and port schedule hub for Cozumel, Nassau, St. Thomas, Aruba, Grand Cayman, Roatán, St. Maarten, Puerto Plata, Costa Maya, Tortola, and more. Verified arrival and departure times by port and month.",
     heroSubtitle:
-      "Master hub for 2026 Caribbean cruise ship schedules. Browse every top port and plan shore excursions around published arrival and departure times.",
+      "Master 2026 cruise schedule hub: browse every Caribbean port, compare verified ship calls, and plan shore excursions around published arrival and departure times.",
     intro:
-      "This is the master 2026 schedule hub for the Caribbean's top cruise ports. Select a port below to open its dedicated 2026 monthly table with ship names, cruise lines, arrival and departure times, and time in port. Verified rows are imported from monthly source data; months still awaiting import show a clear placeholder.",
+      "This is the master 2026 cruise ship schedule hub for the Caribbean's busiest ports. Select a port below to open its dedicated 2026 monthly table with ship names, cruise lines, arrival and departure times, and time in port. Every hub port now has verified import data; months still being refreshed show a clear placeholder rather than unverified calls.",
     topPortsIntro:
-      "Ports with verified 2026 imports appear first. Additional port schedules will rank here as CSV imports are completed.",
+      "Ranked by verified 2026 ship calls. Use this table to spot the busiest terminals before booking beaches, snorkel tours, or private drivers. Each port links to passenger tips, recommended excursions, and the 2027 schedule where available.",
   },
   2027: {
     year: 2027,
     title: "2027 Caribbean Cruise Ship Schedules",
     metaDescription:
-      "2027 Caribbean cruise ship schedules for St. Thomas, Cozumel, Aruba, Grand Cayman, Nassau, Roatán, St. Maarten, Puerto Plata, Costa Maya, and Ocho Rios. Monthly arrival and departure times for every top port.",
+      "2027 Caribbean cruise ship schedule and port schedule hub for Cozumel, Nassau, St. Thomas, Aruba, Grand Cayman, Roatán, St. Maarten, Puerto Plata, Costa Maya, Tortola, and more. Verified 2027 arrival and departure times by port and month.",
     heroSubtitle:
-      "Master hub for 2027 Caribbean cruise ship schedules. Browse every top port and plan shore excursions around published arrival and departure times.",
+      "Master 2027 cruise schedule hub: browse every Caribbean port, compare verified ship calls, and plan shore excursions around published arrival and departure times.",
     intro:
-      "This is the master 2027 schedule hub for the Caribbean's top cruise ports. Select a port below to open its dedicated 2027 monthly table with ship names, cruise lines, arrival and departure times, and time in port. St. Thomas and Ocho Rios currently have verified 2027 data; other ports update as imports are added.",
+      "This is the master 2027 cruise ship schedule hub for the Caribbean's busiest ports. Select a port below to open its dedicated 2027 monthly table with ship names, cruise lines, arrival and departure times, and time in port. Verified rows are imported from monthly source data across all hub ports.",
     topPortsIntro:
-      "Ranked by verified 2027 ship calls where import data is available. Use this hub to spot the busiest terminals before booking excursions.",
+      "Ranked by verified 2027 ship calls. Nassau and Cozumel lead call volumes; use this hub to compare busy pier days before booking excursions. Each port page includes cruise passenger information, what to do ashore, and links to local specialist operators.",
   },
 };
 

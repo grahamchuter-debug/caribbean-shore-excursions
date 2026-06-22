@@ -59,11 +59,11 @@ export const schedulePorts: ShipSchedulePort[] = [
     slug: "cozumel",
     name: "Cozumel",
     country: "Mexico",
-    seoTitle: "Cozumel Cruise Ship Schedule 2026",
+    seoTitle: "Cozumel Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "2026 Cozumel cruise ship schedule with arrival and departure times at Punta Langosta, International Pier, and Puerta Maya for reef snorkel and tour planning.",
+      "Cozumel cruise ship schedule for 2026 and 2027 with verified arrival and departure times at Punta Langosta, International Pier, and Puerta Maya. Plan reef snorkel, beach clubs, and Tulum tours around your port window.",
     intro:
-      "Use this Cozumel cruise ship schedule to check which vessels are due in port and how long they stay before you book reef snorkel tours, beach clubs, or mainland Tulum excursions. Cozumel often hosts several ships daily during peak weeks.",
+      "Use this Cozumel cruise ship schedule to check which vessels are due in port and how long they stay before you book reef snorkel tours, beach clubs, or mainland Tulum excursions. Cozumel often hosts several ships daily during peak weeks — compare 2026 and 2027 sail dates if your itinerary spans seasons.",
     description:
       "Mexico's busiest cruise port with three piers serving Western Caribbean itineraries.",
     scheduleOverview:
@@ -117,11 +117,11 @@ export const schedulePorts: ShipSchedulePort[] = [
     slug: "nassau",
     name: "Nassau",
     country: "Bahamas",
-    seoTitle: "Nassau Cruise Ship Schedule 2026",
+    seoTitle: "Nassau Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "Nassau 2026 cruise ship schedule for Prince George Wharf arrivals and departures. Plan Atlantis, snorkel, and downtown excursions around your port window.",
+      "Nassau cruise ship schedule for 2026 and 2027 with verified Prince George Wharf arrivals and departures. Plan Atlantis, snorkel, and downtown excursions around your port window.",
     intro:
-      "Check which cruise ships are scheduled at Nassau's Prince George Wharf and their arrival and departure times before you book Atlantis Aquaventure, snorkel tours, or downtown walking excursions.",
+      "Check which cruise ships are scheduled at Nassau's Prince George Wharf and their arrival and departure times before you book Atlantis Aquaventure, snorkel tours, or downtown walking excursions. Nassau is the Caribbean's busiest schedule port — use monthly tables to avoid peak multi-ship days.",
     description:
       "High-volume Bahamas port on short Florida and Caribbean itineraries.",
     scheduleOverview:
@@ -135,11 +135,11 @@ export const schedulePorts: ShipSchedulePort[] = [
     slug: "roatan",
     name: "Roatán",
     country: "Honduras",
-    seoTitle: "Roatán Cruise Ship Schedule 2026",
+    seoTitle: "Roatán Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "Roatán 2026 cruise ship schedule for Mahogany Bay and Coxen Hole. View arrival and departure times to plan reef snorkel and West Bay Beach excursions.",
+      "Roatán cruise ship schedule for 2026 and 2027 with verified Mahogany Bay and Coxen Hole arrivals and departures. Plan reef snorkel and West Bay Beach excursions around your port window.",
     intro:
-      "This Roatán schedule helps you see which ships are due at Mahogany Bay or Coxen Hole and plan reef snorkel, beach, and zip-line excursions around your published port times.",
+      "This Roatán schedule helps you see which ships are due at Mahogany Bay or Coxen Hole and plan reef snorkel, beach, and zip-line excursions around your published port times. Compare 2026 and 2027 monthly tables when choosing between sail dates.",
     description:
       "Western Caribbean port with strong reef snorkeling demand at Mahogany Bay.",
     scheduleOverview:
@@ -171,11 +171,11 @@ export const schedulePorts: ShipSchedulePort[] = [
     slug: "puerto-plata",
     name: "Puerto Plata",
     country: "Dominican Republic",
-    seoTitle: "Puerto Plata Cruise Ship Schedule 2026",
+    seoTitle: "Puerto Plata Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "Puerto Plata 2026 cruise ship schedule for Amber Cove and Taíno Bay. Check arrivals and departures before waterfall and cable car shore excursions.",
+      "Puerto Plata cruise ship schedule for 2026 and 2027 with verified Amber Cove and Taíno Bay arrivals and departures. Plan waterfall and cable car shore excursions around your port window.",
     intro:
-      "This Puerto Plata schedule covers ships calling at Amber Cove and Taíno Bay terminals. Check arrival and departure times before booking Teleférico cable car rides, 27 Waterfalls adventures, or colonial city tours.",
+      "This Puerto Plata schedule covers ships calling at Amber Cove and Taíno Bay terminals. Check arrival and departure times before booking Teleférico cable car rides, 27 Waterfalls adventures, or colonial city tours. Both 2026 and 2027 monthly tables are available.",
     description:
       "Dominican Republic Amber Coast port serving Eastern Caribbean itineraries.",
     scheduleOverview:
@@ -189,11 +189,11 @@ export const schedulePorts: ShipSchedulePort[] = [
     slug: "costa-maya",
     name: "Costa Maya",
     country: "Mexico",
-    seoTitle: "Costa Maya Cruise Ship Schedule 2026",
+    seoTitle: "Costa Maya Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "Costa Maya 2026 cruise ship schedule for the Mahahual cruise village. View arrival and departure times for Mayan ruin and beach club excursion planning.",
+      "Costa Maya cruise ship schedule for 2026 and 2027 with verified Mahahual cruise village arrivals and departures. Plan Mayan ruin and beach club excursions around your port window.",
     intro:
-      "Check which cruise ships are scheduled at Costa Maya's purpose-built cruise village and plan Chacchoben ruins, Mahahual beach clubs, and snorkel tours around published arrival and departure times.",
+      "Check which cruise ships are scheduled at Costa Maya's purpose-built cruise village and plan Chacchoben ruins, Mahahual beach clubs, and snorkel tours around published arrival and departure times. Compare 2026 and 2027 sailings when booking ruin tours that need coach time.",
     description:
       "Mexican Caribbean port village near Mahahual on Western Caribbean routes.",
     scheduleOverview:
