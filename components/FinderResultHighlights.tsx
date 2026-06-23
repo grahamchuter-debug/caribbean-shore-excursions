@@ -31,6 +31,7 @@ export function FinderResultHighlights({
             imageTheme: bestPort.imageTheme,
             imageLabel: `${bestPort.name} cruise port`,
             href: `/ports/${bestPort.slug}`,
+            ctaLabel: "View port guide",
             portSlug: bestPort.slug,
             details: [
               { label: "Why we recommend it", value: bestPort.whyItStandsOut },
@@ -53,6 +54,7 @@ export function FinderResultHighlights({
               const slug = getExcursionTypeSlugByLabel(bestExcursionType.type);
               return slug ? `/excursion-types/${slug}` : undefined;
             })(),
+            ctaLabel: "View excursion type",
             portSlug: EXCURSION_THEME_HERO_PORT[bestExcursionType.imageTheme],
             details: [
               { label: "Why passengers love it", value: bestExcursionType.whyPassengersLoveIt },
@@ -73,6 +75,7 @@ export function FinderResultHighlights({
             imageTheme: hiddenGem.imageTheme,
             imageLabel: `${hiddenGem.name} hidden gem port`,
             href: `/ports/${hiddenGem.slug}`,
+            ctaLabel: "View port guide",
             portSlug: hiddenGem.slug,
             details: [
               { label: "Why most cruisers miss it", value: hiddenGem.whyMostMissIt },
