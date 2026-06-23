@@ -1,7 +1,9 @@
 import Link from "next/link";
+import { AttractionGridCard } from "@/components/AttractionGridCard";
 import { getPortBySlug } from "@/data/ports";
 import { excursionTypes } from "@/data/excursion-types";
 import { getShipCallCountForPortYear, getSchedulePortBySlug } from "@/data/schedules";
+import { getAttractionDestination } from "@/lib/attraction-links";
 import { getSignatureExcursionForPort } from "@/lib/schedule-signature-excursion";
 import { portYearPath } from "@/lib/schedule-utils";
 import type { ScheduleYear } from "@/lib/schedule-utils";
@@ -156,11 +158,11 @@ export function SchedulePassengerGuide({
         </p>
         <div className="grid gap-4 sm:grid-cols-2">
           {port.topAttractions.map((attraction) => (
-            <div key={attraction.name} className="card">
-              <h3 className="font-semibold text-gray-900">{attraction.name}</h3>
-              <p className="mt-2 text-sm text-gray-600 leading-relaxed">{attraction.description}</p>
-              <p className="mt-2 text-xs font-medium text-caribbean-700">{attraction.distance}</p>
-            </div>
+            <AttractionGridCard
+              key={attraction.name}
+              attraction={attraction}
+              destination={getAttractionDestination(portSlug, attraction.name, attraction)}
+            />
           ))}
         </div>
         <div className="mt-6">

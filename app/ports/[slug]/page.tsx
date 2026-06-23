@@ -96,7 +96,7 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
 
           <PortAuthoritySections port={port} authority={authority} />
 
-          <section className="mb-10">
+          <section id="nearby-attractions" className="mb-10 scroll-mt-24">
             <h2 className="section-title text-xl sm:text-2xl mb-3">Nearby Attractions</h2>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {port.topAttractions.map((attr) => (
