@@ -13,7 +13,7 @@ export function AttractionGuidePageView({ guide }: { guide: AttractionGuidePage 
   const breadcrumbs = [
     { name: "Home", path: "/" },
     { name: "Caribbean Ports", path: "/ports" },
-    { name: port?.name ?? "St. Thomas", path: `/ports/${guide.portSlug}` },
+    { name: port?.name ?? guide.portSlug, path: `/ports/${guide.portSlug}` },
     { name: guide.title, path: `/${guide.slug}` },
   ];
 
@@ -98,7 +98,7 @@ export function AttractionGuidePageView({ guide }: { guide: AttractionGuidePage 
                       rel="noopener noreferrer"
                       className="mt-3 inline-flex text-sm font-medium text-caribbean-700 hover:underline"
                     >
-                      View on St. Thomas Shore Excursions →
+                      View on {port?.specialistName ?? "specialist site"} →
                     </a>
                   )}
                 </div>

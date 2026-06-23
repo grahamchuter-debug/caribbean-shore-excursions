@@ -83,7 +83,7 @@ export const ports: Port[] = [
       "Puerta Maya pier is farthest from downtown, taxi or shuttle recommended",
     ],
     topAttractions: [
-      { name: "Palancar Reef", description: "World-famous coral reef with exceptional visibility.", distance: "20 min by boat" },
+      { name: "Palancar Reef", description: "World-famous coral reef with exceptional visibility.", distance: "20 min by boat", guideHref: "/palancar-reef-cozumel" },
       { name: "San Miguel de Cozumel", description: "Charming downtown with shops, restaurants, and plazas.", distance: "Walkable from downtown pier" },
       { name: "Chankanaab Park", description: "Beach park with snorkeling lagoon and cultural exhibits.", distance: "15 min by taxi" },
       { name: "San Gervasio Ruins", description: "Mayan archaeological site dedicated to goddess Ixchel.", distance: "20 min by taxi" },
@@ -227,7 +227,7 @@ export const ports: Port[] = [
       "Water shoes recommended for Stingray City sandbar",
     ],
     topAttractions: [
-      { name: "Stingray City", description: "Shallow sandbar with wild southern stingrays.", distance: "25 min by boat" },
+      { name: "Stingray City", description: "Shallow sandbar with wild southern stingrays.", distance: "25 min by boat", guideHref: "/stingray-city-grand-cayman" },
       { name: "Seven Mile Beach", description: "Pristine stretch of white sand along the west coast.", distance: "15 min by taxi" },
       { name: "George Town", description: "Capital with duty-free shopping and waterfront.", distance: "Tender landing" },
       { name: "Hell", description: "Unique limestone formation with quirky attractions.", distance: "20 min by taxi" },
@@ -275,8 +275,8 @@ export const ports: Port[] = [
       "The island is small, you can visit both Dutch and French sides in one day",
     ],
     topAttractions: [
-      { name: "Maho Beach", description: "Famous beach beneath Princess Juliana Airport flight path.", distance: "15 min by taxi" },
-      { name: "Orient Bay", description: "St. Martin's liveliest beach on the French side.", distance: "25 min by taxi" },
+      { name: "Maho Beach", description: "Famous beach beneath Princess Juliana Airport flight path.", distance: "15 min by taxi", guideHref: "/maho-beach-st-maarten" },
+      { name: "Orient Bay", description: "St. Martin's liveliest beach on the French side.", distance: "25 min by taxi", guideHref: "/orient-bay-st-maarten" },
       { name: "Philipsburg", description: "Dutch capital with Front Street shopping.", distance: "Water taxi or walk" },
       { name: "Grand Case", description: "French side dining capital known as the gastronomic capital.", distance: "30 min by taxi" },
     ],
@@ -323,7 +323,7 @@ export const ports: Port[] = [
       "Bring cash for local vendors and taxis",
     ],
     topAttractions: [
-      { name: "Paradise Island & Atlantis", description: "Resort complex with beaches, aquarium, and water park.", distance: "10 min by taxi/bridge" },
+      { name: "Paradise Island & Atlantis", description: "Resort complex with beaches, aquarium, and water park.", distance: "10 min by taxi/bridge", guideHref: "/atlantis-nassau" },
       { name: "Queen's Staircase", description: "Historic 66-step limestone staircase.", distance: "10 min walk" },
       { name: "Blue Lagoon Island", description: "Private island with marine encounters.", distance: "30 min by boat" },
       { name: "Cable Beach", description: "Popular beach strip with resorts and restaurants.", distance: "15 min by taxi" },

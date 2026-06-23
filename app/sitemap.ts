@@ -13,7 +13,7 @@ import { getAllBestGuideSlugs } from "@/data/best-guides";
 import { getAllItineraryPlannerSlugs } from "@/data/itinerary-planners";
 import { getAllRegionalCruisePlannerSlugs } from "@/data/regional-cruise-planners";
 import { portExcursionAuthority } from "@/data/port-excursion-authority";
-import { getAllAttractionGuideSlugs } from "@/data/st-thomas-attractions";
+import { getAllAttractionGuideSlugs } from "@/data/attraction-guides";
 
 export const dynamic = "force-static";
 

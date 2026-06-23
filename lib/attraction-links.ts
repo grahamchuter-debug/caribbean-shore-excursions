@@ -1,5 +1,5 @@
 import type { Attraction } from "@/data/types";
-import { getStThomasAttractionGuides } from "@/data/st-thomas-attractions";
+import { getAttractionGuidesByPortSlug } from "@/data/attraction-guides";
 import { getSpecialistExcursionUrl, resolveExcursionTypeSlug } from "@/lib/specialist-links";
 
 export type AttractionLinkSource = "attraction-guide" | "excursion-type" | "port-section" | "port-guide";
@@ -19,12 +19,18 @@ function normalizeForMatch(value: string): string {
     .trim();
 }
 
-function findStThomasGuideSlug(attraction: Attraction): string | undefined {
+function portSlugSuffix(portSlug: string): string {
+  return `-${portSlug}`;
+}
+
+function findAttractionGuideSlug(portSlug: string, attraction: Attraction): string | undefined {
   const nameNorm = normalizeForMatch(attraction.name);
 
-  for (const guide of getStThomasAttractionGuides()) {
-    const slugPart = guide.slug.replace(/-st-thomas$/, "").replace(/-/g, " ");
-    const slugNorm = normalizeForMatch(slugPart);
+  for (const guide of getAttractionGuidesByPortSlug(portSlug)) {
+    const slugPart = guide.slug.endsWith(portSlugSuffix(portSlug))
+      ? guide.slug.slice(0, -portSlugSuffix(portSlug).length)
+      : guide.slug;
+    const slugNorm = normalizeForMatch(slugPart.replace(/-/g, " "));
     const titleNorm = normalizeForMatch(guide.title);
 
     if (
@@ -59,15 +65,13 @@ export function getAttractionDestination(
     };
   }
 
-  if (portSlug === "st-thomas") {
-    const guideSlug = findStThomasGuideSlug(attraction);
-    if (guideSlug) {
-      return {
-        href: `/${guideSlug}`,
-        label: "Attraction guide",
-        source: "attraction-guide",
-      };
-    }
+  const guideSlug = findAttractionGuideSlug(portSlug, attraction);
+  if (guideSlug) {
+    return {
+      href: `/${guideSlug}`,
+      label: "Attraction guide",
+      source: "attraction-guide",
+    };
   }
 
   const excursionTypeSlug = resolveExcursionTypeSlug({

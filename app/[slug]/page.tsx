@@ -3,8 +3,8 @@ import { AttractionGuidePageView } from "@/components/AttractionGuidePageView";
 import {
   getAllAttractionGuideSlugs,
   getAttractionGuideBySlug,
-} from "@/data/st-thomas-attractions";
-import { buildAttractionGuideMetadata } from "@/lib/st-thomas-attractions";
+} from "@/data/attraction-guides";
+import { buildAttractionGuideMetadata } from "@/lib/attraction-guide-metadata";
 
 export function generateStaticParams() {
   return getAllAttractionGuideSlugs().map((slug) => ({ slug }));
