@@ -13,6 +13,7 @@ import { getAllBestGuideSlugs } from "@/data/best-guides";
 import { getAllItineraryPlannerSlugs } from "@/data/itinerary-planners";
 import { getAllRegionalCruisePlannerSlugs } from "@/data/regional-cruise-planners";
 import { portExcursionAuthority } from "@/data/port-excursion-authority";
+import { getAllAttractionGuideSlugs } from "@/data/st-thomas-attractions";
 
 export const dynamic = "force-static";
 
@@ -115,10 +116,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     0.95,
   );
 
+  const attractionGuidePages = getAllAttractionGuideSlugs().map((slug) =>
+    sitemapEntry(`/${slug}`, now, "monthly", 0.82),
+  );
+
   return [
     flagshipAuthorityPage,
     ...staticPages,
     ...bestGuidePages,
+    ...attractionGuidePages,
     ...cruiseLineGuidePages,
     ...itineraryPages,
     ...regionalPlannerPages,

@@ -89,6 +89,28 @@ export interface Attraction {
   name: string;
   description: string;
   distance: string;
+  /** Optional authority guide path on caribbeanshoreexcursion.com */
+  guideHref?: string;
+}
+
+export interface AttractionGuidePage {
+  slug: string;
+  portSlug: string;
+  title: string;
+  seoTitle: string;
+  metaDescription: string;
+  heroSubtitle: string;
+  whatItIs: string;
+  whyCruisePassengersVisit: string;
+  distanceFromPort: string;
+  bestFor: string[];
+  facilities: string[];
+  timeNeeded: string;
+  cruiseSuitability: string;
+  recommendedExcursions: { name: string; description: string; href?: string }[];
+  relatedGuideHrefs: { label: string; href: string }[];
+  faqs: FAQ[];
+  category: "beach" | "sightseeing" | "town";
 }
 
 export interface FAQ {

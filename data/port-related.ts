@@ -228,6 +228,13 @@ const regionPageLinks: Record<string, PortRelatedLink> = {
   },
 };
 
+const stThomasAttractionLinks: PortRelatedLink[] = [
+  { label: "Magens Bay cruise guide", href: "/magens-bay-st-thomas" },
+  { label: "Sapphire Beach cruise guide", href: "/sapphire-beach-st-thomas" },
+  { label: "Coki Beach cruise guide", href: "/coki-beach-st-thomas" },
+  { label: "Charlotte Amalie port town guide", href: "/charlotte-amalie-st-thomas" },
+];
+
 export function getSimilarPortSlugs(slug: string): string[] {
   return relatedPortSlugs[slug] ?? [];
 }
@@ -275,6 +282,14 @@ export function getPortRelatedLinks(slug: string): PortRelatedLink[] {
 
   const region = regionPageLinks[slug];
   if (region) links.push(region);
+
+  if (slug === "st-thomas") {
+    for (const attractionLink of stThomasAttractionLinks) {
+      if (!links.some((link) => link.href === attractionLink.href)) {
+        links.push(attractionLink);
+      }
+    }
+  }
 
   links.push({
     label: port.specialistName,

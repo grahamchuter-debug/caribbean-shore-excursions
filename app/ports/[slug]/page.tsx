@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { getPortBySlug, getAllPortSlugs } from "@/data/ports";
 import { getPortAuthority } from "@/data/port-authority";
@@ -103,6 +104,11 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
                   <h3 className="font-semibold text-gray-900 text-sm">{attr.name}</h3>
                   <p className="mt-1 text-sm text-gray-600 line-clamp-2">{attr.description}</p>
                   <p className="mt-2 text-xs text-caribbean-700 font-medium">{attr.distance}</p>
+                  {attr.guideHref && (
+                    <Link href={attr.guideHref} className="mt-3 inline-flex text-xs font-semibold text-caribbean-700 hover:underline">
+                      Attraction guide →
+                    </Link>
+                  )}
                 </div>
               ))}
             </div>
