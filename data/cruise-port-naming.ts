@@ -68,6 +68,7 @@ export const cruisePortNaming: Record<string, CruisePortNaming> = {
     dockTown: "Philipsburg",
     terminals: ["Dr. A.C. Wathey Cruise & Cargo Facility"],
     alternativeNames: [
+      "SXM",
       "Sint Maarten",
       "St Martin",
       "Saint Martin",

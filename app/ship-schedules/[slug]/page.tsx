@@ -12,6 +12,7 @@ import {
   augmentMetadataDescription,
   augmentMetadataTitle,
   getScheduleHubHeroTitle,
+  getScheduleMetadataKeywords,
 } from "@/lib/cruise-port-display";
 import { getSchedulePageContentForPortHub } from "@/data/schedule-page-content";
 
@@ -34,12 +35,7 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
       title: augmentMetadataTitle(baseTitle, port.name, slug),
       description: augmentMetadataDescription(baseDescription, slug, "schedule"),
       path: portHubPath(slug),
-      keywords: [
-        `${port.name} ship schedule`,
-        `${port.name} cruise schedule 2026`,
-        `${port.name} cruise schedule 2027`,
-        "ships in port",
-      ],
+      keywords: getScheduleMetadataKeywords(slug, port.name),
     });
   });
 }

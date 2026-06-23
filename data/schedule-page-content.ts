@@ -29,6 +29,8 @@ export type SchedulePageContentKey =
   | "nassau-2027"
   | "cozumel-2026"
   | "cozumel-2027"
+  | "st-maarten-2026"
+  | "st-maarten-2027"
   | `${ScheduleHubPortSlug}-hub`;
 
 export interface PlanningYourDayContent {
@@ -724,6 +726,209 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
         label: "All 2027 Caribbean Schedules",
         href: "/ship-schedules/2027",
         description: "2027 master hub ranked by verified calls.",
+      },
+    ],
+  },
+
+  "st-maarten-2026": {
+    intro:
+      "This 2026 St. Maarten cruise ship schedule — also searched as SXM cruise ship schedule 2026 or Sint Maarten ship calls — lists verified arrivals and departures at the Dr. A.C. Wathey Cruise Facility in Philipsburg. Ships dock in Great Bay with no tenders, so your published 2026 times frame how much room you have for Maho Beach plane-spotting, Orient Bay beach clubs, and French-side dining before all-aboard.",
+    whyPassengersUse: [
+      "Philipsburg is a dock port — your 2026 arrival column tells you when gangway opens for Maho Beach taxis and water taxis to Front Street shopping.",
+      "Multi-ship 2026 Great Bay days crowd Maho Beach viewpoints and Orient Bay loungers; the monthly table shows competing vessels on your exact date.",
+      "Dual-nation tours crossing Sint Maarten and Saint Martin need five to six hours ashore — the 2026 departure time is the hard cutoff for Grand Case lunches.",
+      "Catamaran sails and island highlights combos batch morning departures around pier arrivals — verified 2026 schedules replace brochure guesses for on-time return guarantees.",
+    ],
+    planningYourDay: {
+      summary:
+        "On a 2026 St. Maarten port day, pick one signature experience sized to your verified in-port window — Maho Beach aviation, Orient Bay swim, or a Dutch-and-French loop — then use Philipsburg's walkable waterfront for shorter fills.",
+      typicalActivities: [
+        "Morning Maho Beach visit for Princess Juliana aircraft approaches when 2026 arrivals are before 9:00 AM",
+        "Orient Bay beach club afternoon on longer port windows across the French side",
+        "Front Street Philipsburg duty-free shopping walkable from the Dr. A.C. Wathey terminal",
+        "Grand Case lunch on the French side via taxi on six-hour-plus 2026 calls",
+      ],
+      topAttractions: [
+        "Maho Beach — aircraft land over Maho Bay beside SXM airport",
+        "Orient Bay — wide Atlantic beach with clubs and water sports on Saint Martin",
+        "Philipsburg — Dutch capital with Front Street shopping near Great Bay",
+        "Grand Case — French-side dining capital known for waterfront restaurants",
+      ],
+      recommendedExcursions: [
+        "Maho Beach and island highlights combo on standard-length 2026 port windows",
+        "Orient Bay beach break with fixed return transfer on multi-ship weeks",
+        "Dual-nation circle tour covering Dutch Philipsburg and French Marigot markets",
+      ],
+      timingConsiderations: [
+        "Maho Beach crowds peak when multiple 2026 ships discharge simultaneously — check monthly tables",
+        "French-side dining runs slower; allow extra return time for Grand Case lunches",
+        "Island traffic between Maho, Orient Bay, and Philipsburg intensifies on busy pier days",
+      ],
+      returnGuidance:
+        "Be back at the Dr. A.C. Wathey terminal 45–60 minutes before your 2026 published departure. Docked arrivals avoid tender queues, but SXM island taxis can queue on multi-ship days — share your ship's departure time when booking independent drivers.",
+    },
+    faqs: [
+      {
+        question: "Is the 2026 St. Maarten schedule the same as an SXM cruise ship schedule?",
+        answer:
+          "Yes for planning purposes. Travelers often search 'cruise ship schedule SXM' or 'sxm cruise ship schedule 2026' when their itinerary lists Sint Maarten. This page shows verified 2026 ship calls at the Dr. A.C. Wathey terminal in Philipsburg — the Dutch-side cruise dock.",
+      },
+      {
+        question: "Does St. Maarten use tender boats in 2026?",
+        answer:
+          "No. 2026 arrivals at the Dr. A.C. Wathey Cruise Facility are dockside in Great Bay. Passengers walk off directly without tender boats, which simplifies return timing compared with Tortola or Grand Cayman on the same itinerary.",
+      },
+      {
+        question: "How do I plan Maho Beach around the 2026 St. Maarten ship schedule?",
+        answer:
+          "Find your sailing date in the monthly 2026 table and note arrival time. Maho Beach is roughly 15 minutes by taxi from Philipsburg — reach it within 90 minutes of gangway opening on busy weeks when several ships share Great Bay.",
+      },
+      {
+        question: "Can 2026 Dr. A.C. Wathey arrival times change after I book excursions?",
+        answer:
+          "Yes. Cruise lines adjust for weather, operational delays, and pier sequencing. Use the 2026 schedule for advance planning, then confirm final times on your ship's daily program before disembarking for Orient Bay or French-side tours.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "St. Maarten Port Guide",
+        href: "/ports/st-maarten",
+        description: "Maho Beach, Orient Bay, and dual-nation passenger logistics.",
+      },
+      {
+        label: "St. Maarten Shore Excursions",
+        href: "https://stmaartenshoreexcursion.com",
+        description: "Pier-aware operators with on-time return guarantees.",
+        external: true,
+      },
+      {
+        label: "Eastern Caribbean Cruise Planner",
+        href: "/eastern-caribbean-cruise-planner",
+        description: "Eastern routes that include St. Maarten hub calls.",
+      },
+      {
+        label: "Compare St. Thomas vs St. Maarten",
+        href: "/compare/st-thomas-vs-st-maarten",
+        description: "Eastern Caribbean hub port comparison.",
+      },
+      {
+        label: "St. Maarten 2027 Schedule",
+        href: "/ship-schedules/st-maarten/2027",
+        description: "Compare next-year Philipsburg call volumes.",
+      },
+      {
+        label: "St. Maarten Schedule Hub",
+        href: "/ship-schedules/st-maarten",
+        description: "Return to the dual-year SXM schedule hub.",
+      },
+      {
+        label: "All 2026 Caribbean Schedules",
+        href: "/ship-schedules/2026",
+        description: "Return to the 2026 master hub.",
+      },
+    ],
+  },
+
+  "st-maarten-2027": {
+    intro:
+      "St. Maarten ranks among the busier 2027 Eastern Caribbean schedule ports, with more than 500 verified Philipsburg calls listed for the year. This Sint Maarten cruise ship schedule page shows every Dr. A.C. Wathey terminal arrival and departure — ships dock in Great Bay with no tenders, so your 2027 times determine whether Maho Beach, Orient Bay, and French-side dining fit with a safe return buffer.",
+    whyPassengersUse: [
+      "2027 SXM call volume drives Maho Beach taxi demand and Orient Bay club sellouts — knowing your exact pier day helps you reserve before embarkation.",
+      "Docked Dr. A.C. Wathey berths mean walk-off access; your 2027 arrival column frames when Philipsburg shopping and water-taxi transfers realistically start.",
+      "Comparing 2027 ship lists across months reveals quieter weeks when private drivers and catamaran sails have more availability.",
+      "Published 2027 departure times set the hard cutoff for dual-nation tours crossing Dutch Sint Maarten and French Saint Martin.",
+    ],
+    planningYourDay: {
+      summary:
+        "Structure your 2027 St. Maarten day around one headline experience matched to verified gangway and all-aboard times, then layer shorter Philipsburg stops around island taxi realities.",
+      typicalActivities: [
+        "Early Maho Beach plane-spotting when 2027 schedules show arrival before 9:00 AM",
+        "Orient Bay beach club with lunch on the French side for medium-length calls",
+        "Catamaran snorkel sail to nearby islets on afternoons with late departure",
+        "Marigot market and Grand Case dining loop on six-hour-plus 2027 port windows",
+      ],
+      topAttractions: [
+        "Maho Beach — signature aircraft approaches over Maho Bay near SXM airport",
+        "Orient Bay — Saint Martin's liveliest beach with clubs and water sports",
+        "Philipsburg Front Street — duty-free shopping a water taxi from the terminal",
+        "Marigot — French capital with open-air market and waterfront cafés",
+      ],
+      recommendedExcursions: [
+        "Maho Beach experience when your 2027 window is four to five hours minimum",
+        "Orient Bay transfer with reserved loungers on peak multi-ship 2027 weeks",
+        "Island highlights tour combining Dutch Philipsburg and French Grand Case",
+      ],
+      timingConsiderations: [
+        "Peak 2027 weeks stack multiple mega-ships in Great Bay — prioritize Maho and Orient Bay reservations",
+        "French-side restaurants run on island time; build extra return margin for Grand Case lunches",
+        "Princess Juliana flight schedules affect Maho Beach crowds independently of ship volume",
+      ],
+      returnGuidance:
+        "Be inside Dr. A.C. Wathey terminal security 45–60 minutes before your 2027 published departure. Docked Philipsburg access simplifies logistics, but returns from Orient Bay and Maho still depend on island taxi availability on busy schedule days.",
+    },
+    faqs: [
+      {
+        question: "Why is the 2027 St. Maarten schedule important for SXM excursion planning?",
+        answer:
+          "St. Maarten handles hundreds of verified 2027 ship calls at Philipsburg. That volume drives operator sellouts and Great Bay congestion. Your monthly 2027 row shows arrival, departure, and competing vessels so you can size Maho Beach and Orient Bay tours realistically.",
+      },
+      {
+        question: "Do Sint Maarten cruise ships tender in 2027?",
+        answer:
+          "No. 2027 arrivals berth at the Dr. A.C. Wathey Cruise Facility with walk-off gangway access. No tender boats are used under normal conditions — unlike Tortola tender days on many Eastern Caribbean itineraries.",
+      },
+      {
+        question: "How busy is Philipsburg on my 2027 sailing date?",
+        answer:
+          "Open the 2027 month that matches your cruise and count ships on the same date. Two or more large vessels typically mean longer Maho Beach taxi queues, fuller Orient Bay clubs, and heavier Front Street foot traffic.",
+      },
+      {
+        question: "Should I use this 2027 schedule or my cruise line app for final SXM port times?",
+        answer:
+          "Use this 2027 St. Maarten schedule for advance excursion planning and busy-day research. Always confirm final arrival and departure on your ship's daily program before disembarking — cruise lines can adjust overnight.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "St. Maarten Port Guide",
+        href: "/ports/st-maarten",
+        description: "Authority guide to Maho Beach, Orient Bay, and terminal logistics.",
+      },
+      {
+        label: "St. Maarten Shore Excursions",
+        href: "https://stmaartenshoreexcursion.com",
+        description: "Local specialist listings with pier pickup details.",
+        external: true,
+      },
+      {
+        label: "Eastern Caribbean Cruise Planner",
+        href: "/eastern-caribbean-cruise-planner",
+        description: "Plan multi-port Eastern Caribbean routes with St. Maarten calls.",
+      },
+      {
+        label: "Compare St. Maarten vs Tortola",
+        href: "/compare/st-maarten-vs-tortola",
+        description: "Dock versus tender logistics on Eastern Caribbean itineraries.",
+      },
+      {
+        label: "Virgin Islands Cruise Planner",
+        href: "/virgin-islands-cruise-planner",
+        description: "St. Thomas, Tortola, and St. Maarten multi-port planning.",
+      },
+      {
+        label: "St. Maarten 2026 Schedule",
+        href: "/ship-schedules/st-maarten/2026",
+        description: "Compare prior-year Philipsburg pier patterns.",
+      },
+      {
+        label: "St. Maarten Schedule Hub",
+        href: "/ship-schedules/st-maarten",
+        description: "Dual-year SXM schedule entry point.",
+      },
+      {
+        label: "All 2027 Caribbean Schedules",
+        href: "/ship-schedules/2027",
+        description: "2027 master hub with every port ranked.",
       },
     ],
   },

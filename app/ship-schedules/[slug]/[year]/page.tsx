@@ -38,6 +38,7 @@ import {
   augmentMetadataTitle,
   getScheduleIntro,
   getScheduleYearHeroTitle,
+  getScheduleMetadataKeywords,
 } from "@/lib/cruise-port-display";
 import { getSchedulePageContentForPortYear } from "@/data/schedule-page-content";
 
@@ -101,12 +102,7 @@ export function generateMetadata({
       title: augmentMetadataTitle(baseTitle, port.name, slug),
       description: augmentMetadataDescription(baseDescription, slug, "schedule"),
       path: portYearPath(slug, year),
-      keywords: [
-        `${port.name} ship schedule ${year}`,
-        `${port.name} cruise schedule ${year}`,
-        "ships in port",
-        "cruise arrival times",
-      ],
+      keywords: getScheduleMetadataKeywords(slug, port.name, year),
     });
   });
 }

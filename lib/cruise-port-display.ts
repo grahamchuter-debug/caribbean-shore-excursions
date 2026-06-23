@@ -105,3 +105,43 @@ export function augmentMetadataDescription(
   }
   return `${firstSentence} ${baseDescription}`;
 }
+
+const SCHEDULE_METADATA_KEYWORDS: Record<string, string[]> = {
+  "st-maarten": [
+    "st maarten cruise ship schedule",
+    "sint maarten cruise ship schedule",
+    "sxm cruise ship schedule",
+    "cruise ship schedule sxm",
+    "philipsburg cruise schedule",
+  ],
+};
+
+export function getScheduleMetadataKeywords(
+  slug: string,
+  portName: string,
+  year?: number,
+): string[] {
+  const portSpecific = SCHEDULE_METADATA_KEYWORDS[slug];
+  if (portSpecific) {
+    const yearKeywords = year
+      ? [`sxm cruise ship schedule ${year}`, `${portName} cruise schedule ${year}`]
+      : [`${portName} cruise schedule 2026`, `${portName} cruise schedule 2027`];
+    return [...portSpecific, ...yearKeywords, "ships in port", "cruise arrival times"];
+  }
+
+  if (!year) {
+    return [
+      `${portName} ship schedule`,
+      `${portName} cruise schedule 2026`,
+      `${portName} cruise schedule 2027`,
+      "ships in port",
+    ];
+  }
+
+  return [
+    `${portName} ship schedule ${year}`,
+    `${portName} cruise schedule ${year}`,
+    "ships in port",
+    "cruise arrival times",
+  ];
+}

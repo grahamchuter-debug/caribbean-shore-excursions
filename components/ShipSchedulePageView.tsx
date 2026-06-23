@@ -57,12 +57,14 @@ export function ShipSchedulePageView({
             schedules may change with weather. Allow extra time when planning excursions.
           </p>
         )}
-        {!port.usesTender && (port.slug === "nassau" || port.slug === "cozumel") && year && (
+        {!port.usesTender && (port.slug === "nassau" || port.slug === "cozumel" || port.slug === "st-maarten") && year && (
           <p className="mt-4 rounded-lg border border-caribbean-200 bg-caribbean-50 px-4 py-3 text-sm text-caribbean-900">
             <strong>Docked port:</strong>{" "}
             {port.slug === "nassau"
               ? "Nassau ships berth at Prince George Wharf downtown — no tender boats required."
-              : "Cozumel ships dock at Punta Langosta, International Pier, or Puerta Maya — no tender boats required."}
+              : port.slug === "cozumel"
+                ? "Cozumel ships dock at Punta Langosta, International Pier, or Puerta Maya — no tender boats required."
+                : "St. Maarten ships dock at the Dr. A.C. Wathey Cruise Facility in Philipsburg (SXM) — no tender boats required."}
           </p>
         )}
       </section>

@@ -153,15 +153,15 @@ export const schedulePorts: ShipSchedulePort[] = [
     slug: "st-maarten",
     name: "St. Maarten",
     country: "Sint Maarten / Saint Martin",
-    seoTitle: "St. Maarten Cruise Ship Schedule 2026",
+    seoTitle: "St. Maarten Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "St. Maarten 2026 cruise ship schedule for Philipsburg arrivals and departures. Plan Maho Beach, Orient Bay, and dual-nation tours around your ship times.",
+      "St. Maarten and SXM cruise ship schedule for 2026 and 2027 with verified Philipsburg arrivals at the Dr. A.C. Wathey terminal. Plan Maho Beach, Orient Bay, and Sint Maarten dual-nation tours around your ship times.",
     intro:
-      "Use this St. Maarten cruise ship schedule to check which vessels are expected at the Dr. A.C. Wathey Cruise Facility and plan Maho Beach, Orient Bay, and French-side excursions around arrival and departure times.",
+      "Use this St. Maarten cruise ship schedule — often searched as SXM or Sint Maarten — to check which vessels are expected at the Dr. A.C. Wathey Cruise Facility in Philipsburg and plan Maho Beach, Orient Bay, and French-side excursions around arrival and departure times.",
     description:
-      "Eastern Caribbean dual-nation port with year-round cruise traffic at Philipsburg.",
+      "Eastern Caribbean dual-nation port (Sint Maarten / Saint Martin) with year-round cruise traffic at Philipsburg.",
     scheduleOverview:
-      "St. Maarten receives consistent Eastern and Southern Caribbean traffic. Multi-ship days affect taxi availability to Maho Beach and Orient Bay. Review monthly schedules before booking plane-spotting or beach club excursions.",
+      "St. Maarten receives consistent Eastern and Southern Caribbean traffic at the Dr. A.C. Wathey terminal. Multi-ship Philipsburg days affect taxi availability to Maho Beach and Orient Bay. Review 2026 and 2027 monthly schedules before booking plane-spotting or beach club excursions.",
     relatedPortSlugs: ["st-thomas", "aruba", "puerto-plata"],
     excursionTypeSlugs: ["beaches", "catamaran-cruises", "private-tours", "family-tours"],
     planningTips: [...SCHEDULE_PLANNING_TIPS],

@@ -254,14 +254,14 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
 
   "st-maarten-hub": {
     intro:
-      "This St. Maarten schedule hub connects 2026 monthly call data with 2027 planning as imports expand — start here to see how many ships share Philipsburg on your pier day before booking Maho Beach plane-spotting, Orient Bay clubs, or dual-nation island tours. The Dr. A.C. Wathey Cruise Facility docks ships directly in Great Bay, making published arrival times the anchor for taxi and water-taxi logistics on both Dutch and French sides.",
+      "This St. Maarten schedule hub — the SXM cruise port many itineraries list as Sint Maarten or Philipsburg — connects verified 2026 and 2027 call data at the Dr. A.C. Wathey Cruise Facility. Start here to see how many ships share Great Bay on your pier day before booking Maho Beach plane-spotting, Orient Bay clubs, or a Dutch-and-French island loop.",
     heroSubtitle:
-      "St. Maarten cruise schedule hub — compare 2026 ship calls, plan Maho Beach and Orient Bay excursions around Philipsburg pier times.",
+      "St. Maarten & SXM cruise schedule hub — compare 2026 and 2027 Philipsburg ship calls, Maho Beach timing, and Orient Bay excursion planning from the Dr. A.C. Wathey terminal.",
     whyPassengersUse: [
-      "St. Maarten sits on Eastern and Southern Caribbean routes — this hub separates year-specific monthly tables so you can compare call volumes before committing to French-side dining or Maho Beach transfers.",
-      "Multi-ship Philipsburg days strain taxi availability to Orient Bay and Grand Case — schedule data shows overlap before you sail.",
-      "Dual-nation excursions need realistic return buffers; docked Great Bay berths simplify logistics versus tender ports but island traffic still varies by pier-day volume.",
-      "Water taxis to downtown Philipsburg and beach clubs run on passenger demand — knowing your departure column helps operators guarantee on-time return.",
+      "SXM sits on Eastern and Southern Caribbean routes — this hub links to 2026 and 2027 monthly tables so you can compare Philipsburg call volumes before committing to French-side dining or Maho Beach transfers.",
+      "Multi-ship Great Bay days strain taxi availability to Orient Bay and Grand Case — schedule data shows overlap before you sail.",
+      "Dual-nation excursions need realistic return buffers; docked Dr. A.C. Wathey berths simplify logistics versus tender ports, but island traffic still varies by pier-day volume.",
+      "Water taxis to downtown Philipsburg and beach clubs run on passenger demand — knowing your departure column helps operators guarantee on-time return to the cruise terminal.",
     ],
     planningYourDay: {
       summary:
@@ -293,6 +293,11 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
     },
     faqs: [
       {
+        question: "What is SXM in relation to the St. Maarten cruise schedule?",
+        answer:
+          "SXM is the airport code for Princess Juliana International Airport on Sint Maarten — travelers often search 'cruise ship schedule SXM' when planning Philipsburg port days. This hub lists ship calls at the Dr. A.C. Wathey Cruise Facility in Great Bay, not flight arrivals.",
+      },
+      {
         question: "Does St. Maarten use tenders or a cruise dock?",
         answer:
           "St. Maarten is a dock port. Ships berth at the Dr. A.C. Wathey Cruise Facility in Great Bay near Philipsburg with walk-off access. No tender boats are required under normal conditions.",
@@ -300,20 +305,25 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         question: "How does the St. Maarten schedule help with Maho Beach timing?",
         answer:
-          "Maho Beach experiences peak crowds when several ships are in port. Open your 2026 year page (or 2027 as data expands) and count vessels on your sailing date — early arrival lets you reach Maho before afternoon aviation crowds build.",
+          "Maho Beach experiences peak crowds when several ships are in port. Open your 2026 or 2027 year page and count vessels on your sailing date — early arrival lets you reach Maho before afternoon aviation crowds build.",
       },
       {
         question: "Can I visit both Dutch and French sides in one St. Maarten port day?",
         answer:
-          "Yes — the island is compact with no border controls. Use your schedule's departure time to size a dual-nation tour: allow at least five to six hours ashore for Orient Bay plus Philipsburg or Grand Case combinations.",
+          "Yes — the island is compact with no border controls between Sint Maarten and Saint Martin. Use your schedule's departure time to size a dual-nation tour: allow at least five to six hours ashore for Orient Bay plus Philipsburg or Grand Case combinations.",
       },
       {
-        question: "Where do I find 2026 versus 2027 St. Maarten ship lists?",
+        question: "Where do I find the 2026 versus 2027 St. Maarten ship schedule?",
         answer:
-          "This hub links to dedicated year pages. Verified 2026 monthly tables are available today; open 2027 from the year selector as imports complete for your sailing month.",
+          "This hub links to dedicated year pages with monthly Philipsburg tables. Open the year that matches your sailing — both 2026 and 2027 verified imports are available for excursion planning.",
       },
     ],
     internalLinks: [
+      {
+        label: "St. Maarten 2027 Schedule",
+        href: "/ship-schedules/st-maarten/2027",
+        description: "Highest-volume SXM year with monthly Philipsburg tables.",
+      },
       {
         label: "St. Maarten 2026 Schedule",
         href: "/ship-schedules/st-maarten/2026",
@@ -336,14 +346,14 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
         description: "Eastern routes that include St. Maarten hub calls.",
       },
       {
-        label: "Southern Caribbean Cruise Planner",
-        href: "/southern-caribbean-cruise-planner",
-        description: "Southern loops combining St. Maarten with Aruba and beyond.",
+        label: "Compare St. Thomas vs St. Maarten",
+        href: "/compare/st-thomas-vs-st-maarten",
+        description: "Eastern Caribbean hub port comparison for itinerary planning.",
       },
       {
-        label: "Virgin Islands Cruise Planner",
-        href: "/virgin-islands-cruise-planner",
-        description: "St. Thomas, Tortola, and St. Maarten multi-port days.",
+        label: "Best Shore Excursion at Every Port",
+        href: "/best-shore-excursion-every-caribbean-port",
+        description: "See how Maho Beach ranks among Caribbean signature picks.",
       },
     ],
     hubDetails: {
@@ -359,15 +369,15 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
           duration: "4–5 hours",
         },
         {
-          name: "Island Highlights Tour",
-          description: "Dual-nation drive covering Dutch Philipsburg and French Grand Case.",
+          name: "French Side Island Tour",
+          description: "Marigot market, Grand Case dining, and Orient Bay on the Saint Martin side.",
           duration: "4–5 hours",
         },
       ],
       terminalInfo:
-        "Cruise ships dock at the Dr. A.C. Wathey Cruise Facility on Great Bay, a short walk or water-taxi ride from downtown Philipsburg's Front Street shopping. The terminal handles large mega-ships with direct gangway access.",
+        "Cruise ships dock at the Dr. A.C. Wathey Cruise Facility on Great Bay in Philipsburg (Sint Maarten). A water taxi or 15-minute walk reaches Front Street duty-free shopping. The terminal handles large mega-ships with direct gangway access — itineraries may list St. Maarten, Sint Maarten, or SXM, but ships berth on the Dutch side.",
       tenderVsDock:
-        "St. Maarten is a dock port — passengers walk ashore without tenders. Water taxis to Philipsburg boardwalk are optional; most excursions use pier-side taxi ranks.",
+        "St. Maarten is a dock port — passengers walk ashore at the Dr. A.C. Wathey terminal without tenders. Water taxis to the Philipsburg boardwalk are optional; most excursions use pier-side taxi ranks for Maho Beach, Orient Bay, and French-side transfers.",
       typicalTimeInPort: "7–9 hours typical on Eastern and Southern Caribbean itineraries",
       bestExcursionTiming: [
         "Reach Maho Beach within 90 minutes of gangway opening on multi-ship days",
