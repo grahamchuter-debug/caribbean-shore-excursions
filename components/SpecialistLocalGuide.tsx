@@ -9,7 +9,13 @@ function specialistDomain(url: string): string {
   }
 }
 
-function SpecialistLocalGuideCard({ portSlug }: { portSlug: string }) {
+function SpecialistLocalGuideCard({
+  portSlug,
+  hidePortGuideLink = false,
+}: {
+  portSlug: string;
+  hidePortGuideLink?: boolean;
+}) {
   const port = getPortBySlug(portSlug);
   if (!port) return null;
 
@@ -62,16 +68,24 @@ function SpecialistLocalGuideCard({ portSlug }: { portSlug: string }) {
             />
           </svg>
         </a>
-        <Link href={`/ports/${port.slug}`} className="btn-secondary text-sm text-center">
-          {port.name} authority port guide
-        </Link>
+        {!hidePortGuideLink && (
+          <Link href={`/ports/${port.slug}`} className="btn-secondary text-sm text-center">
+            {port.name} authority port guide
+          </Link>
+        )}
       </div>
     </div>
   );
 }
 
 /** Single-port "Detailed Local Guide" section for authority pages. */
-export function SpecialistLocalGuide({ portSlug }: { portSlug: string }) {
+export function SpecialistLocalGuide({
+  portSlug,
+  hidePortGuideLink = false,
+}: {
+  portSlug: string;
+  hidePortGuideLink?: boolean;
+}) {
   const port = getPortBySlug(portSlug);
   if (!port) return null;
 
@@ -83,7 +97,7 @@ export function SpecialistLocalGuide({ portSlug }: { portSlug: string }) {
         pier-aware pickup times, transparent pricing, and excursion details tailored to cruise ship
         schedules.
       </p>
-      <SpecialistLocalGuideCard portSlug={portSlug} />
+      <SpecialistLocalGuideCard portSlug={portSlug} hidePortGuideLink={hidePortGuideLink} />
     </section>
   );
 }

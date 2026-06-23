@@ -9,6 +9,8 @@ export interface ExcursionCardCTAsProps extends SpecialistExcursionUrlInput {
   portSlug: string;
   className?: string;
   variant?: "default" | "on-dark";
+  /** Hide "View Port Guide" when the user is already on that port's guide page. */
+  hidePortGuideLink?: boolean;
 }
 
 export function ExcursionCardCTAs({
@@ -20,6 +22,7 @@ export function ExcursionCardCTAs({
   text,
   className,
   variant = "default",
+  hidePortGuideLink = false,
 }: ExcursionCardCTAsProps) {
   const specialistHref = getSpecialistExcursionUrl(portSlug, {
     excursionTypeSlug,
@@ -45,9 +48,11 @@ export function ExcursionCardCTAs({
       >
         View Recommended Excursions
       </a>
-      <Link href={`/ports/${portSlug}`} className={`${secondaryClass} text-xs`}>
-        View Port Guide
-      </Link>
+      {!hidePortGuideLink && (
+        <Link href={`/ports/${portSlug}`} className={`${secondaryClass} text-xs`}>
+          View Port Guide
+        </Link>
+      )}
       {scheduleCta && (
         <Link href={scheduleCta.href} className={`${secondaryClass} text-xs`}>
           Check Ship Schedule

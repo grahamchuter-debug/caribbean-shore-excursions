@@ -7,6 +7,7 @@ interface BookingJourneyPanelProps {
   title?: string;
   description?: string;
   className?: string;
+  hidePortGuideLink?: boolean;
 }
 
 export function BookingJourneyPanel({
@@ -15,6 +16,7 @@ export function BookingJourneyPanel({
   title = "Ready to book your shore excursions?",
   description = "View recommended excursions with local specialists, open the authority port guide, or check ship schedules before you commit.",
   className = "mb-12",
+  hidePortGuideLink = false,
 }: BookingJourneyPanelProps) {
   return (
     <section
@@ -23,7 +25,12 @@ export function BookingJourneyPanel({
       <h2 className="font-display text-xl font-bold text-gray-900 sm:text-2xl">{title}</h2>
       <p className="mt-2 text-sm leading-relaxed text-gray-600">{description}</p>
       {portSlug ? (
-        <ExcursionCardCTAs portSlug={portSlug} sectionHint={sectionHint} className="mt-5" />
+        <ExcursionCardCTAs
+          portSlug={portSlug}
+          sectionHint={sectionHint}
+          className="mt-5"
+          hidePortGuideLink={hidePortGuideLink}
+        />
       ) : (
         <div className="mt-5 flex flex-wrap gap-3">
           <Link href="/caribbean-excursion-finder" className="btn-primary text-sm">

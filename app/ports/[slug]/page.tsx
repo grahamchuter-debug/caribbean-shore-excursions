@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { getPortBySlug, getAllPortSlugs } from "@/data/ports";
 import { getPortAuthority } from "@/data/port-authority";
@@ -13,8 +12,10 @@ import { PortPlanningToolkit } from "@/components/PortPlanningToolkit";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { BookingJourneyPanel } from "@/components/BookingJourneyPanel";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
+import { AttractionGridCard } from "@/components/AttractionGridCard";
 import { CruisePortInformationBox } from "@/components/CruisePortInformationBox";
 import { getPortRelatedLinks } from "@/data/port-related";
+import { getAttractionDestination } from "@/lib/attraction-links";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 import {
@@ -84,7 +85,7 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
         ]}
       />
       <PortPageHero port={port} title={heroTitle} subtitle={heroIntro}>
-        <ExcursionCardCTAs portSlug={slug} variant="on-dark" className="mt-0" />
+        <ExcursionCardCTAs portSlug={slug} variant="on-dark" className="mt-0" hidePortGuideLink />
       </PortPageHero>
       <article className="section-padding">
         <div className="container-wide max-w-5xl">
@@ -92,37 +93,34 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
 
           <CruisePortInformationBox portSlug={slug} className="mb-8" />
 
-          <PortPlanningToolkit port={port} />
+          <PortPlanningToolkit port={port} hidePortGuideLink />
 
-          <PortAuthoritySections port={port} authority={authority} />
+          <PortAuthoritySections port={port} authority={authority} hidePortGuideLink />
 
           <section id="nearby-attractions" className="mb-10 scroll-mt-24">
             <h2 className="section-title text-xl sm:text-2xl mb-3">Nearby Attractions</h2>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
               {port.topAttractions.map((attr) => (
-                <div key={attr.name} className="rounded-lg border border-gray-100 bg-white p-4">
-                  <h3 className="font-semibold text-gray-900 text-sm">{attr.name}</h3>
-                  <p className="mt-1 text-sm text-gray-600 line-clamp-2">{attr.description}</p>
-                  <p className="mt-2 text-xs text-caribbean-700 font-medium">{attr.distance}</p>
-                  {attr.guideHref && (
-                    <Link href={attr.guideHref} className="mt-3 inline-flex text-xs font-semibold text-caribbean-700 hover:underline">
-                      Attraction guide →
-                    </Link>
-                  )}
-                </div>
+                <AttractionGridCard
+                  key={attr.name}
+                  attraction={attr}
+                  destination={getAttractionDestination(slug, attr.name, attr)}
+                  compact
+                />
               ))}
             </div>
-            <ExcursionCardCTAs portSlug={slug} className="mt-6" />
+            <ExcursionCardCTAs portSlug={slug} className="mt-6" hidePortGuideLink />
           </section>
 
-          <SpecialistLocalGuide portSlug={slug} />
+          <SpecialistLocalGuide portSlug={slug} hidePortGuideLink />
 
           <PortRelatedLinks links={getPortRelatedLinks(slug)} />
 
           <BookingJourneyPanel
             portSlug={slug}
+            hidePortGuideLink
             title={`Book ${port.name} shore excursions`}
-            description="Compare recommended excursions with local specialists, revisit this port guide, or check which ships are in port on your sailing date."
+            description="Compare recommended excursions with local specialists or check which ships are in port on your sailing date."
           />
 
           <FAQSection faqs={port.faqs} />

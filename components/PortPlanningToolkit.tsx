@@ -54,7 +54,13 @@ function formatPassengers(count: number): string {
   return `~${count.toLocaleString()}`;
 }
 
-export function PortPlanningToolkit({ port }: { port: Port }) {
+export function PortPlanningToolkit({
+  port,
+  hidePortGuideLink = false,
+}: {
+  port: Port;
+  hidePortGuideLink?: boolean;
+}) {
   const snapshot = getPortPlanningSnapshot(port.slug);
   const typicalDay = getTypicalCruiseDay(port.slug);
   const cruiseLines = getCruiseLinesForPort(port.slug);
@@ -85,7 +91,11 @@ export function PortPlanningToolkit({ port }: { port: Port }) {
           >
             Build printable {port.name} day plan →
           </Link>
-          <ExcursionCardCTAs portSlug={port.slug} className="mt-4 print:hidden" />
+          <ExcursionCardCTAs
+            portSlug={port.slug}
+            className="mt-4 print:hidden"
+            hidePortGuideLink={hidePortGuideLink}
+          />
         </div>
       </div>
 

@@ -178,9 +178,11 @@ export function AuthorityHubLinks({
       )}
       {portSlug && (
         <div className="mt-3 flex flex-wrap gap-2">
-          <Link href={`/ports/${portSlug}`} className="btn-secondary text-xs">
-            Port Authority Guide
-          </Link>
+          {current !== "ports" && (
+            <Link href={`/ports/${portSlug}`} className="btn-secondary text-xs">
+              Port Authority Guide
+            </Link>
+          )}
           {hasShipSchedule(portSlug) && (
             <Link href={`/ship-schedules/${portSlug}`} className="btn-secondary text-xs">
               Ship Schedule

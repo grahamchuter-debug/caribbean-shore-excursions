@@ -12,9 +12,11 @@ import { matchesSignatureExcursion } from "@/lib/excursion-logistics";
 export function PortAuthoritySections({
   port,
   authority,
+  hidePortGuideLink = false,
 }: {
   port: Port;
   authority: PortAuthorityContent;
+  hidePortGuideLink?: boolean;
 }) {
   const overviewLead = port.overview.split(". ").slice(0, 2).join(". ") + ".";
   const portConfidence = evaluatePortConfidence(port.slug);
@@ -91,6 +93,7 @@ export function PortAuthoritySections({
                 portSlug={port.slug}
                 excursionType={exc.type}
                 text={`${exc.name} ${exc.description}`}
+                hidePortGuideLink={hidePortGuideLink}
               />
             </div>
             );
