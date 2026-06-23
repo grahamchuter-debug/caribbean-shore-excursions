@@ -5,6 +5,7 @@ import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, travelGuideSchema } from "@/lib/schema";
+import { NavCardCta } from "@/components/NavCardCta";
 
 export const metadata = buildMetadata({
   title: "Caribbean Shore Excursion Types",
@@ -43,7 +44,7 @@ export default function ExcursionTypesPage() {
           />
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {excursionTypes.map((type) => (
-              <Link key={type.slug} href={`/excursion-types/${type.slug}`} className="card-editorial group block">
+              <Link key={type.slug} href={`/excursion-types/${type.slug}`} className="card-editorial group flex h-full flex-col">
                 <h2 className="font-display text-xl font-semibold text-gray-900 transition-colors group-hover:text-caribbean-800">
                   {type.name}
                 </h2>
@@ -56,6 +57,7 @@ export default function ExcursionTypesPage() {
                     </span>
                   ))}
                 </div>
+                <NavCardCta className="pt-5">Explore {type.name.toLowerCase()} guide</NavCardCta>
               </Link>
             ))}
           </div>

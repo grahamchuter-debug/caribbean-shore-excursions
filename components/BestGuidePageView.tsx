@@ -13,6 +13,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
+import { NavCardCta } from "@/components/NavCardCta";
 
 export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
   const breadcrumbs = [
@@ -147,12 +148,13 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
                   <Link
                     key={comparison.slug}
                     href={`/compare/${comparison.slug}`}
-                    className="rounded-lg border border-caribbean-100 bg-white px-4 py-3 hover:border-caribbean-200 hover:shadow-sm transition-all"
+                    className="group flex h-full flex-col rounded-lg border border-caribbean-100 bg-white px-4 py-3 hover:border-caribbean-200 hover:shadow-sm transition-all"
                   >
                     <span className="font-medium text-gray-900">
                       {comparison.portA} vs {comparison.portB}
                     </span>
                     <span className="mt-1 block text-xs text-gray-500 line-clamp-2">{comparison.summary}</span>
+                    <NavCardCta className="pt-3">Read port comparison</NavCardCta>
                   </Link>
                 ))}
               </div>

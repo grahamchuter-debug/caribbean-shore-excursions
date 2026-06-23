@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { ScheduleHubDetails, SchedulePageContent } from "@/data/schedule-page-content";
+import { NavCardCta } from "@/components/NavCardCta";
 
 interface SchedulePageContentSectionsProps {
   content: SchedulePageContent;
@@ -121,19 +122,21 @@ export function SchedulePageContentSections({
                   href={link.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="card-gradient block hover:border-caribbean-300"
+                  className="card-gradient group flex h-full flex-col hover:border-caribbean-300"
                 >
                   <span className="font-medium text-gray-900">{link.label}</span>
                   <span className="block text-sm text-gray-600 mt-1">{link.description}</span>
+                  <NavCardCta className="pt-4">Visit website</NavCardCta>
                 </a>
               ) : (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="card-gradient block hover:border-caribbean-300"
+                  className="card-gradient group flex h-full flex-col hover:border-caribbean-300"
                 >
                   <span className="font-medium text-gray-900">{link.label}</span>
                   <span className="block text-sm text-gray-600 mt-1">{link.description}</span>
+                  <NavCardCta className="pt-4">Open resource</NavCardCta>
                 </Link>
               ),
             )}

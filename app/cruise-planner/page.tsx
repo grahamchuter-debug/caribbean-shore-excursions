@@ -21,6 +21,7 @@ import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
+import { NavCardCta } from "@/components/NavCardCta";
 
 export const metadata = buildMetadata({
   title: "Caribbean Cruise Planner",
@@ -115,9 +116,10 @@ export default function CruisePlannerPage() {
             </p>
             <div className="grid gap-4 sm:grid-cols-3">
               {itineraryPlanners.map((planner) => (
-                <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient">
+                <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient group flex h-full flex-col">
                   <h3 className="font-semibold text-gray-900">{planner.title}</h3>
                   <p className="mt-1 text-sm text-gray-600 line-clamp-2">{planner.heroSubtitle}</p>
+                  <NavCardCta className="pt-4">Open itinerary planner</NavCardCta>
                 </Link>
               ))}
             </div>
@@ -128,19 +130,21 @@ export default function CruisePlannerPage() {
             <h2 className="section-title text-2xl mb-6">{bestCaribbeanGuidesHub.title}</h2>
             <Link
               href={`/${bestCaribbeanGuidesHub.slug}`}
-              className="card-gradient mb-6 block hover:border-caribbean-300 border-2 border-caribbean-200"
+              className="card-gradient group mb-6 flex flex-col hover:border-caribbean-300 border-2 border-caribbean-200"
             >
               <span className="font-semibold text-gray-900">{bestCaribbeanGuidesHub.title} Hub</span>
               <span className="block text-sm text-gray-600 mt-1">
                 Ranked beaches, snorkelling ports, family ports, first-time cruiser picks, and top 2027 ports — each
                 linking to authority guides, comparisons, and schedules.
               </span>
+              <NavCardCta className="pt-4">Open best guides hub</NavCardCta>
             </Link>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 mb-4">
               {getFeaturedBestCaribbeanGuides().map((guide) => (
-                <Link key={guide.slug} href={`/${guide.slug}`} className="card-gradient hover:border-caribbean-200">
+                <Link key={guide.slug} href={`/${guide.slug}`} className="card-gradient group flex h-full flex-col hover:border-caribbean-200">
                   <h3 className="font-semibold text-gray-900">{guide.title}</h3>
                   <p className="mt-1 text-sm text-gray-600 line-clamp-2">{guide.heroSubtitle}</p>
+                  <NavCardCta className="pt-4">Read guide</NavCardCta>
                 </Link>
               ))}
             </div>
@@ -178,9 +182,10 @@ export default function CruisePlannerPage() {
             </p>
             <div className="grid gap-4 sm:grid-cols-2 mb-8">
               {regionalCruisePlanners.map((planner) => (
-                <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient">
+                <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient group flex h-full flex-col">
                   <h3 className="font-semibold text-gray-900">{planner.title}</h3>
                   <p className="mt-1 text-sm text-gray-600 line-clamp-2">{planner.heroSubtitle}</p>
+                  <NavCardCta className="pt-4">Open regional planner</NavCardCta>
                 </Link>
               ))}
             </div>
@@ -311,9 +316,10 @@ export default function CruisePlannerPage() {
             </p>
             <div className="grid gap-4 sm:grid-cols-2">
               {comparisons.map((comp) => (
-                <Link key={comp.slug} href={`/compare/${comp.slug}`} className="card-gradient">
+                <Link key={comp.slug} href={`/compare/${comp.slug}`} className="card-gradient group flex h-full flex-col">
                   <h3 className="font-semibold text-gray-900">{comp.portA} vs {comp.portB}</h3>
                   <p className="mt-1 text-sm text-gray-600 line-clamp-2">{comp.summary}</p>
+                  <NavCardCta className="pt-4">Read port comparison</NavCardCta>
                 </Link>
               ))}
             </div>
@@ -330,8 +336,9 @@ export default function CruisePlannerPage() {
             </p>
             <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {excursionTypes.map((type) => (
-                <Link key={type.slug} href={`/excursion-types/${type.slug}`} className="card text-sm hover:border-caribbean-200">
+                <Link key={type.slug} href={`/excursion-types/${type.slug}`} className="card group flex h-full flex-col text-sm hover:border-caribbean-200">
                   <span className="font-semibold text-gray-900">{type.name}</span>
+                  <NavCardCta className="pt-3">Explore excursion type</NavCardCta>
                 </Link>
               ))}
             </div>

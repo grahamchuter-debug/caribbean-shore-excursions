@@ -9,6 +9,7 @@ import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import { NavCardCta } from "@/components/NavCardCta";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 
@@ -64,7 +65,7 @@ export function BestCaribbeanGuidesHubView() {
               <Link
                 key={guide.slug}
                 href={`/${guide.slug}`}
-                className="card-gradient group border-2 border-transparent hover:border-caribbean-200"
+                className="card-gradient group flex h-full flex-col border-2 border-transparent hover:border-caribbean-200"
               >
                 <p className="text-xs font-semibold uppercase tracking-wide text-caribbean-600">
                   Guide {index + 1}
@@ -73,9 +74,7 @@ export function BestCaribbeanGuidesHubView() {
                   {guide.title}
                 </h2>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-3">{guide.heroSubtitle}</p>
-                <p className="mt-4 text-sm font-medium text-caribbean-700">
-                  {guide.topPorts.length} ranked ports →
-                </p>
+                <NavCardCta className="pt-4">Read guide — {guide.topPorts.length} ranked ports</NavCardCta>
               </Link>
             ))}
           </div>

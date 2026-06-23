@@ -10,6 +10,7 @@ import { ScheduleMonthLinkGrid } from "@/components/ScheduleMonthLinkGrid";
 import { SpecialistLocalGuide } from "@/components/SpecialistLocalGuide";
 import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import { NavCardCta } from "@/components/NavCardCta";
 import { SCHEDULE_PLANNING_TIPS } from "@/data/schedule-content";
 import { getSchedulePageContentForPortYear } from "@/data/schedule-page-content";
 import {
@@ -121,11 +122,12 @@ export function ShipSchedulePageView({
         <div className="grid gap-6 sm:grid-cols-2">
           <div>
             <h3 className="font-semibold text-gray-900 mb-3">Authority port page</h3>
-            <Link href={`/ports/${port.slug}`} className="card-gradient block hover:border-caribbean-300">
+            <Link href={`/ports/${port.slug}`} className="card-gradient group flex h-full flex-col hover:border-caribbean-300">
               <span className="font-medium text-gray-900">{port.name} shore excursions guide</span>
               <span className="block text-sm text-gray-600 mt-1">
                 Excursions, beaches, port logistics, and passenger tips
               </span>
+              <NavCardCta className="pt-4">View {port.name} port guide</NavCardCta>
             </Link>
           </div>
           {authorityPort && (
@@ -135,12 +137,13 @@ export function ShipSchedulePageView({
                 href={authorityPort.specialistUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="card-gradient block hover:border-caribbean-300"
+                className="card-gradient group flex h-full flex-col hover:border-caribbean-300"
               >
                 <span className="font-medium text-gray-900">{authorityPort.specialistName}</span>
                 <span className="block text-sm text-gray-600 mt-1">
                   Live tour listings, local pricing, and pier pickup details
                 </span>
+                <NavCardCta className="pt-4">Book with {authorityPort.specialistName}</NavCardCta>
               </a>
             </div>
           )}
@@ -210,17 +213,19 @@ export function ShipSchedulePageView({
         <section className="mb-12 rounded-xl border border-gray-200 bg-white p-6">
           <h2 className="section-title text-2xl sm:text-3xl mb-4">More 2027 Planning Resources</h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            <Link href="/busiest-caribbean-cruise-ports-2027" className="card-gradient block hover:border-caribbean-300">
+            <Link href="/busiest-caribbean-cruise-ports-2027" className="card-gradient group flex h-full flex-col hover:border-caribbean-300">
               <h3 className="font-semibold text-gray-900">Busiest Caribbean Cruise Ports 2027</h3>
               <p className="mt-2 text-sm text-gray-600">
                 Compare verified call volumes and passenger estimates across top ports.
               </p>
+              <NavCardCta className="pt-4">View busiest ports ranking</NavCardCta>
             </Link>
-            <Link href="/caribbean-cruise-calendar-2027" className="card-gradient block hover:border-caribbean-300">
+            <Link href="/caribbean-cruise-calendar-2027" className="card-gradient group flex h-full flex-col hover:border-caribbean-300">
               <h3 className="font-semibold text-gray-900">Caribbean Cruise Calendar 2027</h3>
               <p className="mt-2 text-sm text-gray-600">
                 Peak months and regional seasonality for smarter excursion booking.
               </p>
+              <NavCardCta className="pt-4">Open 2027 cruise calendar</NavCardCta>
             </Link>
           </div>
         </section>

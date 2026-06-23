@@ -7,6 +7,7 @@ import { PageHero } from "@/components/PageHero";
 import { PortCard } from "@/components/PortCard";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import { NavCardCta } from "@/components/NavCardCta";
 import { PortSearch } from "@/components/PortSearch";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, travelGuideSchema } from "@/lib/schema";
@@ -79,11 +80,12 @@ export default function PortsPage() {
             <h2 className="section-title text-2xl mb-6">Browse by Caribbean Region</h2>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {regionPages.map((region) => (
-                <Link key={region.slug} href={`/${region.slug}`} className="card-gradient group">
+                <Link key={region.slug} href={`/${region.slug}`} className="card-gradient group flex h-full flex-col">
                   <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
                     {region.title.replace(" Guide", "")}
                   </h3>
                   <p className="mt-2 text-sm text-gray-600 line-clamp-2">{region.heroSubtitle}</p>
+                  <NavCardCta className="pt-4">View {region.title.replace(" Guide", "")} guide</NavCardCta>
                 </Link>
               ))}
             </div>

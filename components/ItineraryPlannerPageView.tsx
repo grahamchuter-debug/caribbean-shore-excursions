@@ -18,6 +18,7 @@ import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
 import { ExploreByRegion } from "@/components/ExploreByRegion";
 import { getCaribbeanRegionIdForPlanner } from "@/data/caribbean-regions-map";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
+import { NavCardCta } from "@/components/NavCardCta";
 
 function PortLink({ portSlug }: { portSlug: string }) {
   const port = getPortBySlug(portSlug);
@@ -155,9 +156,10 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
               </p>
               <div className="grid gap-4 sm:grid-cols-2">
                 {regionalPlanners.map((regional) => (
-                  <Link key={regional.slug} href={`/${regional.slug}`} className="card-gradient">
+                  <Link key={regional.slug} href={`/${regional.slug}`} className="card-gradient group flex h-full flex-col">
                     <h3 className="font-semibold text-gray-900">{regional.title}</h3>
                     <p className="mt-1 text-sm text-gray-600 line-clamp-2">{regional.heroSubtitle}</p>
+                    <NavCardCta className="pt-4">Open regional planner</NavCardCta>
                   </Link>
                 ))}
               </div>
@@ -301,10 +303,11 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
               <h2 className="section-title text-2xl sm:text-3xl mb-6">Port Comparisons</h2>
               <div className="grid gap-3 sm:grid-cols-2">
                 {relatedComparisons.map((comp) => (
-                  <Link key={comp.slug} href={`/compare/${comp.slug}`} className="card hover:border-caribbean-200">
+                  <Link key={comp.slug} href={`/compare/${comp.slug}`} className="card group flex h-full flex-col hover:border-caribbean-200">
                     <span className="font-semibold text-gray-900">
                       {comp.portA} vs {comp.portB}
                     </span>
+                    <NavCardCta className="pt-3">Read port comparison</NavCardCta>
                   </Link>
                 ))}
               </div>

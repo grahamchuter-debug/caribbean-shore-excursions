@@ -3,6 +3,7 @@ import type { ScheduleEntry, ShipSchedulePort } from "@/data/types";
 import { ScheduleWithCruiseDayLookup } from "@/components/ScheduleWithCruiseDayLookup";
 import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
+import { NavCardCta } from "@/components/NavCardCta";
 import { SpecialistLocalGuide } from "@/components/SpecialistLocalGuide";
 import { getPortBySlug } from "@/data/ports";
 import { hasShipSchedule } from "@/lib/routes";
@@ -192,23 +193,25 @@ export function ShipScheduleMonthPageView({
       <section className="mb-12">
         <h2 className="section-title text-2xl sm:text-3xl mb-6">Related Links</h2>
         <div className="grid gap-6 sm:grid-cols-2">
-          <Link href={`/ports/${port.slug}`} className="card-gradient block hover:border-caribbean-300">
+          <Link href={`/ports/${port.slug}`} className="card-gradient group flex h-full flex-col hover:border-caribbean-300">
             <span className="font-medium text-gray-900">{port.name} authority guide</span>
             <span className="block text-sm text-gray-600 mt-1">
               Excursions, beaches, port logistics, and passenger tips
             </span>
+            <NavCardCta className="pt-4">View {port.name} port guide</NavCardCta>
           </Link>
           {authorityPort && (
             <a
               href={authorityPort.specialistUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="card-gradient block hover:border-caribbean-300"
+              className="card-gradient group flex h-full flex-col hover:border-caribbean-300"
             >
               <span className="font-medium text-gray-900">{authorityPort.specialistName}</span>
               <span className="block text-sm text-gray-600 mt-1">
                 Live tour listings, local pricing, and pier pickup details
               </span>
+              <NavCardCta className="pt-4">Book with {authorityPort.specialistName}</NavCardCta>
             </a>
           )}
         </div>

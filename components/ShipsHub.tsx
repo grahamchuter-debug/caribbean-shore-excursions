@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { NavCardCta } from "@/components/NavCardCta";
 
 export interface ShipsHubShip {
   slug: string;
@@ -104,12 +105,13 @@ export function ShipsHub({ ships }: { ships: ShipsHubShip[] }) {
           <h2 className="section-title text-2xl sm:text-3xl mb-6">Featured Ship Guides</h2>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {featured.map((ship) => (
-              <Link key={ship.slug} href={`/ships/${ship.slug}`} className="card-gradient group">
+              <Link key={ship.slug} href={`/ships/${ship.slug}`} className="card-gradient group flex h-full flex-col">
                 <p className="text-xs font-medium text-caribbean-600">{ship.cruiseLineName}</p>
                 <h3 className="font-display text-xl font-bold text-gray-900 group-hover:text-caribbean-700 mt-1">
                   {ship.name}
                 </h3>
                 <p className="mt-2 text-sm text-gray-600 line-clamp-2">{ship.tagline}</p>
+                <NavCardCta className="pt-4">View {ship.name} ship guide</NavCardCta>
               </Link>
             ))}
           </div>

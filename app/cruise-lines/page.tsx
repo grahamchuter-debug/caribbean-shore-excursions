@@ -6,6 +6,7 @@ import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, travelGuideSchema } from "@/lib/schema";
+import { NavCardCta } from "@/components/NavCardCta";
 
 export const metadata = buildMetadata({
   title: "Caribbean Cruise Line Guides",
@@ -100,9 +101,10 @@ export default function CruiseLinesPage() {
             </div>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {featuredShips.map((ship) => (
-                <Link key={ship.slug} href={`/ships/${ship.slug}`} className="card hover:border-caribbean-200">
+                <Link key={ship.slug} href={`/ships/${ship.slug}`} className="card hover:border-caribbean-200 flex h-full flex-col">
                   <span className="font-semibold text-gray-900">{ship.name}</span>
                   <span className="block text-xs text-gray-500 mt-1 line-clamp-2">{ship.tagline}</span>
+                  <NavCardCta className="pt-4">View {ship.name} ship guide</NavCardCta>
                 </Link>
               ))}
             </div>

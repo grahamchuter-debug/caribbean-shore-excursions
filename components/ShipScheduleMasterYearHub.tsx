@@ -12,6 +12,7 @@ import {
 } from "@/components/SchedulePageContentSections";
 
 import { FAQSection } from "@/components/FAQSection";
+import { NavCardCta } from "@/components/NavCardCta";
 import { getScheduleYearHubFaqs } from "@/data/schedule-hub-faqs";
 
 export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
@@ -127,7 +128,7 @@ export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
 
             return (
               <div key={port.slug} className="card-gradient flex flex-col">
-                <Link href={portYearPath(port.slug, year)} className="group block flex-1">
+                <Link href={portYearPath(port.slug, year)} className="group flex flex-1 flex-col">
                   <div className="flex items-start justify-between gap-2">
                     <div>
                       <h3 className="font-display text-xl font-bold text-gray-900 group-hover:text-caribbean-700">
@@ -145,12 +146,7 @@ export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
                       ? `${shipCalls} verified ship call${shipCalls !== 1 ? "s" : ""}`
                       : "Import in progress"}
                   </p>
-                  <span className="mt-4 inline-flex items-center text-sm font-medium text-caribbean-700">
-                    View {year} schedule
-                    <svg className="ml-1 h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                    </svg>
-                  </span>
+                  <NavCardCta className="pt-4">View {port.name} {year} schedule</NavCardCta>
                 </Link>
                 <div className="mt-4 border-t border-gray-100 pt-3">
                   <Link
@@ -184,17 +180,19 @@ export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
         <section className="mb-12 rounded-xl border border-gray-200 bg-white p-6">
           <h2 className="section-title text-2xl sm:text-3xl mb-4">2027 Planning Tools</h2>
           <div className="grid gap-4 sm:grid-cols-2">
-            <Link href="/busiest-caribbean-cruise-ports-2027" className="card-gradient block hover:border-caribbean-300">
+            <Link href="/busiest-caribbean-cruise-ports-2027" className="card-gradient group flex h-full flex-col hover:border-caribbean-300">
               <h3 className="font-semibold text-gray-900">Busiest Caribbean Cruise Ports 2027</h3>
               <p className="mt-2 text-sm text-gray-600">
                 Verified rankings, passenger estimates, and multi-port planning insights.
               </p>
+              <NavCardCta className="pt-4">View busiest ports ranking</NavCardCta>
             </Link>
-            <Link href="/caribbean-cruise-calendar-2027" className="card-gradient block hover:border-caribbean-300">
+            <Link href="/caribbean-cruise-calendar-2027" className="card-gradient group flex h-full flex-col hover:border-caribbean-300">
               <h3 className="font-semibold text-gray-900">Caribbean Cruise Calendar 2027</h3>
               <p className="mt-2 text-sm text-gray-600">
                 Peak months, regional seasonality, and seasonal cruise patterns.
               </p>
+              <NavCardCta className="pt-4">Open 2027 cruise calendar</NavCardCta>
             </Link>
           </div>
         </section>

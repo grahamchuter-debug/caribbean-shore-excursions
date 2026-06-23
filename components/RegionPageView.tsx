@@ -11,6 +11,7 @@ import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, travelGuideSchema } from "@/lib/schema";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
+import { NavCardCta } from "@/components/NavCardCta";
 
 export function RegionPageView({ region }: { region: RegionPage }) {
   const ports = region.portSlugs
@@ -127,9 +128,10 @@ export function RegionPageView({ region }: { region: RegionPage }) {
               </p>
               <div className="grid gap-4 sm:grid-cols-2">
                 {regionalPlanners.map((planner) => (
-                  <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient">
+                  <Link key={planner.slug} href={`/${planner.slug}`} className="card-gradient group flex h-full flex-col">
                     <h3 className="font-semibold text-gray-900">{planner.title}</h3>
                     <p className="mt-1 text-sm text-gray-600 line-clamp-2">{planner.heroSubtitle}</p>
+                    <NavCardCta className="pt-4">Open regional planner</NavCardCta>
                   </Link>
                 ))}
               </div>
@@ -164,9 +166,10 @@ export function RegionPageView({ region }: { region: RegionPage }) {
                       <Link
                         key={r.slug}
                         href={`/${r.slug}`}
-                        className="card hover:border-caribbean-200"
+                        className="card hover:border-caribbean-200 flex h-full flex-col"
                       >
                         <span className="font-semibold text-gray-900">{r.title.replace(" Guide", "")}</span>
+                        <NavCardCta className="pt-3">View region guide</NavCardCta>
                       </Link>
                     )
                 )}

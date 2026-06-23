@@ -14,6 +14,7 @@ import { FAQSection } from "@/components/FAQSection";
 import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
+import { NavCardCta } from "@/components/NavCardCta";
 
 const YEAR = 2027;
 
@@ -197,13 +198,11 @@ export default function BusiestCaribbeanCruisePorts2027Page() {
                 <Link
                   key={port.slug}
                   href={`/ship-schedules/${port.slug}`}
-                  className="card-gradient block hover:border-caribbean-300"
+                  className="card-gradient group flex h-full flex-col hover:border-caribbean-300"
                 >
                   <h3 className="font-semibold text-gray-900">{port.name}</h3>
                   <p className="mt-1 text-sm text-gray-600">{port.country}</p>
-                  <span className="mt-3 inline-flex text-sm font-medium text-caribbean-700">
-                    2026 &amp; 2027 schedules
-                  </span>
+                  <NavCardCta className="pt-4">Open {port.name} schedule hub</NavCardCta>
                 </Link>
               ))}
             </div>

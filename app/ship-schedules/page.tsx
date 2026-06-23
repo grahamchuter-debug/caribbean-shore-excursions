@@ -14,6 +14,7 @@ import {
   SchedulePageIntro,
 } from "@/components/SchedulePageContentSections";
 import { breadcrumbSchema, faqSchema, webPageSchema } from "@/lib/schema";
+import { NavCardCta } from "@/components/NavCardCta";
 import { portHubPath } from "@/lib/schedule-utils";
 
 const SCHEDULE_PORT_COUNT = getSchedulePortCount();
@@ -77,17 +78,19 @@ export default function ShipSchedulesPage() {
           <section className="mb-14">
             <h2 className="section-title text-2xl sm:text-3xl mb-4">2027 Planning Tools</h2>
             <div className="grid gap-4 sm:grid-cols-2 max-w-4xl">
-              <Link href="/busiest-caribbean-cruise-ports-2027" className="card-gradient block hover:border-caribbean-300">
+              <Link href="/busiest-caribbean-cruise-ports-2027" className="card-gradient group flex h-full flex-col hover:border-caribbean-300">
                 <h3 className="font-display text-lg font-bold text-gray-900">Busiest Caribbean Cruise Ports 2027</h3>
                 <p className="mt-2 text-sm text-gray-600">
                   Verified ship call rankings, passenger estimates, and planning insights.
                 </p>
+                <NavCardCta className="pt-4">View busiest ports ranking</NavCardCta>
               </Link>
-              <Link href="/caribbean-cruise-calendar-2027" className="card-gradient block hover:border-caribbean-300">
+              <Link href="/caribbean-cruise-calendar-2027" className="card-gradient group flex h-full flex-col hover:border-caribbean-300">
                 <h3 className="font-display text-lg font-bold text-gray-900">Caribbean Cruise Calendar 2027</h3>
                 <p className="mt-2 text-sm text-gray-600">
                   Peak months, regional seasonality, and seasonal cruise patterns.
                 </p>
+                <NavCardCta className="pt-4">Open 2027 cruise calendar</NavCardCta>
               </Link>
             </div>
           </section>
@@ -103,15 +106,13 @@ export default function ShipSchedulesPage() {
                 <Link
                   key={port.slug}
                   href={portHubPath(port.slug)}
-                  className="card-gradient group block hover:border-caribbean-300"
+                  className="card-gradient group flex h-full flex-col hover:border-caribbean-300"
                 >
                   <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
                     {port.name}
                   </h3>
                   <p className="text-sm text-gray-500">{port.country}</p>
-                  <span className="mt-3 inline-flex text-sm font-medium text-caribbean-700">
-                    Port schedule hub
-                  </span>
+                  <NavCardCta className="pt-4">Open {port.name} schedule hub</NavCardCta>
                 </Link>
               ))}
             </div>

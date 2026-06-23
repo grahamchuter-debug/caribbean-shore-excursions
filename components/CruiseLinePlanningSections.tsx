@@ -7,6 +7,7 @@ import { getPortBySlug } from "@/data/ports";
 import { hasShipSchedule } from "@/lib/routes";
 import { getPortGuideCount } from "@/data/content-inventory";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
+import { NavCardCta } from "@/components/NavCardCta";
 
 interface CruiseLinePlanningSectionsProps {
   line: CruiseLine;
@@ -114,7 +115,7 @@ export function CruiseLinePlanningSections({
         </div>
         <div className="grid gap-4 sm:grid-cols-2">
           {ships.map((ship) => (
-            <Link key={ship.slug} href={`/ships/${ship.slug}`} className="card-gradient group block">
+            <Link key={ship.slug} href={`/ships/${ship.slug}`} className="card-gradient group flex h-full flex-col">
               <h3 className="font-display text-lg font-bold text-gray-900 group-hover:text-caribbean-700">
                 {ship.name}
               </h3>
@@ -128,9 +129,7 @@ export function CruiseLinePlanningSections({
                   ))}
                 </ul>
               )}
-              <span className="mt-4 inline-block text-sm font-medium text-caribbean-700 group-hover:underline">
-                Ship planning guide →
-              </span>
+              <NavCardCta className="pt-4">View {ship.name} ship guide</NavCardCta>
             </Link>
           ))}
         </div>

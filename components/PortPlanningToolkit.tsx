@@ -14,6 +14,7 @@ import { hasShipSchedule } from "@/lib/routes";
 import { evaluatePortConfidence, formatConfidenceTitle } from "@/lib/cruise-confidence";
 import { CruiseConfidenceCard } from "@/components/CruiseConfidenceCard";
 import { getThemeStyle } from "@/lib/port-themes";
+import { NavCardCta } from "@/components/NavCardCta";
 
 const cardToneClasses: Record<string, string> = {
   sand: "from-amber-50 to-orange-50 border-amber-200",
@@ -254,18 +255,19 @@ export function PortPlanningToolkit({ port }: { port: Port }) {
                     <Link
                       key={similar.slug}
                       href={`/ports/${similar.slug}`}
-                      className="group block overflow-hidden rounded-xl border border-caribbean-100/80 bg-white shadow-sm transition-all hover:shadow-md"
+                      className="group flex h-full flex-col overflow-hidden rounded-xl border border-caribbean-100/80 bg-white shadow-sm transition-all hover:shadow-md"
                     >
                       <div
                         className={`h-16 bg-gradient-to-br ${getThemeStyle(similar.imageTheme).gradient}`}
                         aria-hidden
                       />
-                      <div className="p-4">
+                      <div className="flex flex-1 flex-col p-4">
                         <h4 className="font-display font-semibold text-gray-900 group-hover:text-caribbean-700">
                           {similar.name}
                         </h4>
                         <p className="text-xs text-gray-500 mt-0.5">{similar.region}</p>
                         <p className="text-sm text-gray-600 mt-2 line-clamp-2">{similar.bestFor}</p>
+                        <NavCardCta className="pt-4">View {similar.name} port guide</NavCardCta>
                       </div>
                     </Link>
                   ),
