@@ -223,6 +223,50 @@ export interface PassengerRecommendation {
   advice: string;
 }
 
+export interface BestForCategoryPick {
+  category: string;
+  description: string;
+  portSlug: string;
+  excursionName: string;
+}
+
+export interface BestGuideSeasonality {
+  caribbeanOverview: string;
+  bestMonths: string;
+  seaConditions: string;
+  portNotes?: { portSlug: string; note: string }[];
+}
+
+export interface ShoreVsBoatRow {
+  aspect: string;
+  shoreEntry: string;
+  boatRequired: string;
+}
+
+export interface ShoreVsBoatComparison {
+  introduction: string;
+  rows: ShoreVsBoatRow[];
+}
+
+export interface PricingBand {
+  tier: string;
+  range: string;
+  description: string;
+  examplePorts: string;
+}
+
+export interface TrustSignal {
+  title: string;
+  detail: string;
+}
+
+export interface AdditionalPortSection {
+  slug: string;
+  heading: string;
+  reason: string;
+  recommendedExcursion: { name: string; description: string; duration: string };
+}
+
 export interface BestGuidePage {
   slug: string;
   seoTitle: string;
@@ -237,6 +281,12 @@ export interface BestGuidePage {
   passengerRecommendations: PassengerRecommendation[];
   faqs: FAQ[];
   excursionTypeSlug?: string;
+  bestForCategories?: BestForCategoryPick[];
+  seasonality?: BestGuideSeasonality;
+  shoreVsBoat?: ShoreVsBoatComparison;
+  pricingBands?: PricingBand[];
+  trustSignals?: TrustSignal[];
+  additionalPortSections?: AdditionalPortSection[];
 }
 
 export interface PortExcursionAuthorityRow {

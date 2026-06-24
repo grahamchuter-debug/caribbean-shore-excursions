@@ -105,16 +105,16 @@ export const bestGuides: BestGuidePage[] = [
   },
   {
     slug: "best-caribbean-snorkeling-excursions",
-    seoTitle: "Best Caribbean Snorkelling Ports | Reef Rankings for Cruise Passengers",
+    seoTitle: "Best Caribbean Snorkeling Excursions | Ranked Reef Tours for Cruise Passengers",
     title: "Best Caribbean Snorkelling Ports",
     metaDescription:
-      "Best Caribbean snorkeling shore excursions at Cozumel, Roatán, Grand Cayman, St. Thomas, Aruba and Nassau. Reef visibility, marine life, beginner sites, and booking tips.",
+      "Best Caribbean snorkeling excursions ranked at Cozumel, Roatán, Grand Cayman, St. Thomas, Aruba, Bonaire and Curaçao. Reef tours, shore vs boat snorkel, seasonality, pricing, and cruise-day tips.",
     heroSubtitle:
-      "Mesoamerican Reef sites ranked by visibility, marine life, boat access, and beginner-friendliness for cruise port days.",
+      "Top snorkel excursions ranked by reef quality, marine life, shore vs boat access, and cruise-day practicality across the Caribbean.",
     introduction:
       "Caribbean snorkeling quality varies enormously by port. Cozumel and Roatán sit directly on the Mesoamerican Barrier Reef with 80-100+ foot visibility on calm days. Grand Cayman offers wreck and reef boat tours. St. Thomas provides accessible shore snorkeling at Sapphire Beach and world-class Trunk Bay via St. John ferry.",
     introductionDetail:
-      "The best snorkel excursions for cruise passengers use small boats (not overcrowded catamarans), visit two reef sites when possible, and include quality mask-and-fin gear. Beginners should prioritize calm bays like Chankanaab (Cozumel), West Bay (Roatán), and Boca Catalina (Aruba) over open-ocean reef edges.",
+      "The best snorkel excursions for cruise passengers use small boats (not overcrowded catamarans), visit two reef sites when possible, and include quality mask-and-fin gear. Beginners should prioritize calm bays like Chankanaab (Cozumel), West Bay (Roatán), and Boca Catalina (Aruba) over open-ocean reef edges. Southern Caribbean calls at Bonaire and Curaçao add world-class shore-entry reefs and shallow wreck snorkels on ABC island itineraries.",
     topPorts: [
       { slug: "cozumel", reason: "Palancar and Columbia reefs are world-renowned. Cozumel's marine park protections keep reef health strong, and multiple operators run daily two-stop snorkel boats." },
       { slug: "roatan", reason: "Fewer boats at reef sites than Cozumel means a more intimate experience. West End and West Bay offer exceptional value with healthy hard and soft coral." },
@@ -123,6 +123,106 @@ export const bestGuides: BestGuidePage[] = [
       { slug: "aruba", reason: "Antilla WWII wreck snorkel is a unique shallow wreck experience. Boca Catalina offers calm bay snorkeling suitable for beginners." },
       { slug: "nassau", reason: "Rose Island and Goulding Cay reef stops on catamaran tours provide reliable half-day snorkel options close to port." },
     ],
+    additionalPortSections: [
+      {
+        slug: "bonaire",
+        heading: "Bonaire — Shore-Entry Marine Park Snorkeling",
+        reason:
+          "Bonaire National Marine Park protects the Caribbean's healthiest shore-accessible reefs. Cruise ships dock at Kralendijk pier with marked snorkel sites reachable by taxi or guided tour — no boat required for world-class coral. Dense hard and soft coral, exceptional year-round visibility, and strict conservation rules make Bonaire the top pick for experienced snorkelers and divers on Southern Caribbean ABC itineraries.",
+        recommendedExcursion: {
+          name: "Karpata Marine Park Shore Snorkel",
+          description:
+            "Guided shore-entry snorkel along protected house reefs with dense coral formations. Water shoes essential for rocky entry; gear and marine park orientation included on organized tours.",
+          duration: "3-4 hours",
+        },
+      },
+      {
+        slug: "curacao",
+        heading: "Curaçao — Wreck Snorkels and West-Coast Reefs",
+        reason:
+          "Curaçao combines UNESCO Willemstad culture with superior reef diving and snorkeling. Ships dock in the historic harbor; Tugboat Beach offers a shallow wreck snorkel with vibrant reef fish, while Playa Porto Mari and west-coast coves deliver protected hard and soft coral. Ideal for passengers who want a culture-and-reef combo on the same port day.",
+        recommendedExcursion: {
+          name: "Tugboat Beach Wreck Snorkel",
+          description:
+            "Short boat ride to a shallow sunken tugboat covered in coral and tropical fish. Calm conditions and easy depth make this the ABC islands' best beginner wreck snorkel.",
+          duration: "3-4 hours",
+        },
+      },
+    ],
+    bestForCategories: [
+      {
+        category: "Best coral reefs",
+        description: "Dense hard and soft coral with marine park protections and consistent visibility.",
+        portSlug: "cozumel",
+        excursionName: "Palancar & Columbia Two-Stop Snorkel",
+      },
+      {
+        category: "Best coral reefs",
+        description: "Shore-accessible house reefs with the Caribbean's strongest conservation standards.",
+        portSlug: "bonaire",
+        excursionName: "Karpata Marine Park Shore Snorkel",
+      },
+      {
+        category: "Best turtle encounters",
+        description: "Regular green and hawksbill turtle sightings on barrier reef boat tours.",
+        portSlug: "roatan",
+        excursionName: "West End Reef Snorkel",
+      },
+      {
+        category: "Best turtle encounters",
+        description: "Reef snorkel add-ons after Stingray City often include turtle sightings offshore.",
+        portSlug: "grand-cayman",
+        excursionName: "Cemetery Reef Snorkel Combo",
+      },
+      {
+        category: "Best beginner snorkeling",
+        description: "Protected lagoon with calm water, rental gear, and lifeguard supervision near the pier.",
+        portSlug: "cozumel",
+        excursionName: "Chankanaab Lagoon Snorkel",
+      },
+      {
+        category: "Best beginner snorkeling",
+        description: "Shallow wreck in calm water — easy depth and vibrant fish without strong currents.",
+        portSlug: "curacao",
+        excursionName: "Tugboat Beach Wreck Snorkel",
+      },
+      {
+        category: "Best beginner snorkeling",
+        description: "Sheltered bay with gentle entry and calm trade-wind lee conditions.",
+        portSlug: "aruba",
+        excursionName: "Boca Catalina Bay Snorkel",
+      },
+      {
+        category: "Best experienced snorkelers",
+        description: "Marked shore sites with drop-offs, currents, and dense coral — bring your own skills.",
+        portSlug: "bonaire",
+        excursionName: "Marine Park Shore Snorkel Circuit",
+      },
+      {
+        category: "Best experienced snorkelers",
+        description: "Deep reef pinnacles with strong drift and large pelagic species on calm days.",
+        portSlug: "cozumel",
+        excursionName: "Palancar Deep Reef Snorkel",
+      },
+      {
+        category: "Best family snorkeling",
+        description: "All-in-one park with protected snorkel lagoon, beach, and facilities near the pier.",
+        portSlug: "cozumel",
+        excursionName: "Chankanaab Beach Park Snorkel",
+      },
+      {
+        category: "Best family snorkeling",
+        description: "Calm bay reef directly offshore with beach club facilities and shallow entry.",
+        portSlug: "roatan",
+        excursionName: "West Bay Reef & Beach Combo",
+      },
+      {
+        category: "Best family snorkeling",
+        description: "Shore reef minutes from Red Hook with calm conditions and easy taxi access.",
+        portSlug: "st-thomas",
+        excursionName: "Sapphire Beach Reef Snorkel",
+      },
+    ],
     recommendedExcursions: [
       { name: "Palancar Reef Two-Stop Snorkel", portSlug: "cozumel", description: "Boat to Palancar's coral pinnacles then Columbia Reef. Visibility often exceeds 80 feet; guides point out eagle rays, nurse sharks, and moray eels.", duration: "3-4 hours" },
       { name: "West End Reef Snorkel", portSlug: "roatan", description: "Two-stop tour at pristine barrier reef sites with smaller group boats. Significantly less crowded than Cozumel equivalents at lower per-person cost.", duration: "3-4 hours" },
@@ -130,6 +230,69 @@ export const bestGuides: BestGuidePage[] = [
       { name: "St. John / Trunk Bay Ferry Snorkel", portSlug: "st-thomas", description: "Ferry to St. John for the underwater snorkeling trail at Trunk Bay. Allow 6+ hours for meaningful reef time plus beach relaxation.", duration: "6-7 hours" },
       { name: "Antilla Wreck Snorkel", portSlug: "aruba", description: "Shallow WWII freighter wreck covered in coral and fish. Unique experience not available at most Caribbean ports.", duration: "3-4 hours" },
       { name: "Rose Island Catamaran Snorkel", portSlug: "nassau", description: "Short sail to healthy reef near Rose Island with open bar. Good half-day option when Atlantis is not your priority.", duration: "4 hours" },
+      { name: "Karpata Marine Park Shore Snorkel", portSlug: "bonaire", description: "Shore-entry reef with dense hard and soft coral in Bonaire National Marine Park. No boat needed — the ABC islands' benchmark conservation snorkel.", duration: "3-4 hours" },
+      { name: "Tugboat Beach Wreck Snorkel", portSlug: "curacao", description: "Shallow wreck snorkel with vibrant reef fish and excellent visibility. Short boat transfer from Willemstad; pairs well with a morning old-town walk.", duration: "3-4 hours" },
+    ],
+    seasonality: {
+      caribbeanOverview:
+        "Caribbean snorkel visibility is generally best December through April when trade winds are steadier and rainfall is lower. May and November are shoulder months with good conditions at most ports. Hurricane season (June–November) affects Eastern Caribbean ports more than Southern ABC islands, which sit outside the main storm track.",
+      bestMonths:
+        "Peak visibility: December–April across the Caribbean. Bonaire, Curaçao, and Aruba offer reliable year-round snorkel conditions outside the hurricane belt. Cozumel and Roatán are excellent November–May; St. Thomas and Nassau are best December–April when seas are calmest.",
+      seaConditions:
+        "Trade winds build afternoon chop on leeward coasts — book morning snorkel departures when possible. Sustained winds above 15 knots reduce visibility and make surface swimming uncomfortable. Tender ports (Grand Cayman, Nassau on some berths) may delay departures in rough seas.",
+      portNotes: [
+        { portSlug: "cozumel", note: "Calmest seas and best visibility typically November–May; summer can bring afternoon wind chop on the west coast." },
+        { portSlug: "bonaire", note: "Year-round diving and snorkel conditions; outside hurricane belt with consistent 60–100 ft visibility." },
+        { portSlug: "curacao", note: "Reliable year-round; west-coast coves are sheltered from trade winds for calm morning snorkels." },
+        { portSlug: "st-thomas", note: "Winter and spring offer calmest ferry crossings to St. John; summer tropical waves can affect open-water boat tours." },
+        { portSlug: "grand-cayman", note: "December–April best for tender reliability and flat seas; winter cold fronts occasionally disrupt boat departures." },
+      ],
+    },
+    shoreVsBoat: {
+      introduction:
+        "Some Caribbean ports deliver excellent snorkeling from shore; others require a boat to reach healthy reef structure. Cruise passengers should match port type to their comfort level, time budget, and whether they want operator-managed ship-return timing.",
+      rows: [
+        { aspect: "Best ports", shoreEntry: "Bonaire, Roatán (West Bay), St. Thomas (Sapphire Beach), Curaçao (Playa Porto Mari)", boatRequired: "Cozumel, Grand Cayman, Nassau, Aruba (Antilla wreck), Curaçao (Tugboat Beach)" },
+        { aspect: "Typical cost", shoreEntry: "$25–50 (taxi + park fee or guided shore tour)", boatRequired: "$60–120 per person for group snorkel boats" },
+        { aspect: "Reef quality", shoreEntry: "Excellent at Bonaire; good at West Bay and Porto Mari; moderate at Sapphire Beach", boatRequired: "Best coral formations — Palancar, Columbia, Cemetery Reef, Rose Island" },
+        { aspect: "Cruise-day logistics", shoreEntry: "Flexible timing; you manage return transport", boatRequired: "Operators guarantee ship-return; fixed departure windows" },
+        { aspect: "Beginner suitability", shoreEntry: "Variable — rocky entry at Bonaire; calm bays at West Bay and Boca Catalina", boatRequired: "Guides provide flotation support; no long surface swim to reef" },
+        { aspect: "Equipment", shoreEntry: "Rent from dive shops or book guided tour with gear included", boatRequired: "Mask, snorkel, fins, and life vest included on most boat tours" },
+      ],
+    },
+    pricingBands: [
+      {
+        tier: "Budget",
+        range: "$35–65 per person",
+        description: "Group snorkel boats, shore-entry tours with shared transport, and West Bay reef combos. Roatán and Nassau typically offer the lowest per-person snorkel pricing in the Caribbean.",
+        examplePorts: "Roatán, Nassau, Bonaire (guided shore snorkel)",
+      },
+      {
+        tier: "Mid-range",
+        range: "$65–110 per person",
+        description: "Two-stop reef boat tours, wreck snorkels, and organized combos with transport and gear. The standard price band for Cozumel, Grand Cayman, Aruba, and Curaçao group excursions.",
+        examplePorts: "Cozumel, Grand Cayman, Aruba, Curaçao",
+      },
+      {
+        tier: "Premium",
+        range: "$110–200+ per person",
+        description: "Private snorkel charters, St. John ferry day trips with guided reef time, and small-group premium boats with fewer than 12 guests.",
+        examplePorts: "St. Thomas (St. John), Cozumel (private charter), Bonaire (private reef tour)",
+      },
+    ],
+    trustSignals: [
+      {
+        title: "Cruise passenger suitability",
+        detail: "All excursions listed here are designed for 6–8 hour port calls. Organized snorkel tours include pier pickup or a designated meeting point within walking distance of the cruise terminal. Bonaire and Curaçao ships dock directly — no tender delays. Grand Cayman requires tenders; book early departures to protect reef time.",
+      },
+      {
+        title: "Return-to-ship considerations",
+        detail: "Licensed operators track ship departure times and build buffer into return schedules. Boat snorkel tours typically guarantee on-time pier return — confirm this when booking independently. Shore-entry snorkel at Bonaire or West Bay requires you to manage taxi timing; allow 90 minutes before all-aboard. St. John ferry trips need a 6+ hour window.",
+      },
+      {
+        title: "Equipment normally included",
+        detail: "Group snorkel boat tours include mask, snorkel, fins, and a flotation vest. Shore-entry tours and dive-shop rentals provide the same. Wetsuits are rarely needed in Caribbean water temperatures (78–84°F). Bring reef-safe sunscreen; consider your own mask if rental fit is an issue. Water shoes are recommended for Bonaire and rocky shore entries but not usually provided.",
+      },
     ],
     comparisonTable: [
       { portSlug: "cozumel", portName: "Cozumel", bestFor: "World-class reef", bestExcursion: "Palancar Two-Stop", transferTime: "20 min boat", rating: "4.9" },
