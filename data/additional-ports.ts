@@ -183,7 +183,7 @@ export const additionalPorts: Port[] = [
       { name: "Playa Rincón", description: "Secluded palm beach on the peninsula tip.", distance: "Boat or 60 min drive" },
       { name: "Los Haitises", description: "Mangrove park with cave art and birdlife.", distance: "Boat excursion" },
     ],
-    specialistUrl: "https://samanashoreexcursions.com",
+    specialistUrl: "https://samanashoreexcursion.com",
     specialistName: "Samaná Shore Excursions",
     faqs: [
       { question: "When can I see whales in Samaná?", answer: "Humpback whale season runs roughly January through March, with peak sightings in February. Outside season, waterfall and beach excursions remain strong options." },
@@ -231,7 +231,7 @@ export const additionalPorts: Port[] = [
       { name: "Catalina Island", description: "Snorkel reef and beach on a small offshore island.", distance: "Boat excursion" },
       { name: "Chavón River", description: "Scenic gorge views from village overlooks.", distance: "15 min by taxi" },
     ],
-    specialistUrl: "https://laromanashoreexcursions.com",
+    specialistUrl: "https://laromanashoreexcursion.com",
     specialistName: "La Romana Shore Excursions",
     faqs: [
       { question: "What is the best excursion from La Romana?", answer: "Saona Island catamaran day trips are the most popular choice, combining white-sand beaches, snorkeling, and a natural pool stop with lunch included." },
@@ -279,7 +279,7 @@ export const additionalPorts: Port[] = [
       { name: "Hip Strip (Gloucester Ave)", description: "Restaurants, bars, and beach clubs along the waterfront.", distance: "10 min by taxi" },
       { name: "Dunn's River Falls", description: "Jamaica's signature waterfall climb.", distance: "90 min by coach" },
     ],
-    specialistUrl: "https://montegobayshoreexcursions.com",
+    specialistUrl: "https://montegobayshoreexcursion.com",
     specialistName: "Montego Bay Shore Excursions",
     faqs: [
       { question: "Is Montego Bay or Ocho Rios better for Dunn's River Falls?", answer: "Ocho Rios is much closer to Dunn's River Falls with shorter transfers. Montego Bay passengers can still visit but should expect 90+ minutes driving each way." },

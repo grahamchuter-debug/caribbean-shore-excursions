@@ -118,7 +118,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
   samana: {
     seoTitle: "Samaná Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "Samaná Dominican Republic cruise port authority guide to whale watching, El Limón waterfall, Playa Rincón and samanashoreexcursions.com.",
+      "Samaná Dominican Republic cruise port authority guide to whale watching, El Limón waterfall, Playa Rincón and samanashoreexcursion.com.",
     whyVisit: [
       "Seasonal humpback whale watching in one of the Caribbean's best breeding bays",
       "El Limón waterfall horseback treks through tropical rainforest",
@@ -156,7 +156,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
   "la-romana": {
     seoTitle: "La Romana Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "La Romana Dominican Republic cruise port authority guide to Saona Island, Altos de Chavón, Catalina snorkel and laromanashoreexcursions.com.",
+      "La Romana Dominican Republic cruise port authority guide to Saona Island, Altos de Chavón, Catalina snorkel and laromanashoreexcursion.com.",
     whyVisit: [
       "Saona Island catamaran day trips are among the Caribbean's best island excursions",
       "Altos de Chavón artisan village overlooks the scenic Chavón River gorge",
@@ -194,7 +194,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
   "montego-bay": {
     seoTitle: "Montego Bay Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "Montego Bay Jamaica cruise port authority guide to Doctor's Cave Beach, Rose Hall, Hip Strip tours and montegobayshoreexcursions.com.",
+      "Montego Bay Jamaica cruise port authority guide to Doctor's Cave Beach, Rose Hall, Hip Strip tours and montegobayshoreexcursion.com.",
     whyVisit: [
       "Doctor's Cave Beach is Jamaica's most famous swim spot with full facilities",
       "Rose Hall Great House delivers colonial history with panoramic estate views",

@@ -1335,7 +1335,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       },
       {
         label: "Ocho Rios Shore Excursions",
-        href: "https://ochoriosshoreexcursions.com",
+        href: "https://ochoriosshoreexcursion.com",
         description: "Falls and adventure operators with pier pickup.",
         external: true,
       },

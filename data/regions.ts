@@ -93,7 +93,7 @@ export const regions: RegionPage[] = [
     slug: "jamaica-cruise-ports",
     title: "Jamaica Cruise Ports Guide",
     metaDescription:
-      "Jamaica cruise port authority guide for Ocho Rios, Dunn's River Falls, river rafting, rainforest adventures and ochoriosshoreexcursions.com.",
+      "Jamaica cruise port authority guide for Ocho Rios, Dunn's River Falls, river rafting, rainforest adventures and ochoriosshoreexcursion.com.",
     heroSubtitle:
       "Dunn's River Falls, Mystic Mountain, Martha Brae rafting, and Jamaica north-coast cruise excursion planning.",
     overview:

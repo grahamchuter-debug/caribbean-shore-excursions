@@ -569,7 +569,7 @@ export const ports: Port[] = [
       { name: "Martha Brae River", description: "Scenic river for bamboo raft rides.", distance: "30 min by coach" },
       { name: "Dolphin Cove", description: "Marine park with dolphin and shark encounters.", distance: "10 min by taxi" },
     ],
-    specialistUrl: "https://ochoriosshoreexcursions.com",
+    specialistUrl: "https://ochoriosshoreexcursion.com",
     specialistName: "Ocho Rios Shore Excursions",
     faqs: [
       { question: "Can anyone climb Dunn's River Falls?", answer: "Most people can climb with a guide holding hands in a human chain. You need reasonable mobility and water shoes. Non-climbers can watch from viewing areas." },

@@ -423,7 +423,7 @@ const authority: Record<string, PortAuthorityContent> = {
   "ocho-rios": {
     seoTitle: "Ocho Rios Shore Excursions & Cruise Port Authority Guide",
     seoDescription:
-      "Ocho Rios Jamaica authority guide to Dunn's River Falls, river rafting, rainforest adventures, family tours and ochoriosshoreexcursions.com.",
+      "Ocho Rios Jamaica authority guide to Dunn's River Falls, river rafting, rainforest adventures, family tours and ochoriosshoreexcursion.com.",
     whyVisit: [
       "Dunn's River Falls climb is one of the Caribbean's most iconic experiences",
       "Mystic Mountain bobsled and zip-line sit minutes from the cruise terminal",

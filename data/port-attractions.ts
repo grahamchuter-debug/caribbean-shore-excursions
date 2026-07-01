@@ -11,7 +11,7 @@ const HUB_GRAND_CAYMAN_SPECIALIST = "https://grandcaymanshoreexcursion.com";
 
 const HUB_ST_MAARTEN_PORT = "/ports/st-maarten";
 const HUB_ST_MAARTEN_SCHEDULE = "/ship-schedules/st-maarten";
-const HUB_ST_MAARTEN_SPECIALIST = "https://stmaartenshoreexcursions.com";
+const HUB_ST_MAARTEN_SPECIALIST = "https://stmaartenshoreexcursion.com";
 const HUB_VIRGIN_ISLANDS_PLANNER = "/virgin-islands-cruise-planner";
 
 const HUB_COZUMEL_PORT = "/ports/cozumel";

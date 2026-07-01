@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { buildMetadata } from "@/lib/seo";
 import { PageHero } from "@/components/PageHero";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -30,9 +31,9 @@ export default function TermsPage() {
           />
           <p className="text-gray-700 leading-relaxed">
             Our terms of use are being finalized. For questions, please{" "}
-            <a href="/contact" className="text-caribbean-700 underline underline-offset-2">
+            <Link href="/contact" className="text-caribbean-700 underline underline-offset-2">
               contact us
-            </a>
+            </Link>
             .
           </p>
         </div>
