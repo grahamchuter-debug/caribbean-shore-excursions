@@ -90,11 +90,8 @@ export function ShipPageView({ ship }: { ship: CruiseShip }) {
             <h2 className="section-title text-2xl sm:text-3xl mb-4">Ship Overview</h2>
             {line && (
               <div className="mb-6 flex flex-wrap gap-3">
-                <Link href={`/cruise-lines/${line.slug}`} className="btn-secondary text-sm">
-                  {line.name} Cruise Line Guide
-                </Link>
                 <Link href={`/${line.pageSlug}`} className="btn-secondary text-sm">
-                  {line.name} Shore Excursions
+                  {line.name} Shore Excursions Guide
                 </Link>
               </div>
             )}
@@ -213,11 +210,8 @@ export function ShipPageView({ ship }: { ship: CruiseShip }) {
                 excursion categories.
               </p>
               <div className="flex flex-wrap gap-3">
-                <Link href={`/cruise-lines/${line.slug}`} className="btn-primary text-sm">
-                  {line.name} Cruise Line Hub
-                </Link>
-                <Link href={`/${line.pageSlug}`} className="btn-secondary text-sm">
-                  {line.name} Shore Excursions Guide
+                <Link href={`/${line.pageSlug}`} className="btn-primary text-sm">
+                  {line.name} Cruise Line Guide
                 </Link>
                 <Link href="/ships" className="btn-secondary text-sm">
                   All Caribbean Ships

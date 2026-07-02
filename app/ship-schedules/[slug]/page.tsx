@@ -26,7 +26,13 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
     const port = getSchedulePortBySlug(slug);
     if (!port) return {};
     const hubContent = getSchedulePageContentForPortHub(slug);
-    const baseTitle = port.seoTitle ?? `${port.name} Cruise Ship Schedule`;
+    // The hub is year-agnostic: strip any trailing year(s) from the port's
+    // seoTitle so single-year ports (e.g. Aruba "2026") don't collide with
+    // their year page title.
+    const baseTitle = (port.seoTitle ?? `${port.name} Cruise Ship Schedule`).replace(
+      /\s+20\d{2}(?:\s*&\s*20\d{2})?$/,
+      "",
+    );
     const baseDescription =
       hubContent?.heroSubtitle ??
       port.metaDescription ??

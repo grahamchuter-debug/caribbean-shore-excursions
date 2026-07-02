@@ -4,7 +4,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
   {
     slug: "eastern-caribbean-cruise-planner",
     title: "Eastern Caribbean Cruise Planner",
-    seoTitle: "Eastern Caribbean Cruise Planner | St. Thomas, St. Maarten, Puerto Plata & Nassau",
+    seoTitle: "Eastern Caribbean Cruise Planner",
     metaDescription:
       "Plan your Eastern Caribbean cruise with port-by-port advice for St. Thomas, St. Maarten, Puerto Plata, and Nassau, including beaches, snorkeling, family ideas, and private tours.",
     heroSubtitle:
@@ -223,7 +223,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
   {
     slug: "western-caribbean-cruise-planner",
     title: "Western Caribbean Cruise Planner",
-    seoTitle: "Western Caribbean Cruise Planner | Cozumel, Roatan, Grand Cayman, Costa Maya & Ocho Rios",
+    seoTitle: "Western Caribbean Cruise Planner",
     metaDescription:
       "Plan your Western Caribbean cruise with expert guidance for Cozumel, Roatan, Grand Cayman, Costa Maya, and Ocho Rios, including reef, beach, family, and private-tour picks.",
     heroSubtitle:
@@ -442,7 +442,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
   {
     slug: "southern-caribbean-cruise-planner",
     title: "Southern Caribbean Cruise Planner",
-    seoTitle: "Southern Caribbean Cruise Planner | Aruba, Curacao & St. Maarten Port Guide",
+    seoTitle: "Southern Caribbean Cruise Planner",
     metaDescription:
       "Plan your Southern Caribbean cruise across Aruba, Curacao, and St. Maarten with practical advice on beaches, snorkeling, family days, and private island tours.",
     heroSubtitle:
@@ -661,7 +661,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
   {
     slug: "dominican-republic-cruise-planner",
     title: "Dominican Republic Cruise Planner",
-    seoTitle: "Dominican Republic Cruise Planner | Puerto Plata Port Day Guide",
+    seoTitle: "Dominican Republic Cruise Planner",
     metaDescription:
       "Plan a better Dominican Republic cruise day in Puerto Plata with practical advice on beaches, city touring, cable car views, family options, and private local guides.",
     heroSubtitle:
@@ -880,7 +880,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
   {
     slug: "jamaica-cruise-planner",
     title: "Jamaica Cruise Planner",
-    seoTitle: "Jamaica Cruise Planner | Ocho Rios & Falmouth Shore Excursion Guide",
+    seoTitle: "Jamaica Cruise Planner",
     metaDescription:
       "Plan Jamaica cruise port days in Ocho Rios and Falmouth with practical recommendations for waterfalls, beaches, family options, snorkeling, and private local tours.",
     heroSubtitle:
@@ -1099,7 +1099,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
   {
     slug: "central-america-cruise-planner",
     title: "Central America Cruise Planner",
-    seoTitle: "Central America Cruise Planner | Roatan & Costa Maya Shore Excursion Guide",
+    seoTitle: "Central America Cruise Planner",
     metaDescription:
       "Plan Central America cruise port days in Roatan, Costa Maya, and Puerto Limón with reef snorkelling, beach clubs, Mayan ruins, rainforest wildlife, and private tour advice for Western Caribbean sailings.",
     heroSubtitle:

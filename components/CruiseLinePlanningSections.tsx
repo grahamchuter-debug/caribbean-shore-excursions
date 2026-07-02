@@ -58,13 +58,6 @@ export function CruiseLinePlanningSections({
           </Link>
         </div>
       )}
-      {variant === "guide" && (
-        <div className="mb-2">
-          <Link href={`/cruise-lines/${line.slug}`} className="text-sm text-caribbean-700 hover:underline">
-            {line.name} cruise line hub →
-          </Link>
-        </div>
-      )}
 
       <section>
         <h2 className="section-title text-2xl sm:text-3xl mb-4">Cruise Line Overview</h2>

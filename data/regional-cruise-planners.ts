@@ -4,7 +4,7 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
   {
     slug: "abc-islands-cruise-planner",
     title: "ABC Islands Cruise Planner",
-    seoTitle: "ABC Islands Cruise Planner | Aruba and Curacao Cruise Port Guide",
+    seoTitle: "ABC Islands Cruise Planner",
     metaDescription:
       "Plan better ABC Islands cruise days in Aruba and Curacao with practical guidance on beaches, snorkeling, private tours, and family-friendly shore planning.",
     heroSubtitle:
@@ -188,7 +188,7 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
   {
     slug: "virgin-islands-cruise-planner",
     title: "Virgin Islands Cruise Planner",
-    seoTitle: "Virgin Islands Cruise Planner | St. Thomas & St. Maarten Port Guide",
+    seoTitle: "Virgin Islands Cruise Planner",
     metaDescription:
       "Plan Virgin Islands cruise days in St. Thomas and St. Maarten with advice on Magens Bay, St. John ferry access, Orient Bay, dual-nation touring, and private shore excursions.",
     heroSubtitle:
@@ -420,7 +420,7 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
   {
     slug: "bahamas-cruise-planner",
     title: "Bahamas Cruise Planner",
-    seoTitle: "Bahamas Cruise Planner | Nassau & Grand Cayman Port Guide",
+    seoTitle: "Bahamas Cruise Planner",
     metaDescription:
       "Plan Bahamas and Cayman cruise days in Nassau and Grand Cayman with advice on Atlantis, Stingray City, Rose Island snorkel, Seven Mile Beach, and private tours.",
     heroSubtitle:
@@ -653,7 +653,7 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
   {
     slug: "mexican-caribbean-cruise-planner",
     title: "Mexican Caribbean Cruise Planner",
-    seoTitle: "Mexican Caribbean Cruise Planner | Cozumel and Costa Maya Port Guide",
+    seoTitle: "Mexican Caribbean Cruise Planner",
     metaDescription:
       "Plan stronger Mexican Caribbean cruise days in Cozumel and Costa Maya with detailed advice on reefs, ruins, beaches, private tours, and family options.",
     heroSubtitle:

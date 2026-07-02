@@ -3,7 +3,7 @@ import type { PortExcursionAuthorityPage } from "./types";
 export const portExcursionAuthority: PortExcursionAuthorityPage = {
   slug: "best-shore-excursion-every-caribbean-port",
   title: "Best Shore Excursion at Every Caribbean Port",
-  seoTitle: "Best Shore Excursion at Every Caribbean Port | Complete Authority Guide",
+  seoTitle: "Best Shore Excursion at Every Caribbean Port",
   metaDescription:
     "The definitive guide to the best shore excursion at every Caribbean cruise port, St. Thomas, Cozumel, Aruba, Grand Cayman, Roatán, Nassau and more. Port table, category picks, and specialist booking links.",
   heroSubtitle: "One signature excursion for every port we cover: with authority port guides, specialist operator links, and category recommendations across beaches, reefs, wildlife, families, and private tours.",

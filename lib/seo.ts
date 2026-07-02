@@ -18,11 +18,18 @@ export function buildMetadata({
   ogImage,
 }: PageSEO): Metadata {
   const url = absoluteUrl(SITE.url, path);
-  const fullTitle = path === "/" ? title : `${title} | ${SITE.name}`;
+  const isHome = path === "/";
+  // Single-branded title. The root layout `title.template` appends the brand
+  // once for string document titles, so the bare base is returned for the
+  // document title on non-home pages. The home page opts out of the template
+  // via `title.absolute` (its base already contains the brand once). OG and
+  // Twitter titles never receive the template, so they use the full branded
+  // title directly to stay in sync with the rendered <title>.
+  const fullTitle = isHome ? title : `${title} | ${SITE.name}`;
   const image = ogImage ?? `${SITE.url}/og-default.jpg`;
 
   return {
-    title: fullTitle,
+    title: isHome ? { absolute: title } : title,
     description,
     keywords: [
       "Caribbean cruise",

@@ -67,7 +67,7 @@ export default function CruiseLinesPage() {
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 mb-14">
             {cruiseLines.map((line) => (
               <div key={line.slug} className="card-gradient group">
-                <Link href={`/cruise-lines/${line.slug}`} className="block">
+                <Link href={`/${line.pageSlug}`} className="block">
                   <h2 className="font-display text-xl font-bold text-gray-900 group-hover:text-caribbean-700">
                     {line.name}
                   </h2>
@@ -81,11 +81,8 @@ export default function CruiseLinesPage() {
                   ))}
                 </div>
                 <div className="mt-4 flex flex-wrap gap-3 text-sm">
-                  <Link href={`/cruise-lines/${line.slug}`} className="text-caribbean-700 hover:underline font-medium">
-                    Planning hub →
-                  </Link>
-                  <Link href={`/${line.pageSlug}`} className="text-gray-600 hover:underline">
-                    Excursions guide
+                  <Link href={`/${line.pageSlug}`} className="text-caribbean-700 hover:underline font-medium">
+                    Shore excursions guide →
                   </Link>
                 </div>
               </div>

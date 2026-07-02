@@ -4,7 +4,7 @@ import { absoluteUrl } from "@/lib/paths";
 import { getAllPortSlugs } from "@/data/ports";
 import { getAllComparisonSlugs } from "@/data/comparisons";
 import { getAllExcursionTypeSlugs } from "@/data/excursion-types";
-import { getAllCruiseLineSlugs, getAllCruiseLinePageSlugs } from "@/data/cruise-lines";
+import { getAllCruiseLinePageSlugs } from "@/data/cruise-lines";
 import { getAllShipSlugs } from "@/data/ships";
 import { getAllSchedulePortSlugs, getAllVerifiedMonthPageParams } from "@/data/schedules";
 import { SCHEDULE_YEARS } from "@/lib/schedule-utils";
@@ -65,10 +65,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const excursionPages = getAllExcursionTypeSlugs().map((slug) =>
     sitemapEntry(`/excursion-types/${slug}`, now, "monthly", 0.7),
-  );
-
-  const cruiseLinePages = getAllCruiseLineSlugs().map((slug) =>
-    sitemapEntry(`/cruise-lines/${slug}`, now, "monthly", 0.75),
   );
 
   const shipPages = getAllShipSlugs().map((slug) =>
@@ -132,7 +128,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...portPages,
     ...comparePages,
     ...excursionPages,
-    ...cruiseLinePages,
     ...shipPages,
     ...scheduleHubPages,
     ...scheduleYearPages,

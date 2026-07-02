@@ -3,6 +3,11 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { NavCardCta } from "@/components/NavCardCta";
+import { getCruiseLineBySlug } from "@/data/cruise-lines";
+
+function cruiseLineGuideHref(lineSlug: string): string {
+  return `/${getCruiseLineBySlug(lineSlug)?.pageSlug ?? lineSlug}`;
+}
 
 export interface ShipsHubShip {
   slug: string;
@@ -128,15 +133,15 @@ export function ShipsHub({ ships }: { ships: ShipsHubShip[] }) {
               <div key={group.lineSlug}>
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-4">
                   <h3 className="font-display text-xl font-bold text-gray-900">
-                    <Link href={`/cruise-lines/${group.lineSlug}`} className="hover:text-caribbean-700">
+                    <Link href={cruiseLineGuideHref(group.lineSlug)} className="hover:text-caribbean-700">
                       {group.lineName}
                     </Link>
                   </h3>
                   <Link
-                    href={`/cruise-lines/${group.lineSlug}`}
+                    href={cruiseLineGuideHref(group.lineSlug)}
                     className="text-sm text-caribbean-700 hover:underline"
                   >
-                    Cruise line hub →
+                    Shore excursions guide →
                   </Link>
                 </div>
                 <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">

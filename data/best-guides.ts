@@ -3,7 +3,7 @@ import type { BestGuidePage } from "./types";
 export const bestGuides: BestGuidePage[] = [
   {
     slug: "best-caribbean-shore-excursions",
-    seoTitle: "Best Caribbean Shore Excursions | Authority Port Rankings",
+    seoTitle: "Best Caribbean Shore Excursions | Port Rankings",
     title: "Best Caribbean Shore Excursions",
     metaDescription:
       "Ranked guide to the best Caribbean shore excursions at Cozumel, St. Thomas, Grand Cayman, Aruba, Roatán and Nassau. Port comparisons, booking advice, and specialist operator links.",
@@ -105,7 +105,7 @@ export const bestGuides: BestGuidePage[] = [
   },
   {
     slug: "best-caribbean-snorkeling-excursions",
-    seoTitle: "Best Caribbean Snorkeling Excursions | Ranked Reef Tours for Cruise Passengers",
+    seoTitle: "Best Caribbean Snorkeling Excursions | Ranked Reef Tours",
     title: "Best Caribbean Snorkelling Ports",
     metaDescription:
       "Best Caribbean snorkeling excursions ranked at Cozumel, Roatán, Grand Cayman, St. Thomas, Aruba, Bonaire and Curaçao. Reef tours, shore vs boat snorkel, seasonality, pricing, and cruise-day tips.",

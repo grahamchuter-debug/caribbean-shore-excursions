@@ -347,7 +347,7 @@ export default function HomePage() {
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {cruiseLines.map((line) => (
-              <Link key={line.slug} href={`/cruise-lines/${line.slug}`} className="nav-card group flex h-full flex-col">
+              <Link key={line.slug} href={`/${line.pageSlug}`} className="nav-card group flex h-full flex-col">
                 <div className="flex items-start gap-4">
                   <NavCardIcon icon="cruise-line" />
                   <div className="min-w-0 flex-1">

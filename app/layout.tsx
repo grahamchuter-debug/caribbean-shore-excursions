@@ -21,7 +21,9 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE.name} | ${SITE.tagline}`,
+    // Fallback title for pages that don't set their own (e.g. 404). Kept to a
+    // single brand mention; the tagline duplicated the brand name.
+    default: SITE.name,
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,

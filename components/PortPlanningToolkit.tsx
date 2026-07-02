@@ -296,7 +296,7 @@ export function PortPlanningToolkit({
               {cruiseLines.map((line) => (
                 <Link
                   key={line.slug}
-                  href={`/cruise-lines/${line.slug}`}
+                  href={`/${line.pageSlug}`}
                   className="rounded-full border border-caribbean-200 bg-white px-4 py-2 text-sm font-medium text-caribbean-800 hover:bg-caribbean-50"
                 >
                   {line.name}

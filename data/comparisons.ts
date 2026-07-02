@@ -5,7 +5,7 @@ export const comparisons: Comparison[] = [
   {
     slug: "aruba-vs-curacao",
     title: "Aruba vs Curaçao: Which Caribbean Port Is Better?",
-    seoTitle: "Aruba vs Curaçao Cruise Port Comparison: Beaches, Diving & Culture",
+    seoTitle: "Aruba vs Curaçao Cruise Port Comparison",
     metaDescription:
       "Detailed Aruba vs Curaçao cruise port comparison covering beaches, snorkeling, families, couples, food, shore excursions, port ease, and which Southern Caribbean island suits your cruise day.",
     portA: "Aruba",
@@ -122,7 +122,7 @@ export const comparisons: Comparison[] = [
   {
     slug: "st-thomas-vs-st-maarten",
     title: "St. Thomas vs St. Maarten: Eastern Caribbean Port Comparison",
-    seoTitle: "St. Thomas vs St. Maarten Cruise Port Comparison: Beaches, Shopping & Culture",
+    seoTitle: "St. Thomas vs St. Maarten Cruise Port Comparison",
     metaDescription:
       "St. Thomas vs St. Maarten detailed comparison for cruise passengers, beaches, snorkeling, families, couples, food, shore excursions, port logistics, and which Eastern Caribbean port to choose.",
     portA: "St. Thomas",
@@ -233,7 +233,7 @@ export const comparisons: Comparison[] = [
   {
     slug: "roatan-vs-cozumel",
     title: "Roatán vs Cozumel: Western Caribbean Snorkeling Comparison",
-    seoTitle: "Roatán vs Cozumel Cruise Port Comparison: Reef Snorkeling, Beaches & Value",
+    seoTitle: "Roatán vs Cozumel Cruise Port Comparison",
     metaDescription:
       "Roatán vs Cozumel in-depth cruise port comparison for snorkeling, beaches, families, couples, food, shore excursions, port ease, value, and which Western Caribbean reef port wins.",
     portA: "Roatán",
@@ -344,7 +344,7 @@ export const comparisons: Comparison[] = [
   {
     slug: "amber-cove-vs-puerto-plata",
     title: "Amber Cove vs Puerto Plata: Dominican Republic Cruise Port Comparison",
-    seoTitle: "Amber Cove vs Puerto Plata Cruise Port Comparison: Waterfalls, Beaches & Culture",
+    seoTitle: "Amber Cove vs Puerto Plata Cruise Port Comparison",
     metaDescription:
       "Amber Cove vs Puerto Plata detailed comparison for Dominican Republic cruise passengers, port village vs city excursions, waterfalls, beaches, families, and shore excursion planning.",
     portA: "Amber Cove",
@@ -455,7 +455,7 @@ export const comparisons: Comparison[] = [
   {
     slug: "ocho-rios-vs-falmouth",
     title: "Ocho Rios vs Falmouth: Jamaica Cruise Port Guide",
-    seoTitle: "Ocho Rios vs Falmouth Jamaica Cruise Port Comparison: Falls, Rafting & Culture",
+    seoTitle: "Ocho Rios vs Falmouth Jamaica Cruise Port Comparison",
     metaDescription:
       "Ocho Rios vs Falmouth Jamaica cruise port comparison, Dunn's River Falls access, Martha Brae rafting, families, couples, food, shore excursions, and which port suits your cruise day.",
     portA: "Ocho Rios",
@@ -566,7 +566,7 @@ export const comparisons: Comparison[] = [
   {
     slug: "grand-cayman-vs-nassau",
     title: "Grand Cayman vs Nassau: Cruise Port Comparison",
-    seoTitle: "Grand Cayman vs Nassau Cruise Port Comparison: Stingray City vs Atlantis",
+    seoTitle: "Grand Cayman vs Nassau Cruise Port Comparison",
     metaDescription:
       "Grand Cayman vs Nassau detailed cruise port comparison, Stingray City vs Atlantis, beaches, families, snorkeling, tender logistics, food, and which port delivers the better cruise day.",
     portA: "Grand Cayman",

@@ -1,0 +1,9 @@
+# Cruise-line canonical dedup: /cruise-lines/{slug} hub pages were merged into
+# the richer, more-linked standalone /{line}-shore-excursions guides.
+# 301 any inbound links (external or legacy) to the canonical guide URL.
+/cruise-lines/royal-caribbean /royal-caribbean-shore-excursions/ 301
+/cruise-lines/carnival /carnival-shore-excursions/ 301
+/cruise-lines/norwegian /norwegian-cruise-line-shore-excursions/ 301
+/cruise-lines/msc /msc-shore-excursions/ 301
+/cruise-lines/princess /princess-shore-excursions/ 301
+/cruise-lines/celebrity /celebrity-shore-excursions/ 301

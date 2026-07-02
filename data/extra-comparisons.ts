@@ -4,7 +4,7 @@ export const extraComparisons: Comparison[] = [
   {
     slug: "aruba-vs-bonaire",
     title: "Aruba vs Bonaire: Which ABC Island Is Better for Your Cruise?",
-    seoTitle: "Aruba vs Bonaire Cruise Port Comparison: Beaches, Diving & Flamingos",
+    seoTitle: "Aruba vs Bonaire Cruise Port Comparison",
     metaDescription:
       "Aruba vs Bonaire cruise port comparison covering beaches, diving, snorkeling, families, couples, excursions, port logistics, and which ABC island suits your Southern Caribbean cruise day.",
     portA: "Aruba",
@@ -122,7 +122,7 @@ export const extraComparisons: Comparison[] = [
   {
     slug: "bonaire-vs-curacao",
     title: "Bonaire vs Curaçao: Diving Versus Culture in the ABC Islands",
-    seoTitle: "Bonaire vs Curaçao Cruise Port Comparison: Marine Park vs UNESCO Heritage",
+    seoTitle: "Bonaire vs Curaçao Cruise Port Comparison",
     metaDescription:
       "Bonaire vs Curaçao detailed cruise port comparison covering reef diving, UNESCO culture, beaches, families, couples, excursions, port logistics, and which ABC island to choose on your Southern Caribbean cruise.",
     portA: "Bonaire",
@@ -240,7 +240,7 @@ export const extraComparisons: Comparison[] = [
   {
     slug: "st-thomas-vs-tortola",
     title: "St. Thomas vs Tortola: US Virgin Islands vs BVI Cruise Port Comparison",
-    seoTitle: "St. Thomas vs Tortola Cruise Port: USVI Shopping vs BVI Sailing",
+    seoTitle: "St. Thomas vs Tortola Cruise Port Comparison",
     metaDescription:
       "St. Thomas vs Tortola cruise port comparison covering beaches, sailing, snorkeling, families, couples, shopping, port logistics, and whether USVI infrastructure or BVI natural beauty wins your cruise day.",
     portA: "St. Thomas",
@@ -358,7 +358,7 @@ export const extraComparisons: Comparison[] = [
   {
     slug: "st-maarten-vs-tortola",
     title: "St. Maarten vs Tortola: Eastern Caribbean Port Comparison",
-    seoTitle: "St. Maarten vs Tortola Cruise Port: Maho Beach vs BVI Sailing",
+    seoTitle: "St. Maarten vs Tortola Cruise Port Comparison",
     metaDescription:
       "St. Maarten vs Tortola cruise port comparison covering beaches, BVI sailing, Maho plane spotting, families, couples, snorkeling, excursions, and which Eastern Caribbean port suits your cruise day.",
     portA: "St. Maarten",
@@ -476,7 +476,7 @@ export const extraComparisons: Comparison[] = [
   {
     slug: "cozumel-vs-costa-maya",
     title: "Cozumel vs Costa Maya: Mexican Caribbean Cruise Port Comparison",
-    seoTitle: "Cozumel vs Costa Maya Cruise Port Comparison: Reef vs Mayan Ruins",
+    seoTitle: "Cozumel vs Costa Maya Cruise Port Comparison",
     metaDescription:
       "Cozumel vs Costa Maya detailed cruise port comparison covering reefs, Chacchoben Mayan ruins, beaches, families, couples, excursions, Tulum access, and which Mexican Caribbean port wins your cruise day.",
     portA: "Cozumel",
@@ -594,7 +594,7 @@ export const extraComparisons: Comparison[] = [
   {
     slug: "cozumel-vs-progreso",
     title: "Cozumel vs Progreso: Reef Snorkeling vs Mérida Culture",
-    seoTitle: "Cozumel vs Progreso Cruise Port Comparison: Beach Reef vs Yucatán Heritage",
+    seoTitle: "Cozumel vs Progreso Cruise Port Comparison",
     metaDescription:
       "Cozumel vs Progreso cruise port comparison covering Palancar reef snorkeling versus Mérida UNESCO city, Uxmal ruins, flamingos, families, couples, and which Mexican cruise port suits your Yucatán day.",
     portA: "Cozumel",
@@ -712,7 +712,7 @@ export const extraComparisons: Comparison[] = [
   {
     slug: "costa-maya-vs-progreso",
     title: "Costa Maya vs Progreso: Two Mexican Cruise Ports Compared",
-    seoTitle: "Costa Maya vs Progreso Cruise Port Comparison: Ruins, Jungle & Yucatán Culture",
+    seoTitle: "Costa Maya vs Progreso Cruise Port Comparison",
     metaDescription:
       "Costa Maya vs Progreso cruise port comparison covering Chacchoben versus Uxmal Mayan ruins, authentic villages, jungle excursions, Mérida, families, couples, and which less-visited Mexican port is right for your cruise.",
     portA: "Costa Maya",
@@ -830,7 +830,7 @@ export const extraComparisons: Comparison[] = [
   {
     slug: "puerto-plata-vs-samana",
     title: "Puerto Plata vs Samaná: Dominican Republic Cruise Port Comparison",
-    seoTitle: "Puerto Plata vs Samaná Cruise Port: Waterfalls vs Whale Watching",
+    seoTitle: "Puerto Plata vs Samaná Cruise Port Comparison",
     metaDescription:
       "Puerto Plata vs Samaná Dominican Republic cruise port comparison covering 27 Charcos waterfalls, humpback whale watching, Los Haitises national park, families, couples, excursions, and which DR port suits your cruise day.",
     portA: "Puerto Plata",
@@ -948,7 +948,7 @@ export const extraComparisons: Comparison[] = [
   {
     slug: "la-romana-vs-puerto-plata",
     title: "La Romana vs Puerto Plata: Dominican Republic Cruise Port Comparison",
-    seoTitle: "La Romana vs Puerto Plata Cruise Port: South vs North Dominican Republic",
+    seoTitle: "La Romana vs Puerto Plata Cruise Port Comparison",
     metaDescription:
       "La Romana vs Puerto Plata Dominican Republic cruise port comparison covering Altos de Chavón, Casa de Campo, Saona Island versus 27 Charcos waterfalls, Teleférico, and which DR coast suits your cruise day.",
     portA: "La Romana",
@@ -1066,7 +1066,7 @@ export const extraComparisons: Comparison[] = [
   {
     slug: "ocho-rios-vs-montego-bay",
     title: "Ocho Rios vs Montego Bay: Jamaica Cruise Port Comparison",
-    seoTitle: "Ocho Rios vs Montego Bay Cruise Port: Falls & Adventure vs Doctor's Cave Beach",
+    seoTitle: "Ocho Rios vs Montego Bay Cruise Port Comparison",
     metaDescription:
       "Ocho Rios vs Montego Bay Jamaica cruise port comparison covering Dunn's River Falls, Doctor's Cave Beach, Mystic Mountain, Rose Hall Great House, families, couples, and which Jamaica port suits your cruise day.",
     portA: "Ocho Rios",
@@ -1184,7 +1184,7 @@ export const extraComparisons: Comparison[] = [
   {
     slug: "falmouth-vs-montego-bay",
     title: "Falmouth vs Montego Bay: Jamaica Cruise Port Comparison",
-    seoTitle: "Falmouth vs Montego Bay Jamaica Cruise Port: Georgian Town vs Hip Strip Beach",
+    seoTitle: "Falmouth vs Montego Bay Jamaica Cruise Port Comparison",
     metaDescription:
       "Falmouth vs Montego Bay Jamaica cruise port comparison covering Martha Brae rafting, Luminous Lagoon, Doctor's Cave Beach, Rose Hall, families, couples, excursion logistics, and which Jamaica port to choose.",
     portA: "Falmouth",

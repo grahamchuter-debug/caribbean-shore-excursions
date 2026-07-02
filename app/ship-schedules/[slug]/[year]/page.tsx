@@ -90,9 +90,14 @@ export function generateMetadata({
         ? `${shipCalls} verified ship calls listed.`
         : "Monthly schedule with placeholders until import completes.";
 
-    const baseTitle = port.seoTitle?.includes(String(year))
-      ? port.seoTitle.replace(/\s2026\s&\s2027/, ` ${year}`)
-      : `${port.name} Cruise Ship Schedule ${year}`;
+    // Derive a year-agnostic base then append the specific year, so the year
+    // page always reads "{Port} Cruise Ship Schedule {year}" regardless of the
+    // year(s) baked into the port's seoTitle.
+    const yearAgnosticTitle = (port.seoTitle ?? `${port.name} Cruise Ship Schedule`).replace(
+      /\s+20\d{2}(?:\s*&\s*20\d{2})?$/,
+      "",
+    );
+    const baseTitle = `${yearAgnosticTitle} ${year}`;
     const baseDescription =
       pageContent?.intro ??
       (port.metaDescription?.includes("2026 and 2027") && year
