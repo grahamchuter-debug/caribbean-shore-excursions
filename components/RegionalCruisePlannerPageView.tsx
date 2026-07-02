@@ -57,7 +57,7 @@ export function RegionalCruisePlannerPageView({ planner }: { planner: RegionalCr
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(planner.faqs),
+          ...(planner.faqs?.length ? [faqSchema(planner.faqs)] : []),
           travelGuideSchema({
             title: planner.seoTitle,
             description: planner.metaDescription,

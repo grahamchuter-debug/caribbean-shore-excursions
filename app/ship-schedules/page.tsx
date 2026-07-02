@@ -50,7 +50,7 @@ export default function ShipSchedulesPage() {
               `Year-first cruise ship schedule hub for verified 2026 and 2027 Caribbean port schedules across ${SCHEDULE_PORT_COUNT} top ports.`,
             path: "/ship-schedules",
           }),
-          faqSchema(homeContent.faqs),
+          ...(homeContent.faqs?.length ? [faqSchema(homeContent.faqs)] : []),
         ]}
       />
       <PageHero

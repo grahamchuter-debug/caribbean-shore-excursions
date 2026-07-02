@@ -34,6 +34,8 @@ export default function ShipSchedules2027Page() {
     { name: "2027 Schedules", path: yearHubPath(YEAR) },
   ];
 
+  const yearHubFaqs = getScheduleYearHubFaqs(YEAR);
+
   return (
     <>
       <JsonLd
@@ -44,7 +46,7 @@ export default function ShipSchedules2027Page() {
             description: content.metaDescription,
             path: yearHubPath(YEAR),
           }),
-          faqSchema(getScheduleYearHubFaqs(YEAR)),
+          ...(yearHubFaqs?.length ? [faqSchema(yearHubFaqs)] : []),
         ]}
       />
       <PageHero

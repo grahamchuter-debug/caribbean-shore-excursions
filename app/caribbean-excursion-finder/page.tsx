@@ -38,7 +38,7 @@ export default function CaribbeanExcursionFinderPage() {
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(finderFaqs),
+          ...(finderFaqs?.length ? [faqSchema(finderFaqs)] : []),
           travelGuideSchema({
             title: "Caribbean Excursion Finder",
             description:

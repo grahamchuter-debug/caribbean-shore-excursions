@@ -151,7 +151,7 @@ export default async function ShipSchedulePeriodPage({
               description: getMonthlyMetaDescription(port.name, monthKey, entries.length),
               path: portMonthPath(slug, monthKey),
             }),
-            faqSchema(faqs),
+            ...(faqs?.length ? [faqSchema(faqs)] : []),
           ]}
         />
         <PageHero title={title} subtitle={monthSubtitle} compact />

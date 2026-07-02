@@ -53,7 +53,7 @@ export function ItineraryPlannerPageView({ planner }: { planner: ItineraryPlanne
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(planner.faqs),
+          ...(planner.faqs?.length ? [faqSchema(planner.faqs)] : []),
           travelGuideSchema({
             title: planner.seoTitle,
             description: planner.metaDescription,

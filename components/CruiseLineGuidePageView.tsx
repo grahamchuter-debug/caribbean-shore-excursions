@@ -23,7 +23,7 @@ export function CruiseLineGuidePageView({ line }: { line: CruiseLine }) {
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(line.faqs),
+          ...(line.faqs?.length ? [faqSchema(line.faqs)] : []),
           travelGuideSchema({
             title: line.seoTitle,
             description: line.metaDescription,

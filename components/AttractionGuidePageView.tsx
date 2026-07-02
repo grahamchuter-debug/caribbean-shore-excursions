@@ -22,7 +22,7 @@ export function AttractionGuidePageView({ guide }: { guide: AttractionGuidePage 
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(guide.faqs),
+          ...(guide.faqs?.length ? [faqSchema(guide.faqs)] : []),
           travelGuideSchema({
             title: guide.seoTitle,
             description: guide.metaDescription,

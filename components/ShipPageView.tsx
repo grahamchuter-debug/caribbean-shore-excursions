@@ -74,7 +74,7 @@ export function ShipPageView({ ship }: { ship: CruiseShip }) {
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(ship.faqs),
+          ...(ship.faqs?.length ? [faqSchema(ship.faqs)] : []),
           travelGuideSchema({
             title: ship.seoTitle,
             description: ship.metaDescription,

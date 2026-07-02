@@ -55,7 +55,7 @@ export default function CruisePlannerPage() {
             { name: "Home", path: "/" },
             { name: "Cruise Planner", path: "/cruise-planner" },
           ]),
-          faqSchema(plannerFaqs),
+          ...(plannerFaqs?.length ? [faqSchema(plannerFaqs)] : []),
           travelGuideSchema({
             title: "Caribbean Cruise Planner",
             description: "Plan your Caribbean cruise itinerary with port guides and excursion recommendations.",

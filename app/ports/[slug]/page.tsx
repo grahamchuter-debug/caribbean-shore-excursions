@@ -76,7 +76,7 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(port.faqs),
+          ...(port.faqs?.length ? [faqSchema(port.faqs)] : []),
           travelGuideSchema({
             title: pageTitle,
             description: pageDescription,

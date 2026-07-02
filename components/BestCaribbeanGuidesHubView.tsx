@@ -43,7 +43,7 @@ export function BestCaribbeanGuidesHubView() {
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(hubFaqs),
+          ...(hubFaqs?.length ? [faqSchema(hubFaqs)] : []),
           travelGuideSchema({
             title: bestCaribbeanGuidesHub.seoTitle,
             description: bestCaribbeanGuidesHub.metaDescription,

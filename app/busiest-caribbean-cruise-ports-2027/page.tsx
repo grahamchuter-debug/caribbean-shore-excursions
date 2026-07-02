@@ -54,7 +54,7 @@ export default function BusiestCaribbeanCruisePorts2027Page() {
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(busiestPorts2027Insights.faqs),
+          ...(busiestPorts2027Insights.faqs?.length ? [faqSchema(busiestPorts2027Insights.faqs)] : []),
           travelGuideSchema({
             title: "Busiest Caribbean Cruise Ports 2027",
             description: busiestPorts2027Insights.intro,

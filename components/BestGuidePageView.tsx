@@ -42,7 +42,7 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(guide.faqs),
+          ...(guide.faqs?.length ? [faqSchema(guide.faqs)] : []),
           travelGuideSchema({
             title: guide.seoTitle,
             description: guide.metaDescription,

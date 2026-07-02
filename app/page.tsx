@@ -71,7 +71,7 @@ export default function HomePage() {
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(homepageFaqs),
+          ...(homepageFaqs?.length ? [faqSchema(homepageFaqs)] : []),
           travelGuideSchema({
             title: "Caribbean Shore Excursion Planner",
             description:

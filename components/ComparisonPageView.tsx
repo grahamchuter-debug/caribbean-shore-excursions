@@ -50,7 +50,7 @@ export function ComparisonPageView({ comp }: { comp: Comparison }) {
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(comp.faqs),
+          ...(comp.faqs?.length ? [faqSchema(comp.faqs)] : []),
           travelGuideSchema({
             title: comp.seoTitle,
             description: comp.metaDescription,

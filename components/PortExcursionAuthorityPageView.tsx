@@ -98,7 +98,7 @@ export function PortExcursionAuthorityPageView({ page }: { page: PortExcursionAu
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(page.faqs),
+          ...(page.faqs?.length ? [faqSchema(page.faqs)] : []),
           travelGuideSchema({
             title: page.seoTitle,
             description: page.metaDescription,

@@ -43,7 +43,7 @@ export default async function ExcursionTypePage({
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(type.faqs),
+          ...(type.faqs?.length ? [faqSchema(type.faqs)] : []),
           travelGuideSchema({
             title: `${type.name} in the Caribbean`,
             description: type.overview,

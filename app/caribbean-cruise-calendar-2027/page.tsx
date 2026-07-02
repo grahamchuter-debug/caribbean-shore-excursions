@@ -44,7 +44,7 @@ export default function CaribbeanCruiseCalendar2027Page() {
       <JsonLd
         data={[
           breadcrumbSchema(breadcrumbs),
-          faqSchema(calendar2027Insights.faqs),
+          ...(calendar2027Insights.faqs?.length ? [faqSchema(calendar2027Insights.faqs)] : []),
           travelGuideSchema({
             title: "Caribbean Cruise Calendar 2027",
             description: calendar2027Insights.intro,
