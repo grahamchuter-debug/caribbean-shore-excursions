@@ -473,7 +473,7 @@ export function getAverageTimeInPort(slug: string): string | null {
 
   const avg = hours.reduce((sum, h) => sum + h, 0) / hours.length;
   const rounded = Math.round(avg * 10) / 10;
-  return `~${rounded}h average (verified calls)`;
+  return `~${rounded}h average (published calls)`;
 }
 
 export function getPortPlanningSnapshot(slug: string): PortPlanningSnapshot | null {
@@ -624,7 +624,7 @@ const portActivityEstimates: Record<string, PortActivityEstimate> = {
     activityTier: "Moderate",
     peakSeason: "January – March",
     planningNote:
-      "Verified calls cluster in Q1. Book first-slot Dunn's River Falls climbs on busy schedule weeks.",
+      "Published calls cluster in Q1. Book first-slot Dunn's River Falls climbs on busy schedule weeks.",
   },
   curacao: {
     activityTier: "High",

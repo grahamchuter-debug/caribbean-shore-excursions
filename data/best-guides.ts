@@ -630,15 +630,15 @@ export const bestGuides: BestGuidePage[] = [
     seoTitle: "Best Caribbean Cruise Ports In 2027 | Schedule & Planning Rankings",
     title: "Best Caribbean Cruise Ports In 2027",
     metaDescription:
-      "Best Caribbean cruise ports in 2027 ranked by verified ship calls, passenger volume, excursion quality, and planning resources. St. Thomas, Cozumel, Nassau, Aruba, and more.",
+      "Best Caribbean cruise ports in 2027 ranked by published ship calls, passenger volume, excursion quality, and planning resources. St. Thomas, Cozumel, Nassau, Aruba, and more.",
     heroSubtitle:
-      "Where the ships are going in 2027 — ranked ports with authority guides, comparisons, and schedule hubs as verified data expands.",
+      "Where the ships are going in 2027 — ranked ports with authority guides, comparisons, and schedule hubs as published data expands.",
     introduction:
-      "The best Caribbean cruise ports in 2027 combine heavy ship traffic (more sailing options and competitive excursion pricing) with strong shore-day experiences. St. Thomas leads verified 2027 call volume in our dataset, while Cozumel, Nassau, Aruba, and Grand Cayman remain essential Western and Eastern Caribbean hubs regardless of year.",
+      "The best Caribbean cruise ports in 2027 combine heavy ship traffic (more sailing options and competitive excursion pricing) with strong shore-day experiences. St. Thomas leads published 2027 call volume in our dataset, while Cozumel, Nassau, Aruba, and Grand Cayman remain essential Western and Eastern Caribbean hubs regardless of year.",
     introductionDetail:
-      "This guide ranks ports for 2027 cruise planning using verified schedule imports where available, authority port quality scores, and excursion depth from our port guides. Rankings will expand as more ports complete schedule imports — see our busiest ports and 2027 calendar pages for live analytics.",
+      "This guide ranks ports for 2027 cruise planning using published schedule data where available, authority port quality scores, and excursion depth from our port guides. Rankings will expand as more ports complete schedule imports — see our busiest ports and 2027 calendar pages for live analytics.",
     topPorts: [
-      { slug: "st-thomas", reason: "Highest verified 2027 ship call volume in our dataset. Magens Bay, St. John access, and dense Eastern Caribbean itinerary coverage make it the planning anchor for 2027." },
+      { slug: "st-thomas", reason: "Highest published 2027 ship call volume in our dataset. Magens Bay, St. John access, and dense Eastern Caribbean itinerary coverage make it the planning anchor for 2027." },
       { slug: "cozumel", reason: "Perennial Western Caribbean #1 by industry traffic. Essential for reef snorkel, El Cielo sails, and Mayan combos on 2027 seven-night loops from Texas and Florida." },
       { slug: "nassau", reason: "Bahamas hub with Perfect Day overlap on many 2027 itineraries. Atlantis and downtown Nassau suit short calls and family-heavy sailings." },
       { slug: "aruba", reason: "Southern Caribbean reliability outside the hurricane belt — strong for winter 2027 sailings when Eastern routes need weather backup options." },
@@ -662,17 +662,17 @@ export const bestGuides: BestGuidePage[] = [
       { portSlug: "roatan", portName: "Roatán", bestFor: "Reef value", bestExcursion: "West Bay Snorkel", transferTime: "25 min boat", rating: "4.8" },
     ],
     passengerRecommendations: [
-      { title: "Check 2027 ship schedules before finalizing excursions", advice: "Use our St. Thomas and Ocho Rios verified 2027 monthly pages today; other hubs update as imports complete. Multi-ship days should drive your booking timeline." },
+      { title: "Check 2027 ship schedules before finalizing excursions", advice: "Use our St. Thomas and Ocho Rios published 2027 monthly pages today; other hubs update as imports complete. Multi-ship days should drive your booking timeline." },
       { title: "Use the 2027 calendar for peak months", advice: "Our Caribbean cruise calendar shows when call volume spikes — book signature tours earlier for March, November, and holiday weeks." },
       { title: "Compare Western vs Eastern 2027 itineraries", advice: "Cozumel-heavy Western loops suit reef and adventure passengers; St. Thomas and St. Maarten anchor classic Eastern Caribbean weeks." },
       { title: "Watch for new ship deployments", advice: "Icon-class and MSC World America sailings shift 2027 port mixes — check your specific ship guide for common port lists." },
-      { title: "Link busiest-port data to your sailing", advice: "See our busiest Caribbean cruise ports 2027 page for verified rankings and passenger estimates as the dataset grows." },
+      { title: "Link busiest-port data to your sailing", advice: "See our busiest Caribbean cruise ports 2027 page for published rankings and passenger estimates as the dataset grows." },
     ],
     faqs: [
-      { question: "What are the best Caribbean cruise ports in 2027?", answer: "St. Thomas, Cozumel, Nassau, Aruba, Grand Cayman, and Roatán lead for excursion depth and itinerary frequency. Verified 2027 rankings prioritize ports with imported schedule data." },
-      { question: "How do you rank 2027 Caribbean ports?", answer: "We combine verified ship call counts where available, authority port excursion quality, pier logistics, and specialist operator coverage — not marketing lists from cruise lines." },
-      { question: "Where can I see 2027 ship schedules?", answer: "Start at our 2027 Caribbean schedules hub and drill into port-year pages. St. Thomas has the most complete verified 2027 monthly data today." },
-      { question: "Will rankings change as more ports import schedules?", answer: "Yes. This guide and our busiest ports analytics expand as Cozumel, Nassau, and other hubs complete verified imports." },
+      { question: "What are the best Caribbean cruise ports in 2027?", answer: "St. Thomas, Cozumel, Nassau, Aruba, Grand Cayman, and Roatán lead for excursion depth and itinerary frequency. Published 2027 rankings prioritize ports with compiled schedule data." },
+      { question: "How do you rank 2027 Caribbean ports?", answer: "We combine published ship call counts where available, authority port excursion quality, pier logistics, and specialist operator coverage — not marketing lists from cruise lines." },
+      { question: "Where can I see 2027 ship schedules?", answer: "Start at our 2027 Caribbean schedules hub and drill into port-year pages. St. Thomas has the most complete published 2027 monthly data today." },
+      { question: "Will rankings change as more ports import schedules?", answer: "Yes. This guide and our busiest ports analytics expand as Cozumel, Nassau, and other hubs complete schedule imports." },
       { question: "Best 2027 port for first-time cruisers?", answer: "St. Thomas and Cozumel remain the top 2027 picks for easy logistics and excursion variety. See our first-time cruiser guide for detailed port-by-port advice." },
     ],
   },

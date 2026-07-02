@@ -37,6 +37,7 @@ const explore = [
 ];
 
 const legalLinks = [
+  { href: "/methodology", label: "Methodology" },
   { href: "/privacy", label: "Privacy Policy" },
   { href: "/terms", label: "Terms" },
   { href: "/contact", label: "Contact" },
@@ -151,6 +152,15 @@ export function Footer() {
           <p className="mx-auto max-w-2xl text-center text-xs leading-relaxed text-caribbean-200/75 sm:text-left">
             Your independent guide to Caribbean port days. Always confirm ship times before booking
             shore excursions.
+          </p>
+          <p className="mx-auto mt-2 max-w-2xl text-center text-[11px] leading-relaxed text-caribbean-300/60 sm:text-left">
+            We may have a commercial relationship with the local operators we link to. Recommendations
+            are based on suitability for cruise passengers — port logistics, return-to-ship timing, and
+            experience quality — not commission.{" "}
+            <Link href="/methodology" className="underline transition-colors hover:text-white/90">
+              See our methodology
+            </Link>
+            .
           </p>
         </div>
       </div>

@@ -216,7 +216,7 @@ export function ShipSchedulePageView({
             <Link href="/busiest-caribbean-cruise-ports-2027" className="card-gradient group flex h-full flex-col hover:border-caribbean-300">
               <h3 className="font-semibold text-gray-900">Busiest Caribbean Cruise Ports 2027</h3>
               <p className="mt-2 text-sm text-gray-600">
-                Compare verified call volumes and passenger estimates across top ports.
+                Compare published call volumes and passenger estimates across top ports.
               </p>
               <NavCardCta className="pt-4">View busiest ports ranking</NavCardCta>
             </Link>

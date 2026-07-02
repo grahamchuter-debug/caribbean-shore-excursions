@@ -23,7 +23,7 @@ const homeContent = getSchedulePageContent("home");
 export const metadata = buildMetadata({
   title: "Caribbean Cruise Ship Schedules 2026 & 2027",
   description:
-    `Caribbean cruise ship schedule and port schedule hub for ${SCHEDULE_PORT_COUNT} top ports. Browse verified 2026 and 2027 arrival and departure times for Cozumel, Nassau, St. Thomas, Aruba, Grand Cayman, and more.`,
+    `Caribbean cruise ship schedule and port schedule hub for ${SCHEDULE_PORT_COUNT} top ports. Browse published 2026 and 2027 arrival and departure times for Cozumel, Nassau, St. Thomas, Aruba, Grand Cayman, and more.`,
   path: "/ship-schedules",
   keywords: [
     "cruise ship schedule",
@@ -47,7 +47,7 @@ export default function ShipSchedulesPage() {
           webPageSchema({
             title: "Caribbean Cruise Ship Schedules",
             description:
-              `Year-first cruise ship schedule hub for verified 2026 and 2027 Caribbean port schedules across ${SCHEDULE_PORT_COUNT} top ports.`,
+              `Year-first cruise ship schedule hub for published 2026 and 2027 Caribbean port schedules across ${SCHEDULE_PORT_COUNT} top ports.`,
             path: "/ship-schedules",
           }),
           ...(homeContent.faqs?.length ? [faqSchema(homeContent.faqs)] : []),
@@ -55,7 +55,7 @@ export default function ShipSchedulesPage() {
       />
       <PageHero
         title="Caribbean Cruise Ship Schedules"
-        subtitle={homeContent.heroSubtitle ?? "Browse verified cruise ship and port schedules for 2026 and 2027."}
+        subtitle={homeContent.heroSubtitle ?? "Browse published cruise ship and port schedules for 2026 and 2027."}
       />
       <section className="section-padding">
         <div className="container-wide">
@@ -81,7 +81,7 @@ export default function ShipSchedulesPage() {
               <Link href="/busiest-caribbean-cruise-ports-2027" className="card-gradient group flex h-full flex-col hover:border-caribbean-300">
                 <h3 className="font-display text-lg font-bold text-gray-900">Busiest Caribbean Cruise Ports 2027</h3>
                 <p className="mt-2 text-sm text-gray-600">
-                  Verified ship call rankings, passenger estimates, and planning insights.
+                  Published ship call rankings, passenger estimates, and planning insights.
                 </p>
                 <NavCardCta className="pt-4">View busiest ports ranking</NavCardCta>
               </Link>

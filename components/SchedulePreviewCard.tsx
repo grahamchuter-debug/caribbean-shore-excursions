@@ -23,7 +23,7 @@ export function SchedulePreviewCard({ port }: { port: ShipSchedulePort }) {
       <p className="mt-3 text-sm text-gray-600 line-clamp-2">{port.description}</p>
       <p className="mt-3 text-xs text-gray-500">
         {count2026 + count2027 > 0
-          ? `${count2026 + count2027} verified ship call${count2026 + count2027 !== 1 ? "s" : ""} listed`
+          ? `${count2026 + count2027} published ship call${count2026 + count2027 !== 1 ? "s" : ""} listed`
           : "2026 and 2027 schedules, import in progress"}
       </p>
       <NavCardCta className="pt-4">View {port.name} schedule</NavCardCta>

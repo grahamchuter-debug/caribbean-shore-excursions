@@ -33,17 +33,18 @@ export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
       />
 
       <section className="mb-12">
-        <h2 className="section-title text-2xl sm:text-3xl mb-4">Verified {year} Import Status</h2>
+        <h2 className="section-title text-2xl sm:text-3xl mb-4">{year} Schedule Status</h2>
         <p className="text-gray-700 leading-relaxed text-lg max-w-3xl">{content.intro}</p>
         <p className="mt-4 text-sm text-gray-500 max-w-3xl">
-          Months awaiting verified data display &quot;Schedule data being updated&quot;. We do not
-          publish unverified ship calls, cruise lines, or passenger capacities.
+          Months still being processed display &quot;Schedule data being updated&quot;. We do not
+          publish ship calls, cruise lines, or passenger capacities we have not yet compiled from
+          published schedules.
         </p>
       </section>
 
       {schedulePorts.some((port) => getVerifiedMonthKeysForPortYear(port.slug, year).length > 0) && (
         <section className="mb-12 rounded-xl border border-caribbean-200 bg-caribbean-50/40 p-6">
-          <h2 className="section-title text-2xl sm:text-3xl mb-2">Monthly Schedules with Verified Data</h2>
+          <h2 className="section-title text-2xl sm:text-3xl mb-2">Monthly Schedules Available</h2>
           <p className="text-sm text-gray-600 mb-6">
             Dedicated monthly pages are available where imported schedule data exists. Open a month to
             see ship calls, arrival and departure times, and planning tips for that period.
@@ -93,7 +94,7 @@ export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
                   <th className="px-4 py-3 text-left font-semibold text-gray-900">Rank</th>
                   <th className="px-4 py-3 text-left font-semibold text-gray-900">Port</th>
                   <th className="px-4 py-3 text-left font-semibold text-gray-900">Region</th>
-                  <th className="px-4 py-3 text-left font-semibold text-gray-900">Verified calls</th>
+                  <th className="px-4 py-3 text-left font-semibold text-gray-900">Published calls</th>
                   <th className="px-4 py-3 text-left font-semibold text-gray-900">Schedule</th>
                 </tr>
               </thead>
@@ -143,7 +144,7 @@ export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
                   <p className="mt-3 text-sm text-gray-600 line-clamp-2">{port.description}</p>
                   <p className="mt-3 text-sm text-gray-600">
                     {shipCalls > 0
-                      ? `${shipCalls} verified ship call${shipCalls !== 1 ? "s" : ""}`
+                      ? `${shipCalls} published ship call${shipCalls !== 1 ? "s" : ""}`
                       : "Import in progress"}
                   </p>
                   <NavCardCta className="pt-4">View {port.name} {year} schedule</NavCardCta>
@@ -170,7 +171,7 @@ export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
             <Link href="/ship-schedules/2027" className="font-medium text-caribbean-700 hover:text-caribbean-800">
               2027 Caribbean cruise ship schedule hub
             </Link>{" "}
-            to see verified call volumes — Nassau and Cozumel lead 2027 ship calls — or jump to a
+            to see published call volumes — Nassau and Cozumel lead 2027 ship calls — or jump to a
             port&apos;s 2027 table from any card below.
           </p>
         </section>
@@ -183,7 +184,7 @@ export function ShipScheduleMasterYearHub({ year }: { year: ScheduleYear }) {
             <Link href="/busiest-caribbean-cruise-ports-2027" className="card-gradient group flex h-full flex-col hover:border-caribbean-300">
               <h3 className="font-semibold text-gray-900">Busiest Caribbean Cruise Ports 2027</h3>
               <p className="mt-2 text-sm text-gray-600">
-                Verified rankings, passenger estimates, and multi-port planning insights.
+                Published rankings, passenger estimates, and multi-port planning insights.
               </p>
               <NavCardCta className="pt-4">View busiest ports ranking</NavCardCta>
             </Link>

@@ -25,7 +25,7 @@ export function ScheduleTable({
           Schedule data being updated for {portName ?? "this port"}.
         </p>
         <p className="mt-2 text-sm text-gray-600">
-          Verified 2026 ship calls will appear here once imported. Confirm times with your cruise line
+          Published 2026 ship calls will appear here once compiled. Confirm times with your cruise line
           before booking excursions.
         </p>
       </div>
@@ -88,7 +88,7 @@ export function ScheduleTable({
       </table>
       <p className="bg-gray-50 px-4 py-2 text-xs text-gray-500 border-t border-gray-200">
         {entries.some((e) => e.isPlaceholder)
-          ? "Placeholder rows indicate months awaiting verified schedule import. Arrival and departure times are subject to change."
+          ? "Placeholder rows indicate months still being compiled from published schedules. Arrival and departure times are subject to change."
           : `${shipCount} ship${shipCount !== 1 ? "s" : ""} scheduled. Arrivals and departures are subject to change by cruise lines and port authorities.`}
       </p>
     </div>

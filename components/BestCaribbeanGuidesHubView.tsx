@@ -27,7 +27,7 @@ const hubFaqs = [
   {
     question: "Do these guides link to ship schedules?",
     answer:
-      "Yes. Where we track a port's schedule hub, guides link to yearly and monthly pages. Verified 2027 data is strongest for St. Thomas and Ocho Rios today.",
+      "Yes. Where we track a port's schedule hub, guides link to yearly and monthly pages. Published 2027 data is most complete for St. Thomas and Ocho Rios today.",
   },
 ];
 

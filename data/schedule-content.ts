@@ -32,6 +32,6 @@ export const SCHEDULE_FAQS: FAQ[] = [
   {
     question: "Are cruise ship schedules always accurate?",
     answer:
-      "Published schedules are planning guides, not guarantees. We update this page as verified data becomes available and mark months still being imported as 'Schedule data being updated'. Confirm final times with your cruise line before disembarking.",
+      "Published schedules are planning guides, not guarantees. We update this page as published data becomes available and mark months still being compiled as 'Schedule data being updated'. Confirm final times with your cruise line before disembarking.",
   },
 ];

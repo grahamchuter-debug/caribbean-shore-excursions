@@ -25,7 +25,7 @@ export function ScheduleMonthLinkGrid({
         {portName} Monthly Schedules for {year}
       </h2>
       <p className="text-sm text-gray-600 mb-5">
-        Open a dedicated monthly page with verified ship calls, arrival and departure times, and
+        Open a dedicated monthly page with published ship calls, arrival and departure times, and
         planning tips for that month.
       </p>
       <div className="flex flex-wrap gap-2">

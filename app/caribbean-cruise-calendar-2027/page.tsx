@@ -75,9 +75,9 @@ export default function CaribbeanCruiseCalendar2027Page() {
 
           {monthlyTotals.length > 0 && (
             <section className="mb-12">
-              <h2 className="section-title text-2xl sm:text-3xl mb-4">Peak Cruise Months (Verified Data)</h2>
+              <h2 className="section-title text-2xl sm:text-3xl mb-4">Peak Cruise Months (Published Data)</h2>
               <p className="text-sm text-gray-600 mb-6">
-                Combined verified ship calls across imported 2027 schedules. Totals will expand as more port imports are added.
+                Combined published ship calls across compiled 2027 schedules. Totals will expand as more port schedules are added.
               </p>
               <div className="space-y-3">
                 {monthlyTotals.map((month) => (

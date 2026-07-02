@@ -56,7 +56,9 @@ export function travelGuideSchema({
       name: SITE.name,
       url: SITE.url,
     },
-    dateModified: dateModified ?? new Date().toISOString().split("T")[0],
+    // Only emit dateModified when a real edit date is supplied. Stamping the
+    // build date on every render misrepresents freshness, so omit it otherwise.
+    ...(dateModified ? { dateModified } : {}),
     inLanguage: "en-US",
     about: {
       "@type": "Place",

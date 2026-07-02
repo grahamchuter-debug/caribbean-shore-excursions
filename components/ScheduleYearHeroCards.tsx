@@ -29,7 +29,7 @@ export function ScheduleYearHeroCards() {
             <p className="mt-3 text-lg text-caribbean-50">{content.heroSubtitle}</p>
             <p className="mt-4 text-sm text-caribbean-100">
               {verifiedCount > 0
-                ? `${totalCalls.toLocaleString()} verified ship calls across ${verifiedCount} port${verifiedCount !== 1 ? "s" : ""}`
+                ? `${totalCalls.toLocaleString()} published ship calls across ${verifiedCount} port${verifiedCount !== 1 ? "s" : ""}`
                 : `${getSchedulePortCount()} ports tracked, imports rolling out by month`}
             </p>
             <span className="mt-6 inline-flex items-center rounded-lg bg-white px-5 py-2.5 text-sm font-semibold text-caribbean-800 group-hover:bg-caribbean-50">

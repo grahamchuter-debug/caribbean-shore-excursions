@@ -43,13 +43,13 @@ export const schedulePorts: ShipSchedulePort[] = [
     country: "U.S. Virgin Islands",
     seoTitle: "St. Thomas Cruise Ship Schedule 2027",
     metaDescription:
-      "Check the 2027 St. Thomas cruise ship schedule, verified arrival and departure times at Havensight and Crown Bay to plan shore excursions around your port day.",
+      "Check the 2027 St. Thomas cruise ship schedule, published arrival and departure times at Havensight and Crown Bay to plan shore excursions around your port day.",
     intro:
       "This page helps cruise passengers see which ships are scheduled at St. Thomas and plan shore excursions around published arrival and departure times. St. Thomas is one of the Caribbean's busiest ports, so knowing how many vessels are in port can help you avoid crowded beaches and sold-out tours.",
     description:
       "Eastern Caribbean hub with Havensight and Crown Bay terminals serving year-round cruise traffic.",
     scheduleOverview:
-      "St. Thomas regularly hosts multiple ships per day at Havensight and Crown Bay. This page lists verified 2027 ship calls. Use the monthly tables to spot busy days before booking Magens Bay, St. John ferry trips, or catamaran snorkel sails.",
+      "St. Thomas regularly hosts multiple ships per day at Havensight and Crown Bay. This page lists published 2027 ship calls. Use the monthly tables to spot busy days before booking Magens Bay, St. John ferry trips, or catamaran snorkel sails.",
     relatedPortSlugs: ["st-maarten", "nassau", "puerto-plata"],
     excursionTypeSlugs: ["beaches", "snorkeling", "catamaran-cruises", "private-tours"],
     planningTips: [...SCHEDULE_PLANNING_TIPS],
@@ -61,7 +61,7 @@ export const schedulePorts: ShipSchedulePort[] = [
     country: "Mexico",
     seoTitle: "Cozumel Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "Cozumel cruise ship schedule for 2026 and 2027 with verified arrival and departure times at Punta Langosta, International Pier, and Puerta Maya. Plan reef snorkel, beach clubs, and Tulum tours around your port window.",
+      "Cozumel cruise ship schedule for 2026 and 2027 with published arrival and departure times at Punta Langosta, International Pier, and Puerta Maya. Plan reef snorkel, beach clubs, and Tulum tours around your port window.",
     intro:
       "Use this Cozumel cruise ship schedule to check which vessels are due in port and how long they stay before you book reef snorkel tours, beach clubs, or mainland Tulum excursions. Cozumel often hosts several ships daily during peak weeks — compare 2026 and 2027 sail dates if your itinerary spans seasons.",
     description:
@@ -119,7 +119,7 @@ export const schedulePorts: ShipSchedulePort[] = [
     country: "Bahamas",
     seoTitle: "Nassau Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "Nassau cruise ship schedule for 2026 and 2027 with verified Prince George Wharf arrivals and departures. Plan Atlantis, snorkel, and downtown excursions around your port window.",
+      "Nassau cruise ship schedule for 2026 and 2027 with published Prince George Wharf arrivals and departures. Plan Atlantis, snorkel, and downtown excursions around your port window.",
     intro:
       "Check which cruise ships are scheduled at Nassau's Prince George Wharf and their arrival and departure times before you book Atlantis Aquaventure, snorkel tours, or downtown walking excursions. Nassau is the Caribbean's busiest schedule port — use monthly tables to avoid peak multi-ship days.",
     description:
@@ -137,7 +137,7 @@ export const schedulePorts: ShipSchedulePort[] = [
     country: "Honduras",
     seoTitle: "Roatán Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "Roatán cruise ship schedule for 2026 and 2027 with verified Mahogany Bay and Coxen Hole arrivals and departures. Plan reef snorkel and West Bay Beach excursions around your port window.",
+      "Roatán cruise ship schedule for 2026 and 2027 with published Mahogany Bay and Coxen Hole arrivals and departures. Plan reef snorkel and West Bay Beach excursions around your port window.",
     intro:
       "This Roatán schedule helps you see which ships are due at Mahogany Bay or Coxen Hole and plan reef snorkel, beach, and zip-line excursions around your published port times. Compare 2026 and 2027 monthly tables when choosing between sail dates.",
     description:
@@ -155,7 +155,7 @@ export const schedulePorts: ShipSchedulePort[] = [
     country: "Sint Maarten / Saint Martin",
     seoTitle: "St. Maarten Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "St. Maarten and SXM cruise ship schedule for 2026 and 2027 with verified Philipsburg arrivals at the Dr. A.C. Wathey terminal. Plan Maho Beach, Orient Bay, and Sint Maarten dual-nation tours around your ship times.",
+      "St. Maarten and SXM cruise ship schedule for 2026 and 2027 with published Philipsburg arrivals at the Dr. A.C. Wathey terminal. Plan Maho Beach, Orient Bay, and Sint Maarten dual-nation tours around your ship times.",
     intro:
       "Use this St. Maarten cruise ship schedule — often searched as SXM or Sint Maarten — to check which vessels are expected at the Dr. A.C. Wathey Cruise Facility in Philipsburg and plan Maho Beach, Orient Bay, and French-side excursions around arrival and departure times.",
     description:
@@ -173,7 +173,7 @@ export const schedulePorts: ShipSchedulePort[] = [
     country: "Dominican Republic",
     seoTitle: "Puerto Plata Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "Puerto Plata cruise ship schedule for 2026 and 2027 with verified Amber Cove and Taíno Bay arrivals and departures. Plan waterfall and cable car shore excursions around your port window.",
+      "Puerto Plata cruise ship schedule for 2026 and 2027 with published Amber Cove and Taíno Bay arrivals and departures. Plan waterfall and cable car shore excursions around your port window.",
     intro:
       "This Puerto Plata schedule covers ships calling at Amber Cove and Taíno Bay terminals. Check arrival and departure times before booking Teleférico cable car rides, 27 Waterfalls adventures, or colonial city tours. Both 2026 and 2027 monthly tables are available.",
     description:
@@ -191,7 +191,7 @@ export const schedulePorts: ShipSchedulePort[] = [
     country: "Mexico",
     seoTitle: "Costa Maya Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "Costa Maya cruise ship schedule for 2026 and 2027 with verified Mahahual cruise village arrivals and departures. Plan Mayan ruin and beach club excursions around your port window.",
+      "Costa Maya cruise ship schedule for 2026 and 2027 with published Mahahual cruise village arrivals and departures. Plan Mayan ruin and beach club excursions around your port window.",
     intro:
       "Check which cruise ships are scheduled at Costa Maya's purpose-built cruise village and plan Chacchoben ruins, Mahahual beach clubs, and snorkel tours around published arrival and departure times. Compare 2026 and 2027 sailings when booking ruin tours that need coach time.",
     description:
@@ -209,13 +209,13 @@ export const schedulePorts: ShipSchedulePort[] = [
     country: "Jamaica",
     seoTitle: "Ocho Rios Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "Ocho Rios cruise ship schedule with verified arrival and departure times for 2026 and 2027. Plan Dunn's River Falls and rainforest excursions around your port day.",
+      "Ocho Rios cruise ship schedule with published arrival and departure times for 2026 and 2027. Plan Dunn's River Falls and rainforest excursions around your port day.",
     intro:
       "This Ocho Rios cruise ship schedule shows which vessels are due in port and their published times, helping you plan Dunn's River Falls climbs, Mystic Mountain adventures, and private north-coast tours with safe return buffers.",
     description:
       "Jamaica north-coast adventure port for waterfall and rainforest excursions.",
     scheduleOverview:
-      "Ocho Rios receives Western Caribbean traffic from Carnival, Royal Caribbean, and Norwegian with variable weekly counts. This page lists verified ship calls for 2026 and 2027. Busy schedule days affect Dunn's River Falls timing, so plan early departures on multi-ship weeks.",
+      "Ocho Rios receives Western Caribbean traffic from Carnival, Royal Caribbean, and Norwegian with variable weekly counts. This page lists published ship calls for 2026 and 2027. Busy schedule days affect Dunn's River Falls timing, so plan early departures on multi-ship weeks.",
     relatedPortSlugs: ["costa-maya", "cozumel", "roatan"],
     excursionTypeSlugs: ["adventure-tours", "family-tours", "private-tours"],
     planningTips: [...SCHEDULE_PLANNING_TIPS],
@@ -227,7 +227,7 @@ export const schedulePorts: ShipSchedulePort[] = [
     country: "St. Kitts & Nevis",
     seoTitle: "St. Kitts Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "St. Kitts cruise ship schedule with verified 2026 and 2027 arrival and departure times at Basseterre. Plan Brimstone Hill, railway, and beach excursions around your port day.",
+      "St. Kitts cruise ship schedule with published 2026 and 2027 arrival and departure times at Basseterre. Plan Brimstone Hill, railway, and beach excursions around your port day.",
     intro:
       "This St. Kitts cruise ship schedule shows which vessels are expected at Basseterre and their published port times, helping you plan Brimstone Hill fortress visits, scenic railway tours, and beach excursions with safe return buffers.",
     description:
@@ -245,13 +245,13 @@ export const schedulePorts: ShipSchedulePort[] = [
     country: "British Virgin Islands",
     seoTitle: "Tortola Cruise Ship Schedule 2026 & 2027",
     metaDescription:
-      "Tortola cruise ship schedule with verified 2026 and 2027 arrival and departure times at Road Town. Plan BVI catamaran sails and Virgin Gorda trips around tender operations.",
+      "Tortola cruise ship schedule with published 2026 and 2027 arrival and departure times at Road Town. Plan BVI catamaran sails and Virgin Gorda trips around tender operations.",
     intro:
       "This Tortola cruise ship schedule shows which vessels are expected in Road Town harbor and their published port times. Ships anchor and use tenders, so check arrival and departure windows before booking catamaran sails or Virgin Gorda day trips.",
     description:
       "British Virgin Islands sailing hub with Road Town tender landings.",
     scheduleOverview:
-      "Tortola receives Eastern Caribbean traffic alongside St. Thomas and St. Maarten on many itineraries. This page lists verified ship calls for June through December 2026 and all of 2027. Multi-ship weeks affect tender queues and sailing excursion availability.",
+      "Tortola receives Eastern Caribbean traffic alongside St. Thomas and St. Maarten on many itineraries. This page lists published ship calls for June through December 2026 and all of 2027. Multi-ship weeks affect tender queues and sailing excursion availability.",
     relatedPortSlugs: ["st-thomas", "st-maarten", "nassau"],
     excursionTypeSlugs: ["catamaran-cruises", "snorkeling", "private-tours", "beaches"],
     usesTender: true,

@@ -50,6 +50,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/ships", priority: 0.8 },
     { path: "/excursion-types", priority: 0.8 },
     { path: "/about", priority: 0.8 },
+    { path: "/methodology", priority: 0.5 },
     { path: "/contact", priority: 0.8 },
     { path: "/privacy", priority: 0.3 },
     { path: "/terms", priority: 0.3 },

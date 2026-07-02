@@ -12,6 +12,7 @@ import { AuthorityHubLinks } from "@/components/AuthorityHubLinks";
 import { JsonLd } from "@/components/JsonLd";
 import { SpecialistLocalGuideSection } from "@/components/SpecialistLocalGuide";
 import { breadcrumbSchema, faqSchema, travelGuideSchema } from "@/lib/schema";
+import { AffiliateDisclosure } from "@/components/AffiliateDisclosure";
 import { ExcursionCardCTAs } from "@/components/ExcursionCardCTAs";
 import { NavCardCta } from "@/components/NavCardCta";
 
@@ -208,6 +209,7 @@ export function BestGuidePageView({ guide }: { guide: BestGuidePage }) {
 
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-6">Recommended Excursions</h2>
+            <AffiliateDisclosure className="mb-6" />
             <div className="space-y-4">
               {guide.recommendedExcursions.map((exc) => {
                 const port = getPortBySlug(exc.portSlug);

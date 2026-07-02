@@ -55,7 +55,7 @@ export function ScheduleYearLinks({
               </div>
               <p className={`mt-4 text-gray-600 ${prominent ? "text-sm" : "text-sm"}`}>
                 {shipCalls > 0
-                  ? `${shipCalls} verified ship call${shipCalls !== 1 ? "s" : ""}`
+                  ? `${shipCalls} published ship call${shipCalls !== 1 ? "s" : ""}`
                   : "Monthly schedule, import in progress"}
               </p>
               <NavCardCta className="pt-4">Open {portName} {year} schedule</NavCardCta>

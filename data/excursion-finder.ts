@@ -278,7 +278,7 @@ export const finderFaqs = [
   {
     question: "Can I check ship schedules from my plan?",
     answer:
-      "Yes. Where we publish verified schedules, each port recommendation links to the ship schedule hub so you can see multi-ship days before booking tours.",
+      "Yes. Where we publish schedules, each port recommendation links to the ship schedule hub so you can see multi-ship days before booking tours.",
   },
 ];
 

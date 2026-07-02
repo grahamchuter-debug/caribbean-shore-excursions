@@ -81,7 +81,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
     intro:
       "This is the starting point for Caribbean cruise ship and port schedules across our busiest destinations. Whether you are comparing 2026 and 2027 sailings, checking how many ships share a pier on your port day, or lining up shore excursions before you sail, open the year hub or port page that matches your itinerary and work backward from published arrival and departure times.",
     heroSubtitle:
-      "Verified Caribbean cruise ship schedules for 2026 and 2027 — compare port call volumes, plan shore excursions around arrival windows, and link through to local specialist operators.",
+      "Published Caribbean cruise ship schedules for 2026 and 2027 — compare port call volumes, plan shore excursions around arrival windows, and link through to local specialist operators.",
     whyPassengersUse: [
       "Match shore excursions to your actual in-port window before you pay deposits — reef snorkel sails, Atlantis day passes, and mainland Tulum combos all need enough time ashore.",
       "Spot busy pier days when multiple mega-ships share Nassau, Cozumel, or St. Thomas so you can book early or choose less crowded alternatives.",
@@ -123,7 +123,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         question: "Why check the schedule before booking shore excursions?",
         answer:
-          "Your in-port window determines which tours are realistic. A seven-hour Cozumel call can fit Palancar Reef snorkel; a short Nassau stop may suit downtown and Atlantis better than a flight to Exuma. Matching excursions to verified schedule times reduces missed-departure risk.",
+          "Your in-port window determines which tours are realistic. A seven-hour Cozumel call can fit Palancar Reef snorkel; a short Nassau stop may suit downtown and Atlantis better than a flight to Exuma. Matching excursions to published schedule times reduces missed-departure risk.",
       },
       {
         question: "Do busy port days affect excursion availability?",
@@ -140,12 +140,12 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         label: "2026 Caribbean Schedules",
         href: "/ship-schedules/2026",
-        description: "Master hub with verified 2026 ship calls ranked by port volume.",
+        description: "Master hub with published 2026 ship calls ranked by port volume.",
       },
       {
         label: "2027 Caribbean Schedules",
         href: "/ship-schedules/2027",
-        description: "Compare 2027 call volumes — Nassau and Cozumel lead verified imports.",
+        description: "Compare 2027 call volumes — Nassau and Cozumel lead published call counts.",
       },
       {
         label: "Cruise Planner",
@@ -172,13 +172,13 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
 
   "year-2026": {
     intro:
-      "The 2026 master hub collects verified Caribbean cruise ship schedules in one place so you can compare call volumes before you lock in shore excursions. Every listed port has a dedicated 2026 page with monthly arrival and departure tables — use the rankings below to see which terminals handle the heaviest traffic, then drill into Nassau, Cozumel, or your specific destination.",
+      "The 2026 master hub collects published Caribbean cruise ship schedules in one place so you can compare call volumes before you lock in shore excursions. Every listed port has a dedicated 2026 page with monthly arrival and departure tables — use the rankings below to see which terminals handle the heaviest traffic, then drill into Nassau, Cozumel, or your specific destination.",
     heroSubtitle:
-      "Master 2026 hub: rank Caribbean ports by verified ship calls, compare busy pier weeks, and plan shore excursions around published arrival and departure times.",
+      "Master 2026 hub: rank Caribbean ports by published ship calls, compare busy pier weeks, and plan shore excursions around published arrival and departure times.",
     whyPassengersUse: [
       "Compare how many ships call at each port across 2026 before choosing between Eastern, Western, or Southern Caribbean itineraries.",
       "Identify peak multi-ship weeks at Nassau and Cozumel when Atlantis, reef snorkel, and beach-club operators sell out earliest.",
-      "Anchor excursion bookings to verified arrival and departure windows instead of guessing from brochure itineraries.",
+      "Anchor excursion bookings to published arrival and departure windows instead of guessing from brochure itineraries.",
       "Cross-check 2026 against 2027 sail dates when your travel dates span seasons or you are deciding between back-to-back cruises.",
     ],
     planningYourDay: {
@@ -211,12 +211,12 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         question: "Which Caribbean ports have the most 2026 cruise ship calls?",
         answer:
-          "Verified import rankings on this hub update as data is added. Nassau and Cozumel typically lead call volumes. Use the top-ports table to compare your itinerary's destinations and spot congested pier days before booking excursions.",
+          "Published schedule rankings on this hub update as data is added. Nassau and Cozumel typically lead call volumes. Use the top-ports table to compare your itinerary's destinations and spot congested pier days before booking excursions.",
       },
       {
         question: "How do monthly 2026 schedule pages help excursion planning?",
         answer:
-          "Monthly pages list every verified ship call for that port and period with arrival, departure, and time-in-port columns. That lets you see whether your vessel shares the pier with two other mega-ships on the same Tuesday — critical for Nassau Atlantis and Cozumel reef departures.",
+          "Monthly pages list every published ship call for that port and period with arrival, departure, and time-in-port columns. That lets you see whether your vessel shares the pier with two other mega-ships on the same Tuesday — critical for Nassau Atlantis and Cozumel reef departures.",
       },
       {
         question: "Should I compare 2026 schedules with 2027 before booking tours?",
@@ -265,13 +265,13 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
 
   "year-2027": {
     intro:
-      "The 2027 master hub is built for passengers comparing verified ship calls across the Caribbean's busiest terminals. Nassau and Cozumel lead 2027 import volumes — use this page to rank ports by call count, jump to monthly tables, and plan shore excursions around published arrival and departure times before peak weeks fill popular operators.",
+      "The 2027 master hub is built for passengers comparing published ship calls across the Caribbean's busiest terminals. Nassau and Cozumel lead 2027 call volumes — use this page to rank ports by call count, jump to monthly tables, and plan shore excursions around published arrival and departure times before peak weeks fill popular operators.",
     heroSubtitle:
-      "Master 2027 hub: Nassau and Cozumel lead verified call volumes — compare every Caribbean port and plan excursions around published pier times.",
+      "Master 2027 hub: Nassau and Cozumel lead published call volumes — compare every Caribbean port and plan excursions around published pier times.",
     whyPassengersUse: [
       "See which 2027 ports carry the heaviest traffic so you can prioritize excursion bookings at Nassau, Cozumel, and St. Thomas.",
       "Compare arrival windows across your full 2027 itinerary before paying deposits on reef snorkel, Atlantis, or mainland Tulum tours.",
-      "Avoid planning around outdated assumptions — verified 2027 rows replace guesswork with ship names and pier times.",
+      "Avoid planning around outdated assumptions — published 2027 rows replace guesswork with ship names and pier times.",
       "Link through to port-year pages that explain dock versus tender logistics and return-to-ship buffers for each destination.",
     ],
     planningYourDay: {
@@ -304,7 +304,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         question: "Why do Nassau and Cozumel top the 2027 schedule rankings?",
         answer:
-          "Both ports anchor high-frequency Florida and Caribbean itineraries with year-round traffic. Their 2027 pages list the most verified ship calls in our import, making them essential stops for excursion planning and busy-day avoidance.",
+          "Both ports anchor high-frequency Florida and Caribbean itineraries with year-round traffic. Their 2027 pages list the most published ship calls in our dataset, making them essential stops for excursion planning and busy-day avoidance.",
       },
       {
         question: "How should I use 2027 monthly schedule pages for shore excursions?",
@@ -358,7 +358,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
 
   "nassau-2026": {
     intro:
-      "This 2026 Nassau cruise ship schedule lists verified arrivals and departures at Prince George Wharf — a downtown dock, not a tender port. Before you reserve Atlantis Aquaventure, Blue Lagoon dolphins, or a Rose Island snorkel sail, check which other vessels share your pier day; Nassau regularly hosts multiple mega-ships and popular operators book out on the busiest 2026 call dates.",
+      "This 2026 Nassau cruise ship schedule lists published arrivals and departures at Prince George Wharf — a downtown dock, not a tender port. Before you reserve Atlantis Aquaventure, Blue Lagoon dolphins, or a Rose Island snorkel sail, check which other vessels share your pier day; Nassau regularly hosts multiple mega-ships and popular operators book out on the busiest 2026 call dates.",
     whyPassengersUse: [
       "Prince George Wharf is steps from downtown Nassau, so your published 2026 arrival time directly controls how soon you can start walkable sightseeing or taxi to Paradise Island.",
       "Atlantis day passes and Exuma pig flights need long, predictable port windows — the schedule shows whether your 2026 call is long enough before you commit.",
@@ -451,7 +451,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
 
   "nassau-2027": {
     intro:
-      "Nassau leads Caribbean 2027 schedule imports by call volume, and this page shows every verified Prince George Wharf arrival and departure for the year. Ships dock downtown — no tenders — so your listed 2027 times frame how much room you have for Atlantis, snorkel sails, and Bahamian culture ashore. Scan monthly tables for days when multiple vessels share the pier before you book must-do excursions.",
+      "Nassau leads Caribbean 2027 schedule volumes by call count, and this page shows every published Prince George Wharf arrival and departure for the year. Ships dock downtown — no tenders — so your listed 2027 times frame how much room you have for Atlantis, snorkel sails, and Bahamian culture ashore. Scan monthly tables for days when multiple vessels share the pier before you book must-do excursions.",
     whyPassengersUse: [
       "2027 Nassau call counts are among the highest in the Caribbean — knowing your exact pier day helps you avoid sold-out Atlantis and catamaran departures.",
       "Docked Prince George Wharf berths mean walk-off access; your 2027 arrival column tells you when downtown exploration realistically starts.",
@@ -460,7 +460,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
     ],
     planningYourDay: {
       summary:
-        "On a 2027 Nassau port day, pick one headline experience sized to your verified in-port window, then use the walkable downtown around Prince George Wharf for shorter fills.",
+        "On a 2027 Nassau port day, pick one headline experience sized to your published in-port window, then use the walkable downtown around Prince George Wharf for shorter fills.",
       typicalActivities: [
         "Morning Atlantis or Blue Lagoon transfer when 2027 schedules show early arrival",
         "Downtown heritage walk covering Queen's Staircase and Straw Market on medium-length calls",
@@ -489,7 +489,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         question: "Why is the 2027 Nassau schedule important for excursion planning?",
         answer:
-          "Nassau handles more verified 2027 ship calls than nearly any Caribbean port. That volume drives operator sellouts and pier-area congestion. Your monthly 2027 row shows arrival, departure, and competing vessels so you can size tours realistically.",
+          "Nassau handles more published 2027 ship calls than nearly any Caribbean port. That volume drives operator sellouts and pier-area congestion. Your monthly 2027 row shows arrival, departure, and competing vessels so you can size tours realistically.",
       },
       {
         question: "Do Nassau cruise ships tender in 2027?",
@@ -544,7 +544,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
 
   "cozumel-2026": {
     intro:
-      "This 2026 Cozumel cruise ship schedule tracks verified arrivals at Punta Langosta, International Pier, and Puerta Maya — all dock berths with no passenger tenders. Cozumel often schedules three or more ships on peak 2026 days, which affects reef-boat departures, downtown congestion, and taxi times from the farthest pier. Check your month's table before booking Palancar snorkel, Chankanaab, or a mainland Tulum combo.",
+      "This 2026 Cozumel cruise ship schedule tracks published arrivals at Punta Langosta, International Pier, and Puerta Maya — all dock berths with no passenger tenders. Cozumel often schedules three or more ships on peak 2026 days, which affects reef-boat departures, downtown congestion, and taxi times from the farthest pier. Check your month's table before booking Palancar snorkel, Chankanaab, or a mainland Tulum combo.",
     whyPassengersUse: [
       "Cozumel assigns ships across three piers — your 2026 schedule row helps confirm which terminal your vessel uses so operators meet you at the right gate.",
       "Reef snorkel boats and El Cielo catamarans run on fixed morning slots tied to port arrival times; the schedule shows whether you can make first departures.",
@@ -583,7 +583,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         question: "Which Cozumel pier will my 2026 ship use?",
         answer:
-          "Cruise lines rotate among Punta Langosta (downtown), International Pier, and Puerta Maya. Our 2026 schedule lists verified calls; confirm your pier assignment on the ship before booking operators who offer pier-specific pickup.",
+          "Cruise lines rotate among Punta Langosta (downtown), International Pier, and Puerta Maya. Our 2026 schedule lists published calls; confirm your pier assignment on the ship before booking operators who offer pier-specific pickup.",
       },
       {
         question: "Does Cozumel use tender boats in 2026?",
@@ -643,7 +643,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       "2027 multi-ship Cozumel days fill reef boats and beach clubs by mid-morning — the schedule shows overlap before you sail.",
       "Three pier locations mean your 2027 arrival port affects how quickly you reach San Miguel or west-side snorkel docks.",
       "Departure times determine whether mainland Tulum is feasible or whether you should stay on-island for reef and beach clubs.",
-      "Verified 2027 rows replace brochure guesses with ship names and times independent operators need for on-time return guarantees.",
+      "Published 2027 rows replace brochure guesses with ship names and times independent operators need for on-time return guarantees.",
     ],
     planningYourDay: {
       summary:
@@ -725,23 +725,23 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         label: "All 2027 Caribbean Schedules",
         href: "/ship-schedules/2027",
-        description: "2027 master hub ranked by verified calls.",
+        description: "2027 master hub ranked by published calls.",
       },
     ],
   },
 
   "st-maarten-2026": {
     intro:
-      "This 2026 St. Maarten cruise ship schedule — also searched as SXM cruise ship schedule 2026 or Sint Maarten ship calls — lists verified arrivals and departures at the Dr. A.C. Wathey Cruise Facility in Philipsburg. Ships dock in Great Bay with no tenders, so your published 2026 times frame how much room you have for Maho Beach plane-spotting, Orient Bay beach clubs, and French-side dining before all-aboard.",
+      "This 2026 St. Maarten cruise ship schedule — also searched as SXM cruise ship schedule 2026 or Sint Maarten ship calls — lists published arrivals and departures at the Dr. A.C. Wathey Cruise Facility in Philipsburg. Ships dock in Great Bay with no tenders, so your published 2026 times frame how much room you have for Maho Beach plane-spotting, Orient Bay beach clubs, and French-side dining before all-aboard.",
     whyPassengersUse: [
       "Philipsburg is a dock port — your 2026 arrival column tells you when gangway opens for Maho Beach taxis and water taxis to Front Street shopping.",
       "Multi-ship 2026 Great Bay days crowd Maho Beach viewpoints and Orient Bay loungers; the monthly table shows competing vessels on your exact date.",
       "Dual-nation tours crossing Sint Maarten and Saint Martin need five to six hours ashore — the 2026 departure time is the hard cutoff for Grand Case lunches.",
-      "Catamaran sails and island highlights combos batch morning departures around pier arrivals — verified 2026 schedules replace brochure guesses for on-time return guarantees.",
+      "Catamaran sails and island highlights combos batch morning departures around pier arrivals — published 2026 schedules replace brochure guesses for on-time return guarantees.",
     ],
     planningYourDay: {
       summary:
-        "On a 2026 St. Maarten port day, pick one signature experience sized to your verified in-port window — Maho Beach aviation, Orient Bay swim, or a Dutch-and-French loop — then use Philipsburg's walkable waterfront for shorter fills.",
+        "On a 2026 St. Maarten port day, pick one signature experience sized to your published in-port window — Maho Beach aviation, Orient Bay swim, or a Dutch-and-French loop — then use Philipsburg's walkable waterfront for shorter fills.",
       typicalActivities: [
         "Morning Maho Beach visit for Princess Juliana aircraft approaches when 2026 arrivals are before 9:00 AM",
         "Orient Bay beach club afternoon on longer port windows across the French side",
@@ -771,7 +771,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         question: "Is the 2026 St. Maarten schedule the same as an SXM cruise ship schedule?",
         answer:
-          "Yes for planning purposes. Travelers often search 'cruise ship schedule SXM' or 'sxm cruise ship schedule 2026' when their itinerary lists Sint Maarten. This page shows verified 2026 ship calls at the Dr. A.C. Wathey terminal in Philipsburg — the Dutch-side cruise dock.",
+          "Yes for planning purposes. Travelers often search 'cruise ship schedule SXM' or 'sxm cruise ship schedule 2026' when their itinerary lists Sint Maarten. This page shows published 2026 ship calls at the Dr. A.C. Wathey terminal in Philipsburg — the Dutch-side cruise dock.",
       },
       {
         question: "Does St. Maarten use tender boats in 2026?",
@@ -831,7 +831,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
 
   "st-maarten-2027": {
     intro:
-      "St. Maarten ranks among the busier 2027 Eastern Caribbean schedule ports, with more than 500 verified Philipsburg calls listed for the year. This Sint Maarten cruise ship schedule page shows every Dr. A.C. Wathey terminal arrival and departure — ships dock in Great Bay with no tenders, so your 2027 times determine whether Maho Beach, Orient Bay, and French-side dining fit with a safe return buffer.",
+      "St. Maarten ranks among the busier 2027 Eastern Caribbean schedule ports, with more than 500 published Philipsburg calls listed for the year. This Sint Maarten cruise ship schedule page shows every Dr. A.C. Wathey terminal arrival and departure — ships dock in Great Bay with no tenders, so your 2027 times determine whether Maho Beach, Orient Bay, and French-side dining fit with a safe return buffer.",
     whyPassengersUse: [
       "2027 SXM call volume drives Maho Beach taxi demand and Orient Bay club sellouts — knowing your exact pier day helps you reserve before embarkation.",
       "Docked Dr. A.C. Wathey berths mean walk-off access; your 2027 arrival column frames when Philipsburg shopping and water-taxi transfers realistically start.",
@@ -840,7 +840,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
     ],
     planningYourDay: {
       summary:
-        "Structure your 2027 St. Maarten day around one headline experience matched to verified gangway and all-aboard times, then layer shorter Philipsburg stops around island taxi realities.",
+        "Structure your 2027 St. Maarten day around one headline experience matched to published gangway and all-aboard times, then layer shorter Philipsburg stops around island taxi realities.",
       typicalActivities: [
         "Early Maho Beach plane-spotting when 2027 schedules show arrival before 9:00 AM",
         "Orient Bay beach club with lunch on the French side for medium-length calls",
@@ -870,7 +870,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         question: "Why is the 2027 St. Maarten schedule important for SXM excursion planning?",
         answer:
-          "St. Maarten handles hundreds of verified 2027 ship calls at Philipsburg. That volume drives operator sellouts and Great Bay congestion. Your monthly 2027 row shows arrival, departure, and competing vessels so you can size Maho Beach and Orient Bay tours realistically.",
+          "St. Maarten handles hundreds of published 2027 ship calls at Philipsburg. That volume drives operator sellouts and Great Bay congestion. Your monthly 2027 row shows arrival, departure, and competing vessels so you can size Maho Beach and Orient Bay tours realistically.",
       },
       {
         question: "Do Sint Maarten cruise ships tender in 2027?",
@@ -974,7 +974,7 @@ export function getSchedulePageContentForPortHub(
     ...content,
     hubDetails: {
       ...content.hubDetails,
-      typicalTimeInPort: `${verifiedTime} — derived from verified schedule imports at this port.`,
+      typicalTimeInPort: `${verifiedTime} — derived from published schedule data at this port.`,
     },
   };
 }

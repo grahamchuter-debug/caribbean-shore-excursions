@@ -143,7 +143,7 @@ export function ClusterPageSections({ cluster }: { cluster: TopicClusterData }) 
         <section className="rounded-xl border border-caribbean-200 bg-caribbean-50/40 p-6">
           <h2 className="section-title text-2xl sm:text-3xl mb-4">Ship Schedule Links</h2>
           <p className="text-sm text-gray-600 mb-5">
-            Check which ships call at ports in this cluster. Monthly schedule pages appear where verified import data
+            Check which ships call at ports in this cluster. Monthly schedule pages appear where published schedule data
             exists.
           </p>
           <div className="space-y-4">

@@ -92,12 +92,12 @@ export function getMonthlyScheduleFaqs(
       answer:
         uniqueShips.length > 0
           ? `This page lists ${uniqueShips.length} scheduled vessel${uniqueShips.length !== 1 ? "s" : ""} in ${monthLabel}, including ${shipList}. Use the schedule table for exact arrival and departure times.`
-          : `No verified ship calls are listed for ${port.name} in ${monthLabel}.`,
+          : `No published ship calls are listed for ${port.name} in ${monthLabel}.`,
     },
     {
       question: "How accurate are cruise ship schedules?",
       answer:
-        "Published schedules are planning guides sourced from verified imports. They are not guaranteed. Weather, tender conditions, and cruise line itinerary changes can alter arrival and departure times.",
+        "Published schedules are planning guides compiled from published cruise line and port schedule data. They are not guaranteed. Weather, tender conditions, and cruise line itinerary changes can alter arrival and departure times.",
     },
     {
       question: "Can arrival and departure times change?",

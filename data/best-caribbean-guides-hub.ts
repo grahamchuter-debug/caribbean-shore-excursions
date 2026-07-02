@@ -28,7 +28,7 @@ export const bestCaribbeanGuidesHub = {
   heroSubtitle:
     "Ranked port guides for cruise passengers — beaches, reefs, families, first-time cruisers, and 2027's busiest ports.",
   introduction:
-    "These guides rank Caribbean cruise ports using our authority port research: excursion quality, pier logistics, value on a typical 6–8 hour port day, and links to live specialist operators. Each guide links to port authority pages, head-to-head comparisons, and ship schedules where verified data exists.",
+    "These guides rank Caribbean cruise ports using our authority port research: excursion quality, pier logistics, value on a typical 6–8 hour port day, and links to live specialist operators. Each guide links to port authority pages, head-to-head comparisons, and ship schedules where published data exists.",
 };
 
 export function getAllBestGuideHubSlugs(): string[] {

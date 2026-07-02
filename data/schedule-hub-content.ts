@@ -11,12 +11,12 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
     whyPassengersUse: [
       "Nassau anchors Florida and Bahamas itineraries with year-round traffic — this hub lets you jump to 2026 or 2027 monthly tables and spot multi-ship weeks before Atlantis and catamaran operators sell out.",
       "Prince George Wharf is a downtown dock, so published arrival times frame walkable sightseeing immediately; comparing both years shows whether your sail date falls in a quieter winter week or a stacked spring break period.",
-      "Excursion planners use Nassau schedules to size Atlantis Aquaventure, Blue Lagoon transfers, and Exuma pig flights against verified departure columns rather than brochure guesses.",
+      "Excursion planners use Nassau schedules to size Atlantis Aquaventure, Blue Lagoon transfers, and Exuma pig flights against published departure columns rather than brochure guesses.",
       "Missed-departure risk rises when three mega-ships discharge passengers into downtown simultaneously — the hub links to year pages where you count competing vessels on your exact date.",
     ],
     planningYourDay: {
       summary:
-        "Start at this hub to pick 2026 or 2027, then match one headline Nassau experience to your verified in-port window — docked downtown access makes timing the main variable, not tender logistics.",
+        "Start at this hub to pick 2026 or 2027, then match one headline Nassau experience to your published in-port window — docked downtown access makes timing the main variable, not tender logistics.",
       typicalActivities: [
         "Walk Queen's Staircase and Straw Market from Prince George Wharf on shorter calls",
         "Bridge or taxi to Paradise Island for Atlantis beaches and Aquaventure on six-hour-plus windows",
@@ -45,7 +45,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         question: "Should I use the Nassau 2026 or 2027 schedule for excursion planning?",
         answer:
-          "Open the year that matches your sailing. This hub links to both: 2027 currently leads verified call volume, while 2026 helps if you are comparing back-to-back seasons. Monthly tables in either year show ship names, arrival times, and competing vessels on your pier day.",
+          "Open the year that matches your sailing. This hub links to both: 2027 currently leads published call volume, while 2026 helps if you are comparing back-to-back seasons. Monthly tables in either year show ship names, arrival times, and competing vessels on your pier day.",
       },
       {
         question: "Does Nassau use tenders or a cruise dock?",
@@ -135,7 +135,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
     whyPassengersUse: [
       "Cozumel rotates ships among three piers — this hub links to 2026 and 2027 year pages where you confirm which terminal your vessel uses before booking operator pickup.",
       "Western Caribbean itineraries often stack multiple ships on peak weeks; comparing both years reveals whether your sail date falls in a quieter shoulder period or a four-ship reef day.",
-      "Reef snorkel boats and El Cielo catamarans batch morning departures around gangway times — verified schedules replace brochure guesses for on-time return guarantees.",
+      "Reef snorkel boats and El Cielo catamarans batch morning departures around gangway times — published schedules replace brochure guesses for on-time return guarantees.",
       "Mainland Tulum tours need ferry time to Playa del Carmen plus road transit — only feasible when departure columns in either year show seven to eight hours ashore.",
     ],
     planningYourDay: {
@@ -175,7 +175,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         question: "Which Cozumel pier will my ship use?",
         answer:
-          "Cruise lines rotate among Punta Langosta (downtown), International Pier, and Puerta Maya. Year pages list verified calls; confirm your assignment on the ship before booking operators who offer pier-specific pickup.",
+          "Cruise lines rotate among Punta Langosta (downtown), International Pier, and Puerta Maya. Year pages list published calls; confirm your assignment on the ship before booking operators who offer pier-specific pickup.",
       },
       {
         question: "Does Cozumel require tender boats?",
@@ -254,7 +254,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
 
   "st-maarten-hub": {
     intro:
-      "This St. Maarten schedule hub — the SXM cruise port many itineraries list as Sint Maarten or Philipsburg — connects verified 2026 and 2027 call data at the Dr. A.C. Wathey Cruise Facility. Start here to see how many ships share Great Bay on your pier day before booking Maho Beach plane-spotting, Orient Bay clubs, or a Dutch-and-French island loop.",
+      "This St. Maarten schedule hub — the SXM cruise port many itineraries list as Sint Maarten or Philipsburg — connects published 2026 and 2027 call data at the Dr. A.C. Wathey Cruise Facility. Start here to see how many ships share Great Bay on your pier day before booking Maho Beach plane-spotting, Orient Bay clubs, or a Dutch-and-French island loop.",
     heroSubtitle:
       "St. Maarten & SXM cruise schedule hub — compare 2026 and 2027 Philipsburg ship calls, Maho Beach timing, and Orient Bay excursion planning from the Dr. A.C. Wathey terminal.",
     whyPassengersUse: [
@@ -265,7 +265,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
     ],
     planningYourDay: {
       summary:
-        "Choose 2026 or 2027 from this hub, then build around one signature experience — Maho Beach aviation, Orient Bay swim, or a Dutch-and-French highlights loop — sized to your verified departure time.",
+        "Choose 2026 or 2027 from this hub, then build around one signature experience — Maho Beach aviation, Orient Bay swim, or a Dutch-and-French highlights loop — sized to your published departure time.",
       typicalActivities: [
         "Morning Maho Beach visit for aircraft landings when arrivals are early",
         "Orient Bay beach club afternoon on longer port windows",
@@ -315,7 +315,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         question: "Where do I find the 2026 versus 2027 St. Maarten ship schedule?",
         answer:
-          "This hub links to dedicated year pages with monthly Philipsburg tables. Open the year that matches your sailing — both 2026 and 2027 verified imports are available for excursion planning.",
+          "This hub links to dedicated year pages with monthly Philipsburg tables. Open the year that matches your sailing — both 2026 and 2027 published schedules are available for excursion planning.",
       },
     ],
     internalLinks: [
@@ -327,7 +327,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         label: "St. Maarten 2026 Schedule",
         href: "/ship-schedules/st-maarten/2026",
-        description: "Verified Philipsburg monthly arrival tables.",
+        description: "Published Philipsburg monthly arrival tables.",
       },
       {
         label: "St. Maarten Port Guide",
@@ -395,7 +395,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
     whyPassengersUse: [
       "Grand Cayman requires tenders — this hub links to 2026 schedules so you can add 20–40 minutes each way to excursion math before booking Stingray City or snorkel boats.",
       "Rough seas can cancel or delay tender operations; knowing how many ships share your anchorage day helps you prioritize early departures.",
-      "Stingray City sandbar tours batch morning slots — verified arrival columns show whether you can make first boats after tender queues.",
+      "Stingray City sandbar tours batch morning slots — published arrival columns show whether you can make first boats after tender queues.",
       "Seven Mile Beach and Turtle Centre transfers depend on George Town tender landing times — schedule data frames realistic return buffers.",
     ],
     planningYourDay: {
@@ -445,7 +445,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         question: "Is 2027 Grand Cayman schedule data available from this hub?",
         answer:
-          "Verified imports currently center on 2026 monthly tables linked from this hub. Check the 2027 year page as data expands; tender planning rules remain the same regardless of year.",
+          "Published schedules currently center on 2026 monthly tables linked from this hub. Check the 2027 year page as data expands; tender planning rules remain the same regardless of year.",
       },
     ],
     internalLinks: [
@@ -514,7 +514,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
 
   "costa-maya-hub": {
     intro:
-      "This Costa Maya schedule hub links verified 2026 and 2027 call data for the purpose-built Mahahual cruise village — compare both years before booking Chacchoben ruin coaches, Bacalar lagoon runs, or Mahahual beach breaks. Unlike Cozumel's three-pier sprawl, Costa Maya concentrates ships at one dock adjacent to the port village, but mainland coach time still dictates which excursions fit your departure column.",
+      "This Costa Maya schedule hub links published 2026 and 2027 call data for the purpose-built Mahahual cruise village — compare both years before booking Chacchoben ruin coaches, Bacalar lagoon runs, or Mahahual beach breaks. Unlike Cozumel's three-pier sprawl, Costa Maya concentrates ships at one dock adjacent to the port village, but mainland coach time still dictates which excursions fit your departure column.",
     heroSubtitle:
       "Costa Maya cruise schedule hub — compare 2026 and 2027 Mahahual cruise village calls, ruin tours, and beach excursion timing.",
     whyPassengersUse: [
@@ -541,7 +541,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       recommendedExcursions: [
         "Chacchoben ruins with pier-side coach pickup on standard calls",
         "Mahahual snorkel and beach combo when schedules show afternoon departures",
-        "Private driver for Bacalar only on the longest verified port days",
+        "Private driver for Bacalar only on the longest published port days",
       ],
       timingConsiderations: [
         "Bacalar needs roughly six to seven hours including coach time — verify departure in either year",
@@ -769,7 +769,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       "Puerto Plata cruise schedule hub — compare 2026 and 2027 Amber Cove and Taíno Bay calls for waterfall and cable car excursion timing.",
     whyPassengersUse: [
       "Puerto Plata splits calls between Amber Cove and Taíno Bay — this hub's year pages show which terminal your ship uses so coaches meet you at the correct gate.",
-      "Waterfall and cable car excursions need mainland coach time — verified departure columns in 2026 or 2027 determine whether 27 Charcos or Damajagua fits.",
+      "Waterfall and cable car excursions need mainland coach time — published departure columns in 2026 or 2027 determine whether 27 Charcos or Damajagua fits.",
       "Eastern Caribbean loops often stack Puerto Plata with St. Maarten or St. Thomas — comparing schedule volumes across ports prevents overbooking adventure days.",
       "Carnival and MSC volumes are strong here — multi-ship terminal days fill organized coaches before pier-side walk-up availability.",
     ],
@@ -921,7 +921,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       timingConsiderations: [
         "Crown Bay passengers add 10–15 minutes taxi to reach Havensight-area operators",
         "St. John requires ferry schedule alignment — not feasible on short turnarounds",
-        "2027 verified imports are extensive — compare with 2026 when sail dates span seasons",
+        "2027 published schedules are extensive — compare with 2026 when sail dates span seasons",
       ],
       returnGuidance:
         "Be back at Havensight or Crown Bay security 45–60 minutes before published departure. St. John ferry returns and Magens Bay taxis queue heavily when three or more ships are in port.",
@@ -1065,7 +1065,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         question: "Does Aruba have 2026 and 2027 schedule pages?",
         answer:
-          "Verified 2026 monthly Oranjestad tables are linked from this hub. Open the 2027 year page as imports expand for your sailing month — excursion timing principles are the same for docked arrivals.",
+          "Published 2026 monthly Oranjestad tables are linked from this hub. Open the 2027 year page as coverage expands for your sailing month — excursion timing principles are the same for docked arrivals.",
       },
       {
         question: "Why do Southern Caribbean passengers use Aruba schedules for catamaran timing?",
@@ -1190,7 +1190,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         question: "How do Tortola 2026 and 2027 schedules compare?",
         answer:
-          "Both years link from this hub. Verified 2026 coverage runs June through December; 2027 includes full-year tables. Use the year matching your sailing for ship names, arrival times, and multi-vessel overlap.",
+          "Both years link from this hub. Published 2026 coverage runs June through December; 2027 includes full-year tables. Use the year matching your sailing for ship names, arrival times, and multi-vessel overlap.",
       },
       {
         question: "Why do BVI catamaran operators ask for Tortola schedule times?",
@@ -1263,7 +1263,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       "Ocho Rios cruise schedule hub — compare 2026 and 2027 Jamaica north-coast calls, Dunn's River Falls timing, and adventure excursion planning.",
     whyPassengersUse: [
       "Dunn's River Falls is time-sensitive — this hub links 2026 and 2027 tables showing arrival windows that fit guided climbs versus shorter shopping stops.",
-      "Mystic Mountain and rainforest adventures need coach transfers — verified departure columns prevent booking bobsled runs that cannot return on time.",
+      "Mystic Mountain and rainforest adventures need coach transfers — published departure columns prevent booking bobsled runs that cannot return on time.",
       "Jamaica north-coast traffic varies by pier-day volume — schedule overlap helps you pick early coach slots before sellout.",
       "Western Caribbean loops often pair Ocho Rios with Cozumel or Costa Maya — cross-year comparison builds realistic adventure pacing across ports.",
     ],
@@ -1309,7 +1309,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         question: "Should I compare Ocho Rios 2026 and 2027 schedules?",
         answer:
-          "Yes when sail dates are flexible. Both years link from this hub with verified monthly tables. Multi-ship weeks affect coach availability in either season.",
+          "Yes when sail dates are flexible. Both years link from this hub with published monthly tables. Multi-ship weeks affect coach availability in either season.",
       },
       {
         question: "Can I combine Dunn's River Falls and Mystic Mountain on one Ocho Rios day?",
@@ -1394,7 +1394,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
     ],
     planningYourDay: {
       summary:
-        "Open 2026 or 2027, then choose one St. Kitts signature — scenic railway, Brimstone Hill UNESCO fortress, or South Friars Beach — matched to your verified in-port window at Port Zante.",
+        "Open 2026 or 2027, then choose one St. Kitts signature — scenic railway, Brimstone Hill UNESCO fortress, or South Friars Beach — matched to your published in-port window at Port Zante.",
       typicalActivities: [
         "St. Kitts Scenic Railway circle tour on morning arrivals",
         "Brimstone Hill Fortress UNESCO site with island viewpoints",
@@ -1429,7 +1429,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         question: "How much schedule data exists for St. Kitts 2026 and 2027?",
         answer:
-          "Verified imports cover both years with monthly Basseterre tables linked from this hub. Call volumes are lower than St. Thomas or Cozumel — use tables to confirm single-ship versus dual-ship days rather than peak-season congestion assumptions.",
+          "Published schedules cover both years with monthly Basseterre tables linked from this hub. Call volumes are lower than St. Thomas or Cozumel — use tables to confirm single-ship versus dual-ship days rather than peak-season congestion assumptions.",
       },
       {
         question: "Can I do the Scenic Railway and Brimstone Hill on one St. Kitts port day?",
@@ -1558,7 +1558,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         question: "How much Puerto Limón schedule data is available?",
         answer:
-          "Verified 2026 monthly tables are linked from this hub. Call volumes are lower than mega-ports like Cozumel — check your specific sailing month rather than assuming daily multi-ship congestion.",
+          "Published 2026 monthly tables are linked from this hub. Call volumes are lower than mega-ports like Cozumel — check your specific sailing month rather than assuming daily multi-ship congestion.",
       },
       {
         question: "Can I fit Veragua Rainforest using Puerto Limón schedule times?",

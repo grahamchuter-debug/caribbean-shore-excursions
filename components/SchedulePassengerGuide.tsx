@@ -47,7 +47,7 @@ export function SchedulePassengerGuide({
               Also sailing in 2027?
             </h2>
             <p className="text-gray-700 leading-relaxed mb-4">
-              {portName} has {calls2027.toLocaleString()} verified ship call
+              {portName} has {calls2027.toLocaleString()} published ship call
               {calls2027 !== 1 ? "s" : ""} listed for 2027
               {calls2026 > 0 ? ` and ${calls2026.toLocaleString()} for 2026` : ""}. Compare both years if
               your itinerary spans seasons or you are choosing between sail dates.
@@ -233,7 +233,7 @@ export function SchedulePassengerGuide({
             Also sailing in 2027?
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            {port.name} has {calls2027.toLocaleString()} verified ship call
+            {port.name} has {calls2027.toLocaleString()} published ship call
             {calls2027 !== 1 ? "s" : ""} listed for 2027
             {calls2026 > 0 ? ` and ${calls2026.toLocaleString()} for 2026` : ""}. Compare both years if
             your itinerary spans seasons or you are choosing between sail dates.

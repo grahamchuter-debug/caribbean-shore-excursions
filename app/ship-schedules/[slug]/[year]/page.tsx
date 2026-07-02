@@ -87,7 +87,7 @@ export function generateMetadata({
     const shipCalls = getShipCallCountForPortYear(slug, year);
     const callNote =
       shipCalls > 0
-        ? `${shipCalls} verified ship calls listed.`
+        ? `${shipCalls} published ship calls listed.`
         : "Monthly schedule with placeholders until import completes.";
 
     // Derive a year-agnostic base then append the specific year, so the year
@@ -187,7 +187,7 @@ export default async function ShipSchedulePeriodPage({
           breadcrumbSchema(breadcrumbs),
           webPageSchema({
             title,
-            description: `${port.name} ${year} cruise ship schedule with verified arrival and departure times where available.`,
+            description: `${port.name} ${year} cruise ship schedule with published arrival and departure times where available.`,
             path: portYearPath(slug, year),
           }),
           ...(portYearFaqs.length ? [faqSchema(portYearFaqs)] : []),

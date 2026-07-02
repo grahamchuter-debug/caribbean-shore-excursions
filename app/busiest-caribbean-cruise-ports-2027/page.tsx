@@ -21,7 +21,7 @@ const YEAR = 2027;
 export const metadata = buildMetadata({
   title: "Busiest Caribbean Cruise Ports 2027",
   description:
-    "Rank the busiest Caribbean cruise ports in 2027 using verified ship call data, passenger estimates, and cruise planning insights for St. Thomas, Cozumel, Nassau, and more.",
+    "Rank the busiest Caribbean cruise ports in 2027 using published ship call data, passenger estimates, and cruise planning insights for St. Thomas, Cozumel, Nassau, and more.",
   path: "/busiest-caribbean-cruise-ports-2027",
   keywords: [
     "busiest Caribbean cruise ports 2027",
@@ -64,7 +64,7 @@ export default function BusiestCaribbeanCruisePorts2027Page() {
       />
       <PageHero
         title="Busiest Caribbean Cruise Ports 2027"
-        subtitle="Verified ship call rankings, passenger estimates, and planning insights for the Caribbean's top cruise ports."
+        subtitle="Published ship call rankings, passenger estimates, and planning insights for the Caribbean's top cruise ports."
       />
       <section className="section-padding">
         <div className="container-wide max-w-5xl">
@@ -85,7 +85,7 @@ export default function BusiestCaribbeanCruisePorts2027Page() {
 
           {verifiedRankings.length > 0 && (
             <section className="mb-12">
-              <h2 className="section-title text-2xl sm:text-3xl mb-4">Verified 2027 Rankings</h2>
+              <h2 className="section-title text-2xl sm:text-3xl mb-4">Published 2027 Rankings</h2>
               <p className="text-sm text-gray-600 mb-4">
                 Based on imported monthly schedules. Passenger totals use a {ESTIMATED_PASSENGERS_PER_CALL.toLocaleString()}-guest average per call when capacity is unpublished.
               </p>
@@ -130,7 +130,7 @@ export default function BusiestCaribbeanCruisePorts2027Page() {
           <section className="mb-12">
             <h2 className="section-title text-2xl sm:text-3xl mb-4">All {schedulePortCount} Tracked Ports</h2>
             <p className="text-sm text-gray-600 mb-4">
-              Full port list we track. Ports without verified imports show call and passenger fields as pending.
+              Full port list we track. Ports without published schedule data yet show call and passenger fields as pending.
             </p>
             <div className="overflow-x-auto rounded-xl border border-gray-200">
               <table className="min-w-full divide-y divide-gray-200 text-sm">

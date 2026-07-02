@@ -77,6 +77,10 @@ export default function AboutPage() {
             <p>
               We connect cruise passengers with specialist excursion websites at each Caribbean port. These local partners offer curated tours from vetted operators with cruise-passenger-friendly policies.
             </p>
+            <p className="text-sm text-gray-500">
+              We may have a commercial relationship with the local operators we link to. Recommendations are based on suitability for cruise passengers — port logistics, return-to-ship timing, and experience quality — not commission. Learn more in our{" "}
+              <Link href="/methodology" className="text-caribbean-700 hover:underline">methodology</Link>.
+            </p>
             <div className="grid gap-3 sm:grid-cols-2 not-prose">
               {ports.map((port) => (
                 <a

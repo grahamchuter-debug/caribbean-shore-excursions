@@ -183,8 +183,8 @@ export function PortPlanningToolkit({
             <h3 className="section-title text-xl sm:text-2xl">Port Popularity &amp; Cruise Activity</h3>
             <p className="mt-1 text-sm text-gray-600">
               {popularity.hasVerifiedData
-                ? "Verified ship call counts from imported schedules."
-                : "Industry activity tier until verified schedule import completes."}
+                ? "Published ship call counts from compiled schedules."
+                : "Industry activity tier until published schedule data is compiled."}
             </p>
           </div>
           <span

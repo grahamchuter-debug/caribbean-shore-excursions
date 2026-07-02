@@ -104,9 +104,9 @@ export function getBusiestPorts2027Insights() {
   const schedulePortCount = getSchedulePortCount();
 
   return {
-    intro: `This page ranks Caribbean cruise ports using verified 2027 ship call data where available, with planning context for all ${schedulePortCount} ports we track. Passenger figures are estimates based on an average of 3,000 guests per call when cruise lines do not publish capacity.`,
+    intro: `This page ranks Caribbean cruise ports using published 2027 ship call data where available, with planning context for all ${schedulePortCount} ports we track. Passenger figures are estimates based on an average of 3,000 guests per call when cruise lines do not publish capacity.`,
     planningInsights: [
-      "St. Thomas leads verified 2027 call volume among imported schedules, making Magens Bay, St. John ferries, and downtown shopping busiest on multi-ship winter weeks.",
+      "St. Thomas leads published 2027 call volume among compiled schedules, making Magens Bay, St. John ferries, and downtown shopping busiest on multi-ship winter weeks.",
       "Ocho Rios call counts are lower but spike in January through March, when Dunn's River Falls and Mystic Mountain excursions need early booking.",
       "Cozumel, Nassau, and Grand Cayman typically rank among the busiest Caribbean ports industry-wide. Import those schedules next to compare exact call totals.",
       "Tender ports like Grand Cayman add 30-60 minutes each way. Build excursion return times around published departure windows, not just arrival times.",
@@ -116,16 +116,16 @@ export function getBusiestPorts2027Insights() {
       {
         question: "Which Caribbean cruise port has the most ship calls in 2027?",
         answer:
-          "Among verified schedules on this site, St. Thomas has the highest 2027 ship call count. Additional ports will rank here as monthly schedule imports are completed.",
+          "Among published schedules on this site, St. Thomas has the highest 2027 ship call count. Additional ports will rank here as monthly schedule imports are completed.",
       },
       {
         question: "How are passenger estimates calculated?",
         answer:
-          "When cruise lines do not publish capacity, we multiply verified ship calls by 3,000 guests as a conservative industry average. Treat these figures as planning estimates, not official port authority totals.",
+          "When cruise lines do not publish capacity, we multiply published ship calls by 3,000 guests as a conservative industry average. Treat these figures as planning estimates, not official port authority totals.",
       },
       {
-        question: "Why do some ports show zero verified calls?",
-        answer: `Only ports with completed CSV imports display verified totals. Other tracked ports show placeholders until their monthly source data is imported.`,
+        question: "Why do some ports show zero calls?",
+        answer: `Only ports whose published monthly schedules we have compiled display call totals. Other tracked ports show placeholders until their source data is processed.`,
       },
     ],
   };
@@ -136,20 +136,20 @@ export const busiestPorts2027Insights = getBusiestPorts2027Insights();
 
 export const calendar2027Insights = {
   intro:
-    "Use this 2027 Caribbean cruise calendar to see peak sailing months from verified ship schedules, plus regional seasonality for Eastern, Western, Southern, and Bahamas itineraries.",
+    "Use this 2027 Caribbean cruise calendar to see peak sailing months from published ship schedules, plus regional seasonality for Eastern, Western, Southern, and Bahamas itineraries.",
   regionalPatterns: [
     {
       region: "Eastern Caribbean",
       bestMonths: "December through April",
       notes:
-        "St. Thomas and St. Maarten see the heaviest winter traffic. Verified St. Thomas data peaks in January and December 2027.",
+        "St. Thomas and St. Maarten see the heaviest winter traffic. Published St. Thomas data peaks in January and December 2027.",
       portSlugs: ["st-thomas", "st-maarten", "puerto-plata"],
     },
     {
       region: "Western Caribbean",
       bestMonths: "November through April; steady summer sailings",
       notes:
-        "Cozumel, Roatán, Costa Maya, and Ocho Rios anchor Western routes year-round. Ocho Rios verified calls cluster in Q1 2027.",
+        "Cozumel, Roatán, Costa Maya, and Ocho Rios anchor Western routes year-round. Ocho Rios published calls cluster in Q1 2027.",
       portSlugs: ["cozumel", "roatan", "costa-maya", "ocho-rios", "grand-cayman"],
     },
     {
@@ -171,12 +171,12 @@ export const calendar2027Insights = {
     {
       title: "Winter peak (December to April)",
       description:
-        "Highest verified call volumes fall in January, February, March, November, and December. Book top excursions early and expect longer taxi queues at major terminals.",
+        "Highest published call volumes fall in January, February, March, November, and December. Book top excursions early and expect longer taxi queues at major terminals.",
     },
     {
       title: "Shoulder season (May and October)",
       description:
-        "Fewer multi-ship days create better conditions for private tours and popular beaches. Ocho Rios verified data shows lighter spring and autumn weeks.",
+        "Fewer multi-ship days create better conditions for private tours and popular beaches. Ocho Rios published data shows lighter spring and autumn weeks.",
     },
     {
       title: "Summer sailings (June to August)",
@@ -193,7 +193,7 @@ export const calendar2027Insights = {
     {
       question: "What is the busiest cruise month in the Caribbean for 2027?",
       answer:
-        "Based on verified schedules imported so far, January and December 2027 show the highest combined ship call totals, led by St. Thomas.",
+        "Based on published schedules compiled so far, January and December 2027 show the highest combined ship call totals, led by St. Thomas.",
     },
     {
       question: "When is the best time to cruise the Western Caribbean?",

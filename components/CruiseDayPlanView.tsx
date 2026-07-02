@@ -340,7 +340,7 @@ export function CruiseDayPlanView({ plan, variant = "screen" }: CruiseDayPlanVie
           </>
         ) : (
           <p className="mt-3 text-sm text-gray-700">
-            No verified ship schedule for this date yet. Use the activity estimate above and confirm your
+            No published ship schedule for this date yet. Use the activity estimate above and confirm your
             ship&apos;s published all-aboard time before booking independent excursions.
           </p>
         )}
