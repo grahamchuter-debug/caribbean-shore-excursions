@@ -3,7 +3,7 @@ import { additionalPortAuthority } from "./additional-port-authority";
 
 const authority: Record<string, PortAuthorityContent> = {
   "st-thomas": {
-    seoTitle: "St. Thomas Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "St. Thomas Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Plan St. Thomas cruise port days with authority guides to beaches, snorkeling, family excursions, private tours, terminal info and links to stthomasshoreexcursion.com.",
     whyVisit: [
@@ -41,7 +41,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
   },
   cozumel: {
-    seoTitle: "Cozumel Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Cozumel Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Compare Cozumel shore excursions, beaches, reef snorkeling, family tours and private options. Terminal guide plus cozumelcruiseexcursion.com specialist link.",
     whyVisit: [
@@ -79,7 +79,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
   },
   aruba: {
-    seoTitle: "Aruba Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Aruba Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Aruba cruise port authority guide covering Eagle Beach, snorkeling, Arikok tours, family excursions, private options and arubashoreexcursion.com.",
     whyVisit: [
@@ -117,7 +117,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
   },
   "grand-cayman": {
-    seoTitle: "Grand Cayman Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Grand Cayman Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Grand Cayman authority guide to Stingray City, Seven Mile Beach, snorkeling, tender port tips, family tours and grandcaymanshoreexcursion.com.",
     whyVisit: [
@@ -155,7 +155,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
   },
   nassau: {
-    seoTitle: "Nassau Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Nassau Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Nassau cruise port authority guide to Atlantis, beaches, snorkeling, family excursions, private tours and nassaucruiseexcursions.com specialist link.",
     whyVisit: [
@@ -193,7 +193,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
   },
   roatan: {
-    seoTitle: "Roatán Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Roatán Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Roatán authority guide to West Bay Beach, reef snorkeling, zip-lines, family eco-tours, private options and roatanexcursionplanner.com.",
     whyVisit: [
@@ -231,7 +231,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
   },
   "st-maarten": {
-    seoTitle: "St. Maarten Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "St. Maarten Shore Excursions & Cruise Port Guide",
     seoDescription:
       "St. Maarten cruise port guide to Maho Beach, Orient Bay, catamaran sails, dual-nation tours, private options and stmaartenshoreexcursion.com.",
     whyVisit: [
@@ -269,7 +269,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
   },
   "puerto-plata": {
-    seoTitle: "Puerto Plata Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Puerto Plata Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Puerto Plata and Amber Cove authority guide to waterfalls, cable car views, beaches, family tours, private options and puertoplatacruiseexcursion.com.",
     whyVisit: [
@@ -307,7 +307,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
   },
   "costa-maya": {
-    seoTitle: "Costa Maya Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Costa Maya Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Costa Maya cruise port authority guide to Chacchoben ruins, Mahahual beach, snorkeling, family tours, private options and costamayashoreexcursions.com.",
     whyVisit: [
@@ -345,7 +345,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
   },
   "puerto-limon": {
-    seoTitle: "Puerto Limón Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Puerto Limón Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Puerto Limón cruise port authority guide to sloth sanctuaries, Veragua rainforest, Cahuita snorkel, family wildlife tours, private options and puertolimonshoreexcursion.com.",
     whyVisit: [
@@ -383,7 +383,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
   },
   curacao: {
-    seoTitle: "Curaçao Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Curaçao Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Curaçao cruise port authority guide to Willemstad culture, reef diving, snorkeling, family tours, private options and curacaocruiseexcursions.com.",
     whyVisit: [
@@ -421,7 +421,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
   },
   "ocho-rios": {
-    seoTitle: "Ocho Rios Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Ocho Rios Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Ocho Rios Jamaica authority guide to Dunn's River Falls, river rafting, rainforest adventures, family tours and ochoriosshoreexcursion.com.",
     whyVisit: [
@@ -459,7 +459,7 @@ const authority: Record<string, PortAuthorityContent> = {
     ],
   },
   falmouth: {
-    seoTitle: "Falmouth Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Falmouth Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Falmouth Jamaica authority guide to Martha Brae rafting, historic town walks, Good Hope Estate, Luminous Lagoon and falmouthshoreexcursions.com.",
     whyVisit: [

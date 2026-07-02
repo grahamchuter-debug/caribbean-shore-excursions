@@ -38,7 +38,7 @@ export function generateMetadata({ params }: { params: Promise<{ slug: string }>
     const baseDescription =
       authority?.seoDescription ?? `${port.overview.slice(0, 155)}...`;
     return buildMetadata({
-      title: augmentMetadataTitle(baseTitle, port.name, slug),
+      title: baseTitle,
       description: augmentMetadataDescription(baseDescription, slug, "port"),
       path: `/ports/${slug}`,
       keywords: [`${port.name} shore excursions`, `${port.name} cruise port`, port.country],

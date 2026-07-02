@@ -2,7 +2,7 @@ import type { PortAuthorityContent } from "./types";
 
 export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
   bonaire: {
-    seoTitle: "Bonaire Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Bonaire Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Bonaire cruise port authority guide to shore diving, marine park snorkeling, flamingo tours, Washington Slagbaai and excursionsbonaire.com.",
     whyVisit: [
@@ -40,7 +40,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
     ],
   },
   tortola: {
-    seoTitle: "Tortola Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Tortola Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Tortola BVI cruise port authority guide to catamaran sails, Virgin Gorda, Cane Garden Bay, tender tips and tortolashoreexcursions.com.",
     whyVisit: [
@@ -78,7 +78,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
     ],
   },
   progreso: {
-    seoTitle: "Progreso Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Progreso Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Progreso Yucatán cruise port authority guide to Mérida, Uxmal ruins, Celestún flamingos, pier logistics and progresoshoreexcursion.com.",
     whyVisit: [
@@ -116,7 +116,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
     ],
   },
   samana: {
-    seoTitle: "Samaná Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Samaná Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Samaná Dominican Republic cruise port authority guide to whale watching, El Limón waterfall, Playa Rincón and samanashoreexcursion.com.",
     whyVisit: [
@@ -154,7 +154,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
     ],
   },
   "la-romana": {
-    seoTitle: "La Romana Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "La Romana Shore Excursions & Cruise Port Guide",
     seoDescription:
       "La Romana Dominican Republic cruise port authority guide to Saona Island, Altos de Chavón, Catalina snorkel and laromanashoreexcursion.com.",
     whyVisit: [
@@ -192,7 +192,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
     ],
   },
   "montego-bay": {
-    seoTitle: "Montego Bay Shore Excursions & Cruise Port Authority Guide",
+    seoTitle: "Montego Bay Shore Excursions & Cruise Port Guide",
     seoDescription:
       "Montego Bay Jamaica cruise port authority guide to Doctor's Cave Beach, Rose Hall, Hip Strip tours and montegobayshoreexcursion.com.",
     whyVisit: [
