@@ -25,12 +25,8 @@ export type SchedulePageContentKey =
   | "home"
   | "year-2026"
   | "year-2027"
-  | "nassau-2026"
-  | "nassau-2027"
-  | "cozumel-2026"
-  | "cozumel-2027"
-  | "st-maarten-2026"
-  | "st-maarten-2027"
+  | `${ScheduleHubPortSlug}-2026`
+  | `${ScheduleHubPortSlug}-2027`
   | `${ScheduleHubPortSlug}-hub`;
 
 export interface PlanningYourDayContent {
@@ -75,8 +71,508 @@ export interface SchedulePageContent {
   hubDetails?: ScheduleHubDetails;
 }
 
+// ---------------------------------------------------------------------------
+// Generated per-port-year content for ports without hand-written year pages.
+// Each profile injects destination-specific facts (terminals, piers, signature
+// excursions, transfer quirks) so no two ports share copy. Planning-your-day and
+// internal links are reused from the port's bespoke hub content to stay DRY while
+// keeping cross-port uniqueness. Intro/why/FAQs are year-parameterized.
+// ---------------------------------------------------------------------------
+
+type GeneratedPortYearKey =
+  | "st-thomas-2026"
+  | "st-thomas-2027"
+  | "aruba-2026"
+  | "aruba-2027"
+  | "grand-cayman-2026"
+  | "grand-cayman-2027"
+  | "roatan-2026"
+  | "roatan-2027"
+  | "puerto-plata-2026"
+  | "puerto-plata-2027"
+  | "costa-maya-2026"
+  | "costa-maya-2027"
+  | "ocho-rios-2026"
+  | "ocho-rios-2027"
+  | "tortola-2026"
+  | "tortola-2027"
+  | "puerto-limon-2026"
+  | "puerto-limon-2027"
+  | "st-kitts-2026"
+  | "st-kitts-2027";
+
+interface PortYearProfile {
+  slug: ScheduleHubPortSlug;
+  name: string;
+  years: ScheduleYear[];
+  terminalsPhrase: string;
+  dockSentence: string;
+  signatureList: string;
+  crowdSubject: string;
+  whyPassengersUse: string[];
+  faqs: FAQ[];
+}
+
+const fillYear = (value: string, year: ScheduleYear): string =>
+  value.replace(/%Y/g, String(year));
+
+const portYearProfiles: PortYearProfile[] = [
+  {
+    slug: "st-thomas",
+    name: "St. Thomas",
+    years: [2027],
+    terminalsPhrase: "the Havensight and Crown Bay terminals",
+    dockSentence:
+      "Both are dock berths with walk-off access — no tenders — but whether you land at Havensight or Crown Bay changes your taxi time to Magens Bay and whether Charlotte Amalie shopping is walkable.",
+    signatureList: "Magens Bay loungers, a St. John ferry day, or a catamaran snorkel sail",
+    crowdSubject: "days when two or more mega-ships share the terminals",
+    whyPassengersUse: [
+      "St. Thomas handles heavy Eastern Caribbean mega-ship traffic at two terminals — your %Y row shows whether you dock at Havensight or Crown Bay so operators stage pickup at the right gate.",
+      "Magens Bay loungers and taxis thin out on multi-ship %Y days; the monthly table reveals overlap so you can book transfers before embarkation.",
+      "A St. John ferry day to Trunk Bay needs six to seven hours ashore — the %Y departure column shows whether it fits or whether Sapphire Beach is the smarter choice.",
+      "Duty-free Charlotte Amalie shopping is walkable from Havensight but not Crown Bay, so terminal assignment shapes your self-guided morning.",
+    ],
+    faqs: [
+      {
+        question: "Which St. Thomas terminal will my %Y ship use — Havensight or Crown Bay?",
+        answer:
+          "Both serve cruise traffic year-round. Your %Y monthly row lists the terminal for your sailing; confirm on the ship because operators need the correct pickup gate. Havensight sits beside Charlotte Amalie shopping, while Crown Bay is west of town.",
+      },
+      {
+        question: "Does St. Thomas use tender boats in %Y?",
+        answer:
+          "No. Havensight and Crown Bay are dock terminals with walk-off access in %Y. Tender logistics do not apply, though taxi time between the terminals and Magens Bay still needs planning.",
+      },
+      {
+        question: "Can I reach St. John on a %Y St. Thomas port day?",
+        answer:
+          "St. John day trips need roughly six to seven hours including round-trip ferry and beach time. Check your %Y departure column — if all-aboard is early afternoon, choose Magens Bay or a Sapphire Beach snorkel instead.",
+      },
+      {
+        question: "How busy is St. Thomas on my %Y sailing date?",
+        answer:
+          "Open the %Y month that matches your cruise and count ships on the same date. St. Thomas regularly lists multiple large vessels, which drives Magens Bay crowds and snorkel-boat sellouts.",
+      },
+    ],
+  },
+  {
+    slug: "aruba",
+    name: "Aruba",
+    years: [2026, 2027],
+    terminalsPhrase: "the Port of Oranjestad",
+    dockSentence:
+      "Ships berth dockside at Oranjestad with downtown a five-minute walk — no tenders — and many Aruba calls carry late-evening departures that open afternoon catamaran sails other ports cannot fit.",
+    signatureList: "Eagle Beach transfers, an Arikok 4x4 adventure, or a De Palm Island package",
+    crowdSubject: "weeks that stack multiple ships in Oranjestad",
+    whyPassengersUse: [
+      "Aruba sits outside the hurricane belt with steady Southern Caribbean traffic — the %Y table shows which weeks stack multiple ships before you book Eagle Beach or Arikok tours.",
+      "Oranjestad's docked terminals put downtown within a five-minute walk, so your %Y arrival column frames how soon independent beach taxis can start.",
+      "Many %Y Aruba calls carry late-evening departures, opening afternoon catamaran snorkel sails that short Eastern Caribbean stops cannot fit.",
+      "De Palm Island and Arikok have daily capacity limits — multi-ship %Y overlap helps you reserve before pier-side sellout.",
+    ],
+    faqs: [
+      {
+        question: "Is Aruba a tender or dock port in %Y?",
+        answer:
+          "Aruba is a dock port. %Y ships berth at the Port of Oranjestad with walk-off access to downtown and taxi ranks — no tender boats under normal conditions.",
+      },
+      {
+        question: "How does the %Y Aruba schedule help with Eagle Beach planning?",
+        answer:
+          "Eagle Beach loungers and taxis thin out when several ships are in port. Your %Y monthly table shows overlap days so you can book organized transfers or arrive early rather than relying on brochure itinerary times.",
+      },
+      {
+        question: "Why do Aruba passengers use %Y schedules for catamaran timing?",
+        answer:
+          "Many Aruba calls depart later than short Eastern Caribbean stops. The %Y departure column shows whether an afternoon snorkel sail fits with a safe return buffer to the Oranjestad terminal.",
+      },
+      {
+        question: "How busy is Oranjestad on my %Y sailing date?",
+        answer:
+          "Open the %Y month that matches your cruise and count ships on the same date. Multiple large vessels mean fuller Eagle Beach clubs, longer taxi queues, and quicker Arikok 4x4 sellouts.",
+      },
+    ],
+  },
+  {
+    slug: "grand-cayman",
+    name: "Grand Cayman",
+    years: [2026, 2027],
+    terminalsPhrase: "the George Town anchorage",
+    dockSentence:
+      "Ships anchor offshore and passengers tender into George Town, so add 20–40 minutes each way plus queue time — and keep a weather-cancellation backup in mind, since rough seas can suspend tendering entirely.",
+    signatureList: "Stingray City, a Seven Mile Beach transfer, or a reef snorkel boat",
+    crowdSubject: "multi-ship anchorage days that lengthen tender queues",
+    whyPassengersUse: [
+      "Grand Cayman requires tenders into George Town — the %Y table lets you add 20–40 minutes each way to excursion math before booking Stingray City or snorkel boats.",
+      "Rough seas can delay or cancel tender operations; knowing how many ships share your %Y anchorage day helps you prioritize early departures.",
+      "Stingray City sandbar tours batch morning slots — the %Y arrival column shows whether you can make first boats after tender queues clear.",
+      "Seven Mile Beach and Turtle Centre transfers depend on George Town landing times, so published %Y windows frame realistic return buffers.",
+    ],
+    faqs: [
+      {
+        question: "Does Grand Cayman have a cruise dock in %Y?",
+        answer:
+          "No. Ships anchor offshore in George Town harbor and passengers tender ashore in %Y. Rough seas can suspend tendering, which is why %Y schedule planning must include weather contingency.",
+      },
+      {
+        question: "Why is the %Y Grand Cayman schedule especially important for excursions?",
+        answer:
+          "Tender queues, weather holds, and multi-ship anchorages add time dock ports do not. Your %Y row plus a tender buffer determines whether Stingray City and snorkel tours are realistic.",
+      },
+      {
+        question: "How early should I book Stingray City for my %Y port day?",
+        answer:
+          "Book before you sail on weeks when the %Y table shows multiple ships at anchor. Operators stage morning departures around first tender waves — late arrivals after long queues can miss optimal sandbar windows.",
+      },
+      {
+        question: "How much return buffer should I leave at Grand Cayman in %Y?",
+        answer:
+          "Plan to be at the George Town tender pier 60–75 minutes before published departure — longer than dock ports. Add margin when several ships anchor offshore or seas are choppy.",
+      },
+    ],
+  },
+  {
+    slug: "roatan",
+    name: "Roatán",
+    years: [2026, 2027],
+    terminalsPhrase: "the Mahogany Bay Cruise Center and Port of Roatán at Coxen Hole",
+    dockSentence:
+      "Ships dock at either terminal — no tenders — so confirm whether you berth at Mahogany Bay or Coxen Hole before booking West Bay transfers, since Coxen Hole sits closer to the beach.",
+    signatureList: "a West Bay Beach snorkel, a Gumbalimba Park adventure, or a West End reef tour",
+    crowdSubject: "days when Mahogany Bay and Coxen Hole both fill",
+    whyPassengersUse: [
+      "Roatán assigns ships to the Mahogany Bay Cruise Center or Port of Roatán at Coxen Hole — your %Y row helps match operators to the correct pier.",
+      "West Bay Beach and reef snorkel offer Cozumel-quality visibility at lower prices, and %Y overlap days sell those slots out faster.",
+      "Docked berths at both terminals simplify return timing versus tender ports, but taxi time to West Bay still depends on your %Y arrival column.",
+      "Zip-line parks like Gumbalimba book out on %Y weeks with multiple Carnival and Norwegian calls — reserve before embarkation.",
+    ],
+    faqs: [
+      {
+        question: "Which Roatán pier does my %Y ship use — Mahogany Bay or Coxen Hole?",
+        answer:
+          "Cruise lines use both terminals. Open your %Y monthly table and confirm on the ship before booking — operators stage pickups at specific gates, and Coxen Hole is closer to West Bay.",
+      },
+      {
+        question: "Is Roatán a tender port in %Y?",
+        answer:
+          "No. Both Mahogany Bay Cruise Center and Port of Roatán are dock berths with walk-off access in %Y. Tender logistics do not apply under normal conditions.",
+      },
+      {
+        question: "How does the %Y Roatán schedule help with reef snorkel booking?",
+        answer:
+          "Reef boats and West Bay taxis scale with pier-day volume. When the %Y table shows two or more ships, book snorkel seats before embarkation and target morning departures after gangway opens.",
+      },
+      {
+        question: "How busy is Roatán on my %Y sailing date?",
+        answer:
+          "Count the ships listed on your date in the %Y month table. Multiple Carnival, Norwegian, or Royal Caribbean calls mean fuller West Bay loungers and quicker Gumbalimba sellouts.",
+      },
+    ],
+  },
+  {
+    slug: "puerto-plata",
+    name: "Puerto Plata",
+    years: [2026, 2027],
+    terminalsPhrase: "the Amber Cove and Taíno Bay terminals",
+    dockSentence:
+      "Ships dock at either Amber Cove or Taíno Bay — two separate terminals a few miles apart — so your coach or taxi must meet you at the correct gate.",
+    signatureList:
+      "the Teleférico cable car, a 27 Waterfalls of Damajagua adventure, or a colonial city tour",
+    crowdSubject: "days when both Amber Cove and Taíno Bay are occupied",
+    whyPassengersUse: [
+      "Puerto Plata splits calls between Amber Cove and Taíno Bay — the %Y table shows which terminal your ship uses so coaches meet you at the correct gate.",
+      "Waterfall and cable-car excursions need mainland coach time; the %Y departure column determines whether 27 Charcos or Damajagua fits.",
+      "Eastern Caribbean loops often stack Puerto Plata with St. Maarten or St. Thomas — %Y volumes help you avoid overbooking adventure days.",
+      "Carnival and MSC volumes are strong here, so multi-ship %Y terminal days fill organized coaches before pier-side walk-up availability.",
+    ],
+    faqs: [
+      {
+        question: "What is the difference between Amber Cove and Taíno Bay in %Y?",
+        answer:
+          "They are separate Puerto Plata cruise terminals a few miles apart. Your %Y monthly row lists which facility your ship uses — coaches and taxis must meet you at the correct terminal gate.",
+      },
+      {
+        question: "Is Puerto Plata a tender port in %Y?",
+        answer:
+          "No. Both Amber Cove and Taíno Bay are dedicated dock facilities with walk-off access in %Y. Adventure excursions use organized coaches from the pier area.",
+      },
+      {
+        question: "Can I do 27 Waterfalls on a %Y Puerto Plata port day?",
+        answer:
+          "Yes on longer calls — Damajagua needs roughly five to six hours including coach time and a safety briefing. Check your %Y departure column; short turnarounds suit the Teleférico or a city tour instead.",
+      },
+      {
+        question: "How busy is Puerto Plata on my %Y sailing date?",
+        answer:
+          "Open the %Y month and count ships across both terminals on your date. Strong Carnival and MSC volumes can fill waterfall and cable-car coaches early.",
+      },
+    ],
+  },
+  {
+    slug: "costa-maya",
+    name: "Costa Maya",
+    years: [2026, 2027],
+    terminalsPhrase: "the Mahahual cruise village pier",
+    dockSentence:
+      "Ships dock at the single cruise village pier — no tenders — but ruin and lagoon tours run on mainland coach time that dictates which excursions fit your departure.",
+    signatureList: "a Chacchoben ruins coach, a Mahahual beach break, or a Bacalar lagoon expedition",
+    crowdSubject: "multi-ship days that fill Chacchoben coaches by mid-morning",
+    whyPassengersUse: [
+      "Costa Maya concentrates ships at one Mahahual cruise village pier — the %Y table shows whether your sailing shares the dock with additional vessels affecting coach departures.",
+      "Chacchoben and Bacalar excursions need mainland transit — %Y departure times show which tours fit without missed-ship risk.",
+      "The on-site port pool is convenient but crowds on multi-ship %Y days; schedules help you weigh port-village time against Mahahual village transfers.",
+      "Western loops often pair Costa Maya with Cozumel — the %Y table anchors planning before you cross-reference the busier Cozumel schedule.",
+    ],
+    faqs: [
+      {
+        question: "Is Costa Maya a tender port in %Y?",
+        answer:
+          "No. %Y ships dock at the dedicated Costa Maya cruise village with immediate access to the port complex. Coach excursions meet at the pier or village staging area.",
+      },
+      {
+        question: "Can I fit Bacalar Lagoon using %Y Costa Maya schedule times?",
+        answer:
+          "Bacalar needs roughly six to seven hours round trip from the cruise village. Open your %Y sailing month's departure column — if all-aboard is mid-afternoon or earlier, choose Chacchoben or Mahahual instead.",
+      },
+      {
+        question: "Why check the %Y schedule before booking Chacchoben ruins?",
+        answer:
+          "Coach departures batch around morning arrivals. When two or three ships share the pier on a %Y date, organized ruin tours sell out faster and port-village congestion slows pickup.",
+      },
+      {
+        question: "How busy is Costa Maya on my %Y sailing date?",
+        answer:
+          "Count the ships on your date in the %Y month table. Carnival and Royal Caribbean call frequently, so multi-ship overlap can appear in any season.",
+      },
+    ],
+  },
+  {
+    slug: "ocho-rios",
+    name: "Ocho Rios",
+    years: [2026, 2027],
+    terminalsPhrase: "the Ocho Rios cruise pier",
+    dockSentence:
+      "Ships dock with walk-off access — no tenders — but Dunn's River Falls and Mystic Mountain run on coaches that batch around morning arrivals.",
+    signatureList: "a Dunn's River Falls climb, Mystic Mountain, or a White River tubing float",
+    crowdSubject: "multi-ship weeks that fill falls and mountain coaches",
+    whyPassengersUse: [
+      "Dunn's River Falls is time-sensitive — the %Y table shows arrival windows that fit a guided climb versus a shorter shopping stop.",
+      "Mystic Mountain and rainforest adventures need coach transfers; the %Y departure column prevents booking bobsled runs that cannot return on time.",
+      "Jamaica north-coast traffic varies by pier-day volume, so %Y overlap helps you grab early coach slots before sellout.",
+      "Western loops often pair Ocho Rios with Cozumel or Costa Maya — %Y comparison builds realistic adventure pacing across ports.",
+    ],
+    faqs: [
+      {
+        question: "Is Ocho Rios a tender port in %Y?",
+        answer:
+          "No. %Y ships dock at the Ocho Rios cruise pier with walk-off access. Dunn's River Falls and Mystic Mountain excursions use coaches from the terminal area — no tender queues to factor in.",
+      },
+      {
+        question: "How does the %Y schedule help with Dunn's River Falls timing?",
+        answer:
+          "Guided falls climbs batch around morning arrivals. Your %Y row shows whether you can reach the falls before crowds build and whether departure allows the full three-to-four-hour experience.",
+      },
+      {
+        question: "Can I combine Dunn's River Falls and Mystic Mountain on one %Y port day?",
+        answer:
+          "Only on longer windows — together they need roughly six hours plus transfers. Check your %Y departure column; shorter calls should prioritize one adventure.",
+      },
+      {
+        question: "How busy is Ocho Rios on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multi-ship weeks fill falls and mountain coaches, so book first-slot departures early.",
+      },
+    ],
+  },
+  {
+    slug: "tortola",
+    name: "Tortola",
+    years: [2026, 2027],
+    terminalsPhrase: "the Road Town anchorage",
+    dockSentence:
+      "Ships anchor in Road Town harbour and passengers tender ashore, so add tender queue time and hold a 60–75 minute return buffer for BVI boat trips.",
+    signatureList: "a BVI catamaran snorkel sail, a Virgin Gorda and The Baths day, or a Road Town stroll",
+    crowdSubject: "multi-ship Road Town days that lengthen tender waits",
+    whyPassengersUse: [
+      "Tortola requires tenders at Road Town — the %Y table lets you add queue time before booking BVI catamaran departures.",
+      "Virgin Gorda and The Baths need boat time plus tender logistics — %Y departure columns frame whether day sails are realistic.",
+      "Eastern loops pair Tortola with St. Thomas and St. Maarten — comparing %Y volumes prevents overcommitted sailing days.",
+      "Multi-ship Road Town %Y weeks lengthen tender waits and fill catamaran capacity, so overlap counts drive early booking.",
+    ],
+    faqs: [
+      {
+        question: "Does Tortola use tenders or a cruise dock in %Y?",
+        answer:
+          "Tortola is a tender port. %Y ships anchor in Road Town harbour and passengers reach shore via ship tenders. Allow extra queue time morning and afternoon versus docked St. Thomas calls.",
+      },
+      {
+        question: "Can I reach Virgin Gorda on a %Y Tortola port day?",
+        answer:
+          "Yes on longer calls with calm seas. Open your %Y row, subtract tender time twice, then compare the remaining hours to a five-to-six-hour Virgin Gorda boat expedition.",
+      },
+      {
+        question: "Why do BVI catamaran operators ask for %Y Tortola schedule times?",
+        answer:
+          "Sailing departures batch around tender completion. Operators need your %Y arrival and departure windows to guarantee boat return before the last tender — especially on multi-ship Road Town days.",
+      },
+      {
+        question: "How much return buffer should I leave at Tortola in %Y?",
+        answer:
+          "Be at the Road Town tender pier 60–75 minutes before published departure. BVI boat tours must drop you with time for the last launch — tighter than dock ports like St. Thomas.",
+      },
+    ],
+  },
+  {
+    slug: "puerto-limon",
+    name: "Puerto Limón",
+    years: [2026, 2027],
+    terminalsPhrase: "the Limón Cruise Terminal",
+    dockSentence:
+      "Ships dock with walk-off access — no tenders — but the surrounding city is industrial, so nearly all passengers leave on organized coaches to rainforest and wildlife sites.",
+    signatureList: "a sloth sanctuary visit, a Veragua Rainforest tour, or a Cahuita snorkel",
+    crowdSubject: "the dates your itinerary actually calls, since Limón traffic is thinner than the mega-ports",
+    whyPassengersUse: [
+      "Puerto Limón is a coach-excursion port — %Y arrival times tell operators when to stage sloth sanctuary and rainforest pickups at the Limón Cruise Terminal.",
+      "Wildlife tours need inland transit through lush terrain — the %Y departure column determines whether Veragua Rainforest or a shorter Cahuita snorkel fits.",
+      "Puerto Limón is called less often than the mega-ports — the %Y table confirms whether your itinerary includes this port and on which dates.",
+      "Rainforest weather can slow coach returns, so knowing your published %Y departure helps operators pad return times.",
+    ],
+    faqs: [
+      {
+        question: "Is Puerto Limón a tender port in %Y?",
+        answer:
+          "No. %Y ships dock at the Limón Cruise Terminal with walk-off access for organized coaches. Most passengers book shore excursions rather than exploring the industrial port city independently.",
+      },
+      {
+        question: "Can I fit Veragua Rainforest using %Y schedule times?",
+        answer:
+          "Veragua needs roughly five to six hours including coach transit and aerial-tram time. Compare your %Y departure column — shorter calls suit the sloth sanctuary or a Cahuita snorkel instead.",
+      },
+      {
+        question: "How much Puerto Limón schedule data exists for %Y?",
+        answer:
+          "Call volumes are thinner than mega-ports like Cozumel. Check your specific %Y sailing month rather than assuming daily multi-ship congestion.",
+      },
+      {
+        question: "Why do Puerto Limón operators need %Y arrival times?",
+        answer:
+          "Coaches batch pickups around gangway opening. Rainforest roads and wildlife briefings add fixed time, so operators use your %Y arrival window to guarantee return before all-aboard.",
+      },
+    ],
+  },
+  {
+    slug: "st-kitts",
+    name: "St. Kitts",
+    years: [2026, 2027],
+    terminalsPhrase: "Port Zante in Basseterre",
+    dockSentence:
+      "Ships dock at Port Zante with walk-off access — no tenders — and the Scenic Railway and Brimstone Hill both run on capacity-limited coaches.",
+    signatureList: "the St. Kitts Scenic Railway, Brimstone Hill Fortress, or a South Friars Beach break",
+    crowdSubject: "single-ship versus dual-ship days at Basseterre",
+    whyPassengersUse: [
+      "St. Kitts receives Eastern and Southern Caribbean traffic at Port Zante — the %Y table shows whether your sailing shares Basseterre with another vessel affecting railway and fortress capacity.",
+      "The Scenic Railway and Brimstone Hill both need half-day blocks — %Y departure columns size realistic combinations.",
+      "Smaller call volumes can mean easier beach access than mega-ports — the %Y table confirms whether your week is a quiet single-ship day or a busier overlap.",
+      "Neighbouring St. Maarten and Tortola often share the itinerary — %Y hub comparison helps cross-port pacing.",
+    ],
+    faqs: [
+      {
+        question: "Is St. Kitts a tender port in %Y?",
+        answer:
+          "No. %Y ships dock at Port Zante in Basseterre with walk-off access to downtown and taxi ranks. Tender logistics do not apply at the main cruise berth.",
+      },
+      {
+        question: "Can I do the Scenic Railway and Brimstone Hill on one %Y port day?",
+        answer:
+          "Only on longer calls exceeding roughly six hours ashore. Check your %Y departure column — most passengers pick one headline experience plus a short beach or downtown stop.",
+      },
+      {
+        question: "Why check %Y St. Kitts schedules before booking excursions?",
+        answer:
+          "Railway seating and fortress coaches are capacity-limited. Even one additional ship in Basseterre can fill organized tours, so the %Y rows show overlap before you pay non-refundable deposits.",
+      },
+      {
+        question: "How busy is St. Kitts on my %Y sailing date?",
+        answer:
+          "Call volumes are lower than St. Thomas or Cozumel. Use the %Y table to confirm single-ship versus dual-ship days rather than assuming peak-season congestion.",
+      },
+    ],
+  },
+];
+
+function buildPortYearContent(
+  profile: PortYearProfile,
+  year: ScheduleYear,
+): SchedulePageContent {
+  const hub = scheduleHubContent[`${profile.slug}-hub`];
+  return {
+    intro: `This ${year} ${profile.name} cruise ship schedule lists published arrivals and departures at ${profile.terminalsPhrase}. ${profile.dockSentence} Before booking ${profile.signatureList}, check the monthly ${year} tables for ${profile.crowdSubject} so you can reserve popular operators early.`,
+    whyPassengersUse: profile.whyPassengersUse.map((point) => fillYear(point, year)),
+    planningYourDay: hub.planningYourDay,
+    faqs: profile.faqs.map((faq) => ({
+      question: fillYear(faq.question, year),
+      answer: fillYear(faq.answer, year),
+    })),
+    internalLinks: hub.internalLinks,
+  };
+}
+
+// St. Thomas 2026 has zero published calls but strong intent and full 2027 data,
+// so it stays indexed with a tailored editorial reference rather than a data table.
+const stThomas2026Content: SchedulePageContent = {
+  intro:
+    "Published St. Thomas ship calls currently concentrate in 2027, so this 2026 page is a planning reference for passengers whose itineraries pre-date the imported dataset. St. Thomas docks at the Havensight and Crown Bay terminals — no tenders — and the guidance below on Magens Bay timing, St. John ferry windows, and terminal-specific taxis applies to any St. Thomas port day. Open the 2027 schedule for the full month-by-month ship list.",
+  whyPassengersUse: [
+    "St. Thomas docks at Havensight and Crown Bay — no tenders — so your terminal assignment, not tender queues, is the main variable in a St. Thomas port day.",
+    "Magens Bay is roughly 20 minutes by taxi; on any busy pier day loungers and taxis thin out, so organized transfers beat curbside waits.",
+    "A St. John ferry day to Trunk Bay needs six to seven hours ashore — size it against your ship's departure before committing.",
+    "For published month-by-month ship lists, open the St. Thomas 2027 schedule, where the current dataset concentrates.",
+  ],
+  planningYourDay: scheduleHubContent["st-thomas-hub"].planningYourDay,
+  faqs: [
+    {
+      question: "Why does the 2026 St. Thomas schedule show few published calls?",
+      answer:
+        "Our imported dataset currently concentrates St. Thomas calls in 2027. This 2026 page remains a planning reference for terminal logistics, Magens Bay timing, and St. John ferry windows; open the St. Thomas 2027 schedule for the full month-by-month ship list.",
+    },
+    {
+      question: "Which St. Thomas terminal will my ship use — Havensight or Crown Bay?",
+      answer:
+        "Both serve cruise traffic year-round. Confirm your terminal on the ship because operators need the correct pickup gate. Havensight sits beside Charlotte Amalie shopping, while Crown Bay is west of town and needs a short taxi to reach the same beaches.",
+    },
+    {
+      question: "Does St. Thomas use tender boats?",
+      answer:
+        "No. Havensight and Crown Bay are dock terminals with walk-off access. Tender logistics do not apply, though taxi time between the terminals and Magens Bay still needs planning.",
+    },
+    {
+      question: "Can I visit St. John on a St. Thomas port day?",
+      answer:
+        "St. John day trips need roughly six to seven hours including round-trip ferry and beach time. If all-aboard is early afternoon, choose Magens Bay or a Sapphire Beach snorkel instead.",
+    },
+  ],
+  internalLinks: scheduleHubContent["st-thomas-hub"].internalLinks,
+};
+
+const generatedPortYearContent = portYearProfiles.reduce(
+  (acc, profile) => {
+    for (const year of profile.years) {
+      acc[`${profile.slug}-${year}` as GeneratedPortYearKey] = buildPortYearContent(
+        profile,
+        year,
+      );
+    }
+    return acc;
+  },
+  { "st-thomas-2026": stThomas2026Content } as Record<
+    GeneratedPortYearKey,
+    SchedulePageContent
+  >,
+);
+
 const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> = {
   ...scheduleHubContent,
+  ...generatedPortYearContent,
   home: {
     intro:
       "This is the starting point for Caribbean cruise ship and port schedules across our busiest destinations. Whether you are comparing 2026 and 2027 sailings, checking how many ships share a pier on your port day, or lining up shore excursions before you sail, open the year hub or port page that matches your itinerary and work backward from published arrival and departure times.",

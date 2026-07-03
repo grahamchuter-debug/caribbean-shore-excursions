@@ -9,6 +9,7 @@ import { getPortBySlug } from "@/data/ports";
 import { hasShipSchedule } from "@/lib/routes";
 import { excursionTypes } from "@/data/excursion-types";
 import {
+  getMonthGuidance,
   getMonthlyMetaDescription,
   getMonthlyScheduleFaqs,
   getMonthlyScheduleStats,
@@ -48,6 +49,7 @@ export function ShipScheduleMonthPageView({
   const monthLabel = formatMonthLabel(monthKey);
   const year = Number(monthKey.split("-")[0]) as ScheduleYear;
   const stats = getMonthlyScheduleStats(entries, port, monthKey);
+  const monthGuidance = getMonthGuidance(port, monthKey);
   const faqs = getMonthlyScheduleFaqs(port, monthKey, entries);
   const authorityPort = getPortBySlug(port.slug);
   const monthKeys = getVerifiedMonthKeysForPort(port.slug);
@@ -73,6 +75,10 @@ export function ShipScheduleMonthPageView({
             `This page lists cruise ships scheduled to call at ${port.name} during ${monthLabel}, including arrival and departure times where available.`}{" "}
           Use it to plan shore excursions around your ship&apos;s published port window.
         </p>
+        <div className="mt-4 rounded-lg border border-caribbean-200 bg-caribbean-50/60 px-4 py-3 text-sm text-gray-800 leading-relaxed">
+          <span className="font-semibold text-caribbean-900">{monthLabel} at {port.name}:</span>{" "}
+          {monthGuidance}
+        </div>
         {port.usesTender && (
           <p className="mt-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
             <strong>Tender port:</strong> {port.name} uses ship-to-shore tender boats. Allow extra
@@ -164,11 +170,15 @@ export function ShipScheduleMonthPageView({
       </section>
 
       <section className="mb-12 rounded-xl border-2 border-caribbean-200 bg-gradient-to-br from-caribbean-50 to-white p-6 sm:p-8">
-        <h2 className="section-title text-2xl sm:text-3xl mb-3">Plan Your Excursion</h2>
+        <h2 className="section-title text-2xl sm:text-3xl mb-3">Plan Your {monthLabel} Excursion</h2>
         <p className="text-gray-700 leading-relaxed mb-6">
-          Once you know your ship arrival and departure time, compare shore excursions for{" "}
-          {port.name}. Start with our authority port guide, then browse specialist local operators
-          with pier-aware pickup and return guarantees.
+          Once you know your ship&apos;s {monthLabel} arrival and departure time, compare shore
+          excursions for {port.name}.{" "}
+          {stats.busiestDay && stats.busiestDay.count >= 3
+            ? `With up to ${stats.busiestDay.count} ships sharing the pier on the busiest ${monthLabel} day, book signature tours before they sell out.`
+            : stats.shipCalls >= 40
+              ? `${monthLabel} is a high-volume month here, so reserve must-do tours before popular operators fill.`
+              : "Start with our authority port guide, then browse specialist local operators with pier-aware pickup and return guarantees."}
         </p>
         <div className="flex flex-wrap gap-3">
           <Link href={`/ports/${port.slug}`} className="btn-primary text-sm">

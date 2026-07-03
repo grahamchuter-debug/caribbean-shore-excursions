@@ -74,17 +74,100 @@ export function getMonthlyScheduleStats(
   };
 }
 
+type ScheduleRegion = "western" | "eastern" | "bahamas" | "southern";
+
+const PORT_REGION: Record<string, ScheduleRegion> = {
+  cozumel: "western",
+  "costa-maya": "western",
+  "grand-cayman": "western",
+  roatan: "western",
+  "ocho-rios": "western",
+  "puerto-limon": "western",
+  "st-thomas": "eastern",
+  "st-maarten": "eastern",
+  "puerto-plata": "eastern",
+  "st-kitts": "eastern",
+  tortola: "eastern",
+  nassau: "bahamas",
+  aruba: "southern",
+};
+
+type CrowdLevel = "peak" | "shoulder" | "low";
+
+function getSeasonCrowdLevel(month: number): CrowdLevel {
+  if ([12, 1, 2, 3].includes(month)) return "peak";
+  if ([8, 9, 10].includes(month)) return "low";
+  return "shoulder";
+}
+
+/**
+ * Short, month-specific guidance (weather, season, crowds, suitability) keyed by
+ * month + region so it scales across every port-month page without hand-writing
+ * hundreds of pages. Kept to 2–4 concise sentences.
+ */
+export function getMonthGuidance(port: ShipSchedulePort, monthKey: string): string {
+  const month = Number(monthKey.split("-")[1]);
+  const monthName = getMonthName(monthKey);
+  const region = PORT_REGION[port.slug] ?? "western";
+  const isSouthern = region === "southern";
+
+  let base: string;
+  if ([12, 1, 2, 3].includes(month)) {
+    base = `${monthName} falls in the Caribbean's dry winter peak season, with reliable sunshine, generally calm seas, and the year's heaviest cruise traffic. Expect ${port.name} to fill on multi-ship days, so reserve signature excursions well ahead. Conditions favour reef snorkel, catamaran sails, and beach days.`;
+    if (region === "bahamas") {
+      base = `${monthName} is winter peak season in the Bahamas — mostly sunny and busy, though occasional cool fronts bring breezier, choppier days. Nassau fills on multi-ship dates, so book Atlantis and snorkel tours early. Mornings are best for calm-water catamaran sails.`;
+    }
+  } else if (month === 4 || month === 5) {
+    base = `${monthName} is shoulder season — warm, largely dry, and quieter than the winter peak apart from early-April spring-break weeks. ${port.name} crowds ease, improving excursion availability. Seas stay favourable for snorkel and boat tours.`;
+  } else if (month === 6 || month === 7) {
+    base = `${monthName} brings hot, humid weather and the early Atlantic hurricane season, though storm risk stays low this early. Family travel lifts ${port.name} demand around school holidays. Plan beaches and reef trips for the morning before afternoon heat and showers.`;
+  } else if ([8, 9, 10].includes(month)) {
+    if (isSouthern) {
+      base = `${monthName} sits within Atlantic hurricane season, but Aruba lies outside the main hurricane belt and rarely takes a direct hit — expect hot, breezy, largely reliable beach weather with the lightest cruise crowds of the year. Excursions are easy to book, and afternoon catamaran sails suit late departures.`;
+    } else {
+      base = `${monthName} is the peak of Atlantic hurricane season — the hottest, wettest stretch with the lightest cruise traffic and occasional itinerary changes. ${port.name} excursions are easiest to book now, but keep plans flexible and watch tropical weather. Choose operators with clear cancellation terms.`;
+    }
+  } else {
+    base = `${monthName} is shoulder season as hurricane risk winds down and winter cruise traffic ramps up. ${port.name} balances warm weather with more manageable crowds. Seas generally settle, favouring reef snorkel and catamaran sails.`;
+  }
+
+  if (port.usesTender && !isSouthern) {
+    base += ` As a tender port, ${port.name} is sensitive to sea conditions — allow extra return buffer if winds pick up.`;
+  }
+
+  return base;
+}
+
 export function getMonthlyScheduleFaqs(
   port: ShipSchedulePort,
   monthKey: string,
   entries: ScheduleEntry[],
 ): FAQ[] {
   const monthLabel = formatMonthLabel(monthKey);
+  const month = Number(monthKey.split("-")[1]);
+  const crowd = getSeasonCrowdLevel(month);
+  const shipCalls = entries.length;
+  const busiestDay = getBusiestScheduledDay(entries);
   const uniqueShips = [...new Set(entries.map((entry) => entry.ship))].sort();
   const shipList =
     uniqueShips.length <= 8
       ? uniqueShips.join(", ")
       : `${uniqueShips.slice(0, 8).join(", ")}, and ${uniqueShips.length - 8} more`;
+
+  const tenderClause = port.usesTender ? "tender operations, " : "";
+  const crowdBookingClause =
+    crowd === "peak"
+      ? `${monthLabel} is peak season at ${port.name}, so book must-do tours two to three weeks ahead`
+      : crowd === "low"
+        ? `${monthLabel} is quieter at ${port.name}, so availability is easier — but still book a week or two ahead on any multi-ship date`
+        : `${monthLabel} is shoulder season at ${port.name}, so book popular tours one to two weeks ahead`;
+  const busiestClause =
+    busiestDay && busiestDay.count >= 3
+      ? ` The busiest day this month lists ${busiestDay.count} ships, when operators sell out fastest.`
+      : "";
+  const returnBuffer = port.usesTender
+    ? `As a tender port, plan to be at the ${port.name} tender pickup point 60–90 minutes before published departure`
+    : `Plan to be back at the ${port.name} terminal 30–60 minutes before published departure`;
 
   return [
     {
@@ -95,24 +178,23 @@ export function getMonthlyScheduleFaqs(
           : `No published ship calls are listed for ${port.name} in ${monthLabel}.`,
     },
     {
-      question: "How accurate are cruise ship schedules?",
+      question: `Can ${port.name} arrival times change in ${monthLabel}?`,
       answer:
-        "Published schedules are planning guides compiled from published cruise line and port schedule data. They are not guaranteed. Weather, tender conditions, and cruise line itinerary changes can alter arrival and departure times.",
+        `Yes. Cruise lines and the port adjust ${monthLabel} times for weather, pier traffic, ${tenderClause}and operational delays. ${getMonthGuidance(port, monthKey).split(". ")[0]}, so treat these as planning guides and confirm on your ship's daily program before disembarking.`,
     },
     {
-      question: "Can arrival and departure times change?",
+      question: `How early should I book a ${monthLabel} ${port.name} shore excursion?`,
       answer:
-        "Yes. Cruise lines and port authorities adjust times for weather, pier traffic, tender operations, and operational delays. Check your ship's daily program on port day before disembarking.",
+        `Once you confirm your ship's in-port window from this ${monthLabel} schedule, ${crowdBookingClause}.${busiestClause} Popular snorkel, beach, and wildlife tours sell out fastest when multiple ships share the port.`,
     },
     {
-      question: "How early should I book a shore excursion?",
+      question: `How much time should I leave before returning to the ship at ${port.name} in ${monthLabel}?`,
       answer:
-        `Once you confirm your ship's in-port window from this ${monthLabel} schedule, book must-do tours at least one to two weeks ahead on busy call days. Popular snorkel, beach, and wildlife excursions sell out fastest when multiple ships share the port.`,
+        `${returnBuffer}. Add extra buffer on full-day tours and dates when multiple ships are in port${crowd === "peak" ? `, which is common in ${monthLabel}` : ""}.`,
     },
     {
-      question: "How much time should I leave before returning to the ship?",
-      answer:
-        "Plan to be at the terminal or tender pickup point 30-60 minutes before published departure. Add extra buffer on tender ports, full-day tours, and dates with multiple ships in port.",
+      question: `What excursions suit ${port.name} in ${monthLabel}?`,
+      answer: getMonthGuidance(port, monthKey),
     },
   ];
 }
