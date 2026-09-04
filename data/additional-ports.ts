@@ -12,10 +12,10 @@ export const additionalPorts: Port[] = [
     overview:
       "Bonaire is the ABC islands' conservation-focused destination, famous for shore diving and snorkeling across a federally protected marine park. Cruise ships dock at Kralendijk's single pier with the compact town center within walking distance. Washington Slagbaai National Park, flamingo lagoons, and donkey sanctuaries suit travelers who want reef quality and wildlife over resort beaches.",
     bestExcursions: [
-      { name: "Shore Reef Snorkel Tour", description: "Guided snorkel along protected house reefs with exceptional visibility.", duration: "3-4 hours", type: "Snorkeling", rating: 4.9 },
-      { name: "Washington Slagbaai Safari", description: "National park jeep route with flamingo lagoons and rugged coastline.", duration: "4-5 hours", type: "Nature", rating: 4.8 },
-      { name: "Flamingo Salt Flat Tour", description: "Southern Pekelmeer salt pans and pink-lake flamingo viewing.", duration: "3-4 hours", type: "Wildlife", rating: 4.7 },
-      { name: "Donkey Sanctuary Visit", description: "Rescue sanctuary feeding and education stop popular with families.", duration: "2-3 hours", type: "Family", rating: 4.5 },
+      { name: "Shore Reef Snorkel Tour", description: "Guided snorkel along protected house reefs with exceptional visibility.", duration: "3-4 hours", type: "Snorkeling" },
+      { name: "Washington Slagbaai Safari", description: "National park jeep route with flamingo lagoons and rugged coastline.", duration: "4-5 hours", type: "Nature" },
+      { name: "Flamingo Salt Flat Tour", description: "Southern Pekelmeer salt pans and pink-lake flamingo viewing.", duration: "3-4 hours", type: "Wildlife" },
+      { name: "Donkey Sanctuary Visit", description: "Rescue sanctuary feeding and education stop popular with families.", duration: "2-3 hours", type: "Family" },
     ],
     portInfo: {
       dockType: "Kralendijk cruise pier in town center",
@@ -39,7 +39,7 @@ export const additionalPorts: Port[] = [
       { name: "Pekelmeer Salt Flats", description: "Pink salt ponds with seasonal flamingo colonies.", distance: "20 min by taxi" },
       { name: "Kralendijk Waterfront", description: "Compact Dutch-Caribbean town with dive shops and dining.", distance: "5 min walk" },
     ],
-    specialistUrl: "https://excursionsbonaire.com",
+    specialistUrl: "https://bonairecruiseexcursions.com",
     specialistName: "Bonaire Shore Excursions",
     faqs: [
       { question: "Is Bonaire good for non-divers?", answer: "Yes for snorkelers and wildlife lovers. Beach lounging is limited compared to Aruba, but guided reef snorkel tours and flamingo safaris deliver memorable port days." },
@@ -60,10 +60,10 @@ export const additionalPorts: Port[] = [
     overview:
       "Tortola is the largest of the British Virgin Islands and a premier sailing destination for cruise passengers who want catamaran charters, secluded coves, and a quieter alternative to USVI ports. Ships tender into Road Town harbor, putting waterfront shops, ferry terminals, and excursion piers within a short walk of the landing.",
     bestExcursions: [
-      { name: "Virgin Gorda & The Baths", description: "Ferry or boat to granite boulder beaches and swimming grottoes.", duration: "6-7 hours", type: "Island Tour", rating: 4.9 },
-      { name: "Catamaran Snorkel Sail", description: "BVI island-hopping with Norman Island or Jost Van Dyke stops.", duration: "5-6 hours", type: "Catamaran", rating: 4.8 },
-      { name: "Cane Garden Bay Beach", description: "Classic north-shore beach with calm water and beach bars.", duration: "4-5 hours", type: "Beach", rating: 4.7 },
-      { name: "Road Town Heritage Walk", description: "Colonial architecture, markets, and harbor orientation.", duration: "2-3 hours", type: "Culture", rating: 4.5 },
+      { name: "Virgin Gorda & The Baths", description: "Ferry or boat to granite boulder beaches and swimming grottoes.", duration: "6-7 hours", type: "Island Tour" },
+      { name: "Catamaran Snorkel Sail", description: "BVI island-hopping with Norman Island or Jost Van Dyke stops.", duration: "5-6 hours", type: "Catamaran" },
+      { name: "Cane Garden Bay Beach", description: "Classic north-shore beach with calm water and beach bars.", duration: "4-5 hours", type: "Beach" },
+      { name: "Road Town Heritage Walk", description: "Colonial architecture, markets, and harbor orientation.", duration: "2-3 hours", type: "Culture" },
     ],
     portInfo: {
       dockType: "Anchorage at Road Town, tender boats required",
@@ -72,7 +72,7 @@ export const additionalPorts: Port[] = [
       currency: "US Dollar (USD)",
       language: "English",
       timeZone: "Atlantic Standard Time (AST)",
-      safetyNotes: "Tender operations depend on sea conditions. Book sailing excursions with operators who guarantee on-time pier return.",
+      safetyNotes: "Tender operations depend on sea conditions. Book sailing excursions with operators who plan around your published departure and leave a sensible buffer before the last tender.",
     },
     passengerTips: [
       "Tortola requires tenders, disembark early on busy Eastern Caribbean days",
@@ -108,10 +108,10 @@ export const additionalPorts: Port[] = [
     overview:
       "Progreso is the Yucatán Peninsula's longest cruise pier, serving Western Caribbean itineraries with access to colonial Mérida, UNESCO-listed Uxmal ruins, and Celestún flamingo reserves. The modern terminal sits at the end of a four-mile pier with shuttle or taxi connections to town and mainland excursion departures.",
     bestExcursions: [
-      { name: "Mérida Colonial City Tour", description: "Plaza Grande, cathedral, and Paseo de Montejo mansions.", duration: "4-5 hours", type: "Culture", rating: 4.8 },
-      { name: "Uxmal Mayan Ruins", description: "Puuc-architecture UNESCO site with fewer crowds than Chichén Itzá.", duration: "5-6 hours", type: "Ruins", rating: 4.9 },
-      { name: "Celestún Flamingo Reserve", description: "Boat tour through mangroves to seasonal pink flamingo colonies.", duration: "5-6 hours", type: "Wildlife", rating: 4.7 },
-      { name: "Progreso Beach Break", description: "Gulf beach time near the pier with local seafood lunch.", duration: "3-4 hours", type: "Beach", rating: 4.4 },
+      { name: "Mérida Colonial City Tour", description: "Plaza Grande, cathedral, and Paseo de Montejo mansions.", duration: "4-5 hours", type: "Culture" },
+      { name: "Uxmal Mayan Ruins", description: "Puuc-architecture UNESCO site with fewer crowds than Chichén Itzá.", duration: "5-6 hours", type: "Ruins" },
+      { name: "Celestún Flamingo Reserve", description: "Boat tour through mangroves to seasonal pink flamingo colonies.", duration: "5-6 hours", type: "Wildlife" },
+      { name: "Progreso Beach Break", description: "Gulf beach time near the pier with local seafood lunch.", duration: "3-4 hours", type: "Beach" },
     ],
     portInfo: {
       dockType: "World's longest cruise pier (approx. 4 miles) at Progreso",
@@ -156,10 +156,10 @@ export const additionalPorts: Port[] = [
     overview:
       "Samaná is the Dominican Republic's nature-focused cruise port on the northeast peninsula, famous for seasonal humpback whale watching, El Limón waterfall hikes, and secluded beaches like Playa Rincón. Ships dock at the Samaná cruise terminal with the town waterfront and excursion piers a short transfer away.",
     bestExcursions: [
-      { name: "Humpback Whale Watching", description: "Seasonal boat tours to breeding grounds (January to March peak).", duration: "3-4 hours", type: "Wildlife", rating: 4.9 },
-      { name: "El Limón Waterfall Horseback", description: "Horse trek through rainforest to a 50-meter cascade swim.", duration: "4-5 hours", type: "Adventure", rating: 4.8 },
-      { name: "Playa Rincón Beach", description: "Palm-fringed secluded beach on the peninsula's east coast.", duration: "5-6 hours", type: "Beach", rating: 4.7 },
-      { name: "Los Haitises National Park", description: "Mangrove boat tour with Taino cave pictographs.", duration: "5-6 hours", type: "Nature", rating: 4.6 },
+      { name: "Humpback Whale Watching", description: "Seasonal boat tours to breeding grounds (January to March peak).", duration: "3-4 hours", type: "Wildlife" },
+      { name: "El Limón Waterfall Horseback", description: "Horse trek through rainforest to a 50-meter cascade swim.", duration: "4-5 hours", type: "Adventure" },
+      { name: "Playa Rincón Beach", description: "Palm-fringed secluded beach on the peninsula's east coast.", duration: "5-6 hours", type: "Beach" },
+      { name: "Los Haitises National Park", description: "Mangrove boat tour with Taino cave pictographs.", duration: "5-6 hours", type: "Nature" },
     ],
     portInfo: {
       dockType: "Samaná cruise terminal on the bay",
@@ -204,10 +204,10 @@ export const additionalPorts: Port[] = [
     overview:
       "La Romana is the Dominican Republic's southeast cruise gateway, best known for Saona Island catamaran day trips, the recreated Mediterranean village of Altos de Chavón, and access to Catalina Island snorkeling. Ships dock at Casa de Campo cruise port with excursion operators staging directly at the terminal.",
     bestExcursions: [
-      { name: "Saona Island Catamaran", description: "White-sand island with natural pool, lunch, and open bar.", duration: "6-7 hours", type: "Catamaran", rating: 4.9 },
-      { name: "Altos de Chavón Village", description: "Artisan village, amphitheater, and river views above the Chavón River.", duration: "3-4 hours", type: "Culture", rating: 4.7 },
-      { name: "Catalina Island Snorkel", description: "Protected reef snorkel off a small island near the coast.", duration: "5-6 hours", type: "Snorkeling", rating: 4.8 },
-      { name: "Cave of Wonders Tour", description: "Underground limestone cavern with Taino history exhibits.", duration: "3-4 hours", type: "Sightseeing", rating: 4.5 },
+      { name: "Saona Island Catamaran", description: "White-sand island with natural pool, lunch, and open bar.", duration: "6-7 hours", type: "Catamaran" },
+      { name: "Altos de Chavón Village", description: "Artisan village, amphitheater, and river views above the Chavón River.", duration: "3-4 hours", type: "Culture" },
+      { name: "Catalina Island Snorkel", description: "Protected reef snorkel off a small island near the coast.", duration: "5-6 hours", type: "Snorkeling" },
+      { name: "Cave of Wonders Tour", description: "Underground limestone cavern with Taino history exhibits.", duration: "3-4 hours", type: "Sightseeing" },
     ],
     portInfo: {
       dockType: "Casa de Campo cruise port near La Romana",
@@ -252,10 +252,10 @@ export const additionalPorts: Port[] = [
     overview:
       "Montego Bay is Jamaica's tourism capital and a major cruise port on the island's north coast, offering Doctor's Cave Beach, the lively Hip Strip, Rose Hall Great House tours, and easy access to resort beaches. Ships dock at the Montego Bay cruise terminal with taxis and organized excursions available pier-side.",
     bestExcursions: [
-      { name: "Doctor's Cave Beach", description: "Famous mineral-water beach with facilities on the Hip Strip.", duration: "4-5 hours", type: "Beach", rating: 4.8 },
-      { name: "Rose Hall Great House", description: "Restored plantation great house with guided history tours.", duration: "3-4 hours", type: "Culture", rating: 4.6 },
-      { name: "Dunn's River Falls (from MoBay)", description: "Iconic waterfall climb reached by 90-minute coastal drive.", duration: "6-7 hours", type: "Adventure", rating: 4.7 },
-      { name: "Margaritaville MoBay", description: "Beach club with water slide, pool, and Hip Strip location.", duration: "4-5 hours", type: "Beach", rating: 4.5 },
+      { name: "Doctor's Cave Beach", description: "Famous mineral-water beach with facilities on the Hip Strip.", duration: "4-5 hours", type: "Beach" },
+      { name: "Rose Hall Great House", description: "Restored plantation great house with guided history tours.", duration: "3-4 hours", type: "Culture" },
+      { name: "Dunn's River Falls (from MoBay)", description: "Iconic waterfall climb reached by 90-minute coastal drive.", duration: "6-7 hours", type: "Adventure" },
+      { name: "Margaritaville MoBay", description: "Beach club with water slide, pool, and Hip Strip location.", duration: "4-5 hours", type: "Beach" },
     ],
     portInfo: {
       dockType: "Montego Bay cruise terminal",
@@ -288,5 +288,53 @@ export const additionalPorts: Port[] = [
     ],
     highlights: ["Doctor's Cave Beach", "Rose Hall estate", "Hip Strip dining", "Resort beach access"],
     imageAlt: "Doctor's Cave Beach turquoise waters along Montego Bay's Hip Strip",
+  },
+  {
+    slug: "st-kitts",
+    name: "St. Kitts",
+    country: "St. Kitts & Nevis",
+    region: "Eastern Caribbean",
+    bestFor: "Scenic railway & fortress history",
+    imageTheme: "fortress",
+    tagline: "Port Zante docking, Brimstone Hill, and the St Kitts Scenic Railway",
+    overview:
+      "St. Kitts is a compact Eastern Caribbean port day centred on Basseterre's Port Zante cruise pier. Ships dock directly, so passengers can walk into the waterfront quickly and reach taxis for Brimstone Hill Fortress, the narrow-gauge Scenic Railway, South Friars Beach, or a coastal catamaran sail. The island rewards travellers who want a mix of history, scenery, and beach time without a tender delay.",
+    bestExcursions: [
+      { name: "St Kitts Scenic Railway", description: "Narrow-gauge circle tour around sugar-estate countryside with coastal views.", duration: "3-4 hours", type: "Sightseeing" },
+      { name: "Brimstone Hill Fortress", description: "UNESCO fortress high above the west coast with wide Caribbean panoramas.", duration: "3-4 hours", type: "Culture" },
+      { name: "Island Highlights Tour", description: "Basseterre orientation with viewpoints, fortress stop, and beach time.", duration: "4-5 hours", type: "Island Tour" },
+      { name: "Catamaran Coastal Sail", description: "Snorkel and swim stops along the south-east peninsula on a timed port-day sail.", duration: "4-5 hours", type: "Catamaran" },
+    ],
+    portInfo: {
+      dockType: "Port Zante cruise pier in Basseterre",
+      walkingDistance: "A few minutes to the waterfront and taxi ranks",
+      tenderRequired: false,
+      currency: "Eastern Caribbean Dollar (XCD), USD widely accepted",
+      language: "English",
+      timeZone: "Atlantic Standard Time (AST)",
+      safetyNotes: "Use licensed taxis and organised operators. Confirm return timing before leaving Port Zante on longer inland tours.",
+    },
+    passengerTips: [
+      "Port Zante is a walk-off dock, so start early if combining the railway with Brimstone Hill",
+      "Scenic Railway seats can sell out on multi-ship days, so check capacity before sailing",
+      "Brimstone Hill is exposed; bring water and sun protection for the walls and viewpoints",
+      "South Friars Beach works well as a shorter afternoon option when departure is later",
+      "Compare St Kitts with nearby St Maarten and Tortola if your itinerary visits more than one",
+    ],
+    topAttractions: [
+      { name: "Brimstone Hill Fortress", description: "UNESCO-listed fortress with sweeping coastal views.", distance: "30-40 min by taxi" },
+      { name: "St Kitts Scenic Railway", description: "Historic narrow-gauge railway circling plantation countryside.", distance: "Short transfer from Port Zante" },
+      { name: "Port Zante / Basseterre", description: "Cruise pier, waterfront shops, and taxi staging.", distance: "At the ship" },
+      { name: "South Friars Beach", description: "South-east peninsula beach stop for a simpler swim day.", distance: "25-35 min by taxi" },
+    ],
+    specialistUrl: "https://stkittsshoreexcursion.com",
+    specialistName: "St Kitts Shore Excursions",
+    faqs: [
+      { question: "Do cruise ships tender in St Kitts?", answer: "No. Ships dock at Port Zante in Basseterre, with the waterfront and taxis close to the pier." },
+      { question: "What is the signature St Kitts cruise excursion?", answer: "Many passengers choose either the Scenic Railway or Brimstone Hill Fortress. Combining both needs a longer call and an early start." },
+      { question: "Is St Kitts good for a beach day?", answer: "Yes. South Friars and other peninsula beaches suit simpler port days, especially if you prefer less inland travel than a fortress or railway tour." },
+    ],
+    highlights: ["Port Zante docking", "Brimstone Hill Fortress", "Scenic Railway", "Peninsula beaches"],
+    imageAlt: "Cruise pier and green hills around Basseterre, St Kitts",
   },
 ];

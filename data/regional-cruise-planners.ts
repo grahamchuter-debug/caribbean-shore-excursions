@@ -555,7 +555,7 @@ export const regionalCruisePlanners: RegionalCruisePlannerPage[] = [
         portSlug: "nassau",
         title: "Private half-day flexible plan",
         advice:
-          "Best on shorter calls when you want one premium stop plus easy guaranteed return margin.",
+          "Best on shorter calls when you want one premium stop plus an easy buffer before departure.",
       },
       {
         portSlug: "grand-cayman",

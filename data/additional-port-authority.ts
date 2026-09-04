@@ -4,7 +4,7 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
   bonaire: {
     seoTitle: "Bonaire Shore Excursions & Cruise Port Guide",
     seoDescription:
-      "Bonaire cruise port authority guide to shore diving, marine park snorkeling, flamingo tours, Washington Slagbaai and excursionsbonaire.com.",
+      "Bonaire cruise port authority guide to shore diving, marine park snorkeling, flamingo tours, Washington Slagbaai and bonairecruiseexcursions.com.",
     whyVisit: [
       "Bonaire National Marine Park protects the Caribbean's healthiest accessible reefs",
       "Shore diving and snorkeling directly from marked reef sites",
@@ -227,6 +227,44 @@ export const additionalPortAuthority: Record<string, PortAuthorityContent> = {
       { name: "Private MoBay highlights tour", description: "Custom route covering Rose Hall, viewpoints, and beach time." },
       { name: "Private Dunn's River extension", description: "Dedicated coach for passengers willing to accept longer transfers." },
       { name: "Private beach club day", description: "Reserved loungers and lunch at a selected resort beach." },
+    ],
+  },
+  "st-kitts": {
+    seoTitle: "St Kitts Shore Excursions & Cruise Port Guide",
+    seoDescription:
+      "St Kitts cruise port authority guide to Port Zante, Brimstone Hill Fortress, the Scenic Railway, beaches and stkittsshoreexcursion.com.",
+    whyVisit: [
+      "Ships dock at Port Zante in Basseterre with quick waterfront and taxi access",
+      "Brimstone Hill Fortress is a UNESCO landmark with wide coastal views",
+      "The St Kitts Scenic Railway offers a distinctive countryside circle tour",
+      "Peninsula beaches suit simpler swim days when you want less inland travel",
+    ],
+    bestBeaches: [
+      { name: "South Friars Beach", description: "South-east peninsula beach popular for a straightforward cruise swim stop." },
+      { name: "Frigate Bay", description: "Resort-area beaches with facilities and easy taxi access from Basseterre." },
+      { name: "Timothy Beach area", description: "Calm swimming options on the peninsula for a quieter afternoon." },
+    ],
+    bestForFamilies: [
+      "Scenic Railway circle tour with seated viewing and commentary",
+      "Shorter Basseterre and Port Zante orientation with beach time",
+      "Brimstone Hill visit timed for cooler morning hours",
+      "Catamaran sail with a sheltered snorkel or swim stop",
+    ],
+    bestForCouples: [
+      "Private island highlights with Brimstone Hill and a peninsula viewpoint",
+      "Coastal catamaran sail with swim time away from the pier crowds",
+      "Quiet Frigate Bay afternoon after a morning fortress visit",
+      "Flexible private taxi day covering railway timing and beach stops",
+    ],
+    snorkelling: [
+      { site: "South-east peninsula boat stops", description: "Common snorkel and swim stops on timed catamaran sails." },
+      { site: "Coastal reef pockets", description: "Smaller reef sections reached on organised boat excursions." },
+      { site: "Calm peninsula beaches", description: "Light shore snorkelling where water clarity and conditions allow." },
+    ],
+    privateTours: [
+      { name: "Private Brimstone Hill and viewpoints", description: "Dedicated taxi or guide focused on the fortress and west-coast lookouts." },
+      { name: "Private island highlights day", description: "Flexible mix of Basseterre, countryside stops, and beach time." },
+      { name: "Private peninsula beach transfer", description: "Direct return transfer to South Friars or Frigate Bay on your schedule." },
     ],
   },
 };

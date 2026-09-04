@@ -309,7 +309,7 @@ const authority: Record<string, PortAuthorityContent> = {
   "costa-maya": {
     seoTitle: "Costa Maya Shore Excursions & Cruise Port Guide",
     seoDescription:
-      "Costa Maya cruise port authority guide to Chacchoben ruins, Mahahual beach, snorkeling, family tours, private options and costamayashoreexcursions.com.",
+      "Costa Maya cruise port authority guide to Chacchoben ruins, Mahahual beach, snorkeling, family tours, private options and costamayashoreexcursion.com.",
     whyVisit: [
       "Purpose-built port village with shops, dining, and saltwater pool at the pier",
       "Chacchoben Mayan ruins are less crowded than Tulum with impressive pyramids",
@@ -360,7 +360,7 @@ const authority: Record<string, PortAuthorityContent> = {
       { name: "Puerto Viejo Beach (excursion)", description: "Laid-back southern coast stretch on longer full-day tours from the cruise pier." },
     ],
     bestForFamilies: [
-      "Sloth and wildlife sanctuary tours with guaranteed animal viewing for all ages",
+      "Sloth and wildlife sanctuary tours focused on rainforest habitats often visited by cruise passengers",
       "Veragua Rainforest aerial tram for non-hikers wanting canopy views",
       "Banana plantation tour with educational farm visit and cultural storytelling",
       "Cahuita snorkel with calm shallow reef sections for beginner swimmers",
@@ -461,7 +461,7 @@ const authority: Record<string, PortAuthorityContent> = {
   falmouth: {
     seoTitle: "Falmouth Shore Excursions & Cruise Port Guide",
     seoDescription:
-      "Falmouth Jamaica authority guide to Martha Brae rafting, historic town walks, Good Hope Estate, Luminous Lagoon and falmouthshoreexcursions.com.",
+      "Falmouth Jamaica authority guide to Martha Brae rafting, historic town walks, Good Hope Estate, Luminous Lagoon and falmouthshoreexcursion.com.",
     whyVisit: [
       "Best access to Martha Brae bamboo rafting on Jamaica's north coast",
       "Historic Georgian town center walkable from the cruise pier",

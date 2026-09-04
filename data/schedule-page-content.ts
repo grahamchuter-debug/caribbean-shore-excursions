@@ -413,7 +413,7 @@ const portYearProfiles: PortYearProfile[] = [
       {
         question: "Why do BVI catamaran operators ask for %Y Tortola schedule times?",
         answer:
-          "Sailing departures batch around tender completion. Operators need your %Y arrival and departure windows to guarantee boat return before the last tender — especially on multi-ship Road Town days.",
+          "Sailing departures batch around tender completion. Operators need your %Y arrival and departure windows to plan boat return before the last tender — especially on multi-ship Road Town days.",
       },
       {
         question: "How much return buffer should I leave at Tortola in %Y?",
@@ -456,7 +456,7 @@ const portYearProfiles: PortYearProfile[] = [
       {
         question: "Why do Puerto Limón operators need %Y arrival times?",
         answer:
-          "Coaches batch pickups around gangway opening. Rainforest roads and wildlife briefings add fixed time, so operators use your %Y arrival window to guarantee return before all-aboard.",
+          "Coaches batch pickups around gangway opening. Rainforest roads and wildlife briefings add fixed time, so operators use your %Y arrival window to plan return before all-aboard.",
       },
     ],
   },
@@ -805,7 +805,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         question: "How should I use 2027 monthly schedule pages for shore excursions?",
         answer:
-          "Open your port's 2027 page, select the month you sail, and read arrival and departure columns for your ship and any others sharing the pier. That window is what reef operators, Atlantis transfers, and private drivers need to guarantee on-time return.",
+          "Open your port's 2027 page, select the month you sail, and read arrival and departure columns for your ship and any others sharing the pier. That window is what reef operators, Atlantis transfers, and private drivers need when planning a sensible buffer before departure.",
       },
       {
         question: "Where can I see 2027 seasonal cruise patterns alongside schedules?",
@@ -919,7 +919,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         label: "Nassau Shore Excursions",
         href: "https://nassaucruiseexcursions.com",
-        description: "Pier-aware operators with on-time return guarantees.",
+        description: "Pier-aware operators who plan around published departure times.",
         external: true,
       },
       {
@@ -1089,7 +1089,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         question: "How does the 2026 Cozumel schedule help with reef snorkel timing?",
         answer:
-          "Reef boats batch departures around morning arrivals. If your 2026 row shows a late morning arrival or multiple ships, book the earliest compatible snorkel slot or choose an operator that guarantees pier pickup after your actual gangway time.",
+          "Reef boats batch departures around morning arrivals. If your 2026 row shows a late morning arrival or multiple ships, book the earliest compatible snorkel slot or choose an operator that can time pier pickup after your actual gangway time.",
       },
       {
         question: "Can I fit Tulum using the 2026 Cozumel arrival and departure times?",
@@ -1139,7 +1139,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       "2027 multi-ship Cozumel days fill reef boats and beach clubs by mid-morning — the schedule shows overlap before you sail.",
       "Three pier locations mean your 2027 arrival port affects how quickly you reach San Miguel or west-side snorkel docks.",
       "Departure times determine whether mainland Tulum is feasible or whether you should stay on-island for reef and beach clubs.",
-      "Published 2027 rows replace brochure guesses with ship names and times independent operators need for on-time return guarantees.",
+      "Published 2027 rows replace brochure guesses with ship names and times independent operators need when planning a sensible buffer before departure.",
     ],
     planningYourDay: {
       summary:
@@ -1233,7 +1233,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       "Philipsburg is a dock port — your 2026 arrival column tells you when gangway opens for Maho Beach taxis and water taxis to Front Street shopping.",
       "Multi-ship 2026 Great Bay days crowd Maho Beach viewpoints and Orient Bay loungers; the monthly table shows competing vessels on your exact date.",
       "Dual-nation tours crossing Sint Maarten and Saint Martin need five to six hours ashore — the 2026 departure time is the hard cutoff for Grand Case lunches.",
-      "Catamaran sails and island highlights combos batch morning departures around pier arrivals — published 2026 schedules replace brochure guesses for on-time return guarantees.",
+      "Catamaran sails and island highlights combos batch morning departures around pier arrivals — published 2026 schedules replace brochure guesses when planning a sensible buffer before departure.",
     ],
     planningYourDay: {
       summary:
@@ -1294,7 +1294,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       {
         label: "St. Maarten Shore Excursions",
         href: "https://stmaartenshoreexcursion.com",
-        description: "Pier-aware operators with on-time return guarantees.",
+        description: "Pier-aware operators who plan around published departure times.",
         external: true,
       },
       {

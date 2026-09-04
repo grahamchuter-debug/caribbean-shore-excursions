@@ -15,7 +15,7 @@ export const extraComparisons: Comparison[] = [
       "Aruba and Bonaire are neighbors in the Southern Caribbean's ABC island chain, but they attract entirely different types of cruise passengers. Aruba delivers polished resort beaches and sunset catamaran sails; Bonaire is the Caribbean's undisputed shore-diving capital with flamingo-studded salt flats and a national marine park protecting every reef.",
     overview: {
       portA:
-        "Aruba is the ABC islands' beach and resort destination, built around Eagle Beach, trade-wind catamaran sails, and the semi-arid landscapes of Arikok National Park. Oranjestad's two cruise terminals put duty-free shopping and a lively waterfront within walking distance, and the island's position outside the hurricane belt guarantees year-round reliability.",
+        "Aruba is the ABC islands' beach and resort destination, built around Eagle Beach, trade-wind catamaran sails, and the semi-arid landscapes of Arikok National Park. Oranjestad's two cruise terminals put duty-free shopping and a lively waterfront within walking distance, and the island's position outside the hurricane belt supports strong year-round reliability.",
       portB:
         "Bonaire is a UNESCO-recognized marine environment where every inch of reef is federally protected. The island is small, flat, and traffic-light free, a deliberate conservation choice. Cruise passengers arrive at Kralendijk's single pier and find a compact town, world-famous dive sites within wading distance of shore, and Washington Slagbaai National Park's flamingo lagoons waiting inland.",
     },

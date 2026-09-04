@@ -93,8 +93,8 @@ export function SpecialistLocalGuide({
     <section className="mb-12">
       <h2 className="section-title text-2xl sm:text-3xl mb-3">Detailed Local Guide</h2>
       <p className="text-gray-600 mb-6 text-sm leading-relaxed">
-        Ready to book? Our specialist partner for {port.name} lists vetted local operators with
-        pier-aware pickup times, transparent pricing, and excursion details tailored to cruise ship
+        Looking for more detail? Our specialist partner for {port.name} lists local operators with
+        pier-aware pickup timing, transparent pricing, and excursion options tailored to cruise ship
         schedules.
       </p>
       <SpecialistLocalGuideCard portSlug={portSlug} hidePortGuideLink={hidePortGuideLink} />

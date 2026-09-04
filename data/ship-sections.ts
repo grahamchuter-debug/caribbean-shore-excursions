@@ -149,7 +149,7 @@ export const shipSectionData: Record<string, ShipSectionData> = {
     ],
     privateTourRecommendations: [
       { title: "Private Amber Cove driver", portSlug: "puerto-plata", advice: "Custom Teleférico, waterfall, or beach pacing for Dominican calls." },
-      { title: "Private Cozumel two-stop boat", portSlug: "cozumel", advice: "Smaller groups with pier pickup and guaranteed return." },
+      { title: "Private Cozumel two-stop boat", portSlug: "cozumel", advice: "Smaller groups with pier pickup and planned return timing." },
       { title: "Private Grand Cayman stingray charter", portSlug: "grand-cayman", advice: "Early departure before Carnival group boats fill the sandbar." },
     ],
   }),
@@ -286,7 +286,7 @@ export const shipSectionData: Record<string, ShipSectionData> = {
       { title: "Curacao Blue Bay snorkel", portSlug: "curacao", advice: "Protected bay entry on select Southern/Eastern MSC rotations." },
     ],
     privateTourRecommendations: [
-      { title: "Private Cozumel reef charter", portSlug: "cozumel", advice: "Custom reef stops with MSC pier pickup guarantees." },
+      { title: "Private Cozumel reef charter", portSlug: "cozumel", advice: "Custom reef stops with MSC pier pickup arranged around your call." },
       { title: "Private Puerto Plata driver", portSlug: "puerto-plata", advice: "Waterfall, Teleférico, or beach on flexible timing." },
       { title: "Private St. Maarten panoramic tour", portSlug: "st-maarten", advice: "Dutch and French highlights with custom beach stop." },
     ],

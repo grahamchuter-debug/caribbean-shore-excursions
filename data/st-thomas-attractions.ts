@@ -143,7 +143,7 @@ export const stThomasAttractionGuides: AttractionGuidePage[] = [
     whatItIs:
       "Coki Beach is a compact east-end swim beach beside Coral World Ocean Park. Vendor stalls, music, and equipment rentals create a busier atmosphere than Magens Bay, with reef entry directly from the sand on calm days.",
     whyCruisePassengersVisit:
-      "Families and snorkelers use Coki when they want guaranteed gear rentals, quick reef access, and the option to add Coral World's touch pools and underwater observatory without a boat tour.",
+      "Families and snorkelers use Coki when they want reliable gear rentals, quick reef access, and the option to add Coral World's touch pools and underwater observatory without a boat tour.",
     distanceFromPort: "About 7–8 miles from downtown terminals — roughly 20–25 minutes by taxi, similar timing to Sapphire Beach.",
     bestFor: ["Snorkeling", "Families with older children", "Coral World combo days", "Gear rental on arrival"],
     facilities: [
@@ -219,7 +219,7 @@ export const stThomasAttractionGuides: AttractionGuidePage[] = [
     recommendedExcursions: [
       {
         name: "St. Thomas Resort Beach Day",
-        description: "Organized resort-beach access with transport — useful when you want guaranteed facilities and return timing.",
+        description: "Organized resort-beach access with transport — useful when you want organised facilities and clearer return timing.",
         href: "https://stthomasshoreexcursion.com/st-thomas-resort-beach-day.html",
       },
       {

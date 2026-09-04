@@ -15,9 +15,9 @@ export const cruiseTips: CruiseTip[] = [
   },
   {
     title: "Compare Cruise Line vs Independent Excursions",
-    excerpt: "Ship excursions offer guarantees; independent tours offer value and flexibility.",
+    excerpt: "Ship excursions include the cruise line's return policy; independent tours offer value and flexibility.",
     content:
-      "Cruise line excursions typically cost 30-50% more but include a guaranteed return to ship. Independent operators on specialist port websites offer better pricing, smaller groups, and more customized experiences. A smart strategy: book your one must-do excursion through the ship, then use independent operators for everything else.",
+      "Cruise line excursions typically cost 30-50% more but usually include the cruise line's return-to-ship policy. Independent operators on specialist port websites offer better pricing, smaller groups, and more customized experiences. A smart strategy: book your one must-do excursion through the ship, then use independent operators for everything else.",
   },
   {
     title: "Plan Around Multi-Ship Days",

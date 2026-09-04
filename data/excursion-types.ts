@@ -30,11 +30,11 @@ export const excursionTypes: ExcursionType[] = [
     faqs: [
       { question: "Do I need an excursion to visit Caribbean beaches?", answer: "It depends on the port. Some beaches are taxi-distance from the terminal. Others like Seven Mile Beach require knowing specific public access points, organized excursions simplify logistics." },
       { question: "What is the best Caribbean beach for cruise passengers?", answer: "Magens Bay (St. Thomas), Eagle Beach (Aruba), and Seven Mile Beach (Grand Cayman) consistently rank highest. Each offers calm waters and good facilities." },
-      { question: "Are beach excursions worth the money?", answer: "Yes when they include transport, chairs, and guaranteed entry on busy days. At ports with walkable beaches, a taxi may be more economical." },
+      { question: "Are beach excursions worth the money?", answer: "Yes when they include transport, chairs, and organised entry on busy days. At ports with walkable beaches, a taxi may be more economical." },
     ],
     whyPassengersChoose: [
       "Beach days deliver the highest relaxation payoff for the lowest planning effort on a cruise itinerary.",
-      "Organized beach clubs guarantee chairs, shade, and restrooms when public beaches are crowded on multi-ship days.",
+      "Organized beach clubs usually include chairs, shade, and restrooms when public beaches are crowded on multi-ship days.",
       "Many Caribbean beaches are calm enough for mixed-age groups without advanced swimming skills.",
     ],
     suitability: {
@@ -105,7 +105,7 @@ export const excursionTypes: ExcursionType[] = [
       { slug: "st-maarten", name: "St. Maarten", reason: "Cover both Dutch and French sides at your own pace" },
     ],
     tips: [
-      "Book through reputable operators with cruise port pickup guarantees",
+      "Book through reputable operators who confirm cruise-port pickup timing",
       "Share your priorities clearly, beaches vs culture vs adventure",
       "Confirm the vehicle size fits your group comfortably",
       "Agree on total price including tips, tolls, and entrance fees upfront",
@@ -114,7 +114,7 @@ export const excursionTypes: ExcursionType[] = [
     faqs: [
       { question: "Are private tours worth the extra cost?", answer: "For groups of 4 or more, private tours often match group excursion pricing while offering far more flexibility. Solo travelers and couples pay a premium but gain significant convenience." },
       { question: "How do I find reliable private tour guides?", answer: "Book through established operators with cruise passenger reviews. Your specialist port website can connect you with vetted local guides." },
-      { question: "Will a private tour guarantee I return to the ship on time?", answer: "Reputable operators guarantee on-time return. Always confirm this policy and share your ship's departure time before booking." },
+      { question: "Will a private tour get me back to the ship on time?", answer: "Reputable operators plan around your published departure and leave a buffer. Always confirm how return timing works and share your ship's departure time before booking." },
     ],
     whyPassengersChoose: [
       "Custom pacing lets you combine beaches, culture, and dining without rigid bus schedules.",
@@ -156,7 +156,7 @@ export const excursionTypes: ExcursionType[] = [
     faqs: [
       { question: "What is the best Caribbean excursion for young children?", answer: "Stingray City (Grand Cayman), Magens Bay beach day (St. Thomas), and Chankanaab Park (Cozumel) are gentle, engaging options for young children." },
       { question: "Are zip-line and adventure tours safe for kids?", answer: "Most adventure parks set minimum age and weight requirements. Gumbalimba Park (Roatán) and Mystic Mountain (Ocho Rios) offer family-friendly options with supervision." },
-      { question: "Should families book through the cruise line or independently?", answer: "Cruise line bookings include a return guarantee. Independent bookings save money but verify the operator's on-time return policy, especially with children." },
+      { question: "Should families book through the cruise line or independently?", answer: "Cruise line bookings usually include the line's return policy. Independent bookings save money but confirm how the operator plans return timing, especially with children." },
     ],
     whyPassengersChoose: [
       "Family tours bundle transport, timing, and child-appropriate activities so parents avoid piecing together a port day.",

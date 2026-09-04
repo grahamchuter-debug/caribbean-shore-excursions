@@ -60,7 +60,7 @@ export function getMonthlyScheduleStats(
   if (busiestDay && busiestDay.count >= 3) {
     planningTip = `${formatDisplayDate(busiestDay.date)} is the busiest day this month with ${busiestDay.count} scheduled ship calls. Book reef tours, beach clubs, and popular attractions early on that date.`;
   } else if (shipCalls >= 40) {
-    planningTip = `${monthName} is a high-volume month at ${port.name}. Compare independent operators that guarantee on-time pier return before choosing your port-day activities.`;
+    planningTip = `${monthName} is a high-volume month at ${port.name}. Compare independent operators that plan around your published departure and leave a sensible buffer before choosing your port-day activities.`;
   } else if (port.usesTender) {
     planningTip = `${port.name} uses tenders. On ${monthName} port days, allow 20-40 minutes each way and keep 60-90 minutes before published departure.`;
   }

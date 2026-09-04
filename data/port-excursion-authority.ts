@@ -140,7 +140,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       bestFor: "Rainforest wildlife",
       activityLevel: "Easy",
       whyRecommended:
-        "Guaranteed sloth, monkey, and toucan encounters in Costa Rica rainforest, Puerto Limón's signature experience and the Western Caribbean's best wildlife port day outside Grand Cayman.",
+        "Sloth, monkey, and toucan viewing opportunities in Costa Rica rainforest, Puerto Limón's signature wildlife-focused port day and a strong Western Caribbean nature alternative to Grand Cayman.",
     },
     {
       portSlug: "bonaire",
@@ -334,13 +334,13 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
       portSlug: "puerto-plata",
       excursionName: "Ocean World Marine Park",
       description:
-        "Dolphin swims, sea lion programs, and aviary on the Amber Coast. Structured wildlife contact for families wanting guaranteed encounters.",
+        "Dolphin swims, sea lion programs, and aviary on the Amber Coast. Structured wildlife contact for families wanting a more predictable marine-park style visit.",
     },
     {
       portSlug: "puerto-limon",
       excursionName: "Sloth Sanctuary Tour",
       description:
-        "Guaranteed sloth, monkey, and toucan viewing in Costa Rica rainforest, the Western Caribbean's premier wildlife port experience.",
+        "A chance to see sloths, monkeys, and toucans in Costa Rica rainforest, the Western Caribbean's premier wildlife-focused port experience.",
     },
     {
       portSlug: "samana",
@@ -491,7 +491,7 @@ export const portExcursionAuthority: PortExcursionAuthorityPage = {
     {
       question: "Should I book the same excursions the cruise line recommends?",
       answer:
-        "Use this guide to identify the signature experience at each port, then book through the cruise line for your one must-do activity (return guarantee) and use linked specialist local operators for additional tours at better pricing.",
+        "Use this guide to identify the signature experience at each port, then book through the cruise line for your one must-do activity (cruise-line return policy where offered) and use linked specialist local operators for additional tours at better pricing.",
     },
     {
       question: "Which port has the easiest excursion for first-time cruisers?",

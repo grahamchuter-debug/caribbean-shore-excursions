@@ -25,10 +25,11 @@ export const PORT_HERO_REMOTE = {
   tortola: "https://tortolashoreexcursions.com/images/hero-tortola-home.jpg",
   progreso: "https://progresoshoreexcursion.com/images/hero-progreso.png",
   "costa-maya":
-    "https://costamayashoreexcursions.com/wp-content/uploads/2020/06/chacchoben-mayan-city-seven-color-lagoon-605x605.jpg",
+    "https://www.costamayashoreexcursion.com/images/chacchoben-ruins.png",
   falmouth:
-    "https://www.falmouthshoreexcursions.com/wp-content/uploads/2025/08/Doublefalls-2-900x600.jpg",
-  bonaire: "https://bonairetoursandvacations.com/images/home/hero-3.png",
+    "https://falmouthshoreexcursion.com/images/hero-falmouth.png",
+  bonaire: "https://bonairecruiseexcursions.com/images/hero-catamaran.jpg",
+  "st-kitts": "https://stkittsshoreexcursion.com/images/hero-st-kitts.png",
   "ocho-rios": "https://ochoriosshoreexcursion.com/images/hero-home.jpg",
   "montego-bay": "https://montegobayshoreexcursion.com/images/hero-home.jpg",
   samana: "https://samanashoreexcursion.com/images/whale-watching-samana-bay.png",

@@ -82,7 +82,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         label: "Nassau Shore Excursions",
         href: "https://nassaucruiseexcursions.com",
-        description: "Pier-aware operators with on-time return guarantees.",
+        description: "Pier-aware operators who plan around published departure times.",
         external: true,
       },
       {
@@ -135,7 +135,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
     whyPassengersUse: [
       "Cozumel rotates ships among three piers — this hub links to 2026 and 2027 year pages where you confirm which terminal your vessel uses before booking operator pickup.",
       "Western Caribbean itineraries often stack multiple ships on peak weeks; comparing both years reveals whether your sail date falls in a quieter shoulder period or a four-ship reef day.",
-      "Reef snorkel boats and El Cielo catamarans batch morning departures around gangway times — published schedules replace brochure guesses for on-time return guarantees.",
+      "Reef snorkel boats and El Cielo catamarans batch morning departures around gangway times — published schedules replace brochure guesses when planning a sensible buffer before departure.",
       "Mainland Tulum tours need ferry time to Playa del Carmen plus road transit — only feasible when departure columns in either year show seven to eight hours ashore.",
     ],
     planningYourDay: {
@@ -261,7 +261,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       "SXM sits on Eastern and Southern Caribbean routes — this hub links to 2026 and 2027 monthly tables so you can compare Philipsburg call volumes before committing to French-side dining or Maho Beach transfers.",
       "Multi-ship Great Bay days strain taxi availability to Orient Bay and Grand Case — schedule data shows overlap before you sail.",
       "Dual-nation excursions need realistic return buffers; docked Dr. A.C. Wathey berths simplify logistics versus tender ports, but island traffic still varies by pier-day volume.",
-      "Water taxis to downtown Philipsburg and beach clubs run on passenger demand — knowing your departure column helps operators guarantee on-time return to the cruise terminal.",
+      "Water taxis to downtown Philipsburg and beach clubs run on passenger demand — knowing your departure column helps operators plan a timely return to the cruise terminal.",
     ],
     planningYourDay: {
       summary:
@@ -591,7 +591,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       },
       {
         label: "Costa Maya Shore Excursions",
-        href: "https://costamayashoreexcursions.com",
+        href: "https://costamayashoreexcursion.com",
         description: "Coach and beach operators with pier pickup.",
         external: true,
       },
@@ -1195,7 +1195,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         question: "Why do BVI catamaran operators ask for Tortola schedule times?",
         answer:
-          "Sailing departures batch around tender completion. Operators need your arrival and departure windows to guarantee boat return before the last tender — especially on multi-ship Road Town days.",
+          "Sailing departures batch around tender completion. Operators need your arrival and departure windows to plan boat return before the last tender — especially on multi-ship Road Town days.",
       },
     ],
     internalLinks: [
@@ -1568,7 +1568,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       {
         question: "Why do Puerto Limón operators need schedule arrival times?",
         answer:
-          "Coaches batch pickups around gangway opening. Rainforest roads and wildlife sanctuary briefings add fixed time — operators use your arrival window to guarantee return before all-aboard.",
+          "Coaches batch pickups around gangway opening. Rainforest roads and wildlife sanctuary briefings add fixed time — operators use your arrival window to plan return before all-aboard.",
       },
     ],
     internalLinks: [

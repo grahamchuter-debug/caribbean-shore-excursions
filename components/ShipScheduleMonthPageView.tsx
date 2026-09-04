@@ -178,7 +178,7 @@ export function ShipScheduleMonthPageView({
             ? `With up to ${stats.busiestDay.count} ships sharing the pier on the busiest ${monthLabel} day, book signature tours before they sell out.`
             : stats.shipCalls >= 40
               ? `${monthLabel} is a high-volume month here, so reserve must-do tours before popular operators fill.`
-              : "Start with our authority port guide, then browse specialist local operators with pier-aware pickup and return guarantees."}
+              : "Start with our authority port guide, then browse specialist local operators with pier-aware pickup and clear return-timing policies."}
         </p>
         <div className="flex flex-wrap gap-3">
           <Link href={`/ports/${port.slug}`} className="btn-primary text-sm">

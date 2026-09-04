@@ -22,7 +22,7 @@ export const ships: CruiseShip[] = [
       {
         name: "El Cielo Catamaran and Reef Snorkel",
         portSlug: "cozumel",
-        description: "Half-day sail to Cozumel's southern sandbar and protected reef with strong operator return guarantees.",
+        description: "Half-day sail to Cozumel's southern sandbar and protected reef with operators who plan around your published departure.",
       },
       {
         name: "Magens Bay and Skyline Drive",
@@ -55,7 +55,7 @@ export const ships: CruiseShip[] = [
       {
         question: "Should I book shore excursions through Royal Caribbean on Icon?",
         answer:
-          "Cruise-line excursions guarantee on-time return, but independent specialists often offer better pricing and smaller groups. Book early on busy port days.",
+          "Cruise-line excursions usually include the line's return policy, while independent specialists often offer better pricing and smaller groups. Book early on busy port days.",
       },
     ],
     featuredPage: true,
@@ -224,12 +224,12 @@ export const ships: CruiseShip[] = [
       {
         question: "How much time do I have in Nassau on Utopia?",
         answer:
-          "Nassau calls on short sailings are often six to nine hours. Pick excursions with guaranteed return buffers.",
+          "Nassau calls on short sailings are often six to nine hours. Pick excursions with a sensible buffer before departure.",
       },
       {
         question: "Can I do independent excursions on Utopia of the Seas?",
         answer:
-          "Yes. Nassau and Cozumel are straightforward for independent booking when operators guarantee on-time pier return.",
+          "Yes. Nassau and Cozumel are straightforward for independent booking when operators confirm how they plan around your published departure.",
       },
     ],
     featuredPage: true,
@@ -491,7 +491,7 @@ export const ships: CruiseShip[] = [
       },
     ],
     planningAdvice: [
-      "Prima's freestyle model rewards passengers who book independent tours with guaranteed pier return.",
+      "Prima's freestyle model rewards passengers who book independent tours planned around your published pier times.",
       "Plan Great Stirrup Cay as a ship-focused day; book Nassau excursions only on standard port calls.",
       "Cozumel reef boats sell out on peak Prima Western sailings; reserve before embarkation.",
       "Use ship schedules to spot overlapping NCL and Royal ships in St. Thomas and Cozumel.",
@@ -562,7 +562,7 @@ export const ships: CruiseShip[] = [
       },
       {
         question: "Should I book Viva excursions through NCL?",
-        answer: "NCL excursions guarantee return timing, but Cozumel and St. Thomas independents often offer smaller groups and better value.",
+        answer: "NCL excursions usually include the line's return policy, while Cozumel and St. Thomas independents often offer smaller groups and better value.",
       },
     ],
     featuredPage: false,
@@ -1057,7 +1057,7 @@ export const ships: CruiseShip[] = [
       },
       {
         question: "Should I book Enchanted excursions through Princess?",
-        answer: "Princess excursions guarantee return at tender ports, but Cozumel and St. Thomas independents often offer better reef pricing.",
+        answer: "Princess excursions usually include the line's return policy at tender ports, while Cozumel and St. Thomas independents often offer better reef pricing.",
       },
     ],
     featuredPage: false,

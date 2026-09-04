@@ -23,6 +23,7 @@ const relatedPortSlugs: Record<string, string[]> = {
   "ocho-rios": ["montego-bay", "falmouth", "costa-maya", "cozumel"],
   falmouth: ["montego-bay", "ocho-rios", "costa-maya", "grand-cayman"],
   "montego-bay": ["ocho-rios", "falmouth", "costa-maya", "cozumel"],
+  "st-kitts": ["st-maarten", "tortola", "st-thomas", "puerto-plata"],
 };
 
 const comparisonLinksByPort: Record<string, PortRelatedLink[]> = {

@@ -27,7 +27,7 @@ export const SCHEDULE_FAQS: FAQ[] = [
   {
     question: "Should I book excursions before I cruise?",
     answer:
-      "Book your must-do excursion early if you are visiting on a busy schedule day or want a specific operator. Once you know your ship's in-port window from this schedule, compare independent and specialist options that guarantee on-time return.",
+      "Book your must-do excursion early if you are visiting on a busy schedule day or want a specific operator. Once you know your ship's in-port window from this schedule, compare independent and specialist options that plan around your published departure window.",
   },
   {
     question: "Are cruise ship schedules always accurate?",

@@ -110,7 +110,7 @@ export default function MethodologyPage() {
                 "Experience quality — whether the tour delivers something genuinely worth your limited hours ashore.",
                 "Transfer and return-to-ship timing — how much of your port window the travel eats, and whether there is a safe buffer before all-aboard.",
                 "Value on a short port day — whether the cost and time are justified against alternatives at the same port.",
-                "Operator standards — safety, reliability, and cruise-passenger-friendly policies such as sensible cancellation and return guarantees.",
+                "Operator standards — safety, reliability, and cruise-passenger-friendly policies such as sensible cancellation and clear return-timing policies.",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3">
                   <span className="mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-caribbean-700 text-white text-xs">✓</span>

@@ -205,7 +205,7 @@ export const portDayMistakes: PortDayMistake[] = [
   {
     portSlug: "puerto-limon",
     mistake: "Don't expect a walkable resort beach town at the pier.",
-    better: "Sloth sanctuary tours, Veragua Rainforest, or Cahuita snorkel deliver Limón's payoff. Book organized excursions with pier return guarantees.",
+    better: "Sloth sanctuary tours, Veragua Rainforest, or Cahuita snorkel deliver Limón's payoff. Book organized excursions that plan around your published pier times.",
   },
   {
     portSlug: "tortola",
@@ -273,7 +273,7 @@ export const finderFaqs = [
   {
     question: "What do return-to-ship confidence labels mean?",
     answer:
-      "Green means a comfortable fit for your stated port time. Amber means confirm exact timings with your operator. Red means avoid longer tours unless your port call is extended or you book a cruise-line excursion with a return guarantee.",
+      "Green means a comfortable fit for your stated port time. Amber means confirm exact timings with your operator. Red means avoid longer tours unless your port call is extended or you book a cruise-line excursion that includes the line's return policy.",
   },
   {
     question: "Can I check ship schedules from my plan?",

@@ -13,10 +13,10 @@ export const ports: Port[] = [
     overview:
       "St. Thomas is one of the Caribbean's most visited cruise ports, offering a perfect blend of world-class shopping in Charlotte Amalie, pristine beaches like Magens Bay, and easy access to neighboring St. John. Cruise ships dock at the Havensight or Crown Bay terminals, both within walking distance of shops and taxis.",
     bestExcursions: [
-      { name: "Magens Bay Beach Day", description: "Consistently ranked among the world's most beautiful beaches with calm turquoise waters.", duration: "4-5 hours", type: "Beach", rating: 4.9 },
-      { name: "St. John Island Tour", description: "Ferry to St. John for snorkeling at Trunk Bay and exploring Virgin Islands National Park.", duration: "6-7 hours", type: "Island Tour", rating: 4.8 },
-      { name: "Sapphire Beach Snorkel", description: "Excellent reef snorkeling just minutes from the cruise terminal.", duration: "3-4 hours", type: "Snorkeling", rating: 4.7 },
-      { name: "Mountain Top Skyride", description: "Scenic cable car ride with panoramic views of Charlotte Amalie harbor.", duration: "2-3 hours", type: "Sightseeing", rating: 4.6 },
+      { name: "Magens Bay Beach Day", description: "Consistently ranked among the world's most beautiful beaches with calm turquoise waters.", duration: "4-5 hours", type: "Beach" },
+      { name: "St. John Island Tour", description: "Ferry to St. John for snorkeling at Trunk Bay and exploring Virgin Islands National Park.", duration: "6-7 hours", type: "Island Tour" },
+      { name: "Sapphire Beach Snorkel", description: "Excellent reef snorkeling just minutes from the cruise terminal.", duration: "3-4 hours", type: "Snorkeling" },
+      { name: "Mountain Top Skyride", description: "Scenic cable car ride with panoramic views of Charlotte Amalie harbor.", duration: "2-3 hours", type: "Sightseeing" },
     ],
     portInfo: {
       dockType: "Two main terminals: Havensight (downtown) and Crown Bay",
@@ -40,6 +40,7 @@ export const ports: Port[] = [
       { name: "Paradise Point Skyride", description: "Aerial tram with panoramic Charlotte Amalie harbour views.", distance: "5-10 min walk from Havensight", guideHref: "/paradise-point-skyride-st-thomas" },
       { name: "Mountain Top", description: "Classic island lookout above Magens Bay with wide Caribbean panoramas.", distance: "20 min by taxi", guideHref: "/mountain-top-st-thomas" },
     ],
+    // Graham-controlled St Thomas specialist uses singular "excursion" (plural domain is not ours)
     specialistUrl: "https://stthomasshoreexcursion.com",
     specialistName: "St. Thomas Shore Excursions",
     faqs: [
@@ -61,10 +62,10 @@ export const ports: Port[] = [
     overview:
       "Cozumel is Mexico's premier cruise port, renowned for some of the world's best reef snorkeling and diving along the Mesoamerican Barrier Reef. Ships dock at one of three piers in San Miguel, with downtown shops and restaurants within easy reach. The island also offers Mayan ruins, beach clubs, and adventure activities.",
     bestExcursions: [
-      { name: "Palancar Reef Snorkel", description: "Explore vibrant coral formations and tropical fish at Cozumel's signature reef.", duration: "3-4 hours", type: "Snorkeling", rating: 4.9 },
-      { name: "Tulum & Beach Combo", description: "Visit clifftop Mayan ruins then relax on a Riviera Maya beach.", duration: "7-8 hours", type: "Culture & Beach", rating: 4.8 },
-      { name: "Chankanaab Beach Park", description: "All-in-one beach park with snorkeling, dolphins, and facilities.", duration: "4-5 hours", type: "Beach", rating: 4.7 },
-      { name: "El Cielo Sandbar", description: "Boat trip to a shallow sandbar with starfish and crystal-clear water.", duration: "4-5 hours", type: "Catamaran", rating: 4.8 },
+      { name: "Palancar Reef Snorkel", description: "Explore vibrant coral formations and tropical fish at Cozumel's signature reef.", duration: "3-4 hours", type: "Snorkeling" },
+      { name: "Tulum & Beach Combo", description: "Visit clifftop Mayan ruins then relax on a Riviera Maya beach.", duration: "7-8 hours", type: "Culture & Beach" },
+      { name: "Chankanaab Beach Park", description: "All-in-one beach park with snorkeling, dolphins, and facilities.", duration: "4-5 hours", type: "Beach" },
+      { name: "El Cielo Sandbar", description: "Boat trip to a shallow sandbar with starfish and crystal-clear water.", duration: "4-5 hours", type: "Catamaran" },
     ],
     portInfo: {
       dockType: "Three piers: Punta Langosta (downtown), International Pier, Puerta Maya",
@@ -109,10 +110,10 @@ export const ports: Port[] = [
     overview:
       "Aruba sits outside the hurricane belt and boasts year-round sunshine, making it a reliable favorite on Southern Caribbean itineraries. The island's Dutch-Caribbean culture, Eagle Beach, and Arikok National Park offer diverse experiences. Ships dock at the Port of Oranjestad with easy access to downtown.",
     bestExcursions: [
-      { name: "Eagle Beach & Snorkel Sail", description: "Catamaran sail with snorkeling stop and Eagle Beach visit.", duration: "4-5 hours", type: "Catamaran", rating: 4.9 },
-      { name: "Arikok National Park 4x4", description: "Off-road adventure through desert terrain to natural pools and caves.", duration: "4-5 hours", type: "Adventure", rating: 4.8 },
-      { name: "De Palm Island All-Inclusive", description: "Private island with snorkeling, water park, and lunch included.", duration: "5-6 hours", type: "Beach", rating: 4.7 },
-      { name: "Sunset Horseback Ride", description: "Guided ride along Aruba's north coast with ocean views.", duration: "2-3 hours", type: "Adventure", rating: 4.6 },
+      { name: "Eagle Beach & Snorkel Sail", description: "Catamaran sail with snorkeling stop and Eagle Beach visit.", duration: "4-5 hours", type: "Catamaran" },
+      { name: "Arikok National Park 4x4", description: "Off-road adventure through desert terrain to natural pools and caves.", duration: "4-5 hours", type: "Adventure" },
+      { name: "De Palm Island All-Inclusive", description: "Private island with snorkeling, water park, and lunch included.", duration: "5-6 hours", type: "Beach" },
+      { name: "Sunset Horseback Ride", description: "Guided ride along Aruba's north coast with ocean views.", duration: "2-3 hours", type: "Adventure" },
     ],
     portInfo: {
       dockType: "Port of Oranjestad, two cruise terminals",
@@ -157,10 +158,10 @@ export const ports: Port[] = [
     overview:
       "Curaçao is a Southern Caribbean island prized for its UNESCO-listed Willemstad waterfront, superior reef diving, and authentic Dutch-Caribbean culture. Cruise ships dock at Mathey Wharf in the historic harbor, putting colorful Handelskade buildings and excursion piers within walking distance. The island suits travelers who want cultural depth and underwater adventure over resort-style beach lounging.",
     bestExcursions: [
-      { name: "Tugboat Beach Snorkel", description: "Shallow wreck snorkel with excellent visibility and easy reef access.", duration: "3-4 hours", type: "Snorkeling", rating: 4.9 },
-      { name: "Willemstad Walking Tour", description: "Guided stroll across Queen Emma Bridge through colonial districts and markets.", duration: "2-3 hours", type: "Culture", rating: 4.7 },
-      { name: "Hato Caves & City Highlights", description: "Limestone caverns with stalactites combined with Willemstad orientation.", duration: "3-4 hours", type: "Sightseeing", rating: 4.6 },
-      { name: "Blue Curaçao Distillery Visit", description: "Tour the famous liqueur distillery with tastings and harbor views.", duration: "2-3 hours", type: "Culture", rating: 4.5 },
+      { name: "Tugboat Beach Snorkel", description: "Shallow wreck snorkel with excellent visibility and easy reef access.", duration: "3-4 hours", type: "Snorkeling" },
+      { name: "Willemstad Walking Tour", description: "Guided stroll across Queen Emma Bridge through colonial districts and markets.", duration: "2-3 hours", type: "Culture" },
+      { name: "Hato Caves & City Highlights", description: "Limestone caverns with stalactites combined with Willemstad orientation.", duration: "3-4 hours", type: "Sightseeing" },
+      { name: "Blue Curaçao Distillery Visit", description: "Tour the famous liqueur distillery with tastings and harbor views.", duration: "2-3 hours", type: "Culture" },
     ],
     portInfo: {
       dockType: "Mathey Wharf and Mega Pier in Willemstad",
@@ -205,10 +206,10 @@ export const ports: Port[] = [
     overview:
       "Grand Cayman is famous for Stingray City, where passengers can interact with wild southern stingrays in shallow sandbars. The island also offers Seven Mile Beach, excellent snorkeling, and the unique Cayman Turtle Centre. Ships anchor in George Town harbor and passengers tender to shore.",
     bestExcursions: [
-      { name: "Stingray City Sandbar", description: "Stand in waist-deep water surrounded by friendly stingrays.", duration: "3-4 hours", type: "Wildlife", rating: 4.9 },
-      { name: "Seven Mile Beach & Snorkel", description: "Relax on Grand Cayman's famous beach with optional reef snorkel.", duration: "4-5 hours", type: "Beach", rating: 4.8 },
-      { name: "Bioluminescent Bay Kayak", description: "Evening kayak tour through glowing waters (seasonal).", duration: "2-3 hours", type: "Adventure", rating: 4.7 },
-      { name: "Cayman Turtle Centre", description: "Conservation center with turtle encounters and snorkeling lagoon.", duration: "3-4 hours", type: "Family", rating: 4.6 },
+      { name: "Stingray City Sandbar", description: "Stand in waist-deep water surrounded by friendly stingrays.", duration: "3-4 hours", type: "Wildlife" },
+      { name: "Seven Mile Beach & Snorkel", description: "Relax on Grand Cayman's famous beach with optional reef snorkel.", duration: "4-5 hours", type: "Beach" },
+      { name: "Bioluminescent Bay Kayak", description: "Evening kayak tour through glowing waters (seasonal).", duration: "2-3 hours", type: "Adventure" },
+      { name: "Cayman Turtle Centre", description: "Conservation center with turtle encounters and snorkeling lagoon.", duration: "3-4 hours", type: "Family" },
     ],
     portInfo: {
       dockType: "Anchorage in George Town, tender boats required",
@@ -253,10 +254,10 @@ export const ports: Port[] = [
     overview:
       "St. Maarten shares an island between Dutch Sint Maarten and French Saint Martin, offering two cultures in one port day. Famous for Maho Beach's low-flying aircraft, Orient Bay's beach clubs, and excellent duty-free shopping in Philipsburg. Ships dock at the Dr. A.C. Wathey Cruise Facility.",
     bestExcursions: [
-      { name: "Maho Beach & Plane Spotting", description: "Watch aircraft land dramatically over Maho Beach at Princess Juliana Airport.", duration: "3-4 hours", type: "Sightseeing", rating: 4.8 },
-      { name: "Orient Bay Beach Day", description: "French side beach with clubs, restaurants, and water sports.", duration: "4-5 hours", type: "Beach", rating: 4.7 },
-      { name: "Catamaran Sail & Snorkel", description: "Sail to nearby islets with snorkeling and open bar.", duration: "4-5 hours", type: "Catamaran", rating: 4.8 },
-      { name: "French Side Island Tour", description: "Explore Marigot, Grand Case, and Orient Bay on the French side.", duration: "4-5 hours", type: "Island Tour", rating: 4.6 },
+      { name: "Maho Beach & Plane Spotting", description: "Watch aircraft land dramatically over Maho Beach at Princess Juliana Airport.", duration: "3-4 hours", type: "Sightseeing" },
+      { name: "Orient Bay Beach Day", description: "French side beach with clubs, restaurants, and water sports.", duration: "4-5 hours", type: "Beach" },
+      { name: "Catamaran Sail & Snorkel", description: "Sail to nearby islets with snorkeling and open bar.", duration: "4-5 hours", type: "Catamaran" },
+      { name: "French Side Island Tour", description: "Explore Marigot, Grand Case, and Orient Bay on the French side.", duration: "4-5 hours", type: "Island Tour" },
     ],
     portInfo: {
       dockType: "Dr. A.C. Wathey Cruise Facility, Great Bay",
@@ -301,10 +302,10 @@ export const ports: Port[] = [
     overview:
       "Nassau is the capital of the Bahamas and a staple of Caribbean cruise itineraries. The historic downtown, Paradise Island's Atlantis resort, and nearby Exuma cays with swimming pigs offer diverse excursion options. Ships dock at the Prince George Wharf cruise terminal in downtown Nassau.",
     bestExcursions: [
-      { name: "Atlantis Aquaventure", description: "Full access to Atlantis water park slides and beaches on Paradise Island.", duration: "5-6 hours", type: "Family", rating: 4.8 },
-      { name: "Blue Lagoon Island", description: "Private island with dolphins, sea lions, and beach time.", duration: "4-5 hours", type: "Wildlife", rating: 4.7 },
-      { name: "Exuma Swimming Pigs", description: "Fly to Big Major Cay to swim with the famous swimming pigs.", duration: "Full day", type: "Adventure", rating: 4.9 },
-      { name: "Snorkel & Catamaran Sail", description: "Sail to Rose Island or nearby reefs for snorkeling.", duration: "4-5 hours", type: "Catamaran", rating: 4.6 },
+      { name: "Atlantis Aquaventure", description: "Full access to Atlantis water park slides and beaches on Paradise Island.", duration: "5-6 hours", type: "Family" },
+      { name: "Blue Lagoon Island", description: "Private island with dolphins, sea lions, and beach time.", duration: "4-5 hours", type: "Wildlife" },
+      { name: "Exuma Swimming Pigs", description: "Fly to Big Major Cay to swim with the famous swimming pigs.", duration: "Full day", type: "Adventure" },
+      { name: "Snorkel & Catamaran Sail", description: "Sail to Rose Island or nearby reefs for snorkeling.", duration: "4-5 hours", type: "Catamaran" },
     ],
     portInfo: {
       dockType: "Prince George Wharf, downtown Nassau",
@@ -349,10 +350,10 @@ export const ports: Port[] = [
     overview:
       "Roatán sits on the Mesoamerican Barrier Reef and offers some of the Caribbean's best-value snorkeling and diving. The island maintains a laid-back atmosphere with West Bay Beach, zip-lining through jungle canopy, and cultural encounters with Garifuna communities. Ships dock at Mahogany Bay or Port of Roatán.",
     bestExcursions: [
-      { name: "West Bay Beach & Snorkel", description: "Visit Roatán's top beach with optional reef snorkeling.", duration: "4-5 hours", type: "Beach", rating: 4.9 },
-      { name: "Gumbalimba Park", description: "Nature park with capuchin monkeys, iguanas, and zip-line.", duration: "4-5 hours", type: "Adventure", rating: 4.7 },
-      { name: "Snorkel at West End", description: "Two-stop snorkel tour at pristine reef sites.", duration: "3-4 hours", type: "Snorkeling", rating: 4.8 },
-      { name: "Island Highlights Tour", description: "Scenic drive covering beaches, viewpoints, and local villages.", duration: "3-4 hours", type: "Island Tour", rating: 4.6 },
+      { name: "West Bay Beach & Snorkel", description: "Visit Roatán's top beach with optional reef snorkeling.", duration: "4-5 hours", type: "Beach" },
+      { name: "Gumbalimba Park", description: "Nature park with capuchin monkeys, iguanas, and zip-line.", duration: "4-5 hours", type: "Adventure" },
+      { name: "Snorkel at West End", description: "Two-stop snorkel tour at pristine reef sites.", duration: "3-4 hours", type: "Snorkeling" },
+      { name: "Island Highlights Tour", description: "Scenic drive covering beaches, viewpoints, and local villages.", duration: "3-4 hours", type: "Island Tour" },
     ],
     portInfo: {
       dockType: "Mahogany Bay Cruise Center and Port of Roatán (Coxen Hole)",
@@ -397,10 +398,10 @@ export const ports: Port[] = [
     overview:
       "Costa Maya is a dedicated cruise port in Mexico's Quintana Roo state, designed specifically for cruise passengers. The port village offers shopping and a pool, while excursions reach Chacchoben Mayan ruins, Bacalar Lagoon, and Mahahual beach village. A convenient gateway to lesser-known Yucatán attractions.",
     bestExcursions: [
-      { name: "Chacchoben Mayan Ruins", description: "Explore well-preserved pyramids deep in the jungle.", duration: "4-5 hours", type: "Culture", rating: 4.8 },
-      { name: "Mahahual Beach Break", description: "Relax at the charming beach village with palapa restaurants.", duration: "3-4 hours", type: "Beach", rating: 4.6 },
-      { name: "Bacalar Lagoon & Fort", description: "Visit the stunning seven-color lagoon and San Felipe fort.", duration: "6-7 hours", type: "Sightseeing", rating: 4.7 },
-      { name: "Snorkel & Beach Combo", description: "Reef snorkeling near Mahahual with beach time.", duration: "4-5 hours", type: "Snorkeling", rating: 4.5 },
+      { name: "Chacchoben Mayan Ruins", description: "Explore well-preserved pyramids deep in the jungle.", duration: "4-5 hours", type: "Culture" },
+      { name: "Mahahual Beach Break", description: "Relax at the charming beach village with palapa restaurants.", duration: "3-4 hours", type: "Beach" },
+      { name: "Bacalar Lagoon & Fort", description: "Visit the stunning seven-color lagoon and San Felipe fort.", duration: "6-7 hours", type: "Sightseeing" },
+      { name: "Snorkel & Beach Combo", description: "Reef snorkeling near Mahahual with beach time.", duration: "4-5 hours", type: "Snorkeling" },
     ],
     portInfo: {
       dockType: "Dedicated Costa Maya cruise port",
@@ -424,7 +425,7 @@ export const ports: Port[] = [
       { name: "Bacalar Lagoon", description: "Stunning lagoon known as the Lake of Seven Colors.", distance: "90 min by coach" },
       { name: "Costa Maya Port Village", description: "On-site shopping, dining, and saltwater pool.", distance: "At port" },
     ],
-    specialistUrl: "https://costamayashoreexcursions.com",
+    specialistUrl: "https://costamayashoreexcursion.com",
     specialistName: "Costa Maya Shore Excursions",
     faqs: [
       { question: "Is Costa Maya the same as Cozumel?", answer: "No. Costa Maya is a mainland port south of Cozumel, closer to Belize. It offers different excursions including Chacchoben ruins and Bacalar Lagoon." },
@@ -445,10 +446,10 @@ export const ports: Port[] = [
     overview:
       "Puerto Limón is Costa Rica's primary Caribbean cruise port, offering a distinct contrast to Pacific-side calls with lush rainforest excursions, sloth and wildlife sanctuaries, and Cahuita reef snorkeling along the southern coast. Ships dock at the Limón Cruise Terminal pier; most passengers book organized tours rather than exploring the industrial port city independently.",
     bestExcursions: [
-      { name: "Sloth & Wildlife Sanctuary Tour", description: "Guided sanctuary visit with sloths, monkeys, and tropical birds in rainforest habitat.", duration: "4-5 hours", type: "Wildlife", rating: 4.8 },
-      { name: "Veragua Rainforest Adventure", description: "Aerial tram, zip-line, and waterfall trails through primary Costa Rican rainforest.", duration: "5-6 hours", type: "Adventure", rating: 4.7 },
-      { name: "Cahuita National Park Snorkel", description: "Reef snorkel and beach time at a protected Caribbean coast national park.", duration: "5-6 hours", type: "Snorkeling", rating: 4.6 },
-      { name: "Banana Plantation & City Highlights", description: "Working plantation tour with Limón Caribbean culture and heritage stops.", duration: "3-4 hours", type: "Culture", rating: 4.5 },
+      { name: "Sloth & Wildlife Sanctuary Tour", description: "Guided sanctuary visit with sloths, monkeys, and tropical birds in rainforest habitat.", duration: "4-5 hours", type: "Wildlife" },
+      { name: "Veragua Rainforest Adventure", description: "Aerial tram, zip-line, and waterfall trails through primary Costa Rican rainforest.", duration: "5-6 hours", type: "Adventure" },
+      { name: "Cahuita National Park Snorkel", description: "Reef snorkel and beach time at a protected Caribbean coast national park.", duration: "5-6 hours", type: "Snorkeling" },
+      { name: "Banana Plantation & City Highlights", description: "Working plantation tour with Limón Caribbean culture and heritage stops.", duration: "3-4 hours", type: "Culture" },
     ],
     portInfo: {
       dockType: "Limón Cruise Terminal (JAPDEVA pier)",
@@ -476,7 +477,7 @@ export const ports: Port[] = [
     specialistName: "Puerto Limón Shore Excursions",
     faqs: [
       { question: "Do cruise ships tender in Puerto Limón?", answer: "No. Cruise ships dock at the Limón Cruise Terminal pier. Tender boats are not required for standard cruise vessel calls." },
-      { question: "What is the best excursion in Puerto Limón?", answer: "Sloth and wildlife sanctuary tours are the signature experience, combining rainforest habitat with guaranteed animal encounters. Veragua Rainforest Park suits active travelers wanting aerial tram and zip-line adventures." },
+      { question: "What is the best excursion in Puerto Limón?", answer: "Sloth and wildlife sanctuary tours are the signature experience, combining rainforest habitat with a chance to see sloths and other wildlife. Veragua Rainforest Park suits active travelers wanting aerial tram and zip-line adventures." },
       { question: "Is Puerto Limón good for snorkeling?", answer: "Cahuita National Park offers the best Caribbean reef snorkeling near Limón, reached by organized coach tours. Reef quality is moderate compared with Cozumel or Roatán but rewarding in calm conditions." },
       { question: "How is Puerto Limón different from other Costa Rica ports?", answer: "Puerto Limón sits on Costa Rica's Caribbean coast with Afro-Caribbean culture and Atlantic rainforest. Pacific-side cruise ports like Puntarenas offer different geography and excursion options." },
     ],
@@ -494,10 +495,10 @@ export const ports: Port[] = [
     overview:
       "Puerto Plata on the Dominican Republic's Amber Coast offers a mix of colonial history, mountain adventures, and Atlantic beaches. The Teleférico cable car to Mount Isabel de Torres, 27 Charcos waterfall excursion, and Amber Cove cruise port make it an increasingly popular Eastern Caribbean stop.",
     bestExcursions: [
-      { name: "Teleférico Cable Car", description: "Ride to Mount Isabel de Torres summit with botanical gardens and Christ statue.", duration: "3-4 hours", type: "Sightseeing", rating: 4.7 },
-      { name: "27 Waterfalls of Damajagua", description: "Hike and slide through a series of cascading waterfalls.", duration: "4-5 hours", type: "Adventure", rating: 4.8 },
-      { name: "Colonial City Walking Tour", description: "Explore Victorian architecture and Fort San Felipe.", duration: "3-4 hours", type: "Culture", rating: 4.5 },
-      { name: "Ocean World Adventure", description: "Marine park with dolphin swim and sea lion shows.", duration: "4-5 hours", type: "Family", rating: 4.6 },
+      { name: "Teleférico Cable Car", description: "Ride to Mount Isabel de Torres summit with botanical gardens and Christ statue.", duration: "3-4 hours", type: "Sightseeing" },
+      { name: "27 Waterfalls of Damajagua", description: "Hike and slide through a series of cascading waterfalls.", duration: "4-5 hours", type: "Adventure" },
+      { name: "Colonial City Walking Tour", description: "Explore Victorian architecture and Fort San Felipe.", duration: "3-4 hours", type: "Culture" },
+      { name: "Ocean World Adventure", description: "Marine park with dolphin swim and sea lion shows.", duration: "4-5 hours", type: "Family" },
     ],
     portInfo: {
       dockType: "Amber Cove cruise port (Maimón) or Taíno Bay (Puerto Plata)",
@@ -542,10 +543,10 @@ export const ports: Port[] = [
     overview:
       "Ocho Rios is Jamaica's adventure capital, famous for climbing Dunn's River Falls, bamboo river rafting on the Martha Brae, and zip-lining through rainforest canopy. Cruise ships dock at multiple terminals along the north coast, with easy access to the town's markets and excursion departure points.",
     bestExcursions: [
-      { name: "Dunn's River Falls Climb", description: "Iconic experience climbing terraced waterfalls hand-in-hand.", duration: "3-4 hours", type: "Adventure", rating: 4.9 },
-      { name: "Martha Brae River Rafting", description: "Peaceful bamboo raft ride poled by a local guide.", duration: "3-4 hours", type: "Nature", rating: 4.8 },
-      { name: "Mystic Mountain Bobsled", description: "Rainforest bobsled ride inspired by Jamaica's Olympic team.", duration: "3-4 hours", type: "Adventure", rating: 4.7 },
-      { name: "Dolphin Cove Encounter", description: "Swim and interact with dolphins in a natural lagoon.", duration: "3-4 hours", type: "Wildlife", rating: 4.6 },
+      { name: "Dunn's River Falls Climb", description: "Iconic experience climbing terraced waterfalls hand-in-hand.", duration: "3-4 hours", type: "Adventure" },
+      { name: "Martha Brae River Rafting", description: "Peaceful bamboo raft ride poled by a local guide.", duration: "3-4 hours", type: "Nature" },
+      { name: "Mystic Mountain Bobsled", description: "Rainforest bobsled ride inspired by Jamaica's Olympic team.", duration: "3-4 hours", type: "Adventure" },
+      { name: "Dolphin Cove Encounter", description: "Swim and interact with dolphins in a natural lagoon.", duration: "3-4 hours", type: "Wildlife" },
     ],
     portInfo: {
       dockType: "Multiple terminals including Jamaica Cruise Ship Terminal",
@@ -590,10 +591,10 @@ export const ports: Port[] = [
     overview:
       "Falmouth is a historic Georgian port town on Jamaica's north coast, offering a more authentic and less commercial cruise experience than Ocho Rios. Ships dock at the purpose-built Falmouth Pier with the restored town center within walking distance. The port is the best base for Martha Brae bamboo rafting, Good Hope Estate adventures, and Luminous Lagoon evening tours.",
     bestExcursions: [
-      { name: "Martha Brae River Rafting", description: "Peaceful bamboo raft ride poled through jungle-lined river channels.", duration: "3-4 hours", type: "Nature", rating: 4.9 },
-      { name: "Historic Falmouth Walking Tour", description: "Guided stroll through Georgian architecture and colonial market streets.", duration: "2-3 hours", type: "Culture", rating: 4.6 },
-      { name: "Good Hope Estate Adventure", description: "Historic plantation with zip-line, river tubing, and great house tours.", duration: "4-5 hours", type: "Adventure", rating: 4.7 },
-      { name: "Luminous Lagoon Evening Tour", description: "Bioluminescent bay kayak or boat tour after dark near Falmouth.", duration: "2-3 hours", type: "Nature", rating: 4.8 },
+      { name: "Martha Brae River Rafting", description: "Peaceful bamboo raft ride poled through jungle-lined river channels.", duration: "3-4 hours", type: "Nature" },
+      { name: "Historic Falmouth Walking Tour", description: "Guided stroll through Georgian architecture and colonial market streets.", duration: "2-3 hours", type: "Culture" },
+      { name: "Good Hope Estate Adventure", description: "Historic plantation with zip-line, river tubing, and great house tours.", duration: "4-5 hours", type: "Adventure" },
+      { name: "Luminous Lagoon Evening Tour", description: "Bioluminescent bay kayak or boat tour after dark near Falmouth.", duration: "2-3 hours", type: "Nature" },
     ],
     portInfo: {
       dockType: "Falmouth Pier purpose-built cruise terminal",
@@ -617,7 +618,8 @@ export const ports: Port[] = [
       { name: "Good Hope Estate", description: "Historic plantation with adventure activities.", distance: "20 min by taxi" },
       { name: "Luminous Lagoon", description: "Bioluminescent bay glowing on dark nights.", distance: "20 min by taxi" },
     ],
-    specialistUrl: "https://www.falmouthshoreexcursions.com",
+    // Graham-controlled Falmouth specialist (singular "excursion"; plural domain is third-party)
+    specialistUrl: "https://falmouthshoreexcursion.com",
     specialistName: "Falmouth Shore Excursions",
     faqs: [
       { question: "Is Falmouth less crowded than Ocho Rios?", answer: "Yes. Falmouth's town experience and excursion sites are generally quieter and less commercial than Ocho Rios, especially around the historic port area." },

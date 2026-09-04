@@ -1107,7 +1107,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
     overview:
       "Central America cruise calls on Western Caribbean routes usually focus on Roatan's reef-rich Mahogany Bay, Costa Maya's compact Mahahual cruise village, and Puerto Limón's Costa Rica rainforest wildlife. Roatan delivers exceptional snorkelling value, Costa Maya pairs accessible Mayan ruins with relaxed village beach clubs, and Puerto Limón offers sloth sanctuaries and Veragua Rainforest adventures.",
     overviewDetail:
-      "The smartest Central America strategy splits reef intensity from ruin-and-beach pacing and rainforest wildlife. Use Roatan for West Bay snorkelling or Gumbalimba wildlife, Costa Maya for Chacchoben ruins or Mahahual beach clubs, and Puerto Limón for sloth sanctuary tours or Veragua aerial tram adventures. All three ports reward early excursion departures and operators who guarantee on-time pier return.\n\nTransfer times are shorter than many passengers expect at Mahogany Bay and the Costa Maya village pier, but inland ruin and rainforest tours still need disciplined timing. Book one anchor activity per port, keep a weather backup, and compare independent specialists before peak winter weeks sell out popular tours.",
+      "The smartest Central America strategy splits reef intensity from ruin-and-beach pacing and rainforest wildlife. Use Roatan for West Bay snorkelling or Gumbalimba wildlife, Costa Maya for Chacchoben ruins or Mahahual beach clubs, and Puerto Limón for sloth sanctuary tours or Veragua aerial tram adventures. All three ports reward early excursion departures and operators who plan around your published pier times.\n\nTransfer times are shorter than many passengers expect at Mahogany Bay and the Costa Maya village pier, but inland ruin and rainforest tours still need disciplined timing. Book one anchor activity per port, keep a weather backup, and compare independent specialists before peak winter weeks sell out popular tours.",
     itineraryHighlights: [
       "Roatan for barrier-reef snorkelling at strong Caribbean value",
       "Costa Maya for Chacchoben ruins and Mahahual beach clubs",
@@ -1225,7 +1225,7 @@ export const itineraryPlanners: ItineraryPlannerPage[] = [
       {
         portSlug: "puerto-limon",
         title: "Sloth sanctuary for all ages",
-        advice: "Guaranteed wildlife viewing without long hikes or open-ocean boat rides.",
+        advice: "Wildlife-focused sanctuary visits without long hikes or open-ocean boat rides.",
       },
     ],
     privateTourRecommendations: [

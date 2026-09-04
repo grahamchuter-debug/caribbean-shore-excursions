@@ -119,7 +119,7 @@ export default async function PortPage({ params }: { params: Promise<{ slug: str
           <BookingJourneyPanel
             portSlug={slug}
             hidePortGuideLink
-            title={`Book ${port.name} shore excursions`}
+            title={`Explore ${port.name} shore excursions`}
             description="Compare recommended excursions with local specialists or check which ships are in port on your sailing date."
           />
 

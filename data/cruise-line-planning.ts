@@ -123,7 +123,7 @@ export const cruiseLinePlanning: Record<string, CruiseLinePlanningProfile> = {
     ],
     planningAdvice: {
       independentExcursions:
-        "Royal Caribbean passengers save significantly booking Cozumel, Roatan, and St. Thomas tours through specialist local sites. Verify pier pickup and on-time return guarantees before paying.",
+        "Royal Caribbean passengers save significantly booking Cozumel, Roatan, and St. Thomas tours through specialist local sites. Verify pier pickup and how return timing is handled before paying.",
       returnTiming:
         "On 7-night sailings allow 90 minutes before all-aboard on Western Caribbean port days. Short 3-4 night Bahamas cruises need tighter buffers, often 60-75 minutes.",
       tenderPorts:
@@ -244,7 +244,7 @@ export const cruiseLinePlanning: Record<string, CruiseLinePlanningProfile> = {
       returnTiming:
         "Carnival port days are often eight to ten hours on 7-night sailings. Avoid stacking long ruin tours with afternoon beach plans unless your in-port window exceeds nine hours.",
       tenderPorts:
-        "Grand Cayman and occasional Falmouth calls require tenders. Carnival's own tours guarantee tender priority; independents must drop you back with 60+ minutes to spare.",
+        "Grand Cayman and occasional Falmouth calls require tenders. Carnival's own tours often include tender priority; independents should plan to be back with 60+ minutes to spare.",
       peakDays:
         "Nassau and Cozumel peak when multiple Excel-class and Conquest-class ships overlap. Holiday weeks bring the heaviest downtown crowds in Nassau.",
       bookingAdvice:
@@ -366,7 +366,7 @@ export const cruiseLinePlanning: Record<string, CruiseLinePlanningProfile> = {
       peakDays:
         "Cozumel and St. Thomas see peak demand when NCL Prima-class and Royal megaships share a date. Check schedules before booking.",
       bookingAdvice:
-        "Use NCL's excursion guarantee for tender ports, then book reef and beach days independently at Cozumel and Roatan for better pricing.",
+        "Use an NCL excursion at tender ports if you want the line's return policy, then book reef and beach days independently at Cozumel and Roatan for better pricing.",
     },
     plannerLinks: [
       ...sharedPlanners,

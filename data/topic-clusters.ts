@@ -206,7 +206,7 @@ export const topicClusters: TopicClusterData[] = [
     comparisonSlugs: ["st-thomas-vs-st-maarten", "st-thomas-vs-tortola", "st-maarten-vs-tortola"],
     bestGuideSlugs: sharedBestGuides,
     nextStepCta:
-      "Pick St. Thomas for island-hopping beaches or St. Maarten for a two-nation port day, confirm your ship schedule, then book excursions with guaranteed pier return.",
+      "Pick St. Thomas for island-hopping beaches or St. Maarten for a two-nation port day, confirm your ship schedule, then book excursions planned around your published pier times.",
   },
   {
     slug: "bahamas-cruise-planner",
@@ -650,12 +650,12 @@ export const topicClusters: TopicClusterData[] = [
       { travellerType: "First-time cruisers", portSlug: "roatan", excursionName: "West Bay Beach break", description: "Simple, high-quality white sand day.", guideHref: "/ports/roatan" },
       { travellerType: "Active travellers", portSlug: "costa-maya", excursionName: "Chacchoben ruins", description: "Accessible Mayan site with manageable transfers.", guideHref: "/excursion-types/adventure-tours" },
       { travellerType: "Beach lovers", portSlug: "roatan", excursionName: "West Bay full day", description: "Caribbean-quality sand at strong value.", guideHref: "/best-caribbean-beach-excursions" },
-      { travellerType: "Wildlife/nature lovers", portSlug: "puerto-limon", excursionName: "Sloth sanctuary tour", description: "Guaranteed sloth and monkey encounters in Costa Rica rainforest.", guideHref: "/best-caribbean-wildlife-excursions" },
+      { travellerType: "Wildlife/nature lovers", portSlug: "puerto-limon", excursionName: "Sloth sanctuary tour", description: "Wildlife-focused sanctuary visits with a chance to see sloths and monkeys in Costa Rica rainforest.", guideHref: "/best-caribbean-wildlife-excursions" },
     ],
     comparisonSlugs: ["roatan-vs-cozumel"],
     bestGuideSlugs: sharedBestGuides,
     nextStepCta:
-      "Pair Roatan reef value with Costa Maya ruin-and-beach pacing and Puerto Limón wildlife on Western Caribbean weeks, check schedules, then book specialists with pier return guarantees.",
+      "Pair Roatan reef value with Costa Maya ruin-and-beach pacing and Puerto Limón wildlife on Western Caribbean weeks, check schedules, then book specialists who plan around your published pier times.",
   },
   {
     slug: "eastern-caribbean-cruise-planner",
