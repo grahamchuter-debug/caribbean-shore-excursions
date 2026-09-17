@@ -529,28 +529,27 @@ function buildPortYearContent(
   };
 }
 
-// St. Thomas 2026 has zero published calls but strong intent and full 2027 data,
-// so it stays indexed with a tailored editorial reference rather than a data table.
+// St. Thomas 2026: Tier 1 VIPA Crown Bay coverage restored; Havensight (WICO) still pending.
 const stThomas2026Content: SchedulePageContent = {
   intro:
-    "Published St. Thomas ship calls currently concentrate in 2027, so this 2026 page is a planning reference for passengers whose itineraries pre-date the imported dataset. St. Thomas docks at the Havensight and Crown Bay terminals — no tenders — and the guidance below on Magens Bay timing, St. John ferry windows, and terminal-specific taxis applies to any St. Thomas port day. Open the 2027 schedule for the full month-by-month ship list.",
+    "This 2026 St. Thomas cruise ship schedule lists official Crown Bay (Austin “Babe” Monsanto Marine Terminal) calls published by the Virgin Islands Port Authority. Havensight (WICO) calls are not yet included — confirm your terminal on your cruise line itinerary. Both Crown Bay and Havensight are dock berths with no passenger tenders.",
   whyPassengersUse: [
-    "St. Thomas docks at Havensight and Crown Bay — no tenders — so your terminal assignment, not tender queues, is the main variable in a St. Thomas port day.",
-    "Magens Bay is roughly 20 minutes by taxi; on any busy pier day loungers and taxis thin out, so organized transfers beat curbside waits.",
-    "A St. John ferry day to Trunk Bay needs six to seven hours ashore — size it against your ship's departure before committing.",
-    "For published month-by-month ship lists, open the St. Thomas 2027 schedule, where the current dataset concentrates.",
+    "Crown Bay rows below come from the official VIPA fiscal-year cruise calendars — use them to size Magens Bay and St. John plans against published arrival and departure times.",
+    "If your ship docks at Havensight, this Crown Bay table will not list it yet; check your cruise line until the WICO Havensight calendar is imported.",
+    "Magens Bay is roughly 20 minutes by taxi from Crown Bay; on multi-ship days loungers and taxis thin out, so organized transfers beat curbside waits.",
+    "A St. John ferry day to Trunk Bay needs six to seven hours ashore — size it against your Crown Bay departure before committing.",
   ],
   planningYourDay: scheduleHubContent["st-thomas-hub"].planningYourDay,
   faqs: [
     {
-      question: "Why does the 2026 St. Thomas schedule show few published calls?",
+      question: "Is this the complete 2026 St. Thomas schedule?",
       answer:
-        "Our imported dataset currently concentrates St. Thomas calls in 2027. This 2026 page remains a planning reference for terminal logistics, Magens Bay timing, and St. John ferry windows; open the St. Thomas 2027 schedule for the full month-by-month ship list.",
+        "No. These rows are official Crown Bay / VIPA calls only. Havensight (West Indian Company / WICO) publishes separately and is not in this table yet. Always confirm your terminal and times with your cruise line.",
     },
     {
       question: "Which St. Thomas terminal will my ship use — Havensight or Crown Bay?",
       answer:
-        "Both serve cruise traffic year-round. Confirm your terminal on the ship because operators need the correct pickup gate. Havensight sits beside Charlotte Amalie shopping, while Crown Bay is west of town and needs a short taxi to reach the same beaches.",
+        "Both serve cruise traffic year-round. This page currently lists Crown Bay assignments from VIPA. Confirm on the ship because operators need the correct pickup gate. Havensight sits beside Charlotte Amalie shopping, while Crown Bay is west of town.",
     },
     {
       question: "Does St. Thomas use tender boats?",
