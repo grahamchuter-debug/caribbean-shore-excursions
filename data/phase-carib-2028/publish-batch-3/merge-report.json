@@ -1,0 +1,69 @@
+{
+  "antigua": {
+    "total": 554,
+    "byYear": {
+      "2026": 132,
+      "2027": 358,
+      "2028": 64
+    },
+    "dups_removed": 0,
+    "added_2028": 64,
+    "created_new_file": false
+  },
+  "barbados": {
+    "total": 44,
+    "byYear": {
+      "2028": 44
+    },
+    "dups_removed": 0,
+    "added_2028": 44,
+    "created_new_file": true
+  },
+  "st-lucia": {
+    "total": 54,
+    "byYear": {
+      "2028": 54
+    },
+    "dups_removed": 0,
+    "added_2028": 54,
+    "created_new_file": true
+  },
+  "curacao": {
+    "total": 92,
+    "byYear": {
+      "2028": 92
+    },
+    "dups_removed": 0,
+    "added_2028": 92,
+    "created_new_file": true
+  },
+  "ocho-rios": {
+    "total": 171,
+    "byYear": {
+      "2026": 51,
+      "2027": 105,
+      "2028": 15
+    },
+    "dups_removed": 0,
+    "added_2028": 15,
+    "created_new_file": false
+  },
+  "falmouth": {
+    "total": 37,
+    "byYear": {
+      "2028": 37
+    },
+    "dups_removed": 0,
+    "added_2028": 37,
+    "created_new_file": true
+  },
+  "montego-bay": {
+    "total": 27,
+    "byYear": {
+      "2028": 27
+    },
+    "dups_removed": 0,
+    "added_2028": 27,
+    "created_new_file": true
+  }
+}

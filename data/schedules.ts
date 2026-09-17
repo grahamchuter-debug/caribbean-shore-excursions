@@ -20,6 +20,12 @@ import stMaartenSchedule from "./imported-schedules/st-maarten.json";
 import puertoPlataSchedule from "./imported-schedules/puerto-plata.json";
 import costaMayaSchedule from "./imported-schedules/costa-maya.json";
 import puertoLimonSchedule from "./imported-schedules/puerto-limon.json";
+import antiguaSchedule from "./imported-schedules/antigua.json";
+import barbadosSchedule from "./imported-schedules/barbados.json";
+import stLuciaSchedule from "./imported-schedules/st-lucia.json";
+import curacaoSchedule from "./imported-schedules/curacao.json";
+import falmouthSchedule from "./imported-schedules/falmouth.json";
+import montegoBaySchedule from "./imported-schedules/montego-bay.json";
 
 export const TOP_SCHEDULE_PORT_SLUGS = [
   "st-thomas",
@@ -34,6 +40,12 @@ export const TOP_SCHEDULE_PORT_SLUGS = [
   "ocho-rios",
   "st-kitts",
   "puerto-limon",
+  "antigua",
+  "barbados",
+  "st-lucia",
+  "curacao",
+  "falmouth",
+  "montego-bay",
 ] as const;
 
 export const schedulePorts: ShipSchedulePort[] = [
@@ -258,16 +270,16 @@ export const schedulePorts: ShipSchedulePort[] = [
     slug: "ocho-rios",
     name: "Ocho Rios",
     country: "Jamaica",
-    seoTitle: "Ocho Rios Cruise Ship Schedule 2026 & 2027",
+    seoTitle: "Ocho Rios Cruise Ship Schedule 2026, 2027 & 2028",
     metaDescription:
-      "Ocho Rios cruise ship schedule with published arrival and departure times for 2026 and 2027. Plan Dunn's River Falls and rainforest excursions around your port day.",
+      "Ocho Rios cruise ship schedule with published arrival and departure times for 2026–2028. Plan Dunn's River Falls and rainforest excursions around your port day.",
     intro:
       "This Ocho Rios cruise ship schedule shows which vessels are due in port and their published times, helping you plan Dunn's River Falls climbs, Mystic Mountain adventures, and private north-coast tours with safe return buffers.",
     description:
-      "Jamaica north-coast adventure port for waterfall and rainforest excursions.",
+      "Jamaica north-coast adventure port for waterfall and rainforest excursions — separate from Falmouth and Montego Bay.",
     scheduleOverview:
-      "Ocho Rios receives Western Caribbean traffic from Carnival, Royal Caribbean, and Norwegian with variable weekly counts. This page lists published ship calls for 2026 and 2027. Busy schedule days affect Dunn's River Falls timing, so plan early departures on multi-ship weeks.",
-    relatedPortSlugs: ["costa-maya", "cozumel", "roatan"],
+      "Ocho Rios receives Western Caribbean traffic with variable weekly counts. This page lists published ship calls for 2026–2028. Busy schedule days affect Dunn's River Falls timing, so plan early departures on multi-ship weeks. Do not confuse Ocho Rios with Falmouth or Montego Bay.",
+    relatedPortSlugs: ["falmouth", "montego-bay", "costa-maya"],
     excursionTypeSlugs: ["adventure-tours", "family-tours", "private-tours"],
     planningTips: [
       "Ocho Rios is a dock port — no tenders — with coaches meeting passengers at the pier for Dunn's River Falls and Mystic Mountain.",
@@ -275,6 +287,150 @@ export const schedulePorts: ShipSchedulePort[] = [
       "Only stack Dunn's River Falls with Mystic Mountain when departure is 4:00 PM or later — together they need about six hours plus transfers.",
       "Build in buffer for Jamaica road traffic on the return leg beyond the excursion's stated duration.",
       "Be back at the cruise pier 45–60 minutes before departure; coach tours use firm cutoffs.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "antigua",
+    name: "Antigua",
+    country: "Antigua and Barbuda",
+    seoTitle: "Antigua Cruise Ship Schedule 2026–2028",
+    metaDescription:
+      "Antigua cruise ship schedule for St. John's with published arrival and departure times. Plan Dickenson Bay beach days and catamaran sails around your port window.",
+    intro:
+      "This Antigua cruise ship schedule shows which vessels are expected at St. John's and their published port times, helping you plan Dickenson Bay beach clubs, Circle Island sails, and Heritage Quay shopping with safe return buffers.",
+    description:
+      "Eastern Caribbean dock port at St. John's for beach and sailing excursions.",
+    scheduleOverview:
+      "Antigua receives Eastern and Southern Caribbean traffic at St. John's. Review monthly ship calls before booking beach clubs or catamaran sails on multi-ship days.",
+    relatedPortSlugs: ["barbados", "st-lucia", "st-maarten"],
+    excursionTypeSlugs: ["beaches", "catamaran-cruises", "private-tours"],
+    planningTips: [
+      "Antigua docks at St. John's with walk-off access — no tenders under normal conditions.",
+      "Book Dickenson Bay transfers early on multi-ship days before loungers thin out.",
+      "Only attempt a full Circle Island catamaran when departure allows six to seven hours ashore.",
+      "Heritage Quay shopping is walkable from the pier on shorter calls.",
+      "Be back at pier security 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "barbados",
+    name: "Barbados",
+    country: "Barbados",
+    seoTitle: "Barbados Cruise Ship Schedule 2028",
+    metaDescription:
+      "Barbados cruise ship schedule for Bridgetown with published 2028 arrival and departure times. Plan Carlisle Bay snorkels and west-coast beach days around your port window.",
+    intro:
+      "This Barbados cruise ship schedule shows which vessels are expected at Bridgetown and their published port times, helping you plan Carlisle Bay turtle snorkels, west-coast beach clubs, and Harrison's Cave visits with safe return buffers.",
+    description:
+      "Southern Caribbean dock port at Bridgetown for snorkel and beach excursions.",
+    scheduleOverview:
+      "Barbados receives Southern Caribbean traffic at the Bridgetown cruise terminal. Review monthly ship calls before booking Carlisle Bay boats or west-coast beach clubs on multi-ship days.",
+    relatedPortSlugs: ["antigua", "st-lucia", "curacao"],
+    excursionTypeSlugs: ["snorkeling", "beaches", "private-tours"],
+    planningTips: [
+      "Barbados docks at Bridgetown with walk-off access — no tenders under normal conditions.",
+      "Book Carlisle Bay turtle snorkels for first morning departures on multi-ship days.",
+      "Harrison's Cave needs coach transit — size it against your departure column.",
+      "West-coast beach clubs sell out faster when several ships share Bridgetown.",
+      "Be back at terminal security 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "st-lucia",
+    name: "St. Lucia",
+    country: "St. Lucia",
+    seoTitle: "St. Lucia Cruise Ship Schedule 2028",
+    metaDescription:
+      "St. Lucia cruise ship schedule for Castries with published 2028 arrival and departure times. Plan Pitons day trips and Marigot Bay sails from the Castries cruise port.",
+    intro:
+      "This St. Lucia cruise ship schedule shows which vessels are expected at Castries and their published port times. Pitons and Soufrière day trips leave from Castries by coach or boat — they are excursion destinations, not separate cruise terminals.",
+    description:
+      "Eastern Caribbean dock port at Castries for Pitons day trips and sailing excursions.",
+    scheduleOverview:
+      "St. Lucia cruise ships call at Castries. Review monthly tables before booking Pitons/Soufrière day trips that need long southbound transit, or Marigot Bay sails on multi-ship weeks.",
+    relatedPortSlugs: ["antigua", "barbados", "st-maarten"],
+    excursionTypeSlugs: ["adventure-tours", "catamaran-cruises", "private-tours"],
+    planningTips: [
+      "Castries is the cruise port — do not confuse Pitons beach resorts with the ship pier.",
+      "Only book Pitons/Soufrière days when departure allows several hours of southbound transit plus sightseeing.",
+      "Marigot Bay sails batch around morning arrivals — book early on multi-ship days.",
+      "Castries is a dock port with walk-off access — no tenders under normal conditions.",
+      "Be back at Castries pier security 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "curacao",
+    name: "Curaçao",
+    country: "Curaçao",
+    seoTitle: "Curaçao Cruise Ship Schedule 2028",
+    metaDescription:
+      "Curaçao cruise ship schedule for Willemstad with published 2028 arrival and departure times. Plan Handelskade walks, reef snorkels, and west-coast beach days around your port window.",
+    intro:
+      "This Curaçao cruise ship schedule shows which vessels are expected at Willemstad and their published port times, helping you plan Handelskade walks, Tugboat Beach snorkels, and west-coast cove beaches with safe return buffers.",
+    description:
+      "Southern Caribbean dock port at Willemstad for culture and reef excursions.",
+    scheduleOverview:
+      "Curaçao receives Southern Caribbean and ABC-island traffic at Willemstad. Review monthly ship calls before booking west-coast beach transfers or snorkel boats on multi-ship days.",
+    relatedPortSlugs: ["aruba", "barbados", "st-maarten"],
+    excursionTypeSlugs: ["snorkeling", "beaches", "private-tours"],
+    planningTips: [
+      "Curaçao docks at Willemstad with walk-off access toward Punda and Otrobanda — no tenders.",
+      "West-coast coves like Grote Knip need taxi or tour time from the terminal.",
+      "Book Tugboat Beach snorkels for morning slots on multi-ship days.",
+      "Handelskade is walkable via the Queen Emma Bridge area after the gangway opens.",
+      "Be back at terminal security 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "falmouth",
+    name: "Falmouth",
+    country: "Jamaica",
+    seoTitle: "Falmouth Cruise Ship Schedule 2028",
+    metaDescription:
+      "Falmouth Jamaica cruise ship schedule with published 2028 arrival and departure times. Plan Martha Brae rafting and resort beach days at this pier — separate from Ocho Rios and Montego Bay.",
+    intro:
+      "This Falmouth cruise ship schedule shows which vessels are expected at the Falmouth pier and their published port times. Falmouth is a distinct Jamaica cruise port — do not use Ocho Rios or Montego Bay pages for a Falmouth sailing.",
+    description:
+      "Jamaica north-coast dock pier for river rafting and resort beach days — separate from Ocho Rios and Montego Bay.",
+    scheduleOverview:
+      "Falmouth receives Western Caribbean traffic as its own pier. Review monthly ship calls before booking Martha Brae rafting or resort beach day passes on multi-ship weeks.",
+    relatedPortSlugs: ["ocho-rios", "montego-bay", "grand-cayman"],
+    excursionTypeSlugs: ["adventure-tours", "beaches", "private-tours"],
+    planningTips: [
+      "Falmouth is not Ocho Rios or Montego Bay — confirm your pier before booking excursions.",
+      "Falmouth is a dock pier with walk-off access — no tenders under normal conditions.",
+      "Book Martha Brae rafting for morning departures on multi-ship weeks.",
+      "Resort beach day passes sell out faster when several ships share Falmouth.",
+      "Be back at pier security 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "montego-bay",
+    name: "Montego Bay",
+    country: "Jamaica",
+    seoTitle: "Montego Bay Cruise Ship Schedule 2028",
+    metaDescription:
+      "Montego Bay Jamaica cruise ship schedule with published 2028 arrival and departure times. Plan Doctor's Cave Beach and Rose Hall at this pier — separate from Falmouth and Ocho Rios.",
+    intro:
+      "This Montego Bay cruise ship schedule shows which vessels are expected at the MoBay pier and their published port times. Montego Bay is a distinct Jamaica cruise port — do not use Falmouth or Ocho Rios pages for a Montego Bay sailing.",
+    description:
+      "Jamaica north-coast dock pier for Doctor's Cave Beach and estate tours — separate from Falmouth and Ocho Rios.",
+    scheduleOverview:
+      "Montego Bay receives Western Caribbean traffic as its own pier. Review monthly ship calls before booking Doctor's Cave Beach or Rose Hall on multi-ship weeks.",
+    relatedPortSlugs: ["falmouth", "ocho-rios", "grand-cayman"],
+    excursionTypeSlugs: ["beaches", "family-tours", "private-tours"],
+    planningTips: [
+      "Montego Bay is not Falmouth or Ocho Rios — confirm your pier before booking excursions.",
+      "Montego Bay is a dock pier with walk-off access — no tenders under normal conditions.",
+      "Book Doctor's Cave Beach transfers early on multi-ship weeks.",
+      "Rose Hall coaches need transit time — size them against your departure column.",
+      "Be back at pier security 45–60 minutes before published departure.",
     ],
     faqs: SCHEDULE_FAQS,
   },
@@ -368,6 +524,12 @@ export const portSchedules: Record<string, ScheduleEntry[]> = {
   "ocho-rios": ochoRiosSchedule as ScheduleEntry[],
   tortola: tortolaSchedule as ScheduleEntry[],
   "st-kitts": stKittsSchedule as ScheduleEntry[],
+  antigua: antiguaSchedule as ScheduleEntry[],
+  barbados: barbadosSchedule as ScheduleEntry[],
+  "st-lucia": stLuciaSchedule as ScheduleEntry[],
+  curacao: curacaoSchedule as ScheduleEntry[],
+  falmouth: falmouthSchedule as ScheduleEntry[],
+  "montego-bay": montegoBaySchedule as ScheduleEntry[],
 };
 
 export function getSchedulePortBySlug(slug: string): ShipSchedulePort | undefined {

@@ -1634,4 +1634,478 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       ],
     },
   },
+
+  "antigua-hub": {
+    intro:
+      "Antigua's schedule hub covers St. John's cruise-port calls — beach clubs, catamaran sails, and Heritage Quay shopping all run from a docked pier where published arrival and departure times frame how long you really have ashore.",
+    heroSubtitle:
+      "Antigua cruise schedule hub — St. John's ship calls, Dickenson Bay timing, and Circle Island sail windows.",
+    whyPassengersUse: [
+      "St. John's is Antigua's cruise call — use year pages to size Dickenson Bay transfers versus full-day catamaran sails.",
+      "Heritage Quay is walkable from the pier; arrival columns show when independent beach taxis can leave.",
+      "Southern Caribbean loops often pair Antigua with Barbados or St. Lucia — compare year volumes before stacking beach days.",
+      "Multi-ship weeks sell out popular sailing seats early, so overlap counts drive advance booking.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then match one headline Antigua experience — beach club, Circle Island sail, or downtown shopping — to your published in-port window.",
+      typicalActivities: [
+        "Dickenson Bay beach club day on standard-length calls",
+        "Catamaran Circle Island sail on longer windows",
+        "Heritage Quay shopping and short beach stop on tight turnarounds",
+      ],
+      topAttractions: [
+        "Dickenson Bay — resort beach north of St. John's",
+        "Heritage Quay — pier-side shopping and restaurants",
+        "Shirley Heights — island viewpoint on longer tours",
+      ],
+      recommendedExcursions: [
+        "Dickenson Bay beach day pass when arrival is before mid-morning",
+        "Half-day catamaran sail on single-ship days",
+        "Private island highlights loop on flexible schedules",
+      ],
+      timingConsiderations: [
+        "Full-day Circle Island sails need roughly six to seven hours ashore",
+        "Multi-ship days fill beach clubs and sailing seats faster",
+        "Confirm final times on the ship's daily program before disembarking",
+      ],
+      returnGuidance:
+        "Be back at St. John's pier security at least 45–60 minutes before published departure. Beach-club traffic intensifies when multiple ships share the port.",
+    },
+    faqs: [
+      {
+        question: "Where do cruise ships dock in Antigua?",
+        answer:
+          "Cruise ships berth at St. John's with walk-off access. Beach clubs and sailing excursions stage from this pier — not from Barbuda or other island anchorages.",
+      },
+      {
+        question: "Does Antigua use tenders?",
+        answer:
+          "No under normal conditions. St. John's is a dock port. Always confirm on the day if weather or operations change berthing.",
+      },
+      {
+        question: "How do I tell if my Antigua pier day will be crowded?",
+        answer:
+          "Open your sailing year and month, then count ships on the same date. Two or more large vessels typically mean fuller beach clubs and quicker catamaran sellouts.",
+      },
+      {
+        question: "Can arrival times change after I book?",
+        answer:
+          "Yes. Cruise lines adjust for weather and operations. Use these schedules for planning, then confirm final times on your ship before leaving the pier.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Antigua 2028 Schedule",
+        href: "/ship-schedules/antigua/2028",
+        description: "Currently published 2028 St. John's itinerary calls.",
+      },
+      {
+        label: "Antigua Port Guide",
+        href: "/ports/antigua",
+        description: "Beaches, logistics, and excursion planning.",
+      },
+      {
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with every published port.",
+      },
+    ],
+  },
+  "barbados-hub": {
+    intro:
+      "Barbados schedule pages focus on Bridgetown cruise-terminal calls — Carlisle Bay snorkels, west-coast beach clubs, and Harrison's Cave coaches all run from a docked pier where published times frame realistic shore windows.",
+    heroSubtitle:
+      "Barbados cruise schedule hub — Bridgetown ship calls, Carlisle Bay timing, and west-coast beach planning.",
+    whyPassengersUse: [
+      "Bridgetown is the cruise call — use year tables to size Carlisle Bay turtle snorkels against departure columns.",
+      "Harrison's Cave needs inland coach time; published departures prevent late returns.",
+      "West-coast beach clubs sell out on multi-ship weeks, so overlap counts matter.",
+      "Southern Caribbean routes often pair Barbados with Antigua or St. Lucia — compare volumes before stacking full days.",
+    ],
+    planningYourDay: {
+      summary:
+        "Open your sailing year, then choose one Bridgetown-based plan — Carlisle Bay snorkel, west-coast beach, or Harrison's Cave — sized to published arrival and departure.",
+      typicalActivities: [
+        "Carlisle Bay turtle snorkel on morning arrivals",
+        "West-coast beach club day on standard calls",
+        "Harrison's Cave coach tour on medium-to-long windows",
+      ],
+      topAttractions: [
+        "Carlisle Bay — turtle snorkel and calm swimming",
+        "West-coast beach clubs — lounge and swim facilities",
+        "Harrison's Cave — inland limestone cave tour",
+      ],
+      recommendedExcursions: [
+        "Carlisle Bay snorkel when arrival is early",
+        "West-coast beach day pass on multi-ship weeks (book ahead)",
+        "Harrison's Cave when departure allows coach return buffer",
+      ],
+      timingConsiderations: [
+        "Inland cave tours need extra transit versus pier-side snorkels",
+        "Multi-ship Bridgetown days fill boats and beach clubs faster",
+        "Confirm final times on the ship before leaving the terminal",
+      ],
+      returnGuidance:
+        "Return to Bridgetown terminal security at least 45–60 minutes before published departure. Coach tours use firm cutoffs.",
+    },
+    faqs: [
+      {
+        question: "Where do cruise ships dock in Barbados?",
+        answer:
+          "Ships berth at the Bridgetown cruise terminal with walk-off access. Beach and snorkel operators stage from this pier area.",
+      },
+      {
+        question: "Does Barbados use tenders?",
+        answer:
+          "No under normal conditions. Bridgetown is a dock port.",
+      },
+      {
+        question: "How do I spot a busy Bridgetown day?",
+        answer:
+          "Open your sailing year and month, then count ships on the same date. Multiple vessels mean fuller Carlisle Bay boats and beach clubs.",
+      },
+      {
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Use these pages for planning, then confirm final times with your cruise line and daily program aboard.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Barbados 2028 Schedule",
+        href: "/ship-schedules/barbados/2028",
+        description: "Currently published 2028 Bridgetown itinerary calls.",
+      },
+      {
+        label: "Barbados Port Guide",
+        href: "/ports/barbados",
+        description: "Excursions, beaches, and passenger logistics.",
+      },
+      {
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with every published port.",
+      },
+    ],
+  },
+  "st-lucia-hub": {
+    intro:
+      "St. Lucia schedule pages list Castries cruise-port calls — Pitons and Soufrière day trips leave from Castries by coach or boat. Do not confuse beach or resort marketing names with the actual cruise terminal.",
+    heroSubtitle:
+      "St. Lucia cruise schedule hub — Castries ship calls, Pitons day-trip timing, and Marigot Bay sails.",
+    whyPassengersUse: [
+      "Castries is the cruise call — Pitons/Soufrière are excursion destinations, not separate cruise terminals on these tables.",
+      "Pitons tours need long southbound transit; departure columns show whether a full day fits.",
+      "Marigot Bay sails batch around morning arrivals — overlap drives early booking.",
+      "Eastern and Southern Caribbean loops often include St. Lucia with Antigua or Barbados.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose Castries-based plans — Pitons day, Marigot Bay sail, or market morning — sized to published times.",
+      typicalActivities: [
+        "Pitons / Soufrière day trip on long calls",
+        "Marigot Bay catamaran sail on medium windows",
+        "Castries market and short beach stop on tight turnarounds",
+      ],
+      topAttractions: [
+        "Pitons & Soufrière — iconic southern landmarks via excursion",
+        "Marigot Bay — sheltered sailing and swimming",
+        "Castries Market — pier-adjacent shopping",
+      ],
+      recommendedExcursions: [
+        "Pitons day trip when departure allows full southbound transit",
+        "Marigot Bay sail on standard-length calls",
+        "Private island highlights loop on flexible schedules",
+      ],
+      timingConsiderations: [
+        "Soufrière needs several hours of transit — do not book from brochure guesses",
+        "Multi-ship Castries days fill Pitons coaches quickly",
+        "Confirm final times aboard before leaving the pier",
+      ],
+      returnGuidance:
+        "Be back at Castries pier security at least 45–60 minutes before published departure. Southbound coaches use firm cutoffs.",
+    },
+    faqs: [
+      {
+        question: "Where do cruise ships dock in St. Lucia?",
+        answer:
+          "Cruise ships call at Castries. The Pitons and Soufrière are reached by coach or boat from Castries — they are not separate cruise piers on this schedule.",
+      },
+      {
+        question: "Does St. Lucia use tenders at Castries?",
+        answer:
+          "No under normal conditions. Castries is a dock port with walk-off access.",
+      },
+      {
+        question: "Can I visit the Pitons on a cruise port day?",
+        answer:
+          "Yes on longer calls. Size the southbound transit and sightseeing against your published departure before booking.",
+      },
+      {
+        question: "How do I spot a busy Castries day?",
+        answer:
+          "Count ships on your date in the monthly table. Multiple vessels mean fuller Pitons coaches and sailing seats.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "St. Lucia 2028 Schedule",
+        href: "/ship-schedules/st-lucia/2028",
+        description: "Currently published 2028 Castries itinerary calls.",
+      },
+      {
+        label: "St. Lucia Port Guide",
+        href: "/ports/st-lucia",
+        description: "Excursions, Pitons logistics, and passenger tips.",
+      },
+      {
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with every published port.",
+      },
+    ],
+  },
+  "curacao-hub": {
+    intro:
+      "Curaçao schedule pages cover Willemstad cruise-terminal calls — Handelskade walks, Tugboat Beach snorkels, and west-coast cove beaches all run from a docked port where published times frame culture mornings and beach afternoons.",
+    heroSubtitle:
+      "Curaçao cruise schedule hub — Willemstad ship calls, reef snorkel timing, and west-coast beach windows.",
+    whyPassengersUse: [
+      "Willemstad is walkable from the terminals — arrival columns frame Handelskade mornings.",
+      "West-coast coves need transfer time; departure columns show whether Grote Knip fits.",
+      "Tugboat Beach snorkel boats batch morning slots on busy weeks.",
+      "ABC-island loops often pair Curaçao with Aruba — compare volumes across ports.",
+    ],
+    planningYourDay: {
+      summary:
+        "Open your sailing year, then choose Willemstad culture, a reef snorkel, or a west-coast beach — sized to published arrival and departure.",
+      typicalActivities: [
+        "Handelskade and Queen Emma Bridge walk on any call",
+        "Tugboat Beach wreck snorkel on morning arrivals",
+        "Grote Knip west-coast beach on longer windows",
+      ],
+      topAttractions: [
+        "Willemstad (Punda/Otrobanda) — UNESCO waterfront",
+        "Tugboat Beach — shallow wreck snorkel",
+        "Grote Knip — west-coast cove beach",
+      ],
+      recommendedExcursions: [
+        "Willemstad walking morning plus short snorkel",
+        "West-coast beach transfer when departure is late afternoon",
+        "Private town and cove combo on flexible schedules",
+      ],
+      timingConsiderations: [
+        "West-coast beaches need taxi or tour time from Willemstad",
+        "Multi-ship days fill snorkel boats and taxis faster",
+        "Confirm final times aboard before leaving the terminal",
+      ],
+      returnGuidance:
+        "Return to Willemstad terminal security at least 45–60 minutes before published departure. Bridge and taxi queues lengthen on multi-ship days.",
+    },
+    faqs: [
+      {
+        question: "Where do cruise ships dock in Curaçao?",
+        answer:
+          "Ships berth at Willemstad cruise terminals with walk-off access toward Punda and Otrobanda.",
+      },
+      {
+        question: "Does Curaçao use tenders?",
+        answer:
+          "No under normal conditions. Willemstad is a dock port.",
+      },
+      {
+        question: "How do I spot a busy Willemstad day?",
+        answer:
+          "Count ships on your date in the monthly table. Multiple vessels mean fuller snorkel boats and longer west-coast taxi queues.",
+      },
+      {
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Use these pages for planning, then confirm final times with your cruise line.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Curaçao 2028 Schedule",
+        href: "/ship-schedules/curacao/2028",
+        description: "Currently published 2028 Willemstad itinerary calls.",
+      },
+      {
+        label: "Curaçao Port Guide",
+        href: "/ports/curacao",
+        description: "Willemstad logistics, beaches, and snorkel tips.",
+      },
+      {
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with every published port.",
+      },
+    ],
+  },
+  "falmouth-hub": {
+    intro:
+      "Falmouth schedule pages list this distinct Jamaica north-coast cruise pier only — Martha Brae rafting and resort beach transfers stage here. Do not mix Falmouth calls with Ocho Rios or Montego Bay.",
+    heroSubtitle:
+      "Falmouth cruise schedule hub — Jamaica pier calls, Martha Brae timing, and resort beach planning.",
+    whyPassengersUse: [
+      "Falmouth is not Ocho Rios or Montego Bay — confirm your pier before booking Dunn's River or Doctor's Cave tours.",
+      "Martha Brae rafting batches around morning arrivals from this pier.",
+      "Resort beach day passes sell out on multi-ship Falmouth weeks.",
+      "Western Caribbean itineraries may include only one Jamaica pier — verify your Falmouth date.",
+    ],
+    planningYourDay: {
+      summary:
+        "Open your sailing year, then choose Martha Brae rafting, a resort beach day, or a Falmouth heritage walk sized to published times.",
+      typicalActivities: [
+        "Martha Brae rafting on standard-length calls",
+        "Resort beach day pass on medium windows",
+        "Falmouth heritage walk on shorter calls",
+      ],
+      topAttractions: [
+        "Martha Brae River — gentle bamboo rafting",
+        "Resort beach clubs — north-coast day passes",
+        "Falmouth historic town — pier-adjacent heritage",
+      ],
+      recommendedExcursions: [
+        "Martha Brae rafting when arrival is morning",
+        "Resort beach day on multi-ship weeks (book ahead)",
+        "Private beach and river combo on flexible schedules",
+      ],
+      timingConsiderations: [
+        "Do not book Ocho Rios Dunn's River tours for a Falmouth call",
+        "Multi-ship weeks fill rafting and beach transfers faster",
+        "Confirm final times aboard before leaving the pier",
+      ],
+      returnGuidance:
+        "Return to Falmouth pier security at least 45–60 minutes before published departure. Coach tours use firm cutoffs.",
+    },
+    faqs: [
+      {
+        question: "Is Falmouth the same as Ocho Rios or Montego Bay?",
+        answer:
+          "No. Falmouth is a separate Jamaica cruise pier with its own schedule pages. Use the correct port page for your sailing.",
+      },
+      {
+        question: "Does Falmouth use tenders?",
+        answer:
+          "No under normal conditions. Falmouth is a dock pier with walk-off access.",
+      },
+      {
+        question: "How do I spot a busy Falmouth day?",
+        answer:
+          "Count ships on your date in the monthly table. Multiple vessels mean fuller rafting slots and beach transfers.",
+      },
+      {
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line before leaving the pier.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Falmouth 2028 Schedule",
+        href: "/ship-schedules/falmouth/2028",
+        description: "Currently published 2028 Falmouth itinerary calls.",
+      },
+      {
+        label: "Ocho Rios Schedule",
+        href: "/ship-schedules/ocho-rios",
+        description: "Separate Jamaica pier — do not mix with Falmouth.",
+      },
+      {
+        label: "Montego Bay Schedule",
+        href: "/ship-schedules/montego-bay",
+        description: "Separate Jamaica pier — do not mix with Falmouth.",
+      },
+      {
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with every published port.",
+      },
+    ],
+  },
+  "montego-bay-hub": {
+    intro:
+      "Montego Bay schedule pages list this distinct Jamaica cruise pier only — Doctor's Cave Beach, Rose Hall, and Hip Strip transfers stage here. Do not mix Montego Bay calls with Falmouth or Ocho Rios.",
+    heroSubtitle:
+      "Montego Bay cruise schedule hub — MoBay pier calls, Doctor's Cave timing, and Rose Hall planning.",
+    whyPassengersUse: [
+      "Montego Bay is not Falmouth or Ocho Rios — confirm your pier before booking the wrong Jamaica excursions.",
+      "Doctor's Cave Beach fills on multi-ship MoBay weeks.",
+      "Rose Hall estate coaches need transit time against departure columns.",
+      "Western Caribbean itineraries may include only one Jamaica pier — verify your Montego Bay date.",
+    ],
+    planningYourDay: {
+      summary:
+        "Open your sailing year, then choose Doctor's Cave Beach, Rose Hall, or a Hip Strip afternoon sized to published times.",
+      typicalActivities: [
+        "Doctor's Cave Beach morning on standard calls",
+        "Rose Hall Great House visit on medium windows",
+        "Hip Strip beach and lunch on shorter calls",
+      ],
+      topAttractions: [
+        "Doctor's Cave Beach — classic MoBay swim beach",
+        "Rose Hall Great House — estate heritage tour",
+        "Hip Strip — beach clubs and dining",
+      ],
+      recommendedExcursions: [
+        "Doctor's Cave Beach day when arrival is morning",
+        "Rose Hall coach when departure allows return buffer",
+        "Private MoBay highlights loop on flexible schedules",
+      ],
+      timingConsiderations: [
+        "Do not book Dunn's River (Ocho Rios) tours for a Montego Bay call",
+        "Multi-ship weeks fill beaches and estate coaches faster",
+        "Confirm final times aboard before leaving the pier",
+      ],
+      returnGuidance:
+        "Return to Montego Bay pier security at least 45–60 minutes before published departure.",
+    },
+    faqs: [
+      {
+        question: "Is Montego Bay the same as Falmouth or Ocho Rios?",
+        answer:
+          "No. Montego Bay is a separate Jamaica cruise pier with its own schedule pages.",
+      },
+      {
+        question: "Does Montego Bay use tenders?",
+        answer:
+          "No under normal conditions. Montego Bay is a dock pier with walk-off access.",
+      },
+      {
+        question: "How do I spot a busy Montego Bay day?",
+        answer:
+          "Count ships on your date in the monthly table. Multiple vessels mean fuller beaches and coaches.",
+      },
+      {
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line before leaving the pier.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Montego Bay 2028 Schedule",
+        href: "/ship-schedules/montego-bay/2028",
+        description: "Currently published 2028 Montego Bay itinerary calls.",
+      },
+      {
+        label: "Falmouth Schedule",
+        href: "/ship-schedules/falmouth",
+        description: "Separate Jamaica pier — do not mix with Montego Bay.",
+      },
+      {
+        label: "Ocho Rios Schedule",
+        href: "/ship-schedules/ocho-rios",
+        description: "Separate Jamaica pier — do not mix with Montego Bay.",
+      },
+      {
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with every published port.",
+      },
+    ],
+  },
+
 };

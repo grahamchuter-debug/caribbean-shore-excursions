@@ -1,0 +1,12 @@
+[
+  {
+    "port": "falmouth",
+    "key": [
+      "2028-02-22",
+      "independenceoftheseas"
+    ],
+    "action": "keep_tier2_drop_ct",
+    "ship": "Independence Of The Seas",
+    "date": "2028-02-22"
+  }
+]

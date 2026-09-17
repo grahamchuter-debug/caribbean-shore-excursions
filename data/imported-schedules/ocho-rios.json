@@ -199,15 +199,6 @@
   },
   {
     "date": "2026-11-24",
-    "ship": "Zuiderdam",
-    "cruiseLine": "Verify with cruise line",
-    "arrival": "08:00",
-    "departure": "17:00",
-    "timeInPort": "9h",
-    "passengers": "1,970 to 2,364"
-  },
-  {
-    "date": "2026-11-24",
     "ship": "MSC Poesia",
     "cruiseLine": "MSC Cruises",
     "arrival": "09:00",
@@ -223,6 +214,15 @@
     "departure": "18:00",
     "timeInPort": "8h",
     "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2026-11-24",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "1,970 to 2,364"
   },
   {
     "date": "2026-11-25",
@@ -325,21 +325,21 @@
   },
   {
     "date": "2026-12-16",
-    "ship": "Resilient Lady",
-    "cruiseLine": "Verify with cruise line",
-    "arrival": "08:00",
-    "departure": "16:30",
-    "timeInPort": "8h 30m",
-    "passengers": "2,770 to 2,860"
-  },
-  {
-    "date": "2026-12-16",
     "ship": "MSC Poesia",
     "cruiseLine": "MSC Cruises",
     "arrival": "09:00",
     "departure": "19:00",
     "timeInPort": "10h",
     "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2026-12-16",
+    "ship": "Resilient Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "08:00",
+    "departure": "16:30",
+    "timeInPort": "8h 30m",
+    "passengers": "2,770 to 2,860"
   },
   {
     "date": "2026-12-17",
@@ -577,21 +577,21 @@
   },
   {
     "date": "2027-01-27",
-    "ship": "Norwegian Epic",
-    "cruiseLine": "Norwegian Cruise Line",
-    "arrival": "07:00",
-    "departure": "16:00",
-    "timeInPort": "9h",
-    "passengers": "4,228 to 5,074"
-  },
-  {
-    "date": "2027-01-27",
     "ship": "Carnival Dream",
     "cruiseLine": "Carnival Cruise Line",
     "arrival": "08:00",
     "departure": "16:00",
     "timeInPort": "8h",
     "passengers": "3,626 to 4,533"
+  },
+  {
+    "date": "2027-01-27",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "4,228 to 5,074"
   },
   {
     "date": "2027-01-28",
@@ -712,21 +712,21 @@
   },
   {
     "date": "2027-02-24",
-    "ship": "Nieuw Statendam",
-    "cruiseLine": "Holland America Line",
-    "arrival": "08:00",
-    "departure": "16:00",
-    "timeInPort": "8h",
-    "passengers": "2,650 to 3,194"
-  },
-  {
-    "date": "2027-02-24",
     "ship": "Carnival Legend",
     "cruiseLine": "Carnival Cruise Line",
     "arrival": "09:00",
     "departure": "17:00",
     "timeInPort": "8h",
     "passengers": "2,124 to 2,549"
+  },
+  {
+    "date": "2027-02-24",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h",
+    "passengers": "2,650 to 3,194"
   },
   {
     "date": "2027-02-28",
@@ -874,21 +874,21 @@
   },
   {
     "date": "2027-03-31",
-    "ship": "Norwegian Epic",
-    "cruiseLine": "Norwegian Cruise Line",
-    "arrival": "07:00",
-    "departure": "16:00",
-    "timeInPort": "9h",
-    "passengers": "4,228 to 5,074"
-  },
-  {
-    "date": "2027-03-31",
     "ship": "Caribbean Princess",
     "cruiseLine": "Princess Cruises",
     "arrival": "09:00",
     "departure": "17:00",
     "timeInPort": "8h",
     "passengers": "3,138 to 3,766"
+  },
+  {
+    "date": "2027-03-31",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "4,228 to 5,074"
   },
   {
     "date": "2027-04-07",
@@ -1234,21 +1234,21 @@
   },
   {
     "date": "2027-11-18",
-    "ship": "Oceania Sirena",
-    "cruiseLine": "Oceania Cruises",
-    "arrival": "07:00",
-    "departure": "14:00",
-    "timeInPort": "7h",
-    "passengers": "698 to 803"
-  },
-  {
-    "date": "2027-11-18",
     "ship": "MSC Poesia",
     "cruiseLine": "MSC Cruises",
     "arrival": "10:00",
     "departure": "18:00",
     "timeInPort": "8h",
     "passengers": "2,550 to 3,060"
+  },
+  {
+    "date": "2027-11-18",
+    "ship": "Oceania Sirena",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "14:00",
+    "timeInPort": "7h",
+    "passengers": "698 to 803"
   },
   {
     "date": "2027-11-21",
@@ -1387,6 +1387,15 @@
   },
   {
     "date": "2027-12-31",
+    "ship": "Brilliant Lady",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "09:30",
+    "departure": "17:00",
+    "timeInPort": "7h 30m",
+    "passengers": "2,770 to 2,860"
+  },
+  {
+    "date": "2027-12-31",
     "ship": "MSC Poesia",
     "cruiseLine": "MSC Cruises",
     "arrival": "08:00",
@@ -1395,12 +1404,138 @@
     "passengers": "2,550 to 3,060"
   },
   {
-    "date": "2027-12-31",
-    "ship": "Brilliant Lady",
-    "cruiseLine": "Verify with cruise line",
-    "arrival": "09:30",
+    "date": "2028-01-05",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
     "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-08",
+    "ship": "Oceania Sirena",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-12",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-01",
+    "ship": "Carnival Breeze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-09",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-07",
+    "ship": "Eurodam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-08",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-11",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "07:00",
+    "departure": "14:30",
     "timeInPort": "7h 30m",
-    "passengers": "2,770 to 2,860"
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-15",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-05",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-05",
+    "ship": "Oosterdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "14:00",
+    "timeInPort": "7h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-12",
+    "ship": "Explorer Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-11-27",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "11:00",
+    "departure": "18:00",
+    "timeInPort": "7h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-12-22",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "10:00",
+    "departure": "20:00",
+    "timeInPort": "10h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-12-27",
+    "ship": "Seven Seas Mariner",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "passengers": ""
   }
 ]

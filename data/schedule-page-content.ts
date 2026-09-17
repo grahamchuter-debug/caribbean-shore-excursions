@@ -17,6 +17,12 @@ export const SCHEDULE_HUB_PORT_SLUGS = [
   "ocho-rios",
   "st-kitts",
   "puerto-limon",
+  "antigua",
+  "barbados",
+  "st-lucia",
+  "curacao",
+  "falmouth",
+  "montego-bay",
 ] as const;
 
 export type ScheduleHubPortSlug = (typeof SCHEDULE_HUB_PORT_SLUGS)[number];
@@ -111,7 +117,25 @@ type GeneratedPortYearKey =
   | "puerto-limon-2028"
   | "st-kitts-2026"
   | "st-kitts-2027"
-  | "st-kitts-2028";
+  | "st-kitts-2028"
+  | "antigua-2026"
+  | "antigua-2027"
+  | "antigua-2028"
+  | "barbados-2026"
+  | "barbados-2027"
+  | "barbados-2028"
+  | "st-lucia-2026"
+  | "st-lucia-2027"
+  | "st-lucia-2028"
+  | "curacao-2026"
+  | "curacao-2027"
+  | "curacao-2028"
+  | "falmouth-2026"
+  | "falmouth-2027"
+  | "falmouth-2028"
+  | "montego-bay-2026"
+  | "montego-bay-2027"
+  | "montego-bay-2028";
 
 interface PortYearProfile {
   slug: ScheduleHubPortSlug;
@@ -510,6 +534,235 @@ const portYearProfiles: PortYearProfile[] = [
       },
     ],
   },
+
+  {
+    slug: "antigua",
+    name: "Antigua",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "St. John's cruise port",
+    dockSentence:
+      "Ships dock with walk-off access at St. John's — no tenders — and most passengers head straight for beach clubs, catamaran sails, or Heritage Quay shopping.",
+    signatureList: "a Dickenson Bay beach day, a Catamaran Circle Island sail, or Shirley Heights views",
+    crowdSubject: "multi-ship St. John's days that fill beach clubs and sailing seats",
+    whyPassengersUse: [
+      "Antigua's %Y table shows St. John's call windows so you can size Dickenson Bay transfers versus a full-day Circle Island sail.",
+      "Heritage Quay shopping is walkable from the pier — published %Y arrivals frame when independent beach taxis should leave.",
+      "Southern Caribbean loops often pair Antigua with Barbados or St. Lucia — comparing %Y volumes prevents overcommitted beach days.",
+      "Multi-ship %Y weeks sell out popular catamaran seats early, so overlap counts drive advance booking.",
+    ],
+    faqs: [
+      {
+        question: "Is Antigua a tender or dock port in %Y?",
+        answer:
+          "Antigua is a dock port. %Y ships berth at St. John's with walk-off access — no tender boats under normal conditions.",
+      },
+      {
+        question: "How does the %Y Antigua schedule help with beach planning?",
+        answer:
+          "Dickenson Bay and other beach clubs fill when several ships share St. John's. Your %Y monthly table shows overlap so you can book transfers early.",
+      },
+      {
+        question: "Can I do a Circle Island catamaran on a %Y Antigua call?",
+        answer:
+          "Yes on longer windows. Check your %Y departure column — full-day sails need roughly six to seven hours ashore plus a safe return buffer.",
+      },
+      {
+        question: "How busy is St. John's on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multiple vessels mean fuller beach clubs and quicker catamaran sellouts.",
+      },
+    ],
+  },
+  {
+    slug: "barbados",
+    name: "Barbados",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "the Bridgetown cruise terminal",
+    dockSentence:
+      "Ships dock at Bridgetown with walk-off access — no tenders — and Carlisle Bay snorkel boats plus west-coast beach clubs stage from the terminal area.",
+    signatureList: "a Carlisle Bay turtle snorkel, a west-coast beach club, or a Harrison's Cave visit",
+    crowdSubject: "multi-ship Bridgetown days that fill snorkel boats and beach clubs",
+    whyPassengersUse: [
+      "Bridgetown %Y rows show whether Carlisle Bay turtle snorkels fit before afternoon departure.",
+      "Harrison's Cave and inland tours need coach time — the %Y departure column prevents booking caves that cannot return on time.",
+      "West-coast beach clubs sell out on stacked %Y weeks, so overlap counts drive early reservations.",
+      "Southern Caribbean routes often pair Barbados with Antigua or St. Lucia — %Y comparison builds realistic pacing.",
+    ],
+    faqs: [
+      {
+        question: "Is Barbados a tender or dock port in %Y?",
+        answer:
+          "Barbados is a dock port. %Y ships berth at the Bridgetown cruise terminal with walk-off access — no passenger tenders.",
+      },
+      {
+        question: "How does the %Y schedule help with Carlisle Bay planning?",
+        answer:
+          "Turtle snorkel boats batch around morning arrivals. Your %Y row shows whether you can make first boats and return with a safe buffer.",
+      },
+      {
+        question: "Can I visit Harrison's Cave on a %Y Barbados port day?",
+        answer:
+          "Yes on medium-to-long calls. Open your %Y departure column and allow coach transit plus tour time before all-aboard.",
+      },
+      {
+        question: "How busy is Bridgetown on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multi-ship days fill Carlisle Bay boats and west-coast beach clubs faster.",
+      },
+    ],
+  },
+  {
+    slug: "st-lucia",
+    name: "St. Lucia",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "the Castries cruise port",
+    dockSentence:
+      "Ships dock at Castries with walk-off access — no tenders — while Pitons and Soufrière day trips use coaches or boats from the Castries terminal, not a separate Pitons cruise pier.",
+    signatureList: "a Pitons / Soufrière day, a Marigot Bay sail, or a Castries market morning",
+    crowdSubject: "multi-ship Castries days that fill Pitons coaches and catamarans",
+    whyPassengersUse: [
+      "Castries is the cruise call — the %Y table sizes Pitons and Soufrière day trips against published arrivals, not beach-resort marketing names.",
+      "Pitons tours need long southbound transit — %Y departure columns show whether a full Soufrière day fits.",
+      "Marigot Bay sails batch around morning gangway times; %Y overlap helps you book early seats.",
+      "Eastern and Southern Caribbean loops often include St. Lucia with Antigua or Barbados — comparing %Y volumes prevents overcommitted days.",
+    ],
+    faqs: [
+      {
+        question: "Where do cruise ships dock in St. Lucia in %Y?",
+        answer:
+          "%Y ships call at Castries. The Pitons and Soufrière are excursion destinations reached by coach or boat from Castries — they are not separate cruise terminals on this schedule.",
+      },
+      {
+        question: "Is St. Lucia a tender port in %Y?",
+        answer:
+          "No. Castries is a dock port with walk-off access in %Y. Tender logistics do not apply under normal conditions.",
+      },
+      {
+        question: "Can I reach the Pitons on a %Y Castries port day?",
+        answer:
+          "Yes on longer calls. Open your %Y row and allow several hours of southbound transit plus sightseeing before return to Castries.",
+      },
+      {
+        question: "How busy is Castries on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multi-ship weeks fill Pitons coaches and Marigot Bay sails quickly.",
+      },
+    ],
+  },
+  {
+    slug: "curacao",
+    name: "Curaçao",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "the Willemstad cruise terminals",
+    dockSentence:
+      "Ships dock at Willemstad with walk-off access to Punda and Otrobanda — no tenders — and west-coast cove beaches need taxi or tour transfers from the terminal.",
+    signatureList: "a Willemstad walking morning, a Tugboat Beach snorkel, or a Grote Knip afternoon",
+    crowdSubject: "multi-ship Willemstad days that fill snorkel boats and west-coast taxis",
+    whyPassengersUse: [
+      "Willemstad %Y rows frame how soon you can cross the Queen Emma Bridge after arrival for Handelskade walks.",
+      "West-coast cove beaches need transfer time — the %Y departure column shows whether Grote Knip fits with a safe return.",
+      "Tugboat Beach snorkel boats batch morning slots; %Y overlap drives early booking on stacked weeks.",
+      "ABC-island loops often pair Curaçao with Aruba — comparing %Y volumes balances culture mornings and beach afternoons.",
+    ],
+    faqs: [
+      {
+        question: "Is Curaçao a tender or dock port in %Y?",
+        answer:
+          "Curaçao is a dock port. %Y ships berth at Willemstad cruise terminals with walk-off access toward Punda and Otrobanda — no tenders.",
+      },
+      {
+        question: "How does the %Y schedule help with west-coast beach planning?",
+        answer:
+          "Grote Knip and other coves need taxi or tour time from Willemstad. Your %Y departure column shows whether an afternoon beach stop still leaves a safe return buffer.",
+      },
+      {
+        question: "Can I walk Willemstad from the ship in %Y?",
+        answer:
+          "Yes. Downtown is walkable from the cruise terminals via the Queen Emma Bridge area. Use your %Y arrival time to plan a morning Handelskade loop before midday heat.",
+      },
+      {
+        question: "How busy is Willemstad on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multiple vessels mean fuller snorkel boats and longer west-coast taxi queues.",
+      },
+    ],
+  },
+  {
+    slug: "falmouth",
+    name: "Falmouth",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "the Falmouth cruise pier",
+    dockSentence:
+      "Ships dock at Falmouth with walk-off access — no tenders — and Martha Brae rafting plus resort beach transfers stage from this distinct Jamaica north-coast pier, separate from Ocho Rios and Montego Bay.",
+    signatureList: "Martha Brae rafting, a resort beach day, or a Falmouth heritage walk",
+    crowdSubject: "multi-ship Falmouth weeks that fill rafting and beach transfers",
+    whyPassengersUse: [
+      "Falmouth is its own Jamaica cruise port — the %Y table must not be confused with Ocho Rios or Montego Bay calls on the same itinerary.",
+      "Martha Brae rafting batches around morning arrivals; %Y windows show whether the gentle river float fits.",
+      "Resort beach day passes sell out on stacked %Y weeks, so overlap counts drive advance booking.",
+      "Western Caribbean loops often include one Jamaica pier only — confirm your %Y Falmouth date before booking Dunn's River tours meant for Ocho Rios.",
+    ],
+    faqs: [
+      {
+        question: "Is Falmouth the same as Ocho Rios or Montego Bay in %Y?",
+        answer:
+          "No. Falmouth is a separate Jamaica cruise pier. %Y schedules on this page list Falmouth calls only — do not use Ocho Rios or Montego Bay pages for a Falmouth sailing.",
+      },
+      {
+        question: "Is Falmouth a tender port in %Y?",
+        answer:
+          "No. %Y ships dock at the Falmouth cruise pier with walk-off access.",
+      },
+      {
+        question: "How does the %Y schedule help with Martha Brae planning?",
+        answer:
+          "Rafting departures batch around morning arrivals. Your %Y row shows whether the river float fits with a safe return to the Falmouth pier.",
+      },
+      {
+        question: "How busy is Falmouth on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multi-ship weeks fill rafting slots and resort beach transfers faster.",
+      },
+    ],
+  },
+  {
+    slug: "montego-bay",
+    name: "Montego Bay",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "the Montego Bay cruise pier",
+    dockSentence:
+      "Ships dock at Montego Bay with walk-off access — no tenders — and Doctor's Cave Beach plus Hip Strip transfers stage from this pier, separate from Falmouth and Ocho Rios.",
+    signatureList: "Doctor's Cave Beach, a Rose Hall estate visit, or a Hip Strip afternoon",
+    crowdSubject: "multi-ship Montego Bay weeks that fill beach clubs and estate coaches",
+    whyPassengersUse: [
+      "Montego Bay is a distinct Jamaica cruise port — the %Y table lists MoBay calls only, not Falmouth or Ocho Rios.",
+      "Doctor's Cave Beach fills on stacked %Y weeks; arrival columns frame early taxi timing.",
+      "Rose Hall estate coaches need transit time — %Y departure columns prevent late returns.",
+      "Western Caribbean itineraries may call only one Jamaica pier — confirm your %Y Montego Bay date before booking Dunn's River (Ocho Rios) tours.",
+    ],
+    faqs: [
+      {
+        question: "Is Montego Bay the same cruise port as Falmouth or Ocho Rios in %Y?",
+        answer:
+          "No. Montego Bay is a separate Jamaica pier. Use this %Y page only for Montego Bay sailings — Falmouth and Ocho Rios have their own schedules.",
+      },
+      {
+        question: "Is Montego Bay a tender port in %Y?",
+        answer:
+          "No. %Y ships dock at the Montego Bay cruise pier with walk-off access.",
+      },
+      {
+        question: "How does the %Y schedule help with Doctor's Cave Beach planning?",
+        answer:
+          "Beach clubs and taxis thin out when several ships share MoBay. Your %Y monthly table shows overlap so you can book transfers early.",
+      },
+      {
+        question: "How busy is Montego Bay on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multi-ship weeks fill Hip Strip beaches and Rose Hall coaches faster.",
+      },
+    ],
+  },
 ];
 
 function buildPortYearContent(
@@ -517,8 +770,12 @@ function buildPortYearContent(
   year: ScheduleYear,
 ): SchedulePageContent {
   const hub = scheduleHubContent[`${profile.slug}-hub`];
+  const futureNote =
+    year === 2028
+      ? " This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details."
+      : "";
   return {
-    intro: `This ${year} ${profile.name} cruise ship schedule lists published arrivals and departures at ${profile.terminalsPhrase}. ${profile.dockSentence} Before booking ${profile.signatureList}, check the monthly ${year} tables for ${profile.crowdSubject} so you can reserve popular operators early.`,
+    intro: `This ${year} ${profile.name} cruise ship schedule lists published arrivals and departures at ${profile.terminalsPhrase}. ${profile.dockSentence} Before booking ${profile.signatureList}, check the monthly ${year} tables for ${profile.crowdSubject} so you can reserve popular operators early.${futureNote}`,
     whyPassengersUse: profile.whyPassengersUse.map((point) => fillYear(point, year)),
     planningYourDay: hub.planningYourDay,
     faqs: profile.faqs.map((faq) => ({

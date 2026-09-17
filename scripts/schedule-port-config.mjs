@@ -201,6 +201,41 @@ export const PORT_HAZARD_RULES = {
     note: "Preserve Amber Cove vs Taino Bay / Puerto Plata distinctions when source distinguishes them.",
     distinctLocations: ["Amber Cove", "Taino Bay", "Puerto Plata"],
   },
+  antigua: {
+    allowedCallNames: [/antigua/i, /st\.?\s*john'?s?/i],
+    rejectCallNames: [/barbuda/i, /jolly\s*harbour/i],
+    note: "Antigua cruise calls are St. John's — do not absorb Barbuda or unrelated island anchorages.",
+  },
+  barbados: {
+    allowedCallNames: [/barbados/i, /bridgetown/i],
+    rejectCallNames: [/speightstown/i, /holetown/i, /oistins/i],
+    note: "Barbados cruise calls are Bridgetown — do not flatten beach towns into port calls.",
+  },
+  "st-lucia": {
+    allowedCallNames: [/st\.?\s*lucia/i, /castries/i],
+    rejectCallNames: [/soufri[eè]re/i, /pitons/i],
+    note: "St. Lucia cruise calls are Castries — Pitons/Soufrière are excursion geography, not cruise terminals.",
+  },
+  curacao: {
+    allowedCallNames: [/cura[cç]ao/i, /curacao/i, /willemstad/i],
+    rejectCallNames: [/klein\s*cura[cç]ao/i, /westpunt/i],
+    note: "Curaçao cruise calls are Willemstad — do not invent berths or absorb Klein Curaçao day-trip geography.",
+  },
+  "ocho-rios": {
+    allowedCallNames: [/ocho\s*rios/i],
+    rejectCallNames: [/falmouth/i, /montego\s*bay/i, /negril/i, /kingston/i],
+    note: "Keep Ocho Rios separate from Falmouth and Montego Bay.",
+  },
+  falmouth: {
+    allowedCallNames: [/falmouth/i],
+    rejectCallNames: [/ocho\s*rios/i, /montego\s*bay/i, /negril/i, /kingston/i],
+    note: "Keep Falmouth separate from Ocho Rios and Montego Bay.",
+  },
+  "montego-bay": {
+    allowedCallNames: [/montego\s*bay/i],
+    rejectCallNames: [/ocho\s*rios/i, /falmouth/i, /negril/i, /kingston/i],
+    note: "Keep Montego Bay separate from Ocho Rios and Falmouth.",
+  },
 };
 
 export function passesPortHazardRule(portSlug, callLocationName) {
