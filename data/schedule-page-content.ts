@@ -29,6 +29,12 @@ export const SCHEDULE_HUB_PORT_SLUGS = [
   "grand-turk",
   "belize-city",
   "key-west",
+  "progreso",
+  "freeport",
+  "bonaire",
+  "dominica",
+  "samana",
+  "bimini",
 ] as const;
 
 export type ScheduleHubPortSlug = (typeof SCHEDULE_HUB_PORT_SLUGS)[number];
@@ -159,7 +165,25 @@ type GeneratedPortYearKey =
   | "belize-city-2028"
   | "key-west-2026"
   | "key-west-2027"
-  | "key-west-2028";
+  | "key-west-2028"
+  | "progreso-2026"
+  | "progreso-2027"
+  | "progreso-2028"
+  | "freeport-2026"
+  | "freeport-2027"
+  | "freeport-2028"
+  | "bonaire-2026"
+  | "bonaire-2027"
+  | "bonaire-2028"
+  | "dominica-2026"
+  | "dominica-2027"
+  | "dominica-2028"
+  | "samana-2026"
+  | "samana-2027"
+  | "samana-2028"
+  | "bimini-2026"
+  | "bimini-2027"
+  | "bimini-2028";
 
 interface PortYearProfile {
   slug: ScheduleHubPortSlug;
@@ -1013,6 +1037,235 @@ const portYearProfiles: PortYearProfile[] = [
         question: "How busy is Key West on my %Y sailing date?",
         answer:
           "Count ships on your date in the %Y month table. Multiple vessels mean fuller beaches, snorkel boats, and downtown streets.",
+      },
+    ],
+  },
+
+  {
+    slug: "progreso",
+    name: "Progreso",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "the Progreso cruise pier",
+    dockSentence:
+      "Ships dock at Progreso on Mexico's Yucatán coast — this is not Cozumel or Costa Maya. Long pier shuttles and Mérida/Uxmal day trips need published departure buffers.",
+    signatureList: "a Mérida city day, an Uxmal ruins tour, or a Progreso beach stop",
+    crowdSubject: "multi-ship Progreso weeks that fill ruins coaches",
+    whyPassengersUse: [
+      "Progreso is a Yucatán mainland pier — the %Y table must not be read as Cozumel or Costa Maya.",
+      "Uxmal and Mérida need long coach time against %Y departure columns.",
+      "Pier shuttle length matters — %Y arrivals frame when independent beach plans can start.",
+      "Western Caribbean loops often pair Progreso with Cozumel — compare %Y volumes carefully by port.",
+    ],
+    faqs: [
+      {
+        question: "Is Progreso the same as Cozumel or Costa Maya in %Y?",
+        answer:
+          "No. Progreso is a separate Yucatán mainland cruise pier. Use this %Y page only for Progreso sailings.",
+      },
+      {
+        question: "Is Progreso a tender port in %Y?",
+        answer:
+          "No under normal conditions. %Y ships dock at the Progreso cruise pier, though the pier itself is long — factor shuttle time.",
+      },
+      {
+        question: "Can I visit Uxmal on a %Y Progreso port day?",
+        answer:
+          "Only on longer calls. Open your %Y departure column and allow substantial coach time plus ruins touring before return.",
+      },
+      {
+        question: "How busy is Progreso on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multi-ship weeks fill Mérida and Uxmal coaches faster.",
+      },
+    ],
+  },
+  {
+    slug: "freeport",
+    name: "Freeport",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "Freeport / Grand Bahama cruise facilities",
+    dockSentence:
+      "Ships call at Freeport on Grand Bahama — this is not Nassau. Beach clubs and Lucaya plans stage from Freeport, not Prince George Wharf.",
+    signatureList: "a Lucaya beach day, a snorkel sail, or a Grand Bahama highlights loop",
+    crowdSubject: "multi-ship Freeport days that fill beach transfers",
+    whyPassengersUse: [
+      "Freeport is Grand Bahama — the %Y table must not be confused with Nassau schedules.",
+      "Lucaya beach clubs fill on multi-ship %Y weeks.",
+      "Snorkel sails batch around morning arrivals — %Y windows frame first boats.",
+      "Bahamas loops may include Nassau or Freeport, not interchangeably — confirm your %Y port.",
+    ],
+    faqs: [
+      {
+        question: "Is Freeport the same as Nassau in %Y?",
+        answer:
+          "No. Freeport is on Grand Bahama. Nassau is a separate island and schedule. Use this %Y page only for Freeport sailings.",
+      },
+      {
+        question: "Is Freeport a tender port in %Y?",
+        answer:
+          "Freeport is typically a dock call in %Y. Confirm on the day if operations change.",
+      },
+      {
+        question: "How does the %Y schedule help with Lucaya planning?",
+        answer:
+          "Beach transfers fill when several ships share Freeport. Your %Y monthly table shows overlap so you can book early.",
+      },
+      {
+        question: "How busy is Freeport on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table.",
+      },
+    ],
+  },
+  {
+    slug: "bonaire",
+    name: "Bonaire",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "the Kralendijk cruise pier",
+    dockSentence:
+      "Ships dock at Kralendijk on Bonaire — this is not Aruba or Curaçao. Reef snorkel and flamingo tours stage from this ABC-island pier.",
+    signatureList: "a house-reef snorkel, a flamingo salt-flat visit, or a Washington Slagbaai safari",
+    crowdSubject: "multi-ship Kralendijk days that fill reef and park tours",
+    whyPassengersUse: [
+      "Bonaire / Kralendijk is a separate ABC island — the %Y table is not Aruba or Curaçao.",
+      "Marine-park snorkels batch morning slots — %Y arrivals frame first boats.",
+      "Washington Slagbaai needs longer windows against %Y departures.",
+      "Southern Caribbean loops often include one ABC island — confirm your %Y call is Bonaire.",
+    ],
+    faqs: [
+      {
+        question: "Is Bonaire the same as Aruba or Curaçao in %Y?",
+        answer:
+          "No. Bonaire ships call at Kralendijk. Aruba and Curaçao have separate schedules.",
+      },
+      {
+        question: "Is Bonaire a tender port in %Y?",
+        answer:
+          "No under normal conditions. %Y ships dock at Kralendijk with town walk-off access.",
+      },
+      {
+        question: "How does the %Y schedule help with reef snorkel planning?",
+        answer:
+          "Guided reef entries batch around morning arrivals. Your %Y row shows whether first boats fit with a safe return.",
+      },
+      {
+        question: "How busy is Kralendijk on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multi-ship days fill snorkel and park capacity faster.",
+      },
+    ],
+  },
+  {
+    slug: "dominica",
+    name: "Dominica",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "the Roseau cruise port",
+    dockSentence:
+      "Ships call at Roseau on the island of Dominica — not the Dominican Republic. Rainforest and Trafalgar Falls tours stage from Roseau.",
+    signatureList: "a Trafalgar Falls visit, a rainforest aerial tram, or a Roseau market morning",
+    crowdSubject: "multi-ship Roseau days that fill waterfall coaches",
+    whyPassengersUse: [
+      "Dominica is a separate country from the Dominican Republic — the %Y table is Roseau only.",
+      "Trafalgar Falls coaches need transit against %Y departure columns.",
+      "Rainforest weather can slow returns — %Y windows frame realistic buffers.",
+      "Eastern Caribbean loops may include Dominica with Guadeloupe or Martinique — confirm Roseau on your %Y itinerary.",
+    ],
+    faqs: [
+      {
+        question: "Is Dominica the same as the Dominican Republic in %Y?",
+        answer:
+          "No. Dominica is an island nation with Roseau as the cruise call. Dominican Republic ports (Puerto Plata, Samaná, La Romana) are separate schedules.",
+      },
+      {
+        question: "Where do cruise ships dock in Dominica in %Y?",
+        answer:
+          "%Y ships call at Roseau. Use this page only for Dominica / Roseau sailings.",
+      },
+      {
+        question: "Is Roseau a tender port in %Y?",
+        answer:
+          "Roseau is typically a dock call in %Y. Confirm on the day if operations change.",
+      },
+      {
+        question: "How busy is Roseau on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multi-ship days fill Trafalgar Falls coaches faster.",
+      },
+    ],
+  },
+  {
+    slug: "samana",
+    name: "Samaná",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "the Samaná cruise facilities",
+    dockSentence:
+      "Ships call at Samaná in the Dominican Republic — this is not Puerto Plata, Amber Cove, or La Romana. Whale-watching and El Limón tours stage from Samaná.",
+    signatureList: "a seasonal whale-watching boat, an El Limón waterfall trek, or a Los Haitises boat",
+    crowdSubject: "multi-ship Samaná weeks that fill whale boats and waterfall coaches",
+    whyPassengersUse: [
+      "Samaná is a distinct Dominican Republic cruise call — the %Y table is not Puerto Plata or La Romana.",
+      "Whale boats (in season) batch morning slots — %Y arrivals frame first departures.",
+      "El Limón and Los Haitises need transit against %Y departure columns.",
+      "Confirm your itinerary lists Samaná before booking Amber Cove or Casa de Campo tours.",
+    ],
+    faqs: [
+      {
+        question: "Is Samaná the same as Puerto Plata or La Romana in %Y?",
+        answer:
+          "No. Samaná, Puerto Plata / Amber Cove, and La Romana are separate Dominican Republic cruise ports with separate schedules.",
+      },
+      {
+        question: "Does Samaná use tenders in %Y?",
+        answer:
+          "Operations vary by ship and berth. Use published %Y times as planning guides and confirm tender vs dock on the ship before booking long inland tours.",
+      },
+      {
+        question: "Can I whale watch on a %Y Samaná call?",
+        answer:
+          "Humpback season is roughly January–March. Open your %Y row and allow boat time plus a safe return buffer.",
+      },
+      {
+        question: "How busy is Samaná on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multi-ship weeks fill whale boats and waterfall coaches faster.",
+      },
+    ],
+  },
+  {
+    slug: "bimini",
+    name: "Bimini",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "Bimini cruise facilities",
+    dockSentence:
+      "Ships call at Bimini in the Bahamas — this is not Nassau or Freeport. Resort beach and snorkel plans stage from the Bimini call.",
+    signatureList: "a resort beach day, a snorkel sail, or a Bimini highlights loop",
+    crowdSubject: "multi-ship Bimini days that fill beach and snorkel capacity",
+    whyPassengersUse: [
+      "Bimini is a separate Bahamas call — the %Y table is not Nassau or Freeport.",
+      "Resort beach clubs fill on multi-ship %Y weeks.",
+      "Snorkel sails batch morning slots — %Y arrivals frame first boats.",
+      "Confirm Bimini on your itinerary before booking Nassau Atlantis plans.",
+    ],
+    faqs: [
+      {
+        question: "Is Bimini the same as Nassau or Freeport in %Y?",
+        answer:
+          "No. Bimini, Nassau, and Freeport are separate Bahamas cruise destinations with separate schedules.",
+      },
+      {
+        question: "Is Bimini a tender port in %Y?",
+        answer:
+          "Many modern Bimini calls dock at resort facilities. Confirm tender vs dock on the ship for your %Y sailing.",
+      },
+      {
+        question: "How does the %Y schedule help with beach planning?",
+        answer:
+          "Resort amenities fill when several ships share Bimini. Your %Y monthly table shows overlap.",
+      },
+      {
+        question: "How busy is Bimini on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table.",
       },
     ],
   },

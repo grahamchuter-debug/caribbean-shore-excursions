@@ -1,0 +1,60 @@
+{
+  "progreso": {
+    "total": 48,
+    "byYear": {
+      "2028": 48
+    },
+    "dups_removed": 0,
+    "added_2028": 48
+  },
+  "freeport": {
+    "total": 39,
+    "byYear": {
+      "2028": 39
+    },
+    "dups_removed": 0,
+    "added_2028": 39
+  },
+  "bonaire": {
+    "total": 34,
+    "byYear": {
+      "2028": 34
+    },
+    "dups_removed": 0,
+    "added_2028": 34
+  },
+  "dominica": {
+    "total": 29,
+    "byYear": {
+      "2028": 29
+    },
+    "dups_removed": 0,
+    "added_2028": 29
+  },
+  "samana": {
+    "total": 25,
+    "byYear": {
+      "2028": 25
+    },
+    "dups_removed": 0,
+    "added_2028": 25
+  },
+  "bimini": {
+    "total": 24,
+    "byYear": {
+      "2028": 24
+    },
+    "dups_removed": 0,
+    "added_2028": 24
+  },
+  "puerto-limon": {
+    "total": 126,
+    "byYear": {
+      "2026": 25,
+      "2027": 82,
+      "2028": 19
+    },
+    "dups_removed": 0,
+    "added_2028": 19
+  }
+}

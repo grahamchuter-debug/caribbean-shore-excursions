@@ -1,0 +1,218 @@
+[
+  {
+    "date": "2028-01-04",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-05",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-10",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-13",
+    "ship": "Celebrity Ascent",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-18",
+    "ship": "Freedom Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-20",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-24",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-25",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-08",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-21",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-01",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-15",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-16",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-19",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-21",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-28",
+    "ship": "Freedom Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-29",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-30",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-02",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-04",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-06",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-11",
+    "ship": "Freedom Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-16",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-21",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  }
+]

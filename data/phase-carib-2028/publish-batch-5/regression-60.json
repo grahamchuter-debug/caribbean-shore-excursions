@@ -1,0 +1,594 @@
+{
+  "sample_size": 60,
+  "issues": [],
+  "issue_count": 0,
+  "pass": true,
+  "line_mix": {
+    "Oceania Cruises": 4,
+    "Carnival Cruise Line": 19,
+    "Royal Caribbean": 22,
+    "Celebrity Cruises": 6,
+    "Holland America Line": 7,
+    "Regent Seven Seas": 2
+  },
+  "port_mix": {
+    "dominica": 9,
+    "progreso": 15,
+    "samana": 9,
+    "freeport": 12,
+    "bimini": 2,
+    "bonaire": 10,
+    "puerto-limon": 3
+  },
+  "dup_report_2028": {
+    "progreso": 0,
+    "freeport": 0,
+    "bonaire": 0,
+    "dominica": 0,
+    "samana": 0,
+    "bimini": 0,
+    "puerto-limon": 0,
+    "puerto-quetzal": 0,
+    "puntarenas": 0,
+    "la-romana": 0
+  },
+  "classifications": {
+    "progreso": "PUBLISH",
+    "freeport": "PUBLISH",
+    "bonaire": "PUBLISH",
+    "dominica": "PUBLISH",
+    "samana": "PUBLISH",
+    "bimini": "PUBLISH",
+    "puerto-limon": "PUBLISH",
+    "puerto-quetzal": "HOLD \u2014 TOO THIN",
+    "puntarenas": "HOLD \u2014 TOO THIN",
+    "la-romana": "HOLD \u2014 TOO THIN"
+  },
+  "held": {
+    "puerto-quetzal": "HOLD \u2014 TOO THIN",
+    "puntarenas": "HOLD \u2014 TOO THIN",
+    "la-romana": "HOLD \u2014 TOO THIN"
+  },
+  "sample": [
+    {
+      "date": "2028-01-01",
+      "ship": "Oceania Sirena",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "port": "dominica"
+    },
+    {
+      "date": "2028-01-01",
+      "ship": "Carnival Sunshine",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-03-22",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "samana"
+    },
+    {
+      "date": "2028-12-12",
+      "ship": "Oceania Vista",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "port": "dominica"
+    },
+    {
+      "date": "2028-03-26",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "freeport"
+    },
+    {
+      "date": "2028-02-08",
+      "ship": "Celebrity Constellation",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "bimini"
+    },
+    {
+      "date": "2028-01-11",
+      "ship": "Carnival Dream",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-03-05",
+      "ship": "Celebrity Reflection",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "freeport"
+    },
+    {
+      "date": "2028-01-17",
+      "ship": "Oosterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "10:00",
+      "departure": "21:00",
+      "timeInPort": "11h",
+      "port": "bonaire"
+    },
+    {
+      "date": "2028-02-25",
+      "ship": "Seven Seas Prestige",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "bonaire"
+    },
+    {
+      "date": "2028-02-23",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "samana"
+    },
+    {
+      "date": "2028-01-08",
+      "ship": "Celebrity Summit",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "freeport"
+    },
+    {
+      "date": "2028-01-17",
+      "ship": "Rhapsody Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "port": "dominica"
+    },
+    {
+      "date": "2028-01-15",
+      "ship": "Carnival Pride",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "dominica"
+    },
+    {
+      "date": "2028-02-15",
+      "ship": "Celebrity Xcel",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "11:30",
+      "departure": "18:00",
+      "timeInPort": "6h 30m",
+      "port": "samana"
+    },
+    {
+      "date": "2028-02-10",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "freeport"
+    },
+    {
+      "date": "2028-05-02",
+      "ship": "Carnival Dream",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-01-13",
+      "ship": "Oceania Marina",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "09:00",
+      "departure": "19:00",
+      "timeInPort": "10h",
+      "port": "puerto-limon"
+    },
+    {
+      "date": "2028-02-09",
+      "ship": "Vision Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "dominica"
+    },
+    {
+      "date": "2028-02-29",
+      "ship": "Oosterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "bonaire"
+    },
+    {
+      "date": "2028-01-23",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "freeport"
+    },
+    {
+      "date": "2028-04-18",
+      "ship": "Carnival Dream",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-03-22",
+      "ship": "Celebrity Summit",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "10:30",
+      "departure": "17:00",
+      "timeInPort": "6h 30m",
+      "port": "freeport"
+    },
+    {
+      "date": "2028-03-29",
+      "ship": "Independence Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "09:30",
+      "departure": "17:00",
+      "timeInPort": "7h 30m",
+      "port": "samana"
+    },
+    {
+      "date": "2028-02-17",
+      "ship": "Eurodam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "port": "dominica"
+    },
+    {
+      "date": "2028-04-19",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "samana"
+    },
+    {
+      "date": "2028-03-08",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "samana"
+    },
+    {
+      "date": "2028-02-08",
+      "ship": "Oosterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "bonaire"
+    },
+    {
+      "date": "2028-12-21",
+      "ship": "Oceania Sonata",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-01-12",
+      "ship": "Carnival Venezia",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "20:00",
+      "timeInPort": "11h",
+      "port": "bonaire"
+    },
+    {
+      "date": "2028-01-18",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "freeport"
+    },
+    {
+      "date": "2028-03-09",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "freeport"
+    },
+    {
+      "date": "2028-04-03",
+      "ship": "Oosterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "07:30",
+      "departure": "16:30",
+      "timeInPort": "9h",
+      "port": "puerto-limon"
+    },
+    {
+      "date": "2028-01-26",
+      "ship": "Carnival Venezia",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "20:00",
+      "timeInPort": "11h",
+      "port": "bonaire"
+    },
+    {
+      "date": "2028-01-29",
+      "ship": "Zuiderdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "dominica"
+    },
+    {
+      "date": "2028-02-06",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "freeport"
+    },
+    {
+      "date": "2028-03-21",
+      "ship": "Carnival Dream",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-04-02",
+      "ship": "Carnival Miracle",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "dominica"
+    },
+    {
+      "date": "2028-03-29",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "bimini"
+    },
+    {
+      "date": "2028-03-15",
+      "ship": "Independence Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "09:30",
+      "departure": "17:00",
+      "timeInPort": "7h 30m",
+      "port": "samana"
+    },
+    {
+      "date": "2028-03-02",
+      "ship": "Carnival Dream",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-04-14",
+      "ship": "Symphony Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "14:00",
+      "timeInPort": "7h",
+      "port": "samana"
+    },
+    {
+      "date": "2028-03-16",
+      "ship": "Carnival Dream",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-02-28",
+      "ship": "Eurodam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "10:00",
+      "departure": "23:00",
+      "timeInPort": "13h",
+      "port": "bonaire"
+    },
+    {
+      "date": "2028-02-03",
+      "ship": "Seven Seas Grandeur",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "dominica"
+    },
+    {
+      "date": "2028-03-03",
+      "ship": "Celebrity Constellation",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-01-06",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "port": "samana"
+    },
+    {
+      "date": "2028-03-19",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "freeport"
+    },
+    {
+      "date": "2028-04-04",
+      "ship": "Grandeur Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "bonaire"
+    },
+    {
+      "date": "2028-01-13",
+      "ship": "Carnival Horizon",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-01-09",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "freeport"
+    },
+    {
+      "date": "2028-03-05",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "freeport"
+    },
+    {
+      "date": "2028-01-07",
+      "ship": "Carnival Sunshine",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:30",
+      "timeInPort": "8h 30m",
+      "port": "puerto-limon"
+    },
+    {
+      "date": "2028-02-23",
+      "ship": "Carnival Venezia",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "20:00",
+      "timeInPort": "11h",
+      "port": "bonaire"
+    },
+    {
+      "date": "2028-03-29",
+      "ship": "Carnival Magic",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "20:00",
+      "timeInPort": "11h",
+      "port": "bonaire"
+    },
+    {
+      "date": "2028-02-22",
+      "ship": "Carnival Dream",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-02-10",
+      "ship": "Carnival Horizon",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-01-04",
+      "ship": "Carnival Horizon",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-03-14",
+      "ship": "Carnival Horizon",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    },
+    {
+      "date": "2028-01-19",
+      "ship": "Radiance Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "port": "progreso"
+    }
+  ]
+}

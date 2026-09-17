@@ -406,6 +406,73 @@ const planningConfig: Record<string, PortPlanningConfig> = {
       private: "Private whale boat or El Limón guide",
     },
   },
+
+  freeport: {
+    snapshot: {
+      timeInPort: "6-8 hours typical",
+      walkingRequired: "Low at cruise facilities",
+      familyFriendly: "Very Good",
+      privateTourFriendly: "Good",
+      returnToShipConfidence: "High",
+    },
+    typicalCruiseDay: [
+      { time: "8:30 AM", activity: "Lucaya beach transfer or snorkel sail" },
+      { time: "12:00 PM", activity: "Beach club lunch" },
+      { time: "2:30 PM", activity: "Optional second beach or shopping stop" },
+      { time: "4:00 PM", activity: "Return to Freeport cruise facilities" },
+    ],
+    cardTeasers: {
+      beaches: "Lucaya beach clubs",
+      snorkeling: "Grand Bahama reef sails",
+      families: "Calm beach days near Lucaya",
+      wildlife: "Reef fish on guided snorkels",
+      private: "Private Lucaya beach transfer",
+    },
+  },
+  dominica: {
+    snapshot: {
+      timeInPort: "7-9 hours typical",
+      walkingRequired: "Low in Roseau",
+      familyFriendly: "Good",
+      privateTourFriendly: "Very Good",
+      returnToShipConfidence: "High",
+    },
+    typicalCruiseDay: [
+      { time: "8:30 AM", activity: "Coach to Trafalgar Falls or rainforest tram" },
+      { time: "12:00 PM", activity: "Waterfall swim or rainforest lunch" },
+      { time: "2:30 PM", activity: "Roseau market or shorter nature stop" },
+      { time: "4:00 PM", activity: "Return to Roseau cruise port" },
+    ],
+    cardTeasers: {
+      beaches: "Limited — prioritize rainforest over beach",
+      snorkeling: "Limited reef options vs ABC islands",
+      families: "Trafalgar Falls short hike",
+      wildlife: "Rainforest birds and freshwater pools",
+      private: "Private Trafalgar Falls coach",
+    },
+  },
+  bimini: {
+    snapshot: {
+      timeInPort: "6-9 hours typical",
+      walkingRequired: "Low at resort facilities",
+      familyFriendly: "Very Good",
+      privateTourFriendly: "Good",
+      returnToShipConfidence: "High",
+    },
+    typicalCruiseDay: [
+      { time: "8:30 AM", activity: "Resort beach access or snorkel sail" },
+      { time: "12:00 PM", activity: "Beach club lunch" },
+      { time: "2:30 PM", activity: "Optional second snorkel or resort pool" },
+      { time: "4:00 PM", activity: "Return to Bimini cruise facilities" },
+    ],
+    cardTeasers: {
+      beaches: "Resort beach clubs",
+      snorkeling: "Nearshore reef sails",
+      families: "Resort beach and pool days",
+      wildlife: "Reef fish on guided snorkels",
+      private: "Private beach-club transfer",
+    },
+  },
   "la-romana": {
     snapshot: {
       timeInPort: "7-9 hours typical",
@@ -718,6 +785,25 @@ const portActivityEstimates: Record<string, PortActivityEstimate> = {
     peakSeason: "January – March (whales)",
     planningNote:
       "Whale watching peaks in winter; outside season waterfall and beach excursions carry the port day. Book licensed operators with ship-time monitoring.",
+  },
+
+  freeport: {
+    activityTier: "Moderate",
+    peakSeason: "December – April",
+    planningNote:
+      "Grand Bahama call separate from Nassau. Lucaya beach clubs fill on multi-ship Freeport days.",
+  },
+  dominica: {
+    activityTier: "Moderate",
+    peakSeason: "November – April",
+    planningNote:
+      "Roseau calls on the island of Dominica — not the Dominican Republic. Trafalgar Falls coaches need timed returns.",
+  },
+  bimini: {
+    activityTier: "Moderate",
+    peakSeason: "December – April",
+    planningNote:
+      "Bahamas resort call separate from Nassau and Freeport. Beach clubs fill on multi-ship Bimini days.",
   },
   "la-romana": {
     activityTier: "Moderate",

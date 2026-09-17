@@ -271,6 +271,56 @@ export const PORT_HAZARD_RULES = {
     rejectCallNames: [/marathon/i, /key\s*largo/i, /dry\s*tortugas/i],
     note: "Key West pier labels (Mallory Square, Pier B, Outer Mole, etc.) only when source-supported — never invent berth.",
   },
+  progreso: {
+    allowedCallNames: [/progreso/i],
+    rejectCallNames: [/cozumel/i, /costa\s*maya/i, /playa\s*del\s*carmen/i],
+    note: "Progreso is Yucatán mainland — never merge with Cozumel or Costa Maya.",
+  },
+  freeport: {
+    allowedCallNames: [/freeport/i, /grand\s*bahama/i, /lucaya/i],
+    rejectCallNames: [/\bnassau\b/i, /paradise\s*island/i],
+    note: "Freeport / Grand Bahama must never absorb Nassau calls.",
+  },
+  bonaire: {
+    allowedCallNames: [/bonaire/i, /kralendijk/i],
+    rejectCallNames: [/aruba/i, /oranjestad/i, /cura[cç]ao/i, /curacao/i, /willemstad/i],
+    note: "Bonaire / Kralendijk is not Aruba or Curaçao.",
+  },
+  dominica: {
+    allowedCallNames: [/\bdominica\b/i, /roseau/i],
+    rejectCallNames: [/dominican\s*republic/i, /puerto\s*plata/i, /amber\s*cove/i, /saman[aá]/i, /la\s*romana/i, /santodomingo/i, /santo\s*domingo/i],
+    note: "Dominica (Roseau) is not the Dominican Republic — keep DR ports separate.",
+  },
+  samana: {
+    allowedCallNames: [/saman[aá]/i],
+    rejectCallNames: [/puerto\s*plata/i, /amber\s*cove/i, /ta[ií]no\s*bay/i, /la\s*romana/i, /\bdominica\b/i, /roseau/i],
+    note: "Samaná is a distinct Dominican Republic call — not Puerto Plata, Amber Cove, or La Romana.",
+  },
+  bimini: {
+    allowedCallNames: [/bimini/i],
+    rejectCallNames: [/\bnassau\b/i, /freeport/i, /grand\s*bahama/i],
+    note: "Bimini is not Nassau or Freeport.",
+  },
+  "puerto-limon": {
+    allowedCallNames: [/puerto\s*lim[oó]n/i, /lim[oó]n/i],
+    rejectCallNames: [/puntarenas/i, /caldera/i],
+    note: "Puerto Limón is Costa Rica Caribbean — never merge with Puntarenas (Pacific).",
+  },
+  puntarenas: {
+    allowedCallNames: [/puntarenas/i, /caldera/i],
+    rejectCallNames: [/puerto\s*lim[oó]n/i, /\blim[oó]n\b/i],
+    note: "Puntarenas is Costa Rica Pacific — never merge with Puerto Limón.",
+  },
+  "la-romana": {
+    allowedCallNames: [/la\s*romana/i, /casa\s*de\s*campo/i],
+    rejectCallNames: [/puerto\s*plata/i, /amber\s*cove/i, /saman[aá]/i, /\bdominica\b/i, /roseau/i],
+    note: "La Romana is a distinct Dominican Republic call — not Puerto Plata or Samaná.",
+  },
+  "puerto-quetzal": {
+    allowedCallNames: [/puerto\s*quetzal/i, /guatemala/i],
+    rejectCallNames: [/puerto\s*lim[oó]n/i, /puntarenas/i, /acajutla/i],
+    note: "Puerto Quetzal is Guatemala — do not confuse with Costa Rica Pacific/Caribbean ports.",
+  },
 };
 
 export function passesPortHazardRule(portSlug, callLocationName) {

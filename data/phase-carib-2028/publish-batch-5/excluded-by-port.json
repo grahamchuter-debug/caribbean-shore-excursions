@@ -1,0 +1,92 @@
+{
+  "progreso": {
+    "restricted_line:Disney Cruise Line": 15,
+    "restricted_line:Viking Ocean Cruises": 14,
+    "restricted_line:Other/Verify": 25
+  },
+  "freeport": {
+    "restricted_line:Other/Verify": 5,
+    "restricted_line:Norwegian Cruise Line": 18
+  },
+  "bonaire": {
+    "restricted_line:Other/Verify": 6,
+    "restricted_line:Norwegian Cruise Line": 6,
+    "restricted_line:AIDA": 12,
+    "restricted_line:Marella Cruises": 11,
+    "restricted_line:Seabourn": 2,
+    "restricted_line:MSC Cruises": 9,
+    "restricted_line:Princess Cruises": 3,
+    "restricted_line:Silversea": 1,
+    "restricted_line:P&O Cruises": 1,
+    "restricted_line:TUI Mein Schiff": 6,
+    "restricted_line:Cunard": 1,
+    "restricted_line:Disney Cruise Line": 1
+  },
+  "dominica": {
+    "restricted_line:AIDA": 10,
+    "restricted_line:Viking Ocean Cruises": 8,
+    "restricted_line:MSC Cruises": 9,
+    "restricted_line:Norwegian Cruise Line": 15,
+    "restricted_line:Marella Cruises": 13,
+    "restricted_line:Other/Verify": 6,
+    "restricted_line:Virgin Voyages": 3,
+    "restricted_line:P&O Cruises": 7,
+    "restricted_line:Windstar Cruises": 5,
+    "restricted_line:Princess Cruises": 6,
+    "restricted_line:TUI Mein Schiff": 9,
+    "restricted_line:Cunard": 3,
+    "restricted_line:Fred. Olsen": 1,
+    "restricted_line:Azamara": 1,
+    "restricted_line:Silversea": 1,
+    "restricted_line:Disney Cruise Line": 1
+  },
+  "samana": {
+    "restricted_line:Other/Verify": 10,
+    "restricted_line:TUI Mein Schiff": 7,
+    "restricted_line:Virgin Voyages": 5,
+    "restricted_line:Norwegian Cruise Line": 4,
+    "restricted_line:Costa Cruises": 2,
+    "restricted_line:Fred. Olsen": 1,
+    "restricted_line:AIDA": 9,
+    "restricted_line:Marella Cruises": 3
+  },
+  "bimini": {
+    "restricted_line:Virgin Voyages": 89,
+    "restricted_line:Norwegian Cruise Line": 3,
+    "restricted_line:Other/Verify": 3
+  },
+  "puerto-limon": {
+    "restricted_line:AIDA": 5,
+    "restricted_line:Norwegian Cruise Line": 1,
+    "restricted_line:TUI Mein Schiff": 7,
+    "restricted_line:Azamara": 1,
+    "restricted_line:Other/Verify": 5,
+    "restricted_line:Viking Ocean Cruises": 11,
+    "restricted_line:Princess Cruises": 2,
+    "restricted_line:Silversea": 1,
+    "restricted_line:Fred. Olsen": 1,
+    "restricted_line:MSC Cruises": 4
+  },
+  "puerto-quetzal": {
+    "restricted_line:Princess Cruises": 3,
+    "restricted_line:Other/Verify": 2,
+    "restricted_line:Norwegian Cruise Line": 4,
+    "restricted_line:Cunard": 1,
+    "restricted_line:Virgin Voyages": 1
+  },
+  "puntarenas": {
+    "restricted_line:Princess Cruises": 7,
+    "restricted_line:Other/Verify": 6,
+    "restricted_line:Virgin Voyages": 1,
+    "restricted_line:MSC Cruises": 1,
+    "restricted_line:Cunard": 1
+  },
+  "la-romana": {
+    "restricted_line:AIDA": 23,
+    "restricted_line:Costa Cruises": 10,
+    "restricted_line:Other/Verify": 2,
+    "restricted_line:MSC Cruises": 46,
+    "restricted_line:Marella Cruises": 11,
+    "restricted_line:TUI Mein Schiff": 29
+  }
+}

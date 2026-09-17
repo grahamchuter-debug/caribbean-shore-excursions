@@ -1512,9 +1512,9 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
 
   "puerto-limon-hub": {
     intro:
-      "Puerto Limón's schedule hub focuses on 2026 Limón Cruise Terminal call data for Costa Rica's Caribbean coast — rainforest wildlife, sloth sanctuaries, and Cahuita reef snorkel all run on organized coaches from a docked industrial port where most passengers book tours rather than self-explore. Compare monthly tables before committing to Veragua Rainforest or Tortuguero canal adventures that need long mainland transit.",
+      "Puerto Limón's schedule hub covers Limón Cruise Terminal call data through 2028 for Costa Rica's Caribbean coast — rainforest wildlife, sloth sanctuaries, and Cahuita reef snorkel all run on organized coaches from a docked industrial port where most passengers book tours rather than self-explore. Compare monthly tables before committing to Veragua Rainforest or Tortuguero canal adventures that need long mainland transit.",
     heroSubtitle:
-      "Puerto Limón cruise schedule hub — 2026 Costa Rica Caribbean coast calls, rainforest wildlife tours, and Cahuita snorkel timing.",
+      "Puerto Limón cruise schedule hub — Costa Rica Caribbean coast calls through 2028, rainforest wildlife tours, and Cahuita snorkel timing.",
     whyPassengersUse: [
       "Puerto Limón is a coach-excursion port — schedule arrival times tell operators when to stage sloth sanctuary and rainforest pickups at Limón Cruise Terminal.",
       "Wildlife tours need inland transit through lush terrain — departure columns determine whether Veragua Rainforest or a shorter Cahuita beach snorkel fits.",
@@ -1523,7 +1523,7 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
     ],
     planningYourDay: {
       summary:
-        "Open the 2026 year page from this hub, then book one organized Costa Rica experience — sloth and wildlife sanctuary, Veragua Rainforest, or Cahuita snorkel — with coach returns tied to your departure column.",
+        "Open your sailing year from this hub, then book one organized Costa Rica experience — sloth and wildlife sanctuary, Veragua Rainforest, or Cahuita snorkel — with coach returns tied to your departure column.",
       typicalActivities: [
         "Sloth sanctuary and wildlife rescue visit on standard-length calls",
         "Veragua Rainforest aerial tram and waterfall hike on longer windows",
@@ -1572,6 +1572,16 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
       },
     ],
     internalLinks: [
+      {
+        label: "Puerto Limón 2028 Schedule",
+        href: "/ship-schedules/puerto-limon/2028",
+        description: "Currently published 2028 Limón itinerary calls.",
+      },
+      {
+        label: "Puerto Limón 2027 Schedule",
+        href: "/ship-schedules/puerto-limon/2027",
+        description: "Limón Cruise Terminal 2027 monthly tables.",
+      },
       {
         label: "Puerto Limón 2026 Schedule",
         href: "/ship-schedules/puerto-limon/2026",
@@ -2493,4 +2503,436 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
     ],
   },
 
+  "progreso-hub": {
+    intro:
+      "Progreso schedule pages list Yucatán mainland cruise-pier calls — not Cozumel or Costa Maya. Mérida and Uxmal day trips need published departure buffers.",
+    heroSubtitle:
+      "Progreso cruise schedule hub — Yucatán pier calls, Mérida timing, and Uxmal day-trip windows.",
+    whyPassengersUse: [
+      "Progreso is not Cozumel or Costa Maya — confirm your pier before booking.",
+      "Uxmal and Mérida need long coach time against departure columns.",
+      "The pier shuttle adds time — arrivals frame when beach plans can start.",
+      "Western Caribbean loops may include Progreso with Cozumel — compare ports carefully.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose Mérida, Uxmal, or a Progreso beach stop sized to published times.",
+      typicalActivities: [
+        "Mérida city day on longer calls",
+        "Uxmal ruins on full-day windows",
+        "Progreso beach stop on shorter calls",
+      ],
+      topAttractions: [
+        "Mérida — colonial city day trip",
+        "Uxmal — Maya ruins inland",
+        "Progreso beach — pier-adjacent swimming",
+      ],
+      recommendedExcursions: [
+        "Mérida coach when departure allows full transit",
+        "Uxmal only on long calls",
+        "Beach stop on tight turnarounds",
+      ],
+      timingConsiderations: [
+        "Do not use Cozumel schedules for Progreso sailings",
+        "Multi-ship weeks fill ruins coaches",
+        "Confirm final times aboard",
+      ],
+      returnGuidance:
+        "Return to the Progreso cruise pier security at least 45–60 minutes before published departure, plus pier-shuttle time.",
+    },
+    faqs: [
+      {
+        question: "Is Progreso the same as Cozumel?",
+        answer:
+          "No. Progreso is a Yucatán mainland pier. Cozumel and Costa Maya have separate schedules.",
+      },
+{
+        question: "Does Progreso use tenders?",
+        answer:
+          "No under normal conditions. Ships dock, but the pier is long — factor shuttle time.",
+      },
+{
+        question: "How do I spot a busy Progreso day?",
+        answer:
+          "Count ships on your date in the monthly table.",
+      },
+{
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Progreso 2028 Schedule",
+        href: "/ship-schedules/progreso/2028",
+        description: "Currently published 2028 Progreso itinerary calls.",
+      },
+{
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with every published port.",
+      },
+    ],
+  },
+  "freeport-hub": {
+    intro:
+      "Freeport schedule pages list Grand Bahama cruise calls — not Nassau. Lucaya beach and snorkel plans stage from Freeport.",
+    heroSubtitle:
+      "Freeport cruise schedule hub — Grand Bahama ship calls and Lucaya timing.",
+    whyPassengersUse: [
+      "Freeport is Grand Bahama — not Nassau.",
+      "Lucaya beach clubs fill on multi-ship weeks.",
+      "Snorkel sails batch morning slots.",
+      "Confirm Freeport on your itinerary before booking Nassau Atlantis tours.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose Lucaya beach, a snorkel sail, or island highlights sized to published times.",
+      typicalActivities: [
+        "Lucaya beach day on standard calls",
+        "Snorkel sail on morning arrivals",
+        "Island highlights loop on medium windows",
+      ],
+      topAttractions: [
+        "Lucaya — resort beach strip",
+        "Snorkel sails — reef boats",
+        "Grand Bahama highlights — island tours",
+      ],
+      recommendedExcursions: [
+        "Lucaya beach transfer on multi-ship weeks (book ahead)",
+        "Morning snorkel on early arrivals",
+        "Private highlights loop on flexible schedules",
+      ],
+      timingConsiderations: [
+        "Do not mix with Nassau schedules",
+        "Multi-ship days fill beach clubs",
+        "Confirm final times aboard",
+      ],
+      returnGuidance:
+        "Return to Freeport cruise facilities at least 45–60 minutes before published departure.",
+    },
+    faqs: [
+      {
+        question: "Is Freeport the same as Nassau?",
+        answer:
+          "No. Freeport is on Grand Bahama. Nassau has a separate schedule.",
+      },
+{
+        question: "Does Freeport use tenders?",
+        answer:
+          "Typically a dock call. Confirm on the day if operations change.",
+      },
+{
+        question: "How do I spot a busy Freeport day?",
+        answer:
+          "Count ships on your date in the monthly table.",
+      },
+{
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Freeport 2028 Schedule",
+        href: "/ship-schedules/freeport/2028",
+        description: "Currently published 2028 Freeport itinerary calls.",
+      },
+{
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with every published port.",
+      },
+    ],
+  },
+  "bonaire-hub": {
+    intro:
+      "Bonaire schedule pages list Kralendijk cruise calls — not Aruba or Curaçao. Reef snorkel and flamingo tours stage from this ABC-island pier.",
+    heroSubtitle:
+      "Bonaire cruise schedule hub — Kralendijk ship calls, reef snorkel timing, and park windows.",
+    whyPassengersUse: [
+      "Bonaire / Kralendijk is not Aruba or Curaçao.",
+      "Marine-park snorkels batch morning slots.",
+      "Washington Slagbaai needs longer departure windows.",
+      "Confirm Bonaire on your itinerary before booking Oranjestad or Willemstad tours.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose reef snorkel, flamingo flats, or park safari sized to published times.",
+      typicalActivities: [
+        "House-reef snorkel on morning arrivals",
+        "Flamingo salt-flat visit on medium calls",
+        "Washington Slagbaai on longer windows",
+      ],
+      topAttractions: [
+        "Kralendijk reefs — marine park snorkel",
+        "Flamingo lagoons — salt flats",
+        "Washington Slagbaai — national park safari",
+      ],
+      recommendedExcursions: [
+        "Morning reef snorkel on early arrivals",
+        "Park safari when departure allows full transit",
+        "Town walk on shorter calls",
+      ],
+      timingConsiderations: [
+        "Do not mix with Aruba or Curaçao schedules",
+        "Multi-ship days fill snorkel capacity",
+        "Confirm final times aboard",
+      ],
+      returnGuidance:
+        "Return to the Kralendijk cruise pier at least 45–60 minutes before published departure.",
+    },
+    faqs: [
+      {
+        question: "Is Bonaire the same as Aruba or Curaçao?",
+        answer:
+          "No. Bonaire ships call at Kralendijk. Aruba and Curaçao have separate schedules.",
+      },
+{
+        question: "Does Bonaire use tenders?",
+        answer:
+          "No under normal conditions. Ships dock at Kralendijk.",
+      },
+{
+        question: "How do I spot a busy Kralendijk day?",
+        answer:
+          "Count ships on your date in the monthly table.",
+      },
+{
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Bonaire 2028 Schedule",
+        href: "/ship-schedules/bonaire/2028",
+        description: "Currently published 2028 Kralendijk itinerary calls.",
+      },
+{
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with every published port.",
+      },
+    ],
+  },
+  "dominica-hub": {
+    intro:
+      "Dominica schedule pages list Roseau cruise calls on the island of Dominica — not the Dominican Republic. Trafalgar Falls and rainforest tours stage from Roseau.",
+    heroSubtitle:
+      "Dominica cruise schedule hub — Roseau ship calls and rainforest timing.",
+    whyPassengersUse: [
+      "Dominica is not the Dominican Republic.",
+      "Trafalgar Falls coaches need transit against departure columns.",
+      "Rainforest weather can slow returns.",
+      "Confirm Roseau / Dominica on your itinerary before booking Puerto Plata or Samaná tours.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose Trafalgar Falls, rainforest tram, or Roseau market sized to published times.",
+      typicalActivities: [
+        "Trafalgar Falls on medium-to-long calls",
+        "Rainforest aerial tram on longer windows",
+        "Roseau market morning on shorter calls",
+      ],
+      topAttractions: [
+        "Trafalgar Falls — twin waterfalls",
+        "Rainforest tram — canopy views",
+        "Roseau market — pier-adjacent shopping",
+      ],
+      recommendedExcursions: [
+        "Falls coach when departure allows return buffer",
+        "Rainforest tram on longer calls",
+        "Market walk on tight turnarounds",
+      ],
+      timingConsiderations: [
+        "Never confuse with Dominican Republic ports",
+        "Multi-ship days fill waterfall coaches",
+        "Confirm final times aboard",
+      ],
+      returnGuidance:
+        "Return to Roseau pier security at least 45–60 minutes before published departure.",
+    },
+    faqs: [
+      {
+        question: "Is Dominica the same as the Dominican Republic?",
+        answer:
+          "No. Dominica is a separate island nation. Dominican Republic ports have their own schedules.",
+      },
+{
+        question: "Where do ships dock in Dominica?",
+        answer:
+          "Cruise ships call at Roseau.",
+      },
+{
+        question: "How do I spot a busy Roseau day?",
+        answer:
+          "Count ships on your date in the monthly table.",
+      },
+{
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Dominica 2028 Schedule",
+        href: "/ship-schedules/dominica/2028",
+        description: "Currently published 2028 Roseau itinerary calls.",
+      },
+{
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with every published port.",
+      },
+    ],
+  },
+  "samana-hub": {
+    intro:
+      "Samaná schedule pages list Dominican Republic Samaná cruise calls — not Puerto Plata, Amber Cove, or La Romana. Whale-watching and El Limón tours stage from Samaná.",
+    heroSubtitle:
+      "Samaná cruise schedule hub — Dominican Republic pier calls, whale-season timing, and waterfall windows.",
+    whyPassengersUse: [
+      "Samaná is not Puerto Plata or La Romana.",
+      "Whale boats (in season) batch morning slots.",
+      "El Limón and Los Haitises need transit against departure columns.",
+      "Confirm Samaná on your itinerary before booking Amber Cove tours.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose whale watching, El Limón, or Los Haitises sized to published times.",
+      typicalActivities: [
+        "Seasonal whale watching on morning arrivals",
+        "El Limón waterfall on medium-to-long calls",
+        "Los Haitises boat on longer windows",
+      ],
+      topAttractions: [
+        "Humpback whales — January to March season",
+        "El Limón — waterfall trek",
+        "Los Haitises — mangrove boat",
+      ],
+      recommendedExcursions: [
+        "Whale boat in season on early arrivals",
+        "Waterfall coach when departure allows buffer",
+        "Private dual-stop only on long calls",
+      ],
+      timingConsiderations: [
+        "Do not mix with Puerto Plata or La Romana",
+        "Multi-ship weeks fill whale boats",
+        "Confirm tender vs dock on the ship if unsure",
+      ],
+      returnGuidance:
+        "Return to Samaná cruise facilities at least 45–60 minutes before published departure.",
+    },
+    faqs: [
+      {
+        question: "Is Samaná the same as Puerto Plata or La Romana?",
+        answer:
+          "No. They are separate Dominican Republic cruise ports with separate schedules.",
+      },
+{
+        question: "Does Samaná use tenders?",
+        answer:
+          "Operations vary. Confirm on the ship for your sailing.",
+      },
+{
+        question: "How do I spot a busy Samaná day?",
+        answer:
+          "Count ships on your date in the monthly table.",
+      },
+{
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Samaná 2028 Schedule",
+        href: "/ship-schedules/samana/2028",
+        description: "Currently published 2028 Samaná itinerary calls.",
+      },
+{
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with every published port.",
+      },
+    ],
+  },
+  "bimini-hub": {
+    intro:
+      "Bimini schedule pages list Bahamas Bimini cruise calls — not Nassau or Freeport. Resort beach and snorkel plans stage from the Bimini call.",
+    heroSubtitle:
+      "Bimini cruise schedule hub — Bahamas ship calls and resort beach timing.",
+    whyPassengersUse: [
+      "Bimini is not Nassau or Freeport.",
+      "Resort beach clubs fill on multi-ship weeks.",
+      "Snorkel sails batch morning slots.",
+      "Confirm Bimini on your itinerary before booking Nassau Atlantis tours.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose resort beach, snorkel, or island highlights sized to published times.",
+      typicalActivities: [
+        "Resort beach day on standard calls",
+        "Snorkel sail on morning arrivals",
+        "Bimini highlights loop on medium windows",
+      ],
+      topAttractions: [
+        "Resort beaches — pier-adjacent amenities",
+        "Snorkel sails — reef boats",
+        "Bimini highlights — island tours",
+      ],
+      recommendedExcursions: [
+        "Resort beach day on multi-ship weeks (book ahead)",
+        "Morning snorkel on early arrivals",
+        "Private highlights loop on flexible schedules",
+      ],
+      timingConsiderations: [
+        "Do not mix with Nassau or Freeport schedules",
+        "Multi-ship days fill beach capacity",
+        "Confirm tender vs dock on the ship if unsure",
+      ],
+      returnGuidance:
+        "Return to Bimini cruise facilities at least 45–60 minutes before published departure.",
+    },
+    faqs: [
+      {
+        question: "Is Bimini the same as Nassau or Freeport?",
+        answer:
+          "No. Bimini, Nassau, and Freeport are separate Bahamas destinations.",
+      },
+{
+        question: "Does Bimini use tenders?",
+        answer:
+          "Many modern calls dock at resort facilities. Confirm on the ship.",
+      },
+{
+        question: "How do I spot a busy Bimini day?",
+        answer:
+          "Count ships on your date in the monthly table.",
+      },
+{
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Bimini 2028 Schedule",
+        href: "/ship-schedules/bimini/2028",
+        description: "Currently published 2028 Bimini itinerary calls.",
+      },
+{
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with every published port.",
+      },
+    ],
+  },
 };

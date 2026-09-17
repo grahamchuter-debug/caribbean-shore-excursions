@@ -32,6 +32,12 @@ import sanJuanSchedule from "./imported-schedules/san-juan.json";
 import grandTurkSchedule from "./imported-schedules/grand-turk.json";
 import belizeCitySchedule from "./imported-schedules/belize-city.json";
 import keyWestSchedule from "./imported-schedules/key-west.json";
+import progresoSchedule from "./imported-schedules/progreso.json";
+import freeportSchedule from "./imported-schedules/freeport.json";
+import bonaireSchedule from "./imported-schedules/bonaire.json";
+import dominicaSchedule from "./imported-schedules/dominica.json";
+import samanaSchedule from "./imported-schedules/samana.json";
+import biminiSchedule from "./imported-schedules/bimini.json";
 
 export const TOP_SCHEDULE_PORT_SLUGS = [
   "st-thomas",
@@ -58,6 +64,12 @@ export const TOP_SCHEDULE_PORT_SLUGS = [
   "grand-turk",
   "belize-city",
   "key-west",
+  "progreso",
+  "freeport",
+  "bonaire",
+  "dominica",
+  "samana",
+  "bimini",
 ] as const;
 
 export const schedulePorts: ShipSchedulePort[] = [
@@ -583,6 +595,137 @@ export const schedulePorts: ShipSchedulePort[] = [
     ],
     faqs: SCHEDULE_FAQS,
   },
+
+  {
+    slug: "progreso",
+    name: "Progreso",
+    country: "Mexico",
+    seoTitle: "Progreso Cruise Ship Schedule 2028",
+    metaDescription:
+      "Progreso Yucatán cruise ship schedule with published 2028 arrival and departure times. Plan Mérida and Uxmal day trips from the mainland pier — not Cozumel or Costa Maya.",
+    intro:
+      "This Progreso cruise ship schedule shows which vessels are expected at the Yucatán mainland pier and their published port times. Progreso is not Cozumel or Costa Maya — size Mérida and Uxmal plans to your departure column and pier-shuttle time.",
+    description: "Yucatán mainland dock pier for Mérida and Uxmal day trips.",
+    scheduleOverview:
+      "Progreso receives Western Caribbean traffic as a Yucatán mainland call. Review monthly tables before booking long ruins coaches on multi-ship weeks.",
+    relatedPortSlugs: ["cozumel", "costa-maya", "roatan"],
+    excursionTypeSlugs: ["adventure-tours", "private-tours", "family-tours"],
+    planningTips: [
+      "Progreso is not Cozumel or Costa Maya — confirm your port before booking.",
+      "Factor long pier-shuttle time into beach and downtown plans.",
+      "Only book Uxmal when departure allows substantial coach transit.",
+      "Be back at pier security 45–60 minutes before published departure, plus shuttle time.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "freeport",
+    name: "Freeport",
+    country: "Bahamas",
+    seoTitle: "Freeport Cruise Ship Schedule 2028",
+    metaDescription:
+      "Freeport Grand Bahama cruise ship schedule with published 2028 arrival and departure times. Plan Lucaya beach days — not Nassau.",
+    intro:
+      "This Freeport cruise ship schedule shows which vessels are expected on Grand Bahama and their published port times. Freeport is not Nassau — plan Lucaya beach and snorkel days from this call only.",
+    description: "Grand Bahama cruise call for Lucaya beach and snorkel days.",
+    scheduleOverview:
+      "Freeport receives Bahamas traffic separate from Nassau. Review monthly tables before booking beach clubs on multi-ship days.",
+    relatedPortSlugs: ["nassau", "bimini", "key-west"],
+    excursionTypeSlugs: ["beaches", "snorkeling", "private-tours"],
+    planningTips: [
+      "Freeport is Grand Bahama — do not use Nassau schedules for this call.",
+      "Book Lucaya transfers early on multi-ship days.",
+      "Be back at cruise facilities 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "bonaire",
+    name: "Bonaire",
+    country: "Bonaire",
+    seoTitle: "Bonaire Cruise Ship Schedule 2028",
+    metaDescription:
+      "Bonaire Kralendijk cruise ship schedule with published 2028 arrival and departure times. Plan reef snorkels from Bonaire — not Aruba or Curaçao.",
+    intro:
+      "This Bonaire cruise ship schedule shows which vessels are expected at Kralendijk and their published port times. Bonaire is not Aruba or Curaçao — plan marine-park snorkels and flamingo tours from this pier.",
+    description: "ABC-island dock port at Kralendijk for reef and flamingo excursions.",
+    scheduleOverview:
+      "Bonaire receives Southern Caribbean traffic at Kralendijk. Review monthly tables before booking reef boats on multi-ship days.",
+    relatedPortSlugs: ["aruba", "curacao", "st-maarten"],
+    excursionTypeSlugs: ["snorkeling", "adventure-tours", "private-tours"],
+    planningTips: [
+      "Bonaire / Kralendijk is not Aruba or Curaçao.",
+      "Book morning reef snorkels on multi-ship days.",
+      "Be back at pier security 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "dominica",
+    name: "Dominica",
+    country: "Dominica",
+    seoTitle: "Dominica Cruise Ship Schedule 2028",
+    metaDescription:
+      "Dominica Roseau cruise ship schedule with published 2028 arrival and departure times. Plan Trafalgar Falls from Dominica — not the Dominican Republic.",
+    intro:
+      "This Dominica cruise ship schedule shows which vessels are expected at Roseau and their published port times. Dominica is not the Dominican Republic — plan Trafalgar Falls and rainforest tours from Roseau only.",
+    description: "Eastern Caribbean dock port at Roseau for rainforest and waterfall excursions.",
+    scheduleOverview:
+      "Dominica receives Eastern Caribbean traffic at Roseau. Review monthly tables before booking waterfall coaches on multi-ship days.",
+    relatedPortSlugs: ["martinique", "st-lucia", "antigua"],
+    excursionTypeSlugs: ["adventure-tours", "private-tours", "family-tours"],
+    planningTips: [
+      "Dominica is not the Dominican Republic — confirm Roseau on your itinerary.",
+      "Only book Trafalgar Falls when departure allows coach return buffer.",
+      "Be back at Roseau pier security 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "samana",
+    name: "Samaná",
+    country: "Dominican Republic",
+    seoTitle: "Samaná Cruise Ship Schedule 2028",
+    metaDescription:
+      "Samaná Dominican Republic cruise ship schedule with published 2028 arrival and departure times. Plan whale watching and El Limón — not Puerto Plata or La Romana.",
+    intro:
+      "This Samaná cruise ship schedule shows which vessels are expected at Samaná and their published port times. Samaná is not Puerto Plata, Amber Cove, or La Romana — plan whale watching and El Limón from this call only.",
+    description: "Dominican Republic cruise call for whale watching and waterfall day trips.",
+    scheduleOverview:
+      "Samaná receives Dominican Republic traffic separate from Puerto Plata and La Romana. Review monthly tables before booking whale boats in season.",
+    relatedPortSlugs: ["puerto-plata", "san-juan", "st-thomas"],
+    excursionTypeSlugs: ["adventure-tours", "private-tours", "family-tours"],
+    planningTips: [
+      "Samaná is not Puerto Plata or La Romana — confirm your port before booking.",
+      "Whale season is roughly January–March — size boats to your departure column.",
+      "Confirm tender vs dock on the ship if your operator asks.",
+      "Be back at cruise facilities 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "bimini",
+    name: "Bimini",
+    country: "Bahamas",
+    seoTitle: "Bimini Cruise Ship Schedule 2028",
+    metaDescription:
+      "Bimini Bahamas cruise ship schedule with published 2028 arrival and departure times. Plan resort beach days — not Nassau or Freeport.",
+    intro:
+      "This Bimini cruise ship schedule shows which vessels are expected at Bimini and their published port times. Bimini is not Nassau or Freeport — plan resort beach and snorkel days from this call only.",
+    description: "Bahamas cruise call for resort beach and snorkel days.",
+    scheduleOverview:
+      "Bimini receives Bahamas traffic separate from Nassau and Freeport. Review monthly tables before booking beach clubs on multi-ship days.",
+    relatedPortSlugs: ["nassau", "freeport", "key-west"],
+    excursionTypeSlugs: ["beaches", "snorkeling", "private-tours"],
+    planningTips: [
+      "Bimini is not Nassau or Freeport — confirm your port before booking.",
+      "Book resort beach access early on multi-ship days.",
+      "Confirm tender vs dock on the ship if unsure.",
+      "Be back at cruise facilities 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+
   {
     slug: "st-kitts",
     name: "St. Kitts",
@@ -636,7 +779,7 @@ export const schedulePorts: ShipSchedulePort[] = [
     slug: "puerto-limon",
     name: "Puerto Limón",
     country: "Costa Rica",
-    seoTitle: "Puerto Limón Cruise Ship Schedule 2026",
+    seoTitle: "Puerto Limón Cruise Ship Schedule 2026–2028",
     metaDescription:
       "Puerto Limón 2026 cruise ship schedule for Limón Cruise Terminal arrivals and departures. Plan rainforest wildlife and Cahuita snorkel excursions around your port day.",
     intro:
@@ -685,6 +828,12 @@ export const portSchedules: Record<string, ScheduleEntry[]> = {
   "grand-turk": grandTurkSchedule as ScheduleEntry[],
   "belize-city": belizeCitySchedule as ScheduleEntry[],
   "key-west": keyWestSchedule as ScheduleEntry[],
+  progreso: progresoSchedule as ScheduleEntry[],
+  freeport: freeportSchedule as ScheduleEntry[],
+  bonaire: bonaireSchedule as ScheduleEntry[],
+  dominica: dominicaSchedule as ScheduleEntry[],
+  samana: samanaSchedule as ScheduleEntry[],
+  bimini: biminiSchedule as ScheduleEntry[],
 };
 
 export function getSchedulePortBySlug(slug: string): ShipSchedulePort | undefined {

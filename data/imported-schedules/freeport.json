@@ -1,0 +1,353 @@
+[
+  {
+    "date": "2028-01-02",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-05",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-06",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-06",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-08",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-09",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-09",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-13",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-16",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-18",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-23",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-30",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-01",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-04",
+    "ship": "Celebrity Constellation",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-06",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-10",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-13",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-20",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-27",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-27",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-29",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-02",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-05",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-05",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-09",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-12",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-12",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-16",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-19",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-22",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "10:30",
+    "departure": "17:00",
+    "timeInPort": "6h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-26",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-26",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-30",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-02",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-06",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-09",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-09",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-15",
+    "ship": "Jewel Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-23",
+    "ship": "Celebrity Reflection",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  }
+]

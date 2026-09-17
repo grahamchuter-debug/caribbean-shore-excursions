@@ -783,21 +783,21 @@
   },
   {
     "date": "2027-11-29",
-    "ship": "Mein Schiff 3",
-    "cruiseLine": "Verify with cruise line",
-    "arrival": "07:00",
-    "departure": "17:00",
-    "timeInPort": "10h",
-    "passengers": "2,506 to 2,700"
-  },
-  {
-    "date": "2027-11-29",
     "ship": "Crystal Symphony",
     "cruiseLine": "Verify with cruise line",
     "arrival": "08:00",
     "departure": "18:00",
     "timeInPort": "10h",
     "passengers": "904 to 1,040"
+  },
+  {
+    "date": "2027-11-29",
+    "ship": "Mein Schiff 3",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,506 to 2,700"
   },
   {
     "date": "2027-12-06",
@@ -846,15 +846,6 @@
   },
   {
     "date": "2027-12-10",
-    "ship": "Caribbean Princess",
-    "cruiseLine": "Princess Cruises",
-    "arrival": "07:00",
-    "departure": "18:00",
-    "timeInPort": "11h",
-    "passengers": "3,138 to 3,766"
-  },
-  {
-    "date": "2027-12-10",
     "ship": "AIDAluna",
     "cruiseLine": "Verify with cruise line",
     "arrival": "08:00",
@@ -863,13 +854,13 @@
     "passengers": "2,050 to 2,500"
   },
   {
-    "date": "2027-12-13",
-    "ship": "Mein Schiff 3",
-    "cruiseLine": "Verify with cruise line",
+    "date": "2027-12-10",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
     "arrival": "07:00",
-    "departure": "17:00",
-    "timeInPort": "10h",
-    "passengers": "2,506 to 2,700"
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "3,138 to 3,766"
   },
   {
     "date": "2027-12-13",
@@ -879,6 +870,15 @@
     "departure": "18:00",
     "timeInPort": "10h",
     "passengers": "1,090 to 1,254"
+  },
+  {
+    "date": "2027-12-13",
+    "ship": "Mein Schiff 3",
+    "cruiseLine": "Verify with cruise line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "2,506 to 2,700"
   },
   {
     "date": "2027-12-15",
@@ -960,5 +960,176 @@
     "departure": "17:00",
     "timeInPort": "9h",
     "passengers": "754 to 829"
+  },
+  {
+    "date": "2028-01-07",
+    "ship": "Carnival Sunshine",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:30",
+    "timeInPort": "8h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-08",
+    "ship": "Seven Seas Voyager",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "08:30",
+    "departure": "17:00",
+    "timeInPort": "8h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-10",
+    "ship": "Oosterdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-13",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-19",
+    "ship": "Seven Seas Voyager",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-24",
+    "ship": "Oceania Aurelia",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-31",
+    "ship": "Oosterdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-18",
+    "ship": "Carnival Sunshine",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:30",
+    "timeInPort": "8h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-21",
+    "ship": "Oosterdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-29",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-12",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-13",
+    "ship": "Oosterdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-18",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-28",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-31",
+    "ship": "Carnival Sunshine",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:30",
+    "timeInPort": "8h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-03",
+    "ship": "Oosterdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:30",
+    "departure": "16:30",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-13",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-12-14",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-12-19",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
   }
 ]

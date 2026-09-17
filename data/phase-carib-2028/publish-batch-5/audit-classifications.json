@@ -1,0 +1,42 @@
+{
+  "audited": [
+    "progreso",
+    "freeport",
+    "bonaire",
+    "dominica",
+    "samana",
+    "bimini",
+    "puerto-limon",
+    "puerto-quetzal",
+    "puntarenas",
+    "la-romana"
+  ],
+  "classifications": {
+    "progreso": "PUBLISH",
+    "freeport": "PUBLISH",
+    "bonaire": "PUBLISH",
+    "dominica": "PUBLISH",
+    "samana": "PUBLISH",
+    "bimini": "PUBLISH",
+    "puerto-limon": "PUBLISH",
+    "puerto-quetzal": "HOLD \u2014 TOO THIN",
+    "puntarenas": "HOLD \u2014 TOO THIN",
+    "la-romana": "HOLD \u2014 TOO THIN"
+  },
+  "publishable": [
+    "progreso",
+    "freeport",
+    "bonaire",
+    "dominica",
+    "samana",
+    "bimini",
+    "puerto-limon"
+  ],
+  "held": {
+    "puerto-quetzal": "HOLD \u2014 TOO THIN",
+    "puntarenas": "HOLD \u2014 TOO THIN",
+    "la-romana": "HOLD \u2014 TOO THIN"
+  },
+  "min_publish_rows": 15,
+  "note": "No other non-Tortola discovery ports lacked 2028 after Batches 1\u20134."
+}

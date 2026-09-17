@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "live_ports": [
+    "progreso",
+    "freeport",
+    "bonaire",
+    "dominica",
+    "samana",
+    "bimini",
+    "puerto-limon"
+  ],
+  "notes": "Restricted NCL/MSC strings are site nav only; schedule bodies strong-line clean. Puerto Lim\u00f3n specialist 2028 live with FUTURE_ITINERARY disclaimer.",
+  "hub_deploy": "https://aa30a314.caribbean-shore-excursions.pages.dev",
+  "limon_deploy": "https://5680b13b.puerto-limon-shore-excursions.pages.dev",
+  "production_hub": "https://www.caribbeanshoreexcursion.com",
+  "production_limon": "https://puertolimonshoreexcursion.com",
+  "regression60": true
+}

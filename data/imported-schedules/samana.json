@@ -1,0 +1,227 @@
+[
+  {
+    "date": "2028-01-04",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "18:00",
+    "timeInPort": "6h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-06",
+    "ship": "Explorer Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-12",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-17",
+    "ship": "Symphony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "10:30",
+    "departure": "18:00",
+    "timeInPort": "7h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-18",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "18:00",
+    "timeInPort": "6h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-01-26",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-09",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-15",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "18:00",
+    "timeInPort": "6h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-15",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-19",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-23",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-02-29",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "11:30",
+    "departure": "18:00",
+    "timeInPort": "6h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-01",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:30",
+    "departure": "17:00",
+    "timeInPort": "7h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-08",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-15",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:30",
+    "departure": "17:00",
+    "timeInPort": "7h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-22",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-23",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-28",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "10:30",
+    "departure": "17:00",
+    "timeInPort": "6h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-03-29",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:30",
+    "departure": "17:00",
+    "timeInPort": "7h 30m",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-05",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-11",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-14",
+    "ship": "Symphony Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:00",
+    "timeInPort": "7h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-18",
+    "ship": "Celebrity Apex",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-19",
+    "ship": "Allure Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  },
+  {
+    "date": "2028-04-26",
+    "ship": "Celebrity Summit",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": ""
+  }
+]
