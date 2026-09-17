@@ -1,0 +1,14 @@
+{
+  "result": "HOLD \u2014 PORT RISK",
+  "reason": "CT Tortola 2028 page is not Road Town\u2013proven; validation already showed Jost Van Dyke / Trellis Bay / Beef Island conflicts. No usable BVI Ports Authority 2028 calendar. Strong-line CT labels alone insufficient.",
+  "existing_counts": {
+    "2026": 178,
+    "2027": 344,
+    "2028": 0
+  },
+  "discovery_candidates_2028": 231,
+  "strong_line_labeled_tortola": 20,
+  "road_town_proven": 0,
+  "hazard_rules": "enforced + extended (Sopers Hole / Virgin Gorda / Anegada rejects; allowed Tortola|Road Town only)",
+  "bviports_org": "no public 2028 timetable found"
+}

@@ -50,6 +50,26 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-01-01",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-01",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-01-02",
     "ship": "Symphony of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -58,6 +78,16 @@
     "timeInPort": "8h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-01-02",
+    "ship": "Silver Shadow",
+    "cruiseLine": "Silversea",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-01-03",
@@ -78,6 +108,26 @@
     "timeInPort": "10h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-01-03",
+    "ship": "Marella Discovery",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-03",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-01-04",
@@ -128,6 +178,16 @@
     "timeInPort": "10h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-01-05",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Ocean Cruises",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-01-06",
@@ -150,6 +210,36 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-01-06",
+    "ship": "Koningsdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "10:00",
+    "departure": "19:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-06",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-06",
+    "ship": "Silver Shadow",
+    "cruiseLine": "Silversea",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-01-07",
     "ship": "Adventure of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -188,6 +278,36 @@
     "timeInPort": "7h 30m",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-01-07",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:45",
+    "departure": "16:00",
+    "timeInPort": "9h 15m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-07",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-07",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-01-08",
@@ -230,6 +350,36 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-01-08",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-08",
+    "ship": "Majestic Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-08",
+    "ship": "Norwegian Getaway",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:45",
+    "departure": "20:00",
+    "timeInPort": "8h 15m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-01-09",
     "ship": "Independence of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -238,6 +388,426 @@
     "timeInPort": "10h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-01-10",
+    "ship": "Azamara Quest",
+    "cruiseLine": "Azamara",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-10",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-10",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Ocean Cruises",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-11",
+    "ship": "Queen Elizabeth",
+    "cruiseLine": "Cunard",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-11",
+    "ship": "SeaDream I",
+    "cruiseLine": "SeaDream Yacht Club",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-12",
+    "ship": "Grand Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-12",
+    "ship": "Norwegian Gem",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-13",
+    "ship": "Enchanted Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "22:00",
+    "timeInPort": "13h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-13",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-13",
+    "ship": "Silver Shadow",
+    "cruiseLine": "Silversea",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-14",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-14",
+    "ship": "Carnival Conquest",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-14",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-15",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-15",
+    "ship": "Sun Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-17",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-18",
+    "ship": "Explora II",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-18",
+    "ship": "MSC Divina",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-18",
+    "ship": "Norwegian Viva",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "14:00",
+    "timeInPort": "7h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-19",
+    "ship": "Enchanted Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-19",
+    "ship": "Grand Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-19",
+    "ship": "Norwegian Breakaway",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-20",
+    "ship": "Carnival Conquest",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-21",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:45",
+    "departure": "16:00",
+    "timeInPort": "9h 15m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-21",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-22",
+    "ship": "Norwegian Getaway",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:45",
+    "departure": "20:00",
+    "timeInPort": "8h 15m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-23",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-23",
+    "ship": "Marella Discovery",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-24",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-24",
+    "ship": "Silver Ray",
+    "cruiseLine": "Silversea",
+    "arrival": "08:00",
+    "departure": "15:00",
+    "timeInPort": "7h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-25",
+    "ship": "Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-26",
+    "ship": "Grand Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-27",
+    "ship": "Carnival Dream",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-27",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Ocean Cruises",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-28",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-28",
+    "ship": "Norwegian Gem",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-29",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-29",
+    "ship": "Eurodam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-29",
+    "ship": "Sun Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-30",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Ocean Cruises",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-31",
+    "ship": "Explora I",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-01-31",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-02-01",
@@ -270,6 +840,26 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-02-01",
+    "ship": "Koningsdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-01",
+    "ship": "Norwegian Viva",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-02-02",
     "ship": "Independence of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -288,6 +878,16 @@
     "timeInPort": "10h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-02-02",
+    "ship": "Enchanted Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-02-04",
@@ -310,6 +910,36 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-02-04",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-04",
+    "ship": "Eurodam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "10:00",
+    "departure": "23:00",
+    "timeInPort": "13h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-04",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-02-05",
     "ship": "Celebrity Xcel",
     "cruiseLine": "Celebrity Cruises",
@@ -338,6 +968,26 @@
     "timeInPort": "7h 30m",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-02-05",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-05",
+    "ship": "Norwegian Getaway",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:45",
+    "departure": "18:00",
+    "timeInPort": "6h 15m",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-02-06",
@@ -360,6 +1010,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-02-06",
+    "ship": "Valiant Lady",
+    "cruiseLine": "Virgin Voyages",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-02-07",
     "ship": "Allure of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -368,6 +1028,36 @@
     "timeInPort": "10h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-02-07",
+    "ship": "Explora II",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-07",
+    "ship": "Koningsdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-07",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-02-08",
@@ -400,6 +1090,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-02-08",
+    "ship": "Enchanted Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-02-09",
     "ship": "Symphony of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -408,6 +1108,376 @@
     "timeInPort": "8h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-02-09",
+    "ship": "Grand Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-09",
+    "ship": "Norwegian Gem",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-09",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Ocean Cruises",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-10",
+    "ship": "Norwegian Breakaway",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-11",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-11",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-12",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-12",
+    "ship": "Sun Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-13",
+    "ship": "Marella Discovery",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-13",
+    "ship": "Valiant Lady",
+    "cruiseLine": "Virgin Voyages",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-14",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-16",
+    "ship": "Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "09:30",
+    "departure": "18:30",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-16",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-17",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-17",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:30",
+    "departure": "16:00",
+    "timeInPort": "8h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-17",
+    "ship": "Koningsdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "10:00",
+    "departure": "19:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-18",
+    "ship": "Enchanted Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "22:00",
+    "timeInPort": "12h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-18",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-18",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-19",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-19",
+    "ship": "Majestic Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-19",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Ocean Cruises",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-21",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-21",
+    "ship": "Silver Shadow",
+    "cruiseLine": "Silversea",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-23",
+    "ship": "Grand Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-23",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-23",
+    "ship": "Silver Ray",
+    "cruiseLine": "Silversea",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-24",
+    "ship": "Norwegian Getaway",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "20:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-25",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-25",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-25",
+    "ship": "Sky Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-26",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-26",
+    "ship": "Eurodam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-26",
+    "ship": "Sun Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-27",
+    "ship": "Explora II",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "08:00",
+    "departure": "21:00",
+    "timeInPort": "13h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-28",
+    "ship": "Enchanted Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-02-28",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-03-01",
@@ -458,6 +1528,26 @@
     "timeInPort": "10h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-03-02",
+    "ship": "Norwegian Breakaway",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-02",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-03-03",
@@ -510,6 +1600,26 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-03-04",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-04",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-03-05",
     "ship": "Celebrity Xcel",
     "cruiseLine": "Celebrity Cruises",
@@ -550,6 +1660,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-03-05",
+    "ship": "Ilma",
+    "cruiseLine": "Ritz-Carlton Yacht Collection",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-03-06",
     "ship": "Independence of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -558,6 +1678,36 @@
     "timeInPort": "10h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-03-06",
+    "ship": "Explora I",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-06",
+    "ship": "Marella Discovery",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-07",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-03-08",
@@ -590,6 +1740,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-03-08",
+    "ship": "Insignia",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-03-09",
     "ship": "Jewel of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -608,6 +1768,326 @@
     "timeInPort": "8h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-03-09",
+    "ship": "Grand Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-09",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-10",
+    "ship": "Enchanted Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "22:00",
+    "timeInPort": "12h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-11",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-11",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-11",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-12",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-12",
+    "ship": "Emerald Azzurra",
+    "cruiseLine": "Scenic / Emerald",
+    "arrival": "06:00",
+    "departure": "23:00",
+    "timeInPort": "17h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-12",
+    "ship": "Koningsdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-12",
+    "ship": "Majestic Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-14",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-16",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-18",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-18",
+    "ship": "Ilma",
+    "cruiseLine": "Ritz-Carlton Yacht Collection",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-18",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-19",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-19",
+    "ship": "Eurodam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-20",
+    "ship": "Enchanted Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-21",
+    "ship": "Explora II",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-21",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-21",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Ocean Cruises",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-22",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-23",
+    "ship": "Grand Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-23",
+    "ship": "Nautica",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-23",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-25",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-26",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-26",
+    "ship": "Majestic Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-28",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-30",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-31",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-03-31",
+    "ship": "Star Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-04-01",
@@ -650,6 +2130,36 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-04-01",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-01",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-01",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-04-02",
     "ship": "Celebrity Xcel",
     "cruiseLine": "Celebrity Cruises",
@@ -690,6 +2200,26 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-04-02",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-02",
+    "ship": "Koningsdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-04-04",
     "ship": "Radiance of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -698,6 +2228,16 @@
     "timeInPort": "10h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-04-04",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-04-05",
@@ -748,6 +2288,26 @@
     "timeInPort": "8h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-04-06",
+    "ship": "Grand Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-06",
+    "ship": "Norwegian Joy",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-04-07",
@@ -780,6 +2340,26 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-04-08",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "19:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-08",
+    "ship": "Star Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-04-09",
     "ship": "Icon of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -808,6 +2388,186 @@
     "timeInPort": "10h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-04-09",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-11",
+    "ship": "Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "09:30",
+    "departure": "18:30",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-11",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "22:00",
+    "timeInPort": "12h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-11",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-13",
+    "ship": "Carnival Pride",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-14",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-15",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-15",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-16",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-17",
+    "ship": "Norwegian Star",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-21",
+    "ship": "Caribbean Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-21",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-22",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-23",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-28",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-28",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-29",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-04-30",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-05-01",
@@ -840,6 +2600,26 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-05-05",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-05-05",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-05-06",
     "ship": "Star of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -848,6 +2628,16 @@
     "timeInPort": "9h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-05-06",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-05-07",
@@ -890,6 +2680,126 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-05-07",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-05-12",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-05-13",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-05-13",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-05-14",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-05-19",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-05-20",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:00",
+    "departure": "20:00",
+    "timeInPort": "7h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-05-24",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-05-26",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:45",
+    "departure": "17:00",
+    "timeInPort": "10h 15m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-05-26",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-05-27",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-05-27",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-06-02",
     "ship": "Adventure of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -900,6 +2810,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-06-02",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-06-03",
     "ship": "Icon of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -908,6 +2828,26 @@
     "timeInPort": "7h 30m",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-06-03",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-06-03",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-06-04",
@@ -970,6 +2910,106 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-06-09",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-06-10",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-06-10",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-06-16",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-06-17",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-06-18",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-06-19",
+    "ship": "Carnival Sunshine",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-06-23",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-06-24",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-06-30",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-07-01",
     "ship": "Icon of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -978,6 +3018,26 @@
     "timeInPort": "10h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-07-01",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-07-01",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-07-02",
@@ -1010,6 +3070,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-07-07",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-07-08",
     "ship": "Adventure of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -1030,6 +3100,26 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-07-08",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-07-08",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-07-09",
     "ship": "Star of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -1038,6 +3128,96 @@
     "timeInPort": "8h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-07-14",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-07-15",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-07-16",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-07-21",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-07-22",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-07-22",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-07-28",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-07-28",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-07-29",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-08-02",
@@ -1060,6 +3240,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-08-04",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-08-05",
     "ship": "Harmony of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -1078,6 +3268,26 @@
     "timeInPort": "7h 30m",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-08-05",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-08-05",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-08-06",
@@ -1110,6 +3320,126 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-08-11",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-08-12",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-08-13",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-08-18",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-08-19",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-08-19",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-08-24",
+    "ship": "Carnival Conquest",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-08-24",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-08-25",
+    "ship": "Adventure of the Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-08-25",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-08-25",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-08-26",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-09-01",
     "ship": "Icon of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -1120,6 +3450,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-09-01",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-09-02",
     "ship": "Harmony of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -1128,6 +3468,26 @@
     "timeInPort": "7h 30m",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-09-02",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-09-02",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-09-03",
@@ -1160,6 +3520,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-09-08",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-09-09",
     "ship": "Star of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -1168,6 +3538,126 @@
     "timeInPort": "7h 30m",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-09-09",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-09-10",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-09-15",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-09-16",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-09-16",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-09-22",
+    "ship": "Adventure of the Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-09-22",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-09-22",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-09-23",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-09-29",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-09-30",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-09-30",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-10-01",
@@ -1200,6 +3690,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-10-06",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-10-07",
     "ship": "Icon of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -1208,6 +3708,16 @@
     "timeInPort": "7h 30m",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-10-07",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-10-08",
@@ -1228,6 +3738,156 @@
     "timeInPort": "9h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-10-08",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-13",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-14",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-14",
+    "ship": "Regal Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-20",
+    "ship": "Adventure of the Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-20",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-20",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-21",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-21",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-21",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-22",
+    "ship": "Nieuw Amsterdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-23",
+    "ship": "Carnival Dream",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-27",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-28",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-10-29",
+    "ship": "Norwegian Sun",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-11-01",
@@ -1258,6 +3918,16 @@
     "timeInPort": "9h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-11-01",
+    "ship": "Vista",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-11-02",
@@ -1300,6 +3970,26 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-11-02",
+    "ship": "Coral Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-03",
+    "ship": "Norwegian Luna",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-11-04",
     "ship": "Celebrity Apex",
     "cruiseLine": "Celebrity Cruises",
@@ -1320,6 +4010,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-11-04",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "13:30",
+    "departure": "20:00",
+    "timeInPort": "6h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-11-05",
     "ship": "Celebrity Beyond",
     "cruiseLine": "Celebrity Cruises",
@@ -1338,6 +4038,36 @@
     "timeInPort": "7h 30m",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-11-05",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-05",
+    "ship": "Carnival Pride",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-05",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-11-06",
@@ -1370,6 +4100,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-11-07",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Ocean Cruises",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-11-08",
     "ship": "Rhaps ody of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -1390,6 +4130,26 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-11-08",
+    "ship": "Crystal Symphony",
+    "cruiseLine": "Crystal",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-08",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "08:00",
+    "departure": "16:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-11-09",
     "ship": "Independence of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -1408,6 +4168,306 @@
     "timeInPort": "9h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-11-11",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-11",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-12",
+    "ship": "Norwegian Breakaway",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "14:00",
+    "timeInPort": "7h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-12",
+    "ship": "Norwegian Epic",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "17:00",
+    "timeInPort": "6h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-15",
+    "ship": "Coral Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-15",
+    "ship": "MSC Poesia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-16",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-17",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-17",
+    "ship": "Norwegian Bliss",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-17",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Ocean Cruises",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-18",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-18",
+    "ship": "Rotterdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-19",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-19",
+    "ship": "Norwegian Getaway",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-21",
+    "ship": "Coral Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-21",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-21",
+    "ship": "Valiant Lady",
+    "cruiseLine": "Virgin Voyages",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-23",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-24",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "06:30",
+    "departure": "16:00",
+    "timeInPort": "9h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-25",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-25",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-26",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-26",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-27",
+    "ship": "Crystal Symphony",
+    "cruiseLine": "Crystal",
+    "arrival": "09:00",
+    "departure": "19:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-27",
+    "ship": "Marella Discovery",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-27",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Ocean Cruises",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-28",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-28",
+    "ship": "Vista",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-29",
+    "ship": "Valiant Lady",
+    "cruiseLine": "Virgin Voyages",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-11-30",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-12-01",
@@ -1470,6 +4530,36 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-12-02",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-02",
+    "ship": "Eurodam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-02",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-12-03",
     "ship": "Icon of the Seas",
     "cruiseLine": "Royal Caribbean",
@@ -1488,6 +4578,36 @@
     "timeInPort": "8h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-12-03",
+    "ship": "Carnival Conquest",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "16:00",
+    "timeInPort": "7h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-03",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-03",
+    "ship": "Norwegian Pearl",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-12-04",
@@ -1540,6 +4660,36 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-12-05",
+    "ship": "Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-05",
+    "ship": "Azamara Quest",
+    "cruiseLine": "Azamara",
+    "arrival": "08:00",
+    "departure": "14:00",
+    "timeInPort": "6h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-05",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-12-06",
     "ship": "Celebrity Beyond",
     "cruiseLine": "Celebrity Cruises",
@@ -1580,6 +4730,16 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-12-06",
+    "ship": "Norwegian Bliss",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-12-07",
     "ship": "Celebrity Constellation",
     "cruiseLine": "Celebrity Cruises",
@@ -1610,6 +4770,26 @@
     "berth": "Crown Bay"
   },
   {
+    "date": "2026-12-07",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-07",
+    "ship": "Viking Sea",
+    "cruiseLine": "Viking Ocean Cruises",
+    "arrival": "07:30",
+    "departure": "18:00",
+    "timeInPort": "10h 30m",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
     "date": "2026-12-08",
     "ship": "Celebrity Apex",
     "cruiseLine": "Celebrity Cruises",
@@ -1628,6 +4808,16 @@
     "timeInPort": "9h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-12-08",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2026-12-09",
@@ -1658,6 +4848,466 @@
     "timeInPort": "7h",
     "passengers": "",
     "berth": "Crown Bay"
+  },
+  {
+    "date": "2026-12-09",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-09",
+    "ship": "Rotterdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-09",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-10",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-11",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-12",
+    "ship": "Azamara Journey",
+    "cruiseLine": "Azamara",
+    "arrival": "08:00",
+    "departure": "22:00",
+    "timeInPort": "14h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-12",
+    "ship": "Marella Discovery",
+    "cruiseLine": "Marella Cruises",
+    "arrival": "07:00",
+    "departure": "20:00",
+    "timeInPort": "13h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-13",
+    "ship": "Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-13",
+    "ship": "Norwegian Pearl",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-14",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-15",
+    "ship": "Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-16",
+    "ship": "Carnival Celebration",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-16",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-17",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-17",
+    "ship": "Crystal Symphony",
+    "cruiseLine": "Crystal",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-17",
+    "ship": "Nieuw Statendam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-18",
+    "ship": "Brilliant Lady",
+    "cruiseLine": "Virgin Voyages",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-19",
+    "ship": "Azamara Journey",
+    "cruiseLine": "Azamara",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-19",
+    "ship": "Norwegian Bliss",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-19",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-20",
+    "ship": "Enchanted Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-21",
+    "ship": "Carnival Vista",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-22",
+    "ship": "Disney Treasure",
+    "cruiseLine": "Disney Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-22",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-23",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-23",
+    "ship": "Eurodam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-23",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-24",
+    "ship": "MSC Meraviglia",
+    "cruiseLine": "MSC Cruises",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-25",
+    "ship": "Norwegian Prima",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-25",
+    "ship": "Vista",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "15:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-26",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-26",
+    "ship": "Norwegian Escape",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "11:00",
+    "departure": "19:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-27",
+    "ship": "Explora III",
+    "cruiseLine": "Explora Journeys",
+    "arrival": "08:00",
+    "departure": "21:00",
+    "timeInPort": "13h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-27",
+    "ship": "Norwegian Getaway",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-27",
+    "ship": "SeaDream I",
+    "cruiseLine": "SeaDream Yacht Club",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-28",
+    "ship": "Crown Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-28",
+    "ship": "Norwegian Pearl",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-28",
+    "ship": "Silver Nova",
+    "cruiseLine": "Silversea",
+    "arrival": "08:00",
+    "departure": "18:00",
+    "timeInPort": "10h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-29",
+    "ship": "Coral Princess",
+    "cruiseLine": "Princess Cruises",
+    "arrival": "09:00",
+    "departure": "18:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-29",
+    "ship": "Norwegian Bliss",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "07:00",
+    "departure": "18:00",
+    "timeInPort": "11h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-30",
+    "ship": "Norwegian Aqua",
+    "cruiseLine": "Norwegian Cruise Line",
+    "arrival": "10:00",
+    "departure": "18:00",
+    "timeInPort": "8h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-30",
+    "ship": "Rotterdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "08:00",
+    "departure": "15:00",
+    "timeInPort": "7h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-30",
+    "ship": "Zuiderdam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-31",
+    "ship": "Allura",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "19:00",
+    "timeInPort": "12h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-31",
+    "ship": "Carnival Magic",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
+  },
+  {
+    "date": "2026-12-31",
+    "ship": "Carnival Venezia",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "-",
+    "berth": "Havensight"
   },
   {
     "date": "2027-01-01",

@@ -1,0 +1,31 @@
+{
+  "invalid_dates": 0,
+  "blank_ships": 0,
+  "exact_duplicate_keys": 0,
+  "time_variant_same_ship_date_keys": 3,
+  "time_conflicts_sample": [
+    [
+      "nassau",
+      "2026-06-08",
+      "Caribbean Princess",
+      "Princess Cruises"
+    ],
+    [
+      "ocho-rios",
+      "2026-10-20",
+      "MSC Poesia",
+      "MSC Cruises"
+    ],
+    [
+      "ocho-rios",
+      "2026-11-24",
+      "MSC Poesia",
+      "MSC Cruises"
+    ]
+  ],
+  "wrong_port_mappings_in_fields": 0,
+  "restricted_line_leaks_in_filtered_ct": 0,
+  "live_2028_ports": 30,
+  "live_2028_calls": 2414,
+  "notes": "3 Nassau/Ocho Rios time-variant keys left unresolved (conflicting published times; no invented resolution). Not exact duplicates."
+}

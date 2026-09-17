@@ -1,0 +1,12 @@
+{
+  "result": "MERGED",
+  "havensight_2026": 365,
+  "crown_bay_2026": 166,
+  "total_2026": 531,
+  "parse_fails_2026": [],
+  "sources": [
+    "https://wico-ltd.com/wp-content/uploads/2026/07/FY-2026-SHIP-SCHEDULE-REV-12.pdf",
+    "https://wico-ltd.com/wp-content/uploads/2026/06/FY-2027-SHIP-SCHEDULE.pdf"
+  ],
+  "note": "WICO dock rows only (Havensight). Crown Bay retained from VIPA. STJ/AMSS/AMNS/AMHP excluded."
+}

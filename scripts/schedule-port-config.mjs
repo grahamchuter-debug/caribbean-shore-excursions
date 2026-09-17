@@ -194,8 +194,13 @@ export const PORT_HAZARD_RULES = {
       /white\s*bay/i,
       /beef\s*island/i,
       /trellis\s*bay/i,
+      /soper'?s?\s*hole/i,
+      /norman\s*island/i,
+      /virgin\s*gorda/i,
+      /anegada/i,
     ],
-    note: "Tortola/Road Town must never absorb Jost Van Dyke or Beef Island calls.",
+    note:
+      "Tortola/Road Town only. Never absorb Jost Van Dyke, Beef Island, Trellis Bay, Sopers Hole, or other BVI landings. Generic BVI / British Virgin Islands alone fails allowedCallNames. CT Tortola page labels are not Road Town proof — require official call-point corroboration before 2028 publish.",
   },
   "puerto-plata": {
     note: "Preserve Amber Cove vs Taino Bay / Puerto Plata distinctions when source distinguishes them.",

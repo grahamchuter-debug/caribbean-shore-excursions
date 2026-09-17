@@ -1,0 +1,687 @@
+{
+  "n": 75,
+  "pass": true,
+  "ports": [
+    "antigua",
+    "aruba",
+    "barbados",
+    "belize-city",
+    "bimini",
+    "bonaire",
+    "costa-maya",
+    "cozumel",
+    "curacao",
+    "dominica",
+    "falmouth",
+    "freeport",
+    "grand-cayman",
+    "grand-turk",
+    "grenada",
+    "key-west",
+    "martinique",
+    "montego-bay",
+    "nassau",
+    "ocho-rios",
+    "progreso",
+    "puerto-limon",
+    "puerto-plata",
+    "roatan",
+    "samana",
+    "san-juan",
+    "st-kitts",
+    "st-lucia",
+    "st-maarten",
+    "st-thomas"
+  ],
+  "port_counts": {
+    "antigua": 4,
+    "aruba": 2,
+    "barbados": 2,
+    "belize-city": 7,
+    "bimini": 5,
+    "bonaire": 4,
+    "costa-maya": 1,
+    "cozumel": 4,
+    "curacao": 3,
+    "dominica": 6,
+    "falmouth": 2,
+    "freeport": 1,
+    "grand-cayman": 3,
+    "grand-turk": 2,
+    "grenada": 1,
+    "key-west": 3,
+    "martinique": 2,
+    "montego-bay": 3,
+    "nassau": 2,
+    "ocho-rios": 4,
+    "progreso": 1,
+    "puerto-limon": 1,
+    "puerto-plata": 1,
+    "roatan": 1,
+    "samana": 2,
+    "san-juan": 1,
+    "st-kitts": 1,
+    "st-lucia": 2,
+    "st-maarten": 1,
+    "st-thomas": 3
+  },
+  "lines": {
+    "Oceania Cruises": 5,
+    "Royal Caribbean": 24,
+    "Celebrity Cruises": 15,
+    "Holland America Line": 6,
+    "Regent Seven Seas": 12,
+    "Carnival Cruise Line": 13
+  },
+  "months": {
+    "01": 12,
+    "02": 23,
+    "03": 24,
+    "04": 10,
+    "11": 3,
+    "12": 3
+  },
+  "issues": [],
+  "sample": [
+    {
+      "port": "antigua",
+      "date": "2028-11-18",
+      "ship": "Oceania Vista",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "aruba",
+      "date": "2028-01-01",
+      "ship": "Vision Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "23:00"
+    },
+    {
+      "port": "barbados",
+      "date": "2028-04-20",
+      "ship": "Rhapsody Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "belize-city",
+      "date": "2028-03-29",
+      "ship": "Mariner Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "bimini",
+      "date": "2028-02-21",
+      "ship": "Celebrity Xcel",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "bonaire",
+      "date": "2028-01-04",
+      "ship": "Rotterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "costa-maya",
+      "date": "2028-02-17",
+      "ship": "Oceania Sonata",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "09:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "cozumel",
+      "date": "2028-03-07",
+      "ship": "Radiance Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "curacao",
+      "date": "2028-03-04",
+      "ship": "Celebrity Eclipse",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "dominica",
+      "date": "2028-03-20",
+      "ship": "Eurodam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "18:00"
+    },
+    {
+      "port": "falmouth",
+      "date": "2028-02-02",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "09:30",
+      "departure": "17:00"
+    },
+    {
+      "port": "freeport",
+      "date": "2028-03-26",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "grand-cayman",
+      "date": "2028-11-16",
+      "ship": "Seven Seas Prestige",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "grand-turk",
+      "date": "2028-03-28",
+      "ship": "Eurodam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "grenada",
+      "date": "2028-02-05",
+      "ship": "Seven Seas Grandeur",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "11:00",
+      "departure": "18:00"
+    },
+    {
+      "port": "key-west",
+      "date": "2028-01-21",
+      "ship": "Celebrity Constellation",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "martinique",
+      "date": "2028-01-27",
+      "ship": "Vision Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "montego-bay",
+      "date": "2028-03-08",
+      "ship": "Oceania Marina",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "08:00",
+      "departure": "18:00"
+    },
+    {
+      "port": "nassau",
+      "date": "2028-03-20",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30"
+    },
+    {
+      "port": "ocho-rios",
+      "date": "2028-02-01",
+      "ship": "Carnival Breeze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "progreso",
+      "date": "2028-01-20",
+      "ship": "Carnival Dream",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00"
+    },
+    {
+      "port": "puerto-limon",
+      "date": "2028-02-29",
+      "ship": "Carnival Spirit",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00"
+    },
+    {
+      "port": "puerto-plata",
+      "date": "2028-04-04",
+      "ship": "Carnival Firenze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00"
+    },
+    {
+      "port": "roatan",
+      "date": "2028-03-09",
+      "ship": "Seven Seas Grandeur",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "samana",
+      "date": "2028-04-14",
+      "ship": "Symphony Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "14:00"
+    },
+    {
+      "port": "san-juan",
+      "date": "2028-04-05",
+      "ship": "Hero Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "16:00"
+    },
+    {
+      "port": "st-kitts",
+      "date": "2028-03-28",
+      "ship": "Seven Seas Grandeur",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "st-lucia",
+      "date": "2028-01-27",
+      "ship": "Oceania Sonata",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "st-maarten",
+      "date": "2028-02-09",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "st-thomas",
+      "date": "2028-02-19",
+      "ship": "Vision Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "dominica",
+      "date": "2028-03-08",
+      "ship": "Vision Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "curacao",
+      "date": "2028-03-21",
+      "ship": "Legend Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "cozumel",
+      "date": "2028-04-10",
+      "ship": "Mariner Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "st-thomas",
+      "date": "2028-01-23",
+      "ship": "Carnival Miracle",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "bimini",
+      "date": "2028-03-19",
+      "ship": "Celebrity Reflection",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "belize-city",
+      "date": "2028-03-29",
+      "ship": "Mariner Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "belize-city",
+      "date": "2028-01-10",
+      "ship": "Freedom Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "09:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "dominica",
+      "date": "2028-02-27",
+      "ship": "Seven Seas Grandeur",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "st-lucia",
+      "date": "2028-02-28",
+      "ship": "Adventure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "bimini",
+      "date": "2028-01-10",
+      "ship": "Celebrity Xcel",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "antigua",
+      "date": "2028-01-28",
+      "ship": "Vision Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "martinique",
+      "date": "2028-04-11",
+      "ship": "Carnival Firenze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "bonaire",
+      "date": "2028-02-10",
+      "ship": "Celebrity Eclipse",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "belize-city",
+      "date": "2028-03-06",
+      "ship": "Freedom Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "09:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "antigua",
+      "date": "2028-11-22",
+      "ship": "Seven Seas Mariner",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "07:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "montego-bay",
+      "date": "2028-03-09",
+      "ship": "Carnival Firenze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00"
+    },
+    {
+      "port": "belize-city",
+      "date": "2028-03-08",
+      "ship": "Carnival Spirit",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "barbados",
+      "date": "2028-02-24",
+      "ship": "Rhapsody Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "cozumel",
+      "date": "2028-02-23",
+      "ship": "Celebrity Beyond",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "07:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "nassau",
+      "date": "2028-03-04",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "16:30"
+    },
+    {
+      "port": "dominica",
+      "date": "2028-02-27",
+      "ship": "Seven Seas Grandeur",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "grand-cayman",
+      "date": "2028-02-29",
+      "ship": "Carnival Venezia",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00"
+    },
+    {
+      "port": "belize-city",
+      "date": "2028-04-17",
+      "ship": "Freedom Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "09:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "dominica",
+      "date": "2028-04-02",
+      "ship": "Carnival Miracle",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "samana",
+      "date": "2028-04-19",
+      "ship": "Allure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "bimini",
+      "date": "2028-01-25",
+      "ship": "Celebrity Constellation",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "dominica",
+      "date": "2028-03-26",
+      "ship": "Seven Seas Grandeur",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "key-west",
+      "date": "2028-02-06",
+      "ship": "Seven Seas Prestige",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "07:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "bonaire",
+      "date": "2028-02-28",
+      "ship": "Eurodam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "10:00",
+      "departure": "23:00"
+    },
+    {
+      "port": "ocho-rios",
+      "date": "2028-02-01",
+      "ship": "Carnival Breeze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "falmouth",
+      "date": "2028-02-01",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "montego-bay",
+      "date": "2028-12-18",
+      "ship": "Seven Seas Mariner",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "07:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "aruba",
+      "date": "2028-03-31",
+      "ship": "Celebrity Ascent",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "23:00"
+    },
+    {
+      "port": "curacao",
+      "date": "2028-03-02",
+      "ship": "Carnival Magic",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00"
+    },
+    {
+      "port": "cozumel",
+      "date": "2028-02-03",
+      "ship": "Legend Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "ocho-rios",
+      "date": "2028-12-27",
+      "ship": "Seven Seas Mariner",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "10:00",
+      "departure": "18:00"
+    },
+    {
+      "port": "st-thomas",
+      "date": "2028-02-02",
+      "ship": "Eurodam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "07:00",
+      "departure": "16:00"
+    },
+    {
+      "port": "grand-cayman",
+      "date": "2028-03-15",
+      "ship": "Celebrity Silhouette",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "07:00",
+      "departure": "16:00"
+    },
+    {
+      "port": "belize-city",
+      "date": "2028-12-17",
+      "ship": "Seven Seas Prestige",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "07:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "ocho-rios",
+      "date": "2028-03-07",
+      "ship": "Eurodam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "grand-turk",
+      "date": "2028-02-23",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "18:00"
+    },
+    {
+      "port": "bimini",
+      "date": "2028-03-15",
+      "ship": "Celebrity Summit",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00"
+    },
+    {
+      "port": "key-west",
+      "date": "2028-04-09",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "10:30",
+      "departure": "17:00"
+    },
+    {
+      "port": "antigua",
+      "date": "2028-02-25",
+      "ship": "Oceania Sonata",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "08:00",
+      "departure": "18:00"
+    },
+    {
+      "port": "bonaire",
+      "date": "2028-01-25",
+      "ship": "Celebrity Silhouette",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:00",
+      "departure": "18:00"
+    }
+  ]
+}
