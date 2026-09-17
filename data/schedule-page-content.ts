@@ -23,6 +23,12 @@ export const SCHEDULE_HUB_PORT_SLUGS = [
   "curacao",
   "falmouth",
   "montego-bay",
+  "grenada",
+  "martinique",
+  "san-juan",
+  "grand-turk",
+  "belize-city",
+  "key-west",
 ] as const;
 
 export type ScheduleHubPortSlug = (typeof SCHEDULE_HUB_PORT_SLUGS)[number];
@@ -135,7 +141,25 @@ type GeneratedPortYearKey =
   | "falmouth-2028"
   | "montego-bay-2026"
   | "montego-bay-2027"
-  | "montego-bay-2028";
+  | "montego-bay-2028"
+  | "grenada-2026"
+  | "grenada-2027"
+  | "grenada-2028"
+  | "martinique-2026"
+  | "martinique-2027"
+  | "martinique-2028"
+  | "san-juan-2026"
+  | "san-juan-2027"
+  | "san-juan-2028"
+  | "grand-turk-2026"
+  | "grand-turk-2027"
+  | "grand-turk-2028"
+  | "belize-city-2026"
+  | "belize-city-2027"
+  | "belize-city-2028"
+  | "key-west-2026"
+  | "key-west-2027"
+  | "key-west-2028";
 
 interface PortYearProfile {
   slug: ScheduleHubPortSlug;
@@ -760,6 +784,235 @@ const portYearProfiles: PortYearProfile[] = [
         question: "How busy is Montego Bay on my %Y sailing date?",
         answer:
           "Count ships on your date in the %Y month table. Multi-ship weeks fill Hip Strip beaches and Rose Hall coaches faster.",
+      },
+    ],
+  },
+
+  {
+    slug: "grenada",
+    name: "Grenada",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "St. George's cruise port",
+    dockSentence:
+      "Ships dock at St. George's with walk-off access under normal conditions — Grand Anse beach and spice-market tours stage from this cruise call, not from other island anchorages.",
+    signatureList: "a Grand Anse beach day, a spice-market visit, or a harbor overlook tour",
+    crowdSubject: "multi-ship St. George's days that fill beach transfers",
+    whyPassengersUse: [
+      "Grenada's %Y table lists St. George's cruise calls so you can size Grand Anse transfers against departure columns.",
+      "Spice-market and harbor tours batch around morning arrivals — %Y overlap drives early booking.",
+      "Southern Caribbean loops often pair Grenada with Barbados or St. Lucia — comparing %Y volumes prevents overcommitted days.",
+      "Do not confuse other Grenada anchorages with the St. George's cruise pier on this schedule.",
+    ],
+    faqs: [
+      {
+        question: "Where do cruise ships dock in Grenada in %Y?",
+        answer:
+          "%Y ships call at St. George's. Use this schedule for the cruise port — not for other island stops that may appear on sightseeing maps.",
+      },
+      {
+        question: "Is Grenada a tender port in %Y?",
+        answer:
+          "St. George's is typically a dock call with walk-off access in %Y. Confirm on the day if operations change.",
+      },
+      {
+        question: "How does the %Y schedule help with Grand Anse planning?",
+        answer:
+          "Beach transfers fill when several ships share St. George's. Your %Y monthly table shows overlap so you can book early.",
+      },
+      {
+        question: "How busy is St. George's on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multiple vessels mean fuller beach clubs and taxi queues.",
+      },
+    ],
+  },
+  {
+    slug: "martinique",
+    name: "Martinique",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "the Fort-de-France cruise port",
+    dockSentence:
+      "Ships call at Fort-de-France — other Martinique towns and beaches are excursion geography, not alternate cruise terminals on this schedule.",
+    signatureList: "a Fort-de-France walking morning, a Les Trois-Îlets ferry day, or a coastal viewpoints tour",
+    crowdSubject: "multi-ship Fort-de-France days that fill ferry and coach seats",
+    whyPassengersUse: [
+      "Fort-de-France is the cruise call — the %Y table must not be read as covering every Martinique beach town.",
+      "Les Trois-Îlets and southern beach days need ferry or coach time against %Y departure columns.",
+      "Downtown Fort-de-France walks are pier-adjacent — %Y arrivals frame when independent exploration can start.",
+      "Eastern Caribbean loops often include Martinique with St. Lucia or Barbados — compare %Y volumes across ports.",
+    ],
+    faqs: [
+      {
+        question: "Where do cruise ships dock in Martinique in %Y?",
+        answer:
+          "%Y ships call at Fort-de-France. Les Trois-Îlets, St. Pierre, and beach resorts are reached by ferry or coach from Fort-de-France — they are not separate cruise terminals here.",
+      },
+      {
+        question: "Is Martinique a tender port in %Y?",
+        answer:
+          "Fort-de-France is typically a dock call in %Y. Confirm on the day if operations change.",
+      },
+      {
+        question: "Can I reach Les Trois-Îlets on a %Y port day?",
+        answer:
+          "Yes on medium-to-long calls. Open your %Y departure column and allow ferry or coach transit plus beach time before return to Fort-de-France.",
+      },
+      {
+        question: "How busy is Fort-de-France on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multi-ship days fill ferries and organized coaches faster.",
+      },
+    ],
+  },
+  {
+    slug: "san-juan",
+    name: "San Juan",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "San Juan's cruise piers",
+    dockSentence:
+      "Ships berth at San Juan cruise piers with walk-off access — Old San Juan is often walkable or a short taxi from the terminals, and some itineraries embark, disembark, or overnight here.",
+    signatureList: "an Old San Juan walking day, an El Yunque rainforest tour, or a Condado beach afternoon",
+    crowdSubject: "multi-ship San Juan days and embarkation turnarounds that thicken taxi and fort lines",
+    whyPassengersUse: [
+      "San Juan %Y rows show turnaround and port-of-call windows — embarkation days need different pacing than short daytime calls.",
+      "Old San Juan forts and streets fill on multi-ship %Y weeks; arrival columns frame early walking plans.",
+      "El Yunque needs longer windows — %Y departure columns show whether rainforest coaches fit.",
+      "Do not invent pier assignments — confirm your terminal on the ship when operators ask for a pickup gate.",
+    ],
+    faqs: [
+      {
+        question: "Which San Juan pier will my %Y ship use?",
+        answer:
+          "San Juan has multiple cruise piers. This %Y schedule lists ship calls and times without inventing pier assignments — confirm your berth on the ship before meeting tour operators.",
+      },
+      {
+        question: "Does San Juan use tenders in %Y?",
+        answer:
+          "No under normal conditions. %Y ships dock at San Juan cruise piers with walk-off access.",
+      },
+      {
+        question: "Can I visit El Yunque on a %Y San Juan port day?",
+        answer:
+          "Only on longer daytime calls. Open your %Y row and allow rainforest transit plus trail time before all-aboard — short calls should stay in Old San Juan or Condado.",
+      },
+      {
+        question: "How busy is San Juan on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Embarkation turnarounds and multi-ship days both increase taxi and fort congestion.",
+      },
+    ],
+  },
+  {
+    slug: "grand-turk",
+    name: "Grand Turk",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "the Grand Turk Cruise Center",
+    dockSentence:
+      "Ships dock at the Grand Turk Cruise Center with walk-off access to the beach complex and excursion desks — no tenders under normal conditions.",
+    signatureList: "a Cruise Center beach day, a Gibbs Cay stingray snorkel, or a Cockburn Town visit",
+    crowdSubject: "multi-ship Grand Turk days that fill beach chairs and snorkel boats",
+    whyPassengersUse: [
+      "Grand Turk %Y rows show Cruise Center call windows for beach and snorkel planning.",
+      "Gibbs Cay stingray boats batch morning slots — %Y arrivals frame first departures.",
+      "Cockburn Town visits need short transfers; %Y departure columns keep return buffers realistic.",
+      "Western Caribbean loops often include Grand Turk with Grand Cayman or Jamaica — compare %Y volumes.",
+    ],
+    faqs: [
+      {
+        question: "Where do cruise ships dock in Grand Turk in %Y?",
+        answer:
+          "%Y ships berth at the Grand Turk Cruise Center with walk-off access to the beach and excursion area.",
+      },
+      {
+        question: "Is Grand Turk a tender port in %Y?",
+        answer:
+          "No under normal conditions. The Cruise Center is a dock facility.",
+      },
+      {
+        question: "How does the %Y schedule help with Gibbs Cay planning?",
+        answer:
+          "Stingray snorkel boats batch around morning arrivals. Your %Y row shows whether you can make early boats and return with a safe buffer.",
+      },
+      {
+        question: "How busy is Grand Turk on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multi-ship days fill beach chairs and snorkel capacity faster.",
+      },
+    ],
+  },
+  {
+    slug: "belize-city",
+    name: "Belize City",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "the Belize City anchorage",
+    dockSentence:
+      "Ships anchor offshore and passengers tender into Belize City — allow tender queue time before Altun Ha, cave tubing, or Barrier Reef boats, and treat published arrival/departure as ship itinerary times rather than guaranteed ashore hours.",
+    signatureList: "an Altun Ha ruins visit, cave tubing, or a Barrier Reef snorkel",
+    crowdSubject: "multi-ship tender days that lengthen queues ashore",
+    whyPassengersUse: [
+      "Belize City requires tenders — the %Y table lets you plan around ship itinerary times without inventing a fixed pier window.",
+      "Altun Ha and cave tubing need coach time after tendering; %Y departures frame whether full tours fit.",
+      "Barrier Reef boats batch morning slots once tenders clear — %Y arrivals help you prioritize early tenders.",
+      "Do not confuse Harvest Caye or island resort stops with Belize City cruise calls on this schedule.",
+    ],
+    faqs: [
+      {
+        question: "Does Belize City have a cruise pier in %Y?",
+        answer:
+          "No. %Y ships anchor and passengers tender into Belize City. Published times are ship itinerary times — usable ashore time is reduced by tender operations.",
+      },
+      {
+        question: "How should I plan hours ashore from the %Y schedule?",
+        answer:
+          "Use arrival and departure as planning guides, then allow extra tender time morning and afternoon. This site does not invent a fixed numeric tender deduction for Belize when a destination-specific measurement is not available.",
+      },
+      {
+        question: "Can I visit Altun Ha on a %Y Belize City call?",
+        answer:
+          "Yes on longer windows after you clear the tender. Open your %Y departure column and leave a generous return buffer for coach plus tender queues.",
+      },
+      {
+        question: "How busy is Belize City on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multi-ship days lengthen tender queues and fill ruins and tubing coaches faster.",
+      },
+    ],
+  },
+  {
+    slug: "key-west",
+    name: "Key West",
+    years: [2026, 2027, 2028],
+    terminalsPhrase: "Key West cruise berths",
+    dockSentence:
+      "Ships dock at Key West cruise berths with walk-off access into Old Town — pier names (Mallory Square, Pier B, Outer Mole, and others) are only shown when a trusted source assigns them; this schedule does not invent berth labels.",
+    signatureList: "a Duval Street walking day, a Fort Zachary Taylor beach stop, or a snorkel sail",
+    crowdSubject: "multi-ship Key West days that thicken Duval Street and beach paths",
+    whyPassengersUse: [
+      "Key West %Y rows show call windows for Old Town walking and beach timing.",
+      "Snorkel sails batch morning slots — %Y arrivals frame first departures.",
+      "Fort Zachary Taylor is walkable or a short transfer; %Y departures keep return buffers realistic.",
+      "When pier assignment is unknown, meet operators at the published cruise terminal area rather than guessing Mallory Square versus Pier B.",
+    ],
+    faqs: [
+      {
+        question: "Which Key West pier will my %Y ship use?",
+        answer:
+          "Key West has several cruise berths. This %Y schedule lists ship calls and times and only shows a pier when a trusted source provides one — confirm your berth on the ship.",
+      },
+      {
+        question: "Is Key West a tender port in %Y?",
+        answer:
+          "No under normal conditions. %Y ships dock with walk-off access into Old Town.",
+      },
+      {
+        question: "How does the %Y schedule help with Duval Street planning?",
+        answer:
+          "Multi-ship days thicken Old Town foot traffic. Your %Y monthly table shows overlap so you can start early or choose quieter side streets.",
+      },
+      {
+        question: "How busy is Key West on my %Y sailing date?",
+        answer:
+          "Count ships on your date in the %Y month table. Multiple vessels mean fuller beaches, snorkel boats, and downtown streets.",
       },
     ],
   },

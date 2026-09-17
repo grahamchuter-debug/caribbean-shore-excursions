@@ -1,0 +1,498 @@
+{
+  "sample_size": 50,
+  "issues": [],
+  "issue_count": 0,
+  "pass": true,
+  "line_mix": {
+    "Royal Caribbean": 15,
+    "Celebrity Cruises": 11,
+    "Carnival Cruise Line": 16,
+    "Oceania Cruises": 5,
+    "Holland America Line": 2,
+    "Regent Seven Seas": 1
+  },
+  "port_mix": {
+    "grand-turk": 8,
+    "st-kitts": 5,
+    "key-west": 8,
+    "belize-city": 7,
+    "san-juan": 16,
+    "martinique": 3,
+    "grenada": 3
+  },
+  "dup_report_2028": {
+    "st-kitts": 0,
+    "grenada": 0,
+    "martinique": 0,
+    "san-juan": 0,
+    "grand-turk": 0,
+    "belize-city": 0,
+    "key-west": 0
+  },
+  "held_ports": [],
+  "st_kitts_2027_review": {
+    "hub_2027_rows": 28,
+    "conclusion": "incomplete_import",
+    "detail": "Schedule-cache monthly CT pages show pagination totals far above hub (e.g. Jan 2027 '151' listed vs thin hub year). Hub months miss Apr/Nov/Dec 2027 despite cache files. CT live fetch currently 403 \u2014 cannot safely complete 2027 rebuild from partial first-page caches. No 2027 fix applied this batch.",
+    "action": "documented_hold_fix_rebuild"
+  },
+  "sample": [
+    {
+      "date": "2028-03-23",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "grand-turk"
+    },
+    {
+      "date": "2028-01-02",
+      "ship": "Celebrity Eclipse",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "st-kitts"
+    },
+    {
+      "date": "2028-02-29",
+      "ship": "Carnival Liberty",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "key-west"
+    },
+    {
+      "date": "2028-04-04",
+      "ship": "Carnival Spirit",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "belize-city",
+      "berth": "tender / Belize City anchorage"
+    },
+    {
+      "date": "2028-02-20",
+      "ship": "Oceania Marina",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "12:00",
+      "departure": "20:00",
+      "timeInPort": "8h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-01-18",
+      "ship": "Eurodam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "st-kitts"
+    },
+    {
+      "date": "2028-01-31",
+      "ship": "Carnival Miracle",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-03-30",
+      "ship": "Carnival Firenze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-01-05",
+      "ship": "Carnival Magic",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "grand-turk"
+    },
+    {
+      "date": "2028-01-26",
+      "ship": "Celebrity Constellation",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "key-west"
+    },
+    {
+      "date": "2028-11-06",
+      "ship": "Oceania Aurelia",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "19:00",
+      "timeInPort": "12h",
+      "port": "martinique"
+    },
+    {
+      "date": "2028-04-12",
+      "ship": "Celebrity Eclipse",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "grand-turk"
+    },
+    {
+      "date": "2028-04-06",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "grand-turk"
+    },
+    {
+      "date": "2028-01-11",
+      "ship": "Celebrity Reflection",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "key-west"
+    },
+    {
+      "date": "2028-01-18",
+      "ship": "Symphony Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-01-19",
+      "ship": "Seven Seas Grandeur",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "martinique"
+    },
+    {
+      "date": "2028-01-18",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "13:00",
+      "departure": "21:00",
+      "timeInPort": "8h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-01-24",
+      "ship": "Carnival Sunshine",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "belize-city",
+      "berth": "tender / Belize City anchorage"
+    },
+    {
+      "date": "2028-01-12",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "18:00",
+      "timeInPort": "7h",
+      "port": "grand-turk"
+    },
+    {
+      "date": "2028-01-09",
+      "ship": "Vision Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "06:00",
+      "departure": "18:00",
+      "timeInPort": "12h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-12-11",
+      "ship": "Oceania Vista",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "13:00",
+      "departure": "19:00",
+      "timeInPort": "6h",
+      "port": "grenada"
+    },
+    {
+      "date": "2028-02-15",
+      "ship": "Carnival Magic",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-03-08",
+      "ship": "Celebrity Summit",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "key-west"
+    },
+    {
+      "date": "2028-02-07",
+      "ship": "Liberty Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "belize-city",
+      "berth": "tender / Belize City anchorage"
+    },
+    {
+      "date": "2028-03-28",
+      "ship": "Carnival Liberty",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "key-west"
+    },
+    {
+      "date": "2028-02-17",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "key-west"
+    },
+    {
+      "date": "2028-04-18",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "13:00",
+      "departure": "21:00",
+      "timeInPort": "8h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-01-21",
+      "ship": "Carnival Miracle",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "martinique"
+    },
+    {
+      "date": "2028-03-28",
+      "ship": "Symphony Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "11:30",
+      "departure": "20:00",
+      "timeInPort": "8h 30m",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-01-05",
+      "ship": "Hero Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-02-05",
+      "ship": "Oceania Sonata",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-04-08",
+      "ship": "Rhapsody Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "06:00",
+      "departure": "18:00",
+      "timeInPort": "12h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-01-09",
+      "ship": "Eurodam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "port": "belize-city",
+      "berth": "tender / Belize City anchorage"
+    },
+    {
+      "date": "2028-01-15",
+      "ship": "Rhapsody Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "06:00",
+      "departure": "18:00",
+      "timeInPort": "12h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-01-30",
+      "ship": "Carnival Firenze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "grenada"
+    },
+    {
+      "date": "2028-03-20",
+      "ship": "Serenade Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "belize-city",
+      "berth": "tender / Belize City anchorage"
+    },
+    {
+      "date": "2028-02-22",
+      "ship": "Celebrity Reflection",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "key-west"
+    },
+    {
+      "date": "2028-04-07",
+      "ship": "Celebrity Eclipse",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "st-kitts"
+    },
+    {
+      "date": "2028-03-21",
+      "ship": "Celebrity Reflection",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "key-west"
+    },
+    {
+      "date": "2028-01-28",
+      "ship": "Oceania Sonata",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "port": "grenada"
+    },
+    {
+      "date": "2028-01-09",
+      "ship": "Adventure Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "grand-turk"
+    },
+    {
+      "date": "2028-01-13",
+      "ship": "Carnival Liberty",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "belize-city",
+      "berth": "tender / Belize City anchorage"
+    },
+    {
+      "date": "2028-04-18",
+      "ship": "Celebrity Eclipse",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "st-kitts"
+    },
+    {
+      "date": "2028-04-20",
+      "ship": "Carnival Liberty",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "belize-city",
+      "berth": "tender / Belize City anchorage"
+    },
+    {
+      "date": "2028-02-12",
+      "ship": "Rhapsody Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "06:00",
+      "departure": "18:00",
+      "timeInPort": "12h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-02-22",
+      "ship": "Carnival Magic",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "grand-turk"
+    },
+    {
+      "date": "2028-01-21",
+      "ship": "Celebrity Ascent",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "port": "st-kitts"
+    },
+    {
+      "date": "2028-01-01",
+      "ship": "Symphony Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-02-02",
+      "ship": "Symphony Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "11:30",
+      "departure": "20:00",
+      "timeInPort": "8h 30m",
+      "port": "san-juan"
+    },
+    {
+      "date": "2028-01-01",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "grand-turk"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "st-kitts": {
+    "n": 67,
+    "lines": {
+      "Oceania Cruises": 9,
+      "Holland America Line": 5,
+      "Celebrity Cruises": 21,
+      "Royal Caribbean": 18,
+      "Regent Seven Seas": 12,
+      "Carnival Cruise Line": 2
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 67
+    },
+    "time": {
+      "arrival": 67,
+      "departure": 67,
+      "both": 67,
+      "neither": 0,
+      "arr_only": 0,
+      "dep_only": 0,
+      "pct_both": 100.0
+    },
+    "berth": {
+      "known": 0,
+      "unknown": 67,
+      "pct_known": 0.0,
+      "note": null
+    },
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "11",
+      "12"
+    ],
+    "month_count": 6,
+    "excluded": 230,
+    "excluded_by_reason": {
+      "restricted_line:Seabourn": 17,
+      "restricted_line:Norwegian Cruise Line": 58,
+      "restricted_line:Windstar Cruises": 6,
+      "restricted_line:P&O Cruises": 12,
+      "restricted_line:Other/Verify": 27,
+      "restricted_line:Marella Cruises": 21,
+      "restricted_line:TUI Mein Schiff": 11,
+      "restricted_line:MSC Cruises": 18,
+      "restricted_line:Costa Cruises": 14,
+      "restricted_line:Princess Cruises": 15,
+      "restricted_line:Silversea": 7,
+      "restricted_line:AIDA": 7,
+      "restricted_line:Virgin Voyages": 6,
+      "restricted_line:Viking Ocean Cruises": 7,
+      "restricted_line:Cunard": 4
+    },
+    "candidates": 297,
+    "tier2_in": 0
+  },
+  "grenada": {
+    "n": 20,
+    "lines": {
+      "Carnival Cruise Line": 5,
+      "Regent Seven Seas": 6,
+      "Royal Caribbean": 6,
+      "Oceania Cruises": 3
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 20
+    },
+    "time": {
+      "arrival": 20,
+      "departure": 20,
+      "both": 20,
+      "neither": 0,
+      "arr_only": 0,
+      "dep_only": 0,
+      "pct_both": 100.0
+    },
+    "berth": {
+      "known": 0,
+      "unknown": 20,
+      "pct_known": 0.0,
+      "note": null
+    },
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "11",
+      "12"
+    ],
+    "month_count": 6,
+    "excluded": 101,
+    "excluded_by_reason": {
+      "restricted_line:P&O Cruises": 10,
+      "restricted_line:AIDA": 8,
+      "restricted_line:Marella Cruises": 16,
+      "restricted_line:MSC Cruises": 15,
+      "restricted_line:Norwegian Cruise Line": 17,
+      "restricted_line:Other/Verify": 10,
+      "restricted_line:Princess Cruises": 8,
+      "restricted_line:TUI Mein Schiff": 7,
+      "restricted_line:Cunard": 1,
+      "restricted_line:Seabourn": 7,
+      "restricted_line:Fred. Olsen": 1,
+      "restricted_line:Azamara": 1
+    },
+    "candidates": 121,
+    "tier2_in": 0
+  },
+  "martinique": {
+    "n": 21,
+    "lines": {
+      "Holland America Line": 4,
+      "Regent Seven Seas": 5,
+      "Celebrity Cruises": 1,
+      "Carnival Cruise Line": 5,
+      "Oceania Cruises": 4,
+      "Royal Caribbean": 2
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 21
+    },
+    "time": {
+      "arrival": 21,
+      "departure": 21,
+      "both": 21,
+      "neither": 0,
+      "arr_only": 0,
+      "dep_only": 0,
+      "pct_both": 100.0
+    },
+    "berth": {
+      "known": 0,
+      "unknown": 21,
+      "pct_known": 0.0,
+      "note": null
+    },
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "11",
+      "12"
+    ],
+    "month_count": 6,
+    "excluded": 113,
+    "excluded_by_reason": {
+      "restricted_line:MSC Cruises": 48,
+      "restricted_line:Norwegian Cruise Line": 12,
+      "restricted_line:Costa Cruises": 10,
+      "restricted_line:Other/Verify": 14,
+      "restricted_line:Silversea": 3,
+      "restricted_line:P&O Cruises": 9,
+      "restricted_line:Marella Cruises": 5,
+      "restricted_line:TUI Mein Schiff": 5,
+      "restricted_line:Virgin Voyages": 4,
+      "restricted_line:Princess Cruises": 1,
+      "restricted_line:AIDA": 2
+    },
+    "candidates": 134,
+    "tier2_in": 0
+  },
+  "san-juan": {
+    "n": 98,
+    "lines": {
+      "Royal Caribbean": 45,
+      "Celebrity Cruises": 8,
+      "Holland America Line": 9,
+      "Carnival Cruise Line": 24,
+      "Oceania Cruises": 7,
+      "Regent Seven Seas": 5
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 98
+    },
+    "time": {
+      "arrival": 98,
+      "departure": 96,
+      "both": 96,
+      "neither": 0,
+      "arr_only": 2,
+      "dep_only": 0,
+      "pct_both": 98.0
+    },
+    "berth": {
+      "known": 0,
+      "unknown": 98,
+      "pct_known": 0.0,
+      "note": null
+    },
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "10",
+      "11",
+      "12"
+    ],
+    "month_count": 8,
+    "excluded": 248,
+    "excluded_by_reason": {
+      "restricted_line:Princess Cruises": 22,
+      "restricted_line:Norwegian Cruise Line": 98,
+      "restricted_line:Azamara": 1,
+      "restricted_line:Other/Verify": 38,
+      "restricted_line:Virgin Voyages": 23,
+      "restricted_line:Silversea": 7,
+      "restricted_line:Viking Ocean Cruises": 20,
+      "restricted_line:MSC Cruises": 22,
+      "restricted_line:Marella Cruises": 5,
+      "restricted_line:Disney Cruise Line": 9,
+      "restricted_line:Seabourn": 3
+    },
+    "candidates": 346,
+    "tier2_in": 0
+  },
+  "grand-turk": {
+    "n": 50,
+    "lines": {
+      "Royal Caribbean": 11,
+      "Holland America Line": 13,
+      "Carnival Cruise Line": 18,
+      "Celebrity Cruises": 8
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 50
+    },
+    "time": {
+      "arrival": 50,
+      "departure": 50,
+      "both": 50,
+      "neither": 0,
+      "arr_only": 0,
+      "dep_only": 0,
+      "pct_both": 100.0
+    },
+    "berth": {
+      "known": 0,
+      "unknown": 50,
+      "pct_known": 0.0,
+      "note": null
+    },
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04"
+    ],
+    "month_count": 4,
+    "excluded": 89,
+    "excluded_by_reason": {
+      "restricted_line:Silversea": 1,
+      "restricted_line:Norwegian Cruise Line": 19,
+      "restricted_line:MSC Cruises": 27,
+      "restricted_line:Princess Cruises": 7,
+      "restricted_line:Other/Verify": 6,
+      "restricted_line:Virgin Voyages": 23,
+      "restricted_line:Costa Cruises": 2,
+      "restricted_line:AIDA": 4
+    },
+    "candidates": 139,
+    "tier2_in": 0
+  },
+  "belize-city": {
+    "n": 52,
+    "lines": {
+      "Holland America Line": 2,
+      "Royal Caribbean": 19,
+      "Oceania Cruises": 2,
+      "Carnival Cruise Line": 23,
+      "Celebrity Cruises": 3,
+      "Regent Seven Seas": 3
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 52
+    },
+    "time": {
+      "arrival": 52,
+      "departure": 52,
+      "both": 52,
+      "neither": 0,
+      "arr_only": 0,
+      "dep_only": 0,
+      "pct_both": 100.0
+    },
+    "berth": {
+      "known": 52,
+      "unknown": 0,
+      "pct_known": 100.0,
+      "note": "Belize City tender/anchorage counted as known context"
+    },
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "12"
+    ],
+    "month_count": 6,
+    "excluded": 64,
+    "excluded_by_reason": {
+      "restricted_line:Viking Ocean Cruises": 11,
+      "restricted_line:Princess Cruises": 4,
+      "restricted_line:Other/Verify": 33,
+      "restricted_line:TUI Mein Schiff": 7,
+      "restricted_line:Azamara": 1,
+      "restricted_line:AIDA": 2,
+      "restricted_line:Norwegian Cruise Line": 2,
+      "restricted_line:MSC Cruises": 4
+    },
+    "candidates": 116,
+    "tier2_in": 0
+  },
+  "key-west": {
+    "n": 58,
+    "lines": {
+      "Celebrity Cruises": 42,
+      "Carnival Cruise Line": 9,
+      "Royal Caribbean": 2,
+      "Regent Seven Seas": 3,
+      "Oceania Cruises": 2
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 58
+    },
+    "time": {
+      "arrival": 58,
+      "departure": 58,
+      "both": 58,
+      "neither": 0,
+      "arr_only": 0,
+      "dep_only": 0,
+      "pct_both": 100.0
+    },
+    "berth": {
+      "known": 0,
+      "unknown": 58,
+      "pct_known": 0.0,
+      "note": null
+    },
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "11",
+      "12"
+    ],
+    "month_count": 6,
+    "excluded": 50,
+    "excluded_by_reason": {
+      "restricted_line:Other/Verify": 26,
+      "restricted_line:Virgin Voyages": 20,
+      "restricted_line:Norwegian Cruise Line": 2,
+      "restricted_line:Azamara": 1,
+      "restricted_line:AIDA": 1
+    },
+    "candidates": 108,
+    "tier2_in": 0
+  }
+}

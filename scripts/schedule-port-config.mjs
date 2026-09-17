@@ -236,6 +236,41 @@ export const PORT_HAZARD_RULES = {
     rejectCallNames: [/ocho\s*rios/i, /falmouth/i, /negril/i, /kingston/i],
     note: "Keep Montego Bay separate from Ocho Rios and Falmouth.",
   },
+  "st-kitts": {
+    allowedCallNames: [/st\.?\s*kitts/i, /basseterre/i, /port\s*zante/i],
+    rejectCallNames: [/south\s*friars/i, /friars?\s*bay/i, /\bnevis\b/i],
+    note: "St. Kitts cruise calls are Basseterre / Port Zante — do not silently treat South Friars Bay as the same terminal.",
+  },
+  grenada: {
+    allowedCallNames: [/grenada/i, /st\.?\s*george'?s?/i],
+    rejectCallNames: [/carriacou/i, /petite?\s*martinique/i],
+    note: "Grenada cruise calls are St. George's — do not absorb other island anchorages.",
+  },
+  martinique: {
+    allowedCallNames: [/martinique/i, /fort[\s-]?de[\s-]?france/i],
+    rejectCallNames: [/les?\s*trois[\s-][iî]lets/i, /st\.?\s*pierre/i, /le\s*marin/i],
+    note: "Martinique cruise calls are Fort-de-France — other island towns are excursion geography.",
+  },
+  "san-juan": {
+    allowedCallNames: [/san\s*juan/i, /puerto\s*rico/i],
+    rejectCallNames: [/ponce/i, /mayag[uü]ez/i, /culebra/i, /vieques/i],
+    note: "San Juan cruise calls stay in San Juan — do not invent pier assignments when sources are silent.",
+  },
+  "grand-turk": {
+    allowedCallNames: [/grand\s*turk/i, /cruise\s*center/i],
+    rejectCallNames: [/providenciales/i, /provo/i, /salt\s*cay/i],
+    note: "Grand Turk cruise calls are the Grand Turk Cruise Center — not Providenciales.",
+  },
+  "belize-city": {
+    allowedCallNames: [/belize\s*city/i, /belize/i],
+    rejectCallNames: [/harvest\s*caye/i, /placencia/i, /san\s*pedro/i, /ambergris/i],
+    note: "Belize City is a tender/anchorage call — do not invent a pier berth or absorb Harvest Caye.",
+  },
+  "key-west": {
+    allowedCallNames: [/key\s*west/i],
+    rejectCallNames: [/marathon/i, /key\s*largo/i, /dry\s*tortugas/i],
+    note: "Key West pier labels (Mallory Square, Pier B, Outer Mole, etc.) only when source-supported — never invent berth.",
+  },
 };
 
 export function passesPortHazardRule(portSlug, callLocationName) {

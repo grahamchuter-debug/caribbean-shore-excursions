@@ -14,7 +14,10 @@ import {
   hasVerifiedScheduleData,
 } from "./schedules";
 import { ESTIMATED_PASSENGERS_PER_CALL } from "./schedule-insights";
-import { usableHoursAshoreFromTimes } from "@/lib/schedule-utils";
+import {
+  TENDER_CAUTION_ONLY_PORT_SLUGS,
+  usableHoursAshoreFromTimes,
+} from "@/lib/schedule-utils";
 
 interface PortPlanningConfig {
   snapshot: Partial<PortPlanningSnapshot>;
@@ -468,11 +471,15 @@ export function getAverageTimeInPort(slug: string): string | null {
   if (entries.length < 5) return null;
 
   const port = getPortBySlug(slug);
+  const cautionOnly = TENDER_CAUTION_ONLY_PORT_SLUGS.has(slug);
+  const tenderRequired =
+    port?.portInfo.tenderRequired === true || cautionOnly || slug === "belize-city";
   const hours = entries
     .map((e) => {
-      // Prefer usable ashore hours when arrival/departure exist (tender buffers applied).
+      // Prefer usable ashore hours when arrival/departure exist (numeric tender buffers when known).
       const usable = usableHoursAshoreFromTimes(e.arrival, e.departure, {
-        tenderRequired: port?.portInfo.tenderRequired === true,
+        tenderRequired,
+        applyNumericTenderBuffer: tenderRequired && !cautionOnly,
       });
       if (usable != null) return usable;
       return parseTimeInPortHours(e.timeInPort ?? "");
@@ -482,7 +489,11 @@ export function getAverageTimeInPort(slug: string): string | null {
 
   const avg = hours.reduce((sum, h) => sum + h, 0) / hours.length;
   const rounded = Math.round(avg * 10) / 10;
-  const tenderNote = port?.portInfo.tenderRequired ? " after tender buffers" : "";
+  const tenderNote = cautionOnly
+    ? " (tender caution — allow extra time; no fixed buffer applied)"
+    : tenderRequired
+      ? " after tender buffers"
+      : "";
   return `~${rounded}h average usable ashore${tenderNote} (published calls)`;
 }
 
@@ -659,6 +670,42 @@ const portActivityEstimates: Record<string, PortActivityEstimate> = {
     peakSeason: "November – April",
     planningNote:
       "Tender port with BVI sailing focus. Virgin Gorda day trips and catamaran sails need full-day planning and early tender disembarkation.",
+  },
+  "belize-city": {
+    activityTier: "High",
+    peakSeason: "November – April",
+    planningNote:
+      "Tender port at Belize City. Treat published times as ship itinerary times and allow extra tender queue time — no fixed numeric buffer is invented when destination-specific measurements are unavailable.",
+  },
+  "san-juan": {
+    activityTier: "Very High",
+    peakSeason: "November – April",
+    planningNote:
+      "Capital turnaround and port-of-call hub. Confirm pier on the ship; Old San Juan walks differ from El Yunque day-trip pacing.",
+  },
+  "key-west": {
+    activityTier: "High",
+    peakSeason: "December – April",
+    planningNote:
+      "Docked Old Town access. Pier labels appear only when source-supported — confirm Mallory Square, Pier B, or Outer Mole on the ship when unknown.",
+  },
+  "grand-turk": {
+    activityTier: "High",
+    peakSeason: "November – April",
+    planningNote:
+      "Grand Turk Cruise Center dock calls with pier-adjacent beach amenities. Gibbs Cay boats fill on multi-ship days.",
+  },
+  grenada: {
+    activityTier: "Moderate",
+    peakSeason: "December – April",
+    planningNote:
+      "St. George's cruise calls for Grand Anse and spice-route days. Do not confuse other island anchorages with the cruise pier.",
+  },
+  martinique: {
+    activityTier: "Moderate",
+    peakSeason: "December – April",
+    planningNote:
+      "Fort-de-France cruise calls only. Southern beaches and Les Trois-Îlets need ferry or coach transit from the pier.",
   },
   progreso: {
     activityTier: "Moderate",

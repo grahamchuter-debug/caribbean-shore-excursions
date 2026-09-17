@@ -155,11 +155,14 @@ export function formatMonthLabel(monthKey: string): string {
   return `${MONTH_LABELS[month - 1]} ${year}`;
 }
 
-/** Extra minutes to reserve on tender ports when converting itinerary time → usable hours ashore. */
+/** Default numeric buffers for ports with measured tender queue behaviour (e.g. Grand Cayman). */
 export const TENDER_ASHORE_BUFFER_MINUTES = {
   outboundQueue: 30,
   returnQueue: 60,
 } as const;
+
+/** Ports that tender but lack a defensible numeric buffer — show caution, do not invent a deduction. */
+export const TENDER_CAUTION_ONLY_PORT_SLUGS = new Set(["belize-city"]);
 
 function parseClockToMinutes(value: string | null | undefined): number | null {
   if (!value) return null;
@@ -172,22 +175,35 @@ function parseClockToMinutes(value: string | null | undefined): number | null {
   return hh * 60 + mm;
 }
 
+export type TenderAshoreOptions = {
+  tenderRequired?: boolean;
+  /** When false, tender is required but no numeric minutes are subtracted. */
+  applyNumericTenderBuffer?: boolean;
+  outboundQueueMinutes?: number;
+  returnQueueMinutes?: number;
+};
+
 /**
  * Usable hours ashore from published itinerary arrival/departure.
- * Tender ports subtract outbound + return queue buffers so excursion windows stay realistic.
+ * Tender ports with known buffers subtract outbound + return queue time.
+ * Caution-only tender ports (e.g. Belize City) keep itinerary span without inventing a deduction.
  */
 export function usableHoursAshoreFromTimes(
   arrival: string | null | undefined,
   departure: string | null | undefined,
-  options?: { tenderRequired?: boolean },
+  options?: TenderAshoreOptions,
 ): number | null {
   const start = parseClockToMinutes(arrival);
   const end = parseClockToMinutes(departure);
   if (start == null || end == null) return null;
   let mins = end - start;
   if (mins <= 0) mins += 24 * 60;
-  if (options?.tenderRequired) {
-    mins -= TENDER_ASHORE_BUFFER_MINUTES.outboundQueue + TENDER_ASHORE_BUFFER_MINUTES.returnQueue;
+  const applyBuffer =
+    options?.tenderRequired === true && options?.applyNumericTenderBuffer !== false;
+  if (applyBuffer) {
+    mins -=
+      (options?.outboundQueueMinutes ?? TENDER_ASHORE_BUFFER_MINUTES.outboundQueue) +
+      (options?.returnQueueMinutes ?? TENDER_ASHORE_BUFFER_MINUTES.returnQueue);
   }
   if (mins <= 0) return 0;
   return Math.round((mins / 60) * 10) / 10;

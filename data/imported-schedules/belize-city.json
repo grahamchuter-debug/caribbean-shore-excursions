@@ -1,0 +1,522 @@
+[
+  {
+    "date": "2028-01-09",
+    "ship": "Eurodam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-01-10",
+    "ship": "Freedom Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-01-10",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-01-12",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-01-12",
+    "ship": "Serenade Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-01-13",
+    "ship": "Carnival Liberty",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-01-19",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-01-24",
+    "ship": "Carnival Sunshine",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-01-26",
+    "ship": "Carnival Breeze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-01-26",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-02-02",
+    "ship": "Carnival Valor",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-02-07",
+    "ship": "Freedom Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-02-07",
+    "ship": "Liberty Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-02-08",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-02-10",
+    "ship": "Carnival Liberty",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-02-16",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-02-16",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-02-22",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-02-23",
+    "ship": "Carnival Breeze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-02-24",
+    "ship": "Carnival Liberty",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-02-29",
+    "ship": "Brilliance Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:30",
+    "departure": "18:00",
+    "timeInPort": "8h 30m",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-01",
+    "ship": "Oceania Marina",
+    "cruiseLine": "Oceania Cruises",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-06",
+    "ship": "Carnival Sunshine",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-06",
+    "ship": "Freedom Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-07",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-08",
+    "ship": "Carnival Breeze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-08",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-09",
+    "ship": "Carnival Liberty",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-11",
+    "ship": "Eurodam",
+    "cruiseLine": "Holland America Line",
+    "arrival": "07:00",
+    "departure": "16:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-15",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-16",
+    "ship": "Carnival Firenze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-16",
+    "ship": "Carnival Sunshine",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-20",
+    "ship": "Freedom Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-20",
+    "ship": "Serenade Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-21",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-21",
+    "ship": "Celebrity Xcel",
+    "cruiseLine": "Celebrity Cruises",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-22",
+    "ship": "Carnival Breeze",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-29",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-03-29",
+    "ship": "Serenade Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "07:00",
+    "departure": "14:00",
+    "timeInPort": "7h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-04-03",
+    "ship": "Freedom Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-04-04",
+    "ship": "Carnival Spirit",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-04-06",
+    "ship": "Carnival Liberty",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-04-12",
+    "ship": "Carnival Valor",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-04-12",
+    "ship": "Mariner Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-04-13",
+    "ship": "Carnival Sunshine",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-04-17",
+    "ship": "Freedom Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "09:00",
+    "departure": "17:00",
+    "timeInPort": "8h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-04-17",
+    "ship": "Independence Of The Seas",
+    "cruiseLine": "Royal Caribbean",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-04-20",
+    "ship": "Carnival Liberty",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-05-04",
+    "ship": "Carnival Liberty",
+    "cruiseLine": "Carnival Cruise Line",
+    "arrival": "08:00",
+    "departure": "17:00",
+    "timeInPort": "9h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-12-15",
+    "ship": "Seven Seas Mariner",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-12-16",
+    "ship": "Seven Seas Grandeur",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  },
+  {
+    "date": "2028-12-17",
+    "ship": "Seven Seas Prestige",
+    "cruiseLine": "Regent Seven Seas",
+    "arrival": "07:00",
+    "departure": "17:00",
+    "timeInPort": "10h",
+    "passengers": "",
+    "berth": "tender / Belize City anchorage"
+  }
+]

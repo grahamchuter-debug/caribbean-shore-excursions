@@ -1,0 +1,60 @@
+{
+  "st-kitts": {
+    "total": 126,
+    "byYear": {
+      "2026": 31,
+      "2027": 28,
+      "2028": 67
+    },
+    "dups_removed": 0,
+    "added_2028": 67
+  },
+  "grenada": {
+    "total": 20,
+    "byYear": {
+      "2028": 20
+    },
+    "dups_removed": 0,
+    "added_2028": 20
+  },
+  "martinique": {
+    "total": 21,
+    "byYear": {
+      "2028": 21
+    },
+    "dups_removed": 0,
+    "added_2028": 21
+  },
+  "san-juan": {
+    "total": 98,
+    "byYear": {
+      "2028": 98
+    },
+    "dups_removed": 0,
+    "added_2028": 98
+  },
+  "grand-turk": {
+    "total": 50,
+    "byYear": {
+      "2028": 50
+    },
+    "dups_removed": 0,
+    "added_2028": 50
+  },
+  "belize-city": {
+    "total": 52,
+    "byYear": {
+      "2028": 52
+    },
+    "dups_removed": 0,
+    "added_2028": 52
+  },
+  "key-west": {
+    "total": 58,
+    "byYear": {
+      "2028": 58
+    },
+    "dups_removed": 0,
+    "added_2028": 58
+  }
+}

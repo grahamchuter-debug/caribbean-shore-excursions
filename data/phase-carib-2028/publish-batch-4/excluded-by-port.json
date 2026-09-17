@@ -1,0 +1,86 @@
+{
+  "st-kitts": {
+    "restricted_line:Seabourn": 17,
+    "restricted_line:Norwegian Cruise Line": 58,
+    "restricted_line:Windstar Cruises": 6,
+    "restricted_line:P&O Cruises": 12,
+    "restricted_line:Other/Verify": 27,
+    "restricted_line:Marella Cruises": 21,
+    "restricted_line:TUI Mein Schiff": 11,
+    "restricted_line:MSC Cruises": 18,
+    "restricted_line:Costa Cruises": 14,
+    "restricted_line:Princess Cruises": 15,
+    "restricted_line:Silversea": 7,
+    "restricted_line:AIDA": 7,
+    "restricted_line:Virgin Voyages": 6,
+    "restricted_line:Viking Ocean Cruises": 7,
+    "restricted_line:Cunard": 4
+  },
+  "grenada": {
+    "restricted_line:P&O Cruises": 10,
+    "restricted_line:AIDA": 8,
+    "restricted_line:Marella Cruises": 16,
+    "restricted_line:MSC Cruises": 15,
+    "restricted_line:Norwegian Cruise Line": 17,
+    "restricted_line:Other/Verify": 10,
+    "restricted_line:Princess Cruises": 8,
+    "restricted_line:TUI Mein Schiff": 7,
+    "restricted_line:Cunard": 1,
+    "restricted_line:Seabourn": 7,
+    "restricted_line:Fred. Olsen": 1,
+    "restricted_line:Azamara": 1
+  },
+  "martinique": {
+    "restricted_line:MSC Cruises": 48,
+    "restricted_line:Norwegian Cruise Line": 12,
+    "restricted_line:Costa Cruises": 10,
+    "restricted_line:Other/Verify": 14,
+    "restricted_line:Silversea": 3,
+    "restricted_line:P&O Cruises": 9,
+    "restricted_line:Marella Cruises": 5,
+    "restricted_line:TUI Mein Schiff": 5,
+    "restricted_line:Virgin Voyages": 4,
+    "restricted_line:Princess Cruises": 1,
+    "restricted_line:AIDA": 2
+  },
+  "san-juan": {
+    "restricted_line:Princess Cruises": 22,
+    "restricted_line:Norwegian Cruise Line": 98,
+    "restricted_line:Azamara": 1,
+    "restricted_line:Other/Verify": 38,
+    "restricted_line:Virgin Voyages": 23,
+    "restricted_line:Silversea": 7,
+    "restricted_line:Viking Ocean Cruises": 20,
+    "restricted_line:MSC Cruises": 22,
+    "restricted_line:Marella Cruises": 5,
+    "restricted_line:Disney Cruise Line": 9,
+    "restricted_line:Seabourn": 3
+  },
+  "grand-turk": {
+    "restricted_line:Silversea": 1,
+    "restricted_line:Norwegian Cruise Line": 19,
+    "restricted_line:MSC Cruises": 27,
+    "restricted_line:Princess Cruises": 7,
+    "restricted_line:Other/Verify": 6,
+    "restricted_line:Virgin Voyages": 23,
+    "restricted_line:Costa Cruises": 2,
+    "restricted_line:AIDA": 4
+  },
+  "belize-city": {
+    "restricted_line:Viking Ocean Cruises": 11,
+    "restricted_line:Princess Cruises": 4,
+    "restricted_line:Other/Verify": 33,
+    "restricted_line:TUI Mein Schiff": 7,
+    "restricted_line:Azamara": 1,
+    "restricted_line:AIDA": 2,
+    "restricted_line:Norwegian Cruise Line": 2,
+    "restricted_line:MSC Cruises": 4
+  },
+  "key-west": {
+    "restricted_line:Other/Verify": 26,
+    "restricted_line:Virgin Voyages": 20,
+    "restricted_line:Norwegian Cruise Line": 2,
+    "restricted_line:Azamara": 1,
+    "restricted_line:AIDA": 1
+  }
+}

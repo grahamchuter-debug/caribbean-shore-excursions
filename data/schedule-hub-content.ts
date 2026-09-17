@@ -2108,4 +2108,389 @@ export const scheduleHubContent: Record<HubContentKey, SchedulePageContent> = {
     ],
   },
 
+  "grenada-hub": {
+    intro:
+      "Grenada schedule pages list St. George's cruise-port calls — Grand Anse beach and spice-market tours stage from this pier. Do not treat other island anchorages as the same cruise call.",
+    heroSubtitle:
+      "Grenada cruise schedule hub — St. George's ship calls, Grand Anse timing, and spice-route planning.",
+    whyPassengersUse: [
+      "St. George's is the cruise call — use year tables to size Grand Anse transfers.",
+      "Spice-market tours batch around morning arrivals on multi-ship weeks.",
+      "Southern Caribbean loops often pair Grenada with Barbados or St. Lucia.",
+      "Confirm your sailing year before booking non-refundable beach clubs.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose Grand Anse, a spice-market loop, or harbor overlooks sized to published times.",
+      typicalActivities: [
+        "Grand Anse beach day on standard-length calls",
+        "Spice market and town highlights on shorter windows",
+        "Harbor overlook and coastal viewpoints on flexible schedules",
+      ],
+      topAttractions: [
+        "Grand Anse Beach — classic Grenada beach day",
+        "St. George's harbour — waterfront and market",
+        "Spice route stops — nutmeg and local produce tours",
+      ],
+      recommendedExcursions: [
+        "Grand Anse beach transfer when arrival is morning",
+        "Spice-market coach on multi-ship weeks (book ahead)",
+        "Private island highlights loop on flexible schedules",
+      ],
+      timingConsiderations: [
+        "Beach transfers fill faster on multi-ship days",
+        "Confirm final times aboard before leaving the pier",
+        "Use published departure columns for return buffers",
+      ],
+      returnGuidance:
+        "Return to St. George's pier security at least 45–60 minutes before published departure.",
+    },
+    faqs: [
+      {
+        question: "Where do cruise ships dock in Grenada?",
+        answer:
+          "Cruise ships call at St. George's. Use this hub for that cruise port — not for other island sightseeing stops.",
+      },
+      {
+        question: "Does Grenada use tenders at St. George's?",
+        answer:
+          "St. George's is typically a dock call with walk-off access. Confirm on the day if operations change.",
+      },
+      {
+        question: "How do I spot a busy St. George's day?",
+        answer:
+          "Open your sailing year and month, then count ships on the same date.",
+      },
+      {
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line before leaving the pier.",
+      },
+    ],
+    internalLinks: [
+      { label: "Grenada 2028 Schedule", href: "/ship-schedules/grenada/2028", description: "Currently published 2028 St. George's itinerary calls." },
+      { label: "All 2028 Caribbean Schedules", href: "/ship-schedules/2028", description: "2028 master hub with every published port." },
+    ],
+  },
+  "martinique-hub": {
+    intro:
+      "Martinique schedule pages list Fort-de-France cruise calls only — Les Trois-Îlets and other island towns are excursion destinations reached from Fort-de-France, not separate cruise terminals here.",
+    heroSubtitle:
+      "Martinique cruise schedule hub — Fort-de-France ship calls and south-island day-trip timing.",
+    whyPassengersUse: [
+      "Fort-de-France is the cruise call — do not map every Martinique beach into this schedule.",
+      "Southern beach and ferry days need transit time against departure columns.",
+      "Downtown walks are pier-adjacent on shorter calls.",
+      "Eastern Caribbean loops often include Martinique with St. Lucia or Barbados.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose Fort-de-France walking, a southern ferry day, or coastal viewpoints sized to published times.",
+      typicalActivities: [
+        "Fort-de-France market and waterfront walk on shorter calls",
+        "Les Trois-Îlets ferry and beach day on longer windows",
+        "Coastal viewpoints coach on medium calls",
+      ],
+      topAttractions: [
+        "Fort-de-France waterfront — pier-adjacent culture",
+        "Les Trois-Îlets — southern beaches via ferry/coach",
+        "Coastal viewpoints — island overlook tours",
+      ],
+      recommendedExcursions: [
+        "Fort-de-France walking morning on any call",
+        "Southern beach day when departure allows transit buffer",
+        "Private island highlights loop on flexible schedules",
+      ],
+      timingConsiderations: [
+        "Southern beaches need ferry or coach time from Fort-de-France",
+        "Multi-ship days fill ferries and coaches faster",
+        "Confirm final times aboard before leaving the pier",
+      ],
+      returnGuidance:
+        "Return to Fort-de-France pier security at least 45–60 minutes before published departure.",
+    },
+    faqs: [
+      {
+        question: "Where do cruise ships dock in Martinique?",
+        answer:
+          "Cruise ships call at Fort-de-France. Other towns are reached by ferry or coach from this pier.",
+      },
+      {
+        question: "Does Fort-de-France use tenders?",
+        answer:
+          "Typically no — Fort-de-France is a dock call under normal conditions.",
+      },
+      {
+        question: "How do I spot a busy Fort-de-France day?",
+        answer:
+          "Count ships on your date in the monthly table for your sailing year.",
+      },
+      {
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line.",
+      },
+    ],
+    internalLinks: [
+      { label: "Martinique 2028 Schedule", href: "/ship-schedules/martinique/2028", description: "Currently published 2028 Fort-de-France itinerary calls." },
+      { label: "All 2028 Caribbean Schedules", href: "/ship-schedules/2028", description: "2028 master hub with every published port." },
+    ],
+  },
+  "san-juan-hub": {
+    intro:
+      "San Juan schedule pages list cruise-pier calls for Puerto Rico's capital — Old San Juan walks, Condado beaches, and El Yunque day trips all run from docked terminals. Pier assignment is only shown when a trusted source provides it.",
+    heroSubtitle:
+      "San Juan cruise schedule hub — ship calls, Old San Juan timing, and rainforest day-trip windows.",
+    whyPassengersUse: [
+      "San Juan hosts port calls and embarkation turnarounds — year tables show which kind of day you have.",
+      "Old San Juan fills on multi-ship weeks; arrival columns frame early walks.",
+      "El Yunque needs longer windows against departure columns.",
+      "Confirm your pier on the ship before meeting tour operators.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose Old San Juan, Condado, or El Yunque sized to published times — and confirm whether your day is a turnaround.",
+      typicalActivities: [
+        "Old San Juan forts and streets on standard calls",
+        "Condado beach afternoon on medium windows",
+        "El Yunque rainforest on longer daytime calls",
+      ],
+      topAttractions: [
+        "Old San Juan — forts, streets, and cafes",
+        "Condado — beach strip east of the old city",
+        "El Yunque — rainforest day trip inland",
+      ],
+      recommendedExcursions: [
+        "Old San Juan walking morning on any call",
+        "El Yunque coach when departure allows full transit",
+        "Private city and beach combo on flexible schedules",
+      ],
+      timingConsiderations: [
+        "Embarkation days differ from short port calls",
+        "Do not invent pier names when the source is silent",
+        "Confirm final times aboard before leaving the terminal",
+      ],
+      returnGuidance:
+        "Return to your San Juan cruise pier security at least 45–60 minutes before published departure.",
+    },
+    faqs: [
+      {
+        question: "Which San Juan pier will my ship use?",
+        answer:
+          "San Juan has multiple cruise piers. Confirm your berth on the ship — this hub does not invent pier assignments.",
+      },
+      {
+        question: "Does San Juan use tenders?",
+        answer:
+          "No under normal conditions. Ships dock with walk-off access.",
+      },
+      {
+        question: "How do I spot a busy San Juan day?",
+        answer:
+          "Count ships on your date in the monthly table. Turnaround days also increase taxi demand.",
+      },
+      {
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line.",
+      },
+    ],
+    internalLinks: [
+      { label: "San Juan 2028 Schedule", href: "/ship-schedules/san-juan/2028", description: "Currently published 2028 San Juan itinerary calls." },
+      { label: "All 2028 Caribbean Schedules", href: "/ship-schedules/2028", description: "2028 master hub with every published port." },
+    ],
+  },
+  "grand-turk-hub": {
+    intro:
+      "Grand Turk schedule pages list Grand Turk Cruise Center calls — beach complex amenities and snorkel desks sit beside the dock. Official 2028 calendars were rechecked; where unavailable, itinerary-based rows are used.",
+    heroSubtitle:
+      "Grand Turk cruise schedule hub — Cruise Center ship calls, beach timing, and Gibbs Cay snorkel windows.",
+    whyPassengersUse: [
+      "Cruise Center arrivals frame beach and snorkel timing.",
+      "Gibbs Cay boats batch morning slots on multi-ship weeks.",
+      "Cockburn Town visits need short transfers against departure columns.",
+      "Western Caribbean loops often include Grand Turk with Grand Cayman.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose Cruise Center beach time, Gibbs Cay, or Cockburn Town sized to published times.",
+      typicalActivities: [
+        "Cruise Center beach day on any call",
+        "Gibbs Cay stingray snorkel on morning arrivals",
+        "Cockburn Town visit on medium windows",
+      ],
+      topAttractions: [
+        "Grand Turk Cruise Center beach — pier-adjacent amenities",
+        "Gibbs Cay — stingray snorkel boat",
+        "Cockburn Town — island capital visit",
+      ],
+      recommendedExcursions: [
+        "Cruise Center beach day when you want minimal transfers",
+        "Gibbs Cay snorkel on first morning boats",
+        "Private island highlights loop on flexible schedules",
+      ],
+      timingConsiderations: [
+        "Multi-ship days fill beach chairs and snorkel boats faster",
+        "Confirm final times aboard before leaving the Cruise Center",
+        "Use departure columns for return buffers",
+      ],
+      returnGuidance:
+        "Return to the Grand Turk Cruise Center at least 45–60 minutes before published departure.",
+    },
+    faqs: [
+      {
+        question: "Where do cruise ships dock in Grand Turk?",
+        answer:
+          "Ships berth at the Grand Turk Cruise Center with walk-off access to the beach complex.",
+      },
+      {
+        question: "Does Grand Turk use tenders?",
+        answer:
+          "No under normal conditions. The Cruise Center is a dock facility.",
+      },
+      {
+        question: "How do I spot a busy Grand Turk day?",
+        answer:
+          "Count ships on your date in the monthly table for your sailing year.",
+      },
+      {
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line.",
+      },
+    ],
+    internalLinks: [
+      { label: "Grand Turk 2028 Schedule", href: "/ship-schedules/grand-turk/2028", description: "Currently published 2028 Cruise Center itinerary calls." },
+      { label: "All 2028 Caribbean Schedules", href: "/ship-schedules/2028", description: "2028 master hub with every published port." },
+    ],
+  },
+  "belize-city-hub": {
+    intro:
+      "Belize City schedule pages list tender/anchorage cruise calls — ships anchor offshore and passengers tender ashore. Published times are ship itinerary times; allow extra tender time without assuming a fabricated numeric buffer.",
+    heroSubtitle:
+      "Belize City cruise schedule hub — tender calls, Altun Ha timing, and Barrier Reef planning.",
+    whyPassengersUse: [
+      "Belize City is a tender port — plan around itinerary times and tender queues.",
+      "Altun Ha and cave tubing need coach time after tendering.",
+      "Barrier Reef boats batch once morning tenders clear.",
+      "Do not confuse Harvest Caye or island resorts with Belize City calls.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose ruins, cave tubing, or reef time with generous tender buffers around published times.",
+      typicalActivities: [
+        "Altun Ha ruins on medium-to-long calls after tendering",
+        "Cave tubing on longer windows",
+        "Barrier Reef snorkel when early tenders clear",
+      ],
+      topAttractions: [
+        "Altun Ha — Maya ruins inland",
+        "Cave tubing — river and cave adventure",
+        "Barrier Reef — snorkel boats from tender landing area",
+      ],
+      recommendedExcursions: [
+        "Altun Ha coach when departure allows return plus tender time",
+        "Reef snorkel on first available boats after tendering",
+        "Private dual-stop loop only on long calls",
+      ],
+      timingConsiderations: [
+        "Treat arrival/departure as ship itinerary times, not guaranteed ashore hours",
+        "Multi-ship days lengthen tender queues",
+        "Confirm final times aboard before joining the tender line",
+      ],
+      returnGuidance:
+        "Allow extra time for return tenders and be in the landing area well before all-aboard. Do not cut buffers to the published departure minute.",
+    },
+    faqs: [
+      {
+        question: "Does Belize City have a cruise pier?",
+        answer:
+          "No. Ships anchor and passengers tender into Belize City. Usable ashore time is reduced by tender operations.",
+      },
+      {
+        question: "How should I use published times for Belize City?",
+        answer:
+          "Use them as planning guides, then allow extra tender time. This site does not invent a fixed numeric tender deduction when a Belize-specific measurement is not available.",
+      },
+      {
+        question: "How do I spot a busy Belize City day?",
+        answer:
+          "Count ships on your date in the monthly table — multi-ship days lengthen tender queues.",
+      },
+      {
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line before tendering.",
+      },
+    ],
+    internalLinks: [
+      { label: "Belize City 2028 Schedule", href: "/ship-schedules/belize-city/2028", description: "Currently published 2028 tender/anchorage itinerary calls." },
+      { label: "All 2028 Caribbean Schedules", href: "/ship-schedules/2028", description: "2028 master hub with every published port." },
+    ],
+  },
+  "key-west-hub": {
+    intro:
+      "Key West schedule pages list cruise-berth calls into Old Town — Duval Street, Fort Zachary Taylor, and snorkel sails stage from docked ships. Pier names appear only when a trusted source provides them.",
+    heroSubtitle:
+      "Key West cruise schedule hub — ship calls, Old Town timing, and snorkel windows.",
+    whyPassengersUse: [
+      "Key West arrivals frame Old Town walking and beach timing.",
+      "Snorkel sails batch morning slots on multi-ship weeks.",
+      "Pier assignment is confirmed on the ship when sources are silent.",
+      "Florida and Western Caribbean loops often include Key West with Bahamas or Grand Cayman.",
+    ],
+    planningYourDay: {
+      summary:
+        "Pick your sailing year, then choose Duval Street, Fort Zachary Taylor, or a snorkel sail sized to published times.",
+      typicalActivities: [
+        "Duval Street and Old Town walk on any call",
+        "Fort Zachary Taylor beach on medium windows",
+        "Snorkel sail on morning arrivals",
+      ],
+      topAttractions: [
+        "Duval Street — Old Town walking spine",
+        "Fort Zachary Taylor — historic fort and beach",
+        "Snorkel sails — reef boats from the cruise area",
+      ],
+      recommendedExcursions: [
+        "Old Town walking morning on any call",
+        "Snorkel sail on first morning boats",
+        "Private highlights loop on flexible schedules",
+      ],
+      timingConsiderations: [
+        "Do not invent Mallory Square vs Pier B labels when unknown",
+        "Multi-ship days thicken downtown streets",
+        "Confirm final times aboard before leaving the berth",
+      ],
+      returnGuidance:
+        "Return to your Key West cruise berth security at least 45–60 minutes before published departure.",
+    },
+    faqs: [
+      {
+        question: "Which Key West pier will my ship use?",
+        answer:
+          "Key West has several cruise berths. Confirm on the ship — this hub only lists a pier when a trusted source provides one.",
+      },
+      {
+        question: "Does Key West use tenders?",
+        answer:
+          "No under normal conditions. Ships dock with walk-off access into Old Town.",
+      },
+      {
+        question: "How do I spot a busy Key West day?",
+        answer:
+          "Count ships on your date in the monthly table for your sailing year.",
+      },
+      {
+        question: "Can schedule times change?",
+        answer:
+          "Yes. Confirm final times with your cruise line.",
+      },
+    ],
+    internalLinks: [
+      { label: "Key West 2028 Schedule", href: "/ship-schedules/key-west/2028", description: "Currently published 2028 Key West itinerary calls." },
+      { label: "All 2028 Caribbean Schedules", href: "/ship-schedules/2028", description: "2028 master hub with every published port." },
+    ],
+  },
+
 };

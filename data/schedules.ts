@@ -26,6 +26,12 @@ import stLuciaSchedule from "./imported-schedules/st-lucia.json";
 import curacaoSchedule from "./imported-schedules/curacao.json";
 import falmouthSchedule from "./imported-schedules/falmouth.json";
 import montegoBaySchedule from "./imported-schedules/montego-bay.json";
+import grenadaSchedule from "./imported-schedules/grenada.json";
+import martiniqueSchedule from "./imported-schedules/martinique.json";
+import sanJuanSchedule from "./imported-schedules/san-juan.json";
+import grandTurkSchedule from "./imported-schedules/grand-turk.json";
+import belizeCitySchedule from "./imported-schedules/belize-city.json";
+import keyWestSchedule from "./imported-schedules/key-west.json";
 
 export const TOP_SCHEDULE_PORT_SLUGS = [
   "st-thomas",
@@ -46,6 +52,12 @@ export const TOP_SCHEDULE_PORT_SLUGS = [
   "curacao",
   "falmouth",
   "montego-bay",
+  "grenada",
+  "martinique",
+  "san-juan",
+  "grand-turk",
+  "belize-city",
+  "key-west",
 ] as const;
 
 export const schedulePorts: ShipSchedulePort[] = [
@@ -434,13 +446,150 @@ export const schedulePorts: ShipSchedulePort[] = [
     ],
     faqs: SCHEDULE_FAQS,
   },
+
+  {
+    slug: "grenada",
+    name: "Grenada",
+    country: "Grenada",
+    seoTitle: "Grenada Cruise Ship Schedule 2028",
+    metaDescription:
+      "Grenada cruise ship schedule for St. George's with published 2028 arrival and departure times. Plan Grand Anse beach days around your port window.",
+    intro:
+      "This Grenada cruise ship schedule shows which vessels are expected at St. George's and their published port times, helping you plan Grand Anse beach days and spice-market tours with safe return buffers.",
+    description:
+      "Southern Caribbean dock port at St. George's for beach and spice-route excursions.",
+    scheduleOverview:
+      "Grenada receives Southern Caribbean traffic at St. George's. Review monthly ship calls before booking Grand Anse transfers on multi-ship days.",
+    relatedPortSlugs: ["barbados", "st-lucia", "antigua"],
+    excursionTypeSlugs: ["beaches", "private-tours", "family-tours"],
+    planningTips: [
+      "Grenada docks at St. George's — do not confuse other island anchorages with this cruise call.",
+      "Book Grand Anse transfers early on multi-ship days.",
+      "Be back at pier security 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "martinique",
+    name: "Martinique",
+    country: "Martinique",
+    seoTitle: "Martinique Cruise Ship Schedule 2028",
+    metaDescription:
+      "Martinique cruise ship schedule for Fort-de-France with published 2028 arrival and departure times. Plan Old Town walks and southern beach day trips from the cruise port.",
+    intro:
+      "This Martinique cruise ship schedule shows which vessels are expected at Fort-de-France and their published port times. Southern beaches and Les Trois-Îlets are excursion destinations reached from Fort-de-France — not separate cruise terminals on this page.",
+    description:
+      "Eastern Caribbean dock port at Fort-de-France for culture and south-island day trips.",
+    scheduleOverview:
+      "Martinique cruise ships call at Fort-de-France. Review monthly tables before booking southern ferry or coach days that need long transit.",
+    relatedPortSlugs: ["st-lucia", "barbados", "antigua"],
+    excursionTypeSlugs: ["beaches", "private-tours", "family-tours"],
+    planningTips: [
+      "Fort-de-France is the cruise port — do not map other Martinique towns into this schedule.",
+      "Only book Les Trois-Îlets days when departure allows ferry/coach transit plus beach time.",
+      "Be back at Fort-de-France pier security 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "san-juan",
+    name: "San Juan",
+    country: "Puerto Rico",
+    seoTitle: "San Juan Cruise Ship Schedule 2028",
+    metaDescription:
+      "San Juan cruise ship schedule with published 2028 arrival and departure times. Plan Old San Juan walks and El Yunque day trips around your pier window.",
+    intro:
+      "This San Juan cruise ship schedule shows which vessels are expected at San Juan's cruise piers and their published port times. Some itineraries embark, disembark, or overnight here — size Old San Juan and El Yunque plans to your actual window, and confirm pier assignment on the ship.",
+    description:
+      "Puerto Rico capital cruise hub with docked piers for Old San Juan and rainforest day trips.",
+    scheduleOverview:
+      "San Juan hosts Eastern Caribbean port calls and turnarounds. Review monthly ship calls before booking El Yunque coaches or fort walks on multi-ship weeks. Pier names are not invented when sources are silent.",
+    relatedPortSlugs: ["st-thomas", "st-maarten", "puerto-plata"],
+    excursionTypeSlugs: ["adventure-tours", "private-tours", "family-tours"],
+    planningTips: [
+      "Confirm your San Juan pier on the ship before meeting operators.",
+      "Embarkation turnarounds differ from short daytime calls — check whether your date is a port call only.",
+      "Only book El Yunque when departure allows full rainforest transit.",
+      "Be back at pier security 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "grand-turk",
+    name: "Grand Turk",
+    country: "Turks and Caicos",
+    seoTitle: "Grand Turk Cruise Ship Schedule 2028",
+    metaDescription:
+      "Grand Turk cruise ship schedule for the Grand Turk Cruise Center with published 2028 arrival and departure times. Plan beach and Gibbs Cay snorkel days around your port window.",
+    intro:
+      "This Grand Turk cruise ship schedule shows which vessels are expected at the Grand Turk Cruise Center and their published port times, helping you plan beach days and Gibbs Cay stingray snorkels with safe return buffers.",
+    description:
+      "Turks and Caicos dock port at the Grand Turk Cruise Center.",
+    scheduleOverview:
+      "Grand Turk receives Western Caribbean traffic at the Cruise Center. Review monthly ship calls before booking snorkel boats on multi-ship days.",
+    relatedPortSlugs: ["grand-cayman", "nassau", "cozumel"],
+    excursionTypeSlugs: ["beaches", "snorkeling", "private-tours"],
+    planningTips: [
+      "Grand Turk docks at the Cruise Center with walk-off beach access — no tenders under normal conditions.",
+      "Book Gibbs Cay boats for early morning slots on multi-ship days.",
+      "Be back at the Cruise Center 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "belize-city",
+    name: "Belize City",
+    country: "Belize",
+    seoTitle: "Belize City Cruise Ship Schedule 2028",
+    metaDescription:
+      "Belize City cruise ship schedule with published 2028 arrival and departure times. Ships tender ashore — plan Altun Ha and reef tours with tender caution around itinerary times.",
+    intro:
+      "This Belize City cruise ship schedule shows which vessels are expected at the Belize City anchorage and their published ship itinerary times. Ships tender ashore — usable time is reduced by tender operations, and this page does not invent a fixed numeric tender deduction.",
+    description:
+      "Western Caribbean tender port at Belize City for ruins, cave tubing, and reef excursions.",
+    scheduleOverview:
+      "Belize City receives Western Caribbean traffic as a tender destination. Review monthly ship calls before booking Altun Ha or reef boats, and allow extra tender time around published arrivals and departures.",
+    relatedPortSlugs: ["cozumel", "roatan", "costa-maya"],
+    excursionTypeSlugs: ["adventure-tours", "snorkeling", "private-tours"],
+    usesTender: true,
+    planningTips: [
+      "Belize City is a tender port — published times are ship itinerary times, not guaranteed ashore hours.",
+      "Allow extra tender queue time morning and afternoon without assuming a fabricated fixed buffer.",
+      "Only book Altun Ha or cave tubing when departure leaves a generous coach-plus-tender return margin.",
+      "Be in the tender landing area well before all-aboard.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
+  {
+    slug: "key-west",
+    name: "Key West",
+    country: "United States",
+    seoTitle: "Key West Cruise Ship Schedule 2028",
+    metaDescription:
+      "Key West cruise ship schedule with published 2028 arrival and departure times. Plan Duval Street walks and snorkel sails around your berth window.",
+    intro:
+      "This Key West cruise ship schedule shows which vessels are expected at Key West cruise berths and their published port times. Pier names such as Mallory Square, Pier B, or Outer Mole appear only when a trusted source provides them.",
+    description:
+      "Florida Keys dock port with walk-off access into Old Town.",
+    scheduleOverview:
+      "Key West receives Florida and Western Caribbean traffic at multiple possible berths. Review monthly ship calls before booking snorkel sails on multi-ship days, and confirm your pier on the ship.",
+    relatedPortSlugs: ["nassau", "cozumel", "grand-cayman"],
+    excursionTypeSlugs: ["beaches", "snorkeling", "private-tours"],
+    planningTips: [
+      "Key West is a dock port — no tenders under normal conditions.",
+      "Do not invent pier labels when the schedule row does not list one.",
+      "Book snorkel sails for morning slots on multi-ship days.",
+      "Be back at berth security 45–60 minutes before published departure.",
+    ],
+    faqs: SCHEDULE_FAQS,
+  },
   {
     slug: "st-kitts",
     name: "St. Kitts",
     country: "St. Kitts & Nevis",
-    seoTitle: "St. Kitts Cruise Ship Schedule 2026 & 2027",
+    seoTitle: "St. Kitts Cruise Ship Schedule 2026–2028",
     metaDescription:
-      "St. Kitts cruise ship schedule with published 2026 and 2027 arrival and departure times at Basseterre. Plan Brimstone Hill, railway, and beach excursions around your port day.",
+      "St. Kitts cruise ship schedule with published 2026–2028 arrival and departure times at Basseterre / Port Zante. Plan Brimstone Hill, railway, and beach excursions around your port day.",
     intro:
       "This St. Kitts cruise ship schedule shows which vessels are expected at Basseterre and their published port times, helping you plan Brimstone Hill fortress visits, scenic railway tours, and beach excursions with safe return buffers.",
     description:
@@ -530,6 +679,12 @@ export const portSchedules: Record<string, ScheduleEntry[]> = {
   curacao: curacaoSchedule as ScheduleEntry[],
   falmouth: falmouthSchedule as ScheduleEntry[],
   "montego-bay": montegoBaySchedule as ScheduleEntry[],
+  grenada: grenadaSchedule as ScheduleEntry[],
+  martinique: martiniqueSchedule as ScheduleEntry[],
+  "san-juan": sanJuanSchedule as ScheduleEntry[],
+  "grand-turk": grandTurkSchedule as ScheduleEntry[],
+  "belize-city": belizeCitySchedule as ScheduleEntry[],
+  "key-west": keyWestSchedule as ScheduleEntry[],
 };
 
 export function getSchedulePortBySlug(slug: string): ShipSchedulePort | undefined {
