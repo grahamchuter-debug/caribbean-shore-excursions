@@ -1,0 +1,221 @@
+{
+  "nassau": {
+    "n": 299,
+    "lines": {
+      "Carnival Cruise Line": 95,
+      "Royal Caribbean": 172,
+      "Celebrity Cruises": 18,
+      "Holland America Line": 6,
+      "Oceania Cruises": 4,
+      "Regent Seven Seas": 4
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 297,
+      "cruise_line_confirmed": 2
+    },
+    "time": {
+      "arrival": 299,
+      "departure": 299,
+      "both": 299,
+      "neither": 0,
+      "arr_only": 0,
+      "dep_only": 0,
+      "pct_both": 100.0
+    },
+    "berth": {
+      "known": 0,
+      "unknown": 299,
+      "pct_known": 0.0,
+      "note": null
+    },
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "10",
+      "11",
+      "12"
+    ],
+    "month_count": 7,
+    "excluded": 404,
+    "excluded_by_reason": {
+      "restricted_line:MSC Cruises": 212,
+      "restricted_line:Disney Cruise Line": 58,
+      "restricted_line:Other/Verify": 21,
+      "restricted_line:Virgin Voyages": 9,
+      "restricted_line:Azamara": 1,
+      "restricted_line:Norwegian Cruise Line": 101,
+      "conflict_kept_stronger": 2
+    },
+    "candidates": 701,
+    "tier2_in": 2
+  },
+  "st-maarten": {
+    "n": 105,
+    "lines": {
+      "Celebrity Cruises": 24,
+      "Royal Caribbean": 49,
+      "Regent Seven Seas": 8,
+      "Holland America Line": 4,
+      "Carnival Cruise Line": 15,
+      "Oceania Cruises": 5
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 105
+    },
+    "time": {
+      "arrival": 105,
+      "departure": 105,
+      "both": 105,
+      "neither": 0,
+      "arr_only": 0,
+      "dep_only": 0,
+      "pct_both": 100.0
+    },
+    "berth": {
+      "known": 0,
+      "unknown": 105,
+      "pct_known": 0.0,
+      "note": null
+    },
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "11",
+      "12"
+    ],
+    "month_count": 6,
+    "excluded": 253,
+    "excluded_by_reason": {
+      "restricted_line:Costa Cruises": 3,
+      "restricted_line:Marella Cruises": 20,
+      "restricted_line:Cunard": 4,
+      "restricted_line:TUI Mein Schiff": 17,
+      "restricted_line:Norwegian Cruise Line": 59,
+      "restricted_line:Windstar Cruises": 13,
+      "restricted_line:Princess Cruises": 18,
+      "restricted_line:MSC Cruises": 37,
+      "restricted_line:Viking Ocean Cruises": 12,
+      "restricted_line:P&O Cruises": 13,
+      "restricted_line:Virgin Voyages": 23,
+      "restricted_line:AIDA": 9,
+      "restricted_line:Other/Verify": 10,
+      "restricted_line:Seabourn": 7,
+      "restricted_line:Disney Cruise Line": 7,
+      "restricted_line:Azamara": 1
+    },
+    "candidates": 358,
+    "tier2_in": 0
+  },
+  "grand-cayman": {
+    "n": 133,
+    "lines": {
+      "Royal Caribbean": 23,
+      "Regent Seven Seas": 13,
+      "Carnival Cruise Line": 37,
+      "Celebrity Cruises": 44,
+      "Holland America Line": 7,
+      "Oceania Cruises": 9
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 132,
+      "cruise_line_confirmed": 1
+    },
+    "time": {
+      "arrival": 133,
+      "departure": 133,
+      "both": 133,
+      "neither": 0,
+      "arr_only": 0,
+      "dep_only": 0,
+      "pct_both": 100.0
+    },
+    "berth": {
+      "known": 133,
+      "unknown": 0,
+      "pct_known": 100.0,
+      "note": "Grand Cayman tender/anchorage counted as known context"
+    },
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "11",
+      "12"
+    ],
+    "month_count": 6,
+    "excluded": 82,
+    "excluded_by_reason": {
+      "restricted_line:Virgin Voyages": 15,
+      "restricted_line:MSC Cruises": 4,
+      "restricted_line:Other/Verify": 20,
+      "restricted_line:Norwegian Cruise Line": 37,
+      "restricted_line:Disney Cruise Line": 1,
+      "restricted_line:Princess Cruises": 3,
+      "restricted_line:AIDA": 1,
+      "conflict_kept_stronger": 1
+    },
+    "candidates": 214,
+    "tier2_in": 1
+  },
+  "aruba": {
+    "n": 103,
+    "lines": {
+      "Royal Caribbean": 37,
+      "Celebrity Cruises": 22,
+      "Regent Seven Seas": 9,
+      "Holland America Line": 12,
+      "Carnival Cruise Line": 18,
+      "Oceania Cruises": 5
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 103
+    },
+    "time": {
+      "arrival": 102,
+      "departure": 102,
+      "both": 101,
+      "neither": 0,
+      "arr_only": 1,
+      "dep_only": 1,
+      "pct_both": 98.1
+    },
+    "berth": {
+      "known": 0,
+      "unknown": 103,
+      "pct_known": 0.0,
+      "note": null
+    },
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "11",
+      "12"
+    ],
+    "month_count": 6,
+    "excluded": 115,
+    "excluded_by_reason": {
+      "restricted_line:Other/Verify": 7,
+      "restricted_line:AIDA": 15,
+      "restricted_line:Norwegian Cruise Line": 33,
+      "restricted_line:Seabourn": 2,
+      "restricted_line:Marella Cruises": 11,
+      "restricted_line:MSC Cruises": 10,
+      "restricted_line:Azamara": 1,
+      "restricted_line:Princess Cruises": 17,
+      "restricted_line:Virgin Voyages": 7,
+      "restricted_line:P&O Cruises": 4,
+      "restricted_line:TUI Mein Schiff": 6,
+      "restricted_line:Cunard": 1,
+      "restricted_line:Disney Cruise Line": 1
+    },
+    "candidates": 218,
+    "tier2_in": 0
+  }
+}

@@ -155,6 +155,44 @@ export function formatMonthLabel(monthKey: string): string {
   return `${MONTH_LABELS[month - 1]} ${year}`;
 }
 
+/** Extra minutes to reserve on tender ports when converting itinerary time → usable hours ashore. */
+export const TENDER_ASHORE_BUFFER_MINUTES = {
+  outboundQueue: 30,
+  returnQueue: 60,
+} as const;
+
+function parseClockToMinutes(value: string | null | undefined): number | null {
+  if (!value) return null;
+  const m = String(value).trim().match(/^(\d{1,2}):(\d{2})$/);
+  if (!m) return null;
+  const hh = Number(m[1]);
+  const mm = Number(m[2]);
+  if (hh > 23 || mm > 59) return null;
+  if (hh === 0 && mm === 0) return null; // treat placeholder midnight as unknown
+  return hh * 60 + mm;
+}
+
+/**
+ * Usable hours ashore from published itinerary arrival/departure.
+ * Tender ports subtract outbound + return queue buffers so excursion windows stay realistic.
+ */
+export function usableHoursAshoreFromTimes(
+  arrival: string | null | undefined,
+  departure: string | null | undefined,
+  options?: { tenderRequired?: boolean },
+): number | null {
+  const start = parseClockToMinutes(arrival);
+  const end = parseClockToMinutes(departure);
+  if (start == null || end == null) return null;
+  let mins = end - start;
+  if (mins <= 0) mins += 24 * 60;
+  if (options?.tenderRequired) {
+    mins -= TENDER_ASHORE_BUFFER_MINUTES.outboundQueue + TENDER_ASHORE_BUFFER_MINUTES.returnQueue;
+  }
+  if (mins <= 0) return 0;
+  return Math.round((mins / 60) * 10) / 10;
+}
+
 export function getDisplayEntries(
   entries: ScheduleEntry[],
   monthKey: string,

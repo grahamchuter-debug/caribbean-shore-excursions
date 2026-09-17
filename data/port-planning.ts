@@ -14,6 +14,7 @@ import {
   hasVerifiedScheduleData,
 } from "./schedules";
 import { ESTIMATED_PASSENGERS_PER_CALL } from "./schedule-insights";
+import { usableHoursAshoreFromTimes } from "@/lib/schedule-utils";
 
 interface PortPlanningConfig {
   snapshot: Partial<PortPlanningSnapshot>;
@@ -466,14 +467,23 @@ export function getAverageTimeInPort(slug: string): string | null {
   const entries = getScheduleForPort(slug).filter((e) => e.timeInPort && e.timeInPort !== "-");
   if (entries.length < 5) return null;
 
+  const port = getPortBySlug(slug);
   const hours = entries
-    .map((e) => parseTimeInPortHours(e.timeInPort ?? ""))
+    .map((e) => {
+      // Prefer usable ashore hours when arrival/departure exist (tender buffers applied).
+      const usable = usableHoursAshoreFromTimes(e.arrival, e.departure, {
+        tenderRequired: port?.portInfo.tenderRequired === true,
+      });
+      if (usable != null) return usable;
+      return parseTimeInPortHours(e.timeInPort ?? "");
+    })
     .filter((v): v is number => v !== null);
   if (hours.length === 0) return null;
 
   const avg = hours.reduce((sum, h) => sum + h, 0) / hours.length;
   const rounded = Math.round(avg * 10) / 10;
-  return `~${rounded}h average (published calls)`;
+  const tenderNote = port?.portInfo.tenderRequired ? " after tender buffers" : "";
+  return `~${rounded}h average usable ashore${tenderNote} (published calls)`;
 }
 
 export function getPortPlanningSnapshot(slug: string): PortPlanningSnapshot | null {

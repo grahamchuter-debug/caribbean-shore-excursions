@@ -1112,18 +1112,18 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
 
   "nassau-2028": {
     intro:
-      "This 2028 Nassau cruise ship schedule page is ready for published itinerary rows at Prince George Wharf as coverage expands. This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details.",
+      "This 2028 Nassau cruise ship schedule lists currently published itinerary arrivals at Prince George Wharf — a downtown dock, not a tender port. This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details.",
     heroSubtitle:
-      "2028 Nassau schedule coverage expands as itineraries are confirmed.",
+      "Itinerary-based 2028 Nassau ship calls at Prince George Wharf — updated as cruise schedules change.",
     whyPassengersUse: [
-      "Check whether your 2028 Nassau sailing already has a published itinerary row.",
-      "Compare nearby Western and Eastern Caribbean hubs that already list 2028 calls.",
-      "Treat any published times as planning guides until your cruise line finalizes the daily program.",
-      "Use the Nassau port guide for Atlantis, downtown, and return-buffer logistics.",
+      "Match Atlantis, Blue Lagoon, and downtown plans to published 2028 arrival windows while treating times as planning guides.",
+      "See which ships share Nassau on your date as more 2028 itineraries are confirmed.",
+      "Prince George Wharf is a dock berth — no tenders — so return buffers are simpler than Grand Cayman.",
+      "Reconfirm final times on your ship's daily program before you leave the pier.",
     ],
     planningYourDay: {
       summary:
-        "When a 2028 Nassau row is listed, match one anchor experience to the published in-port window and keep return buffers generous.",
+        "A 2028 Nassau port day works best when you align one anchor experience to your published in-port window, then keep return buffers generous because itinerary times can still change.",
       typicalActivities: [
         "Downtown Nassau and Queen's Staircase on shorter calls",
         "Paradise Island and Atlantis on longer windows",
@@ -1136,7 +1136,7 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
         "Cable Beach",
       ],
       recommendedExcursions: [
-        "Flexible Atlantis or beach transfers until final ship times are confirmed",
+        "Atlantis or beach transfers sized to your published window",
         "Operators that reconfirm after the daily program is published",
       ],
       timingConsiderations: [
@@ -1153,9 +1153,14 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
           "This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details.",
       },
       {
+        question: "Does Nassau use tender boats in 2028?",
+        answer:
+          "No. Ships berth at Prince George Wharf with walk-off access under normal conditions.",
+      },
+      {
         question: "Will more 2028 Nassau calls be added?",
         answer:
-          "Yes. Coverage expands as more cruise itineraries are published and as official port calendars are released.",
+          "Yes. Coverage expands as more cruise itineraries are published and as official port calendars are released. Restricted lines without independent corroboration remain held.",
       },
     ],
     internalLinks: [
@@ -1651,9 +1656,9 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
 
   "st-maarten-2028": {
     intro:
-      "This 2028 St. Maarten cruise ship schedule page is ready for published itinerary rows at the Dr. A.C. Wathey Cruise Facility as coverage expands. This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details.",
+      "This 2028 St. Maarten cruise ship schedule lists currently published itinerary arrivals at the Dr. A.C. Wathey Cruise Facility in Philipsburg — ships dock in Great Bay with no tenders. This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details.",
     heroSubtitle:
-      "2028 St. Maarten / SXM schedule coverage expands as itineraries are confirmed.",
+      "Itinerary-based 2028 Philipsburg / SXM ship calls — updated as cruise schedules change.",
     whyPassengersUse: [
       "Check whether your 2028 St. Maarten sailing already has a published itinerary row.",
       "Compare Eastern Caribbean hubs that already list 2028 calls.",

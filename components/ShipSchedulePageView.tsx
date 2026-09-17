@@ -55,16 +55,25 @@ export function ShipSchedulePageView({
         {port.usesTender && (
           <p className="mt-4 rounded-lg border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900">
             <strong>Tender port:</strong> {port.name} uses ship-to-shore tender boats. Published
-            schedules may change with weather. Allow extra time when planning excursions.
+            arrival and departure times are ship itinerary times — actual hours ashore can be shorter
+            after tender queues. Allow extra return buffer when planning excursions
+            {year === 2028 ? " from these 2028 itinerary rows" : ""}.
           </p>
         )}
-        {!port.usesTender && (port.slug === "nassau" || port.slug === "cozumel" || port.slug === "st-maarten") && year && (
+        {!port.usesTender &&
+          (port.slug === "nassau" ||
+            port.slug === "cozumel" ||
+            port.slug === "st-maarten" ||
+            port.slug === "aruba") &&
+          year && (
           <p className="mt-4 rounded-lg border border-caribbean-200 bg-caribbean-50 px-4 py-3 text-sm text-caribbean-900">
             <strong>Docked port:</strong>{" "}
             {port.slug === "nassau"
               ? "Nassau ships berth at Prince George Wharf downtown — no tender boats required."
               : port.slug === "cozumel"
                 ? "Cozumel ships dock at Punta Langosta, International Pier, or Puerta Maya — no tender boats required."
+                : port.slug === "aruba"
+                  ? "Aruba ships berth at the Port of Oranjestad — no tender boats under normal conditions."
                 : "St. Maarten ships dock at the Dr. A.C. Wathey Cruise Facility in Philipsburg (SXM) — no tender boats required."}
           </p>
         )}

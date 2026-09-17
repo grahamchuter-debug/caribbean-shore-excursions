@@ -169,6 +169,11 @@ export const PORT_CONFIG = {
     itineraryPortRegex:
       /Samana,\s*Dominican Republic\s*\(\s*(\d{1,2}\s+\w{3})\s+(\d{4})-(\d{4})\s*\)/i,
   },
+  dominica: {
+    name: "Dominica",
+    itineraryPortRegex:
+      /Roseau,\s*Dominica\s*\(\s*(\d{1,2}\s+\w{3})\s+(\d{4})-(\d{4})\s*\)/i,
+  },
 };
 
 export const ALL_PORT_SLUGS = Object.keys(PORT_CONFIG);

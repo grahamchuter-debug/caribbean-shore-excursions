@@ -1,0 +1,478 @@
+{
+  "sample_size": 50,
+  "issues": [],
+  "issue_count": 0,
+  "pass": true,
+  "line_mix": {
+    "Celebrity Cruises": 7,
+    "Royal Caribbean": 23,
+    "Holland America Line": 4,
+    "Carnival Cruise Line": 13,
+    "Regent Seven Seas": 2,
+    "Oceania Cruises": 1
+  },
+  "port_mix": {
+    "grand-cayman": 12,
+    "nassau": 25,
+    "aruba": 6,
+    "st-maarten": 7
+  },
+  "dup_report_2028": {
+    "nassau": 0,
+    "st-maarten": 0,
+    "grand-cayman": 0,
+    "aruba": 0
+  },
+  "sample": [
+    {
+      "date": "2028-03-13",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "10:30",
+      "departure": "17:00",
+      "timeInPort": "6h 30m",
+      "port": "grand-cayman"
+    },
+    {
+      "date": "2028-01-02",
+      "ship": "Freedom Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-03-01",
+      "ship": "Oosterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "aruba"
+    },
+    {
+      "date": "2028-01-19",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "st-maarten"
+    },
+    {
+      "date": "2028-01-06",
+      "ship": "Oasis Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-04-18",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-03-13",
+      "ship": "Rhapsody Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "st-maarten"
+    },
+    {
+      "date": "2028-01-11",
+      "ship": "Seven Seas Voyager",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "port": "grand-cayman"
+    },
+    {
+      "date": "2028-03-20",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-03-28",
+      "ship": "Carnival Venezia",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "grand-cayman"
+    },
+    {
+      "date": "2028-03-24",
+      "ship": "Celebrity Constellation",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "port": "grand-cayman"
+    },
+    {
+      "date": "2028-04-19",
+      "ship": "Grandeur Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "23:00",
+      "timeInPort": "15h",
+      "port": "aruba"
+    },
+    {
+      "date": "2028-04-06",
+      "ship": "Celebrity Reflection",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-03-09",
+      "ship": "Odyssey Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-04-05",
+      "ship": "Carnival Pride",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-11-11",
+      "ship": "Oceania Vista",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "port": "grand-cayman"
+    },
+    {
+      "date": "2028-01-15",
+      "ship": "Seven Seas Voyager",
+      "cruiseLine": "Regent Seven Seas",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "port": "grand-cayman"
+    },
+    {
+      "date": "2028-03-29",
+      "ship": "Oasis Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-03-07",
+      "ship": "Carnival Glory",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-01-10",
+      "ship": "Zuiderdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "st-maarten"
+    },
+    {
+      "date": "2028-01-01",
+      "ship": "Vision Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "23:00",
+      "timeInPort": "15h",
+      "port": "aruba"
+    },
+    {
+      "date": "2028-04-11",
+      "ship": "Hero Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "st-maarten"
+    },
+    {
+      "date": "2028-03-11",
+      "ship": "Jewel Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-03-07",
+      "ship": "Rhapsody Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "16:30",
+      "timeInPort": "9h 30m",
+      "port": "st-maarten"
+    },
+    {
+      "date": "2028-03-26",
+      "ship": "Symphony Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-04-26",
+      "ship": "Carnival Glory",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-03-02",
+      "ship": "Celebrity Beyond",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "aruba"
+    },
+    {
+      "date": "2028-03-27",
+      "ship": "Rhapsody Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "st-maarten"
+    },
+    {
+      "date": "2028-04-05",
+      "ship": "Nieuw Amsterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "15:00",
+      "timeInPort": "7h",
+      "port": "grand-cayman"
+    },
+    {
+      "date": "2028-04-04",
+      "ship": "Carnival Glory",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-02-24",
+      "ship": "Odyssey Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-02-15",
+      "ship": "Grandeur Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "23:00",
+      "timeInPort": "15h",
+      "port": "aruba"
+    },
+    {
+      "date": "2028-02-10",
+      "ship": "Odyssey Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-02-23",
+      "ship": "Oasis Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-01-12",
+      "ship": "Oosterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "port": "grand-cayman"
+    },
+    {
+      "date": "2028-04-18",
+      "ship": "Celebrity Beyond",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "port": "grand-cayman"
+    },
+    {
+      "date": "2028-02-14",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-03-21",
+      "ship": "Carnival Festivale",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "13:00",
+      "departure": "23:00",
+      "timeInPort": "10h",
+      "port": "aruba"
+    },
+    {
+      "date": "2028-01-05",
+      "ship": "Celebrity Silhouette",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "st-maarten"
+    },
+    {
+      "date": "2028-02-22",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "grand-cayman"
+    },
+    {
+      "date": "2028-01-09",
+      "ship": "Oasis Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-03-22",
+      "ship": "Carnival Pride",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-04-19",
+      "ship": "Wonder Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-01-06",
+      "ship": "Carnival Venezia",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "grand-cayman"
+    },
+    {
+      "date": "2028-02-15",
+      "ship": "Celebrity Constellation",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:30",
+      "departure": "18:00",
+      "timeInPort": "8h 30m",
+      "port": "grand-cayman"
+    },
+    {
+      "date": "2028-02-02",
+      "ship": "Wonder Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-01-30",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-01-03",
+      "ship": "Independence Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:30",
+      "departure": "17:30",
+      "timeInPort": "10h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-02-22",
+      "ship": "Carnival Sunrise",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "nassau"
+    },
+    {
+      "date": "2028-01-11",
+      "ship": "Carnival Sunrise",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "port": "nassau"
+    }
+  ]
+}

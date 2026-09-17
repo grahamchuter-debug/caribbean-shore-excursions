@@ -1,0 +1,32 @@
+[
+  {
+    "port": "nassau",
+    "key": [
+      "2028-02-17",
+      "harmonyoftheseas"
+    ],
+    "action": "keep_tier2_drop_ct",
+    "ship": "Harmony Of The Seas",
+    "date": "2028-02-17"
+  },
+  {
+    "port": "nassau",
+    "key": [
+      "2028-02-20",
+      "independenceoftheseas"
+    ],
+    "action": "keep_tier2_drop_ct",
+    "ship": "Independence Of The Seas",
+    "date": "2028-02-20"
+  },
+  {
+    "port": "grand-cayman",
+    "key": [
+      "2028-02-23",
+      "independenceoftheseas"
+    ],
+    "action": "keep_tier2_drop_ct",
+    "ship": "Independence Of The Seas",
+    "date": "2028-02-23"
+  }
+]
