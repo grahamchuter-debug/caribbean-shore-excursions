@@ -1,0 +1,529 @@
+{
+  "sample_size": 50,
+  "issues": [],
+  "issue_count": 0,
+  "pass": true,
+  "line_mix": {
+    "Celebrity Cruises": 8,
+    "Royal Caribbean": 22,
+    "Carnival Cruise Line": 14,
+    "Holland America Line": 2,
+    "Oceania Cruises": 4
+  },
+  "port_mix": {
+    "costa-maya": 10,
+    "cozumel": 20,
+    "st-thomas": 10,
+    "puerto-plata": 8,
+    "roatan": 2
+  },
+  "dup_report_2028": {
+    "cozumel": 0,
+    "costa-maya": 0,
+    "puerto-plata": 0,
+    "st-thomas": 0,
+    "roatan": 0
+  },
+  "sample": [
+    {
+      "date": "2028-04-07",
+      "ship": "Celebrity Constellation",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "costa-maya"
+    },
+    {
+      "date": "2028-01-03",
+      "ship": "Serenade Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-02-08",
+      "ship": "Harmony Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "12:30",
+      "departure": "19:00",
+      "timeInPort": "6h 30m",
+      "passengers": "",
+      "port": "st-thomas"
+    },
+    {
+      "date": "2028-03-30",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "puerto-plata"
+    },
+    {
+      "date": "2028-05-05",
+      "ship": "Carnival Liberty",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-04-18",
+      "ship": "Celebrity Summit",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "st-thomas"
+    },
+    {
+      "date": "2028-01-09",
+      "ship": "Serenade Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-04-07",
+      "ship": "Icon Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-01-31",
+      "ship": "Harmony Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": "",
+      "port": "costa-maya"
+    },
+    {
+      "date": "2028-03-01",
+      "ship": "Star Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "costa-maya"
+    },
+    {
+      "date": "2028-01-22",
+      "ship": "Carnival Valor",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "st-thomas"
+    },
+    {
+      "date": "2028-03-15",
+      "ship": "Carnival Firenze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "10:00",
+      "departure": "18:00",
+      "timeInPort": "8h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-04-14",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "costa-maya"
+    },
+    {
+      "date": "2028-04-13",
+      "ship": "Liberty Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "15:00",
+      "timeInPort": "7h",
+      "passengers": "",
+      "port": "costa-maya"
+    },
+    {
+      "date": "2028-01-11",
+      "ship": "Celebrity Apex",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "12:30",
+      "departure": "20:00",
+      "timeInPort": "7h 30m",
+      "passengers": "",
+      "port": "st-thomas"
+    },
+    {
+      "date": "2028-03-28",
+      "ship": "Harmony of the Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-03-07",
+      "ship": "Carnival Vista",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-03-28",
+      "ship": "Carnival Jubilee",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-01-18",
+      "ship": "Rotterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "puerto-plata"
+    },
+    {
+      "date": "2028-03-06",
+      "ship": "Celebrity Summit",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "costa-maya"
+    },
+    {
+      "date": "2028-03-23",
+      "ship": "Carnival Breeze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-03-02",
+      "ship": "Radiance Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-04-18",
+      "ship": "Radiance Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-02-19",
+      "ship": "Vision Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "st-thomas"
+    },
+    {
+      "date": "2028-02-02",
+      "ship": "Rotterdam",
+      "cruiseLine": "Holland America Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "puerto-plata"
+    },
+    {
+      "date": "2028-03-08",
+      "ship": "Celebrity Eclipse",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "st-thomas"
+    },
+    {
+      "date": "2028-02-03",
+      "ship": "Celebrity Xcel",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "st-thomas"
+    },
+    {
+      "date": "2028-02-17",
+      "ship": "Icon Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "costa-maya"
+    },
+    {
+      "date": "2028-03-07",
+      "ship": "Radiance Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-01-27",
+      "ship": "Serenade Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "costa-maya"
+    },
+    {
+      "date": "2028-04-11",
+      "ship": "Serenade Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "15:00",
+      "timeInPort": "8h",
+      "passengers": "",
+      "port": "roatan"
+    },
+    {
+      "date": "2028-03-21",
+      "ship": "Carnival Sunshine",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-01-23",
+      "ship": "Carnival Sunshine",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "roatan"
+    },
+    {
+      "date": "2028-04-11",
+      "ship": "Celebrity Constellation",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-03-30",
+      "ship": "Celebrity Eclipse",
+      "cruiseLine": "Celebrity Cruises",
+      "arrival": "09:30",
+      "departure": "18:00",
+      "timeInPort": "8h 30m",
+      "passengers": "",
+      "port": "puerto-plata"
+    },
+    {
+      "date": "2028-02-08",
+      "ship": "Freedom Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "costa-maya"
+    },
+    {
+      "date": "2028-01-04",
+      "ship": "Oceania Marina",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "10:00",
+      "departure": "16:00",
+      "timeInPort": "6h",
+      "passengers": "",
+      "port": "puerto-plata"
+    },
+    {
+      "date": "2028-03-27",
+      "ship": "Carnival Horizon",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-02-24",
+      "ship": "Carnival Breeze",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "08:00",
+      "departure": "16:00",
+      "timeInPort": "8h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-03-16",
+      "ship": "Carnival Celebration",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "11:00",
+      "departure": "19:00",
+      "timeInPort": "8h",
+      "passengers": "",
+      "port": "puerto-plata"
+    },
+    {
+      "date": "2028-02-05",
+      "ship": "Vision Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "st-thomas"
+    },
+    {
+      "date": "2028-02-06",
+      "ship": "Oceania Sonata",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "st-thomas"
+    },
+    {
+      "date": "2028-02-11",
+      "ship": "Icon Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-03-05",
+      "ship": "Oceania Sonata",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "st-thomas"
+    },
+    {
+      "date": "2028-02-23",
+      "ship": "Carnival Horizon",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "09:00",
+      "departure": "17:00",
+      "timeInPort": "8h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-03-02",
+      "ship": "Icon Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "costa-maya"
+    },
+    {
+      "date": "2028-01-13",
+      "ship": "Carnival Freedom",
+      "cruiseLine": "Carnival Cruise Line",
+      "arrival": "07:00",
+      "departure": "16:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "puerto-plata"
+    },
+    {
+      "date": "2028-02-14",
+      "ship": "Oceania Sonata",
+      "cruiseLine": "Oceania Cruises",
+      "arrival": "07:00",
+      "departure": "17:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "cozumel"
+    },
+    {
+      "date": "2028-04-18",
+      "ship": "Explorer Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "17:00",
+      "timeInPort": "9h",
+      "passengers": "",
+      "port": "puerto-plata"
+    },
+    {
+      "date": "2028-04-17",
+      "ship": "Liberty Of The Seas",
+      "cruiseLine": "Royal Caribbean",
+      "arrival": "08:00",
+      "departure": "18:00",
+      "timeInPort": "10h",
+      "passengers": "",
+      "port": "cozumel"
+    }
+  ]
+}

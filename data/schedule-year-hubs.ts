@@ -35,6 +35,18 @@ export const scheduleYearHubContent: Record<ScheduleYear, ScheduleYearHubContent
     topPortsIntro:
       "Ranked by published 2027 ship calls. Nassau and Cozumel lead call volumes; use this hub to compare busy pier days before booking excursions. Each port page includes cruise passenger information, what to do ashore, and links to local specialist operators.",
   },
+  2028: {
+    year: 2028,
+    title: "2028 Caribbean Cruise Ship Schedules",
+    metaDescription:
+      "2028 Caribbean cruise ship schedule hub with currently published itinerary-based calls for Cozumel, Costa Maya, Puerto Plata, St. Thomas, Roatán and expanding ports. Updated as cruise itineraries change.",
+    heroSubtitle:
+      "Master 2028 cruise schedule hub: browse ports with currently published cruise itineraries and plan shore excursions around listed arrival and departure windows.",
+    intro:
+      "This is the master 2028 cruise ship schedule hub. 2028 rows are based on currently published cruise itineraries and are updated as schedules change. Always check your cruise line for your final sailing details. Select a port below for monthly tables where 2028 data is already published.",
+    topPortsIntro:
+      "Ranked by published 2028 ship calls where available. Early coverage focuses on high-confidence itinerary-based schedules; official port calendars will replace future-itinerary rows when released.",
+  },
 };
 
 export function getScheduleYearHubContent(year: ScheduleYear): ScheduleYearHubContent {

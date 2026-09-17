@@ -44,7 +44,10 @@ import { getSchedulePageContentForPortYear } from "@/data/schedule-page-content"
 
 export function generateStaticParams() {
   const yearParams = getAllSchedulePortSlugs().flatMap((slug) =>
-    SCHEDULE_YEARS.map((year) => ({ slug, year: String(year) })),
+    SCHEDULE_YEARS.filter((year) => getShipCallCountForPortYear(slug, year) > 0).map((year) => ({
+      slug,
+      year: String(year),
+    })),
   );
   const monthParams = getAllVerifiedMonthPageParams().map(({ slug, period }) => ({
     slug,
@@ -136,7 +139,7 @@ export default async function ShipSchedulePeriodPage({
     const breadcrumbs = [
       { name: "Home", path: "/" },
       { name: "Ship Schedules", path: "/ship-schedules" },
-      { name: `${year} Schedules`, path: yearHubPath(year as 2026 | 2027) },
+      { name: `${year} Schedules`, path: yearHubPath(year as 2026 | 2027 | 2028) },
       { name: port.name, path: portHubPath(slug) },
       { name: monthLabel, path: portMonthPath(slug, monthKey) },
     ];
@@ -172,7 +175,7 @@ export default async function ShipSchedulePeriodPage({
   const title = getScheduleYearHeroTitle(slug, port.name, year);
   const subtitle = pageContent?.intro ?? getScheduleIntro(slug) ?? port.description;
   const portYearFaqs = pageContent?.faqs ?? port.faqs ?? [];
-  const otherYear = year === 2026 ? 2027 : 2026;
+  const otherYear = year === 2028 ? 2027 : year === 2027 ? 2026 : 2027;
   const breadcrumbs = [
     { name: "Home", path: "/" },
     { name: "Ship Schedules", path: "/ship-schedules" },
@@ -218,9 +221,9 @@ export default async function ShipSchedulePeriodPage({
           <ShipSchedulePageView port={port} year={year} />
 
           <p className="mt-8 text-sm text-gray-500">
-            Arrival and departure times are published for planning purposes and may change due to
-            weather, tender conditions, or cruise line schedule adjustments. Always confirm final
-            times with your ship before disembarking.
+            {year === 2028
+              ? "This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details."
+              : "Arrival and departure times are published for planning purposes and may change due to weather, tender conditions, or cruise line schedule adjustments. Always confirm final times with your ship before disembarking."}
           </p>
         </div>
       </section>

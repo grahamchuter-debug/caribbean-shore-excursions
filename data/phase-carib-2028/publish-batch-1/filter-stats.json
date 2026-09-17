@@ -1,0 +1,190 @@
+{
+  "cozumel": {
+    "n": 326,
+    "lines": {
+      "Royal Caribbean": 154,
+      "Carnival Cruise Line": 127,
+      "Celebrity Cruises": 31,
+      "Oceania Cruises": 7,
+      "Regent Seven Seas": 5,
+      "Holland America Line": 2
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 321,
+      "cruise_line_confirmed": 5
+    },
+    "pct_both_times": 100.0,
+    "pct_berth": 0.0,
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "11",
+      "12"
+    ],
+    "month_count": 7,
+    "excluded": 307,
+    "excluded_by_reason": {
+      "restricted_line:Princess Cruises": 8,
+      "restricted_line:Norwegian Cruise Line": 111,
+      "restricted_line:Viking Ocean Cruises": 12,
+      "restricted_line:MSC Cruises": 90,
+      "restricted_line:TUI Mein Schiff": 7,
+      "restricted_line:Other/Verify": 63,
+      "restricted_line:Azamara": 2,
+      "restricted_line:Disney Cruise Line": 10,
+      "restricted_line:AIDA": 2,
+      "restricted_line:Silversea": 1,
+      "restricted_line:Virgin Voyages": 1
+    }
+  },
+  "costa-maya": {
+    "n": 186,
+    "lines": {
+      "Royal Caribbean": 160,
+      "Celebrity Cruises": 21,
+      "Oceania Cruises": 5
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 182,
+      "cruise_line_confirmed": 4
+    },
+    "pct_both_times": 100.0,
+    "pct_berth": 0.0,
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04"
+    ],
+    "month_count": 4,
+    "excluded": 165,
+    "excluded_by_reason": {
+      "restricted_line:MSC Cruises": 89,
+      "restricted_line:Norwegian Cruise Line": 69,
+      "restricted_line:Other/Verify": 3,
+      "restricted_line:AIDA": 2,
+      "restricted_line:TUI Mein Schiff": 2
+    }
+  },
+  "puerto-plata": {
+    "n": 103,
+    "lines": {
+      "Carnival Cruise Line": 49,
+      "Royal Caribbean": 21,
+      "Celebrity Cruises": 18,
+      "Oceania Cruises": 6,
+      "Holland America Line": 6,
+      "Regent Seven Seas": 3
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 103
+    },
+    "pct_both_times": 100.0,
+    "pct_berth": 0.0,
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "11",
+      "12"
+    ],
+    "month_count": 7,
+    "excluded": 228,
+    "excluded_by_reason": {
+      "restricted_line:Norwegian Cruise Line": 112,
+      "restricted_line:Azamara": 1,
+      "restricted_line:Princess Cruises": 10,
+      "restricted_line:Silversea": 1,
+      "restricted_line:Other/Verify": 7,
+      "restricted_line:MSC Cruises": 52,
+      "restricted_line:Virgin Voyages": 29,
+      "restricted_line:Costa Cruises": 2,
+      "restricted_line:TUI Mein Schiff": 6,
+      "restricted_line:AIDA": 4,
+      "restricted_line:Disney Cruise Line": 4
+    }
+  },
+  "st-thomas": {
+    "n": 133,
+    "lines": {
+      "Royal Caribbean": 59,
+      "Carnival Cruise Line": 30,
+      "Celebrity Cruises": 22,
+      "Holland America Line": 9,
+      "Oceania Cruises": 8,
+      "Regent Seven Seas": 5
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 133
+    },
+    "pct_both_times": 100.0,
+    "pct_berth": 0.0,
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "10",
+      "11",
+      "12"
+    ],
+    "month_count": 8,
+    "excluded": 178,
+    "excluded_by_reason": {
+      "restricted_line:TUI Mein Schiff": 1,
+      "restricted_line:Virgin Voyages": 11,
+      "restricted_line:Norwegian Cruise Line": 107,
+      "restricted_line:Silversea": 1,
+      "restricted_line:Princess Cruises": 17,
+      "restricted_line:Other/Verify": 20,
+      "restricted_line:MSC Cruises": 5,
+      "restricted_line:Marella Cruises": 3,
+      "restricted_line:Viking Ocean Cruises": 8,
+      "restricted_line:Disney Cruise Line": 4,
+      "restricted_line:Cunard": 1
+    }
+  },
+  "roatan": {
+    "n": 109,
+    "lines": {
+      "Royal Caribbean": 55,
+      "Carnival Cruise Line": 38,
+      "Regent Seven Seas": 7,
+      "Oceania Cruises": 6,
+      "Holland America Line": 2,
+      "Celebrity Cruises": 1
+    },
+    "sources": {
+      "ct_validated_future_itinerary": 109
+    },
+    "pct_both_times": 100.0,
+    "pct_berth": 0.0,
+    "months": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "11",
+      "12"
+    ],
+    "month_count": 7,
+    "excluded": 174,
+    "excluded_by_reason": {
+      "restricted_line:Viking Ocean Cruises": 4,
+      "restricted_line:MSC Cruises": 71,
+      "restricted_line:Norwegian Cruise Line": 73,
+      "restricted_line:Princess Cruises": 4,
+      "restricted_line:TUI Mein Schiff": 7,
+      "restricted_line:Azamara": 1,
+      "restricted_line:AIDA": 2,
+      "restricted_line:Other/Verify": 12
+    }
+  }
+}

@@ -1,0 +1,6324 @@
+{
+  "cozumel": [
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Caribbean Princess",
+      "date": "2028-01-02",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-01-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-01-03",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Grandiosa",
+      "date": "2028-01-04",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-01-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-01-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-01-05",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-01-05",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Crystal Serenity",
+      "date": "2028-01-06",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-01-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-01-06",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Azamara",
+      "ship": "Azamara Quest",
+      "date": "2028-01-07",
+      "cruise_line": "Azamara"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-01-07",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-01-07",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora IV",
+      "date": "2028-01-08",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Magic",
+      "date": "2028-01-09",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-01-09",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Destiny",
+      "date": "2028-01-10",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-01-10",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-01-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-01-12",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Crystal Symphony",
+      "date": "2028-01-13",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-01-13",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:AIDA",
+      "ship": "AIDAbella",
+      "date": "2028-01-14",
+      "cruise_line": "AIDA"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-01-14",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-01-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sky Princess",
+      "date": "2028-01-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Crystal Serenity",
+      "date": "2028-01-16",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-01-16",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-01-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Silversea",
+      "ship": "Silver Ray",
+      "date": "2028-01-17",
+      "cruise_line": "Silversea"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-01-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-01-19",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-01-19",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sun Princess",
+      "date": "2028-01-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-01-20",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-01-20",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-01-21",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-01-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-01-22",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Caribbean Princess",
+      "date": "2028-01-23",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-01-23",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Ambience",
+      "date": "2028-01-25",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-01-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Ambience",
+      "date": "2028-01-26",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-01-26",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-01-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-01-27",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-01-28",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-01-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Magic",
+      "date": "2028-01-30",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-01-30",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-01-30",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-01-31",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-31",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-02-02",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-02-02",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-02-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-02-04",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-02-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sky Princess",
+      "date": "2028-02-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-02-06",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-02-07",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Magic",
+      "date": "2028-02-09",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-02-09",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-02-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sun Princess",
+      "date": "2028-02-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-02-10",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-02-11",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-02-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Magic",
+      "date": "2028-02-13",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Europa 2",
+      "date": "2028-02-13",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-02-13",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-02-15",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-02-16",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-02-16",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-02-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-02-17",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Magic",
+      "date": "2028-02-18",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-02-18",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-02-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-02-20",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-02-20",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Caribbean Princess",
+      "date": "2028-02-22",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-02-23",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-02-23",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-02-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:AIDA",
+      "ship": "AIDAbella",
+      "date": "2028-02-25",
+      "cruise_line": "AIDA"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-02-25",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-02-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sky Princess",
+      "date": "2028-02-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Magic",
+      "date": "2028-02-27",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-02-27",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-03-01",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-03-01",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-03-03",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-03-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Magic",
+      "date": "2028-03-04",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-03-05",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Crystal Serenity",
+      "date": "2028-03-08",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-03-08",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-03-09",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-10",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-03-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-03-10",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Magic",
+      "date": "2028-03-12",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-03-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-03-13",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-13",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-03-15",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-03-15",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-17",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-03-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-03-19",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-03-19",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-20",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-03-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Crystal Serenity",
+      "date": "2028-03-22",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-03-22",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-24",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-03-26",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-03-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-27",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-03-29",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-03-29",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-30",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-03-30",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Azamara",
+      "ship": "Azamara Quest",
+      "date": "2028-03-31",
+      "cruise_line": "Azamara"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-31",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-03-31",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-04-02",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-04-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Valiant Lady",
+      "date": "2028-04-03",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-04-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-04-05",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-04-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-04-07",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-04-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-04-08",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-04-09",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-04-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-04-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-04-12",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-04-13",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-04-14",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-04-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-04-16",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-04-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-04-18",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-04-19",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-04-21",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aqua",
+      "date": "2028-04-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-04-22",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-04-23",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Dream",
+      "date": "2028-04-24",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Islander",
+      "date": "2028-04-26",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-04-26",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-04-27",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-04-28",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-05-03",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-05-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-05",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-05-07",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-05-10",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-12",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-05-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-05-17",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-05-17",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-19",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-05-21",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-05-24",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-26",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-05-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-05-31",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-05-31",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-02",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-06-04",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-06-07",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-09",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-06-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-06-11",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-06-14",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-16",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-06-18",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-06-21",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-23",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-06-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-06-27",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-06-28",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-30",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-07-02",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-07-05",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-07-07",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-07-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-07-11",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-07-12",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-07-14",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-07-16",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-07-19",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-07-21",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-07-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-07-23",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-07-26",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-07-28",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-07-30",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-31",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-08-02",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-04",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-08-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-08-06",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-08-09",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-11",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-08-13",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-08-16",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-18",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-08-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-08-20",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-08-23",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-25",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-08-30",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-01",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-09-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-09-03",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-09-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-09-06",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-08",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-09-10",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-09-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-09-13",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-15",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-09-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-09-17",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-09-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-09-20",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-22",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-09-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-09-27",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-09-27",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-29",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-09-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-10-01",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-10-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-10-04",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-10-06",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-10-08",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-10-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-10-11",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-10-13",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-10-15",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-10-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-10-18",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-10-20",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-10-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-10-25",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-10-25",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-10-27",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-10-29",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-11-01",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-11-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-11-10",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-11-10",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Europa",
+      "date": "2028-11-23",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-11-25",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-12-02",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-12-14",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-12-22",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Vesta",
+      "date": "2028-12-23",
+      "cruise_line": "Viking Ocean Cruises"
+    }
+  ],
+  "costa-maya": [
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-01-04",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-01-05",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-01-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-01-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora IV",
+      "date": "2028-01-09",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-01-11",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-01-12",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-01-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:AIDA",
+      "ship": "AIDAbella",
+      "date": "2028-01-13",
+      "cruise_line": "AIDA"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-13",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-01-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-01-18",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-01-19",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-01-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-20",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-01-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-01-25",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-01-26",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-27",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-01-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-02-01",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-02-02",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-02-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-02-03",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-02-08",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-02-09",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Europa 2",
+      "date": "2028-02-12",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-02-15",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-02-16",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-02-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-02-22",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-02-23",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-02-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:AIDA",
+      "ship": "AIDAbella",
+      "date": "2028-02-24",
+      "cruise_line": "AIDA"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-02-29",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-01",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-03-02",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-03-07",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-08",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-03-14",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-15",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-03-21",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-22",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-03-28",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-29",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-30",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-31",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-04-04",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-04-05",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-04-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-04-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-04-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-04-11",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-04-12",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-04-13",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-04-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-04-18",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-04-19",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-04-20",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-04-25",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-04-26",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-05-02",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-05-09",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-10",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-05-16",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-17",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-05-23",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-24",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-05-30",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-31",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-06-06",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-07",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-06-13",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-14",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-06-20",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-21",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-06-27",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-28",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-07-04",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-07-05",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-07-11",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-07-12",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-13",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-07-18",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-07-19",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-20",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-07-25",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-07-26",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-27",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-08-01",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-02",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-08-08",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-09",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-08-15",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-16",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-08-22",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-23",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-08-29",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-30",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-31",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-09-05",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-06",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-09-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-09-12",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-13",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-09-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-09-19",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-20",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-09-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-09-26",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-27",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-09-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-10-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-10-04",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-10-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-10-10",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-10-11",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-10-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-10-17",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-10-18",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-10-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-10-24",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-10-25",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-10-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-10-31",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-11-01",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-11-08",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Europa",
+      "date": "2028-11-22",
+      "cruise_line": "Other/Verify"
+    }
+  ],
+  "puerto-plata": [
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Joy",
+      "date": "2028-01-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Azamara",
+      "ship": "Azamara Quest",
+      "date": "2028-01-02",
+      "cruise_line": "Azamara"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Enchanted Princess",
+      "date": "2028-01-02",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-01-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Silversea",
+      "ship": "Silver Shadow",
+      "date": "2028-01-02",
+      "cruise_line": "Silversea"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora IV",
+      "date": "2028-01-03",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-01-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-01-05",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Bliss",
+      "date": "2028-01-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Dawn",
+      "date": "2028-01-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-01-06",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sky Princess",
+      "date": "2028-01-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seashore",
+      "date": "2028-01-07",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-01-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-01-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-01-10",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora II",
+      "date": "2028-01-11",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-01-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sun Princess",
+      "date": "2028-01-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Costa Cruises",
+      "ship": "Costa Fascinosa",
+      "date": "2028-01-12",
+      "cruise_line": "Costa Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Pearl",
+      "date": "2028-01-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-01-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-01-14",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-01-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Brilliant Lady",
+      "date": "2028-01-17",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Enchanted Princess",
+      "date": "2028-01-17",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 1",
+      "date": "2028-01-17",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Bliss",
+      "date": "2028-01-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-01-19",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-01-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:AIDA",
+      "ship": "AIDAbella",
+      "date": "2028-01-20",
+      "cruise_line": "AIDA"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Fantasy",
+      "date": "2028-01-20",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-01-20",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seashore",
+      "date": "2028-01-21",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Dawn",
+      "date": "2028-01-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-01-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sky Princess",
+      "date": "2028-01-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-01-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-01-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-01-24",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Pearl",
+      "date": "2028-01-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Valiant Lady",
+      "date": "2028-01-24",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seashore",
+      "date": "2028-01-25",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-01-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Brilliant Lady",
+      "date": "2028-01-26",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora IV",
+      "date": "2028-01-26",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-01-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:AIDA",
+      "ship": "AIDAluna",
+      "date": "2028-01-27",
+      "cruise_line": "AIDA"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sky Princess",
+      "date": "2028-01-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Bliss",
+      "date": "2028-01-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-01-30",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 1",
+      "date": "2028-01-31",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora II",
+      "date": "2028-02-01",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-02-01",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-02-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sun Princess",
+      "date": "2028-02-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Dawn",
+      "date": "2028-02-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-02-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Valiant Lady",
+      "date": "2028-02-02",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Europa 2",
+      "date": "2028-02-03",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-02-03",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seashore",
+      "date": "2028-02-04",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Pearl",
+      "date": "2028-02-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-02-04",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-02-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-02-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Enchanted Princess",
+      "date": "2028-02-07",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-02-07",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-02-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sky Princess",
+      "date": "2028-02-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Brilliant Lady",
+      "date": "2028-02-09",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Costa Cruises",
+      "ship": "Costa Fascinosa",
+      "date": "2028-02-09",
+      "cruise_line": "Costa Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-02-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Caribbean Princess",
+      "date": "2028-02-10",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Bliss",
+      "date": "2028-02-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Dawn",
+      "date": "2028-02-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-02-13",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 1",
+      "date": "2028-02-14",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Pearl",
+      "date": "2028-02-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-02-15",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-02-16",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-02-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Valiant Lady",
+      "date": "2028-02-16",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Fantasy",
+      "date": "2028-02-17",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-02-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-02-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-02-20",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-02-21",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seashore",
+      "date": "2028-02-22",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-02-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-02-22",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-02-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-02-27",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 1",
+      "date": "2028-02-28",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-02-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sky Princess",
+      "date": "2028-02-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-03-01",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-03-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:AIDA",
+      "ship": "AIDAbella",
+      "date": "2028-03-02",
+      "cruise_line": "AIDA"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-03-02",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seashore",
+      "date": "2028-03-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-03-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Pearl",
+      "date": "2028-03-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-03-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-03-06",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora IV",
+      "date": "2028-03-07",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-03-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-03-08",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-03-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:AIDA",
+      "ship": "AIDAluna",
+      "date": "2028-03-09",
+      "cruise_line": "AIDA"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Bliss",
+      "date": "2028-03-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sky Princess",
+      "date": "2028-03-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Pearl",
+      "date": "2028-03-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-03-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 1",
+      "date": "2028-03-13",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-03-14",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-03-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-03-15",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-03-15",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Fantasy",
+      "date": "2028-03-16",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seashore",
+      "date": "2028-03-17",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-03-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-03-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-03-20",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Valiant Lady",
+      "date": "2028-03-20",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-03-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-03-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 1",
+      "date": "2028-03-27",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-03-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-03-29",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Valiant Lady",
+      "date": "2028-03-29",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-03-30",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-04-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-04-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-04-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Emerald Princess",
+      "date": "2028-04-04",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora IV",
+      "date": "2028-04-04",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-04-05",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Gem",
+      "date": "2028-04-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-04-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Breakaway",
+      "date": "2028-04-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-04-12",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-04-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-04-12",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Fantasy",
+      "date": "2028-04-13",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Valiant Lady",
+      "date": "2028-04-13",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-04-17",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-04-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Bliss",
+      "date": "2028-04-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-04-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-04-26",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-04-26",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-05-01",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-05-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-05-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-05-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-05-10",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-05-10",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-05-15",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-05-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-05-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-05-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-05-24",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-05-24",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-05-29",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-05-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-05-30",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-06-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-06-07",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-06-12",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-06-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-06-13",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-06-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-06-21",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-06-26",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-06-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-06-26",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-06-27",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-07-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-07-05",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-07-10",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-07-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-07-10",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-07-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-07-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-07-19",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-07-24",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-07-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-07-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-07-31",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-08-02",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-08-07",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-08-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-08-07",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-08-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-08-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-08-16",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-08-21",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-08-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-08-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-08-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-08-30",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-09-04",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-09-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-09-04",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-09-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-09-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-09-13",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-09-13",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-09-18",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-09-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-09-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-09-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-09-27",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-09-27",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-10-02",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-10-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-10-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-10-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-10-11",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-10-11",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-10-16",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-10-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-10-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-10-25",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Resilient Lady",
+      "date": "2028-10-25",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-10-30",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World Atlantic",
+      "date": "2028-11-08",
+      "cruise_line": "MSC Cruises"
+    }
+  ],
+  "st-thomas": [
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 1",
+      "date": "2028-01-01",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Scarlet Lady",
+      "date": "2028-01-01",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-01-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Silversea",
+      "ship": "Silver Nova",
+      "date": "2028-01-02",
+      "cruise_line": "Silversea"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Emerald Princess",
+      "date": "2028-01-03",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-01-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream I",
+      "date": "2028-01-03",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-01-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seashore",
+      "date": "2028-01-06",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Enchanted Princess",
+      "date": "2028-01-07",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-01-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream I",
+      "date": "2028-01-09",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-01-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Viking Sky",
+      "date": "2028-01-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Bliss",
+      "date": "2028-01-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-01-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora II",
+      "date": "2028-01-13",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-01-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Brilliant Lady",
+      "date": "2028-01-15",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Scarlet Lady",
+      "date": "2028-01-16",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream I",
+      "date": "2028-01-16",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Emerald Princess",
+      "date": "2028-01-17",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-01-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-01-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-01-19",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seashore",
+      "date": "2028-01-20",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Viking Sky",
+      "date": "2028-01-20",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-01-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Marella Cruises",
+      "ship": "Marella Discovery",
+      "date": "2028-01-22",
+      "cruise_line": "Marella Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Bliss",
+      "date": "2028-01-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Dawn",
+      "date": "2028-01-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-01-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Emerald Princess",
+      "date": "2028-01-24",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora IV",
+      "date": "2028-01-24",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-01-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sun Princess",
+      "date": "2028-01-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-01-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Sea",
+      "date": "2028-01-26",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Enchanted Princess",
+      "date": "2028-01-28",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Brilliant Lady",
+      "date": "2028-01-29",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Sea",
+      "date": "2028-01-29",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Viking Sky",
+      "date": "2028-01-30",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Emerald Princess",
+      "date": "2028-01-31",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-01-31",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Bliss",
+      "date": "2028-02-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Fantasy",
+      "date": "2028-02-03",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora II",
+      "date": "2028-02-03",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seashore",
+      "date": "2028-02-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-02-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-02-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Scarlet Lady",
+      "date": "2028-02-04",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora IV",
+      "date": "2028-02-07",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-02-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Sea",
+      "date": "2028-02-08",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Fantasy",
+      "date": "2028-02-09",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-02-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-02-09",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Viking Sky",
+      "date": "2028-02-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Marella Cruises",
+      "ship": "Marella Discovery",
+      "date": "2028-02-11",
+      "cruise_line": "Marella Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-02-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Brilliant Lady",
+      "date": "2028-02-12",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Scarlet Lady",
+      "date": "2028-02-13",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream I",
+      "date": "2028-02-13",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Emerald Princess",
+      "date": "2028-02-14",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-02-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Bliss",
+      "date": "2028-02-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sun Princess",
+      "date": "2028-02-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-02-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Enchanted Princess",
+      "date": "2028-02-18",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-02-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Sea",
+      "date": "2028-02-18",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Viking Sky",
+      "date": "2028-02-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream I",
+      "date": "2028-02-20",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-02-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-02-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-02-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream I",
+      "date": "2028-02-27",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Emerald Princess",
+      "date": "2028-02-28",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-02-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-03-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-03-01",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seashore",
+      "date": "2028-03-02",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Pearl",
+      "date": "2028-03-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-03-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Scarlet Lady",
+      "date": "2028-03-03",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Marella Cruises",
+      "ship": "Marella Discovery",
+      "date": "2028-03-04",
+      "cruise_line": "Marella Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora IV",
+      "date": "2028-03-05",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-03-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora II",
+      "date": "2028-03-09",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-03-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-03-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-03-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Pearl",
+      "date": "2028-03-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Scarlet Lady",
+      "date": "2028-03-12",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Emerald Princess",
+      "date": "2028-03-13",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Bliss",
+      "date": "2028-03-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-03-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seashore",
+      "date": "2028-03-16",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-03-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream I",
+      "date": "2028-03-19",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-03-20",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Island Princess",
+      "date": "2028-03-21",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-03-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-03-22",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-03-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream I",
+      "date": "2028-03-26",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-03-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Epic",
+      "date": "2028-03-27",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Luna",
+      "date": "2028-03-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-03-31",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Scarlet Lady",
+      "date": "2028-03-31",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Explora IV",
+      "date": "2028-04-02",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Star Princess",
+      "date": "2028-04-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Island Princess",
+      "date": "2028-04-06",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Gem",
+      "date": "2028-04-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-04-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-04-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-04-12",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-04-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Virgin Voyages",
+      "ship": "Scarlet Lady",
+      "date": "2028-04-16",
+      "cruise_line": "Virgin Voyages"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-04-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-04-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-04-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Fantasy",
+      "date": "2028-04-27",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-05-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-05-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-05-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Disney Cruise Line",
+      "ship": "Disney Fantasy",
+      "date": "2028-05-15",
+      "cruise_line": "Disney Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-05-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-05-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-05-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-05-30",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-05-31",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-06-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-06-13",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-06-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-06-20",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-06-27",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-06-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-07-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-07-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-07-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-07-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-07-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-07-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-08-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-08-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-08-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-08-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-08-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-08-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-08-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-09-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-09-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-09-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-09-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-09-20",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-09-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-10-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-10-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-10-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-10-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-10-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Viking Sky",
+      "date": "2028-11-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Sea",
+      "date": "2028-11-22",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Viking Sky",
+      "date": "2028-11-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Cunard",
+      "ship": "Queen Mary 2",
+      "date": "2028-11-28",
+      "cruise_line": "Cunard"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream II",
+      "date": "2028-12-02",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Sea",
+      "date": "2028-12-02",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Viking Sky",
+      "date": "2028-12-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream II",
+      "date": "2028-12-09",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Sea",
+      "date": "2028-12-12",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream II",
+      "date": "2028-12-16",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Viking Sky",
+      "date": "2028-12-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Sea",
+      "date": "2028-12-22",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream II",
+      "date": "2028-12-23",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Viking Sky",
+      "date": "2028-12-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "SeaDream II",
+      "date": "2028-12-29",
+      "cruise_line": "Other/Verify"
+    }
+  ],
+  "roatan": [
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-01-01",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-01-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-01-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-01-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-01-05",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-01-06",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-01-08",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Azamara",
+      "ship": "Azamara Quest",
+      "date": "2028-01-09",
+      "cruise_line": "Azamara"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-01-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:AIDA",
+      "ship": "AIDAbella",
+      "date": "2028-01-11",
+      "cruise_line": "AIDA"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-01-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-01-13",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Crystal Serenity",
+      "date": "2028-01-15",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Crystal Symphony",
+      "date": "2028-01-16",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-01-17",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-01-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sun Princess",
+      "date": "2028-01-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-01-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-01-20",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-01-22",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-01-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-01-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-01-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-01-26",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-01-27",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Poesia",
+      "date": "2028-01-31",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-01-31",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-01-31",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-02-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-02-04",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-02-05",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-02-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Sun Princess",
+      "date": "2028-02-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-02-10",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-02-14",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-02-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-02-16",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-02-17",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-02-18",
+      "cruise_line": "Viking Ocean Cruises"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-02-19",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Poesia",
+      "date": "2028-02-21",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-02-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:AIDA",
+      "ship": "AIDAbella",
+      "date": "2028-02-22",
+      "cruise_line": "AIDA"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-02-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-02-24",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-02-28",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-02-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-02-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-02",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-03-04",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Crystal Serenity",
+      "date": "2028-03-05",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-07",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-09",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Poesia",
+      "date": "2028-03-13",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-03-13",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-13",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-14",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-16",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-03-18",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-20",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-21",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-23",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Crystal Serenity",
+      "date": "2028-03-25",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-03-27",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-03-27",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-03-28",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-03-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Princess Cruises",
+      "ship": "Regal Princess",
+      "date": "2028-03-29",
+      "cruise_line": "Princess Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-03-30",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:TUI Mein Schiff",
+      "ship": "Mein Schiff 3",
+      "date": "2028-04-01",
+      "cruise_line": "TUI Mein Schiff"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Poesia",
+      "date": "2028-04-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Aura",
+      "date": "2028-04-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-04-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-04-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-04-06",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-04-10",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-04-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Getaway",
+      "date": "2028-04-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-04-13",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Escape",
+      "date": "2028-04-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-04-20",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-04-24",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-04-25",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-04-27",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-02",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-04",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-05-08",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-09",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-11",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-16",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-18",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-05-22",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-05-23",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-23",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-05-25",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-05-30",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-01",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-06-05",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-06",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-08",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-06-13",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-13",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-15",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-06-19",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-06-20",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-20",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-22",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-06-27",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-06-29",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-07-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-04",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-07-06",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-11",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-07-13",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-07-17",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-07-18",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-18",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-07-20",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-07-25",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-07-27",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-07-31",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-01",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-03",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-08-08",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-08",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-10",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-08-14",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-15",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-17",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-22",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-24",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-08-28",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-08-29",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-08-31",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-09-05",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-09-05",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-07",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-09-11",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-09-12",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-14",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-09-19",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-21",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-09-25",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-09-26",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-09-28",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Other/Verify",
+      "ship": "Margaritaville At Sea Beachcomber",
+      "date": "2028-10-03",
+      "cruise_line": "Other/Verify"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-10-03",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-10-05",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-10-09",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-10-10",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-10-12",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-10-17",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-10-19",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC World America",
+      "date": "2028-10-23",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Norwegian Cruise Line",
+      "ship": "Norwegian Prima",
+      "date": "2028-10-24",
+      "cruise_line": "Norwegian Cruise Line"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-10-26",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-11-02",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:MSC Cruises",
+      "ship": "MSC Seascape",
+      "date": "2028-11-09",
+      "cruise_line": "MSC Cruises"
+    },
+    {
+      "reason": "restricted_line:Viking Ocean Cruises",
+      "ship": "Viking Mars",
+      "date": "2028-11-23",
+      "cruise_line": "Viking Ocean Cruises"
+    }
+  ]
+}

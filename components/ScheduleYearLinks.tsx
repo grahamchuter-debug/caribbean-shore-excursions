@@ -20,6 +20,7 @@ export function ScheduleYearLinks({
       <div className={`grid gap-4 sm:grid-cols-2 ${prominent ? "lg:gap-6" : ""}`}>
         {SCHEDULE_YEARS.map((year) => {
           const shipCalls = getShipCallCountForPortYear(portSlug, year);
+          if (shipCalls === 0) return null;
           const isCurrent = currentYear === year;
 
           return (
@@ -72,6 +73,11 @@ export function ScheduleYearLinks({
           and{" "}
           <Link href={yearHubPath(2027)} className="font-medium text-caribbean-700 hover:text-caribbean-800">
             2027 master hub
+          </Link>
+          {" "}
+          and{" "}
+          <Link href={yearHubPath(2028)} className="font-medium text-caribbean-700 hover:text-caribbean-800">
+            2028 master hub
           </Link>
           .
         </p>

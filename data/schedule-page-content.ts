@@ -25,8 +25,10 @@ export type SchedulePageContentKey =
   | "home"
   | "year-2026"
   | "year-2027"
+  | "year-2028"
   | `${ScheduleHubPortSlug}-2026`
   | `${ScheduleHubPortSlug}-2027`
+  | `${ScheduleHubPortSlug}-2028`
   | `${ScheduleHubPortSlug}-hub`;
 
 export interface PlanningYourDayContent {
@@ -82,24 +84,34 @@ export interface SchedulePageContent {
 type GeneratedPortYearKey =
   | "st-thomas-2026"
   | "st-thomas-2027"
+  | "st-thomas-2028"
   | "aruba-2026"
   | "aruba-2027"
+  | "aruba-2028"
   | "grand-cayman-2026"
   | "grand-cayman-2027"
+  | "grand-cayman-2028"
   | "roatan-2026"
   | "roatan-2027"
+  | "roatan-2028"
   | "puerto-plata-2026"
   | "puerto-plata-2027"
+  | "puerto-plata-2028"
   | "costa-maya-2026"
   | "costa-maya-2027"
+  | "costa-maya-2028"
   | "ocho-rios-2026"
   | "ocho-rios-2027"
+  | "ocho-rios-2028"
   | "tortola-2026"
   | "tortola-2027"
+  | "tortola-2028"
   | "puerto-limon-2026"
   | "puerto-limon-2027"
+  | "puerto-limon-2028"
   | "st-kitts-2026"
-  | "st-kitts-2027";
+  | "st-kitts-2027"
+  | "st-kitts-2028";
 
 interface PortYearProfile {
   slug: ScheduleHubPortSlug;
@@ -120,7 +132,7 @@ const portYearProfiles: PortYearProfile[] = [
   {
     slug: "st-thomas",
     name: "St. Thomas",
-    years: [2027],
+    years: [2027, 2028],
     terminalsPhrase: "the Havensight and Crown Bay terminals",
     dockSentence:
       "Both are dock berths with walk-off access — no tenders — but whether you land at Havensight or Crown Bay changes your taxi time to Magens Bay and whether Charlotte Amalie shopping is walkable.",
@@ -158,7 +170,7 @@ const portYearProfiles: PortYearProfile[] = [
   {
     slug: "aruba",
     name: "Aruba",
-    years: [2026, 2027],
+    years: [2026, 2027, 2028],
     terminalsPhrase: "the Port of Oranjestad",
     dockSentence:
       "Ships berth dockside at Oranjestad with downtown a five-minute walk — no tenders — and many Aruba calls carry late-evening departures that open afternoon catamaran sails other ports cannot fit.",
@@ -196,7 +208,7 @@ const portYearProfiles: PortYearProfile[] = [
   {
     slug: "grand-cayman",
     name: "Grand Cayman",
-    years: [2026, 2027],
+    years: [2026, 2027, 2028],
     terminalsPhrase: "the George Town anchorage",
     dockSentence:
       "Ships anchor offshore and passengers tender into George Town, so add 20–40 minutes each way plus queue time — and keep a weather-cancellation backup in mind, since rough seas can suspend tendering entirely.",
@@ -234,7 +246,7 @@ const portYearProfiles: PortYearProfile[] = [
   {
     slug: "roatan",
     name: "Roatán",
-    years: [2026, 2027],
+    years: [2026, 2027, 2028],
     terminalsPhrase: "the Mahogany Bay Cruise Center and Port of Roatán at Coxen Hole",
     dockSentence:
       "Ships dock at either terminal — no tenders — so confirm whether you berth at Mahogany Bay or Coxen Hole before booking West Bay transfers, since Coxen Hole sits closer to the beach.",
@@ -272,7 +284,7 @@ const portYearProfiles: PortYearProfile[] = [
   {
     slug: "puerto-plata",
     name: "Puerto Plata",
-    years: [2026, 2027],
+    years: [2026, 2027, 2028],
     terminalsPhrase: "the Amber Cove and Taíno Bay terminals",
     dockSentence:
       "Ships dock at either Amber Cove or Taíno Bay — two separate terminals a few miles apart — so your coach or taxi must meet you at the correct gate.",
@@ -311,7 +323,7 @@ const portYearProfiles: PortYearProfile[] = [
   {
     slug: "costa-maya",
     name: "Costa Maya",
-    years: [2026, 2027],
+    years: [2026, 2027, 2028],
     terminalsPhrase: "the Mahahual cruise village pier",
     dockSentence:
       "Ships dock at the single cruise village pier — no tenders — but ruin and lagoon tours run on mainland coach time that dictates which excursions fit your departure.",
@@ -349,7 +361,7 @@ const portYearProfiles: PortYearProfile[] = [
   {
     slug: "ocho-rios",
     name: "Ocho Rios",
-    years: [2026, 2027],
+    years: [2026, 2027, 2028],
     terminalsPhrase: "the Ocho Rios cruise pier",
     dockSentence:
       "Ships dock with walk-off access — no tenders — but Dunn's River Falls and Mystic Mountain run on coaches that batch around morning arrivals.",
@@ -387,7 +399,7 @@ const portYearProfiles: PortYearProfile[] = [
   {
     slug: "tortola",
     name: "Tortola",
-    years: [2026, 2027],
+    years: [2026, 2027, 2028],
     terminalsPhrase: "the Road Town anchorage",
     dockSentence:
       "Ships anchor in Road Town harbour and passengers tender ashore, so add tender queue time and hold a 60–75 minute return buffer for BVI boat trips.",
@@ -425,7 +437,7 @@ const portYearProfiles: PortYearProfile[] = [
   {
     slug: "puerto-limon",
     name: "Puerto Limón",
-    years: [2026, 2027],
+    years: [2026, 2027, 2028],
     terminalsPhrase: "the Limón Cruise Terminal",
     dockSentence:
       "Ships dock with walk-off access — no tenders — but the surrounding city is industrial, so nearly all passengers leave on organized coaches to rainforest and wildlife sites.",
@@ -463,7 +475,7 @@ const portYearProfiles: PortYearProfile[] = [
   {
     slug: "st-kitts",
     name: "St. Kitts",
-    years: [2026, 2027],
+    years: [2026, 2027, 2028],
     terminalsPhrase: "Port Zante in Basseterre",
     dockSentence:
       "Ships dock at Port Zante with walk-off access — no tenders — and the Scenic Railway and Brimstone Hill both run on capacity-limited coaches.",
@@ -575,14 +587,14 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
   ...generatedPortYearContent,
   home: {
     intro:
-      "This is the starting point for Caribbean cruise ship and port schedules across our busiest destinations. Whether you are comparing 2026 and 2027 sailings, checking how many ships share a pier on your port day, or lining up shore excursions before you sail, open the year hub or port page that matches your itinerary and work backward from published arrival and departure times.",
+      "This is the starting point for Caribbean cruise ship and port schedules across our busiest destinations. Whether you are comparing 2026, 2027, and 2028 sailings, checking how many ships share a pier on your port day, or lining up shore excursions before you sail, open the year hub or port page that matches your itinerary and work backward from published arrival and departure times.",
     heroSubtitle:
-      "Published Caribbean cruise ship schedules for 2026 and 2027 — compare port call volumes, plan shore excursions around arrival windows, and link through to local specialist operators.",
+      "Published Caribbean cruise ship schedules for 2026, 2027, and 2028 — compare port call volumes, plan shore excursions around arrival windows, and link through to local specialist operators.",
     whyPassengersUse: [
       "Match shore excursions to your actual in-port window before you pay deposits — reef snorkel sails, Atlantis day passes, and mainland Tulum combos all need enough time ashore.",
       "Spot busy pier days when multiple mega-ships share Nassau, Cozumel, or St. Thomas so you can book early or choose less crowded alternatives.",
       "Build a realistic return buffer: docked ports still need 30–60 minutes before all-aboard, and tender ports like Grand Cayman need extra margin on top of published departure times.",
-      "Compare 2026 versus 2027 call patterns when choosing between sail dates or extending a Western versus Eastern Caribbean itinerary.",
+      "Compare 2026, 2027, and early 2028 call patterns when choosing between sail dates or extending a Western versus Eastern Caribbean itinerary.",
     ],
     planningYourDay: {
       summary:
@@ -851,6 +863,67 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       },
     ],
   },
+  "year-2028": {
+    intro:
+      "The 2028 master hub lists Caribbean ports with currently published cruise itinerary schedules. Coverage starts with high-confidence ports and expands as more itineraries are confirmed. Always check your cruise line for your final sailing details.",
+    heroSubtitle:
+      "Master 2028 hub: itinerary-based Caribbean ship calls — updated as cruise schedules change.",
+    whyPassengersUse: [
+      "Plan ahead for 2028 sailings using currently published cruise itineraries.",
+      "Compare early call volumes at Cozumel, Costa Maya, Puerto Plata, St. Thomas, and Roatán.",
+      "Treat arrival and departure times as planning guides, not guaranteed pier times.",
+      "Re-check this hub as schedules are refreshed and official port calendars appear.",
+    ],
+    planningYourDay: {
+      summary:
+        "Use the 2028 hub to identify which ports already have published itinerary rows, then open each port year page for monthly ship lists.",
+      typicalActivities: [
+        "Scan ports with 2028 coverage before locking non-refundable excursions",
+        "Open monthly tables for your ship and date",
+        "Allow return buffers — times can still change",
+        "Confirm final times on your ship's daily program",
+      ],
+      topAttractions: [
+        "High-confidence Western Caribbean ports with published 2028 itinerary rows",
+        "Month-by-month ship search on each port page",
+        "Cross-links to port guides and excursion planning",
+      ],
+      recommendedExcursions: [
+        "Book flexible excursions until your cruise line finalizes the daily program",
+        "Prefer operators that confirm after final ship times are known",
+      ],
+      timingConsiderations: [
+        "2028 times come from published cruise itineraries and may be revised",
+        "Official port calendars will override future-itinerary rows when released",
+      ],
+      returnGuidance:
+        "Always leave a buffer to return to the ship. Confirm final all-aboard time on board.",
+    },
+    faqs: [
+      {
+        question: "Is the 2028 schedule from the port authority?",
+        answer:
+          "Not necessarily. This 2028 schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details.",
+      },
+      {
+        question: "Will more 2028 calls be added?",
+        answer:
+          "Yes. Coverage expands as more itineraries are published and as official port calendars are released.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "All 2027 Caribbean Schedules",
+        href: "/ship-schedules/2027",
+        description: "Compare the prior published season.",
+      },
+      {
+        label: "Ship Schedules Home",
+        href: "/ship-schedules",
+        description: "Browse every Caribbean schedule hub.",
+      },
+    ],
+  },
 
   "nassau-2026": {
     intro:
@@ -1034,6 +1107,73 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
         label: "All 2027 Caribbean Schedules",
         href: "/ship-schedules/2027",
         description: "2027 master hub with every port ranked.",
+      },
+    ],
+  },
+
+  "nassau-2028": {
+    intro:
+      "This 2028 Nassau cruise ship schedule page is ready for published itinerary rows at Prince George Wharf as coverage expands. This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details.",
+    heroSubtitle:
+      "2028 Nassau schedule coverage expands as itineraries are confirmed.",
+    whyPassengersUse: [
+      "Check whether your 2028 Nassau sailing already has a published itinerary row.",
+      "Compare nearby Western and Eastern Caribbean hubs that already list 2028 calls.",
+      "Treat any published times as planning guides until your cruise line finalizes the daily program.",
+      "Use the Nassau port guide for Atlantis, downtown, and return-buffer logistics.",
+    ],
+    planningYourDay: {
+      summary:
+        "When a 2028 Nassau row is listed, match one anchor experience to the published in-port window and keep return buffers generous.",
+      typicalActivities: [
+        "Downtown Nassau and Queen's Staircase on shorter calls",
+        "Paradise Island and Atlantis on longer windows",
+        "Rose Island or Blue Lagoon boat trips when morning departures fit",
+      ],
+      topAttractions: [
+        "Paradise Island & Atlantis",
+        "Queen's Staircase",
+        "Blue Lagoon Island",
+        "Cable Beach",
+      ],
+      recommendedExcursions: [
+        "Flexible Atlantis or beach transfers until final ship times are confirmed",
+        "Operators that reconfirm after the daily program is published",
+      ],
+      timingConsiderations: [
+        "2028 itinerary times can still change",
+        "Multi-ship days crowd popular operators",
+      ],
+      returnGuidance:
+        "Allow 30–60 minutes before all-aboard and confirm final times on board.",
+    },
+    faqs: [
+      {
+        question: "Is the 2028 Nassau schedule from the port authority?",
+        answer:
+          "This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details.",
+      },
+      {
+        question: "Will more 2028 Nassau calls be added?",
+        answer:
+          "Yes. Coverage expands as more cruise itineraries are published and as official port calendars are released.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Nassau Port Guide",
+        href: "/ports/nassau",
+        description: "Atlantis, downtown, and pier logistics.",
+      },
+      {
+        label: "Nassau 2027 Schedule",
+        href: "/ship-schedules/nassau/2027",
+        description: "Compare the prior published season.",
+      },
+      {
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub.",
       },
     ],
   },
@@ -1222,6 +1362,87 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
         label: "All 2027 Caribbean Schedules",
         href: "/ship-schedules/2027",
         description: "2027 master hub ranked by published calls.",
+      },
+    ],
+  },
+
+  "cozumel-2028": {
+    intro:
+      "This 2028 Cozumel cruise ship schedule lists currently published itinerary arrivals at Punta Langosta, International Pier, and Puerta Maya — all dock berths with no passenger tenders. This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details. Check monthly tables before booking Palancar snorkel, Chankanaab, or a mainland Tulum combo.",
+    heroSubtitle:
+      "Itinerary-based 2028 Cozumel ship calls — updated as cruise schedules change.",
+    whyPassengersUse: [
+      "Match reef and beach plans to published 2028 arrival windows while treating times as planning guides.",
+      "See which ships share Cozumel on your date as more 2028 itineraries are confirmed.",
+      "Use pier context where listed so operators can stage pickup correctly.",
+      "Reconfirm final times on your ship's daily program before you leave the pier.",
+    ],
+    planningYourDay: {
+      summary:
+        "A 2028 Cozumel port day works best when you align one reef or beach plan to your published in-port window, then keep return buffers generous because itinerary times can still change.",
+      typicalActivities: [
+        "Morning reef snorkel when boats match your published arrival",
+        "Downtown San Miguel shopping when docked near Punta Langosta",
+        "Chankanaab or west-side beach club on medium-length calls",
+        "Mainland Tulum only on the longest published windows",
+      ],
+      topAttractions: [
+        "Palancar Reef — signature coral formations a short boat ride from pier areas",
+        "San Miguel de Cozumel — plazas and shopping near downtown pier",
+        "Chankanaab Beach Park — snorkel lagoon and facilities",
+        "San Gervasio Mayan ruins — inland cultural stop by taxi",
+      ],
+      recommendedExcursions: [
+        "Reef snorkel with pier-aware pickup",
+        "Beach club with a fixed return time",
+        "Island highlights tour on longer published departures",
+      ],
+      timingConsiderations: [
+        "Published 2028 times are future-itinerary timings, not guaranteed pier times",
+        "Puerta Maya is farthest from downtown — allow taxi margin",
+        "Book popular reef seats early on multi-ship dates",
+      ],
+      returnGuidance:
+        "Plan to be back at your assigned Cozumel pier 45–60 minutes before published departure, and reconfirm all-aboard on board.",
+    },
+    faqs: [
+      {
+        question: "Is the 2028 Cozumel schedule from the port authority?",
+        answer:
+          "This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details.",
+      },
+      {
+        question: "Does Cozumel use tender boats in 2028?",
+        answer:
+          "No. Cozumel's cruise piers are dockside. Passengers walk off directly, but you must still know which pier your ship occupies for excursion meeting points.",
+      },
+      {
+        question: "Can arrival and departure times change?",
+        answer:
+          "Yes. Cruise lines adjust for weather, pier availability, and operational needs. Treat published 2028 times as planning guides and reconfirm on your ship's daily program.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "Cozumel Port Guide",
+        href: "/ports/cozumel",
+        description: "Reef excursions, pier logistics, and passenger tips.",
+      },
+      {
+        label: "Cozumel Cruise Excursions",
+        href: "https://cozumelcruiseexcursion.com",
+        description: "Pier-aware reef and beach operators.",
+        external: true,
+      },
+      {
+        label: "Cozumel 2027 Schedule",
+        href: "/ship-schedules/cozumel/2027",
+        description: "Compare the prior published season.",
+      },
+      {
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub with high-confidence ports.",
       },
     ],
   },
@@ -1428,6 +1649,74 @@ const schedulePageContent: Record<SchedulePageContentKey, SchedulePageContent> =
       },
     ],
   },
+
+  "st-maarten-2028": {
+    intro:
+      "This 2028 St. Maarten cruise ship schedule page is ready for published itinerary rows at the Dr. A.C. Wathey Cruise Facility as coverage expands. This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details.",
+    heroSubtitle:
+      "2028 St. Maarten / SXM schedule coverage expands as itineraries are confirmed.",
+    whyPassengersUse: [
+      "Check whether your 2028 St. Maarten sailing already has a published itinerary row.",
+      "Compare Eastern Caribbean hubs that already list 2028 calls.",
+      "Treat any published times as planning guides until your cruise line finalizes the daily program.",
+      "Use the St. Maarten port guide for Maho Beach, Orient Bay, and dual-nation logistics.",
+    ],
+    planningYourDay: {
+      summary:
+        "When a 2028 St. Maarten row is listed, pick one signature experience sized to the published window and keep return buffers generous.",
+      typicalActivities: [
+        "Maho Beach plane-spotting on morning arrivals",
+        "Orient Bay beach club on longer windows",
+        "Front Street Philipsburg shopping near the terminal",
+      ],
+      topAttractions: [
+        "Maho Beach",
+        "Orient Bay",
+        "Philipsburg Front Street",
+        "Grand Case",
+      ],
+      recommendedExcursions: [
+        "Flexible island highlights until final ship times are confirmed",
+        "Operators that reconfirm after the daily program is published",
+      ],
+      timingConsiderations: [
+        "2028 itinerary times can still change",
+        "Island traffic intensifies on multi-ship days",
+      ],
+      returnGuidance:
+        "Allow 45–60 minutes before all-aboard and confirm final times on board.",
+    },
+    faqs: [
+      {
+        question: "Is the 2028 St. Maarten schedule from the port authority?",
+        answer:
+          "This 2028 cruise schedule is based on currently published cruise itineraries and is updated as schedules change. Always check your cruise line for your final sailing details.",
+      },
+      {
+        question: "Will more 2028 St. Maarten calls be added?",
+        answer:
+          "Yes. Coverage expands as more cruise itineraries are published and as official port calendars are released.",
+      },
+    ],
+    internalLinks: [
+      {
+        label: "St. Maarten Port Guide",
+        href: "/ports/st-maarten",
+        description: "Maho Beach, Orient Bay, and dual-nation logistics.",
+      },
+      {
+        label: "St. Maarten 2027 Schedule",
+        href: "/ship-schedules/st-maarten/2027",
+        description: "Compare the prior published season.",
+      },
+      {
+        label: "All 2028 Caribbean Schedules",
+        href: "/ship-schedules/2028",
+        description: "2028 master hub.",
+      },
+    ],
+  }
+
 };
 
 export function getSchedulePageContentKey(

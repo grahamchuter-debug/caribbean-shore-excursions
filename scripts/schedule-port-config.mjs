@@ -172,3 +172,39 @@ export const PORT_CONFIG = {
 };
 
 export const ALL_PORT_SLUGS = Object.keys(PORT_CONFIG);
+
+
+/**
+ * Port-name safety: do not auto-merge marketing destination names into wrong sites.
+ * Encode before any Tortola (or similar) CT import promotion.
+ */
+export const PORT_HAZARD_RULES = {
+  tortola: {
+    allowedCallNames: [
+      /tortola/i,
+      /road\s*town/i,
+    ],
+    rejectCallNames: [
+      /jost\s*van\s*dyke/i,
+      /white\s*bay/i,
+      /beef\s*island/i,
+      /trellis\s*bay/i,
+    ],
+    note: "Tortola/Road Town must never absorb Jost Van Dyke or Beef Island calls.",
+  },
+  "puerto-plata": {
+    note: "Preserve Amber Cove vs Taino Bay / Puerto Plata distinctions when source distinguishes them.",
+    distinctLocations: ["Amber Cove", "Taino Bay", "Puerto Plata"],
+  },
+};
+
+export function passesPortHazardRule(portSlug, callLocationName) {
+  const rule = PORT_HAZARD_RULES[portSlug];
+  if (!rule || !callLocationName) return true;
+  const name = String(callLocationName);
+  if (rule.rejectCallNames?.some((re) => re.test(name))) return false;
+  if (rule.allowedCallNames?.length) {
+    return rule.allowedCallNames.some((re) => re.test(name));
+  }
+  return true;
+}

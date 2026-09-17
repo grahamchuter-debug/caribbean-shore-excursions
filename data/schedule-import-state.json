@@ -1,6 +1,6 @@
 {
-  "lastRun": "2026-06-20T12:36:39.995Z",
-  "blockedUntil": "2026-06-19T19:32:24.312Z",
+  "lastRun": "2026-09-05T13:18:19.032Z",
+  "blockedUntil": null,
   "ports": {
     "ocho-rios": {
       "lastFetch": "2026-06-13T10:56:15.814Z",
@@ -81,6 +81,16 @@
       "lastFetchUrl": "https://www.cruisetimetables.com/visitingpuertolimoncostarica-dec2027.html?offset=21",
       "lastImport": "2026-06-20T12:37:18.923Z",
       "importEntryCount": 107
+    },
+    "antigua": {
+      "lastFetch": "2026-09-05T08:18:37.510Z",
+      "lastFetchUrl": "https://www.cruisetimetables.com/visitingstjohnsantigua-dec2027.html?offset=141",
+      "lastImport": "2026-09-05T08:19:22.674Z",
+      "importEntryCount": 490
+    },
+    "barbados": {
+      "lastFetch": "2026-09-05T13:18:19.032Z",
+      "lastFetchUrl": "https://www.cruisetimetables.com/visitingbridgetownbarbados-dec2026.html?offset=81"
     }
   }
 }

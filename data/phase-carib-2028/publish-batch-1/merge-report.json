@@ -1,0 +1,56 @@
+{
+  "cozumel": {
+    "total": 2184,
+    "byYear": {
+      "2026": 684,
+      "2027": 1174,
+      "2028": 326
+    },
+    "dups_removed": 3,
+    "added_2028": 326,
+    "added_2026": 0
+  },
+  "costa-maya": {
+    "total": 1007,
+    "byYear": {
+      "2026": 282,
+      "2027": 539,
+      "2028": 186
+    },
+    "dups_removed": 0,
+    "added_2028": 186,
+    "added_2026": 0
+  },
+  "puerto-plata": {
+    "total": 968,
+    "byYear": {
+      "2026": 283,
+      "2027": 582,
+      "2028": 103
+    },
+    "dups_removed": 0,
+    "added_2028": 103,
+    "added_2026": 0
+  },
+  "st-thomas": {
+    "total": 639,
+    "byYear": {
+      "2027": 506,
+      "2028": 133
+    },
+    "dups_removed": 0,
+    "added_2028": 133,
+    "added_2026": 0
+  },
+  "roatan": {
+    "total": 896,
+    "byYear": {
+      "2026": 279,
+      "2027": 508,
+      "2028": 109
+    },
+    "dups_removed": 0,
+    "added_2028": 109,
+    "added_2026": 0
+  }
+}
